@@ -1,15 +1,15 @@
 # LPC (programming language)
 _From Wikipedia, the free encyclopedia_
 
-Paradigm	multi-paradigm: **object-oriented, functional, procedural, prototype-based**
-Designed by: **Lars Pensjö**
-Developers:	**Lars Pensjö, Jörn Rennecke, Felix Croes, Tim Hollebeek, Lars Düning and others**
-Typing discipline: **Weak static, strong dynamic**
-Website: **[LDMuds.net](http://lpmuds.net)**
-Major implementations: **LPMud**
-Dialects: **Amylaar, MudOS, FluffOS, LDMud, DGD, SWLPC**
-Influenced by: **C, C++, Lisp, Perl**
-Influenced: **Pike**
+        Paradigm	multi-paradigm: **object-oriented, functional, procedural, prototype-based**
+        Designed by: **Lars Pensjö**
+        Developers:	**Lars Pensjö, Jörn Rennecke, Felix Croes, Tim Hollebeek, Lars Düning and others**
+        Typing discipline: **Weak static, strong dynamic**
+        Website: **[LDMuds.net](http://lpmuds.net)**
+        Major implementations: **LPMud**
+        Dialects: **Amylaar, MudOS, FluffOS, LDMud, DGD, SWLPC**
+        Influenced by: **C, C++, Lisp, Perl**
+        Influenced: **Pike**
 
 **LPC** (short for **Lars Pensjö C**) is an object-oriented programming language derived from **C** and developed originally by **Lars Pensjö** to facilitate MUD building on **LPMuds**. Though designed for game development, its flexibility has led to it being used for a variety of purposes, and to its evolution into the language **Pike**.
 
