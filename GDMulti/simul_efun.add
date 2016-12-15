@@ -1,0 +1,13 @@
+/* Simulation of multiport query_mud_port() for singleport drivers */
+
+#ifndef MULTIPORT
+public nomask varargs int query_mud_port (mixed arg )
+{
+  if (!intp(arg) || !arg)
+    return efun::query_mud_port();
+  if (arg == -1)
+    return 1;
+  runtime_error("Illegal argument to query_mud_port()\n");
+  return 0;
+}
+#endif

@@ -1,0 +1,491 @@
+*** dr321/config.h-single	Tue Jan 07 05:46:28 1997
+--- dr321/config.h	Wed Nov 05 22:59:42 1997
+***************
+*** 75,81 ****
+   * No castles   :   1800   (30 minutes)
+   * >100 castles :  10000   (almost 3 hours).
+   */
+! #define TIME_TO_RESET           1800    /* 30 minutes */
+  #define RESET_GRANULARITY        150    /*  2.5 minutes */
+  
+  /*
+--- 75,81 ----
+   * No castles   :   1800   (30 minutes)
+   * >100 castles :  10000   (almost 3 hours).
+   */
+! #define TIME_TO_RESET           1800    /* 60 minutes */
+  #define RESET_GRANULARITY        150    /*  2.5 minutes */
+  
+  /*
+***************
+*** 109,114 ****
+--- 109,120 ----
+   */
+  #define PORTNO                  8888
+  
++ /* Maximum numbers of ports the GD accepts connections to.
++  * If this is not defined, the original one-port-code takes effect.
++  * Compiling the GD with ENFORCE_ONE_PORT defined overrides this definition.
++  */
++ #define MAXNUMPORTS 20
++ 
+  /*
+   * Max number of local variables in a function.
+   */
+***************
+*** 118,124 ****
+   * If this is exceeded, the current function is halted.
+   * ls() can take about 30000 for large directories.
+   */
+! #define MAX_COST                10000000
+  
+  /* to catch an eval_cost too big error in an object that called recursive
+   * master functions, CATCH_RESERVED_COST should be greater than
+--- 124,130 ----
+   * If this is exceeded, the current function is halted.
+   * ls() can take about 30000 for large directories.
+   */
+! #define MAX_COST                1500000
+  
+  /* to catch an eval_cost too big error in an object that called recursive
+   * master functions, CATCH_RESERVED_COST should be greater than
+***************
+*** 208,216 ****
+   * replaces the old command line option -o.
+   */
+  
+! #undef COMPAT_MODE
+  #undef NATIVE_MODE
+! #define EUIDS
+  
+  /* Define OLD_PREVIOUS_OBJECT_BEHAVIOUR if the new behaviour gives problems
+   * in your security system.
+--- 214,222 ----
+   * replaces the old command line option -o.
+   */
+  
+! #define COMPAT_MODE
+  #undef NATIVE_MODE
+! #undef EUIDS
+  
+  /* Define OLD_PREVIOUS_OBJECT_BEHAVIOUR if the new behaviour gives problems
+   * in your security system.
+***************
+*** 234,240 ****
+   * at cloning, while the former allows to use efuns, e.g. shutdown().
+   */
+  
+! #define INITIALIZATION_BY___INIT
+  
+  /* Define MASTER_NAME if you want somethind different from "obj/master" resp.
+   * "secure/master" as default.
+--- 240,246 ----
+   * at cloning, while the former allows to use efuns, e.g. shutdown().
+   */
+  
+! #undef INITIALIZATION_BY___INIT
+  
+  /* Define MASTER_NAME if you want somethind different from "obj/master" resp.
+   * "secure/master" as default.
+***************
+*** 334,339 ****
+--- 340,349 ----
+  
+  #if defined(NATIVE_MODE) && !defined(EUIDS)
+  #define EUIDS
++ #endif
++ 
++ #if defined(ENFORCE_ONE_PORT)
++ #undef MAXNUMPORTS
+  #endif
+  
+  #ifdef MSDOS
+*** dr321/func_spec-single	Tue Jan 07 03:02:22 1997
+--- dr321/func_spec	Wed Nov 05 22:38:23 1997
+***************
+*** 348,354 ****
+--- 348,358 ----
+  int caller_stack_depth();
+  
+  /* A few interesting comm functions for the internet mud protocol */
++ #ifdef MAXNUMPORTS
++ int query_mud_port(object default: F_THIS_PLAYER);
++ #else
+  int query_mud_port();
++ #endif
+  #ifdef CATCH_UDP_PORT
+  int query_imp_port();
+  #endif
+*** dr321/interpret.c-single	Wed Nov 05 18:46:41 1997
+--- dr321/interpret.c	Wed Nov 05 22:38:39 1997
+***************
+*** 9336,9342 ****
+--- 9336,9349 ----
+  	  }
+            XCASE(F_QUERY_MUD_PORT);  /* mud_port,        21  */
+            {
++ #ifndef MAXNUMPORTS
+              push_number(port_number);
++ #else
++ 	    extern struct svalue *query_ip_port PROT((struct svalue *));
++ 
++ 	    inter_pc = pc;
++ 	    sp = query_ip_port(sp);
++ #endif
+              break;
+            }
+  #ifdef CATCH_UDP_PORT
+*** dr321/main.c-single	Tue Jan 07 03:03:26 1997
+--- dr321/main.c	Wed Nov 05 22:38:48 1997
+***************
+*** 44,50 ****
+--- 44,55 ----
+  extern int yydebug;
+  #endif
+  
++ #ifndef MAXNUMPORTS
+  int port_number = PORTNO;
++ #else
++ int port_numbers[MAXNUMPORTS] = {PORTNO};
++ int numports = 0;
++ #endif
+  #ifdef CATCH_UDP_PORT
+  int udp_port = CATCH_UDP_PORT;
+  #endif
+***************
+*** 159,166 ****
+--- 164,177 ----
+       * will be available when compiling master.c , -N, -rsize and the -o flag.
+       */
+      for (i=1; i < argc; i++) {
++ #ifndef MAXNUMPORTS
+  	if (atoi(argv[i]))
+  	    port_number = atoi(argv[i]);
++ #else
++   	if (atoi(argv[i]) && numports < MAXNUMPORTS) {
++   	    port_numbers[numports++] = atoi(argv[i]);
++   	}
++ #endif
+  	if (argv[i][0] != '-')
+  	    continue;
+  	switch(argv[i][1]) {
+***************
+*** 303,308 ****
+--- 314,323 ----
+  	    exit(1);
+  	}
+      }
++ #ifdef MAXNUMPORTS
++     if (numports < 1)
++         numports = 1;
++ #endif
+      init_closure_hooks();
+  #ifdef MIN_MALLOCED
+      xfree(xalloc(MIN_MALLOCED));
+*** dr321/patchlevel.h-single	Wed Nov 05 18:46:20 1997
+--- dr321/patchlevel.h	Wed Nov 05 22:52:03 1997
+***************
+*** 1,2 ****
+  #define RELEASE_DATE "Sun Nov 2 18:30:44 GMT 1997"
+! #define PATCH_LEVEL	".1@139"
+--- 1,2 ----
+  #define RELEASE_DATE "Sun Nov 2 18:30:44 GMT 1997"
+! #define PATCH_LEVEL     ".1@139mp"
+*** dr321/comm1.c-single	Wed Nov 05 22:14:50 1997
+--- dr321/comm1.c	Wed Nov 05 22:58:09 1997
+***************
+*** 113,119 ****
+--- 113,124 ----
+   * Interprocess communication interface to the backend.
+   */
+  
++ #ifndef MAXNUMPORTS
+  extern int port_number;
++ #else
++ extern int port_numbers[];
++ extern int numports;
++ #endif
+  
+  #ifdef CATCH_UDP_PORT
+  extern int udp_port;
+***************
+*** 127,133 ****
+--- 132,144 ----
+  int inet_packets=0;
+  int inet_volume=0;
+  #endif
++ #ifndef MAXNUMPORTS
+  static SOCKET_T s;
++ #define MUDSOCKET s
++ #else
++ static SOCKET_T sos[MAXNUMPORTS];
++ #define MUDSOCKET sos[i]
++ #endif
+  
+  #ifndef MSDOS
+  void set_socket_nonblocking(new_socket)
+***************
+*** 276,319 ****
+  static void (*telopts_wont[NTELOPTS]) PROT((int));
+  
+  void prepare_ipc() {
+      int tmp;
+  
+      /* Don't undo the effect of mudlib_telopts.  */
+      if (!telopts_do[0])
+  	init_telopts();
+!     host_ip_addr.sin_port = htons((u_short)port_number);
+      host_ip_addr.sin_addr.s_addr = INADDR_ANY;
+!     s = socket(host_ip_addr.sin_family, SOCK_STREAM, 0);
+!     if ((int)s == -1) {
+  	perror("socket");
+! 	abort();
+      }
+      tmp = 1;
+!     if (setsockopt (s, SOL_SOCKET, SO_REUSEADDR,
+  		    (char *) &tmp, sizeof (tmp)) < 0) {
+  	perror ("setsockopt");
+! 	exit (1);
+      }
+!     if (bind(s, (struct sockaddr *)&host_ip_addr, sizeof host_ip_addr) == -1) {
+  	if (errno == EADDRINUSE) {
+  	    fprintf(stderr, "Socket already bound!\n");
+  	    debug_message("Socket already bound!\n");
+! 	    exit(errno);
+  	} else {
+  	    perror("bind");
+! 	    abort();
+  	}
+      }
+!     if (listen(s, 5) == -1) {
+  	perror("listen");
+! 	abort();
+      }
+!     set_socket_nonblocking(s);
+!     set_close_on_exec(s);
+!     if (socket_number(s) >= min_nfds)
+! 	min_nfds = socket_number(s)+1;
+      signal(SIGPIPE, SIG_IGN);
+!     signal(SIGURG, (RETSIGTYPE(*)PROT((INT)))urgent_data_handler);
+  }
+  
+  #else /* MSDOS */
+--- 287,364 ----
+  static void (*telopts_wont[NTELOPTS]) PROT((int));
+  
+  void prepare_ipc() {
++     int i;
+      int tmp;
+  
+      /* Don't undo the effect of mudlib_telopts.  */
+      if (!telopts_do[0])
+  	init_telopts();
+! 
+! #ifndef MAXNUMPORTS
+! #define PNUMBER     port_number
+! #define INITABORT   abort()
+! #define INITEXIT(n) exit(n)
+! #else
+! #define PNUMBER     port_numbers[i]
+! #define INITABORT   goto init_err
+! #define INITEXIT(n) goto init_err
+! #endif
+!  
+! #ifdef MAXNUMPORTS
+!     for (i = 0; i < numports; i++) {
+! #endif
+!       host_ip_addr.sin_port = htons((u_short)PNUMBER);
+        host_ip_addr.sin_addr.s_addr = INADDR_ANY;
+!       MUDSOCKET = socket(host_ip_addr.sin_family, SOCK_STREAM, 0);
+!       if ((int)MUDSOCKET == -1) {
+    	perror("socket");
+! 	INITABORT;
+        }
+        tmp = 1;
+!       if (setsockopt (MUDSOCKET, SOL_SOCKET, SO_REUSEADDR,
+    		    (char *) &tmp, sizeof (tmp)) < 0) {
+    	perror ("setsockopt");
+! 	INITEXIT(1);
+        }
+!       if (bind(MUDSOCKET, (struct sockaddr *)&host_ip_addr, sizeof host_ip_addr) == -1) {
+    	if (errno == EADDRINUSE) {
+    	    fprintf(stderr, "Socket already bound!\n");
+    	    debug_message("Socket already bound!\n");
+! 	    INITEXIT(errno);
+    	} else {
+    	    perror("bind");
+! 	    INITABORT;
+    	}
+        }
+!       if (listen(MUDSOCKET, 5) == -1) {
+    	perror("listen");
+! 	INITABORT;
+        }
+!       set_socket_nonblocking(MUDSOCKET);
+!       set_close_on_exec(MUDSOCKET);
+!       if (socket_number(MUDSOCKET) >= min_nfds)
+! 	min_nfds = socket_number(MUDSOCKET)+1;
+! #ifdef MAXNUMPORTS
+!       continue;
+!     init_err:
+!       fprintf(stderr, "Port %d not available.\n", PNUMBER);
+!       port_numbers[i] = port_numbers[numports-1];
+!       numports--;
+!       i--;
+!     } /* for */
+!     if (numports < 1)
+!     {
+!       fprintf(stderr, "No port available.\n");
+!       exit(1);
+!     }
+! #endif
+      signal(SIGPIPE, SIG_IGN);
+!     signal(SIGURG, (RETSIGTYPE(*)PROT((int)))urgent_data_handler);
+! 
+! #undef PNUMBER
+! #undef INITABORT
+! #undef INITEXIT
+!   
+  }
+    
+  #else /* MSDOS */
+***************
+*** 332,340 ****
+   * This one is called when shutting down the MUD.
+   */
+  void ipc_remove() {
+      (void)printf("Shutting down ipc...\n");
+  #ifndef MSDOS
+!     socket_close(s);
+  #ifdef CATCH_UDP_PORT
+      if (udp_s >= 0)
+  	socket_close(udp_s);
+--- 377,390 ----
+   * This one is called when shutting down the MUD.
+   */
+  void ipc_remove() {
++     int i;
++ 
+      (void)printf("Shutting down ipc...\n");
+  #ifndef MSDOS
+! #ifdef MAXNUMPORTS
+!     for (i = 0; i < numports; i++)
+! #endif
+!     socket_close(MUDSOCKET);
+  #ifdef CATCH_UDP_PORT
+      if (udp_s >= 0)
+  	socket_close(udp_s);
+***************
+*** 681,687 ****
+  	    flush_all_player_mess();
+  	    twait = !comm_time_to_call_heart_beat;
+  	    FD_ZERO(&readfds);
+! 	    FD_SET(s, &readfds);
+  	    nfds = min_nfds;
+  	    for (i = max_player + 1; --i >= 0;) {
+  		ip = all_players[i];
+--- 731,743 ----
+  	    flush_all_player_mess();
+  	    twait = !comm_time_to_call_heart_beat;
+  	    FD_ZERO(&readfds);
+! #ifdef MAXNUMPORTS
+! 	  for (i = 0; i < numports; i++) {
+! #endif
+! 	    FD_SET(MUDSOCKET, &readfds);
+! #ifdef MAXNUMPORTS
+! 	  } /* for */
+! #endif
+  	    nfds = min_nfds;
+  	    for (i = max_player + 1; --i >= 0;) {
+  		ip = all_players[i];
+***************
+*** 893,903 ****
+  	    }
+  #endif /* ERQ_DEMON */
+  	    /* First, try to get a new player... */
+! 	    if (FD_ISSET(s, &readfds)) {
+  		SOCKET_T new_socket;
+  
+  		length = sizeof addr;
+! 		new_socket = accept(s, (struct sockaddr *)&addr, &length);
+  		if ((int)new_socket != -1)
+  		    new_player(new_socket, &addr, length);
+  		else if ((int)new_socket == -1 &&
+--- 949,962 ----
+  	    }
+  #endif /* ERQ_DEMON */
+  	    /* First, try to get a new player... */
+! #ifdef MAXNUMPORTS
+! 	    for (i = 0; i < numports; i++) {
+! #endif
+! 	    if (FD_ISSET(MUDSOCKET, &readfds)) {
+  		SOCKET_T new_socket;
+  
+  		length = sizeof addr;
+! 		new_socket = accept(MUDSOCKET, (struct sockaddr *)&addr, &length);
+  		if ((int)new_socket != -1)
+  		    new_player(new_socket, &addr, length);
+  		else if ((int)new_socket == -1 &&
+***************
+*** 910,915 ****
+--- 969,977 ----
+  		    abort();
+  		}
+  	    }
++ #ifdef MAXNUMPORTS
++ 	    } /* for */
++ #endif
+  	    /* check heart beat */
+  	    if (comm_time_to_call_heart_beat) {
+  		time_to_call_heart_beat = 1;
+***************
+*** 1820,1825 ****
+--- 1882,1890 ----
+  	    add_message("%s", prompt->u.string);
+  	}
+      }
++ #if defined(sgi) && defined(mips) && defined(unix)
++     flush_all_player_mess();
++ #endif
+  }
+  
+  #if 0
+***************
+*** 3539,3541 ****
+--- 3604,3639 ----
+      sp--;
+      return sp;
+  }
++ 
++ #ifdef MAXNUMPORTS
++ struct svalue *query_ip_port(sp)
++     struct svalue *sp;
++ {
++     struct object *ob;
++     struct interactive *ip;
++     struct sockaddr_in addr;
++     int length;
++ 
++     length = sizeof(addr);
++ 
++     if (sp->type != T_OBJECT) {
++ 	if (   sp->type != T_NUMBER
++ 	    || sp->u.number < -1 || sp->u.number >= numports
++ 	   )
++ 	  bad_xefun_arg(1, sp);
++ 	sp->u.number = sp->u.number < 0 ? numports : port_numbers[sp->u.number];
++ 	return sp;
++     }
++     ob = sp->u.ob;
++     decr_object_ref(ob, "query_ip_port");
++     if ( !(ip = O_GET_INTERACTIVE(ob)) || ip->sent.type != SENT_INTERACTIVE) {
++ 	sp->type = T_NUMBER;
++ 	sp->u.number = port_numbers[0];
++ 	return sp;
++     }
++     getsockname(ip->socket, &addr, &length);
++     sp->type = T_NUMBER;
++     sp->u.number = ntohs(addr.sin_port);
++     return sp;
++ }
++ #endif

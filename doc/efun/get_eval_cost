@@ -1,0 +1,11 @@
+SYNOPSIS
+	int get_eval_cost(void)
+
+DESCRIPTION
+	Returns the remaining evaluation cost the current
+	execution (the current command) may use up.
+	It starts at a driver given high value (INITIAL_EVAL_COST) and
+	is reduced with each executed statement.
+
+SEE ALSO
+	caller_stack_depth(E), getrusage(E), command(E)

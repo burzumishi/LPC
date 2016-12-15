@@ -1,0 +1,27 @@
+FILES               : This list.
+README              : Explanations about the package.
+README.Amiga        : Installing and using the gamedriver.
+README.PlayMud      : Using the client program for local play.
+README.3.2          : Doc of special features of the 3.2 release.
+bin/adr321          : Gamedriver cross-compat mode with euids and multiport.
+bin/PlayMud         : Program for local play.
+doc/                : Documentation of efuns and driver concepts.
+lib/ACCESS.ALLOW    : Suitable access control file.
+lib/master_skeleton.c : A fully documented skeleton of all routines located
+                        in the master.
+lib/sys/            : Additional include files for mudlib use.
+lib/simul_efun-dr.c : Addition for DR-Lib's obj/simul_efun.c
+lib/master.c        : obj/master.c for 2.4.5-mudlibs.
+lib/simul_efun.c    : obj/simul_efun.c for 2.4.5-mudlibs.
+lib/room.h          : Example file for usage of replace_program().
+GDMulti/*           : Source files used for multiport support.
+BUGS                : Known bugs left in the gamedriver.
+CHANGELOG           : Changes done to the Amiga version of the gamedriver.
+COMPAT              : Doc of compat mode specials.
+Copyright           : Guess what :-)
+CREDITS             : Name says it.
+DONE                : Changes done to the gamedriver.
+config.h            : FYI: Configuration used for compilation.
+func_spec           : FYI: List of all efuns with argument types.
+Makefile            : FYI: Makefile used for compilation.
+

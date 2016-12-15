@@ -1,0 +1,26 @@
+The multiport patch for Amylaar LPMud enables the driver to accept
+TCP connections on more than one port. This may be used e.g. for mudlib
+controlled services like HTTP or SMTP.
+
+The patch was first written by Martin "Deepthought" Brenner and further
+enhanced by Lars "Mateese" Duening and Joerg "Jof" Fraune.
+
+To install the patch, apply multiport.patch to the driver sources and
+recompile. The patch extends config.h by one additional definition
+MAXNUMPORTS yielding the number of ports the driver may listen on at
+max. If MAXNUMPORTS is not defined, or if ENFORCE_ONE_PORT is defined,
+the old singleport code is compiled.
+
+The ports to listen on are given the driver in sequence on the commandline,
+for example: 'driver 4242 4246'.
+The driver will abort if none of the ports can be initialized.
+
+On the mudlib side, the multiport driver has the symbol MULTIPORT permanently
+defined. To retrieve information about count and number of the ports, the
+efun query_mud_port() has been expanded (see file 'query_mud_port').
+
+Multiport mudlibs meant for public distribution should include simul_efun.add
+into their simul_efun.c, which implements a simulation of the multiport
+query_mud_port() for singleport drivers.
+
+ -- Mateese, 13-Aug-1995

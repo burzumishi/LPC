@@ -1,0 +1,34 @@
+CONCEPT
+	objects
+
+LAST UPDATED
+	never
+
+DESRIPTION
+	Here we should write down the basics about objects.
+
+	Since 3.2.1@94, objects can have more than 256 global variables.
+	Since 3.2.1@117, inherited functions may be specified by
+	wildcards '*' and '?'. Example:
+
+	  inherit "foo";
+	  inherit "bar";
+	  inherit "baz";
+	  inherit "ball";
+
+	  reset() {
+	    "ba?"::reset();
+	    // calls bar::reset() and baz::reset()
+
+	    "ba*"::reset();
+	    // calls bar::reset(), baz::reset() and ball::reset()
+
+	    "*"::reset();
+	    // calls every inherited reset() function.
+	  }
+
+AUTHOR
+	Someone
+
+SEE ALSO
+	files(C), inheritance(C), create(A), reset(A)

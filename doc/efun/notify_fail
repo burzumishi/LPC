@@ -1,0 +1,28 @@
+SYNOPSIS
+	void notify_fail(string str)
+	void notify_fail(closure cl)
+
+DESCRIPTION
+	Store str as the error message given instead of the default
+	message ``What ?''.
+	
+	If a closure is given, it is executed to return the error
+	message string, but not before all attempts to execute the
+	commandline failed (read: not at the time of the call to
+	notify_fail()).
+	
+	If notify_fail() is called more than once, only the last call
+	will be used.
+	
+	The idea of this function is to give better error messages
+	instead of simply 'What ?'.
+	
+	It is also better to use
+		notify_fail(message); return 0;
+	instead of
+		write(message); return 1;
+	
+	Other objects will get the chance to evaluate the verb.
+
+SEE ALSO
+	add_action(E), query_verb(E)

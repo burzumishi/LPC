@@ -1,0 +1,446 @@
+CONCEPT
+	inheritance
+
+LAST UPDATE
+	Thu, 2 Dec 1993 05:37:42 +0100 (MET)
+
+AUTHOR
+	Hyp
+
+
+DESCRIPTION
+
+  A step-by-step introduction to inheritance:
+  -------------------------------------------
+
+  1. What does inheritance in LPC mean?
+
+    Inheritance  is  a mechanism that  allows to  reuse existing code, thus
+  saving time, memory and  sweat because one  does not need to reinvent the
+  wheel all the time.
+
+  2. What are programs, classes, instances, objects, etc.?
+
+    A program is a set of functions and (global) variables defined in a LPC
+  source file.  When a program inherits other programs, it appear as if the
+  functions and variables  of these programs would have  been  defined in a
+  single file.
+
+    Often  used in  this context  are the terms   'parent' and  'child'.  A
+  parent is the program that derives its functions and variables to a child
+  program.   Instead  of program the term  'class'  is often used because a
+  program describes the 'behaviour'  of objects and  therefore it is common
+  to say that all objects  belong to a  certain class.  So when speaking of
+  parent classes it will be  refered to programs  which are reused by their
+  other programs (child classes).  A 'distant parent' is  a class which has
+  been inherited indirectly through a 'near parent'.
+
+      Parent  The parent derives its functions & variables to the child.
+        ||
+        \/
+      Child   The child inherits the functions & variables from its parent.
+
+    A class without any parents is often  called 'root' and one without any
+  child classes is  a 'leaf'.
+
+    If i.e.  you  have a file  called "/obj/thing.c" then this file defines
+  the  class   'thing'.   If   the class 'weapon'     (defined by  the file
+  "/obj/weapon.c") inherits the  class 'thing' then  it becomes a child  of
+  the  class 'thing'.   If there is  another  class   defined by the   file
+  "/obj/twohander.c" and inherits class 'weapon' then  'weapon' will be its
+  'near parent' and class 'thing' would be its 'distant parent'.
+
+    Classes in LPC are inherited with:
+
+      inherit "/path/class";
+
+    which is the same as:
+
+      inherit "/path/class.c";
+
+    The  'inherit' keyword is not  an  efun or operator    and must not  be
+  contained   in a  function. It  is  not  possible to inherit  a  class at
+  runtime.   Inherited classes  have to  be  specified  ahead  all function
+  definitions. Good practice is to place  the inherit statements at the top
+  of an LPC file.
+
+    An object is an instance of a class.  I.e. if  you clone an object from
+  "/std/weapon.c" you create  an instance of the  class 'weapon'.
+
+    Each object has its own set of variables which have been defined by its
+  class.  But where  are  the functions?  Because  they need  to be  stored
+  somewhere   LPC knows of  two  different  types   of objects:  clones and
+  blueprints.  The main difference between a clone and  a blueprint is that
+  the  blueprint  holds   (besides  its  own   set  of  variables) also the
+  functions for its class.
+
+    An 'abstract' class in object-oriented languages  are classes which are
+  not meant to have instances  (in LPC it would mean  you should not  clone
+  objects from it).  Such classes serve as  a kind of common descriptor for
+  its child classes.  In LPC there are no  true abstract classes because as
+  soon as a   class  is used  it  will  implicitly create  an  object:  the
+  blueprint. This  behaviour probably  changes   in newer versions  of  the
+  driver.
+
+    But still the idea of abstract classes is used in many mudlibs. I.e.  a
+  standard object, defined by "/std/object.c", would hold the functions for
+  setting and querying properties.  If now all  other classes inherit class
+  'object'  one could  assume  that all objects   then know of  properties.
+  Another  application for abstract    classes  in  LPC are  libraries   of
+  functions. Such library classes define often  used functions which can be
+  derived to  other classes so they  don't  have to  be implemented several
+  times. I.e. the class 'string' defined by "/lib/string.c" would hold lots
+  of functions for string management.
+
+  NOTE: A blueprint created through inheritance (opposed to cloning from or
+        loading it) does not  invoke the initializing function (create() in
+        native mode or reset(0) in compat mode that is).
+
+
+  X. What is an inheritance tree/graph?
+
+    When all   classes inherit at    most one  class  then  the   graphical
+  interpretation of the inheritance structure can be described by a tree:
+
+                object
+                  |
+                thing
+               /     \
+         weapon       armour
+        /      \     /     \
+      spear    axe  ring  helmet
+
+    In words: 'object' is the  root class and the  (distant) parent of  all
+  classes.  'axe' is a child of 'weapon' which is a child of 'thing' and so
+  on. 'weapon' is the near parent of spear and 'thing' and 'object' are its
+  distant parents.
+
+    When classes inherit more than a  single class one then inheritance can
+  be described by a graph:
+
+                   object
+                  /      \
+             thing        room
+            /     \      /    \
+      weapon      container    workroom
+            \    /         \
+             trap           npc
+
+    Here the class  'object' is again the  parent of all classes.   But now
+  'container' is   a child  of 'thing' and   'room',  thus it inherits  the
+  functions and variables  from both  classes which i.e.  can  result in an
+  object that allows to be  moved as a thing  and to contain objects like a
+  room (but  this depends on  the implementation).  A  trap is a weapon and
+  can contain objects (i.e. feed).
+
+    This may look like an easy way to create new classes to serve as parent
+  for others but the task of designing such a  classes is not often as easy
+  as  it looks.  This is  because you have to  define the classes in such a
+  way that it allows other classes to reuse their functions but without the
+  need to know everything about their internals. I.e. if a child class uses
+  save_object()  and restore_object(),  it  can  effect the parents  global
+  variables if  they haven't been protected by  at  least declaring them as
+  'static'.
+
+
+  X. Why not use #include instead of inherit?
+
+    Including source files is also a  way to reuse  existing code. But this
+  is  a  rather primitive  form  of reuse  because it  takes  place in  the
+  preprocessor where the  original and the  included files are passed as  a
+  single one to  the compiler.  Because the  compiler doesn't know anything
+  about included files they  will be compiled to   a single program.   Thus
+  creating large programs  which  eat up  memory.   Also you cannot  extend
+  functions that   are going to  be  reused by redefining  them and calling
+  their ancestor functions.
+
+    Preprocessor #include's  are a form of reuse  at file  level opposed to
+  inheritance which takes place in the memory of the driver.
+
+    The only place where including source files makes more sense than using
+  inheritance is when a file  becomes too large  to be readable.  Therefore
+  the file can be splitted into several smaller  ones.  Those partial files
+  may then be included by a main file which then defines the class.
+
+
+  X. How do I access an inherited function?
+
+    An inherited function  can be accessed  with the double colon '::' like
+  the following:
+
+      class::func();
+  or:
+      "/path/class"::func();
+
+    The name  of   a class is  always   it's file name  without   the  path
+  prefix. But sometimes it happens that there are two different classes but
+  with the same name.  Then one has to  use the full  file name enclosed in
+  double quotes to specify the right one.
+
+    It is also possible to  omit the class  name by just writting ::func().
+  If the inheriting  class does not  define its own function  called func()
+  one can even omit the double colon.
+
+    But sometimes   this leads  to ambiguities.  Which  function should  be
+  called when more than one near parent defines func()?
+
+    There are two common methods to get around the  ambiguity by defining a
+  strategy how  to search for  inherited  functions.  The  first is  called
+  breadth-first and the other deep-first.  Breadth-first means to test each
+  of the child's near parent if they have this  function defined and if not
+  to step back  up to the next  level of parents  (the near  parents of the
+  child's near parents) and check if they  do.  The search continues till a
+  the function is found or  if there aren't  any parents left to search in.
+  Deep-first means to search in  the first near  parent, then in the  first
+  near parent of the child's first near parent.  If a root class is reached
+  and the  function could not  be found,  then take one  step backwards and
+  check the next class and so on. A small example:
+
+            object
+           /      \
+      thing        room
+           \      /
+           container
+
+    If class 'container' would call ::func() then breadth-first would be to
+  first check   class 'thing',  then 'room'   and   then 'object'  for  the
+  definition  of  function  func().  Deep-first   would  first check  class
+  'thing', then 'object' and then 'room' if they define such a function.
+
+    Deep-first is  the  method used in  LPC  3.2  to  search  for inherited
+  functions.
+
+    Anyway, try to avoid  such situations by  specifying which class should
+  be accessed in case of multiple parents.  It  might even happen, that the
+  method changes from one version to another, so don't rely on it.
+
+
+  X. How can I influence the access of functions inherited by other classes?
+
+    LPC allows   to to  protect    function calls through   the so   called
+  inheritance modifiers for functions:
+
+      public func() { ... }
+
+    The  modifier 'public' explicitly marks a  function to be accessable by
+  child classes via   direct   calls and  from  other  objects   through  a
+  call_other().   It also   protects   the  function  from  beeing   marked
+  differently in child classes.  This way  one can make  sure a function is
+  always accessable no matter which class inherits it.
+
+      protected func() { ... }
+
+    If  a function is  marked as  'protected' then  only direct calls  from
+  child classes are allowed. A call_other() to it is not possible.
+
+      private func() { ... }
+
+    A call to a  'private' function is only possible  from within the class
+  itself. Not  even child classes can  invoke it.  Because the  function is
+  only known to its own class such a function occupies less memory than the
+  other functions.
+
+    It is  good   practice to hide all    functions  by declaring  them  as
+  'private' if they do not need to be derived to child classes. Thus saving
+  memory.
+
+    When a function is not marked  as 'public', 'protected' or 'private' it
+  will be semi public.   That means the function  will be derived as beeing
+  public but child classes may change it  be specifying a prototype for the
+  function with  the desired inheritance modifier.   A prototype is  like a
+  normal function but without an actual body:
+
+      class1.c: func() { ... }
+
+      class2.c: inherit "/path/class1";
+                private func();
+
+    This will declare the inherited function  func() to be 'private' inside
+  of 'class2'. Now only 'class2' can access it but not the child classes of
+  'class2' and a call_other() to objects of 'class2' will fail.
+
+
+  X. How do I access an inherited variable?
+
+    An inherited variable cannot be accessed  like an inherited function by
+  using the double colon '::'. It is only possible by simply using the name
+  of the variable in the same way it is done when accessing a normal global
+  variable:
+
+      class1.c: int var;
+
+      class2.c: inherit "/path/class1";
+                func() { var += 42; }
+
+    If  'class2' does  not define  a global   variable <var>,  then the one
+  defined by 'class1' will be taken.
+
+    Because one cannot access inherited  variables through the double colon
+  the access to  them  is  doomed to  create ambiguities   in the case   of
+  multiple parents. Here  again the driver  gets  around  this  problem  by
+  defining a search strategy. In  LPC 3.2 breadth-first  search is used for
+  variables (opposed to deep-first search for functions).
+
+    A better method to  access variables of parent  classes is by  defining
+  functions to set  and query those in the  parent class. Then  one can use
+  the way of calling inherited functions to access them:
+
+      class1.c: int var;
+                set_var(int arg) { var = arg; }
+                int query_var()  { return var; }
+
+      class2.c: inherit "/path/class1";
+                func() { ::set_var(::query_var() + 42); }
+
+    Doing so  is considered to be good  practice because you never know how
+  the modification of  an inherited variable effects  the behaviour  of the
+  functions  defined  by parent.  Using  such  access  functions allows the
+  parent  class to  take   care of  modifications.   I.e.  when  the parent
+  assumes that its global variables are always set  to something not equal
+  0 (to reduce the amount of if()'s in its code), an attempt  to set one of
+  its variables to 0 can be caught by the access function.
+
+
+  X. How can I influence the access of variables inherited by other classes?
+
+    Besides the above described method how to access inherited variables by
+  defining access  functions in the  parent, variables can  be protected in
+  the same way like functions:
+
+      public int var;
+      protected int var;
+      private int var;
+
+  ... to be continued ...
+
+
+  X. What does redefining a functions mean?
+
+    When talking of redefining an inherited function, then  one refers to a
+  new defintion of a function in a child class:
+
+      class1.c: func() { ... }
+
+      class2.c: func() { ... }
+
+    What makes redefinition  of inherited functions so  special is that one
+  normally calls the inherited function of the one  that has been redefined
+  from inside of it:
+
+      class1.c: func() { ... }
+
+      class2.c: func() {
+                  ...
+                  ::func();
+                  ...
+                }
+
+    This allows a child class to extend the the functionality of its parent
+  class(es) by redifining functions and adding code  around the call of the
+  inherited functions.
+
+    It  is good   practice to  call the   inherited  functions first before
+  performing additional actions. You never know how the  call to the parent
+  function will affect its behaviour  (at least not its internals). Calling
+  it at the end could mean to obsolete the actions prior to the call. I.e.:
+
+      class1.c: int a, b, c, d;
+                create()     { a = b = c = 1; }
+                set_a(int i) { a = i; }
+
+      class2.c: create() {
+                  ::create();
+                  set_a(2);
+                }
+
+    If the call to ::create()  would have come  after the call to set_var()
+  then the inherited variable <a> would be 1 instead of 2.
+
+
+  X. What is multiple inheritance?
+
+    Multiple inheritance means a child can  have more than just one parent.
+  I.e.  if you have a class called 'Rattle' (defined by the file Rattle.c),
+  a class 'Snake' and  another class that inherits  both you would probably
+  name this class 'RattleSnake'.  The  overall idea of multiple inheritance
+  is   quite easy to  understand  but   not its   side effects.    Multiple
+  inheritance in LPC is done by using multiple 'inherit' statements:
+
+      inherit "class1";
+      ...
+      inherit "classn";
+
+  X. What are those side effects of multiple inheritance?
+
+    What happens when a child's parents have at least one common parent?
+
+            object
+           /      \
+      thing        room
+           \      /
+           container
+
+    If class  'thing' has   a function  func()  which calls  its  inherited
+  counterpart object::func() and the    class 'room' would have  an   equal
+  implementation of  func(), what will  happen when  calling func()  in the
+  class 'container' if it is defined like this:
+
+      func() {
+        thing::func();
+        room::func();
+      }
+
+    The functions will be invoked in this order:
+
+      1. object::func();    *
+      2. thing::func();
+      3. object::func();    *
+      4. room::func();
+      5. container::func();
+
+    The result is that object::func() will be called twice!
+
+    This often leads to serious  problems or at  least  in a waste of  eval
+  cost.  I.e. a variable would  be incremented twice  or two instead of one
+  object would be cloned and so on.
+
+    How can one  get around this problem?   Somehow you have to call func()
+  in  all parents and  allow other classes  to  inherit them without beeing
+  affected by changes.   There are mainly  two solutions  for this problem.
+  The first  is called the  'static method' and the   other is the 'dynamic
+  method'.  A  quick and simple  static method  is to  copy func() from all
+  parents and to create a function that does not need to call thing::func()
+  and room::func() but object::func().  But  this kills the idea of reusing
+  existing code and changes in class 'room' and  'thing' would also require
+  modifications of 'container'.  Another static method  is to split up each
+  func() into two functions where  one perfoms just  the operations for its
+  own class  and the second  to call those  functions in itself and all its
+  parents:
+
+      object:    _func() { ... }
+                 func()  { _func(); }
+
+      thing:     _func() { ... }
+                 func()  { object::_func(); _func(); }
+
+      room:      _func() { ... }
+                 func() { object::_func(); _func(); }
+
+      container: _func() { ... }
+                 func()  { object::_func(); thing::_func(); room::_func();
+                           _func(); }
+
+    If we   now  call container::func()   all parents  will  perform  their
+  operations only once.  The disadvantages are,  that it doubles the amount
+  of functions leading to a higher memory usage and class 'container' needs
+  to know all about its parent classes and their dependencies.
+        
+    The dynamic method is to add extra code to perform  runtime checks if a
+  function allready has been called through  inheritance or not. A detailed
+  description of this method  will be omitted because  it would simply lead
+  to far off the topic and there are plenty  different ways how it could be
+  done. The disadvantages here are that extra code is neccesary at the cost
+  of   additional   memory,  code  becomes   unreadable  and  decreases the
+  performance of the function calls.
+
+    

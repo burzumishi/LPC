@@ -1,0 +1,65 @@
+Short: Amylaar-LPMud 3.2.1 beta 140 (OS 2.0)
+Author: Lars Pensjö, Jörn Rennecke and others; ported by Lars Düning
+Uploader Lars DÜning <duening@ibr.cs.tu-bs.de>
+Type: game/role
+Replaces: LPMud-321@139*
+
+LPMud is a variant of MUD (Multi User Dungeon) - a text-based object-oriented
+simulation system, mostly used to realize multi-user adventures in a
+networked environment.
+In LPMud, all objects are written in a special C dialect which is compiled
+and interpreted at runtime, thus giving the greatest flexibility in the design
+of the simulated game world while achieving a sufficiently high execution
+speed.
+
+LPMud was originally written by Lars Pensjö (with numerous bugfixes and
+enhancements from people all over the world); Jörn 'Amylaar' Rennecke took
+over the further development as Lars 'resigned' from development after
+publishing version 3.1.2.
+The 3.1.2-Gamedriver was ported to Amiga by Erik van Roode, the next ports
+up to patchlevel 140 were done by Lars Düning in parallel to the development
+by Amylaar.
+
+This package contains all executables to run a LPMud with Amylaar's driver
+on an Amiga. Included in the bin/ are:
+
+  adr321  : the driver for cross compat mode with euids, with multiport
+            support compiled in.
+  acdr321 : as adr321, but compiled for compat mode without euids.
+  PlayMud : a program to access the running mud.
+
+The  driver has been compiled for Amiga-OS 2.0 into 68000 code.
+It reserves 50K+25K memory at startup, uses the port number 8888, and
+has all special features enabled. The cross-compat mode allows the emulation
+of both native and compat mode, for die-hard-compat muds like TubMud
+use the compat-mode driver.
+For more details see the included config.h which was used for compilation.
+
+The additional files needed for the mudlib can be found in lib/.
+The files in the top directory give out some information about the driver
+and its internals (in general and about the compiled binaries) - they are not
+of vital need for a running mud.
+The package does not include a complete mudlib - you have to get one on your
+own (see README.Amiga).
+
+For information about installation and usage see README.Amiga
+and README.PlayMud .
+
+The sources for the gamedriver (including the Amiga specific ones) are
+available for anonymous ftp at least on:
+  ftp.nightfall.org (134.2.170.99) : driver/, recent patches in amylaar/
+  ftp.cs.tu-berlin.de              : pub/mud/lp/driver
+in the archive 'driver3.2.1@<patchlevel>.tar.gz'.
+
+NOTE: LPMud 3.2.1 is still under development - both source and binary
+      archives do not necessarily contain the latest patchlevel of the
+      driver!
+
+
+System Requirements:
+  2 MB Ram at least
+  Amiga-OS 2.0
+  Harddisk, or at least two floppies
+  optionally a faster processor
+  optionally AmiTCP-2.0 for true TCP/IP
+
