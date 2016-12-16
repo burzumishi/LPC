@@ -1,0 +1,7 @@
+726:/std/object.c (/std/object.c)
+(public void) update_state()
+/*
+ * Function name: update_state
+ * Description:   Update the environment according to the changes in our
+ *                state;
+ */

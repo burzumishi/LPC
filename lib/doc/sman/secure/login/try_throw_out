@@ -1,0 +1,9 @@
+1176:/secure/login.c (/secure/login.c)
+(static void) try_throw_out(string str)
+/*
+ * Function name: try_throw_out
+ * Description  : If the player tries to login while another interactive
+ *                player with the same name is active, we ask whether to
+ *                kick out the other copy.
+ * Arguments    : string str - the answer, should start with 'y' or 'n'.
+ */

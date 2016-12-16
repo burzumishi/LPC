@@ -1,0 +1,7 @@
+210:/std/herb.c (/std/herb.c)
+(void) set_herb_name(string str)
+/*
+ * Function name: set_herb_name
+ * Description:   Set the true name of the herb
+ * Arguments:	  str - The name
+ */

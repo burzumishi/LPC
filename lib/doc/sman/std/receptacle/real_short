@@ -1,0 +1,8 @@
+202:/std/receptacle.c (/std/receptacle.c)
+(public varargs string) real_short(object for_obj)
+/*
+ * Function name: real_short
+ * Description  : Returns the short without the addition of open/close
+ * Arguments    : for_obj - who wants to know the short
+ * Returns      : The short description
+ */

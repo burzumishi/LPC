@@ -1,0 +1,10 @@
+1248:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) set_restricted(int seconds, int self)
+/*
+ * Function name: set_restricted
+ * Description  : Allow a player to self-impose a playing restriction. It also
+ *                allows the administration to restrict a person.
+ * Arguments    : int seconds - the time in seconds the for the restriction.
+ *                int self - if true, then it is a self-imposed restriction.
+ *                    Otherwise it is an administrative restriction.
+ */

@@ -1,0 +1,8 @@
+108:/std/combat/ctool.c (/std/combat/ctool.c)
+(public mixed) cb_wield_weapon(object wep)
+/*
+ * Function name: cb_wield_weapon
+ * Description:   Wield a weapon. Here 'weapon' can be any object.
+ * Arguments:     wep - The weapon to wield.
+ * Returns:       True if wielded.
+ */

@@ -1,0 +1,10 @@
+428:/std/object.c (/std/object.c)
+(varargs public string) vbfc_short(object pobj)
+/*
+ * Function name:   vbfcshort
+ * Description:     Gives short as seen by previous_object
+ * Returns:         string holding short()
+ * Arguments:       pobj: Object which to make the relation for
+ *                  if not defined we assume that we are doing a vbfc
+ *                  through the vbfc_object
+ */

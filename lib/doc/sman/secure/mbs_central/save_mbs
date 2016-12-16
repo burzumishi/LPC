@@ -1,0 +1,7 @@
+1015:/secure/mbs_central.c (/secure/mbs_central.c)
+(public void) save_mbs(mapping mapp)
+/*
+ * Function name: save_mbs
+ * Description:	  Save the mbs data, since the mbs itself can't.
+ * Arguments:	  mapp - the data to store
+ */

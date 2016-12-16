@@ -1,0 +1,7 @@
+192:/lib/area_handler.c (/lib/area_handler.c)
+(public nomask int) enter_map(string entryp)
+/*
+ * enter_map
+ *
+ * Enter the map through an entry point.
+ */

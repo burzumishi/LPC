@@ -1,0 +1,7 @@
+69:/std/workroom.c (/std/workroom.c)
+(object) load_board()
+/*
+ * Function name: load_board
+ * Description  : Load a bulletin board into the room.
+ * Returns      : object - the bulletin board.
+ */

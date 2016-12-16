@@ -1,0 +1,11 @@
+146:/std/weapon.c (/std/weapon.c)
+(public varargs string) short(object for_obj)
+/*
+ * Function name: short
+ * Description  : The short description. We modify it when the weapon is
+ *                broken. There is a little caveat if the wizard has not
+ *                set a short description since it will double the
+ *                adjective 'broken'.
+ * Arguments    : object for_obj - the object that wants to know.
+ * Returns      : string - the description.
+ */

@@ -1,0 +1,10 @@
+73:/lib/commands.c (/lib/commands.c)
+(public string) desc_many(object *oblist)
+/*
+ * Function name: desc_many
+ * Description  : Gives the player dependant descriptions of all objects
+ *                adressed by the actor. In short, it maps objects to the
+ *                macro via desc_vbfc and then makes a composite string.
+ * Arguments    : object *oblist - the objects to process and link.
+ * Returns      : string - a compound description.
+ */

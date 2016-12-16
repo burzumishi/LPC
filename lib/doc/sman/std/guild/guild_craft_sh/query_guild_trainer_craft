@@ -1,0 +1,10 @@
+167:/std/guild/guild_craft_sh.c (/std/guild/guild_craft_sh.c)
+(public mixed) query_guild_trainer_craft()
+/*
+ * Function name: query_guild_trainer_craft
+ * Description:   Return one or more references to the object that define
+ *                sk_train_max for the player. The returned refernce can
+ *                be a string reference, an object pointer or an array of
+ *                those.
+ * Returns:       See description.
+ */

@@ -1,0 +1,9 @@
+673:/lib/library.c (/lib/library.c)
+(public int) library_deny_unavailable_book_hook(string title)
+/*
+ * Function name: library_deny_unavailable_book_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user attempts to deny a nonexistant book
+ * Arguments:     string title - the book's title
+ * Returns:       1/0
+ */

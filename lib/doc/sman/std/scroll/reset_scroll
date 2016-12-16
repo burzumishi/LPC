@@ -1,0 +1,8 @@
+72:/std/scroll.c (/std/scroll.c)
+(void) reset_scroll()
+/*
+ * Function name: reset_scroll
+ * Description  : Define this function if you want the scroll to reset at
+ *                a certain interval and do not forget to call the function
+ *                enable_reset() to initialize the reset-process.
+ */

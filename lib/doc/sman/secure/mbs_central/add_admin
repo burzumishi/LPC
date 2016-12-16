@@ -1,0 +1,8 @@
+178:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) add_admin(string who)
+/*
+ * Function name: add_admin
+ * Description:	  Add a wizard to the list of trusted admins
+ * Arguments:	  who - who to add
+ * Returns:	  error code, if any
+ */

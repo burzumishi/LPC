@@ -1,0 +1,9 @@
+267:/std/guild/guild_base.c (/std/guild/guild_base.c)
+(public mixed) query_guild_skill_name(int type)
+/*
+ * Function name: query_guild_skill_name
+ * Description:   When a players uses the skills command he should get the
+ *                the skill names, not the 'special' string.
+ * Arguments:     type - the number of the skill
+ * Returns:       0 if no skill of mine, else the string.
+ */

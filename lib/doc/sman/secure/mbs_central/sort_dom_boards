@@ -1,0 +1,8 @@
+1761:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) sort_dom_boards(string *item1, string *item2)
+/*
+ * Function name: sort_dom_boards
+ * Description:	  Sort function for domain listings of boards
+ * Arguments:	  As per quicksort.
+ * Returns:	  As per quicksort. 
+ */

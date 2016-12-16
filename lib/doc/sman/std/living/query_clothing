@@ -1,0 +1,10 @@
+134:/std/living/wear.c (/std/living.c)
+(public object *) query_clothing(int slot)
+/*
+ * Function name: query_clothing
+ * Description:   See what is worn on a particular location or get
+ *                all items worn.
+ * Arguments:     int slot - the location to check for clothing or -1
+ *                           to get all clothing worn.
+ * Returns:       (object *) all items worn on the specified location
+ */

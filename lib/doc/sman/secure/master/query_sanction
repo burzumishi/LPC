@@ -1,0 +1,11 @@
+245:/secure/master/sanction.c (/secure/master.c)
+(static varargs int) query_sanction(string giver, string receiver, string type, string path)
+/*
+ * Function name: query_sanction
+ * Description  : Returns whether a particular sanction exists.
+ * Arguments    : string giver    - the euid giving the sanction.
+ *                string receiver - the receiver of the sanction.
+ *                string type     - the sanction type.
+ *                string path     - the path in case of a directory sanction.
+ * Returns      : int 1/0 - exists/does not exist.
+ */

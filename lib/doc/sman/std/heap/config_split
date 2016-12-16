@@ -1,0 +1,10 @@
+544:/std/heap.c (/std/heap.c)
+(void) config_split(int new_num, object orig)
+/*
+ * Function name: config_split
+ * Description  : This is called when a heap is split into two. It will set
+ *                various necessary values of the new heap identical to the
+ *                old heap.
+ * Arguments    : int new_num - the number of elements in the new heap.
+ *                object orig - the parent object we split from.
+ */

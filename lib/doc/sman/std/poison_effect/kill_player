@@ -1,0 +1,6 @@
+388:/std/poison_effect.c (/std/poison_effect.c)
+(public void) kill_player()
+/*
+ * Function name: kill_player
+ * Description  : The player has died, so we kill him! 8-)
+ */

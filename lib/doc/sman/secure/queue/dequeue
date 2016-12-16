@@ -1,0 +1,10 @@
+237:/secure/queue.c (/secure/queue.c)
+(public void) dequeue(object ob)
+/*
+ * Function name: dequeue
+ * Description  : Called from SECURITY when an interactive object
+ *                leaves the game. It checks how many players are still
+ *                in the game and dequeues people if there is space for
+ *                them.
+ * Arguments    : object ob - the object that leaves the game.
+ */

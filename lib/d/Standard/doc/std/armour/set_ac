@@ -1,0 +1,6 @@
+242:/std/armour.c (/std/armour.c)
+(void) set_ac(int class)
+/*
+ * Function name: set_ac
+ * Description:   Set the armour class of the object
+ */

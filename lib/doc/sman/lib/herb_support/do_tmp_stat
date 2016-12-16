@@ -1,0 +1,11 @@
+24:/lib/herb_support.c (/lib/herb_support.c)
+(void) do_tmp_stat(int stat, int strength)
+/* 
+ * Function name: do_tmp_stat
+ * Description:   This function is called from the effects if the herb is
+ *                stat-affecting. One stat is randomly increased
+ *                temporarily, lasting as long as strength * 10. If strength is
+ *                negative, the stat is decreased instead.
+ * Arguments:     stat     - The number of the stat
+ *                strength - How strong the herb is - time effect will last
+ */

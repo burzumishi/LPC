@@ -1,0 +1,10 @@
+53:/sys/global/math.c (/sys/global/math.c)
+(public nomask int *) decimal_to_binary(int num)
+/*
+ * Function name: decimal_to_binary
+ * Called from  : DEC2BIN(num) in <math.h>
+ * Description  : Convert a base 10 unsigned integer to its base 2
+ *                representation.
+ * Arguments    : int num: The number to convert.
+ * Returns      : A binary array with the base 2 number, MSB first.
+ */

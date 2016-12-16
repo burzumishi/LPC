@@ -1,0 +1,8 @@
+160:/secure/bit_change.c (/secure/bit_change.c)
+(nomask static void) set_bit(int group, int bit)
+/*
+ * Function name: set_bit
+ * Description  : This function sets a bit in the player.
+ * Arguments    : int group - the group to set the bit in (0 - 4).
+ *                int bit   - the bit to set in the group (0 - 19).
+ */

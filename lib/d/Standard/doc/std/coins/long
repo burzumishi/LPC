@@ -1,0 +1,10 @@
+181:/std/coins.c (/std/coins.c)
+(varargs public mixed) long()
+/*
+ * Function name: long
+ * Description  : This function will slip the short description into the
+ *                long description. Money will always look like good
+ *                money, but don't try to fool the shopkeepers with wooden
+ *                coins ;-)
+ * Returns      : string - the long description.
+ */

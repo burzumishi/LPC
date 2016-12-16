@@ -1,0 +1,7 @@
+84:/std/resistance.c (/std/resistance.c)
+(public void) stop_res()
+/*
+ * Function name: stop_res
+ * Description:   If the resistance is time dependent this function will
+ *		  called when it's time to remove this resistance
+ */

@@ -1,0 +1,6 @@
+75:/d/Genesis/ship/captain.c (/d/Genesis/ship/captain.c)
+(public int) query_price()
+/*
+ * Function name: query_price
+ * Description:   What's the price
+ */

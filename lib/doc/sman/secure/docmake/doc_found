@@ -1,0 +1,10 @@
+479:/secure/docmake.c (/secure/docmake.c)
+(void) doc_found(mixed *arr, string mainpath)
+/*
+ * Description: Handle a batch of accumulated functions.
+ *		
+ * Arguments:  arr: All the accumulated functions. Each on the form:
+ *              ({ type, name, args, startlin in file, comment text, srcfile })
+ *             mainpath: The path to the dir where the documentation should be 
+ *                       put.
+ */

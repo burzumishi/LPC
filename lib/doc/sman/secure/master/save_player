@@ -1,0 +1,6 @@
+3006:/secure/master.c (/secure/master.c)
+(int) save_player()
+/*
+ * Function name: save_player
+ * Description:   Saves a player object.
+ */

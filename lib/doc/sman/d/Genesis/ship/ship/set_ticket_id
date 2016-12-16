@@ -1,0 +1,9 @@
+500:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_ticket_id(string x)
+/*
+ * Function name: set_ticket_id
+ * Description	: Sets the ID of the ticket needed to board the ship. This
+ *		  should be defined as (one of) the name(s) of the ticket
+ *		  object.
+ * Arguments	: x - the ID string of the ticket object
+ */

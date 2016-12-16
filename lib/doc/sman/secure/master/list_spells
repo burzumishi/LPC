@@ -1,0 +1,6 @@
+59:/secure/master/spells.c (/secure/master.c)
+(void ) list_spells()
+/*
+ * Function name: list_spells
+ * Description:   List the active spells.
+ */

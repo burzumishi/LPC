@@ -1,0 +1,6 @@
+1146:/std/door.c (/std/door.c)
+(string) query_lock_desc()
+/*
+ * Function name: query_lockdesc
+ * Description:   Query the description of the lock
+ */

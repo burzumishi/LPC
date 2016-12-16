@@ -1,0 +1,13 @@
+819:/secure/simul_efun.c (/secure/simul_efun.c)
+(public varargs void) log_file(string file, string text, int cyclesize)
+/*
+ * Function name: log_file
+ * Description:   Logs a message in the creators ~/log subdir in a given file.
+ * Arguments:     string file: The filename.
+ *		  string text: The text to add to the file.
+ * 		  int cyclesize: The cycle size to apply to the log. The limit
+ *                    may be maximized in the local.h settings of the mud.
+ *                 -1 : maximum/unlimited cycle size is used.
+ *                  0 : default cycle size is used.
+ *                 >0 : specified cycle size is used.
+ */

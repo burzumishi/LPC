@@ -1,0 +1,7 @@
+139:/secure/login.c (/secure/login.c)
+(string) query_real_name()
+/*
+ * Function name: query_real_name
+ * Description  : Return the real name of this object: "logon"
+ * Returns      : string - "logon".
+ */

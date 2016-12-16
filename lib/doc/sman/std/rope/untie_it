@@ -1,0 +1,6 @@
+257:/std/rope.c (/std/rope.c)
+(varargs int) untie_it(string str)
+/*
+ * Function name: untie_it
+ * Description:   Perform the actual untie
+ */

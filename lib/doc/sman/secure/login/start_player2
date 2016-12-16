@@ -1,0 +1,8 @@
+248:/secure/login.c (/secure/login.c)
+(static void) start_player2(object ob)
+/*
+ * Function name: start_player2
+ * Description  : Swapsocket to player object and if we are not already
+ *                in the game enter it.
+ * Arguments    : object ob - the playerobject to swap to.
+ */

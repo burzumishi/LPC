@@ -1,0 +1,7 @@
+186:/std/room/link.c (/std/room.c)
+(void) link_master(string mfile)
+/*
+ * Function name: link_master
+ * Description:   Set the master room for this cloned corridor
+ * Arguments:	  mfile: Filename of master room
+ */

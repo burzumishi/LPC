@@ -1,0 +1,15 @@
+95:/secure/simul_efun.c (/secure/simul_efun.c)
+(mixed) slice_array(mixed a, int f, int t)
+/*
+ * Function name: slice_array
+ * Description:   Return a portion of a given array
+ * Arguments:     mixed a - an array
+ *                int f   - The index at which to start.  If less
+ *                int f   - The index at which to start.  If less
+ *                          than zero, it is set to 0.
+ *                int t   - the index at which to end.  If greater
+ *                          or equal to the size of 'a', it is
+ *                          set to sizeof(a) - 1.
+ * Returns:       mixed   - The portion of array 'a', starting at
+ *                          'f' and ending at 't'.
+ */

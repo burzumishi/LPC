@@ -1,0 +1,8 @@
+803:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_improve(string str)
+/*
+ * Function name: sk_improve
+ * Description:   Function called when player tries to do the improve command
+ * Arguments:     str - The rest of the command player made
+ * Returns:       1/0
+ */

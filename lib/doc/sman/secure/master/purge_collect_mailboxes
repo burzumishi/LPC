@@ -1,0 +1,8 @@
+380:/secure/master/mail_admin.c (/secure/master.c)
+(static void) purge_collect_mailboxes(string *files)
+/*
+ * Function name: purge_collect_mailboxes
+ * Description  : This function will slowly loop over all mailboxes to collect
+ *                the message times of all messages in the game.
+ * Arguments    : string *files - the names of all players with a mailbox.
+ */

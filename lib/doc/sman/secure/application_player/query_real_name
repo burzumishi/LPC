@@ -1,0 +1,7 @@
+237:/secure/application_player.c (/secure/application_player.c)
+(public string) query_real_name()
+/*
+ * Function name: query_real_name
+ * Description  : Return the real name of the this object.
+ * Returns      : string - always 'application'.
+ */

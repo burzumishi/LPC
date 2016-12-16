@@ -1,0 +1,8 @@
+127:/std/act/domove.c (/std/act/domove.c)
+(string *) query_restrain_path()
+/*
+ * Function name:   query_restrain_path
+ * Description:     Give back the restrain_path (if any)
+ * Returns:         An array with pathstrings.
+ * See also:        set_monster_home(), set_restrain_path()
+ */

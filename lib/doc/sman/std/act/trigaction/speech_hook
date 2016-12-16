@@ -1,0 +1,23 @@
+299:/std/act/trigaction.c (/std/act/trigaction.c)
+(public void) speech_hook(string verb, object actor, string adverb, object *oblist,     string text, int target)
+/*
+ * Function name: speech_hook
+ * Description  : Whenever someone speaks, this function is called to let the
+ *                livings in the room know about the speech. This way we can
+ *                avoid the usage of all those costly triggers.
+ * Arguments    : string verb - the name of the speech command used. This is
+ *                    the command the player typed, query_verb(). For regular
+ *                    speech "say" is used even for'.
+ *                object actor - the actor of the speech.
+ *                string adverb - the adverb used with the speech. If there is
+ *                    one, it's prefixed with a space so you can use the
+ *                    adverb in your reaction if you please without having
+ *                    to parse it further.
+ *                object *oblist - the targets of the emotion, if any.
+ *                string text - the text that was uttered. Whispering is only
+ *                    understood if you are the recipient.
+ *                int target - can have three states:
+ *                   -1 - speech was directed at someone else
+ *                    0 - speech was directed at nobody in particular
+ *                    1 - speech was directed at me.
+ */

@@ -1,0 +1,6 @@
+83:/std/npc.c (/std/npc.c)
+(varargs public void) default_config_npc(int lvl)
+/*
+ * Function name:  default_config_npc
+ * Description:    Sets all neccessary values for this npc to function
+ */

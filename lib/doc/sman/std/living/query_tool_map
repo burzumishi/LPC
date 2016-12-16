@@ -1,0 +1,8 @@
+128:/std/living/tool.c (/std/living.c)
+(public mapping) query_tool_map()
+/*
+ * Function name: query_tool_map
+ * Description:   Get the tool mapping, which maps each occupied slot to the
+ *                item it contains
+ * Returns:       The tool mapping
+ */

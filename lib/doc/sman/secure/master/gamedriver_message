@@ -1,0 +1,8 @@
+2571:/secure/master.c (/secure/master.c)
+(static void) gamedriver_message(string str)
+/*
+ * Function name: gamedriver_message
+ * Description  : This function may (only) be called by the gamedriver to
+ *                give a message to all players if that is necessary.
+ * Arguments    : string str - the message to tell the people
+ */

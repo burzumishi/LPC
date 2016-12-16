@@ -1,0 +1,8 @@
+114:/std/player_sec.c (/std/player_sec.c)
+(public string) query_new_al_title()
+/*
+ * Function name: query_new_al_title
+ * Description:   Return the default starting title of a player
+ *                This function is supposed to be replaced in inheriting
+ *                player objects.
+ */

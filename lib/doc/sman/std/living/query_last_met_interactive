@@ -1,0 +1,9 @@
+41:/std/living/notify_meet.c (/std/living.c)
+(public int) query_last_met_interactive()
+/*
+ * Function name: query_last_met_interactive
+ * Description:    Gives the time of last meeting with an interactive player
+ *                 If an interactive player is in the same environment as
+ *	           this living the current time is returned.
+ * Returns:        Time is seconds since... oh well you know...
+ */

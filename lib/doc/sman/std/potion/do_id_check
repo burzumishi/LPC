@@ -1,0 +1,10 @@
+44:/std/potion.c (/std/potion.c)
+(varargs int) do_id_check(object player)
+/*
+ * Function name: do_id_check
+ * Description:   This little function is called each time the potion
+ *                is referred to by a player, to check if (s)he
+ *                identifies it or not.
+ * Arguments:	  player - The player
+ * Returns: 1 for identification, else 0.
+ */

@@ -1,0 +1,8 @@
+194:/std/potion.c (/std/potion.c)
+(string) query_unid_long()
+/*
+ * Function name: query_unid_long
+ * Description:   Query the long description you get if you cannot identify
+ *		  the potion.
+ * Returns:   	  The unidentified long description
+ */

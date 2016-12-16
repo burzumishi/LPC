@@ -1,0 +1,13 @@
+129:/std/domain_link.c (/std/domain_link.c)
+(public void) delete_player(string name)
+/*
+ * Function name: delete_player
+ * Description  : This function is called every time a player is deleted from
+ *                the game. It can be used for domain specific code that is
+ *                called to clean up information about the player.
+ * Notice       : Do NOT redefine this function if it is not used. For extra
+ *                stability this function is called using an alarm, so if it
+ *                is not used, let us not waste alarms on functions that do not
+ *                do anything anyways.
+ * Arguments    : string name - the name of the deleted player.
+ */

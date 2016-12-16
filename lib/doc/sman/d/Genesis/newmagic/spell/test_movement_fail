@@ -1,0 +1,10 @@
+766:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public int) test_movement_fail(object caster)
+/*
+ * Function name: test_movement_fail
+ * Description:   Determine if the spell fails because the caster moved
+ *                during casting.
+ * Arguments:     1. (object) The caster
+ * Returns:       1 - movement caused spell failure
+ *                0 - movement did not cause spell failure
+ */

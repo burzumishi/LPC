@@ -1,0 +1,6 @@
+31:/std/combat/cplain.c (/std/combat/cplain.c)
+(public void) cb_configure()
+/*
+ * Function name: cb_configure
+ * Description:   Configure nonhumanoid attacks and hitlocations.
+ */

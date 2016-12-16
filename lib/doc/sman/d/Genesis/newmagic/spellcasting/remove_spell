@@ -1,0 +1,7 @@
+105:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(nomask public void) remove_spell(string name)
+/*
+ * Function name: remove_spell
+ * Description:   Remove the spell with the given verb string.
+ * Arguments:     string name - The name of the spell to remove.
+ */

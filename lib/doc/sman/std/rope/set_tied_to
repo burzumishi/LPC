@@ -1,0 +1,6 @@
+85:/std/rope.c (/std/rope.c)
+(void) set_tied_to(object ob)
+/*
+ * Function name: set_tied_to
+ * Description:   Set the object this rope is tied to
+ */

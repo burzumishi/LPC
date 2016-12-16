@@ -1,0 +1,7 @@
+452:/std/board.c (/std/board.c)
+(void) create_board()
+/*
+ * Function name: create_board
+ * Description  : Since create_object() is nomasked, you must redefine this
+ *                function in order to create your own board.
+ */

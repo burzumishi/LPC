@@ -1,0 +1,7 @@
+42:/secure/mail_checker.c (/secure/mail_checker.c)
+(nomask string) short()
+/*
+ * Function name: short
+ * Description  : Returns the short description for this object.
+ * Returns      : string - the short description.
+ */

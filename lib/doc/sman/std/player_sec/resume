@@ -1,0 +1,8 @@
+345:/std/player/quicktyper.c (/std/player_sec.c)
+(static nomask int) resume(string str)
+/* 
+ * Function name: resume
+ * Description  : Resume the processing of the commands in the do chain.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int - 1/0 - success/failure.
+ */

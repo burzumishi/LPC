@@ -1,0 +1,9 @@
+249:/secure/armageddon.c (/secure/armageddon.c)
+(public void) shutdown_stopped(string stopper)
+/*
+ * Function name: shutdown_stopped
+ * Description  : This function is called when the shutdown process is
+ *                stopped. It may be redefined by the local armageddon
+ *                object at your mud.
+ * Arguments    : string stopper - the one who decided not to stop.
+ */

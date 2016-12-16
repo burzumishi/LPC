@@ -1,0 +1,7 @@
+134:/std/bow.c (/std/bow.c)
+(public nomask void) string_bow(string bowstr)
+/*
+ * Function name: string_string
+ * Description:   Updates the internal state of the bow when it
+ *                gets a bowstring.
+ */

@@ -1,0 +1,8 @@
+1033:/secure/mbs_central.c (/secure/mbs_central.c)
+(public mapping) restore_mbs()
+/*
+ * Function name: restore_mbs
+ * Description:	  Restore the mbs data since the mbs itself can't.
+ *		  Implement internal caching, size defined above.
+ * Returns:	  The mapping containing data
+ */

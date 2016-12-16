@@ -1,0 +1,7 @@
+102:/std/living/wield.c (/std/living.c)
+(public void) unwield(object weapon)
+/* 
+ * Function name: unwield
+ * Description:   Unwield a weapon
+ * Arguments:     The weapon to unwield
+ */

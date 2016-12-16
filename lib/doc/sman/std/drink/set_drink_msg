@@ -1,0 +1,8 @@
+109:/std/drink.c (/std/drink.c)
+(public void) set_drink_msg(string str)
+/*
+ * Function name: set_drink_msg
+ * Description  : Sets the extra message given to drinker when
+ *                s/he consumes the drink.
+ * Arguments    : string str - the string to be written.
+ */

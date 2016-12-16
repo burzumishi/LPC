@@ -1,0 +1,7 @@
+71:/std/act/domove.c (/std/act/domove.c)
+(string) query_follow()
+/*
+ * Function name: query_follow
+ * Description    : Returns who this living is following.
+ * Returns        : string - the name of the person, or 0.
+ */

@@ -1,0 +1,10 @@
+734:/std/living/combat.c (/std/living.c)
+(public int) query_not_attack_me(object who, int aid)
+/*
+ * Function name:   query_not_attack_me
+ * Description:     The intended victim may force a fail when attacked.
+ *                  If fail, the cause must produce explanatory text himself.
+ * Arguments:       who: The attacker
+ *                  aid: The attack id
+ * Returns:         True if the attacker fails hitting us, false otherwise.
+ */

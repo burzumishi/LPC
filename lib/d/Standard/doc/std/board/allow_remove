@@ -1,0 +1,13 @@
+382:/std/board.c (/std/board.c)
+(public varargs int) allow_remove(int note)
+/*
+ * Function name: allow_remove
+ * Description  : This function checks whether this_player() is allowed
+ *                to remove notes from this board. If you print an error
+ *                message on failure, please check whether this_player()
+ *                is in the environment of the board. This function works
+ *                independant of the set_remove_rank function.
+ * Arguments    : int note - the optional number of the note to be removed.
+ *                    When 0, just general access is meant.
+ * Returns      : int - true if the player is allowed to remove notes.
+ */

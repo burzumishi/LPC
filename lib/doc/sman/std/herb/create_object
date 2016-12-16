@@ -1,0 +1,7 @@
+362:/std/herb.c (/std/herb.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description:   Constructor. Do not redefine this routine to make your own
+ *                herb. Instead define create_herb().
+ */

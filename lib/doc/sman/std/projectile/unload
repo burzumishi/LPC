@@ -1,0 +1,8 @@
+98:/std/projectile.c (/std/projectile.c)
+(public nomask void) unload()
+/*
+ * Function name: unload
+ * Function name: unload
+ * Description  : This function marks this projectile as unloaded and makes
+ *                it visible to the player again.
+ */

@@ -1,0 +1,7 @@
+230:/std/armour.c (/std/armour.c)
+(void) leave_env(object from, object to)
+/*
+ * Function name: leave_env
+ * Description:   The armour is moved from the inventory
+ * Arguments:     from - Where from
+ */

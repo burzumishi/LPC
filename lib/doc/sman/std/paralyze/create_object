@@ -1,0 +1,6 @@
+37:/std/paralyze.c (/std/paralyze.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description:   The standard create routine.
+ */

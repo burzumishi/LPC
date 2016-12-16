@@ -1,0 +1,6 @@
+683:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) set_login_from()
+/*
+ * Function name:   set_login_from
+ * Description:     Sets from which site the player is logged in.
+ */

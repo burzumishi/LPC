@@ -1,0 +1,7 @@
+1477:/std/launch_weapon.c (/std/launch_weapon.c)
+(private nomask void ) fatigue_unload()
+/*
+ * Function name: fatigue_unload
+ * Description  : Forces an unload of the launch_weapon if it has been held
+ *                in drawn position for too long.
+ */

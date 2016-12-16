@@ -1,0 +1,7 @@
+189:/std/paralyze.c (/std/paralyze.c)
+(void) set_stop_object(object ob)
+/*
+ * Function name: set_stop_object.
+ * Description  : Set which object to call the stop function in.
+ * Arguments    : object ob - the object.
+ */

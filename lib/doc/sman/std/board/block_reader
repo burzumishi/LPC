@@ -1,0 +1,16 @@
+297:/std/board.c (/std/board.c)
+(public varargs int) block_reader(int note = 0)
+/*
+ * Function name: block_reader
+ * Description  : If this_player() is not allowed to read notes of other
+ *                people on this board, this function should be used to
+ *                block access. If you print an error message on failure,
+ *                please check whether this_player() is in the environment
+ *                of the board.
+ *                Redefine this function in your board code. It gets called
+ *                automatically when someone tries to read.
+ * Arguments      int note - Optional argument with the number of the note
+ *                    the person wants to read. When 0, basic access to the
+ *                    board.
+ * Returns      : int - true if the player is NOT allowed to read.
+ */

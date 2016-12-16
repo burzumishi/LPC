@@ -1,0 +1,14 @@
+157:/lib/wearable_item.c (/lib/wearable_item.c)
+(varargs public void) config_wearable_item(int slot, int la, int lo, object wf)
+/*
+ * Function name: config_wearable_item
+ * Description:   Configure a wearable item, setting all the major
+ *                attributes.
+ * Arguments:     int slot  - the armour slots occupied by the item (see
+ *                            set_slots())
+ *                int la    - the number of layers for the item (see
+ *                            set_layers())
+ *                int lo    - the looseness of the item (see set_looseness())
+ *                object wf - the object that defines the wear/remove functions
+ *                            for the item (see set_wf())
+ */

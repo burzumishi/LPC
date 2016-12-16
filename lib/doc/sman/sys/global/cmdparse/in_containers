@@ -1,0 +1,10 @@
+325:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(int) in_containers(object ob)
+/*
+ * Function name: in_containers
+ * Description:   test if object is in one of a set of containers
+ * Arguments:	  ob: object
+ * Returns:       1: is in one of the conatiners
+                  0: not in any of the containers
+ * globals        gContainers: the array of containers
+ */

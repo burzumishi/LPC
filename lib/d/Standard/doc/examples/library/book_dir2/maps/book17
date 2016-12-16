@@ -1,0 +1,49 @@
+                                  map_tyr                                  
+                                A map of Tyr                               
+                                                                           
+                   ?  ?
+                   | / 
+              [h] [_] [h] [h]                  [s]
+               |   |   | /                      |
+              [_]-[_]-[_]-------[_]-------[_]--[_]
+             /     |     \       |         |      \
+           /      [_]     \     [t]        |       \
+        [_]-[h]    |   [h]-[_]            [_]  [p]  \
+       /          [m]         \            |       
+     /                         \          [_]         \
+  [_]        NOBLE DISTRICT     [_]        |   SLAVE   [_]  PITS
+   |                             |        [_]           |
+   |  [s] [s] [P]  ?   [_]-[I]   |         |            |   ?         ?
+   |   |   |   |   |        |    |         |            |   |         |
+ -[_]-[_]-[_]-[_]-[_]------[_]--[_]--[_]--[_]---[_]----[_]-[_]--[_]--[C]-?
+   |   |   |   |   |        |    |       / |              \           |
+   |  [B] [s]-[_] [_]     
+   |             / | \           ? SQUARE  |                          |   
+   |            / [h] \          |       \ |                         [A]
+  [_]         /        \        [_]--[_]--[_]    MARKET  ?            |
+     \  [h]  /   SLUMS  \        |         | \           |      [G]--[_]
+       \ | /            [_]     [d]       [a] [_]--[_]--[_]           |
+        [_]---[h]        | \                 /      | \/ |      ?    [_]-?
+           \   |  
+             \ |    |  / | /               |     ?-[_]--[_]----[_]---[_]
+              [_]--[_]--[_]               [h]       | \/ |            |
+                                                    | /\ |            ?
+                                                 ?-[_]--[_]-[t]
+                                                    |    |
+                                                    ?    ?
+
+--------------------------------------------------
+LEGEND:
+
+A - Tyr M
+B - Bulletin Board                    a - Adventurers' Guild
+C - Golden City Enterance             d - Delivery Office (temporary)
+G - Gladiators' Guild                 h - House of a Citizen
+I - Golden Inix Inn                   p - Tyr's Prison (closed)
+K - Caravan to Kalad                  s - Shop (specialized)
+P - Post Office                       t - Tavern
+Z - Ziggurat                          m - Arman's Mansion
+--------------------------------------
+                                             -Alvin-
+
+Written by Alvin.

@@ -1,0 +1,8 @@
+527:/lib/messenger.c (/lib/messenger.c)
+(public void) set_message_object_file(string file)
+/*
+ * Function:    set_message_object_file
+ * Description: Set this option to indicate which message object file
+ *              should be cloned for the message.
+ * Arguments:   string file - the filename of the message object
+ */

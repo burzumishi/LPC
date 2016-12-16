@@ -1,0 +1,9 @@
+960:/std/player_sec.c (/std/player_sec.c)
+(public void) linkdeath_hook(int linkdeath)
+/*
+ * Function name: linkdeath_hook
+ * Description  : This routine is called when the player linkdies. Do not mask
+ *                it unless you really need to.
+ * Arguments    : int linkdeath - 1/0 - if true, the player linkdied, else
+ *                    he revives from linkdeath.
+ */

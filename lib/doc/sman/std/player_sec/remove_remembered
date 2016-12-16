@@ -1,0 +1,9 @@
+1413:/std/player/savevars_sec.c (/std/player_sec.c)
+(public int) remove_remembered(string name)
+/*
+ * Function name:   remove_remembered
+ * Description:     Removes a remembered or introduced person from our list.
+ * Arguments:       name: Name of living to forget
+ * Returns:         false if the name was not introduced or remembered,
+ *                  true otherwise.
+ */

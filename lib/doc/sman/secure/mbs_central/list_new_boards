@@ -1,0 +1,8 @@
+574:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask varargs int) list_new_boards(string dom = "")
+/*
+ * Function name: list_new_boards
+ * Description:	  List new boards recorded in the central board
+ * Arguments:	  dom - possible domain spec
+ * Returns:	  Error code, if any
+ */

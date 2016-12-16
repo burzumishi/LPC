@@ -1,0 +1,14 @@
+343:/std/living/description.c (/std/living.c)
+(public varargs string) query_The_name(object pobj)
+/*
+ * Function name:   query_The_name
+ * Description:	    Gives the name preceded by "The" when the calling object
+ *                  has not met this living.
+ *                  E.g.:
+ *                        when met:   "Fatty",
+ *                        when unmet: "The big fat gnome wizard".
+ * Argument:        pobj: The object that wants to know the name.
+ *                  If pobj is undefined, it is assumed that the call has
+ *                  been done through a protected vbfc
+ * Returns:         Name prefixed with "The".
+ */

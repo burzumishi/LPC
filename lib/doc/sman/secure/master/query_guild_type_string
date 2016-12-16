@@ -1,0 +1,9 @@
+287:/secure/master/guild.c (/secure/master.c)
+(public string) query_guild_type_string(int type)
+/*
+ * Function name: query_guild_type_string
+ * Description  : Query the type of a particular guild. The result is a string
+ *                with one letter for each registered type.
+ * Arguments    : int type - the type to convert.
+ * Returns      : string - the type of the guild, else "".
+ */

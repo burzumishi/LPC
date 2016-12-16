@@ -1,0 +1,9 @@
+77:/std/shadow.c (/std/shadow.c)
+(public varargs int) shadow_me(mixed to_shadow)
+/*
+ * Function name: shadow_me
+ * Description  : Called from object to make us shadow it.
+ * Arguments    : mixed to_shadow - either a string or object. If it is
+ *                a string, use find_player to find the player to shadow.
+ * Returns      : int - True if shadowed.
+ */

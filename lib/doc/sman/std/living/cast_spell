@@ -1,0 +1,9 @@
+115:/std/living/spells.c (/std/living.c)
+(static void) cast_spell(string spell, mixed sparg, object spellob)
+/*
+ * Function name: cast_spell
+ * Description:   Execute a spell
+ * Arguments:     string spell - the name of the spell being cast
+ *                mixed  sparg - arguments to spell invokation
+ *                object spellob - the spell object  
+ */

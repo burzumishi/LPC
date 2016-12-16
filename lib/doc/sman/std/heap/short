@@ -1,0 +1,8 @@
+290:/std/heap.c (/std/heap.c)
+(public varargs string) short(object for_obj)
+/*
+ * Function name: short
+ * Description  : Get the short description for the heap.
+ * Arguments    : object for_obj - who wants to know.
+ * Returns      : string - the short description.
+ */

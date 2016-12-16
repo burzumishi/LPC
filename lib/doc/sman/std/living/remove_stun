@@ -1,0 +1,7 @@
+1112:/std/living/combat.c (/std/living.c)
+(public void) remove_stun()
+/*
+ * Function name: remove_stun
+ * Description:   Remove a stun made by add_stun.
+ *                Use this function if possible instead of altering the prop.
+ */

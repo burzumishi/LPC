@@ -1,0 +1,7 @@
+914:/std/weapon.c (/std/weapon.c)
+(int) query_repair_dull()
+/*
+ * Function name: query_repair_dull
+ * Description:   How many times has this weapon been sharpened
+ * Returns:       int - The number of times
+ */

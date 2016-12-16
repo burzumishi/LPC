@@ -1,0 +1,7 @@
+76:/std/act/action.c (/std/act/action.c)
+(void) add_cact(mixed str)
+/*
+ * Function name: add_cact
+ * Description:   Sets a combat act string that the monster will randomly do.
+ * Arguments:     str: Text
+ */

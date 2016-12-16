@@ -1,0 +1,7 @@
+636:/std/player/savevars_sec.c (/std/player_sec.c)
+(static nomask varargs void) set_login_time(int t = time()
+/*
+ * Function name:   set_login_time
+ * Description:     sets the time of the login
+ * Arguments:       (int) t: the login time
+ */

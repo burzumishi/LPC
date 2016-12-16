@@ -1,0 +1,8 @@
+260:/secure/master/fob.c (/secure/master.c)
+(string *) query_domain_members(string dname)
+/*
+ * Function name: query_domain_members
+ * Description  : Find and return the member array of a given domain.
+ * Arguments    : string dname - the domain.
+ * Returns      : string * - the array if found, ({ }) otherwise.
+ */

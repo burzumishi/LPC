@@ -1,0 +1,8 @@
+96:/std/heap.c (/std/heap.c)
+(public int) heap_volume()
+/*
+ * Function name: heap_volume
+ * Description  : The volume of the heap, used by OBJ_I_VOLUME
+ * Returns      : int - the volume of the heap, in ml.
+ * Returns      : int - the volume of the heap, in ml.
+ */

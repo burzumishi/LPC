@@ -1,0 +1,6 @@
+181:/secure/master.c (/secure/master.c)
+(static void) save_master()
+/*
+ * Function name: save_master
+ * Description  : This function saves the master object to a file.
+ */

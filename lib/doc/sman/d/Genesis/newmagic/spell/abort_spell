@@ -1,0 +1,7 @@
+1224:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) abort_spell(object caster)
+/*
+ * Function name: abort_spell
+ * Description:   Take special actions when casting is aborted
+ * Arguments:     1. (object) The caster.
+ */

@@ -1,0 +1,7 @@
+550:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) set_cap_name()
+/*
+ * Function name:   set_cap_name
+ * Description:     Sets the capitalized name of a player. This is derived
+ *                  from query_real_name(), which returns a lowercase name.
+ */

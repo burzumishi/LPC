@@ -1,0 +1,8 @@
+208:/std/act/domove.c (/std/act/domove.c)
+(int) mtrig_follow(string s1, string s2)
+/*
+ * Function name:   mtrig_follow
+ * Description:     The text trig function
+ * Arguments:       s1, s2: The strings returned by the trig-function.
+ * Returns:         1
+ */

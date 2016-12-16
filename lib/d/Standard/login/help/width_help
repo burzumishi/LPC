@@ -1,0 +1,26 @@
+HELP FOR THE SECOND HALL OF MIRRORS (WIDTH)
+
+If you've come this far, you won't have any problems here, since it works
+pretty much the same as the height-setting room, except here you set width.
+You can 'examine mirrors' to see all the possibilites at once, or examine
+them one at a time, 'examine first mirror' or 'examine sixth mirror', for
+example.
+
+Once you've decided on the width you'd like (relative to your race, a
+very fat elf isn't necessarily wider than a normal dwarf, for instance),
+simply enter the appropriate mirror and be on your way.
+
+Say for example you've examined the mirrors and decided you wanted to be
+very skinny. You've figured out which mirror you want to enter probably
+by double checking by 'examine first mirror' to be sure that it's the mirror
+which makes you appear very skinny. Now, simply 'enter first mirror' and
+poof, you'll be very skinny, and in the second hall of mirrors where you'll
+then perform a similar event to set your width.
+
+As a final breakdown, there are only three commands needed here:
+'examine mirrors'          - See all the possibilities at once.
+'examine <which> mirror'   - Examine a specific mirror.
+'enter <which> mirror'     - Choose a width and move to next room.
+
+Note that 'exa' and 'look at' will function identically to 'examine', and
+the <which> option is one of the mirrors, i.e. first, second, third, etc.

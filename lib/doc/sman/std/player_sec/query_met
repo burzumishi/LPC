@@ -1,0 +1,8 @@
+18:/std/player/getmsg_sec.c (/std/player_sec.c)
+(public int) query_met(mixed who)
+/*
+ * Function name: query_met
+ * Description  : Tells if we know a certain living's name.
+ * Arguments    : mixed who: name or object of living.
+ * Returns      : int 1/0 - if true, we know the person.
+ */

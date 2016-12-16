@@ -1,0 +1,7 @@
+357:/std/potion.c (/std/potion.c)
+(void) set_quaffed_it()
+/*
+ * Function name:       set_quaffed_it
+ * Description:         This is called if the potion is quaffed and the 
+ *                      quaff_verb != "quaff
+ */

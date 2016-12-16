@@ -1,0 +1,7 @@
+218:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(public string) query_combat_file()
+/*
+ * Function name: query_combat_file
+ * Description  : Give the name of the file to use for combat.
+ * Returns      : string - the file to use.
+ */

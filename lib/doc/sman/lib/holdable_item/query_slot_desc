@@ -1,0 +1,8 @@
+140:/lib/holdable_item.c (/lib/holdable_item.c)
+(varargs public string) query_slot_desc(object for_obj)
+/*
+ * Function name: query_slot_desc
+ * Description:   Give a description of the slots this item occupies.
+ * Arguments:     object for_obj - whom the description is for
+ * Returns:       the (string) slot description.
+ */

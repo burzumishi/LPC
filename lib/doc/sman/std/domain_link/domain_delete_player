@@ -1,0 +1,9 @@
+145:/std/domain_link.c (/std/domain_link.c)
+(nomask public void) domain_delete_player(string name)
+/*
+ * Function name: domain_delete_player
+ * Description  : Called from SECURITY to inform the domain that a particular
+ *                player has been deleted. It will call the domain specific
+ *                function delete_player(). See there for more details.
+ * Arguments    : string name - the name of the deleted player.
+ */

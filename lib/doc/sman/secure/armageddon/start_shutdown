@@ -1,0 +1,12 @@
+191:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask void) start_shutdown(string reason, int delay, string shutter)
+/*
+ * Function name: start_shutdown
+ * Description  : When the game has to be shut down in a gentle way,
+ *                this is the function you are looking for. You should
+ *                not try to call it directly, but use the 'shutdown'
+ *                command.
+ * Arguments    : string reason  - the reason to close the game.
+ *                int    delay   - the delay in minutes.
+ *                string shutter - who is shutting down the game.
+ */

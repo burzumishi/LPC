@@ -1,0 +1,8 @@
+261:/std/combat/ctool.c (/std/combat/ctool.c)
+(public string) cb_attack_desc(int aid)
+/*
+ * Function name: cb_attack_desc
+ * Description:   Gives the description of a certain attack slot.
+ * Arguments:     aid:   The attack id
+ * Returns:       string holding description on VBFC form. Do not use write()
+ */

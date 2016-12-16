@@ -1,0 +1,8 @@
+70:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(nomask public void) set_nsd_directory(string directory)
+/*
+ * Function name: set_nsd_directory
+ * Description  : Use this function to set the directory in which the
+ *                save-files for this module as saved in.
+ * Arguments    : string directory - the name of the directory.
+ */

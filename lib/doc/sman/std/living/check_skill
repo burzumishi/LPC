@@ -1,0 +1,9 @@
+195:/std/living/tasks.c (/std/living.c)
+(public int) check_skill(mixed *skilllist, object player)
+/*
+ * Function name: check_skill
+ * Description:   This is a pretty general skill check that some like better
+ * Arguments:	  skilllist - Same type of skill list as in resolve_task()
+ *		  player    - The player to test skills on (or any living)
+ * Returns:	  1 if success, 0 if not
+ */

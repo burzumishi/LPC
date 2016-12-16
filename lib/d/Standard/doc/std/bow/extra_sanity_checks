@@ -1,0 +1,13 @@
+379:/std/bow.c (/std/bow.c)
+(public int ) extra_sanity_checks(string action, string args)
+/*
+ * Function name: extra_sanity_checks
+ * Description  : Verifies that the archer and his environment are suited
+ *                for aiming or shooting. This function is meant to be
+ *                overloaded by subclasses.
+ *                
+ * Arguments    : action (string) - Action the archer performs.
+ *              : args (string)   - Arguments the archer supplies.
+ *
+ * Returns      : 1 - Setup is sane. 0 - Setup fishy.
+ */

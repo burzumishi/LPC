@@ -1,0 +1,8 @@
+47:/std/living/description.c (/std/living.c)
+(public int) query_linkdead()
+/*
+ * Function name: query_linkdead
+ * Description  : Return the linkdeath-status of the player.
+ * Returns      : int - if false, the player is not linkdead. Else it
+ *                      returns the time the player linkdied.
+ */

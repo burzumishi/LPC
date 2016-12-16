@@ -1,0 +1,14 @@
+1747:/std/object.c (/std/object.c)
+(public int) add_item(mixed names, mixed desc)
+/*
+ * Function name: add_item
+ * Description:   Adds an additional item to the object. The first 
+ *                argument is a single string or an array of 
+ *                strings holding the possible name(s) of the item.
+ *                The second argument is the long description of 
+ *                the item. add_item can be repeatedly called with 
+ *                new items. The second argument can be VBFC.
+ * Arguments:     names: Alternate names for the item, 
+ *                mixed desc: desc of the item (string or VBFC)
+ * Returns:       True or false.
+ */

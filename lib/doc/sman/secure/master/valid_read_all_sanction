@@ -1,0 +1,12 @@
+69:/secure/master/sanction.c (/secure/master.c)
+(static int) valid_read_all_sanction(string reader, string euid)
+/*
+ * Function name: valid_read_all_sanction
+ * Description  : This function can be used to query whether there is a
+ *                'read all' sanction set that allows 'reader' to read in
+ *                'euid'. Note that there is no check on the arguments,
+ *                which means the first argument _must_ be in lower case.
+ * Arguments    : string reader - the euid that wants to read.
+ *                string euid   - the euid that 'reader' wants to read.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

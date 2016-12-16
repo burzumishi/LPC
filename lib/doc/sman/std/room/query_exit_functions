@@ -1,0 +1,8 @@
+369:/std/room/exits.c (/std/room.c)
+(mixed) query_exit_functions()
+/*
+ * Function name: query_exit_functions
+ * Description  : Returns an array of the functions called when a player goes
+ *                through an exit added by add_exit(). This may be VBFC.
+ * Returns      : mixed - the array of delays.
+ */

@@ -1,0 +1,10 @@
+109:/std/room/link.c (/std/room.c)
+(public string) make_link(mixed to_room, object via_link)
+/*
+ * Function name: make_link
+ * Description:   Find or make the return link. Called from other endpoint
+ *                when linking a corridor between itself and this room.
+ * Arguments:	  to_room:  File name of other endpoint
+ *                via_link: Objectp to nearest cloned room in corridor.
+ * Returns:       command used to move to other endpoint from this room.
+ */

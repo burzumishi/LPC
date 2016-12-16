@@ -1,0 +1,8 @@
+312:/secure/mail_reader.c (/secure/mail_reader.c)
+(static mapping) restore_mail(string name)
+/*
+ * Function name: restore_mail
+ * Description  : Restore the mail-file of a player from disk.
+ * Arguments    : string name - the name of the player.
+ * Returns      : mapping     - the mail of the player.
+ */

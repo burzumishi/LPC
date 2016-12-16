@@ -1,0 +1,10 @@
+438:/std/container.c (/std/container.c)
+(public void) notify_change_prop(string prop, mixed val, mixed old)
+/*
+ * Function name: notify_change_prop
+ * Description:   This function is called when a property in an object
+ *                in the inventory has been changed.
+ * Arguments:     prop - The property that has been changed.
+ *                val  - The new value.
+ *                old  - The old value.
+ */

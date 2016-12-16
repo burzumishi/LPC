@@ -1,0 +1,9 @@
+2051:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) mail(string str)
+/*
+ * Function name: mail
+ * Description  : Send mail to one or more players.
+ * Arguments    : string str - the commandline argument that contains
+ *                             a list of the players to mail.
+ * Returns      : int        - 1/0 - success/failure.
+ */

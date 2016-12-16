@@ -1,0 +1,22 @@
+1288:/std/bow.c (/std/bow.c)
+(public void) tell_others_hit(object archer, object target, object projectile, 		string adj_room_desc, string org_room_desc, string hdesc, 		int dt, int phurt, int dam, int hid)
+/*
+ * Function name: tell_others_hit
+ * Description  : Produces messages to all bystanders when target is hit
+ *                by the archer. This function tells targets in both the
+ *                archer's and target's environment if they are not the
+ *                same.
+ *                
+ * Arguments    : archer:        The player loading his weapon.
+ *                target:        The target player is aiming at.
+ *                projectile:    The projectile we are loading.
+ *                adj_room_desc: Description of the room we shoot into. 0 if
+ *                               target stands in the same room at the archer.
+ *                org_room_desc: Description of originating room. 0 if
+ *                               target stands in the same room as the archer.
+ *                hdesc:         The hitlocation description.
+ *                phurt:         The %hurt made on the enemy
+ *                dt:            The current damagetype
+ *                dam:           The damage caused by this weapon in hit points
+ *                hid:           The hitlocation we hit.
+ */

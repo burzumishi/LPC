@@ -1,0 +1,7 @@
+1103:/std/player/savevars_sec.c (/std/player_sec.c)
+(static nomask void) add_aliases(mapping m)
+/*
+ * Function name: add_aliases
+ * Description  : Service function to allow the mudlib to add default aliases.
+ * Arguments    : mapping m - a mapping with the aliases to add.
+ */

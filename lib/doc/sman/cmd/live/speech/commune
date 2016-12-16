@@ -1,0 +1,7 @@
+271:/cmd/live/speech.c (/cmd/live/speech.c)
+(int) commune(string str)
+/* **************************************************************************
+ * Commune - talk with the wizards.
+ *
+ * This is supposed to be used in extreme emergencies only.
+ */

@@ -1,0 +1,9 @@
+243:/secure/master/guild.c (/secure/master.c)
+(public int) query_guild_type_int(string type)
+/*
+ * Function name: query_guild_type_int
+ * Description  : Converts a string with the letters of the guild type into
+ *                the equivalent number.
+ * Arguments    : string type - the type, i.e. "LO".
+ * Returns      : int type - the resulting binary type.
+ */

@@ -1,0 +1,7 @@
+1959:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask void) cb_attack(object victim)
+/*
+ * Function name: cb_attack
+ * Description:   Called by the internal combat routines to attack.
+ * Arguments:     victim: The object of the attack
+ */

@@ -1,0 +1,9 @@
+181:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(public int) nsd_hook_not_retrainable(int skill)
+/*
+ * Function name: nsd_hook_not_retrainable.
+ * Description  : The player does not have the right to retrain that skill
+ *                because it is know set for him.
+ * Arguments    : int skill - the skill number.
+ * Returns      : int 1 - should always return 1.
+ */

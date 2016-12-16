@@ -1,0 +1,8 @@
+186:/std/corpse.c (/std/corpse.c)
+(void) set_pstate_desc(string pdesc)
+/*
+ * Function name: set_pstate_desc
+ * Description  : Change the plural state description of the corpse. Normally
+ *                this is "corpses of " or "heaps with decayed remains of ".
+ * Arguments    : string pdesc - the new plural state description.
+ */

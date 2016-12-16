@@ -1,0 +1,9 @@
+124:/lib/library.c (/lib/library.c)
+(public void) set_book_removal_directory(string dir)
+/*
+ * Function name: set_book_removal_directory
+ * Description:   Set the directory where removed (denied or discarded) books
+ *                are placed.  If this is not set, the files will simply be
+ *                deleted.
+ * Arguments:     string dir - the directory name with trailing slash.
+ */

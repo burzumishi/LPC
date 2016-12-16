@@ -1,0 +1,9 @@
+261:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask void) cancel_shutdown(string shutter)
+/*
+ * Function name: cancel_shutdown
+ * Description  : If the wizard who was shutting the game down changed
+ *                his mind, this is the way to stop it. Do not call the
+ *                function directly, though use: 'shutdown abort'
+ * Arguments    : string shutter - the person canceling the shutdown.
+ */

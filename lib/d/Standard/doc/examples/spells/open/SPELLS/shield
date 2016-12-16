@@ -1,0 +1,17 @@
+Name:		Shield
+
+Object:		/doc/examples/spells/shield.c
+		/doc/examples/spells/spell_book.c
+
+Cost:		30 if on another person, 20 in outselves.
+
+Description:	If success this spell summons a force field to surrond us and
+		protect us like a normal piece of armour. The forcefield has
+		an ac of 6. Seccess depends on th Wisdom and skill in defence
+		spells of the caster. Duration of the forecfield depends on
+		the intelligence and skill of caster.
+
+		Duration = int / 3 + spell defence / 2 + 180
+
+Requirements:   That you have the spell book in your inventory.
+

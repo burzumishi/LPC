@@ -1,0 +1,10 @@
+695:/std/heap.c (/std/heap.c)
+(int) no_garbage_collection()
+/*
+ * Function name: no_garbage_collection
+ * Description  : By default, heaps will be destructed if they stay in the
+ *                void for more than a few seconds. If you have a very good
+ *                reason to keep your heap in the void, mask this function
+ *                to return 1.
+ * Returns      : int 0 - always.
+ */

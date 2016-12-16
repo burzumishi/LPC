@@ -1,0 +1,11 @@
+241:/std/drink.c (/std/food.c)
+(void) config_split(int new_num, object orig)
+/*
+ * Function name: config_split
+ * Description  : This is called before inserting this heap into the game.
+ *                It is meant to copy all relevant variables to the copy
+ *                of the heap. In this case, it is the alco-amount and the
+ *                soft amount.
+ * Arguments    : int new_num - the number of items in the new heap.
+ *                object orig - the original heap we are copying.
+ */

@@ -1,0 +1,7 @@
+768:/std/receptacle.c (/std/receptacle.c)
+(public int) query_pick()
+/*
+ * Function name: query_pick
+ * Description  : Returns how easy it is to pick the lock on a door
+ * Returns      : int - the pick level
+ */

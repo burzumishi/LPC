@@ -1,0 +1,7 @@
+496:/std/weapon.c (/std/weapon.c)
+(int) *query_pm()
+/*
+ * Function name: query_pm
+ * Description  : Query the modifiers for the damage types.
+ * Returns      : int * - array of modifiers ({ impale, slash, bludgeon })
+ */

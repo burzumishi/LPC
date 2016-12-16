@@ -1,0 +1,9 @@
+186:/lib/guild_support.c (/lib/guild_support.c)
+(nomask int) gs_list(string str)
+/*
+ * Function name: list
+ * Description  : With this command, players can get information on their
+ *                guilds.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

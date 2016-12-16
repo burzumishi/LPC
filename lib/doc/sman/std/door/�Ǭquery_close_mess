@@ -1,0 +1,6 @@
+1025:/std/door.c (/std/door.c)
+(string) *query_close_mess()
+/*
+ * Function name: query_close_mess
+ * Description:   Query message when we close the door
+ */

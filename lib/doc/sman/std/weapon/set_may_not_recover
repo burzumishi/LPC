@@ -1,0 +1,6 @@
+1417:/std/weapon.c (/std/weapon.c)
+(nomask void) set_may_not_recover()
+/*
+ * Function name: set_may_not_recover
+ * Description  : Call this to force the weapon to be non-recoverable.
+ */

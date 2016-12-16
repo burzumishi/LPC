@@ -1,0 +1,7 @@
+765:/std/weapon.c (/std/weapon.c)
+(int) query_corroded()
+/*
+ * Function name: query_corroded
+ * Description  : Returns how many times this weapon has become corroded.
+ * Returns      : int - The number of times.
+ */

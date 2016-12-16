@@ -1,0 +1,17 @@
+338:/cmd/live/items.c (/cmd/live/items.c)
+(varargs public object *) use_described_items(string str, object *obs, function f, int silent,     int use_one)
+/*
+ * Function name: use_described_items
+ * Description:   Given a string, cause the actor to "use" the items described
+ *                by the string.
+ * Arguments:     string str  - the string describing what to use
+ *                object *obs - the items to be matched with the string 
+ *                function f  - the function to call in the objects found to
+ *                              use them.
+ *                int silent  - suppress the default message given when items are
+ *                              successfully used.
+ *                int use_one - Allow only one item to be used
+ * Returns:       0 - No items found that matched the string describer
+ *                object * - an array consisting of the objects that were
+ *                           successfully used
+ */

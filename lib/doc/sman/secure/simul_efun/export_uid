@@ -1,0 +1,8 @@
+657:/secure/simul_efun.c (/secure/simul_efun.c)
+(void) export_uid(object ob)
+/*
+ * Function name: export_uid
+ * Description:   Sets the euid of one object to the uid of previous_object().
+ *                This can only be done if the euid of the object is 0.
+ * Arguments:     object ob - the object to set the euid for
+ */

@@ -1,0 +1,8 @@
+492:/lib/shop.c (/lib/shop.c)
+(int) wiz_check()
+/*
+ * Function name: wiz_check
+ * Description:   Check if a player is a wizard
+ * Returns:       0 if the player is a wizard
+ *                1 otherwise
+ */

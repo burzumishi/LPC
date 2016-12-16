@@ -1,0 +1,8 @@
+373:/lib/skill_raise.c (/lib/skill_raise.c)
+(public string) sk_query_name(int skill)
+/*
+ * Function name: sk_query_name
+ * Description  : Give the name of the skill for a skill number.
+ * Arguments    : int skill - the skill number.
+ * Returns      : string - the name.
+ */

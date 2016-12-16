@@ -1,0 +1,7 @@
+657:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_send_message()
+/*
+ * Function:    hook_send_message
+ * Description: Hook that gets called to display the message of the
+ *              messenger getting the message and leaving to deliver it
+ */

@@ -1,0 +1,9 @@
+343:/lib/area_handler.c (/lib/area_handler.c)
+(static nomask string) find_room(int x, int y, string dir)
+/*
+ * find_room
+ *
+ * Find a room connecting in the indicated direction from the
+ * given coordinates. If the room isn't created but does exist,
+ * create it.
+ */

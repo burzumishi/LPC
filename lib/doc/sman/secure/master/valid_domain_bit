@@ -1,0 +1,10 @@
+997:/secure/master.c (/secure/master.c)
+(public int) valid_domain_bit(mixed actor, string dname, int bit)
+/*
+ * Functioon name: valid_domain_bit
+ * Descriptioon  : This function is called to verify whether a certain euid is
+ *                 allowed to manipulate domain bits in a player.
+ * Arguments     : mixed actor - the object/euid that wants to make the change.
+ *                 string dname - the domain
+ *                 int bit - the bit (range 0..149).
+ */

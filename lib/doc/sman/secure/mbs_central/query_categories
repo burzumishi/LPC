@@ -1,0 +1,7 @@
+1161:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask string *) query_categories()
+/*
+ * Function name: query_categories
+ * Description:	  Return the list of categories
+ * Returns:	  The list
+ */

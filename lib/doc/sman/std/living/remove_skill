@@ -1,0 +1,7 @@
+1793:/std/living/savevars.c (/std/living.c)
+(void) remove_skill(int skill)
+/*
+ * Function name:   remove_skill
+ * Description:     Remove a specific skill from a player
+ * Arguments:       skill: The skill number to remove
+ */

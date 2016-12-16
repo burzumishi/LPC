@@ -1,0 +1,8 @@
+556:/lib/messenger.c (/lib/messenger.c)
+(public void) set_number_of_uses(int uses)
+/*
+ * Function:    set_number_of_uses
+ * Description: Set this option to indicate how many times a messenger
+ *              can be used before it returns "home".
+ * Arguments:   int uses - the number of uses. 0 if unlimited.
+ */

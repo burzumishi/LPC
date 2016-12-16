@@ -1,0 +1,9 @@
+638:/std/object.c (/std/object.c)
+(public varargs nomask void) inc_prop(string prop, int delta = 1)
+/* 
+ * Function name: inc_prop
+ * Description  : Increase the value of a property. This works on integer
+ *                properties only (and assumes no VBFC has been applied).
+ * Arguments    : string prop - the property to adjust.
+ *                int delta - the value to add (default = 1).
+ */

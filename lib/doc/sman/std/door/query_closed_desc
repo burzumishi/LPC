@@ -1,0 +1,6 @@
+937:/std/door.c (/std/door.c)
+(string) query_closed_desc()
+/*
+ * Function name: query_closed_desc
+ * Description:   Query the description of the door when closed
+ */

@@ -1,0 +1,12 @@
+559:/lib/wearable_item.c (/lib/wearable_item.c)
+(public mixed) wear(object obj)
+/*
+ * Function name: wear
+ * Description  : This function might be called when someone tries to wear
+ *                this armour. To have it called, use set_wf().
+ * Arguments    : object obj - The armour we want to wear.
+ * Returns      : int  0 - The armour can be worn normally.
+ *                     1 - The armour can be worn, but print no messages.
+ *                    -1 - The armour can't be worn, use default messages.
+ *                string - The armour can't be worn, use this message.
+ */

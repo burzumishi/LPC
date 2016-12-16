@@ -1,0 +1,8 @@
+608:/secure/master/mail_admin.c (/secure/master.c)
+(static int) mail_statistics()
+/*
+ * Function mame: mail_statistics
+ * Description  : This function will print various statistics about the
+ *                mail system.
+ * Returns      : int 1/0 - success/failure.
+ */

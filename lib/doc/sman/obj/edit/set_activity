@@ -1,0 +1,10 @@
+95:/obj/edit.c (/obj/edit.c)
+(void) set_activity(string str)
+/*
+ * Function name: set_activity
+ * Description  : Sets the activity of the person that is using the editor.
+ *                This should fit in the text "You are writing <activity>"
+ *                and include a period or exclamation mark.
+ *                and include a period or exclamation mark.
+ * Arguments    : string str - the activity description.
+ */

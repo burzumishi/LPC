@@ -1,0 +1,9 @@
+821:/std/poison_effect.c (/std/poison_effect.c)
+(public string) query_poison_recover()
+/*
+ * Function name: query_poison_recover
+ * Description  : To add more information to the recover string, you should
+ *                mask this function to return that information. Do not
+ *                make a call to ::query_poison_recover!
+ * Returns      : string - the extra recover string.
+ */

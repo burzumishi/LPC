@@ -1,0 +1,7 @@
+138:/std/resistance.c (/std/resistance.c)
+(public string) stat_object()
+/*
+ * Function name: stat_object
+ * Description:   Called when wizard stats the object
+ * Returns:       A string describing the object.
+ */

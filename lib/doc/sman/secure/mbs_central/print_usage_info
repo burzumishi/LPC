@@ -1,0 +1,7 @@
+1917:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) print_usage_info(mixed data)
+/*
+ * Function name: print_usage_info
+ * Description:   Print usage info
+ * Arguments:	  data - the data holder
+ */

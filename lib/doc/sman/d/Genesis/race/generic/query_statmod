@@ -1,0 +1,9 @@
+293:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(public nomask int) query_statmod(int stat)
+/*
+ * Function name: query_statmod
+ * Description  : This function returns the racial stat modifier for this
+ *                player for a particular stat.
+ * Arguments    : int stat - the stat to get the modifier for.
+ * Returns      : int - the racial stat modifier for that stat.
+ */

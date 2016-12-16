@@ -1,0 +1,7 @@
+297:/std/player/cmd_sec.c (/std/player_sec.c)
+(public int) save_character(string str)
+/*
+ * Function name:   save_character
+ * Description:     Saves all internal variables of a character to disk
+ * Returns:         Always 1
+ */

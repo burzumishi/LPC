@@ -1,0 +1,8 @@
+803:/lib/library.c (/lib/library.c)
+(public string) query_book_author(string file)
+/*
+ * Function name: query_book_author
+ * Description:   Given a book file, return the book's author
+ * Arguments:     string file - the filename for the desired book
+ * Returns:       The book's author
+ */

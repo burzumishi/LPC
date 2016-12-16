@@ -1,0 +1,7 @@
+370:/lib/library.c (/lib/library.c)
+(public void) library_list_shelves_hook()
+/*
+ * Function name: library_list_shelves_hook
+ * Description:   Redefine this to alter how the listing of shelves is
+ *                presented
+ */

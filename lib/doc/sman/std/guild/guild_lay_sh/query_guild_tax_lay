@@ -1,0 +1,8 @@
+69:/std/guild/guild_lay_sh.c (/std/guild/guild_lay_sh.c)
+(public int) query_guild_tax_lay()
+/*
+ * Function name: query_guild_tax_lay
+ * Description:   What's the tax to pay at this guild? You should write your
+ *                own version of this function.
+ * Returns:       the tax this guild wants
+ */

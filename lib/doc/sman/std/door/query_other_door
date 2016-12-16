@@ -1,0 +1,8 @@
+1381:/std/door.c (/std/door.c)
+(object) query_other_door()
+/*
+ * Function name: query_other_door
+ * Description:   Get the other door object pointer. The other
+ *		  door will be loaded if neccesary. If that proovs
+ *		  impossible, this door will autodestruct.
+ */

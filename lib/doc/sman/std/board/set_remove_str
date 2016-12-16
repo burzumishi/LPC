@@ -1,0 +1,9 @@
+188:/std/board.c (/std/board.c)
+(public nomask void) set_remove_str(string str)
+/*
+ * Function name: set_remove_str
+ * Description  : Set the string to be printed when a player tries to
+ *                remove a note while he is not allowed to do so.
+ * Arguments    : string str - the message (default: Only a Lord is
+ *                             allowed to remove other peoples notes.)
+ */

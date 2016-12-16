@@ -1,0 +1,6 @@
+155:/std/scroll.c (/std/scroll.c)
+(public string) query_auto_load()
+/*
+ * Function name: query_auto_load
+ * Description:   Autoload this object.
+ */

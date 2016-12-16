@@ -1,0 +1,7 @@
+1472:/std/player/savevars_sec.c (/std/player_sec.c)
+(public int) query_wiz_unmet()
+/*
+ * Function name:   query_wiz_unmet
+ * Description:     Returns if the wizard wants to see all as met or unmet
+ * Returns:         The current state    
+ */

@@ -1,0 +1,8 @@
+47:/lib/udp/rwho.c (/lib/udp/rwho.c)
+(public int) rwho_q(mapping p)
+/*
+ * Function name: rwho_q
+ * Description:   Called when the mud receives an rwho_q package
+ * Argument:	  p: mapping holding received information
+ * Returns:	  True if correct message form
+ */

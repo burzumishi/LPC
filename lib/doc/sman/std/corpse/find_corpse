@@ -1,0 +1,8 @@
+697:/std/corpse.c (/std/corpse.c)
+(public int) find_corpse(object ob)
+/*
+ * Function name: find_corpse
+ * Description  : Support function for tear/cut command.
+ * Arguments    : object ob - the object to check.
+ * Returns      : int 1/0 - if true, it's a suitable corpse.
+ */

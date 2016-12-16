@@ -1,0 +1,7 @@
+1993:/std/living/savevars.c (/std/living.c)
+(nomask static void) update_cmdsoul_list(string *souls)
+/*
+ * Function name:   update_cmdsoul_list
+ * Description:     Update the list of command souls
+ * Arguments:       souls: The new filenames
+ */

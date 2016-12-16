@@ -1,0 +1,8 @@
+257:/std/living/stats.c (/std/living.c)
+(nomask int) exp_to_stat(int exp)
+/*
+ * Function name: exp_to_stat
+ * Description  : Translates given number of exp to a stat/skill value.
+ * Arguments    : int exp - the experience points to be translated.
+ * Returns      : int     - the new skill/stat value
+ */

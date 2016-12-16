@@ -1,0 +1,8 @@
+1845:/lib/library.c (/lib/library.c)
+(public int) library_discard_access()
+/*
+ * Function name: library_discard_access
+ * Description:   Redefine this function to limit permission to discard books
+ * Returns:       1 - this_player() is permitted to discard a book
+ *                0 - this_player() is not permitted to discard a book
+ */

@@ -1,0 +1,12 @@
+31:/secure/master/sanction.c (/secure/master.c)
+(static int) valid_snoop_sanction(string snooper, string snoopee)
+/*
+ * Function name: valid_snoop_sanction
+ * Description  : This function can be used to query whether there is a
+ *                snoop sanction set that allows 'snooper' to snoop on
+ *                'snoopee'. Note that there is no check on the arguments,
+ *                which means the arguments _must_ be in lower case.
+ * Arguments    : string snooper - the person that wants to snoop.
+ *                string snoopee - the person that is to be snooped.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

@@ -1,0 +1,7 @@
+258:/secure/bit_change.c (/secure/bit_change.c)
+(nomask static void) unpack_bits()
+/*
+ * Function name: unpack_bits
+ * Description  : This function takes the stuffed bits out of their array
+ *                and puts them in the correct arrays.
+ */

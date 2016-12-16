@@ -1,0 +1,8 @@
+549:/std/room/description.c (/std/room.c)
+(varargs int) stop_track(mixed arg)
+/*
+ * Function name: stop_track
+ * Description:   interrupt tracking
+ * Arguments:
+ * Returns:
+ */

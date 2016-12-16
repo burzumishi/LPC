@@ -1,0 +1,8 @@
+1151:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void ) cb_adjust_combat_on_move(int leave)
+/*
+ * Function name: cb_adjust_combat_on_move
+ * Description:   Called to let movement affect the ongoing fight. This
+ *                is used to print hunting messages or drag enemies along.
+ * Arguments:     True if leaving else arriving
+ */

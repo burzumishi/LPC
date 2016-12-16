@@ -1,0 +1,10 @@
+1241:/std/player_sec.c (/std/player_sec.c)
+(public string *) parse_command_id_list()
+/*
+ * Function name: parse_command_id_list
+ * Description  : Mask of player_command_id_list() in /std/object.c to make sure
+ *                that players cannot use the name of an NPC or player when that
+ *                person hasn't been introduced to them.
+ * Returns      : string * - the original parse_command_id_list() without the
+ *                    lower case name of the person.
+ */

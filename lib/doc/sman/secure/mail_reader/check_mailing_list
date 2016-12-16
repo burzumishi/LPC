@@ -1,0 +1,12 @@
+847:/secure/mail_reader.c (/secure/mail_reader.c)
+(public string) check_mailing_list(string *list)
+/*
+ * Function name: check_mailing_list
+ * Description  : Check if all names on the list are valid. Reports the
+ *                first non-valid name that is encountered. Takes aliases
+ *                in account.
+ * Arguments    : string *list - a list of strings with names. 
+ * Returns      : string       - the entry in the array that is not valid
+ *                               is returned enquoted.
+ *                0            - if all members are valid
+ */

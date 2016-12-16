@@ -1,0 +1,10 @@
+1676:/std/object.c (/std/object.c)
+(varargs mixed) query_magic_protection(string prop, object protectee = previous_object()
+/*
+ * Function name:  query_magic_protection
+ * Description:    This function should return the
+ *                 amount of protection versus an 
+ *                 attack of 'prop' on 'obj'.
+ * Arguments:      prop - The element property to defend.
+ *                 protectee  - Magic protection for who or what? 
+ */

@@ -1,0 +1,7 @@
+204:/secure/mail_reader.c (/secure/mail_reader.c)
+(private void) init_mail_reader(int first)
+/*
+ * Function name: init_mail_reader
+ * Description  : Called to initialise the global variables of the mail reader.
+ * Arguments    : int first - if true, also initialise the global aliases.
+ */

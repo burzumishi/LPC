@@ -1,0 +1,8 @@
+385:/std/mobile.c (/std/mobile.c)
+(public int) query_option(int opt)
+/*
+ * Function name: query_option
+ * Description:   Returns default option settings for mobiles
+ * Arguments:     int opt - the option to check
+ * Returns:       the setting for the specified option
+ */

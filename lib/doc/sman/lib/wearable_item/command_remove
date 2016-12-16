@@ -1,0 +1,7 @@
+514:/lib/wearable_item.c (/lib/wearable_item.c)
+(public mixed) command_remove()
+/*
+ * Function name: command_remove
+ * Description:   Called to wear this item
+ * Returns:       see remove_me()
+ */

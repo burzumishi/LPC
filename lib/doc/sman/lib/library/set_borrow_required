@@ -1,0 +1,8 @@
+188:/lib/library.c (/lib/library.c)
+(public void) set_borrow_required(int i)
+/*
+ * Function name: set_borrow_required
+ * Description:   Indicate that that books must be borrowed from
+ *                the library in order to be read.
+ * Arguments:     int i - if true, books must be borrowed
+ */

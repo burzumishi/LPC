@@ -1,0 +1,7 @@
+68:/std/living/carry.c (/std/living.c)
+(int) query_encumberance_volume()
+/*
+ * Function name:   query_encumberance_volume
+ * Description:     Calculate how encumbered we are in % in volume
+ * Returns:         The number in %
+ */

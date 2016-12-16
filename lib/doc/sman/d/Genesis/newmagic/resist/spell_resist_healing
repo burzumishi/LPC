@@ -1,0 +1,11 @@
+164:/d/Genesis/newmagic/resist.c (/d/Genesis/newmagic/spell.c)
+(public int) spell_resist_healing(object caster, object target, int element,     int difficulty)
+/*
+ * Function name: spell_resist_healing
+ * Description:   Determines target's resistance to a healing spell.
+ * Arguments:     object caster - the caster of the spell
+ *                object target - the target of the spell
+ *                int element   - the spell element
+ *                int difficulty - the difficulty of resisting the spell
+ * Returns:       Resistance percentage
+ */

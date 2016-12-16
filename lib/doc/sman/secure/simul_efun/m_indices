@@ -1,0 +1,10 @@
+80:/secure/simul_efun.c (/secure/simul_efun.c)
+(mixed) m_indices(mixed arg)
+/*
+ * Function name: m_indices
+ * Description  : Here it is Dworkin, for all language purists...
+ *                Obviously the proper plural for "index" is "indices" and
+ *                not "indexes" as the author of this efun thought.
+ * Arguments    : mixed arg - the argument for the efun m_indexes()
+ * Returns      : mixed - the return value from the efun m_indexes().
+ */

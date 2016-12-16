@@ -1,0 +1,10 @@
+803:/std/container.c (/std/container.c)
+(public varargs string) show_sublocs(object for_obj, mixed *slocs)
+/* 
+ * Function name: show_sublocs
+ * Description:   Give a description of each sublocation. This is a default
+ *                routine merely calling show_cont_subloc in this object for 
+ *                each sublocation.
+ * Arguments:     for_obj: The object for which description is given
+ *                slocs:   Identifiers for sublocations
+ */

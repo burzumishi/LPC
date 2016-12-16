@@ -1,0 +1,10 @@
+570:/std/living/savevars.c (/std/living.c)
+(void) set_mana(int sp)
+/*
+ * Function name:   set_mana
+ * Description:     Set the number of mana points that a player has. Mana
+ *                  points are more commonly known as spellpoints. The
+ *                  mana points can not bet set to more than the amount
+ *                  that is calculated by query_max_mana.
+ * Arguments:       sp: The new amount of mana points.
+ */

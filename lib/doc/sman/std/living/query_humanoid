@@ -1,0 +1,9 @@
+59:/std/living/description.c (/std/living.c)
+(public int) query_humanoid()
+/*
+ * Function name: query_humanoid
+ * Description  : Tells whether we are humanoid or not. By default, all
+ *                livings are marked as humanoid and then in /std/creature
+ *                we unmark them as such by masking this function.
+ * Returns      : int - 1.
+ */

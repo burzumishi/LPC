@@ -1,0 +1,8 @@
+162:/std/board.c (/std/board.c)
+(public nomask string) query_board_name()
+/*
+ * Function name: query_board_name
+ * Description  : Return the name of the board. This is the path of the
+ *                directory in which the notes are stored.
+ * Returns      : string - the name of the board (path-name).
+ */

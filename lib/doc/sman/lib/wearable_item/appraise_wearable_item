@@ -1,0 +1,8 @@
+610:/lib/wearable_item.c (/lib/wearable_item.c)
+(void) appraise_wearable_item()
+/*
+ * Function name: appraise_wearable_item
+ * Description  : This function will print how this wearable is worn. You
+ *                must call this function from your redefinition of the
+ *                appraise_object() function in your wearable.
+ */

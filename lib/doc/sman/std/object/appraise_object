@@ -1,0 +1,8 @@
+2245:/std/object.c (/std/object.c)
+(public void) appraise_object(int num)
+/*
+ * Function name: appraise_object
+ * Description:   This function is called when someon tries to appraise this
+ *                object.
+ * Arguments:    num - use this number instead of skill if given.
+ */

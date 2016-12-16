@@ -1,0 +1,7 @@
+1774:/std/object.c (/std/object.c)
+(public void) set_add_item(mixed pseudo_items)
+/*
+ * Function name: set_add_item
+ * Description:   Sets the 'pseudo items' of an object.
+ * Arguments:     pseudo_items - a mixed array of pseudo items to be added.
+ */

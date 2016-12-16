@@ -1,0 +1,8 @@
+56:/std/bowstring.c (/std/bowstring.c)
+(string) query_recover()
+/*
+ * Function name: query_recover
+ * Description  : Called to make this bowstring recoverable, and
+ *                to make sure the keep status is kept.
+ * Returns      : A string representation of the state to be kept.
+ */

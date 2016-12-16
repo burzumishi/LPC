@@ -1,0 +1,7 @@
+1167:/std/weapon.c (/std/weapon.c)
+(object) query_wielded()
+/*
+ * Function name: query_wielded
+ * Description  : Find out whether this weapon is wielded or not.
+ * Returns      : object - the wielder, or 0 if it isn't wielded.
+ */

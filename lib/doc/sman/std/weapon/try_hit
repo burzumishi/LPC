@@ -1,0 +1,9 @@
+1037:/std/weapon.c (/std/weapon.c)
+(int) try_hit(object target)
+/*
+ * Function name: try_hit
+ * Description  : Called from living when weapon used. This routine can be
+ *                redefined to skip the use of this weapon (for this target).
+ * Arguments    : object target - Who I intend to hit.
+ * Returns      : int - 0 if weapon miss. If true it might hit.
+ */

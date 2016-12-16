@@ -1,0 +1,9 @@
+166:/std/weapon.c (/std/weapon.c)
+(public varargs string) plural_short(object for_obj)
+/*
+ * Function name: plural_short
+ * Description  : The plural short description. When the weapon is broken,
+ *                we alter it. See 'short' for details.
+ * Arguments    : object for_obj - the object that wants to know.
+ * Returns      : string - the description.
+ */

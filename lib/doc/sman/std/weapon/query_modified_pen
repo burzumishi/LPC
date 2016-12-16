@@ -1,0 +1,8 @@
+503:/std/weapon.c (/std/weapon.c)
+(int *) query_modified_pen()
+/*
+ * Function name: query_modified_pen
+ * Description  : Query the effective (modified) pen values for the different
+ *                damage types. These take corrosion and dulling into account.
+ * Returns      : int * - array of modified pen values ({ impale, slash, blg })
+ */

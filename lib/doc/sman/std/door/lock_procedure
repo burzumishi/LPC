@@ -1,0 +1,16 @@
+636:/std/door.c (/std/door.c)
+(int) lock_procedure(string arg)
+/*
+ * Function name: lock_procedure
+ * Description:   This function is called to determine if
+ *		  a lock can be locked/unlocked.
+ *
+ *  Two methods are used here:
+ *
+ *  1: No key. You unlock by typing "<command> <door_id>".
+ *  2: Key. You unlock by typing "<command> <door_id> with <key_id>".
+ *
+ * Arguments:	  arg - the argument given to the command lock/unlock
+ * Returns:       1 - Ok, 0 - Fail.
+ * 
+ */

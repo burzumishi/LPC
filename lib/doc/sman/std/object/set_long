@@ -1,0 +1,9 @@
+1459:/std/object.c (/std/object.c)
+(public void) set_long(mixed long)
+/*
+ * Function name: set_long
+ * Description  : This function sets the long description of this object.
+ *                It can be a string or VBFC in string or functionpointer
+ *                form.
+ * Arguments    : mixed long - the long description.
+ */

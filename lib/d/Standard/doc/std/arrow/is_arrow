@@ -1,0 +1,9 @@
+80:/std/arrow.c (/std/arrow.c)
+( public nomask int) is_arrow()
+/*
+ * Function name: is_arrow
+ * Description  : A function that indentifies this projectile as an arrow
+ *                type projectile.
+ *
+ * Returns      : (int) 1 - Since this is an arrow.
+ */

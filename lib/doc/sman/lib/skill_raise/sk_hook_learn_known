@@ -1,0 +1,8 @@
+500:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_hook_learn_known(string skill)
+/*
+ * Function name: sk_hook_learn_known
+ * Description  : Player wants to learn an already known skill.
+ * Arguments    : string skill - the skill the player tried to learn.
+ * Returns      : int 0 - as always with notify_fail.
+ */

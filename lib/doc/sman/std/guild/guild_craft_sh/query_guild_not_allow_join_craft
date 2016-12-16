@@ -1,0 +1,10 @@
+135:/std/guild/guild_craft_sh.c (/std/guild/guild_craft_sh.c)
+(public int) query_guild_not_allow_join_craft(object player, string type, string style, 				 string name)
+/*
+ * Function name: query_allow_join_craft
+ * Description:   Test if this guild allowed a player to join another
+ * Arguments:     type  - the type of guild to join
+ * 		  style - the style of the guild
+ *		  name  - the name
+ * Returns:       1 - I do not allow member to join another guild
+ */

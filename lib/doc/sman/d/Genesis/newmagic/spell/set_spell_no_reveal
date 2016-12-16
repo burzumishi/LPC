@@ -1,0 +1,8 @@
+451:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_no_reveal(int i)
+/* 
+ * Function name: set_spell_no_reveal
+ * Description:   Indicate that casting this spell will not reveal a hidden
+ *                caster.
+ * Arguments:     1. (int) If true, don't reveal the caster.
+ */

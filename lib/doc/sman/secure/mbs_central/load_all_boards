@@ -1,0 +1,8 @@
+1928:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) load_all_boards(string *list)
+/*
+ * Function name: load_all_boards
+ * Description:	  Try to load all the boards in the given list, however
+ *		  do it slowly as not to break the game.
+ * Arguments:	  list - the list of boards to load.
+ */

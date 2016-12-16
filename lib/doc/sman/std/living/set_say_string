@@ -1,0 +1,10 @@
+103:/std/living/cmdhooks.c (/std/living.c)
+(public nomask void) set_say_string(string str)
+/*
+ * Function name: set_say_string
+ * Description  : We store the text the player says to allow guilds to modify
+ *                the verb based on the text. In order not to allow people to
+ *                put words in your mouth, this function may only be called
+ *                from the speech soul itself.
+ * Arguments    : string str - the text to say.
+ */

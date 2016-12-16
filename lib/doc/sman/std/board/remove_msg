@@ -1,0 +1,8 @@
+1100:/std/board.c (/std/board.c)
+(public nomask int) remove_msg(string what_msg)
+/*
+ * Function name: remove_msg
+ * Description  : Remove a note from the board.
+ * Arguments    : string what_msg - the message to remove.
+ * Returns      : int 1/0 - success/failure.
+ */

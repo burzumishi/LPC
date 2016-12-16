@@ -1,0 +1,10 @@
+908:/std/object.c (/std/object.c)
+(void) enter_inv(object ob, object old)
+/*
+ * Function name: enter_inv
+ * Description  : This function is called each time an object enters the
+ *                inventory of this object. If you mask it, be sure that
+ *                you _always_ call the ::enter_inv(ob, old) function.
+ * Arguments    : object ob  - the object entering our inventory.
+ *                object old - wherever 'ob' came from. This can be 0.
+ */

@@ -1,0 +1,11 @@
+248:/secure/master/mail_admin.c (/secure/master.c)
+(static int) purge_one_message(int dir, string file)
+/*
+ * Function name: purge_one_message
+ * Description  : Checks this message. It checks the validity of the names
+ *                of all recipients and checks whether the message is still
+ *                referenced from the mailboxes.
+ * Arguments    : int dir     - the directory currently checked.
+ *                string file - the filename of the message to check.
+ * Returns      : int 1/0 - purged/not purged.
+ */

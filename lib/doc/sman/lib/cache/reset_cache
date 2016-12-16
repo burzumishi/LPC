@@ -1,0 +1,8 @@
+267:/lib/cache.c (/lib/cache.c)
+(nomask static void) reset_cache()
+/*
+ * Function name: reset_cache
+ * Description  : This function will flush the cache and remove all data
+ *                files from it. This will save memory, but has no other
+ *                effects. The cache size will not be reset.
+ */

@@ -1,0 +1,17 @@
+1294:/secure/simul_efun.c (/secure/simul_efun.c)
+(int) mkcompare_util(function f, function compare_fun, mixed x, mixed y)
+/*
+ * Function name: mkcompare_util
+ * Description:   Compare two items and return a value meaningful for
+ *                sort_array() (that is, 1, 0, or -1).
+ * Arguments:     function f            - If specified, the comparison values
+ *                                        will be derived by calling this
+ *                                        function rather than simply comparing
+ *                                        items directly.
+ *                function compare_func - A function that determines how the
+ *                                        items will be compared.  This is
+ *                                        typically &operator(<)().
+ *                mixed x               - The first item to compare.
+ *                mixed y               - The second item to compare.
+ * Returns:       1, 0, or -1, as determined by compare_func
+ */

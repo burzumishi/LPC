@@ -1,0 +1,8 @@
+76:/obj/more.c (/obj/more.c)
+(void) done()
+/*
+ * Function name: done
+ * Description  : When the player is done reading it will destruct the
+ *                more-reader and if wanted, it calls a function in the
+ *                object that generated us.
+ */

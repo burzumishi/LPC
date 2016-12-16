@@ -1,0 +1,8 @@
+174:/lib/messenger.c (/lib/messenger.c)
+(public int) do_resend()
+/*
+ * Function:    do_resend
+ * Description: This is called when the player resends a failed message.
+ * Arguments:   none
+ * Returns:     nothing
+ */

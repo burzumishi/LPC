@@ -1,0 +1,11 @@
+1378:/std/player/savevars_sec.c (/std/player_sec.c)
+(public int) add_remembered(string str)
+/*
+ * Function name:   add_remembered
+ * Description:     Adds a living to those whom we want to remember.
+ *                  The living must exist in our list of those we have been
+ *                  introduced to.
+ * Arguments:       str: Name of living that we want to remember.
+ * Returns:         -1 if at limit for remember, 0 if not introduced, 
+ *                  1 if remember ok, 2 if already known
+ */

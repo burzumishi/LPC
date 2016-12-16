@@ -1,0 +1,7 @@
+206:/std/object.c (/std/object.c)
+(nomask public void) disable_reset()
+/*
+ * Function name: disable_reset
+ * Description  : Used to disable reset, in case it isn't needed. Call this
+ *                also in rooms where no reset is required.
+ */

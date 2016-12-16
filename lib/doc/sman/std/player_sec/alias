@@ -1,0 +1,8 @@
+118:/std/player/quicktyper.c (/std/player_sec.c)
+(static nomask int) alias(string str)
+/*
+ * Function name: alias
+ * Description  : Make an alias, or display one or all current alias(es).
+ * Arguments    : string str - the command line argument.
+ * Returns      : int - 1/0 - success/failure.
+ */

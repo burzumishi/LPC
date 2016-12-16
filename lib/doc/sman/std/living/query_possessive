@@ -1,0 +1,8 @@
+42:/std/living/gender.c (/std/living.c)
+(public string) query_possessive()
+/*
+ * Function name:   query_possessive
+ * Description:     Returns the possessive that goes with the gender of this
+ *                  living.
+ * Returns:         "his", "her" or "its", depending on gender.
+ */

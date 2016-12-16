@@ -1,0 +1,11 @@
+149:/std/receptacle.c (/std/receptacle.c)
+(void) reset_receptacle()
+/*
+ * Function name: reset_receptacle
+ * Description  : If you want to make this receptacle reset at a regular
+ *                interval this is the call to make. As this is just a
+ *                container with some extra functionality you can also use
+ *                the function reset_container(). Do not forget that you
+ *                must call enable_reset() from your create function to
+ *                actually make this object reset.
+ */

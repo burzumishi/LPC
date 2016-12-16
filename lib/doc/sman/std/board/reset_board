@@ -1,0 +1,8 @@
+488:/std/board.c (/std/board.c)
+(void) reset_board()
+/*
+ * Function name: reset_board
+ * Description  : Since reset_object() is nomasked, you must mask this
+ *                function at reset time. Enable_reset() is already
+ *                called, so you do not have to do that yourself.
+ */

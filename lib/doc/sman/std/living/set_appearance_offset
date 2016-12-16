@@ -1,0 +1,11 @@
+861:/std/living/description.c (/std/living.c)
+(void) set_appearance_offset(int off)
+/*
+ * Function name: set_appearance_offset
+ * Description:   The appearance offset affect how this living appears, 
+ *                independent of who the watcher is. (The normal appearance
+ *		  is relative to the watcher's opinion.)
+ *                A negative offset makes the living more beautiful.
+ *                A reasonable value of the offset is within +-50
+ * Arguments:     off: the offset
+ */

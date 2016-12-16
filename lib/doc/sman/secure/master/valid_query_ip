@@ -1,0 +1,11 @@
+1061:/secure/master.c (/secure/master.c)
+(varargs int) valid_query_ip(mixed actor, object target)
+/*
+ * Function name: valid_query_ip
+ * Description  : This function is called to check whether the actor is
+ *                allowed to call the efun query_ip_number() or _name() on
+ *                a particular target.
+ * Arguments    : mixed actor   - the actor that wants to call the efun.
+ *                object target - the object the actor wants to know about.
+ * Returns      : int 1/0 - allowed/ disallowed.
+ */

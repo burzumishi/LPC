@@ -1,0 +1,7 @@
+527:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_location(int x)
+/*
+ * Function name: set_location
+ * Description	: Set the current location of the ship
+ * Arguments	: x - either a pathname or an object, should be a room
+ */

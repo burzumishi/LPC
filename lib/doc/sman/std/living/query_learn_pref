@@ -1,0 +1,10 @@
+1658:/std/living/savevars.c (/std/living.c)
+(public mixed) query_learn_pref(int stat)
+/*
+ * Function name: query_learn_pref
+ * Description  : Return one or all values of the learn preferences, this
+ *                  includes the 'guildtax' learn_prefs of race, occup, layman
+ * Arguments    : int stat - Index of the stat to return, or -1 for all prefs.
+ * Returns      : mixed - (int)  the learn pref for the stat required.
+ *                        (int*) all learn prefs if stat == -1.
+ */

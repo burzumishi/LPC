@@ -1,0 +1,8 @@
+2160:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask int) cb_heal(int delay)
+/*
+ * Function name:  cb_heal
+ * Description:    Heals the living object. Adds hp, mana and fatigue, panic
+ * Arguments:      delay: Number of heart_beats since last heal
+ * Returns:        0 if we healed 'me'
+ */

@@ -1,0 +1,9 @@
+96:/std/torch.c (/std/torch.c)
+(public int) torch_value()
+/*
+ * Function name: torch_value
+ * Description:   A VBFC gets here when someone wants to know the value of
+ *		  the value of this object, default setting
+ *		  the value of this object, default setting
+ * Returns:	  The value
+ */

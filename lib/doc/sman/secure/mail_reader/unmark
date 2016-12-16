@@ -1,0 +1,7 @@
+1577:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) unmark(int *mark_arr)
+/*
+ * Function name: unmark
+ * Description  : Unmarks one or more messages for deletion.
+ * Arguments    : int * mark_arr - the numbers of the messages to unmark.
+ */

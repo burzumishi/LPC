@@ -1,0 +1,8 @@
+325:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask string *) query_auto_load()
+/*
+ * Function name:   query_auto_load
+ * Description:     Gives back the array of strings with objects to autoload
+ *                  when the player enters the game.
+ * Returns:         An array of strings describing what objects to load.
+ */

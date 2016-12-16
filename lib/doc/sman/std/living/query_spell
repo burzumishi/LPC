@@ -1,0 +1,7 @@
+240:/std/living/spells.c (/std/living.c)
+(public string) query_spell()
+/*
+ * Function name: query_spell
+ * Description:   Get the name of the spell being cast (if any)
+ * Returns:       The spell name
+ */

@@ -1,0 +1,7 @@
+459:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_cabin(mixed x)
+/*
+ * Function name: set_cabin
+ * Description	: Set the object that should act as the ship's cabin
+ * Arguments	: x - either a pathname or an object, should be a room
+ */

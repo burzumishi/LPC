@@ -1,0 +1,8 @@
+1643:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask string) query_board_access(string bspath)
+/*
+ * Function name: query_board_access
+ * Description:	  Return the access string of a particular board.
+ * Arguments:	  bspath - board storage path
+ * Returns:	  The access string
+ */

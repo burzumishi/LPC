@@ -1,0 +1,6 @@
+121:/obj/edit.c (/obj/edit.c)
+(void) done_more()
+/*
+ * Function name: done_more
+ * Description  : Called when the player is done reviewing the text with more.
+ */

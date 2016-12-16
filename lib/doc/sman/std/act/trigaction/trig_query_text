@@ -1,0 +1,5 @@
+75:/std/act/trigaction.c (/std/act/trigaction.c)
+(string) trig_query_text()
+/*
+ * Description: Query for current catched text
+ */

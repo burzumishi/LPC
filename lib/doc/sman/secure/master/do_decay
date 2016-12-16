@@ -1,0 +1,9 @@
+1554:/secure/master/fob.c (/secure/master.c)
+(static mixed *) do_decay(mixed *darr)
+/*
+ * Function name: do_decay
+ * Description  : The mapping m_domains is mapped over this function to
+ *                do the actual decay.
+ * Arguments    : mixed *darr - the array of the individual domains.
+ * Returns      : mixed * - the modified array of the individual domains.
+ */

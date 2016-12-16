@@ -1,0 +1,29 @@
+630:/lib/commands.c (/lib/commands.c)
+(public string *) parse_adverb(string str, string def_adv, int trail)
+/*
+ * Function name: parse_adverb
+ * Destription  : This function is designed to separate the adverb a player
+ *                uses from the rest of the command line.
+ * Arguments    : str     - the command line string. This may not be "", so
+ *                          should either be 0 or a string containing at
+ *                          least one character.
+ *                def_adv - the default adverb for this emotion
+ *                trail   - 1 if the adverb comes behind the target
+ * Returns      : array of string: ({ cmd_str, adv_str })
+ *                cmd_str - the rest of the line
+ *                adv_str - the adverb
+ *
+ * Examples:
+ *     parse_adverb("happ", "sadly", 0/1) returns
+ *          ({ "", "happily" })
+ *     parse_adverb("hupp", "sadly", 0/1) returns
+ *          ({ "hupp", "sadly" })
+ *     parse_adverb("happ at the dwarf wizard", "sadly", 0)
+ *          ({ "at the dwarf wizard", "happily" })
+ *     parse_adverb("Mercade", "sadly", 0)
+ *          ({ "Mercade", "sadly" })
+ *     parse_adverb("Mercade merri", "gracefully", 1)
+ *          ({ "Mercade", "merrily" })
+ *     parse_adverb("merri Mercade", "gracefully", 1)
+ *          ({ "merri Mercade", "gracefully" })
+ */

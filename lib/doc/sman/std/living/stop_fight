@@ -1,0 +1,7 @@
+795:/std/living/combat.c (/std/living.c)
+(public void) stop_fight(mixed elist)
+/*
+ * Function name: stop_fight
+ * Description  : Makes this living stop fighting others.
+ * Arguments    : mixed elist - the enemy or enemies to stop fighting.
+ */

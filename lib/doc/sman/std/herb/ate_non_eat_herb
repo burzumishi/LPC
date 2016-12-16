@@ -1,0 +1,7 @@
+341:/std/herb.c (/std/herb.c)
+(void) ate_non_eat_herb()
+/*
+ * Function name: ate_non_eat_herb
+ * Description:   This function is called in stead of do_herb_effect
+ *                if you eat a herb that isn't supposed to be eaten
+ */

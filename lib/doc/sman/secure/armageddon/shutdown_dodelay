@@ -1,0 +1,8 @@
+116:/secure/armageddon.c (/secure/armageddon.c)
+(private nomask void) shutdown_dodelay()
+/*
+ * Function name: shutdown_dodelay
+ * Description  : This function counts down the minutes until the game
+ *                is finally shut down.
+ * Arguments    : int delay - the minutes left on the clock.
+ */

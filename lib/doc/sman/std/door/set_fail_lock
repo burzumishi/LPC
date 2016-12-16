@@ -1,0 +1,6 @@
+1189:/std/door.c (/std/door.c)
+(void	) set_fail_lock(mixed mess)
+/*
+ * Function name: set_fail_lock
+ * Description:   Set message when fail to lock the door
+ */

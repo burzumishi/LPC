@@ -1,0 +1,8 @@
+307:/lib/pub.c (/lib/pub.c)
+(int) remove_drink(string id)
+/*
+ * Function name: remove_drink
+ * Description:   Remove a special drink, identified with id
+ * Arguments:	  id - A identifying string
+ * Returns:	  1 if removed
+ */

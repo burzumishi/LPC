@@ -1,0 +1,7 @@
+246:/std/paralyze.c (/std/paralyze.c)
+(int) query_remove_time()
+/*
+ * Function name: query_remove_time
+ * Description  : Returns the paralyze time (in seconds).
+ * Returns      : int - the time.
+ */

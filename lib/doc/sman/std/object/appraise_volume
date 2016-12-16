@@ -1,0 +1,8 @@
+2191:/std/object.c (/std/object.c)
+(public string) appraise_volume(int num)
+/*
+ * Function name: appraise_volume
+ * Description:   This function is called when someon tries to appraise volume
+ *                of this object.
+ * Arguments:     num - use this number instead of skill if given.
+ */

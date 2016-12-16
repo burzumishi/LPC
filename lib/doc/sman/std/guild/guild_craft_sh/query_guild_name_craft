@@ -1,0 +1,8 @@
+106:/std/guild/guild_craft_sh.c (/std/guild/guild_craft_sh.c)
+(public string) query_guild_name_craft()
+/*
+ * Function name: query_guild_name_craft
+ * Description:   Returns the name of the guild this shadow represents
+ *		  You should redefine this function to suite you.
+ * Returns:	  The name of the guild
+ */

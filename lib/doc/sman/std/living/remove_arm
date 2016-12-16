@@ -1,0 +1,7 @@
+205:/std/living/wear.c (/std/living.c)
+(public void) remove_arm(object arm)
+/*
+ * Function name:   remove_arm
+ * Description:     Remove an armour
+ * Arguments:       arm - The armour.
+ */

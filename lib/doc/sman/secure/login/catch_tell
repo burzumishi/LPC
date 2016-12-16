@@ -1,0 +1,8 @@
+1235:/secure/login.c (/secure/login.c)
+(public void) catch_tell(string msg)
+/*
+ * Function name: catch_tell
+ * Description  : This function can be called externally to print a text to
+ *                the logon-player.
+ * Arugments    : string msg - the text to print.
+ */

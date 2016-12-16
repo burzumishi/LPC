@@ -1,0 +1,9 @@
+109:/d/Genesis/newmagic/hooks.c (/d/Genesis/newmagic/hooks.c)
+(public void) hook_targets_gone()
+/*
+ * Function name: hook_targets_gone
+ * Description:   Return the string that will be printed to the caster when
+ *                the targets has disappeared during the prepartion of the
+ *                spell.
+ * Returns:       The message to print
+ */

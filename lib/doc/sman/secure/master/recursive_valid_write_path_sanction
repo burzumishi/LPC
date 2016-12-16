@@ -1,0 +1,12 @@
+213:/secure/master/sanction.c (/secure/master.c)
+(static int) recursive_valid_write_path_sanction(string writer, string dname, string *parts)
+/*
+ * Function name: recursive_valid_write_path_sanction
+ * Description  : This function will in a loop test the complete path in
+ *                'parts' to see whether 'writer' has the right to write that
+ *                directory in 'dname'. It doesn't really recurse, but loop.
+ * Arguments    : string writer - the euid that wants to write.
+ *                string euid   - the euid that 'writer' wants to write.
+ *                string *parts - the parts that compose the path.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

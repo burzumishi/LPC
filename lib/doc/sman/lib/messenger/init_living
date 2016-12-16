@@ -1,0 +1,7 @@
+335:/lib/messenger.c (/lib/messenger.c)
+(public void ) init_living()
+/*
+ * Function:    init_living
+ * Description: The send command is added whenever this messenger
+ *              encounters one of these messengers.
+ */

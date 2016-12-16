@@ -1,0 +1,11 @@
+1758:/std/living/savevars.c (/std/living.c)
+(public void) set_skill_extra(int skill, int val)
+/*
+ * Function name: set_skill_extra
+ * Description:   This is the function to call if you have an object that wants
+ *                to temporarily change the skill of someone. Perhaps some
+ *                grappling hooks to help climbing skill, or a fumble spell to
+ *                lower fighting skills?
+ * Arguments:     skill - Number of skill
+ *                val   - The new val of the extra variable
+ */

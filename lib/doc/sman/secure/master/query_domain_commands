@@ -1,0 +1,9 @@
+1616:/secure/master/fob.c (/secure/master.c)
+(int) query_domain_commands(string dname)
+/*
+ * Function name: query_domain_commands
+ * Description  : Gives the total number of commands executed by mortal
+ *                players in a domain.
+ * Arguments    : string dname - the domain name.
+ * Returns      : int - the number of commands.
+ */

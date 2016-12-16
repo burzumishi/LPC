@@ -1,0 +1,8 @@
+40:/lib/guild_support.c (/lib/guild_support.c)
+(void) get_prefs(string str)
+/*
+ * Function name: get_prefs
+ * Description  : When the player uses the "set" command, this function is used
+ *                to parse the input.
+ * Arguments    : string str - input text.
+ */

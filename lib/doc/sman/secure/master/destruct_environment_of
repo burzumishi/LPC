@@ -1,0 +1,6 @@
+1706:/secure/master.c (/secure/master.c)
+(void) destruct_environment_of(object ob)
+/*
+ * This function is called from GD when rooms are destructed so that master
+ * can move players to safety.
+ */

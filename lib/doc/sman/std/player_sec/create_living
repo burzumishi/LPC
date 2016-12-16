@@ -1,0 +1,6 @@
+1164:/std/player_sec.c (/std/player_sec.c)
+(public nomask void) create_living()
+/*
+ * Function name: create_living
+ * Description  : Called to create the player. It initializes some variables.
+ */

@@ -1,0 +1,9 @@
+592:/lib/wearable_item.c (/lib/wearable_item.c)
+(string) wearable_item_usage_desc()
+/*
+ * Function name: wearable_item_usage_desc
+ * Description  : This function returns the usage of this wearable. It is
+ *                usually printed from the appraise function. The string
+ *                includes the location where it should be worn.
+ * Returns      : string - the description.
+ */

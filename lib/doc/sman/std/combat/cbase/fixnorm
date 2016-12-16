@@ -1,0 +1,6 @@
+473:/std/combat/cbase.c (/std/combat/cbase.c)
+(static nomask int) fixnorm(int offence, int defence)
+/*
+ * Normalize offensive / defensive values
+ *
+ */

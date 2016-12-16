@@ -1,0 +1,12 @@
+339:/std/weapon.c (/std/weapon.c)
+(public nomask mixed) unwield_me()
+/*
+ * Function name: unwield_me
+ * Description  : When the player tries to unwield this weapon, this function
+ *                is called. If the player managed to unwield the weapon,
+ *                the message is printed in this routine. Error messages are
+ *                returned.
+ * Returns      : int 1  - success
+ *                int 0  - failure: the weapon was not wielded to begin with.
+ *                string - a fail message (nothing is printed).
+ */

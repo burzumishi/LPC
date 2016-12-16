@@ -1,0 +1,9 @@
+620:/lib/library.c (/lib/library.c)
+(public void) library_classify_unavailable_shelf_hook(string shelf)
+/*
+ * Function name: library_classify_unavailable_shelf_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user attempts to classify a book under a nonexistant
+ *                shelf
+ * Arguments:     string shelf - the shelf name
+ */ 

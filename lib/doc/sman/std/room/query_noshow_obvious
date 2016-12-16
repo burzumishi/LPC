@@ -1,0 +1,7 @@
+102:/std/room/exits.c (/std/room.c)
+(public int) query_noshow_obvious()
+/*
+ * Function name: query_noshow_obvious
+ * Description  : Return whether all exits in this room are hidden.
+ * Returns      : int - if true then all exits are hidden.
+ */

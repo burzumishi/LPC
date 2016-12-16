@@ -1,0 +1,9 @@
+419:/std/player_sec.c (/std/player_sec.c)
+(nomask static void) slow_load_recover_files(string *recover_files)
+/*
+ * Function name: slow_load_recover_files
+ * Description  : Loads one recoverable object. We use an alarm to make sure
+ *                that people always get their stuff, even when they carry too
+ *                much for their own good.
+ * Arguments    : string *recover_files - the recoverable files still to load.
+ */

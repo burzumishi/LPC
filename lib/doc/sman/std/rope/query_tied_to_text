@@ -1,0 +1,6 @@
+79:/std/rope.c (/std/rope.c)
+(string) query_tied_to_text()
+/*
+ * Function name: query_tied_to_text
+ * Description:   Query what text this rope is tied to
+ */

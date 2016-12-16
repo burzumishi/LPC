@@ -1,0 +1,7 @@
+326:/lib/trade.c (/lib/trade.c)
+(string) stat_trade()
+/*
+ * Function name: stat_trade
+ * Description:   Get some statistics on the trade settings
+ * Returns:       The statistics as a string
+ */

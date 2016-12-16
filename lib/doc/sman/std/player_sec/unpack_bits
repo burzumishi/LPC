@@ -1,0 +1,7 @@
+1038:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) unpack_bits()
+/*
+ * Function name: unpack_bits
+ * Description  : This function gets the stuffed bits out of their array
+ *                and puts them in the correct arrays.
+ */

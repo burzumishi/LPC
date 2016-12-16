@@ -1,0 +1,8 @@
+81:/std/drink.c (/std/drink.c)
+(public nomask void) reset_heap()
+/*
+ * Function name: reset_heap
+ * Description  : When reset has been enabled, this function is called at a.
+ *                regular interval. It calls the function reset_drink() that
+ *                you should define.
+ */

@@ -1,0 +1,8 @@
+258:/std/drink.c (/std/food.c)
+(void) config_merge(object child)
+/*
+ * Function name: config_merge
+ * Description  : When merging two identical drinks with different volumes,
+ *                average them by the number.
+ * Arguments    : object child - the child merged into this drink.
+ */

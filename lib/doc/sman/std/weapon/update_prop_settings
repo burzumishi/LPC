@@ -1,0 +1,6 @@
+1151:/std/weapon.c (/std/weapon.c)
+(nomask void) update_prop_settings()
+/*
+ * Function name: update_prop_settings
+ * Description:   Will uppdate weight and value of this object to be legal
+ */

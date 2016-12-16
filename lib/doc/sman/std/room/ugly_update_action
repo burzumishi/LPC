@@ -1,0 +1,9 @@
+35:/std/room/exits.c (/std/room.c)
+(public void) ugly_update_action(string cmd, int add)
+/*
+ * Function name: ugly_update_function
+ * Description  : Just fix so the verb is updated in a room when an exit
+ *                is added or removed.
+ * Arguments    : string cmd - the command verb.
+ *		  int add    - add command if 1 else remove.
+ */

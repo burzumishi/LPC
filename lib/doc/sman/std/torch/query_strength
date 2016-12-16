@@ -1,0 +1,7 @@
+280:/std/torch.c (/std/torch.c)
+(public int) query_strength()
+/*
+ * Function name: query_strength
+ * Description:   Query how strongly the torch will shine
+ * Returns:       int - the light value.
+ */

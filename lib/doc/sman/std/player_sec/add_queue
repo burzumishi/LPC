@@ -1,0 +1,8 @@
+66:/std/player/querys_sec.c (/std/player_sec.c)
+(public int) add_queue(string who)
+/*
+ * Function name:   add_queue
+ * Description:     Add a player to a queue.
+ * Arguments:       who: A string with a player-name
+ * Returns:         Number of people in the queue after addition.
+ */

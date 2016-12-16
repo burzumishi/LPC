@@ -1,0 +1,9 @@
+180:/secure/player_tool.c (/secure/player_tool.c)
+(nomask static int) playeraccess(string str)
+/*
+ * Function name: playeraccess
+ * Description  : This function can be used to manage the list of people who
+ *                have access to this tool.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

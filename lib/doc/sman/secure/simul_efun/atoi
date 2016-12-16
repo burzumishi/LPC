@@ -1,0 +1,8 @@
+693:/secure/simul_efun.c (/secure/simul_efun.c)
+(int) atoi(string num)
+/*
+ * Function name: atoi
+ * Description  : This converts a string into a number.
+ * Arguments    : string num - the string to convert.
+ * Returns      : int - the corresponding number, or 0.
+ */

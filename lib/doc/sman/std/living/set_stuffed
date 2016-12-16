@@ -1,0 +1,7 @@
+1523:/std/living/savevars.c (/std/living.c)
+(static void) set_stuffed(int i)
+/*
+ * Function name:   set_stuffed
+ * Description:     Set the level of stuffedness of a living
+ * Arguments:       i: The level of stuffedness
+ */

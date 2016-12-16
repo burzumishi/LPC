@@ -1,0 +1,7 @@
+104:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(static nomask void) do_login_commands()
+/*
+ * Function name: do_login_commands
+ * Description  : Wizards can have some personal commands in a .login file
+ *                in their private directory.
+ */

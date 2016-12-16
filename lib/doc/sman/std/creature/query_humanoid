@@ -1,0 +1,8 @@
+113:/std/creature.c (/std/creature.c)
+(public int) query_humanoid()
+/*
+ * Function name: query_humanoid
+ * Description  : Since this is not a humanoid, we mask this function so
+ *                that it returns 0.
+ * Returns      : int - 0.
+ */

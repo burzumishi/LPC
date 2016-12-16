@@ -1,0 +1,6 @@
+108:/std/resistance.c (/std/resistance.c)
+(string) query_res_type()
+/*
+ * Function name: query_res_type
+ * Description:   Returns what type of resistance this object helps
+ */

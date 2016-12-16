@@ -1,0 +1,7 @@
+1878:/std/living/savevars.c (/std/living.c)
+(public int) query_scar()
+/*
+ * Function name:   query_scar
+ * Description:     Gives the scar bitmask of the living
+ * Returns:         The scar bitmask
+ */

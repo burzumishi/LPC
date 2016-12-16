@@ -1,0 +1,9 @@
+136:/std/receptacle.c (/std/receptacle.c)
+(void) create_container()
+/*
+ * Function name: create_container
+ * Description  : Since this object is called /std/receptacle, you can
+ *                use create_receptacle to create it. Also, as normal,
+ *                create_container can be used, since this is just a
+ *                container with some extra functions.
+ */

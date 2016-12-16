@@ -1,0 +1,11 @@
+1282:/secure/master/fob.c (/secure/master.c)
+(int) list_applications(string str)
+/*
+ * Function name: list_applications
+ * Description  : List applications. Domain-members may see the people that
+ *                have applied to the domain. Non-domain members may see
+ *                only their own applications. Arches and keepers may see
+ *                all applications.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

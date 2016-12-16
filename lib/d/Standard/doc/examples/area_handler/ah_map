@@ -1,0 +1,33 @@
+#NAME meadow
+#ROOMDIR /d/Standard/doc/examples/area_handler/rooms
+#TIMEOUT 10
+#
+# A - Edge of meadow, entry point 1
+# B - Cottage entry from meadow
+# C - Cottage exit from inside of cottage
+# f - Cottage floor
+# m - Meadow
+# p - Path through meadow
+# t - Glade with tree
+#
+# The field with cottage and meadows
+#
+ Amm mmm
+pppm mmm
+ mpp mmm
+ mmptmmm
+mmmmppmm
+ mmmmpppppppppp
+ mmmmmppmm
+   mmm B m
+     m   m
+     mmmmm
+#
+# The cottage
+#
+   C
+fffffff
+fffffff
+fffffff
+fffffff
+#

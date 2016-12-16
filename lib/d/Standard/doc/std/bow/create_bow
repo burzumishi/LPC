@@ -1,0 +1,6 @@
+43:/std/bow.c (/std/bow.c)
+(public void) create_bow()
+/*
+ * Function name: create_bow
+ * Description:   Constructor to be used by bow implementations.
+ */

@@ -1,0 +1,7 @@
+680:/std/living/savevars.c (/std/living.c)
+(public void) set_fatigue(int f)
+/*
+ * Function name:   set_fatigue
+ * Description:     Set the fatigue points of the living to a certain amount.
+ * Arguments:       f: The amount to set.
+ */

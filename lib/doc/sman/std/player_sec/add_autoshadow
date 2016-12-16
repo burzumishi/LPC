@@ -1,0 +1,11 @@
+710:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask public int) add_autoshadow(mixed shadowfile)
+/*
+ * Function name: add_autoshadow
+ * Description  : Add a shadow to the shadow list. In string form the shadow
+ *                has the syntax <filename>:<argument> and the <argument> may
+ *                not exceed a length of 80 characters.
+ * Arguments    : mixed shadowfile - the shadow-object or the filename of the
+ *                   shadow-object.
+ * Returns      : int 1/0 - success/failure.
+ */

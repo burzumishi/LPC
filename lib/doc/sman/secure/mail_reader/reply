@@ -1,0 +1,8 @@
+2269:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) reply(int include)
+/*
+ * Function name: reply
+ * Description  : Send a reply to the a message.
+ * Arguments    : int include - if true, include the message we are
+ *                              replying to.
+ */

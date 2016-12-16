@@ -1,0 +1,7 @@
+206:/lib/bank.c (/lib/bank.c)
+(int) change(string str)
+/*
+ * Function name: change
+ * Description:   Perform a change of money in the player
+ * Arguments:     str - A string describing what to change into what
+ */

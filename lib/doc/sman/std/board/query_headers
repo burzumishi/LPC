@@ -1,0 +1,10 @@
+1301:/std/board.c (/std/board.c)
+(public nomask mixed) query_headers()
+/*
+ * Function name: query_headers
+ * Description  : Return the headers if this_player() is allowed to see
+ *                them.
+ * Returns      : mixed - the headers in the following format:
+ *                        ({ ({ string header, string filename }) })
+ *                        or just ({ }) if no read access.
+ */

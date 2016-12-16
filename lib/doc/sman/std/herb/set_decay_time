@@ -1,0 +1,8 @@
+131:/std/herb.c (/std/herb.c)
+(void) set_decay_time(int i)
+/*
+ * Function name: set_decay_time
+ * Description:	  Set how long time it takes for the herb to decay.
+ *                OBSOLETE! Retained only for backward compatibility.
+ * Argumetns:	  i - the time (in seconds)
+ */

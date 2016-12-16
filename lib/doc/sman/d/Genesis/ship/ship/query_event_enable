@@ -1,0 +1,8 @@
+824:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public int) query_event_enable()
+/*
+ * Function name: query_event_enable
+ * Description	: get the event enable flag
+ * Returns	: 0 - events disabled
+ *		  1 - events enabled
+ */

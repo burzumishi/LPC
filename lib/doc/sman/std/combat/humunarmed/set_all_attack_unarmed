@@ -1,0 +1,8 @@
+174:/std/combat/humunarmed.c (/std/combat/humunarmed.c)
+(public nomask void) set_all_attack_unarmed(int hit, int pen)
+/*
+ * Function name: set_all_attack_unarmed
+ * Description:   Set up all unarmed attack basics
+ * Arguments:     hit - the hit value
+ * 		  pen - the pen value
+ */

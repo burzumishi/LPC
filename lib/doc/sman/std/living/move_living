@@ -1,0 +1,24 @@
+36:/std/living/move.c (/std/living.c)
+(public varargs int) move_living(string how, mixed to_dest, int dont_follow, int no_glance)
+/*
+ * Function name: move_living
+ * Description:   Posts a move command for a living object somewhere. If you
+ *                have a special exit like 'climb tree' you might want to
+ *                use set_dircmd() and set it to 'tree' in the room to allow
+ *                teammembers to follow their leader.
+ * Arguments:     how:      The direction of travel, like "north".
+ *                          "X" for teleportation, team does not follow.
+ *                          "M" if you write leave and arrive messages yourself.
+ *                to_dest:  Destination
+ *                dont_follow: A flag to indicate group shall not follow this
+ *                          move if this_object() is leader
+ *                no_glance: Don't look after move.
+ *
+ * Returns:       Result code of move:
+ *                      0: Success.
+ *
+ *                      3: Can't take it out of it's container.
+ *                      4: The object can't be inserted into bags etc.
+ *                      5: The destination doesn't allow insertions of objects.
+ *                      7: Other (Error message printed inside move() func)
+ */

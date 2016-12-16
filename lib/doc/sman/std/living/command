@@ -1,0 +1,12 @@
+182:/std/living.c (/std/living.c)
+(public int) command(string cmd)
+/*
+ * Function name: command
+ * Description  : Makes the living object execute a command, as if it was typed
+ *                on the command line. For players, this function is redefined
+ *                in /std/player_sec.c.
+ * Arguments    : string cmd - the command with arguments to perform. For players
+ *                    this should always be prefixed with a "$".
+ * Returns      : int - the amount of eval-cost ticks if the command was
+ *                    successful, or 0 if unsuccessfull.
+ */

@@ -1,0 +1,14 @@
+133:/sys/global/math.c (/sys/global/math.c)
+(public nomask int) name_to_random(string name, int seed, int range)
+/*
+ * Function name: name_to_random
+ * Called from  : NAME_TO_RANDOM(name, seed, range) in <math.h>
+ * Description  : With this function, each combination of name, seed and
+ *                range will return the same value each time you call it.
+ *                This way, for quests or other hints, the same player
+ *                gets the same value each time.
+ * Arguments    : string name  - the lower case name of the player
+ *                int    seed  - 
+ *                int    range - the range to compute the number in
+ * Returns      : int          - the randomized value.
+ */

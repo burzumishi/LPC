@@ -1,0 +1,9 @@
+19:/std/room/description.c (/std/room.c)
+(varargs public void) add_my_desc(string str, object cobj)
+/*
+ * Function name: add_my_desc
+ * Description:   Add a description printed after the normal long description.
+ * Arguments:     str: Description as a string
+ *                cobj: Object responsible for the description
+ *                      Default: previous_object()
+ */

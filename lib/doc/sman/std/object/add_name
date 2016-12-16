@@ -1,0 +1,14 @@
+1273:/std/object.c (/std/object.c)
+(varargs void) add_name(mixed name, int noplural)
+/*
+ * Function name: add_name
+ * Description  : Adds a name to the object ad the end of list of names.
+ *
+ * Notice       : Calling add_name() will automatically add the plural name
+ *                unless the argument 'noplural' is set.
+ *
+ * Arguments    : mixed name - accepts both a string or an array of string
+ *                    with the name(s) to add as name.
+ *                int noplural - if true, then no plural name(s) will be added
+ *                    for these names.
+ */

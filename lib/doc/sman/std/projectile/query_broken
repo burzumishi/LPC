@@ -1,0 +1,7 @@
+113:/std/projectile.c (/std/projectile.c)
+(public int) query_broken()
+/*
+ * Function name: query_broken
+ * Description  : Gives information of the broken status of this projectile.
+ * Returns      : 1 - Projectile broken. 0 - Projectile whole.
+ */

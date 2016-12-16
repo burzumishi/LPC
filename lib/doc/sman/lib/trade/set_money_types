@@ -1,0 +1,7 @@
+280:/lib/trade.c (/lib/trade.c)
+(void) set_money_types(string *a)
+/*
+ * Function name: set_money_types
+ * Description:   Set what types of money we trade with
+ * Arguments:     a - The array of types (string)
+ */

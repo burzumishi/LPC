@@ -1,0 +1,9 @@
+2832:/secure/master/fob.c (/secure/master.c)
+(int) add_team_member(string team, string member)
+/*
+ * Function name: add_team_member
+ * Description  : Add a meber to a team.
+ * Arguments    : string team - the team.
+ *                string member - the member to add.
+ * Returns      : 1/0 - success/failure.
+ */

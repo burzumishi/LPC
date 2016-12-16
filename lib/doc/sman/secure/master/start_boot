@@ -1,0 +1,9 @@
+1453:/secure/master.c (/secure/master.c)
+(static string *) start_boot(int load_empty)
+/*
+ * Function name: start_boot()
+ * Description:   Loads master data, including list of all domains and
+ *                wizards. Then make a list of preload stuff
+ * Arguments:     load_empty: If true start_boot() does no preloading
+ * Return:        List of files to preload
+ */

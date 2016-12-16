@@ -1,0 +1,10 @@
+404:/std/bow.c (/std/bow.c)
+(public string) load_desc()
+/*
+ * Function name: load_desc
+ * Description  : Returns an extra description of the loaded weapon.
+ *                This is meant to be overloaded in subclasses for
+ *                a prettier description.
+ *
+ * Returns      : string - Extra description of the load status.
+ */

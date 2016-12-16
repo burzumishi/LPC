@@ -1,0 +1,11 @@
+142:/secure/master/guild.c (/secure/master.c)
+(static void) set_guild_style(string short_name, string style)
+/*
+ * Function name: set_guild_style
+ * Description  : This will set the style for a guild that already exists.
+ *                That it exists is not checked here, so that must be done
+ *                prior to calling this function.
+ * Arguments    : string short_name - the short name of the guild. Must be
+ *                    lower case since it is an internal call.
+ *                string style - the style of the guild.
+ */

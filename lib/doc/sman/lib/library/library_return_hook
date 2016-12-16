@@ -1,0 +1,8 @@
+493:/lib/library.c (/lib/library.c)
+(public void) library_return_hook(object book)
+/*
+ * Function name: library_return_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user returns a book
+ * Arguments:     object book - the book being returned
+ */

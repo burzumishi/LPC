@@ -1,0 +1,9 @@
+513:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_hook_cant_train(string skill, int to_lev)
+/*
+ * Function name: sk_hook_cant_train
+ * Description  : Player can't train that skill that high for some reason.
+ * Arguments    : string skill - the skill the player tries to improve.
+ *                int to_lev - the level to wich the player wanted training.
+ * Returns      : int 0 - as always with notify_fail.
+ */

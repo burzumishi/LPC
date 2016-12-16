@@ -1,0 +1,8 @@
+287:/lib/library.c (/lib/library.c)
+(public int) library_no_books_hook()
+/*
+ * Function name: library_no_books_hook
+ * Description:   Redefine this to alter the message given when commands
+ *                fail because the library is empty.
+ * Returns:       1/0
+ */

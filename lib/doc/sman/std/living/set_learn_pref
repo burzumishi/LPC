@@ -1,0 +1,8 @@
+1571:/std/living/savevars.c (/std/living.c)
+(void) set_learn_pref(int *pref_arr)
+/*
+ * Function name:   set_learn_pref
+ * Description:     Calculate learning preferences summing up to 100
+ *                  from an array containing arbitrary numbers.
+ * Arguments:       pref_arr: An array with relative preference settings
+ */

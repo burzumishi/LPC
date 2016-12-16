@@ -1,0 +1,8 @@
+230:/std/guild/guild_occ_sh.c (/std/guild/guild_occ_sh.c)
+(public nomask void) autoload_shadow(string str)
+/*
+ * Function name: autoload_shadow
+ * Description:   Called by the autoloading routine in /std/player_sec
+ *		  to ensure autoloading of the shadow.
+ * Arguments:	  str - the string holding type, style and name of the guild
+ */

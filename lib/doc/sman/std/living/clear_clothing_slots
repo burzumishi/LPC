@@ -1,0 +1,7 @@
+80:/std/living/wear.c (/std/living.c)
+(static void) clear_clothing_slots(object ob)
+/* 
+ * Function name: clear_clothing_slots
+ * Description:   remove a piece of clothing from the slots where it is worn
+ * Arguments:     the clothing object being removed
+ */

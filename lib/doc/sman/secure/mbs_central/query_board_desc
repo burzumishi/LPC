@@ -1,0 +1,8 @@
+1071:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask string) query_board_desc(string bpath)
+/*
+ * Function name: query_board_desc
+ * Description:	  Return the board description if it exists
+ * Arguments:	  bpath - the board save path.
+ * Returns:	  Board desc entry.
+ */

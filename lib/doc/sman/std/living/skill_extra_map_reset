@@ -1,0 +1,6 @@
+113:/std/living/savevars.c (/std/living.c)
+(private void) skill_extra_map_reset()
+/*
+ * Function name: skill_extra_map_reset
+ * Description  : Reset the skill_extra_map at initialization.
+ */

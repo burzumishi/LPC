@@ -1,0 +1,10 @@
+2067:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask mixed) cb_query_enemy(int arg)
+/*
+ * Function name: cb_query_enemy
+ * Description  : Find out about recorded enemies. To find out the currently
+ *                fought enemy, use [cb_]query_attack() instead.
+ * Arguments    : int arg - Enemy number in the list (-1 == all enemies)
+ * Returns      : object  - the requested enemy (arg >= 0)
+ *                object* - all our enemies (arg == -1)
+ */

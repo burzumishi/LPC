@@ -1,0 +1,8 @@
+76:/lib/holdable_item.c (/lib/holdable_item.c)
+(public int *) query_slots()
+/*
+ * Function name: query_slots
+ * Description  : When held, this will return an array with the actual slot
+ *                numbers used for this item.
+ * Returns      : int * - the actual slots, i.e. ({ TS_LEFT, TS_RIGHT });
+ */

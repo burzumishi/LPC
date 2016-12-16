@@ -1,0 +1,6 @@
+71:/std/potion.c (/std/potion.c)
+(void) init()
+/*
+ * Function name: init
+ * Description:   adds the quaff-action to the player
+ */

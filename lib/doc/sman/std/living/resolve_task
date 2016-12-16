@@ -1,0 +1,14 @@
+162:/std/living/tasks.c (/std/living.c)
+(nomask varargs int) resolve_task(int difficulty, mixed *skill_list,      object opponent, mixed * opp_skill_list)
+/*
+ * Function:    resolve_task
+ * Description: Determines the success of a task
+ * Arguments:   'difficulty' is a positive integer, the difficulty of the task
+ *              'skill_list' is a list describing the skills and stats to
+ *              use in determining success, for the living attempting the task.
+ *              'opponent' is the living object which the task works against,
+ *              in a competitive task.
+ *              'opp_skill_list' describes the skills the opponent uses.
+ * Returns:     The percentage of the difficulty that was achieved.
+ *              Negative implies failure, positive implies success.
+ */

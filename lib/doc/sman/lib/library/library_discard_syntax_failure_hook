@@ -1,0 +1,9 @@
+699:/lib/library.c (/lib/library.c)
+(public int) library_discard_syntax_failure_hook(string str)
+/*
+ * Function name: library_discard_syntax_failure_hook
+ * Description:   Redefine this to alter the message given when incorrect
+ *                syntax is used for the "discard" command
+ * Arguments:     string str - the arguments to the "discard" command
+ * Returns:       1/0
+ */

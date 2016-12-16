@@ -1,0 +1,9 @@
+591:/secure/login.c (/secure/login.c)
+(static void) confirm_use_name(string str)
+/*
+ * Function name: confirm_use_name
+ * Description  : When a player first connects, we give him a little message
+ *                about the user of proper names, and then ask him to confirm
+ *                the use of the name.
+ * Arguments    : string str - the entered text.
+ */

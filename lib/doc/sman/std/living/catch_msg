@@ -1,0 +1,6 @@
+256:/std/living.c (/std/living.c)
+(public void ) catch_msg(mixed str, object from_player = 0)
+/*
+ * Function name: catch_msg
+ * Description  : See catch_vbfc.
+ */

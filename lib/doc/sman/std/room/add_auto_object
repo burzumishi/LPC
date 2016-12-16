@@ -1,0 +1,17 @@
+69:/std/room/objects.c (/std/room.c)
+(varargs void) add_auto_object(string file, int count = 1, function condition = 0,     function init_call = 0)
+/*
+ * Function Name: add_auto_object
+ * Description  : Add an object to the list of objects that should
+ *                be automatically reset.
+ * 
+ *                NOTE: In most cases you don't want this function, you wan't
+ *                      the interfaces add_npc or add_object
+ *                      
+ * Arguments    : string file - The file to clone
+ *                int count   - How many should be cloned.
+ *                function condition - Whas is the condition for the cloning
+ *                                     to take place.
+ *                function init - Can be a set to a function to be called in
+ *                                the newly cloned object.
+ */

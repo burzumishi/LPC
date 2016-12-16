@@ -1,0 +1,8 @@
+1194:/secure/simul_efun.c (/secure/simul_efun.c)
+(mixed) applyv(function f, mixed *v)
+/*
+ * Function name: apply_array
+ * Description:   apply a function to an array of arguments
+ * Arguments:     f: the function, v: the array
+ * Returns:       f(v1,...vn) if v=({v1,...vn})
+ */

@@ -1,0 +1,6 @@
+41:/std/rope.c (/std/rope.c)
+(void) create_rope()
+/*
+ * Function name: create_rope
+ * description:   Create the rope
+ */

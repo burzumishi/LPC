@@ -1,0 +1,8 @@
+61:/std/living/tool.c (/std/living.c)
+(nomask int) empty_slot(object tool)
+/*
+ * Function name: empty_slot
+ * Description:   Clear a given item's slots and move it out of its subloc
+ * Arguments:     object tool - the object to look for
+ * Returns:       1/0 - slots remove/slots not removed
+ */

@@ -1,0 +1,9 @@
+49:/secure/master/player.c (/secure/master.c)
+(public string) query_find_first(string name)
+/*
+ * Function name: query_find_first
+ * Description  : Find out who is the first of the second.
+ * Arguments    : string name - the lower case name of the second.
+ * Returns      : string - the first associated with the second. Note this
+ *                    may be the second itself is it really is the first.
+ */

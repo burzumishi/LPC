@@ -1,0 +1,7 @@
+94:/std/scroll.c (/std/scroll.c)
+(public void public void) set_file(string file)
+/*
+ * Function name: set_file
+ * Description  : Set the file to list when player reads this.
+ * Arguments    : string file - the filename.
+ */

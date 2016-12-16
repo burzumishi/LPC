@@ -1,0 +1,13 @@
+1051:/std/living/savevars.c (/std/living.c)
+(public void) add_exp(int exp, int battle)
+/*
+ * Function name: add_exp
+ * Description  : OBSOLETE FUNCTION
+ *                This function adds an amount of experience to the living. It
+ *                should not be used anymore. Instead, use add_exp_combat() to
+ *                add combat experience and add_exp_quest() to add quest
+ *                experience!
+ * Arguments    : int exp    - the amount of experience to be added.
+ *                int battle - true if the experience was gained in battle, else
+ *                             add quest experience.
+ */

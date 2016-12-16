@@ -1,0 +1,7 @@
+198:/std/corpse.c (/std/corpse.c)
+(string) query_pstate_desc()
+/*
+ * Function name: query_pstate_desc
+ * Descritpion  : Returns the present plural state description.
+ * Returns      : string - the plural state description.
+ */

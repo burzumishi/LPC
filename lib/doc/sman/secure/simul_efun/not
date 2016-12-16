@@ -1,0 +1,8 @@
+1258:/secure/simul_efun.c (/secure/simul_efun.c)
+(int ) not(mixed x)
+/*
+ * Function name: not
+ * Description:   returns the locigal inverse of the argument
+ * Arguments:     x
+ * Returns:       !x
+ */

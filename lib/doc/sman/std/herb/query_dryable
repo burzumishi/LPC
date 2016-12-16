@@ -1,0 +1,7 @@
+147:/std/herb.c (/std/herb.c)
+(int) query_dryable()
+/*
+ * Function name: query_dryable
+ * Description:   Is the function dryable?
+ * Returns:       1 if it is dryable
+ */

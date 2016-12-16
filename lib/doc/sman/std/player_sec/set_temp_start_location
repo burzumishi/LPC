@@ -1,0 +1,14 @@
+582:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) set_temp_start_location(string str)
+/*
+ * Function name:   set_temp_start_location
+ * Description:     Sets a new temporary startup location for a player. The
+ *                  next time the player logs in, she will enter the game at
+ *                  the set temporary location, which is then discarded. The
+ *                  temporary startup-location must have been approved of by
+ *                  an archwizard or keeper.
+ *                  The path must be _without_ the trailing .c of the filename.
+ * Arguments:       str: the startup room's filename string
+ * Returns:         0 if the string was not an accepted location,
+ *                  1 when set.
+ */

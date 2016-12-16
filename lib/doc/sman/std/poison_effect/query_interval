@@ -1,0 +1,8 @@
+286:/std/poison_effect.c (/std/poison_effect.c)
+(public int ) query_interval()
+/*
+ * Function name: query_interval
+ * Description  : This returns the average interval between damage
+ *                applications, in seconds.
+ * Returns      : int - the interval
+ */

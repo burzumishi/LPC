@@ -1,0 +1,6 @@
+102:/std/resistance.c (/std/resistance.c)
+(void) set_res_type(string str)
+/*
+ * Function name: set_res_type
+ * Description:   Set the type of resistance of this object
+ */

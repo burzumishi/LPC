@@ -1,0 +1,7 @@
+1374:/std/combat/cbase.c (/std/combat/cbase.c)
+(public int) cb_wear_arm(object arm)
+/*
+ * Function name: cb_wear_arm
+ * Description:   Wear an armour
+ * Arguments:     arm - The armour.
+ */

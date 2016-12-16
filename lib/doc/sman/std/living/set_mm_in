@@ -1,0 +1,11 @@
+173:/std/living/savevars.c (/std/living.c)
+(public void) set_mm_in(string m)
+/*
+ * Function name: set_mm_in
+ * Description  : Set the magical (teleportation) entrance message of this
+ *                living. This text should fit into "<name> <mm-in>." so there
+ *                should be a closing period or exclamation mark to this
+ *                message.
+ * Arguments    : string m - the message string.
+ * Example      : "falls out of the sky with his mouth full of spam."
+ */

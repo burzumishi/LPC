@@ -1,0 +1,7 @@
+279:/std/corpse.c (/std/corpse.c)
+(void) remove_object()
+/*
+ * Function name: remove_object
+ * Description  : When the corpse is destructed, move the inventory into its
+ *                environment first.
+ */

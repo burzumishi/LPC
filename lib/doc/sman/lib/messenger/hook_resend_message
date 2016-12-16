@@ -1,0 +1,7 @@
+673:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_resend_message()
+/*
+ * Function:    hook_resend_message
+ * Description: Hook that gets called to display the message of the
+ *              messenger being asked to re-deliver after a failed attempt.
+ */

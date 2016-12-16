@@ -1,0 +1,12 @@
+1869:/secure/master.c (/secure/master.c)
+(void) loaded_object(object lob, object ob)
+/*
+ * Function name: loaded_object
+ * Description  : This function is called when an object is loaded into
+ *                memory by another object. It tests whether it was valid
+ *                to load the object and sets the authorisation variables
+ *                in the loaded object. If the load was not valid, throw()
+ *                will terminate the execution.
+ * Arguments    : object lob - the loading object.
+ *                object ob  - the loaded object.
+ */

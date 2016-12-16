@@ -1,0 +1,8 @@
+108:/std/room/description.c (/std/room.c)
+(public mixed) query_desc()
+/*
+ * Function name:    query_desc
+ * Description:      Gives a list of all added descriptions to this room
+ * Returns:          Array on the form:
+ *                     desc1, obj1, desc2, obj2, ..... descN, objN
+ */

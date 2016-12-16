@@ -1,0 +1,8 @@
+115:/secure/finger_player.c (/secure/finger_player.c)
+(nomask public int) query_finger_player()
+/*
+ * Function name: query_finger_player
+ * Description  : This function identifies this object as a finger-player
+ *                object.
+ * Returns      : int 1 - always.
+ */

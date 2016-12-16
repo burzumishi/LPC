@@ -1,0 +1,16 @@
+81:/std/living/stats.c (/std/living.c)
+(varargs int) set_base_stat(int stat, int value, int deviation = 0)
+/*
+ * Function name: set_base_stat
+ * Description  : Sets the value of a specific stat to a new value. It is
+ *                possible to give a deviation from the basic value to add
+ *                randomness.
+ * Arguments    : int stat - The stat-number as defined in <ss_types.h>.
+ *                int value - the new value to set the stat to.
+ *                int deviation - The deviation in percentage from the value
+ *                    that you set which will be randomly applied per stat.
+ *                    A stat value of 50 and a deviation of 10% leads to a
+ *                    stat value in the range 45-55. Maximum deviation: 50%
+ *                    Default: 0%
+ * Returns      : int - the value of the stat, or 0 if failed.
+ */

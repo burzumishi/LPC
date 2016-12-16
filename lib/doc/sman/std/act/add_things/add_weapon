@@ -1,0 +1,8 @@
+34:/std/act/add_things.c (/std/act/add_things.c)
+(public object) add_weapon(string file)
+/*
+ * Function name:  add_weapon
+ * Description:    clones a weapon to the monster and makes the monster wield it.
+ * Arguments:      filename:  The filename of the weapon. [string]
+ * Returns:        the weapon
+ */

@@ -1,0 +1,9 @@
+73:/std/living/drink_eat.c (/std/living.c)
+(public int) drink_alco(int strength, int ask)
+/*
+ * Function name: 	drink_alco
+ * Description:   	Drinks alcohol of a certain potency
+ * Arguments:		strength: The strength of the drink
+ *			ask: True if we only want to know IF we can drink this
+ * Returns:		True if successfully drunk.
+ */

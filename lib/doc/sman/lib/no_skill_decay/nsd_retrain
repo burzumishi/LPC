@@ -1,0 +1,10 @@
+252:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(nomask static int) nsd_retrain(string str)
+/*
+ * Function name: nsd_retrain
+ * Descritpion  : This function is the actual retrain command that is called
+ *                when a player wants to retrain his skill before it decays
+ *                too much.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

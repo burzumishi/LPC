@@ -1,0 +1,7 @@
+407:/lib/herb_support.c (/lib/herb_support.c)
+(string) query_poison_file()
+/*
+ * Function name: query_poison_file
+ * Description:   Query the poison file (if any)
+ * Returns:       The file name if set
+ */

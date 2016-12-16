@@ -1,0 +1,7 @@
+153:/std/guild/guild_occ_sh.c (/std/guild/guild_occ_sh.c)
+(public nomask int) query_guild_member_occ()
+/*
+ * Function name: query_guild_member_occ
+ * Description:   This is an occupational guild
+ * Returns:	  1
+ */

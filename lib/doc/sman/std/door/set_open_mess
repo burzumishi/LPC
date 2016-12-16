@@ -1,0 +1,6 @@
+1002:/std/door.c (/std/door.c)
+(void) set_open_mess(string *mess)
+/*
+ * Function name: set_open_mess
+ * Description:   Set the message to appear when door opens
+ */

@@ -1,0 +1,14 @@
+459:/std/poison_effect.c (/std/poison_effect.c)
+(public void) special_damage(int damage)
+/*
+ * Function name: special_damage
+ * Description  : This function is called for any non-standard values of the
+ *                poison.  This function should be redefined when you want to
+ *                get a different damage type.
+ *
+ *                To get special damages in simply use POISON_USER_DEF as the
+ *                poison type, followed by the damage value. For example:
+ *                    ({ POISON_USER_DEF, 15 })
+ *
+ * Arguments    : int damage - the damage value for the user defined damage.
+ */

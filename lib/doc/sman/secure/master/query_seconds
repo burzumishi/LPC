@@ -1,0 +1,8 @@
+89:/secure/master/player.c (/secure/master.c)
+(public string *) query_seconds(string name)
+/*
+ * Function name: query_seconds
+ * Description  : Find out the names of the seconds of a certain player.
+ * Arguments    : string name - the lower case name of the player.
+ * Returns      : string *names - the names of the seconds, 0 means no access.
+ */

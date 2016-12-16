@@ -1,0 +1,7 @@
+144:/secure/purge.c (/secure/purge.c)
+(static nomask string) player_age()
+/*
+ * Function name: player_age
+ * Description  : Returns the age of the player in the largest denomination.
+ * Returns      : string - the age.
+ */

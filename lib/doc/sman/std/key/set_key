@@ -1,0 +1,7 @@
+69:/std/key.c (/std/key.c)
+(public void) set_key(mixed keyval)
+/*
+ * Function name: set_key
+ * Description  : Sets the key for the lock to use.
+ * Arguments    : mixed keyval - the key value.
+ */

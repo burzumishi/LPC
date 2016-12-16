@@ -1,0 +1,8 @@
+36:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(public void) finger_info()
+/*
+ * Function name: finger_info
+ * Description  : This function is called when this player is fingered. It
+ *                prints special information and mail information about
+ *                this player.
+ */

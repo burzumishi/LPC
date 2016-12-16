@@ -1,0 +1,5 @@
+147:/cmd/live/speech.c (/cmd/live/speech.c)
+(int) asay(string str)
+/* **************************************************************************
+ * ASay - Say something using an adverb.
+ */

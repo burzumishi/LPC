@@ -1,0 +1,7 @@
+299:/lib/pub.c (/lib/pub.c)
+(mixed) query_drink_id()
+/*
+ * Function name: query_drink_id
+ * Description:   Query the drink id:s
+ * Returns:	  The array holding all drink id:s
+ */

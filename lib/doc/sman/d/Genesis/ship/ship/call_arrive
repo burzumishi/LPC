@@ -1,0 +1,7 @@
+697:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(void) call_arrive(mixed where_i_arrive)
+/*
+ * Function name: call_arrive
+ * Description	: call ship_arrived() function in misc. attached objects
+ * Arguments	: where_i_arrive - the room we just arrived in
+ */

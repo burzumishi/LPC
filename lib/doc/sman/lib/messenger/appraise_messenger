@@ -1,0 +1,11 @@
+581:/lib/messenger.c (/lib/messenger.c)
+(public void) appraise_messenger(int num)
+/*
+ * Function name: appraise_messenger
+ * Description  : Called when a person appraises the messenger. It gives
+ *                information about the available commands. Note that if
+ *                you do not inherit /std/messenger.c then you have to
+ *                mask appraise_object() yourself and call this routine
+ *                from it as described in the file header.
+ * Arguments    : int num - the appraise semi-random number (unused here).
+ */

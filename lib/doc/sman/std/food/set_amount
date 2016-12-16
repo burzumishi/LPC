@@ -1,0 +1,7 @@
+92:/std/food.c (/std/food.c)
+(public void) set_amount(int a)
+/*
+ * Function name:       set_amount
+ * Description:         sets the amount of food in this food (in grams)
+ * Arguments:           a: The amount of food
+ */

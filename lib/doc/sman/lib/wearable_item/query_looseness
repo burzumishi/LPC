@@ -1,0 +1,6 @@
+147:/lib/wearable_item.c (/lib/wearable_item.c)
+(public int) query_looseness()
+/*
+ * Function name: query_looseness
+ * Returns:       The looseness of this item
+ */

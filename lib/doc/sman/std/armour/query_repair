@@ -1,0 +1,8 @@
+465:/std/armour.c (/std/armour.c)
+(int) query_repair()
+/*
+ * Function name: query_repair
+ * Description:   How many times this weapon has been repaired. Actual ac is:
+ *                      base_ac - condition + repairs
+ * Returns:       How many times...
+ */

@@ -1,0 +1,10 @@
+421:/std/board.c (/std/board.c)
+(private nomask void) load_headers()
+/*
+ * Function name: load_headers
+ * Description  : Load the headers when the board is created. This is done
+ *                in a little alarm since it is also possible to configure
+ *                the board by cloning it and then calling the set-functions
+ *                externally. This function also sets the fuse that makes
+ *                it impossible to alter the board-specific properties.
+ */

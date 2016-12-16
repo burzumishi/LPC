@@ -1,0 +1,11 @@
+283:/obj/possob.c (/obj/possob.c)
+(public string) modify_command(string cmd)
+/*
+ * Function name: modify_command
+ * Description  : This function modifies the command the possessed living
+ *                enters before it is executed. Normally this would resolve
+ *                aliases et cetera, but we just return the command as it
+ *                was entered.
+ * Arguments    : string cmd - the command the player entered.
+ * Returns      : string - the same as the argument 'cmd'.
+ */

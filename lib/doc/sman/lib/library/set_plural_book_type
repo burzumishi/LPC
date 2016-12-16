@@ -1,0 +1,9 @@
+168:/lib/library.c (/lib/library.c)
+(public void) set_plural_book_type(mixed types)
+/*
+ * Function name: set_plural_book_type
+ * Description:   Set the names to be used to identify multiple books.
+ *                The argument to this function is passed directory to
+ *                the set_pname function on each book instance.
+ * Arguments:     mixed types - a string name or array of string names
+ */

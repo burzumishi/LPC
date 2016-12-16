@@ -1,0 +1,6 @@
+150:/secure/application_player.c (/secure/application_player.c)
+(static void) quit()
+/*
+ * Function name: quit
+ * Description  : Remove the object from memory when the player aborts.
+ */

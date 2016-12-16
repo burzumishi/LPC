@@ -1,0 +1,7 @@
+784:/std/weapon.c (/std/weapon.c)
+(int) query_likely_corr()
+/*
+ * Function name: query_likely_corr
+ * Description:   Query how likely the weapon will corrode, use it to test
+ *                if weapon survived your rustmonster or acid pool :)
+ */

@@ -1,0 +1,12 @@
+211:/sys/global/math.c (/sys/global/math.c)
+(int) exp_on_kill(int ka, int va)
+/*
+ * Function name: exp_on_kill
+ * Called from  : F_EXP_ON_KILL(k_av, v_av) in <formulas.h>
+ * Description  : This is the amount of experience a person gets when he kills
+ *                another living. The amount is dependant on both the size of
+ *                the killer and that of the target.
+ * Arguments    : int ka - the average stat of the killer.
+ *                int va - the average stat of the victim.
+ * Returns      : int - the experience.
+ */

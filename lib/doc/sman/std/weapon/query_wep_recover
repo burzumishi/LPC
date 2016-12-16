@@ -1,0 +1,7 @@
+1389:/std/weapon.c (/std/weapon.c)
+(string) query_wep_recover()
+/*
+ * Function name: query_wep_recover
+ * Description  : Return the recover strings for changing weapon variables.
+ * Returns      : string - a recover string.
+ */

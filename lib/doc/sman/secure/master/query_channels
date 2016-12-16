@@ -1,0 +1,9 @@
+2983:/secure/master/fob.c (/secure/master.c)
+(mapping) query_channels()
+/*
+ * Function name: query_channels
+ * Description  : This function is used by the apprentice commandsoul to
+ *                retrieve the channels from disk. This is done since they
+ *                are stored in a safe place.
+ * Returns      : mapping - the mapping with the channels.
+ */

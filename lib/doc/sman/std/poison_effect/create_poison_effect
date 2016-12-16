@@ -1,0 +1,7 @@
+81:/std/poison_effect.c (/std/poison_effect.c)
+(public void) create_poison_effect()
+/*
+ * Function name: create_poison_effect
+ * Description  : The normal create for the poison_effect. Redefine this
+ *                function if you want to create your own poison.
+ */

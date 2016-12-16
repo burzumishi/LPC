@@ -1,0 +1,7 @@
+108:/lib/bank.c (/lib/bank.c)
+(void) bank_hook_pay(string text)
+/*
+ * Function name: bank_hook_pay
+ * Description:   Change this function if you want a pay message of your own
+ * Argument:	  text - The text describing what coins we payed
+ */

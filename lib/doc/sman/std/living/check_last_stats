@@ -1,0 +1,8 @@
+368:/std/living/stats.c (/std/living.c)
+(public void) check_last_stats()
+/*
+ * Function name: check_last_stats
+ * Description  : After experience has been added, check whether the stats
+ *                of the player have changed. If so, inform the player of
+ *                his stat increase.
+ */

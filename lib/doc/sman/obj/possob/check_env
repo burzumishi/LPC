@@ -1,0 +1,8 @@
+166:/obj/possob.c (/obj/possob.c)
+(static void) check_env()
+/*
+ * Function name: check_env
+ * Description  : Periodically check that the object that is possessed
+ *                hasn't been destructed or the possession object moved.
+ *                If this happens, stop possessing.
+ */

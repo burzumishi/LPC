@@ -1,0 +1,8 @@
+1320:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask int) try_load()
+/*
+ * Function name: try_load
+ * Description  : Tries to load the launch_weapon with a projectile from
+ *                the archer's inventory.
+ * Returns      : int 1 - Success. 0 - Failed.
+ */

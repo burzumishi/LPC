@@ -1,0 +1,8 @@
+1546:/std/living/savevars.c (/std/living.c)
+(int) query_guild_pref_total()
+/*
+ * Function name: query_guild_pref_total
+ * Description  : This function returns the total percentage of experience
+ *                that is taxed (i.e. that goes into the guild stats).
+ * Returns      : int - the percentage of taxed experience.
+ */

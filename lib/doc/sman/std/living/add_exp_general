@@ -1,0 +1,9 @@
+956:/std/living/savevars.c (/std/living.c)
+(public void) add_exp_general(int exp)
+/*
+ * Function name: add_exp_general
+ * Description  : This function should be called to add general experience
+ *                to the living. To remove general experience, add a negative
+ *                amount.
+ * Arguments    : int exp - the amount of general experience to add.
+ */

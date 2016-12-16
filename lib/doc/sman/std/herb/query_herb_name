@@ -1,0 +1,7 @@
+222:/std/herb.c (/std/herb.c)
+(string) query_herb_name()
+/*
+ * Function name: query_herb_name
+ * Description:   What is the true name of the herb
+ * Returns:	  The name of the herb
+ */

@@ -1,0 +1,10 @@
+476:/std/poison_effect.c (/std/poison_effect.c)
+(public nomask void) damage_player()
+/*
+ * Function name: damage_player
+ * Description:   This function actually carries out the damage on the
+ *                player.  It then sets a new damage_player set_alarm.
+ *                This function provides stat reduction, hp damage, fatiguing,
+ *                and mana reduction. special_damage may be redefined to
+ *                provide other types of damage.
+ */

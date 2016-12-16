@@ -1,0 +1,7 @@
+48:/secure/adjust_fob.c (/secure/adjust_fob.c)
+(nomask void) adjust_fob()
+/*
+ * Function name: adjust_fob
+ * Description  : Call this function to convert the relevant data structures
+ *                in KEEPERSAVE.
+ */

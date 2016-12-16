@@ -1,0 +1,9 @@
+167:/std/scroll.c (/std/scroll.c)
+(static int) read_scroll(string str)
+/*
+ * Function name: read_scroll
+ * Description  : This function is called when the player wants to read
+ *                the scroll.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

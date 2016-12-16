@@ -1,0 +1,7 @@
+640:/std/board.c (/std/board.c)
+(public nomask int) query_num_messages()
+/*
+ * Function name: query_num_messages
+ * Description  : Find a return the number of messages on this board.
+ * Returns      : int - the number of messages on the board.
+ */

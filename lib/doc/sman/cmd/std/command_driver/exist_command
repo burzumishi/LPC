@@ -1,0 +1,11 @@
+67:/cmd/std/command_driver.c (/cmd/std/command_driver.c)
+(nomask public int) exist_command(string verb)
+/* 
+ * Function name: exist_command
+ * Description  : Check if a command exists. Actually this function returns
+ *                an integer value that can be larger than 1 too, but since
+ *                the result is only dereferenced as true/false, that is
+ *                not a problem. Changing the value to a strict 1/0 would
+ *                only cost time.
+ * Returns      : int - 1/0 depending on success.
+ */

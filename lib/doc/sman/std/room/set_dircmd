@@ -1,0 +1,9 @@
+67:/std/room/move.c (/std/room.c)
+(public void) set_dircmd(string rest)
+/*
+ * Function name: set_dircmd
+ * Description:   Set the rest of the command given after move verb
+ *		  This is mainly to be used from own move_living() commands
+ *		  where you want a team to be able to follow their leader.
+ * Arguments:     rest - The rest of the move command
+ */

@@ -1,0 +1,10 @@
+32:/lib/commands.c (/lib/commands.c)
+(public string) desc_vbfc(object ob)
+/*
+ * Function name: desc_vbfc
+ * Description  : This function takes an object and returns the macro QTNAME
+ *                applied to it. We need this map function because it is not
+ *                possible to treat macros like functionpointers.
+ * Arguments    : object ob - the living object.
+ * Returns      : string - the macro QTNAME applied to the object.
+ */

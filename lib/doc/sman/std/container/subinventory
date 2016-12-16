@@ -1,0 +1,7 @@
+786:/std/container.c (/std/container.c)
+(public object *) subinventory(mixed sloc)
+/* 
+ * Function name: subinventory
+ * Description:   Give the subinventory for a specific sublocation
+ * Arguments:     sloc: sublocation
+ */

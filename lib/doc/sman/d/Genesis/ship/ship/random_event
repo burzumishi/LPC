@@ -1,0 +1,9 @@
+236:/d/Genesis/ship/ship.c (/d/Genesis/ship/ship.c)
+(int) random_event()
+/*
+ * Function name: random_event
+ * Description  : Check if a random event should occur. If one is called,
+ *		  alarms are disabled.
+ * Returns	: 0 - no event occured
+ *		  1 - event occured
+ */

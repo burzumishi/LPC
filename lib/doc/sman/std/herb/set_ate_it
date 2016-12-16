@@ -1,0 +1,7 @@
+333:/std/herb.c (/std/herb.c)
+(void) set_ate_it()
+/*
+ * Function name:       set_ate_it
+ * Description:         This is called if the herb is eaten and the 
+ *                      ingest_verb != "eat"
+ */

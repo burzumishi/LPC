@@ -1,0 +1,7 @@
+2024:/std/object.c (/std/object.c)
+(public string) query_pronoun()
+/*
+ * Function name: query_pronoun
+ * Description  : All nonlivings have pronoun 'it'.
+ * Returns      : string "it" - always.
+ */

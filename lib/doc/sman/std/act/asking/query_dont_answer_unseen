@@ -1,0 +1,7 @@
+31:/std/act/asking.c (/std/act/asking.c)
+(public int) query_dont_answer_unseen()
+/*
+ * Function name: query_dont_answer_unseen
+ * Description:   Ask about the state of the dont_answer_unseen flag.
+ * Returns:       int - the flag
+ */

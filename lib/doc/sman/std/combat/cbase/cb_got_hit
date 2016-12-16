@@ -1,0 +1,15 @@
+639:/std/combat/cbase.c (/std/combat/cbase.c)
+(public varargs void) cb_got_hit(int hid, int ph, object att, int aid, int dt, int dam)
+/*
+ * Function name: cb_got_hit
+ * Description:   Tells us that we got hit. It can be used to reduce the ac
+ *                for a given hitlocation for each hit. This is supposed to be
+ *                replaced by a more intelligent routine in creature and
+ *                humanoid combat. (called from cb_hit_me)
+ * Arguments:     hid:   The hitloc id
+ *                ph:    The %hurt
+ *                att:   Attacker
+ *                aid:   The attack id of the attacker
+ *                dt:    The damagetype
+ *                dam:   The number of hitpoints taken
+ */

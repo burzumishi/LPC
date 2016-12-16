@@ -1,0 +1,9 @@
+431:/std/weapon.c (/std/weapon.c)
+(void) set_hit(int class)
+/*
+ * Function name: set_hit
+ * Description  : Set the to hit value in the weapon. This relates to how easy
+ *                it is to make a hit with this weapon.
+ *                When the lock has been set, no changes are allowed anymore.
+ * Arguments    : int class - the hit value.
+ */

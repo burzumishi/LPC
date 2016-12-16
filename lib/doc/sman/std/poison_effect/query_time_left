@@ -1,0 +1,7 @@
+251:/std/poison_effect.c (/std/poison_effect.c)
+(public int) query_time_left()
+/*
+ * Function name: query_time_left
+ * Description  : Returns the time left in the poison before it will expire.
+ * Returns      : int - the time in seconds.
+ */

@@ -1,0 +1,8 @@
+471:/std/player_sec.c (/std/player_sec.c)
+(nomask static void) load_recover_files()
+/*
+ * Function name: load_recover_files
+ * Description  : Loads all recoverable objects. We use an alarm to make sure
+ *                that people always get their stuff, even when they carry too
+ *                much for their own good.
+ */

@@ -1,0 +1,9 @@
+113:/lib/pub.c (/lib/pub.c)
+(void) pub_hook_player_buys(object ob, int price)
+/*
+ * Function name: pay_hook_player_buys
+ * Description:   A hook to redefine if you want own message when player
+ *		  gets his/hers order.
+ * Arguments:     ob - The object player ordered
+ *		  price - The price the player payed for the object
+ */

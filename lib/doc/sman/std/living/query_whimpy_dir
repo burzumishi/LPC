@@ -1,0 +1,7 @@
+519:/std/living/combat.c (/std/living.c)
+(public string) query_whimpy_dir()
+/*
+ * Function name:   query_whimpy_dir
+ * Description:     Gives the current favourite whimpy escape direction
+ * Returns:         The direction string
+ */

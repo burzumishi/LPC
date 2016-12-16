@@ -1,0 +1,8 @@
+449:/std/combat/cbase.c.old_ac (/std/combat/cbase.c.old_ac)
+(public void) cb_adjust_combat_on_intox(int pintox)
+/*
+ * Function name: cb_adjust_combat_on_intox
+ * Description:   Called to let intoxication affect combat. This
+ *                is used to do nasty drunk type things *laugh*
+ * Arguments:     pintox: %intoxicated
+ */

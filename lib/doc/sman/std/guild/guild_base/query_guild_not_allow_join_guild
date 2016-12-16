@@ -1,0 +1,11 @@
+47:/std/guild/guild_base.c (/std/guild/guild_base.c)
+(static nomask int) query_guild_not_allow_join_guild(object player, string type, 			string style, string name)
+/*
+ * Function name: query_not_allow_join_guild
+ * Description:   Do the other guild that we are already member of allow you to
+ * 	   	  join this one too?
+ *                Note: This function should only be used *before* the shadow
+ *                      is shadowing the object.  It is not guaranteed to
+ *                      return the correct value if it is called after shadowing
+ * Returns:       1 if not allowed to join
+ */

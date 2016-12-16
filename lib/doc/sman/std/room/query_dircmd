@@ -1,0 +1,8 @@
+55:/std/room/move.c (/std/room.c)
+(public string) query_dircmd()
+/*
+ * Function name: query_dircmd
+ * Description:   Gives the rest of the command given after move verb.
+ *                This can be used in blocking functions (third arg add_exit)
+ * Returns:       The movecommand as given. 
+ */

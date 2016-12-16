@@ -1,0 +1,10 @@
+245:/secure/simul_efun.c (/secure/simul_efun.c)
+(nomask object *) all_environment(object ob)
+/*
+ * Function name: all_environment
+ * Description:   Gives an array of all containers which an object is in, i.e.
+ *		  match in matchbox in bigbox in chest in room, would for the
+ *		  match give: matchbox, bigbox, chest, room
+ * Arguments:     ob: The object
+ * Returns:       The array of containers.
+ */

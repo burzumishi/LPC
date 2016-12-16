@@ -1,0 +1,11 @@
+427:/obj/edit.c (/obj/edit.c)
+(static void) replace(string arg)
+/*
+ * Function name: replace
+ * Description  : When you want to replace a single line with new text,
+ *                it is easier to use this command than to delete the old
+ *                line(s), possibly change the point of entry and then
+ *                type the new text.
+ * Arguments    : string arg - the line that needs to be replaced in the
+ *                             format: <num> <text>
+ */

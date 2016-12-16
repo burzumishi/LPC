@@ -1,0 +1,8 @@
+345:/secure/mail_reader.c (/secure/mail_reader.c)
+(static mapping) restore_message(int date)
+/*
+ * Function name: restore_message
+ * Description  : Restore an individual message from disk.
+ * Arguments    : int date - the time of the message.
+ * Returns      : mapping  - the message restored.
+ */

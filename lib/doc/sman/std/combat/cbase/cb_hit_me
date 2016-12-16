@@ -1,0 +1,21 @@
+1747:/std/combat/cbase.c (/std/combat/cbase.c)
+(varargs public nomask mixed) cb_hit_me(int wcpen, int dt, object attacker, int attack_id, int target_hitloc = -1)
+/*
+ * Function name: cb_hit_me
+ * Description:   Called to decide damage for a certain hit on 'me'.
+ * Arguments:     wcpen:         Weapon class penetration
+ *                dt:            Damage type, MAGIC_DT if no ac helps
+ *                attacker: 
+ *                attack_id:     -1 if a special attack
+ *                target_hitloc: The hit location to damage.  If left
+ *                               unspecified or an invalid hitloc is
+ *                               given, a random hitlocation will be
+ *                               used.
+ * Returns:       Array: ({ proc_hurt, hitloc desc, phit, dam, hitloc id })
+ *                int proc_hurt - 0-100, incurred damage as percentage of
+ *                     victim HP, or -1 = dodge, -2 = parry.
+ *                string hitloc desc - descr. of the location that was hit.
+ *                int phit - randomized value of the weapon penetration (wcpen)
+ *                int dam - incurrent damage in hitpoints
+ *                int hitloc ID - the ID of the location that was hit.
+ */

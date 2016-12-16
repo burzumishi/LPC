@@ -1,0 +1,11 @@
+486:/std/combat/cbase.c (/std/combat/cbase.c)
+(varargs void) cb_update_tohit_val(object ob, int weight)
+/*
+ * Function name: cb_update_tohit_val
+ * Description:   Update the tohit value for some object. Changing ones
+ *                encumberance while fighting will not have any effect
+ *                unless this function is called, but I think it's worth
+ *                it since we save cpu.
+ * Arguments:     ob - The object we shall try to hit
+ *                weight - If the formula should be weighted any way.
+ */

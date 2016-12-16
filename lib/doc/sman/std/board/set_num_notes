@@ -1,0 +1,7 @@
+111:/std/board.c (/std/board.c)
+(public nomask void) set_num_notes(int n)
+/*
+ * Function name: set_num_notes
+ * Description  : Set the maximum number of notes on the board.
+ * Arguments    : int n - the number of notes on the board. (default: 30)
+ */

@@ -1,0 +1,8 @@
+394:/std/combat/ctool.c (/std/combat/ctool.c)
+(public void) cb_update_weapon(object wep)
+/*
+ * Function namn: cb_update_weapon
+ * Description:   Call this function when something has caused the weapon
+ *                stats to change, skill raise or sharpening the weapon or so.
+ * Arguments:     wep - The weapon
+ */

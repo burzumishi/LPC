@@ -1,0 +1,7 @@
+614:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) query_notify()
+/*
+ * Function name:    query_notify
+ * Description:             Query the notify status
+ * Returns:             The setting
+ */

@@ -1,0 +1,14 @@
+162:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(varargs public int) dispel_spell_effect(object dispeler)
+/*
+/*
+ * Function name: dispel_spell_effect
+ * Description:   Cause this spell effect to be dispelled.
+ *                If the effect is removed, 1 should be returned,
+ *                else 0.  Returning 0 should be a rare occurance,
+ *                since there generally should not be spell effects
+ *                that cannot be dispelled.
+ * Arguments:     object dispeler - the person responsible for dispelling
+ *                                  the effect.
+ * Returns:       1/0 - effect dispelled/not dispelled
+ */

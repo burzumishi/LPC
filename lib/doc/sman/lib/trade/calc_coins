@@ -1,0 +1,10 @@
+600:/lib/trade.c (/lib/trade.c)
+(int *) calc_coins(int price, int *arr, string str)
+/*
+ * Function name: calc_coins
+ * Description:   Reduce from bottom of array cosidering the price
+ * Arguments:     price - the price to pay
+ *                arr - the array holding the coins
+ *                str - a string describing how object wants to get change
+ * Returns:       The array object should pay, reduced
+ */

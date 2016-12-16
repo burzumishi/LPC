@@ -1,0 +1,8 @@
+163:/secure/login.c (/secure/login.c)
+(public int) logon()
+/*
+ * Function name: login
+ * Description  : This function is called when a player wants to login.
+ *                A lot of checks are made.
+ * Returns      : int 1/0 - true if login is allowed.
+ */

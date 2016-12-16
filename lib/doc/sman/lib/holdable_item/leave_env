@@ -1,0 +1,14 @@
+381:/lib/holdable_item.c (/lib/holdable_item.c)
+(public void) leave_env(object from, object to)
+/*
+ * Function name: leave_env
+ * Description  : When you inherit /lib/holdable_item.c you MUST also define
+ *                the function leave_env() as copy of this function. It MUST
+ *                make the call to holdable_item_leave_env(from, to) as well.
+ *                If you omit this, then the item will not be automatically
+ *                released when the player drops it, for instance.
+ *                PS: This is just a dummy function. It does not exist. You
+ *                    must write your own as copy of this one.
+ * Arguments    : object from - the environment we are leaving.
+ *                object to   - the environment we are entering.
+ */

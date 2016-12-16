@@ -1,0 +1,9 @@
+208:/std/leftover.c (/std/leftover.c)
+(public void) consume_them(object *arr)
+/*
+ * Function name:	consume_them 
+ * Description:		Consumes a number of food item. This function
+ *			shadows the ordinary /std/food funcion.
+ *			All this to detect cannibals...
+ * Arguments:		arr: Array of food objects.
+ */

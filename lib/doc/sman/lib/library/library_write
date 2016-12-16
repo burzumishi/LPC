@@ -1,0 +1,8 @@
+1646:/lib/library.c (/lib/library.c)
+(public int) library_write(string str)
+/*
+ * Function name: library_write
+ * Description:   The "write" command
+ * Arguments:     string str - arguments to the "write" command
+ * Returns:       1/0 - syntax success/failure
+ */

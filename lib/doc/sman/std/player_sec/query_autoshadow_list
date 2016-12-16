@@ -1,0 +1,7 @@
+778:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask public string *) query_autoshadow_list()
+/*
+ * Function name:   query_autoshadow_list
+ * Description:            Gives back the list of autoshadow object filenames.
+ * Returns:         The autoshadow list
+ */

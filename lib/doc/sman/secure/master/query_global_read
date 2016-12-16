@@ -1,0 +1,9 @@
+2549:/secure/master/fob.c (/secure/master.c)
+(mapping ) query_global_read()
+/*
+ * Function name: query_global_read
+ * Description  : This function returns a mapping with the names of the
+ *                people that have global read access. For the format of
+ *                the file, see the header of this file.
+ * Returns      : mapping - the global read list.
+ */

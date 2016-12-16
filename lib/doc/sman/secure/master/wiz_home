@@ -1,0 +1,8 @@
+3658:/secure/master.c (/secure/master.c)
+(string) wiz_home(string wiz)
+/*
+ * Function name:  wiz_home
+ * Description:    Gives a default 'home' for a wizard, domain or a player
+ * Arguments:      wiz: The wizard name.
+ * Returns:        A filename for the 'home' room.
+ */

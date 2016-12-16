@@ -1,0 +1,6 @@
+1115:/std/door.c (/std/door.c)
+(void) set_lock_name(mixed name)
+/*
+ * Function name: set_lock_name 
+ * Description:   Set name of the lock
+ */

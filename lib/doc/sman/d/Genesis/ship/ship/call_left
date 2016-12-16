@@ -1,0 +1,8 @@
+673:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(void) call_left(mixed where_i_am,mixed where_i_am_going)
+/*
+ * Function name: call_left
+ * Description	: call ship_left() function in misc. attached objects
+ * Arguments	: where_i_am       - the room we are leaving
+ *		  where_i_am_going - the room we are going to
+ */

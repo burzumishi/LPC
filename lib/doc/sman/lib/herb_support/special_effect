@@ -1,0 +1,7 @@
+123:/lib/herb_support.c (/lib/herb_support.c)
+(void) special_effect()
+/*
+ * Function name: special_effect
+ * Description:   Redefine this when you have done set_effect(HERB_SPECIAL);
+ *                to do the effect of your herb.
+ */

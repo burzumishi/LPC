@@ -1,0 +1,10 @@
+489:/std/armour.c (/std/armour.c)
+(public void) set_armour_hits(int new_hits)
+/*
+ * Function name: set_armour_hits
+ * Description:   By setting the hits counter you will have influence over how
+ *                likely the armour is to get in a worse condition. The hits 
+ *                variable keeps track of how many times this piece of armour
+ *                has been hit.
+ * Argument:      new_hits - integer
+ */

@@ -1,0 +1,10 @@
+921:/std/object.c (/std/object.c)
+(void) enter_env(object dest, object old)
+/*
+ * Function name: enter_env
+ * Description  : This function is called each time this object enters a
+ *                new environment. If you mask it, be sure that you
+ *                _always_ call the ::enter_env(dest, old) function.
+ * Arguments    : object dest - the destination we are entering.
+ *                object old  - the location we came from. This can be 0.
+ */

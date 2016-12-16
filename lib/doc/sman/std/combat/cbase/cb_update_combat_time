@@ -1,0 +1,6 @@
+613:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_update_combat_time()
+/*
+ * Function name: cb_update_combat_time
+ * Description  : Remember the last time a hit was made, either by us, or on us.
+ */

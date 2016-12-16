@@ -1,0 +1,7 @@
+322:/std/living.c (/std/living.c)
+(int) query_tell_active()
+/*
+ * Functione name: query_tell_active
+ * Description:    Query the tell_active_flag
+ * Returns:        The flag
+ */

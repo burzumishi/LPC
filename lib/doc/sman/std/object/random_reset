@@ -1,0 +1,8 @@
+155:/std/object.c (/std/object.c)
+(static float) random_reset()
+/*
+ * Function name: random_reset
+ * Description  : This routine is used internally to determine the reset 
+ *                interval based on the value set with enable_reset.
+ * Returns      : float - the interval in seconds.
+ */

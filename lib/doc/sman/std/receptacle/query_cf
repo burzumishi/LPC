@@ -1,0 +1,7 @@
+706:/std/receptacle.c (/std/receptacle.c)
+(public object) query_cf()
+/*
+ * Function name: query_cf
+ * Description  : Query the object that holds protection code.
+ * Returns      : object - the object specifying the code.
+ */

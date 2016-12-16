@@ -1,0 +1,7 @@
+1348:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) set_remember_name(mapping nlist)
+/*
+ * Function name:   set_remember_name
+ * Description:     Sets the people who are remembered by a player.
+ * Arguments:       nlist: A mapping with names of remembered players
+ */

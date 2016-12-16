@@ -1,0 +1,8 @@
+1115:/std/combat/cbase.c (/std/combat/cbase.c)
+(public varargs void) cb_add_enemy(object enemy, int force)
+/*
+ * Function name: cb_add_enemy
+ * Description:   Used to add enemies to 'me'
+ * Arguments:     object enemy: The enemy to be.
+ *                int force: put the enemy on top of the list.
+ */

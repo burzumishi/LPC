@@ -1,0 +1,8 @@
+340:/std/potion.c (/std/potion.c)
+(void) set_potion_value(int i)
+/*
+ * Function name: set_potion_value
+ * Description:   Set the value of the potion when dealing with
+ *                a potion specialist
+ * Arguments:     i - The value
+ */

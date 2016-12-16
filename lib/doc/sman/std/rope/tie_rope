@@ -1,0 +1,6 @@
+157:/std/rope.c (/std/rope.c)
+(static int) tie_rope(string str)
+/*
+ * Function name: tie_rope
+ * Description:   Try to tie/untie the rope
+ */

@@ -1,0 +1,7 @@
+99:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask void) create()
+/*
+/*
+ * Function name: create
+ * Description:   Initialize the object
+ */

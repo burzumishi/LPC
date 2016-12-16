@@ -1,0 +1,8 @@
+1332:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask mapping) query_remember_name()
+/*
+ * Function name:   query_remember_name
+ * Description:     Gives back a mapping with all names that a player has
+ *                  remembered.
+ * Returns:         The mapping with all names.
+ */

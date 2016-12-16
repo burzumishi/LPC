@@ -1,0 +1,7 @@
+1178:/std/weapon.c (/std/weapon.c)
+(public nomask int *) query_am()
+/*
+ * Function name: query_am
+ * Description  : Called when wielding the weapon, to check for the parry.
+ * Returns      : int * - the armour modifier.
+ */

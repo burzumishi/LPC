@@ -1,0 +1,7 @@
+356:/lib/holdable_item.c (/lib/holdable_item.c)
+(public nomask int) query_holdable_item()
+/*
+ * Function name: query_holdable_item
+ * Description  : Function to identify this object as being holdable.
+ * Returns      : int 1 - always.
+ */

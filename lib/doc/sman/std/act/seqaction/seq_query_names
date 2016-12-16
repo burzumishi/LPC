@@ -1,0 +1,5 @@
+308:/std/act/seqaction.c (/std/act/seqaction.c)
+(string *) seq_query_names()
+/*
+ *  Description: Returns the list of sequences (their names)
+ */

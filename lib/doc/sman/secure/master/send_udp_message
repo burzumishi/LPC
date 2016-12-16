@@ -1,0 +1,11 @@
+3890:/secure/master.c (/secure/master.c)
+(int) send_udp_message(string to_host, int to_port, string msg)
+/*
+ * Function name:   send_udp_message
+ * Description:     Sends a udp message to arbitrary host, port
+ * Arguments:            to_host: Hostname or IP-number
+ *                    to_port: Portnumber
+ *                    msg:     Message to send
+ * Returns:            True if the message is sent. There is of course no
+ *                    guarantee it will be received.
+ */

@@ -1,0 +1,10 @@
+101:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(nomask public void) set_nsd_retrain(string player, int skill, int level)
+/*
+ * Function name: set_nsd_retrain
+ * Description  : When a player trains a skill to a level that should be
+ *                retrainable, this function must be called.
+ * Arguments    : string player - the name of the player.
+ *                int    skill  - the skill to make retrainable.
+ *                int    level  - the level to that may be retrained.
+ */

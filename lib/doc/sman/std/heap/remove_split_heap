@@ -1,0 +1,8 @@
+234:/std/heap.c (/std/heap.c)
+(public void) remove_split_heap()
+/*
+ * Function name: remove_split_heap
+ * Description  : Whenever a heap is split in order to be moved, we can also
+ *                simply destroy that part. This effectively lowers the heap
+ *                with the number of elements that were going to be moved.
+ */

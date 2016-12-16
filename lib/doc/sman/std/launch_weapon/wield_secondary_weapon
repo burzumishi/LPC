@@ -1,0 +1,7 @@
+1434:/std/launch_weapon.c (/std/launch_weapon.c)
+(private nomask void) wield_secondary_weapon()
+/*
+ * Function name: wield_secondary_weapon
+ * Description  : Commands the player to wield the secondary weapon he has
+ *                specified.
+ */

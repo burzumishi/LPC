@@ -1,0 +1,6 @@
+21:/std/domain_link.c (/std/domain_link.c)
+(public nomask void) create()
+/*
+ * Function name: create
+ * Description  : Constructor.
+ */

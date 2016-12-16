@@ -1,0 +1,7 @@
+269:/std/object.c (/std/object.c)
+(object) get_this_object()
+/*
+ * Function name: get_this_object()
+ * Description  : Always returns the objectpointer to this object.
+ * Returns      : object - this_object()
+ */

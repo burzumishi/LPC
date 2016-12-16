@@ -1,0 +1,8 @@
+161:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) query_admin(string who)
+/*
+ * Function name: query_admin
+ * Description:	  Return admin status of individual
+ * Arguments:	  who - who to check for
+ * Returns:	  1 = admin, 0 = not
+ */

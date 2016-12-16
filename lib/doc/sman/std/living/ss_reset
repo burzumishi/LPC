@@ -1,0 +1,6 @@
+18:/std/living/stats.c (/std/living.c)
+(static void) ss_reset()
+/*
+ * Function name:   ss_reset
+ * Description:     Reset stats and skills at start of character.
+ */

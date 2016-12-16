@@ -1,0 +1,8 @@
+23:/std/living/drink_eat.c (/std/living.c)
+(int) intoxicated_min()
+/*
+ * Function name: 	intoxicated_min
+ * Description:   	Gives the min intoxication level, used as a call
+ *			function from the property: LIVE_I_MIN_INTOX
+ * Returns:		Min intoxication level.
+ */

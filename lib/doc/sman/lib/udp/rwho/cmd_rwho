@@ -1,0 +1,8 @@
+211:/lib/udp/rwho.c (/lib/udp/rwho.c)
+(public int) cmd_rwho(string mud)
+/*
+ * Function name: cmd_rwho
+ * Description:   Called from some soul to make an rwho
+ * Argument:	  str: The string typed by the wizard
+ * Returns:	  1 if success
+ */

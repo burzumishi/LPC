@@ -1,0 +1,9 @@
+142:/obj/remote_npc.c (/obj/remote_npc.c)
+(static int) remote_cmd(string str)
+/*
+ * Function name: remote_cmd
+ * Description  : This function is called to command the linked monster
+ *                to perform a certain command.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

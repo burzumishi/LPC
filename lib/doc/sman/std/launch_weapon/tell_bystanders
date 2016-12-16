@@ -1,0 +1,15 @@
+1921:/std/launch_weapon.c (/std/launch_weapon.c)
+(nomask void) tell_bystanders(string see_both, string see_archer, 		string see_target, string see_noone, 		object archer, object target, object *bystanders)
+/*
+ * Function name: tell_watcher
+ * Description  : Tells those players that watch the fight what happens. This
+ *                function uses catch_msg which take care of met/nomet.
+ *                
+ * Arguments    : see_both:   Message seen by those that see player and target.
+ *                see_archer: Message seen by those that see the archer only.
+ *                see_target: Message seen by those that see target only.
+ *                see_noone:  Message seen by those that see noone.
+ *                archer:     The archer shooting with a launch_weapon.
+ *                target:     The target that is shot at.
+ *                bystanders: Array of the bystanders to send the message.
+ */

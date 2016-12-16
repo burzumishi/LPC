@@ -1,0 +1,10 @@
+724:/std/combat/cbase.c (/std/combat/cbase.c)
+(varargs void) tell_watcher_miss(string str, object enemy, mixed arr)
+/* 
+ * Function name: tell_watcher_miss
+ * Description:   Send the string from the fight to people that want them
+ *                when there is a miss.
+ * Arguments:     str   - The string to send
+ *                enemy - Who the enemy was
+ *                arr   - Array of objects never to send message
+ */

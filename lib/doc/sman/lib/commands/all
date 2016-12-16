@@ -1,0 +1,20 @@
+224:/lib/commands.c (/lib/commands.c)
+(public varargs void) all(string str, string adverb = "", int cmd_attr = 0)
+/*
+ * Function name: all
+ * Description  : Print the message that all onlookers get when there is
+ *                only one person acting. Ie. those who are watching someone
+ *                do something alone. Note that a newline is always added by
+ *                this routine added. Possessive form on the actor is handled
+ *                automatically.
+ * Example      : all(" screams loudly.");
+ *
+ *                Someone screams loudly.
+ *                Fatty screams loudly.
+ *                The big fat gnome wizard screams loudly.
+ *
+ * Arguments    : string str    - the message to print, starting with a space,
+ *                                or start with "'s" for possessive actor form.
+ *                string adverb - the optional adverb if one was used.
+ *                int cmd_attr  - the action attributes (from cmdparse.h)
+ */

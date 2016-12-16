@@ -1,0 +1,8 @@
+1337:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_unwield(object wep)
+/*
+ * Function name: unwield
+ * Description:   Unwield a weapon.
+ * Arguments:     wep - The weapon to unwield.
+ * Returns:       None.
+ */

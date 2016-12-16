@@ -1,0 +1,14 @@
+332:/std/mobile.c (/std/mobile.c)
+(public int) special_attack(object victim)
+/*
+ * Function name: special_attack
+ * Description:   Called from the external combat object's heart_beat
+ *                routine. By redefining this, monsters can easily attack
+ *                with spells or take special actions when engaged
+ *                in combat.
+ * Arguments:     victim (the one we are fighting right now)
+ * Returns:       0 - if we want the round to continue
+ *                1 - if we are done with this round
+ * Note:          By always returning 1 the mobile is unable
+ *                to do an ordinary attack.
+ */

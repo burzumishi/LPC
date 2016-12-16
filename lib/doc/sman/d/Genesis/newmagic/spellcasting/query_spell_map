@@ -1,0 +1,7 @@
+161:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public mapping) query_spell_map()
+/*
+ * Function name: query_spell_map
+ * Description:   Get the spell mapping (gSpells)
+ * Returns:       A mapping.
+ */

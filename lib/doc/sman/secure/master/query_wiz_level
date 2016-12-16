@@ -1,0 +1,9 @@
+1735:/secure/master/fob.c (/secure/master.c)
+(int) query_wiz_level(string wname)
+/*
+ * Function name: query_wiz_level
+ * Description  : Return the level of a wizard. If wiz levels are not used,
+ *                this will return the rank.
+ * Arguments    : string wname - the wizard.
+ * Returns      : int - the level.
+ */

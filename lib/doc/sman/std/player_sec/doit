@@ -1,0 +1,8 @@
+285:/std/player/quicktyper.c (/std/player_sec.c)
+(static nomask int) doit(string str)
+/* 
+ * Function name: doit
+ * Description  : Do a sequence of commands.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int - 1/0 - success/failure.
+ */

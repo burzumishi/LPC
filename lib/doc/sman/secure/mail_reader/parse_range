@@ -1,0 +1,15 @@
+1346:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int *) parse_range(string str)
+/*
+ * Function name: parse_range
+ * Description  : Try to compile a list of message numbers from the string
+ *                You should clean the string first with cleanup_string.
+ *                The list of numbers is sorted and all doubles are
+ *                filtered out. All elements are checked for validity.
+ * Arguments    : string str - the string that is going to be parsed
+ *                             Typical accepted string: 10,1-4,2
+ *                             Would return: ({ 1, 2, 3, 4, 10 });
+ *                             No input means process gCurrent.
+ * Returns      : int - 0 if the string could not be parsed
+ *                      otherwise an array of message numbers
+ */

@@ -1,0 +1,19 @@
+229:/obj/more.c (/obj/more.c)
+(varargs int) more(string arg, int start, string name)
+/*
+ * Function name: more
+ * Description  : Call this function in a clone like explained in the
+ *                header of this file in order to let someone read
+ *                something with more.
+ *
+ *                THIS ROUTINE IS OBSOLETE. Use more in the player object.
+ *                For details: sman /std/player_sec more
+ *
+ * Arguments    : arg   - either the filename of the text to read or
+ *                        the text to read itself, concatenated with \n
+ *                start - the first line to read, if equal to 0 zero it
+ *                        means that arg contains the text to print.
+ *                name  - the function to call in previous_object when
+ *                        the player is done reading with more.
+ * Returns      : int   - 1 - always, I don't know why.
+ */

@@ -1,0 +1,7 @@
+51:/std/combat/chumanoid.c (/std/combat/chumanoid.c)
+(public void) cb_configure()
+/*
+ * Function name: cb_configure
+ * Description:   Configure humanoid attacks and hitlocations.
+ * Returns:       True if hit, otherwise 0.
+ */

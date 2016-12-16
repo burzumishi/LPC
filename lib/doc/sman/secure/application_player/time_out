@@ -1,0 +1,6 @@
+225:/secure/application_player.c (/secure/application_player.c)
+(static void) time_out()
+/*
+ * Function name: time_out
+ * Description  : Called after some time to close the connection.
+ */

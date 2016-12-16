@@ -1,0 +1,7 @@
+112:/lib/keep.c (/lib/keep.c)
+(public void) remove_keep()
+/*
+ * Function name: remove_keep
+ * Description  : Call this function in order to remove the 'keep' protection
+ *                of this object. This is the same as doing: set_keep(0);
+ */

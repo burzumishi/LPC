@@ -1,0 +1,9 @@
+632:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) check_valid_msg_num(int msg_num)
+/*
+ * Function name: check_valid_msg_num
+ * Description  : Check if the number is a valid message number, i.e. a
+ *                number in the range of 1 to the number of messages.
+ * Arguments    : msg_num: the number to check
+ * Returns      : True if valid
+ */

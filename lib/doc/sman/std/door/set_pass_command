@@ -1,0 +1,6 @@
+944:/std/door.c (/std/door.c)
+(void) set_pass_command(mixed command)
+/*
+ * Function name: set_pass_command
+ * Description:   Set which command is needed to pass the door
+ */

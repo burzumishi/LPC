@@ -1,0 +1,10 @@
+1348:/std/combat/cbase.c (/std/combat/cbase.c)
+(public mixed) cb_query_weapon(int which)
+/*
+ * Function name: cb_query_weapon
+ * Description:   Returns the weapon held in a specified location.
+ *                A list of all if argument -1 is given.
+ * Arguments:     which: A numeric label describing a weapon
+ *                       location. On humanoids this is W_RIGHT etc.
+ * Returns:       The corresponding weapon(s).
+ */

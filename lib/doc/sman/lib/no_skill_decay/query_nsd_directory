@@ -1,0 +1,8 @@
+88:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(nomask public string) query_nsd_directory()
+/*
+ * Function name: query_nsd_directory
+ * Description  : Return the name of the directory in which the save-files
+ *                are stored.
+ * Returns      : string - the name of the directory.
+ */

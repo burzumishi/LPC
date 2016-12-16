@@ -1,0 +1,7 @@
+815:/lib/trade.c (/lib/trade.c)
+(void) config_default_trade()
+/*
+ * Function name: config_default_trade
+ * Description:   Configure the default settings, must be done if not all
+ *                set functions are going to be called from the outside
+ */

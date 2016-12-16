@@ -1,0 +1,7 @@
+446:/secure/master/player.c (/secure/master.c)
+(static void) init_player_info()
+/*
+ * Function name: init_player_info
+ * Description  : Fill the m_firsts mapping with a combination of all seconds
+ *                pointing to the firsts they are a second to.
+ */

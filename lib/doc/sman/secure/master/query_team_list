@@ -1,0 +1,8 @@
+2891:/secure/master/fob.c (/secure/master.c)
+(string *) query_team_list(string team)
+/*
+ * Function name: query_team_list
+ * Description  : Query a list of members.
+ * Arguments    : string team - the team to query.
+ * Returns      : string * - the wizards in the team.
+ */

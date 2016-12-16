@@ -1,0 +1,7 @@
+148:/std/poison_effect.c (/std/poison_effect.c)
+(public void) set_poison_type(string t)
+/*
+ * Function name: set_poison_type
+ * Description  : This sets the type of poison, for use with antidotes.
+ * Artuments    : t - the type of the poison
+ */

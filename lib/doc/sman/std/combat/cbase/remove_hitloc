@@ -1,0 +1,8 @@
+2350:/std/combat/cbase.c (/std/combat/cbase.c)
+(static int) remove_hitloc(int id)
+/*
+ * Function name: remove_hitloc
+ * Description:   Removes a specific hit location
+ * Arguments:     id: The hitloc id
+ * Returns:       True if removed
+ */

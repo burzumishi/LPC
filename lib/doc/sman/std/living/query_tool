@@ -1,0 +1,10 @@
+84:/std/living/tool.c (/std/living.c)
+(public mixed) query_tool(int slot)
+/*
+ * Function name: query_tool
+ * Description:   Get the item occupying a given slot or all items in tool slots
+ * Arguments:     int slot - the slot to check or -1 for all items
+ * Returns:       If a slot is given as an argument, the object occupying 
+ *                the slot or 0.  If -1 is given as an argument, an array
+ *                of objects.
+ */

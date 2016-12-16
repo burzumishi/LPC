@@ -1,0 +1,6 @@
+216:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public int) query_spell_exp_factor()
+/*
+ * Function name: query_spell_exp_factor
+ * Description:   Returns the general exp factor for this spell
+ */

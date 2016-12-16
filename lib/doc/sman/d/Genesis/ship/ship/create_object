@@ -1,0 +1,6 @@
+73:/d/Genesis/ship/ship.c (/d/Genesis/ship/ship.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description	: Set up default values for parts of the ship
+ */

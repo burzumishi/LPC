@@ -1,0 +1,10 @@
+962:/secure/master.c (/secure/master.c)
+(int) valid_resident(object ob)
+/*
+ * Function name: valid_resident
+ * Description  : This function is called to see whether the object is allowed
+ *                to set the pragma 'resident'. At this point no object is
+ *                allowed to do so. That is safest.
+ * Arguments    : object ob - the object to test.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

@@ -1,0 +1,10 @@
+372:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) remove_board(string board, string cath, int all)
+/*
+ * Function name: remove_board
+ * Description:	  Remove a board from the list
+ * Arguments:	  board - the board
+ *		  cath - the category
+ *		  all - the central entry as well?
+ * Returns:	  Error code, if any
+ */

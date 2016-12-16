@@ -1,0 +1,5 @@
+33:/secure/simul_efun.c (/secure/simul_efun.c)
+(void) fixeuid()
+/*
+ * Called by master on startup to get correct uids
+ */

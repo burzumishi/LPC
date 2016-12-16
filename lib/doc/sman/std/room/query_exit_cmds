@@ -1,0 +1,8 @@
+342:/std/room/exits.c (/std/room.c)
+(string *) query_exit_cmds()
+/*
+ * Function name: query_exit_cmds
+ * Description  : Returns an array of strings that the player can use as
+ *                commands to move through an exit added by add_exit().
+ * Returns      : string * - the array with commands.
+ */

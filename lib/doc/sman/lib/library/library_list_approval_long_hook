@@ -1,0 +1,7 @@
+335:/lib/library.c (/lib/library.c)
+(public void) library_list_approval_long_hook()
+/*
+ * Function name: library_list_approval_long_hook
+ * Description:   Redefine this to alter how the long listing of books
+ *                needing approval is presented
+ */

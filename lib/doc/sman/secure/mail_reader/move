@@ -1,0 +1,13 @@
+2934:/secure/mail_reader.c (/secure/mail_reader.c)
+(public varargs int) move(mixed dest, mixed subloc)
+/*
+ * Function name: move
+ * Description  : This function is a mask on the original function in
+ *                order to ensure security. People cannot have more than
+ *                one mailreader in them and mailreaders may only be
+ *                placed in the direct inventory of a player. Any other
+ *                environment will lead to the descruction of the reader.
+ * Arguments    : mixed dest   - the destination of the reader
+ *                mixed subloc - the sublocation of the move
+ * Returns      : int          - false if moved, 5 if rejected
+ */

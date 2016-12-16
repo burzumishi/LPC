@@ -1,0 +1,6 @@
+91:/std/rope.c (/std/rope.c)
+(object) query_tied_to()
+/*
+ * Function name: query_tied_to
+ * Description:   Query what object this rope is tied to
+ */

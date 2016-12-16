@@ -1,0 +1,9 @@
+243:/std/receptacle.c (/std/receptacle.c)
+(public varargs string) long(string str, object for_obj)
+/*
+ * Function name: long
+ * Description  : A the status of the container to it.
+ * Arguments    : string str - the psuedo-item the person wants to see.
+ *                object for_obj - who wants to know the long
+ * Returns      : string - The long description.
+ */

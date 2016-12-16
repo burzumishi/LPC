@@ -1,0 +1,14 @@
+321:/std/object.c (/std/object.c)
+(varargs public mixed) long(string str, object for_obj)
+/*
+ * Function name: long
+ * Description  : Describe the object or one pseudo item in it. This
+ *                resolves possible VBFC.
+ *                *** NOTE! This lfun does not do a write() !! ***
+ * Arguments    : string str - the pseudo-item to describe. This is an
+ *                             item added with add_item. If this is 0, it
+ *                             will return the description of the whole
+ *                             object.
+ *                object for_obj - the object trying to get the long.
+ * Returns      : string - the description of the object or pseudo-item.
+ */

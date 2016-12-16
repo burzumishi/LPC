@@ -1,0 +1,8 @@
+205:/std/board.c (/std/board.c)
+(public nomask void) set_show_lvl(int n)
+/*
+ * Function name: set_show_lvl
+ * Description  : Set this if you want the rank of the authors of the notes
+ *                added to the header of the notes.
+ * Arguments    : int n - true if the rank should be show (default: true)
+ */

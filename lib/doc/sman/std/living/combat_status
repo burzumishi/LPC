@@ -1,0 +1,7 @@
+943:/std/living/combat.c (/std/living.c)
+(public string) combat_status()
+/*
+ * Function name:   combat_status
+ * Description:     Let the combat object describe the combat status
+ * Returns:         Description as string
+ */

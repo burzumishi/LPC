@@ -1,0 +1,7 @@
+1329:/std/living/savevars.c (/std/living.c)
+(public int) query_alignment()
+/*
+ * Function name:   query_alignment
+ * Description:     Gives the current amount of alignment points of a living
+ * Returns:         The amount.
+ */

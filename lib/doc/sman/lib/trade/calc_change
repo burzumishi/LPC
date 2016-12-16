@@ -1,0 +1,12 @@
+545:/lib/trade.c (/lib/trade.c)
+(int *) calc_change(int price, int *arr, string str)
+/*
+ * Function name: calc_change
+ * Description:   Check what change to give the object considered the price
+ *                and what is about to be payed. If no array then it's a sale
+ *                and the changed is based on the price alone.
+ * Arguments:     price - the price in cc
+ *                arr - the array describing what we already pays
+ *                str - the string describing what types the object wants
+ * Returns:       The array holding the coins the object should be given
+ */

@@ -1,0 +1,8 @@
+580:/lib/library.c (/lib/library.c)
+(public void) library_approve_hook(string title)
+/*
+ * Function name: library_approve_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user approves a book
+ * Arguments:     string title - the book's title
+ */

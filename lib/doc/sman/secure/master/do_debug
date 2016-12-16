@@ -1,0 +1,14 @@
+3843:/secure/master.c (/secure/master.c)
+(varargs mixed) do_debug(string icmd, mixed a1, mixed a2, mixed a3)
+/*
+ * Function name: do_debug
+ * Description  : This function is a front for the efun debug(). You are
+ *                only allowed to call debug() through this object because we
+ *                need to make some security checks.
+ * Arguments    : string icmd - the debug command.
+ *                mixed a1    - a possible argument to debug().
+ *                mixed a2    - a possible argument to debug().
+ *                mixed a3    - a possible argument to debug().
+ * Returns      : mixed - the relevant return value for the particular
+ *                        debug command.
+ */

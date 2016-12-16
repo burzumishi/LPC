@@ -1,0 +1,9 @@
+361:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask object) query_projectile()
+/*
+ * Function name: query_projectile
+ * Description  : Returns the projectile we currently have loaded.
+ *
+ * Returns      : object - The currently loaded projectile or 0 if none.
+ *                is loaded.
+ */

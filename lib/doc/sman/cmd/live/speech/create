@@ -1,0 +1,7 @@
+49:/cmd/live/speech.c (/cmd/live/speech.c)
+(void) create()
+/*
+ * Function name: create
+ * Description  : This function is called the moment this object is created
+ *                and loaded into memory.
+ */

@@ -1,0 +1,9 @@
+338:/std/bow.c (/std/bow.c)
+(public int) try_hit(object target)
+/*
+ * Function name: try_hit
+ * Description  : This function merely checks if the bow is
+ *                stringed and delegates to launch_weapon.
+ *                If the bow is not stringed it returns 1
+ *                and behaves like a normal weapon.
+ */

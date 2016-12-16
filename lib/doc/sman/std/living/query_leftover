@@ -1,0 +1,11 @@
+1021:/std/living/combat.c (/std/living.c)
+(varargs public mixed) query_leftover(string organ)
+/*
+ * Function name: query_leftover
+ * Description:   Return the leftover list. If an organ is specified, that
+ *                actual entry is looked for, otherwise, return the entire
+ *                list.
+ *                The returned list contains the following entries:
+ *                ({ objpath, organ, nitems, vbfc, hard })
+ * Arguments:     organ - The organ to search for.
+ */

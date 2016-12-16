@@ -1,0 +1,7 @@
+941:/std/living/description.c (/std/living.c)
+(string) query_align_text()
+/*
+ * Function name: query_align_text
+ * Description:	  Returns the alignment text for this object.
+ * Returns:	  The alignment text.
+ */

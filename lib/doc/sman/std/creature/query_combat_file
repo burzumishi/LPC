@@ -1,0 +1,5 @@
+28:/std/creature.c (/std/creature.c)
+(public string) query_combat_file()
+/*
+ * Description:  Use the plain (no tools) combat file
+ */

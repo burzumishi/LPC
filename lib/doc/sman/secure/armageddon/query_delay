@@ -1,0 +1,8 @@
+309:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask int) query_delay()
+/*
+ * Function name: query_delay
+ * Description  : Returns the time we have left in seconds.
+ * Returns      : int - the time in seconds, or -1 if we are not shutting
+ *                    down at all.
+ */

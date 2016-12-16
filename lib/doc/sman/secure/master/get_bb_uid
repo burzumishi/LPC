@@ -1,0 +1,10 @@
+324:/secure/master.c (/secure/master.c)
+(string) get_bb_uid()
+/*
+ * Function name: get_bb_uid
+ * Description  : Gives the uid of the backbone user. That is, each user
+ *                that does not have an uid of its own. Apart from backbone
+ *                all wizard names and domain names are valid uids. And
+ *                root naturally.
+ * Returns      : string - the name of the 'backbone' user.
+ */

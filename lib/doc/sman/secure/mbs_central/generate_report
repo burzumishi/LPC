@@ -1,0 +1,8 @@
+968:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) generate_report(int what)
+/*
+ * Function name: generate_report
+ * Description:	  Generate a usage report
+ * Arguments:	  what - what to list by.
+ * Returns:	  Error code, if any
+ */

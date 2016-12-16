@@ -1,0 +1,10 @@
+309:/cmd/std/soul_cmd.c (/cmd/std/soul_cmd.c)
+(public nomask int) dump_emotions()
+/*
+ * Function name: dump_emotions
+ * Description  : This function can be used to dump all emotions to a file
+ *                in a sorted and formatted way. This dump can be used for
+ *                the 'help emotions' document. The output of this function
+ *                will be written to the file DUMP_EMOTIONS_OUT.
+ * Returns      : int 1 - always.
+ */

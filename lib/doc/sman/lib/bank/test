@@ -1,0 +1,8 @@
+391:/lib/bank.c (/lib/bank.c)
+(int) test(string str)
+/*
+ * Function name: test
+ * Description:   To allow the player to see what would happen with a change 
+ *                command about to be given
+ * Arguments:     str - The string holding the change command
+ */

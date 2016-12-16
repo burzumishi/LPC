@@ -1,0 +1,7 @@
+352:/std/herb.c (/std/herb.c)
+(void) create_herb()
+/*
+ * Function name: create_herb
+ * Description:   This is the create-function of the herb, which you should
+ *                redefine and setup the herb from.
+ */

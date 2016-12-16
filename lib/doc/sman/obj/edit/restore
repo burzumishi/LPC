@@ -1,0 +1,8 @@
+394:/obj/edit.c (/obj/edit.c)
+(#ifdef EDITOR_SAVE_OBJECT static void) restore()
+/*
+ * Function name: restore
+ * Description  : When your link dies and you are editing something, the
+ *                edit buffer may have been saved. The restore command
+ *                restores it for you.
+ */

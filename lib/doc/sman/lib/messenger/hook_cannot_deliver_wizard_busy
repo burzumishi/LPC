@@ -1,0 +1,9 @@
+644:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_cannot_deliver_wizard_busy(object wizard)
+/*
+ * Function:    hook_cannot_deliver_wizard_busy
+ * Description: Hook that gets called to display that the messenger cannot
+ *              deliver to a wizard who has set the busy flag. Set a
+ *              notify_fail() message.
+ * Arguments:   object wizard - the object of the wizard who is busy
+ */

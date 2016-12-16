@@ -1,0 +1,9 @@
+937:/std/player_sec.c (/std/player_sec.c)
+(nomask public int) load_player(string pl_name)
+/*
+ * Function name: load_player
+ * Description  : This function actually loads the player file into the
+ *                player object.
+ * Arguments    : string pl_name - the name of the player.
+ * Returns      : int 1/0 - success/failure.
+ */

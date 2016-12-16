@@ -1,0 +1,7 @@
+469:/std/living/savevars.c (/std/living.c)
+(public int) query_hp()
+/*
+ * Function name:   query_hp
+ * Description:     Gives the number of hitpoint left for the living
+ * Returns:         The number
+ */

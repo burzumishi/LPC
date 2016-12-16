@@ -1,0 +1,8 @@
+230:/std/act/asking.c (/std/act/asking.c)
+(public void) unseen_hook()
+/*
+ * Function name: unseen_hook
+ * Description:   This function gets called if this mobile couldn't see
+ *		  who asked the question and is not supposed to answer
+ *		  in that case.
+ */

@@ -1,0 +1,6 @@
+148:/std/act/seqaction.c (/std/act/seqaction.c)
+(public void) seq_restart()
+/*
+ * Called when the living encounters an interactive player
+ * and sequences has been stopped
+ */

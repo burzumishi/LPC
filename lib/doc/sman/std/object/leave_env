@@ -1,0 +1,10 @@
+947:/std/object.c (/std/object.c)
+(void) leave_env(object old, object dest)
+/*
+ * Function name: leave_env
+ * Description  : This function is called each time this object leaves an
+ *                old environment. If you mask it, be sure that you
+ *                _always_ call the ::leave_env(dest, old) function.
+ * Arguments    : object old  - the location we are leaving.
+ *                object dest - the destination we are going to. Can be 0.
+ */

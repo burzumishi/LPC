@@ -1,0 +1,8 @@
+1255:/std/living/combat.c (/std/living.c)
+(void) update_speed()
+/*
+ * Function Name: update_speed
+ * Description  : Called automatically when the quickness prop has
+ *                been changed in the player. Updates the speed and
+ *                informs the combat system that there has been a change.
+ */

@@ -1,0 +1,7 @@
+598:/obj/edit.c (/obj/edit.c)
+(static void) input(string str)
+/*
+ * Function name: input
+ * Description  : Called with input from the player.
+ * Arguments    : string str - the text typed by the player.
+ */

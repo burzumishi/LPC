@@ -1,0 +1,7 @@
+1823:/secure/master/fob.c (/secure/master.c)
+(public nomask void) reset_wiz_uid(object wiz)
+/*
+ * Function name: reset_wiz_uid
+ * Description:   Set up a wizard's uid.
+ * Arguments:     object wiz - the wizard.
+ */

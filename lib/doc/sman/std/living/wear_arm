@@ -1,0 +1,9 @@
+163:/std/living/wear.c (/std/living.c)
+(public mixed) wear_arm(object arm)
+/*
+ * Function name: wear_arm
+ * Description:   wear an armour
+ * Arguments:     The armour to be worn
+ * Returns:       string - error message (armour could not be worn)
+ *                1 - success (armour was worn)
+ */

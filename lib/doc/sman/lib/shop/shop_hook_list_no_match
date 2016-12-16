@@ -1,0 +1,9 @@
+353:/lib/shop.c (/lib/shop.c)
+(int) shop_hook_list_no_match(string str)
+/*
+ * Function name: shop_hook_list_no_match
+ * Description:   Called if player specified the list and no matching
+ *		  objects where found
+ * Arguments:	  str - The string he asked for
+ * Returns:	  0
+ */

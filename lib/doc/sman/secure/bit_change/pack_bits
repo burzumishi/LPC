@@ -1,0 +1,8 @@
+235:/secure/bit_change.c (/secure/bit_change.c)
+(nomask static void) pack_bits()
+/*
+ * Function name: pack_bits
+ * Description  : This function stuffs the used bits into an array to save
+ *                memory. This array is then stored to disk. It only stores
+ *                the bit modules that are not clear.
+ */

@@ -1,0 +1,8 @@
+506:/std/player/quicktyper.c (/std/player_sec.c)
+(static nomask int) unnick(string str)
+/*
+ * Function name: unnick
+ * Description  : Remove a nickname.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int - 1/0 - success/failure.
+ */

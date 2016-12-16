@@ -1,0 +1,10 @@
+1071:/std/living/savevars.c (/std/living.c)
+(public nomask void) modify_exp(string type, int amount, string reason)
+/*
+ * Function name: modify_exp
+ * Description  : Called from the wizard command soul for the express purpose
+ *                of altering the total experience of a player.
+ * Arguments    : string type   - the type of experience to adjust.
+ *                int amount    - the amount of change, positive or negative.
+ *                string reason - the reason for changing the experience.
+ */

@@ -1,0 +1,10 @@
+644:/lib/wearable_item.c (/lib/wearable_item.c)
+(public void) wearable_item_leave_env(object from, object to)
+/*
+ * Function name: wearable_item_leave_env
+ * Description:   Make sure that the item is removed when it is
+ *                moved.  This should normally be called from the
+ *                leave_env() function of the inheriting object.
+ * Arguments:     object from - the environment left
+ *                object to   - the environment entered
+ */

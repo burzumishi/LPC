@@ -1,0 +1,8 @@
+111:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask void) master_set_name(string n)
+/* 
+ * Function name:   master_set_name
+ * Description:     /secure/master needs to be able to do set_name. This
+ *                  function can only be called from that object.
+ * Arguments:       n: name to set
+ */

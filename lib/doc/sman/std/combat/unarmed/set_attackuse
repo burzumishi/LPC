@@ -1,0 +1,6 @@
+83:/std/combat/unarmed.c (/std/combat/unarmed.c)
+(public void) set_attackuse(int sumproc)
+/*
+ * Description: Set the %attacks used each turn. 100% is one attack / turn
+ * Arguments:   sumproc: %attack used
+ */

@@ -1,0 +1,6 @@
+37:/std/resistance.c (/std/resistance.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description:   The standard create
+ */

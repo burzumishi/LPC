@@ -1,0 +1,11 @@
+196:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(public int) nsd_hook_skill_too_high(int skill, int level)
+/*
+ * Function name: nsd_hook_not_retrainable.
+ * Description  : The player does not have the right to retrain that skill
+ *                because it is know set for him.
+ * Arguments    : int skill - the skill number.
+ *                int level - the maximum to which the player may retrain
+ *                            that skill.
+ * Returns      : int 1 - should always return 1.
+ */

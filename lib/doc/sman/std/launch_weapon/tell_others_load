@@ -1,0 +1,13 @@
+1846:/std/launch_weapon.c (/std/launch_weapon.c)
+(public void ) tell_others_load(object archer,  object target, 		 object projectile, string adj_desc)
+/*
+ * Function name: tell_others_load
+ * Description  : Produces messages to spectators when the player loads his
+ *                launch_weapon. This method is meant to be overridden by
+ *                launch_weapon implementations.
+ *                
+ * Arguments    : archer:     The player loading his weapon.
+ *                target:     The target player is aiming at.
+ *                projectile: The projectile we are loading.
+ *                adj_string: Description of the adjecent location.
+ */

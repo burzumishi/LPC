@@ -1,0 +1,7 @@
+473:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) add_cabin(mixed x)
+/*
+ * Function name: add_cabin
+ * Description:   Add another cabin object to the ship
+ * Arguments:     x - either pathname or an object
+ */

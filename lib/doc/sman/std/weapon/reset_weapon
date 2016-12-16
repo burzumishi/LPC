@@ -1,0 +1,9 @@
+122:/std/weapon.c (/std/weapon.c)
+(public void) reset_weapon()
+/*
+ * Function name: reset_weapon
+ * Description  : This function can be used to reset the weapon at a regular
+ *                interval. However, if you do so, you must also call the
+ *                function enable_reset() from your create_weapon() function
+ *                in order to start up the reset proces.
+ */

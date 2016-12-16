@@ -1,0 +1,14 @@
+997:/std/living/combat.c (/std/living.c)
+(varargs public void) add_leftover(string file, string organ, int nitems, string vbfc,              int hard, int cut, int relweight)
+/*
+ * Function name: add_leftover
+ * Description:   Add leftovers to the body.
+ * Arguments:     string file - The path to the object to leave behind.
+ *                string organ - The actual leftover name
+ *                int nitems - Number of leftovers of this kind. (-1 = infinite)
+ *                string vbfc - VBFC to check.
+ *                int hard - Hard remains (left after total decay).
+ *                int cut - If this has to be "cut" loose or if "tear" is enough.
+ *                int relweight - the weight of the leftover in 1/1000 of the
+ *                    weight of the corpse, so setting 50 = 5% corpse weight.
+ */

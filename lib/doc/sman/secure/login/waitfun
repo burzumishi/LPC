@@ -1,0 +1,8 @@
+1371:/secure/login.c (/secure/login.c)
+(static void) waitfun(string str)
+/*
+ * Function name: waitfun
+ * Description  : While the player is in the queue, the input from the
+ *                player is put in this function.
+ * Arguments    : string str - the input from the player.
+ */

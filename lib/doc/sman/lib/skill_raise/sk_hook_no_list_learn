@@ -1,0 +1,8 @@
+617:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_hook_no_list_learn()
+/*
+ * Function name: sk_hook_no_list_learn
+ * Description  : This hook is called when there are no more skills the
+ *                player can learn here.
+ * Returns      : int 1 - as always after a command succeeds.
+ */

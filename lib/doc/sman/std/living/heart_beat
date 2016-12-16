@@ -1,0 +1,6 @@
+52:/std/living/heart_beat.c (/std/living.c)
+(static int) heart_beat()
+/*
+ * Function name:   heart_beat
+ * Description:     Perform all heart_beat routines.
+ */

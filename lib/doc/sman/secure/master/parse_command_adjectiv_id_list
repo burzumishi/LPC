@@ -1,0 +1,9 @@
+33:/secure/master/language.c (/secure/master.c)
+(string *) parse_command_adjectiv_id_list()
+/*
+ * Function name: parse_command_adjectiv_id_list
+ * Description  : This will return the adjective words that can be used to
+ *                point at one particular object or a group of objects,
+ *                i.e. an adjective 'id'.
+ * Returns      : string * - the list.
+ */

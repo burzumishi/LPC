@@ -1,0 +1,9 @@
+277:/std/launch_weapon.c (/std/launch_weapon.c)
+( public nomask void) set_valid_projectile_function(string function_name)
+/*
+ * Function name: set_valid_projectile_function
+ * Description  : Sets the name of the function used to filter valid 
+ *                projectiles that can be used with this weapon.
+ *                
+ * Arguments    : String function_name
+ */

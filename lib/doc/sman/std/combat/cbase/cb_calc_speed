@@ -1,0 +1,6 @@
+1431:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_calc_speed()
+/*
+ * Function name: cb_calc_speed
+ * Description:   Calculates and sets my speed.
+ */

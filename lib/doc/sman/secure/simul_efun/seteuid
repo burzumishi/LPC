@@ -1,0 +1,8 @@
+675:/secure/simul_efun.c (/secure/simul_efun.c)
+(int) seteuid(string str)
+/*
+ * Function name: seteuid
+ * Description:   set the euid of previous_object() to a given userid
+ * Arguments:     string str - the userid
+ * Returns:       int 1 / 0 - euid could be set / euid could not be set
+ */

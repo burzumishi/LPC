@@ -1,0 +1,11 @@
+1207:/secure/simul_efun.c (/secure/simul_efun.c)
+(void) for_each(mixed elements, function func)
+/*
+ * Function name: for_each
+ * Description:   For each of the elements in the array 'elements', for_each
+ *                calls func with it as as parameter.
+ *                This is the same functionality as the efun map, but without
+ *                the return value.
+ * Arguments:     mixed elements      (the array/mapping of elements to use)
+ *                function func       (the function to recieve the elements)
+ */

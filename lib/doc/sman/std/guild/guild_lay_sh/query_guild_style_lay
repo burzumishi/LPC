@@ -1,0 +1,7 @@
+92:/std/guild/guild_lay_sh.c (/std/guild/guild_lay_sh.c)
+(public string) query_guild_style_lay()
+/*
+ * Function name: query_guild_style_lay
+ * Description:   What styles is this guild? fighter, magic, cleric, thief or  ?
+ * Returns:       string - holding the style of guild
+ */

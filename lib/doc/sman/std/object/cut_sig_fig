@@ -1,0 +1,9 @@
+2093:/std/object.c (/std/object.c)
+(public int) cut_sig_fig(int fig)
+/*
+ * Function name: cut_sig_fig
+ * Description:   Will reduce the number given to a new number with two
+ *                significant numbers.
+ * Arguments:     fig - the number to correct.
+ * Returns:       the number with two significant numbers
+ */

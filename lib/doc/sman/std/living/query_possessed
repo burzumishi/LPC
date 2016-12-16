@@ -1,0 +1,6 @@
+48:/std/living/possess.c (/std/living.c)
+(public nomask string) query_possessed()
+/*
+ * Function name: query_possessed
+ * Description:	  Returns possessed status
+ */

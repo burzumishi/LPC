@@ -1,0 +1,8 @@
+757:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public int) query_board_enabled()
+/*
+ * Function name: query_board_enabled
+ * Description	: check weather or not boarding is enabled
+ * Returns	: 0 - boarding disabled
+ *		  1 - boarding enabled
+ */

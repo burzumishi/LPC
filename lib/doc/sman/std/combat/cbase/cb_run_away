@@ -1,0 +1,7 @@
+1241:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_run_away(string dir)
+/*
+ * Function name: cb_run_away
+ * Description:   'me' runs away from the fight
+ * Arguments:     dir: The first dir tried
+ */

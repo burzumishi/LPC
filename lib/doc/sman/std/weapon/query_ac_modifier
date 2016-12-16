@@ -1,0 +1,7 @@
+1225:/std/weapon.c (/std/weapon.c)
+(public nomask int) query_ac_modifier()
+/*
+ * Function name: query_ac_modifier
+ * Description  : Returns the AC modifier for the weapon. See set-routine.
+ * Returns      : int - the modifier for the AC value of the weapon.
+ */

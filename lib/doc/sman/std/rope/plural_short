@@ -1,0 +1,9 @@
+116:/std/rope.c (/std/rope.c)
+(public varargs string) plural_short(object for_obj)
+/*
+ * Function name: plural_short
+ * Description:   We change the plural short description of
+ *                the rope if it's tied, default settings.
+ * Argument:      the object for which the desc should be seen
+ * Returns:       The description.
+ */

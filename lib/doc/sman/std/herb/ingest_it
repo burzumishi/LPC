@@ -1,0 +1,10 @@
+418:/std/herb.c (/std/herb.c)
+(public int) ingest_it(string str)
+/*
+ * Function name:	ingest_it
+ * Description:		Ingests the objects described as parameter to the
+ *                      ingest_verb. It uses command parsing to find which
+ *                      objects to ingest.
+ * Arguments:		string str: The trailing command after 'ingest_verb ...'
+ * Returns:		True if command successfull
+ */

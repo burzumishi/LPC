@@ -1,0 +1,6 @@
+114:/std/act/asking.c (/std/act/asking.c)
+(public void) remove_asks()
+/*
+ * Function name: remove_asks
+ * Description  : Clears the complete list of asks.
+ */

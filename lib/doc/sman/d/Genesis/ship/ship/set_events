@@ -1,0 +1,7 @@
+586:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_events(mixed *x)
+/*
+ * Function name: set_events
+ * Description	:
+ * Arguments	:
+ */

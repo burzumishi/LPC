@@ -1,0 +1,8 @@
+228:/std/poison_effect.c (/std/poison_effect.c)
+(public void ) set_time(int t)
+/*
+ * Function name: set_time
+ * Description  : This sets the length of time the poison will last,
+ *                in seconds.
+ * Arguments    : t - the time the poison lasts
+ */

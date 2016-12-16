@@ -1,0 +1,9 @@
+839:/std/container.c (/std/container.c)
+(public varargs mixed) show_cont_subloc(string sloc, object for_obj)
+/* 
+ * Function name: show_cont_subloc
+ * Description:   Give a description of one sublocation.
+ * Arguments:     sloc : The name of the sublocation
+ *                for_obj: For whom to show the sublocation
+ * Returns:       string or 0 for invalid or 1 for temporary bad
+ */

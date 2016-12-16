@@ -1,0 +1,18 @@
+337:/std/room.c (/std/room.c)
+(public mixed) block_action(string cmd, object actor, object target, int cmd_type)
+/*
+ * Function name: block_action
+ * Description:   Rooms can prevent targeted commands from being executed
+ *                using this function.  By default, we just check to see
+ *                if the subloc the target occupies can be accessed, but
+ *                this can be redefined to block commands based on other
+ *                criteria.
+ *
+ * Arguments:     string cmd    - the name of the executed command
+ *                object actor  - the command performer
+ *                object target - the target of the command
+ *                int cmd_type  - the command attributes (from cmdparse.h) 
+ * Returns:       0 - command allowed
+ *                1 - command blocked, no error message provided
+ *                string - command blocked, use string as error message.
+ */

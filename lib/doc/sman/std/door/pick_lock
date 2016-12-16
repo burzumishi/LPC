@@ -1,0 +1,7 @@
+718:/std/door.c (/std/door.c)
+(int) pick_lock(string str)
+/*
+ * Function name: pick_lock
+ * Description:   Pick the lock of the door.
+ * Arguments:	  str - arguments given
+ */

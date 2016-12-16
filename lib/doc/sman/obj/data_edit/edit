@@ -1,0 +1,8 @@
+691:/obj/data_edit.c (/obj/data_edit.c)
+(static nomask void) edit(string str)
+/*
+ * Function name: edit
+ * Description  : This function is called with the input from the player.
+ *                It is the actual editor.
+ * Arugments    : string str - the input from the wizard.
+ */

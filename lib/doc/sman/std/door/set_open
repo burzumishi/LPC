@@ -1,0 +1,6 @@
+858:/std/door.c (/std/door.c)
+(void) set_open(int i)
+/*
+ * Function name: set_open
+ * Description:   Set the open staus of the door
+ */

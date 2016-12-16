@@ -1,0 +1,7 @@
+418:/lib/herb_support.c (/lib/herb_support.c)
+(void) set_poison_damage(mixed *damage)
+/*
+ * Function name: set_poison_damage
+ * Description:   Set the array to be sent to set_damage in the poison
+ * Arguments:     damage - The damage array
+ */

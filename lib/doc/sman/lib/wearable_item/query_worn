@@ -1,0 +1,7 @@
+696:/lib/wearable_item.c (/lib/wearable_item.c)
+(public object) query_worn()
+/*
+ * Function name: query_worn
+ * Description:   If this object is worn or not
+ * Returns:       The object who wears this object if this object is worn
+ */

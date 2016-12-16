@@ -1,0 +1,12 @@
+722:/std/living/savevars.c (/std/living.c)
+(static void) set_acc_exp(int stat, int val)
+/*
+ * Function name: set_acc_exp
+ * Description  : Set the accumulated experience for each of the stats.
+ *                WARNING: Since this is an internal call, we do not check
+ *                whether the argument 'stat' points to a valid stat. You
+ *                must make sure that the internal consistency of the mudlib
+ *                is not compromised.
+ * Arguments    : int stat - The stat to set.
+ *                int val  - The amount of experience to set the stat to.
+ */

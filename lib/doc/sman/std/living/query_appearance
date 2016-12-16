@@ -1,0 +1,7 @@
+1403:/std/living/savevars.c (/std/living.c)
+(public int) query_appearance()
+/*
+ * Function name:   query_appearance
+ * Description:     Gives the current value of the appearance variable.
+ * Returns:         The appearance value
+ */

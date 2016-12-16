@@ -1,0 +1,9 @@
+122:/std/board.c (/std/board.c)
+(public nomask void) set_silent(int n)
+/*
+ * Function name: set_silent
+ * Description  : Set this to make the board silent. That means that
+ *                bystanders are not noticed of people examining the
+ *                board and reading notes.
+ * Arguments    : int n - true if silent (default: true)
+ */

@@ -1,0 +1,8 @@
+709:/std/heap.c (/std/heap.c)
+(public int) appraise_number(int num)
+/*
+ * Function name: appraise_number
+ * Description:   This function is called when someon tries to appraise number 
+ *                of pices in heap of this object.
+ * Arguments:     num - use this number instead of skill if given.
+ */

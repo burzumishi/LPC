@@ -1,0 +1,10 @@
+413:/lib/messenger.c (/lib/messenger.c)
+(public int ) deliver()
+/*
+ * Function:    deliver
+ * Description: Actual function that creates the message object and
+ *              moves it to the receiver. If the receiver is not 
+ *              available, then it returns to the sender.
+ * Argumetns:   none
+ * Returns:     Always returns 1
+ */

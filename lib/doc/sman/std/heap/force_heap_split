@@ -1,0 +1,7 @@
+498:/std/heap.c (/std/heap.c)
+(public object) force_heap_split()
+/*
+ * Function name: force_heap_split
+ * Description:   Cause the heap to split into two.
+ * Returns:       The new heap
+ */

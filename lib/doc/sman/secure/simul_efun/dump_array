@@ -1,0 +1,7 @@
+998:/secure/simul_efun.c (/secure/simul_efun.c)
+(nomask varargs void) dump_array(mixed a, string tab)
+/*
+ * Function name: dump_array
+ * Description:   Dumps a variable with write() for debugging purposes.
+ * Arguments:     a: Anything including an array
+ */

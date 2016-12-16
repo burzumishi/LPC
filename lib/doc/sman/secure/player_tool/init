@@ -1,0 +1,7 @@
+102:/secure/player_tool.c (/secure/player_tool.c)
+(nomask public void) init()
+/*
+ * Function name: init
+ * Description  : This function is called when someone 'comes close' to
+ *                this object to add the necessary commands to him/her.
+ */

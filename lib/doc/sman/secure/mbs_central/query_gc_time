@@ -1,0 +1,7 @@
+2051:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) query_gc_time()
+/*
+ * Function name: query_gc_time
+ * Description:	  Get time of last global change
+ * Returns:	  GcTime
+ */

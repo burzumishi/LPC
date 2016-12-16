@@ -1,0 +1,6 @@
+1364:/std/door.c (/std/door.c)
+(void	) set_door_id(string id)
+/*
+ * Function name: set_door_id
+ * Description:   Set the id of the door
+ */

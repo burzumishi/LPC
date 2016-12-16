@@ -1,0 +1,9 @@
+703:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public object *) target_spell(object caster, string arg)
+/*
+ * Function name: target_spell
+ * Description:   Find the target(s) for spell invocation.
+ * Arguments:     1. (object) The caster
+ *                2. (string) Arguments passed to the "cast" command
+ * Returns:       (object *) The targets found.
+ */

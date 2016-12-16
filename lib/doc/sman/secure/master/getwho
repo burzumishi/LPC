@@ -1,0 +1,9 @@
+129:/secure/master/fob.c (/secure/master.c)
+(static string) getwho()
+/*
+ * Function name: getwho
+ * Description  : This function gets the name of the interactive command
+ *                giver. The euid of the interactive player and the euid
+ *                of the previous object must be equal in order to function.
+ * Returns      : string - the name or "" in case of inconsistencies.
+ */

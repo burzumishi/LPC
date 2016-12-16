@@ -1,0 +1,6 @@
+402:/lib/holdable_item.c (/lib/holdable_item.c)
+(public string) holdable_item_usage_desc()
+/*
+ * Function name: holdable_item_usage_desc
+ * Description:   Return a string describing how the item is held
+ */

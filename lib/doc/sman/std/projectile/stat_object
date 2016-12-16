@@ -1,0 +1,8 @@
+233:/std/projectile.c (/std/projectile.c)
+(public string) stat_object()
+/*
+ * Function name: stat_object
+ * Description  : This function is called when a wizard wants to get more
+ *                information about an object.
+ * Returns      : strint - The string to write.
+ */

@@ -1,0 +1,7 @@
+93:/lib/bank.c (/lib/bank.c)
+(void) set_bank_fee(int fee)
+/*
+ * Function name: set_bank_fee
+ * Description:   Set the fee in % we take for our services
+ * Argument:	  fee - The fee
+ */

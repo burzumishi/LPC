@@ -1,0 +1,7 @@
+45:/std/domain_link.c (/std/domain_link.c)
+(public nomask string *) query_preload()
+/*
+ * Function name: query_preload
+ * Description  : Get the list of preload files.
+ * Returns      : string * - the list of files to preload.
+ */

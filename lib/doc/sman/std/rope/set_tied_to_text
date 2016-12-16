@@ -1,0 +1,6 @@
+73:/std/rope.c (/std/rope.c)
+(void) set_tied_to_text(string str)
+/*
+ * Function name: set_tied_to_text
+ * Description:   Set the text to what the rope is tied to
+ */

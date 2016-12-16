@@ -1,0 +1,10 @@
+2072:/secure/master.c (/secure/master.c)
+(static void) memory_failure()
+/*
+ * Function name: memory_failure
+ * Description:   This function is called when the gamedriver considers
+ *                itself in trouble and need the game shut down in a graceful
+ *                manner. This function _must_ be called via a call_other. It
+ *                may only be called by root itself or by a member of the
+ *                administration.
+ */

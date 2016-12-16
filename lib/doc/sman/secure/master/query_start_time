@@ -1,0 +1,7 @@
+3435:/secure/master.c (/secure/master.c)
+(public int) query_start_time()
+/*
+ * Function name: query_start_time
+ * Description  : Return the time when the game started.
+ * Returns      : int - the time.
+ */

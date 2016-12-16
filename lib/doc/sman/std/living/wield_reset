@@ -1,0 +1,6 @@
+11:/std/living/wield.c (/std/living.c)
+(static nomask void) wield_reset()
+/*
+ * Function name: wield_reset
+ * Description:   initialize the wield routines
+ */

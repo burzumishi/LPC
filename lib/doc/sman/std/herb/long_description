@@ -1,0 +1,10 @@
+63:/std/herb.c (/std/herb.c)
+(nomask string) long_description()
+/*
+ * Function name: long_description
+ * Description:   This is an VBFC function for the set_long in the herb, which
+ *                tests if the player examining it can identify it, before
+ *                returning the appropriate long-description. To make this
+ *                work, you must be sure to do set_id_long(str) and
+ *                set_unid_long(str) from the create_herb() function.
+ */

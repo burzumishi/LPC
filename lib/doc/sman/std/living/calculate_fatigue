@@ -1,0 +1,7 @@
+657:/std/living/savevars.c (/std/living.c)
+(void) calculate_fatigue()
+/*
+ * Function name: calculate_fatigue
+ * Description  : Compute the present fatigue value of the player, taking
+ *                the stuffed value into account.
+ */

@@ -1,0 +1,8 @@
+144:/std/living/wizstat.c (/std/living.c)
+(public string) skill_living()
+/*
+ * Function name: skill_living
+ * Description  : This function returns a proper string describing the
+ *                skills of this living.
+ * Returns      : string - the description.
+ */

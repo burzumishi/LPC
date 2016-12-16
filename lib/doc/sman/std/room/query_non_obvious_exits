@@ -1,0 +1,7 @@
+438:/std/room/exits.c (/std/room.c)
+(public mixed) query_non_obvious_exits()
+/*
+ * Function name: query_non_obvious_exits
+ * Description  : Returns an array containing the non-obvious-exits flags.
+ * Returns      : mixed - the non-obvious-exits array.
+ */

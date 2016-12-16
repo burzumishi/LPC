@@ -1,0 +1,8 @@
+1169:/lib/library.c (/lib/library.c)
+(public int) library_read(string str)
+/*
+ * Function name: library_read
+ * Description:   Try to read a book from the library.
+ * Arguments:     string str - any arguments to the command
+ * Returns:       1/0 - Command success/failure
+ */

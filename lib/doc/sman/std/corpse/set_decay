@@ -1,0 +1,9 @@
+399:/std/corpse.c (/std/corpse.c)
+(void) set_decay(int d)
+/*
+ * Function name: set_decay
+ * Description  : Sets the decay time in minutes. Preferably, only call this
+ *                routine from within create_corpse(), not externally. It will
+ *                reset the alarm time to the new decay time.
+ * Arguments    : int d - the decay time in minutes.
+ */

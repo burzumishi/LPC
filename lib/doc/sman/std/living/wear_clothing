@@ -1,0 +1,9 @@
+113:/std/living/wear.c (/std/living.c)
+(public mixed) wear_clothing(object ob)
+/*
+ * Function name: wear_clothing
+ * Description:   Wear something
+ * Arguments:     object ob - the item to be worn
+ * Returns:       string - an error message (the item cannot be worn)
+ *                1 - item successfully worn
+ */

@@ -1,0 +1,7 @@
+121:/std/drink.c (/std/drink.c)
+(public void) set_soft_amount(int a)
+/*
+ * Function name: set_soft_amount
+ * Description  : sets the amount of liquid in the drink.
+ * Arguments    : int a - the amount of liquid.
+ */

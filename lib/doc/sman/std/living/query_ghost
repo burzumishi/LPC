@@ -1,0 +1,7 @@
+1232:/std/living/savevars.c (/std/living.c)
+(public int) query_ghost()
+/*
+ * Function name:   query_ghost
+ * Description:     Return the ghost-status of a living.
+ * Returns:         0 if the living is not a ghost, the status otherwise.
+ */

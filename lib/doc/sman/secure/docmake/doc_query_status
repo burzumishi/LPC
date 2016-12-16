@@ -1,0 +1,5 @@
+126:/secure/docmake.c (/secure/docmake.c)
+(public string) doc_query_status()
+/*
+ * Call this to get the status of the current documentation
+ */

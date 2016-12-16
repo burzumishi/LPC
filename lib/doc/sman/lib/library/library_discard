@@ -1,0 +1,8 @@
+1857:/lib/library.c (/lib/library.c)
+(public int) library_discard(string str)
+/*
+ * Function name: library_discard
+ * Description:   The "discard" command
+ * Arguments:     string str - arguments to the "discard" command
+ * Returns:       1/0 - syntax success/failure
+ */

@@ -1,0 +1,7 @@
+1322:/std/living/combat.c (/std/living.c)
+(int) remove_prop_live_i_quickness()
+/*
+ * Function Name: remove_prop_live_i_quickness
+ * Description  : Catches removal of the LIVE_I_QUICKNESS
+ *                prop to keep track of quickness based on source.
+ */

@@ -1,0 +1,9 @@
+2976:/secure/master.c (/secure/master.c)
+(int) load_player()
+/*
+ * Function name: load_player
+ * Descripton:    This function is called from /std/player_sec 
+ *                  when the player object is loaded initially. 
+ *                It sets the euid of the player to root for 
+ *                the duration of the load.
+ */

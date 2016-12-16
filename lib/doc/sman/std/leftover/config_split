@@ -1,0 +1,8 @@
+93:/std/leftover.c (/std/leftover.c)
+(void void) config_split(int new_num, object orig)
+/*
+ * Function name: config_split
+ * Description  : When the heap is split, copy the race and organ variables.
+ * Arguments    : int new_num - the size of the new heap.
+ *                object orig - the original heap object.
+ */

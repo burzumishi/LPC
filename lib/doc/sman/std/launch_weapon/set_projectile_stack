@@ -1,0 +1,9 @@
+334:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask void) set_projectile_stack(object ps)
+/*
+ * Function name: set_projectile_stack
+ * Description  : Set which stack of projectile we draw projectiles from
+ *                when we shoot.
+ *                
+ * Arguments    : object ps - The stack of projectiles to use.
+ */

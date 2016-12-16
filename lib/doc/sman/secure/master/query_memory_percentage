@@ -1,0 +1,9 @@
+2051:/secure/master.c (/secure/master.c)
+(nomask public int) query_memory_percentage()
+/*
+ * Function name: query_memory_percentage
+ * Description  : This function will return the percentage of memory usage
+ *                of the game so far. When the counter reaches 100, it is
+ *                time to reboot.
+ * Returns      : int - the relative memory usage.
+ */

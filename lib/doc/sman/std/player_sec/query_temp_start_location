@@ -1,0 +1,8 @@
+401:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask string) query_temp_start_location()
+/*
+ * Function name:   query_temp_start_location
+ * Description:     Gives back the temporary start location of a player when
+ *                  she enters the game.
+ * Returns:         The string with the filename of the startup-room.
+ */

@@ -1,0 +1,8 @@
+341:/lib/shop.c (/lib/shop.c)
+(void) shop_hook_list_empty_store(string str)
+/*
+ * Function name: shop_hook_list_empty_store
+ * Description:   If the storeroom is empty when the player wants a list
+ *		  of its items
+ * Arguments:	  str - If player specified string
+ */

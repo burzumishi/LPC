@@ -1,0 +1,6 @@
+156:/std/living.c (/std/living.c)
+(nomask void) init()
+/*
+ * Function name: init
+ * Description:   Tells us of new players in our neigbourhood
+ */

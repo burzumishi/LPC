@@ -1,0 +1,7 @@
+345:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask string) query_reason()
+/*
+ * Function name: query_reason
+ * Description  : Return the reason for the shutdown.
+ * Returns      : string - the reason.
+ */

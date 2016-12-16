@@ -1,0 +1,6 @@
+1153:/std/door.c (/std/door.c)
+(void) set_lock_command(mixed command)
+/*
+ * Function name: set_locl_command
+ * Description:   Set which command locks the door
+ */

@@ -1,0 +1,7 @@
+2020:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask void) cb_stop_fight(mixed elist)
+/*
+ * Function name: cb_stop_fight
+ * Description  : Stop fighting certain enemies.
+ * Arguments    : mixed elist - the enemy or array of enemies to stop fighting.
+ */

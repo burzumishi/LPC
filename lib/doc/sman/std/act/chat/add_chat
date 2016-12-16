@@ -1,0 +1,7 @@
+34:/std/act/chat.c (/std/act/chat.c)
+(void) add_chat(mixed str)
+/*
+ * Function name: add_chat
+ * Description:   Adds a chat string that the monster will randomly say.
+ * Arguments:	  str: Text
+ */

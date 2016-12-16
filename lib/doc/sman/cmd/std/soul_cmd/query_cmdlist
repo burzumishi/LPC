@@ -1,0 +1,5 @@
+54:/cmd/std/soul_cmd.c (/cmd/std/soul_cmd.c)
+(mapping) query_cmdlist()
+/* **************************************************************************
+ * The list of verbs and functions. Please add new in alphabetical order.
+ */

@@ -1,0 +1,26 @@
+670:/std/weapon.c (/std/weapon.c)
+(void) set_wf(object obj)
+/*
+ * Function name: set_wf
+ * Description  : To do special checks or processing when a weapon is wielded
+ *                or unwielded. the routines wield and unwield can be defined
+ *                either in this object, or in an external object.
+ *
+ *                mixed wield(object weapon) { }
+ *                mixed unwield(object weapon) { } 
+ *
+ *                Note that while wield() may operate on this_player(), the
+ *                unwield() routine cannot rely on that. In unwield(), use
+ *                the query_wielded() routine to find out who is wielding it.
+ *
+ *                Those functions can return:
+ *                   0 - No effect; the weapon can be wielded / unwielded.
+ *                   1 - It can be wielded / unwielded but no text should be
+ *                       printed (it was done in the function).
+ *                  -1 - It can not be wielded / unwielded. A default fail
+ *                       message will be written.
+ *                 str - It can not be wielded / unwielded. The string 'str'
+ *                       is the fail message to print.
+ *
+ * Arguments     : object obj - the object that defines the routines.
+ */

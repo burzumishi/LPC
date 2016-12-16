@@ -1,0 +1,8 @@
+48:/std/workroom.c (/std/workroom.c)
+(public void) reset_workroom()
+/*
+ * Function name: reset_workroom
+ * Description  : Called to make the room reset from time to time. You
+ *                should redefine this function if you want your workroom
+ *                to reset.
+ */

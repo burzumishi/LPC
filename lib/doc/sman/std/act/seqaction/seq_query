@@ -1,0 +1,9 @@
+274:/std/act/seqaction.c (/std/act/seqaction.c)
+(string *) seq_query(string name)
+/*
+ *  Description: Returns the sequence of commands for a given sequence.
+ *
+ *               For a specific sequence 'name' it returns the remaining
+ *               commands or an empty array. If no sequence 'name' exists
+ *               then 0 is returned.
+ */

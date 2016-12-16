@@ -1,0 +1,7 @@
+18:/std/key.c (/std/key.c)
+(public void) create_key()
+/*
+ * Function name: create_key
+ * Description  : Call this function to create the key. Since you may not
+ *                mask the function create_object, you must mask this one.
+ */

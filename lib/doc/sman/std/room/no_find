@@ -1,0 +1,7 @@
+311:/std/room/description.c (/std/room.c)
+(string) no_find()
+/*
+ * Function name: no_find
+ * Description:   Called when the herbalist didn't find any herbs
+ * Returns:       string to write
+ */

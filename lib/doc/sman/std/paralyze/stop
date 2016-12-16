@@ -1,0 +1,8 @@
+71:/std/paralyze.c (/std/paralyze.c)
+(int) stop(string str)
+/*
+ * Function name: stop
+ * Description  : Here all commands the player gives comes.
+ * Argument     : string str - The command line argument.
+ * Returns      : int 1/0    - success/failure.
+ */

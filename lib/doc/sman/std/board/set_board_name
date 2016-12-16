@@ -1,0 +1,9 @@
+149:/std/board.c (/std/board.c)
+(public nomask void) set_board_name(string str)
+/*
+ * Function name: set_board_name
+ * Description  : This function sets the path in which the notes on the
+ *                board are kept. This must _always_ be set!
+ * Arguments    : strint str - the pathname of the board. It should not
+ *                             end with a /.
+ */

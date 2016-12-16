@@ -1,0 +1,7 @@
+1749:/std/door.c (/std/door.c)
+(string) standard_knock_resp1()
+/*
+ * Function name:	standard_knock_resp1
+ * Description	:	give the default foo-knocks msg for a closed door
+ * Returns	:	string -- the msg
+ */

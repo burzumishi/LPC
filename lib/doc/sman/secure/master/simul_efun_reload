@@ -1,0 +1,7 @@
+1858:/secure/master.c (/secure/master.c)
+(void ) simul_efun_reload()
+/*
+ * Function name: simul_efun_reload
+ * Description  : This function sets the authorisation variables for the
+ *                simul_efun object.
+ */

@@ -1,0 +1,12 @@
+230:/std/living/wear.c (/std/living.c)
+(varargs public mixed) query_armour(int which)
+/*
+ * Function name: query_armour
+ * Description  : Returns the armour of a given position or lists all armours
+ *                worn when -1 is given as argument.
+ * Arguments    : int which - a numeric label describing an armour location.
+ *                            On humanoids this is TS_HEAD etc. Give -1 to
+ *                            list all.
+ * Returns      : object   - the corresponding armour or 0.
+ *                object * - all armours when -1 is given.
+ */

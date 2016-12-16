@@ -1,0 +1,8 @@
+267:/std/act/asking.c (/std/act/asking.c)
+(public void) catch_question(string question)
+/*
+ * Function name: catch_question
+ * Description:	  This function is called in each living being someone asks a
+ *		  question to.
+ * Arguments:	  question - The question as put
+ */

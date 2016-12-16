@@ -1,0 +1,7 @@
+619:/std/container.c (/std/container.c)
+(public void) show_visible_contents(object for_obj)
+/*
+ * Function name: show_visible_contents
+ * Description:   Show the visible contents of this container
+ * Arguments:     object for_obj - To whom to show the contents
+ */

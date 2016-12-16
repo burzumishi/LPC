@@ -1,0 +1,10 @@
+713:/lib/shop.c (/lib/shop.c)
+(object *) buy_it(object *ob, string str2, string str3)
+/*
+ * Function name: buy_it
+ * Description:   Try to let the player buy the item array
+ * Arguments:     ob - the object array
+ *                str2 - string describing how the money should be paid
+ *                str3 - what coin types to get chainge back in
+ * Returns:       1 on sucess
+ */

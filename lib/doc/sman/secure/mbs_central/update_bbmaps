@@ -1,0 +1,7 @@
+1720:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) update_bbmaps()
+/*
+ * Function name: update_bbmaps
+ * Description:	  Updates the board by domain and path map from the board by
+ *		  category map.
+ */

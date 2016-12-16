@@ -1,0 +1,11 @@
+377:/secure/master/guild.c (/secure/master.c)
+(static void) add_guild_master(string short_name, string master)
+/*
+ * Function name: add_guild_master
+ * Description  : This will add a guildmaster to a guild that already exists.
+ *                That it exists is not checked here, so that must be done
+ *                prior to calling this function.
+ * Arguments    : string short_name - the short name of the guild. Must be
+ *                    lower case since it is an internal call.
+ *                string master - the guildmaster to add.
+ */

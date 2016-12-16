@@ -1,0 +1,6 @@
+128:/std/container.c (/std/container.c)
+(public void) reset_container()
+/*
+ * Function name: reset_container
+ * Description:   Reset the container (standard)
+ */

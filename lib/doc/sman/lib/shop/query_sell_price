@@ -1,0 +1,8 @@
+416:/lib/shop.c (/lib/shop.c)
+(int) query_sell_price(object ob)
+/*    
+ * Function name: query_sell_price
+ * Description:   What price will the player get when selling an object?
+ * Arguments:	  ob - The object
+ * Returns:	  The price
+ */

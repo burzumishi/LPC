@@ -1,0 +1,10 @@
+657:/std/combat/cbase.c (/std/combat/cbase.c)
+(public string) cb_attack_desc(int aid)
+/*
+ * Function name: cb_attack_desc
+ * Description:   Gives the description of a certain attack slot. This is
+ *                supposed to be replaced by more intelligent routines in
+ *                humanoid and creature combat
+ * Arguments:     aid:   The attack id
+ * Returns:       string holding description
+ */

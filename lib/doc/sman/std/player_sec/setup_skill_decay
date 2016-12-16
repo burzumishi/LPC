@@ -1,0 +1,6 @@
+284:/std/player_sec.c (/std/player_sec.c)
+(public nomask void) setup_skill_decay()
+/*
+ * Function name:   setup_skill_decay()
+ * Description:     setup the skill decay flag.
+ */

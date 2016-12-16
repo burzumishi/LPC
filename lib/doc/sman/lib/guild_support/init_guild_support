@@ -1,0 +1,7 @@
+588:/lib/guild_support.c (/lib/guild_support.c)
+(void) init_guild_support()
+/*
+ * Function name: init_guild_support
+ * Description  : Add the meditate command to the player. You must call this
+ *                function from init() in your room.
+ */

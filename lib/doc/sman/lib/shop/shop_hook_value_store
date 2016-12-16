@@ -1,0 +1,8 @@
+295:/lib/shop.c (/lib/shop.c)
+(void) shop_hook_value_store(object ob, string text)
+/*
+ * Function name: shop_hook_value_store
+ * Description:   Player values object in store
+ * Arguments:     ob   - The object 
+ *		  text - The value in text form
+ */

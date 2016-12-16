@@ -1,0 +1,10 @@
+426:/std/poison_effect.c (/std/poison_effect.c)
+(public void) tell_damage_player(int phit, string str)
+/*
+ * Function name: tell_damage_player
+ * Description  : The player has been hurt; tell him how.  A string
+ *                is passed, which must sound reasonable in the 
+ *                sentences "You feel xxxx." and "You feel much xxxx."
+ * Arguments    : phit - the damage level
+ *                str  - the string to tell the player.
+ */

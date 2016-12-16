@@ -1,0 +1,10 @@
+1323:/std/combat/cbase.c (/std/combat/cbase.c)
+(public mixed) cb_wield_weapon(object wep)
+/*
+ * Function name: cb_wield_weapon
+ * Description:   Wield a weapon. 'Weapon' is here a general term for any tool
+ *                used as a weapon. Only players are limited to /std/weapon
+ *                weapons.
+ * Arguments:     wep - The weapon to wield.
+ * Returns:       True if wielded.
+ */

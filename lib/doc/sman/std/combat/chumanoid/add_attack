@@ -1,0 +1,5 @@
+168:/std/combat/chumanoid.c (/std/combat/chumanoid.c)
+(varargs int) add_attack(int wchit, mixed wcpen, int damtype, int prcuse, int id, int skill,     object wep)
+/*
+ * Description: Add an attack, see /std/combat/cbase.c
+ */

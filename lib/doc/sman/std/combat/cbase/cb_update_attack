@@ -1,0 +1,9 @@
+2110:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask mixed) cb_update_attack()
+/*
+ * Function Name: cb_update_attack
+ * Description  : Update the current attack_ob by looking for new
+ *                enemies to attack. Only call this when attack_ob used
+ *                to be correct.
+ * Returns      : object - the target to attack
+ */

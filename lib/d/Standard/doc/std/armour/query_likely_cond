@@ -1,0 +1,8 @@
+363:/std/armour.c (/std/armour.c)
+(int) query_likely_cond()
+/*
+ * Function name: query_likely_cond
+ * Description:   How likely is this armour to wear down with use (a relative
+ *                number)
+ * Returns:       The likliness
+ */

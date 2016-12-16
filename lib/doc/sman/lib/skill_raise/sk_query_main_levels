@@ -1,0 +1,7 @@
+75:/lib/skill_raise.c (/lib/skill_raise.c)
+(public nomask string *) sk_query_main_levels()
+/*
+ * Function name: sk_query_main_levels
+ * Description  : Give the array of main level descriptions of skill levels.
+ * Returns      : string * - the array.
+ */

@@ -1,0 +1,14 @@
+485:/secure/master/mail_admin.c (/secure/master.c)
+(static int) purge_mail()
+/*
+ * Function name: purge_mail
+ * Description  : This function will purge the mail system. It will do
+ *                the following:
+ *                - remove all mailboxes from players that do no longer exist;
+ *                - check all message files and remove the names of all
+ *                  recipients who no longer exist;
+ *                - cross check all message files with all mailboxes and
+ *                  remove those message files that are no longer connected
+ *                  to any mailbox.
+ * Returns      : int 1/0 - success/failure.
+ */

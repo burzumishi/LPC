@@ -1,0 +1,6 @@
+424:/lib/skill_raise.c (/lib/skill_raise.c)
+(public void) init_skill_raise()
+/*
+ * Function name: init_skill_raise
+ * Description:   Call this to add standard skill raising commands
+ */

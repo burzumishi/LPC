@@ -1,0 +1,8 @@
+1604:/secure/master/fob.c (/secure/master.c)
+(static void) decay_exp()
+/*
+ * Function name: decay_exp
+ * Description:   Let the accumulated xp / domain decay over time. This
+ *                is called from check_memory which is called at regular
+ *                intervalls. check_memory also saves to KEEPERSAVE.
+ */

@@ -1,0 +1,8 @@
+966:/std/receptacle.c (/std/receptacle.c)
+(public nomask void) remove_temp_libcontainer_checked(object player)
+/*
+ * Function name: remove_temp_libcontainer_checked
+ * Description  : If a player handled a container and failed, he will not
+ *                try to handle another containers in the same heartbeat.
+ * Arguments    : player - the player to remove it from
+ */

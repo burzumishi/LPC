@@ -1,0 +1,10 @@
+402:/std/weapon.c (/std/weapon.c)
+(void) leave_env(object from, object dest)
+/*
+ * Function name: leave_env
+ * Description  : When the weapon leaves a certain inventory this function
+ *                is called. If the weapon is wielded, we unwield. If you
+ *                mask this function you _must_ make a call to ::leave_env
+ * Arguments    : object from - the object the weapon leaves.
+ *                object desc - the destination of the weapon.
+ */

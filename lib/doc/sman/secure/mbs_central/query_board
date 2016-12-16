@@ -1,0 +1,9 @@
+1212:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask mixed) query_board(string board, string cath)
+/*
+ * Function name: query_board
+ * Description:	  Return the info of just one board
+ * Arguments:	  board - the board
+ *		  cath - the category
+ * Returns:	  board, or error.
+ */

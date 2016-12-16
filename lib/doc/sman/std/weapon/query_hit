@@ -1,0 +1,7 @@
+447:/std/weapon.c (/std/weapon.c)
+(int) query_hit()
+/*
+ * Function name: query_hit
+ * Description  : Query the to hit value in the weapon.
+ * Returns      : int - the hit value.
+ */

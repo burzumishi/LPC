@@ -1,0 +1,8 @@
+74:/std/domain_link.c (/std/domain_link.c)
+(public string) query_commodity(string name)
+/*
+ * Function name : query_commodity
+ * Description   : function returns file representing a specific commodity
+ * Arguments     : string  - the name of commodity
+ * Returns       : string  - the file of commodity
+ */

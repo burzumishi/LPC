@@ -1,0 +1,8 @@
+229:/std/leftover.c (/std/leftover.c)
+(public string) query_recover()
+/*
+ * Function name: query_recover
+ * Description  : Get the recover string, so that the race and organ are
+ *                preserved.
+ * Returns      : string - the recover string.
+ */

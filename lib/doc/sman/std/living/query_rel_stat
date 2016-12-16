@@ -1,0 +1,9 @@
+244:/std/living/stats.c (/std/living.c)
+(public int) query_rel_stat(int stat)
+/*
+ * Function name: query_rel_stat
+ * Description  : Measure a stat versus the average stat as percentage. A stat
+ *                that is on average returns 100%
+ * Arguments    : int stat - the stat to find.
+ * Returns      : int - the percentage
+ */

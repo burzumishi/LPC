@@ -1,0 +1,6 @@
+1087:/std/door.c (/std/door.c)
+(void) set_locked(int i)
+/*
+ * Function name: set_locked
+ * Description:   Set lock status
+ */

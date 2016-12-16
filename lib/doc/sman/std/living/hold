@@ -1,0 +1,9 @@
+19:/std/living/hold.c (/std/living.c)
+(public int) hold(object tool)
+/*
+ * Function name: hold
+ * Description:   Hold an item
+ * Arguments:     object tool - the item to hold
+ * Returns:       1 - item successfully held
+ *                string - An error message (item not held)
+ */

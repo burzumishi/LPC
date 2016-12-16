@@ -1,0 +1,6 @@
+65:/lib/wearable_item.c (/lib/wearable_item.c)
+(public int) query_slots_setting()
+/*
+ * Function name: query_slots_setting
+ * Returns:       The (int) armour slots that this item occupies
+ */

@@ -1,0 +1,9 @@
+178:/std/guild/guild_occ_sh.c (/std/guild/guild_occ_sh.c)
+(public int) query_guild_leader_occ()
+/*
+ * Function name: query_guild_leader_occ
+ * Description  : Define this function to return true if the person is a
+ *                leader of his/her occupational guild, in council-membership
+ *                or something similar.
+ * Returns      : int 1/0 - occupational guild leader or not.
+ */

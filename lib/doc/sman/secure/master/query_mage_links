@@ -1,0 +1,7 @@
+2369:/secure/master/fob.c (/secure/master.c)
+(public string *) query_mage_links()
+/*
+ * Function name: query_mage_links
+ * Description  : Finds all WIZARD_DOMAIN mages and makes a list of all links.
+ * Returns      : string * - the list.
+ */

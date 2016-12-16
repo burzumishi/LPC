@@ -1,0 +1,7 @@
+842:/std/weapon.c (/std/weapon.c)
+(int) query_likely_break()
+/*
+ * Function name: query_likely_break
+ * Description:   How likely is it this weapon will break with use
+ * Returns:       int - How likely it is
+ */

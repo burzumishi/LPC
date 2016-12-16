@@ -1,0 +1,9 @@
+408:/secure/master/guild.c (/secure/master.c)
+(public string *) query_guild_masters(string short_name)
+/*
+ * Function name: query_guild_masters
+ * Description  : Query the registered guildmasters of a particular guild. 
+ *                The answer will be sorted.
+ * Arguments    : string short_name - the short name of the guild.
+ * Returns      : string * - the guildmasters of the guild, or ({ }).
+ */

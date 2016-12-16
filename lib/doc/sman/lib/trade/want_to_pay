@@ -1,0 +1,9 @@
+472:/lib/trade.c (/lib/trade.c)
+(void) want_to_pay(int *arr, string str)
+/*
+ * Function name: want_to_pay
+ * Description:   Check the string and sort out what types of coins to pay with
+ *                or better to work with
+ * Arguments:     arr - the array holding the coins
+ *                str - string describing the coins object wants to work with
+ */

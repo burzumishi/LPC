@@ -1,0 +1,7 @@
+174:/d/Genesis/ship/deck.c (/d/Genesis/ship/deck.c)
+(public void) set_no_disembark()
+/*
+ * Function name: set_no_disembark
+ * Description:   Call this function if players should not be able to
+ *		  leave the ship at all from this location
+ */

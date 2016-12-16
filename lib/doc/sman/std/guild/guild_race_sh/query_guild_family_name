@@ -1,0 +1,14 @@
+139:/std/guild/guild_race_sh.c (/std/guild/guild_race_sh.c)
+(public int) query_guild_family_name()
+/*
+ * Function name: query_guild_family_name
+ * Description  : If the guild consists of families that give their members
+ *                a family name, this function should return true. It
+ *                moves the article 'the' to the occupational title of
+ *                the member giving:
+ *                "<race title>, the <occ title> and <lay title>"
+ *                if the player is a member of all major guild types.
+ * Returns      : int - true if the function query_guild_title_race()
+ *                      returns the family name and not a normal guild
+ *                      title.
+ */

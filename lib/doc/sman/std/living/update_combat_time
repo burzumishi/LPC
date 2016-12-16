@@ -1,0 +1,7 @@
+819:/std/living/combat.c (/std/living.c)
+(public void) update_combat_time()
+/*
+ * Function name: update_combat_time
+ * Description  : Mark that on this moment a hit was made, either by us or on
+ *                us.
+ */

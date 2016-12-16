@@ -1,0 +1,7 @@
+53:/std/player_pub.c (/std/player_pub.c)
+(public string) query_new_title()
+/*
+ * Function:    query_new_title
+ * Description: Returns the title of the player calculated from stats
+ *
+ */

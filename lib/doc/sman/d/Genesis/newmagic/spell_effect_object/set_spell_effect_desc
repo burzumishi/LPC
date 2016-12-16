@@ -1,0 +1,9 @@
+49:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public void) set_spell_effect_desc(string desc)
+/*
+ * Function name: set_spell_effect_desc
+ * Description:   Set the description of the spell effect.  This
+ *                should be a short, one or two word description:
+ *                "invisibility" or "night vision", for instance.
+ * Arguments:     string desc - the effect description
+ */

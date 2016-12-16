@@ -1,0 +1,6 @@
+166:/std/act/seqaction.c (/std/act/seqaction.c)
+(public varargs int ) seq_new(string name, int flags)
+/*
+ *  Description: New command sequence. Command sequences are independant
+ *               named streams of commands. This function creates a stream.
+ */

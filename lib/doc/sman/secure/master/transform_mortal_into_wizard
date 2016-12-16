@@ -1,0 +1,10 @@
+539:/secure/master/fob.c (/secure/master.c)
+(static void) transform_mortal_into_wizard(string wname, string cmder)
+/*
+ * Function name: transform_mortal_into_wizard
+ * Description  : This function gives the mortal the apprentice scroll and
+ *                alters the start location of the player, both if they
+ *                player is logged in or now.
+ * Arguments    : string wname - the name of the mortal.
+ *                string cmder - the name of the wizard doing the honour.
+ */

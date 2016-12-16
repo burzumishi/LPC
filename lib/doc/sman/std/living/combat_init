@@ -1,0 +1,7 @@
+748:/std/living/combat.c (/std/living.c)
+(nomask void) combat_init()
+/*
+ * Function name:   combat_init
+ * Description:     Notes when players are introduced into our environment
+ *                  Used to attack known enemies on sight.
+ */

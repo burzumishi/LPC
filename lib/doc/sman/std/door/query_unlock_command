@@ -1,0 +1,6 @@
+1226:/std/door.c (/std/door.c)
+(string *) query_unlock_command()
+/*
+ * Function name: query_unlock_command
+ * Description:   Query what command unlocks the door
+ */

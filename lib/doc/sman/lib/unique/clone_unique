@@ -1,0 +1,24 @@
+15:/lib/unique.c (/lib/unique.c)
+(public varargs object) clone_unique(string file, int num = 1, mixed alt = 0, int always = 0,              int chance = F_DEFAULT_CLONE_UNIQUE_CHANCE, int use_uptime = 1)
+/*
+ * Function name: clone_unique
+ * Description	: Use this function to clone a limited number
+ *		  of a certain object, and once that number
+ *		  is reached, begin cloning alternate objects.
+ * Arguments	: string file - The file path to the main object.
+ *		  int    num  - The max number of copies of the
+ *				main object allowed.
+ *		  mixed alt   - May be a string path, an array of string
+ *				paths, or an array of arrays, each
+ *				containing a string chance and an int. 
+ *		  int  always - If 'alt' is an array, always try to
+ *				to pick an element from it.
+ *		  int  chance - The chance of the main item to be cloned
+ *				and checked for.
+ *                int use_uptime - If true, distribute the occurance of
+ *                              unique items over a period of time.
+ *
+ * Notes	: For details on usage, see the associated man page 
+ *		  for this function and examples on how to
+ *		  correctly use it.
+ */

@@ -1,0 +1,7 @@
+168:/secure/purge.c (/secure/purge.c)
+(static nomask int) player_average()
+/*
+ * Function name: player_average
+ * Description  : Returns the average stat of the player.
+ * Returns      : int - the average stat.
+ */

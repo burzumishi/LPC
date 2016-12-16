@@ -1,0 +1,9 @@
+1023:/secure/login.c (/secure/login.c)
+(static int) check_restriction()
+/*
+ * Function name: check_restriction
+ * Description  : Check whether a playing restriction is imposed on the
+ *                player. This can be voluntary or involuntary. If so,
+ *                disallow entry.
+ * Returns      : int 1/0 - true/not true.
+ */

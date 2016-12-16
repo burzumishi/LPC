@@ -1,0 +1,7 @@
+300:/std/living/cmdhooks.c (/std/living.c)
+(nomask public int) load_tool_souls()
+/*
+ * Function name:   load_tool_souls
+ * Description:     Load the tool souls into the player.
+ * Returns:         True upon success.
+ */

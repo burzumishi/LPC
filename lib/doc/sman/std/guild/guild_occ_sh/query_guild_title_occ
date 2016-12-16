@@ -1,0 +1,12 @@
+116:/std/guild/guild_occ_sh.c (/std/guild/guild_occ_sh.c)
+(public string) query_guild_title_occ()
+/*
+ * Function name: query_guild_title_occ
+ * Description  : This function should return the occupational title off
+ *                the player. Since this function is not called for wizards
+ *                you do not have to distinct for them in this function.
+ * Returns      : string - the title for the player.
+ *                The title will be incorporated in the format
+ *                "the <race title>, <occ title> and <lay title>"
+ *                if the player is a member of all major guild types.
+ */

@@ -1,0 +1,8 @@
+333:/std/torch.c (/std/torch.c)
+(public string) query_light_fail()
+/*
+ * Function name: query_light_fail
+ * Description  : Routine that returns why this torch cannot be lit.
+ * Returns      : string - descriptive error message.
+ *                int 0 - the torch can be lit.
+ */

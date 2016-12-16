@@ -1,0 +1,8 @@
+265:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask void) set_unload_command(string command)
+/*
+ * Function name: set_unload_command;
+ * Description  : Sets the command used to unload this launch weapon.
+ *                
+ * Arguments    : String command - Command that is used to unload this weapon.
+ */

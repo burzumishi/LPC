@@ -1,0 +1,6 @@
+142:/std/living.c (/std/living.c)
+(public nomask void) reset_container()
+/*
+ * Function name: reset_container
+ * Description:   Reset the living object. 
+ */

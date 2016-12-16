@@ -1,0 +1,9 @@
+445:/std/armour.c (/std/armour.c)
+(int) set_repair(int rep)
+/*
+ * Function name: set_repair
+ * Description:   When trying to repair the armour, call this function. Repairs
+ *                can only increase the repair factor.
+ * Arguments:     rep - The new repair number
+ * Returns:       1 if new repair status accepted
+ */

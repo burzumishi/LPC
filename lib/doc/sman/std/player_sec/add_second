@@ -1,0 +1,8 @@
+982:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) add_second(string second)
+/*
+ * Function name: add_second
+ * Description  : Add a second to the player list.
+ * Arguments    : string second - the name of the second to add.
+ * Returns      : int 1/0 - success/failure.
+ */

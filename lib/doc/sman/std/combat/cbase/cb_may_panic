@@ -1,0 +1,6 @@
+440:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_may_panic()
+/*
+ * Function name: cb_may_panic
+ * Description:   Check on our panic level, act accordingly.
+ */

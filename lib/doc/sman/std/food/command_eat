@@ -1,0 +1,8 @@
+114:/std/food.c (/std/food.c)
+(public mixed) command_eat()
+/*
+ * Function name: eat_me
+ * Description:   eat this food
+ * Returns:       string - an error message (failure)
+ *                1 - food successfully eaten
+ */

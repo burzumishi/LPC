@@ -1,0 +1,11 @@
+829:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) clear_domain_bit(string domain, int bit)
+/*
+ * Function name: clear_domain_bit
+ * Description  : Domains have a bit string in the playerfile. This routine
+ *                clears a bit in the player for future reference. Authority
+ *                is checked to see if the actor may clear the bit.
+ * Arguments    : string domain - the domain to use (capitalized name).
+ *                int bit - the bit to clear (range 0..149).
+ * Returns      : int 1/0 - if true, the bit is cleared.
+ */

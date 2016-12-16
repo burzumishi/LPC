@@ -1,0 +1,7 @@
+791:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public int) query_callout_fq()
+/*
+ * Function name: query_callout_fq
+ * Description	: get the time interval to be used between alarms
+ * Returns	: the time to be used
+ */

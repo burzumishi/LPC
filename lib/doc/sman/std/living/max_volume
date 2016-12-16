@@ -1,0 +1,7 @@
+30:/std/living/carry.c (/std/living.c)
+(int) max_volume()
+/*
+ * Function name:   max_volume
+ * Description:	    Calculate the maximum volume this living can budge.
+ * Returns:         The volume.
+ */

@@ -1,0 +1,7 @@
+179:/lib/area_handler.c (/lib/area_handler.c)
+(static nomask string) get_map_symbol(int x, int y)
+/*
+ * get_map_symbol
+ *
+ * Read the map symbol from the modified map.
+ */

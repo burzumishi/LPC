@@ -1,0 +1,7 @@
+332:/std/potion.c (/std/potion.c)
+(int ) query_alco_strength(int i)
+/*
+ * Function name: query_alco_strength
+ * Description:   What is the alco amount of the potion?
+ * Returns:       The alco amount
+ */

@@ -1,0 +1,25 @@
+1942:/std/object.c (/std/object.c)
+(public mixed) query_cmd_item()
+/*
+ * Function name: query_cmd_item
+ * Description:   Get the command items array.
+ * Returns:       Item array, see below:
+
+  [0] = array
+     [0] ({ "name1 of item1", "name2 of item1",... })
+     [1] ({ "command1", "command2", .... "commandN" })
+     [2] ({ 
+            "string to print if command1 given",
+            "string to print if command2 given",
+                   ......
+            "string to print if commandN given",
+         })
+
+  Example:
+        ({ 
+            ({ "flower", "viola" }), 
+            ({ "smell", "taste", "get" }),
+            ({ "It smells nice", "It tastes awful!", "@@tryget" }),
+        })
+
+*/

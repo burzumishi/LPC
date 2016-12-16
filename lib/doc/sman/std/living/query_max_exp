@@ -1,0 +1,8 @@
+769:/std/living/savevars.c (/std/living.c)
+(public int) query_max_exp()
+/*
+ * Function name: query_max_exp
+ * Description  : Gives the total amount of experience the living ever had,
+ *                i.e. before death took any.
+ * Returns      : int - the maximum experience points.
+ */

@@ -1,0 +1,6 @@
+317:/std/player_sec.c (/std/player_sec.c)
+(static nomask void) new_init()
+/*
+ * Function:     new_init
+ * Description:  Initialises all variables to default conditions.
+ */

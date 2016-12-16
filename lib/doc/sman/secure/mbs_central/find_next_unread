@@ -1,0 +1,9 @@
+1335:/secure/mbs_central.c (/secure/mbs_central.c)
+(nomask public mixed) find_next_unread(string board, int tme)
+/*
+ * Function name: find_next_unread
+ * Description:	  Find the next unread article on a board, given time info
+ * Arguments:	  board - the board to check
+ *		  tme - time stamp to check from
+ * Returns:	  ({ item, "time stamp" })
+ */

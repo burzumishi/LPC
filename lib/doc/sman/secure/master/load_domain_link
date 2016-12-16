@@ -1,0 +1,8 @@
+1420:/secure/master.c (/secure/master.c)
+(static int) load_domain_link(string file)
+/*
+ * Function name: load_domain_link
+ * Description:   Try to load a domain_link file
+ * Arguments:     file - The domain_link to load
+ * Returns:       True if everything went ok, false otherwise
+ */

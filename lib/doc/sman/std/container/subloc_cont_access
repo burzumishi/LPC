@@ -1,0 +1,10 @@
+755:/std/container.c (/std/container.c)
+(public mixed) subloc_cont_access(string sloc, string acs, object for_obj)
+/* 
+ * Function name: subloc_cont_access
+ * Description:   Check if a sublocation can be accessed or not
+ * Arguments:     sloc: Name of the sublocation
+ *                acs:  Access type as defined in /sys/subloc.h
+ *                for_obj: Living for which the access is to be checked
+ * Returns:       1 if accessible; 0 or string error message if not
+ */

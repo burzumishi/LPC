@@ -1,0 +1,9 @@
+1103:/std/object.c (/std/object.c)
+(private string *) del_list(string *list_old, mixed list_del)
+/*
+ * Function name: del_list
+ * Description:   Removes one or many elements from a list.
+ * Arguments:     list_old: The list as it looks.
+ *                list_del: What should be deleted
+ * Returns:       The new list.
+ */

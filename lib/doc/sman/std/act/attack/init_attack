@@ -1,0 +1,6 @@
+135:/std/act/attack.c (/std/act/attack.c)
+(public void) init_attack(void)
+/*
+ * Function name: init_attack
+ * Description:   Called from init_living() in monster.c
+ */

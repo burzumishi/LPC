@@ -1,0 +1,8 @@
+251:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(varargs object *) do_verb_1obj(string cmd, string single_func, string acsfunc, object cobj, 	     int include_invis)
+/* General command routine for "verb %i"
+
+   Access objects inside player or in players environment.
+   Parses command and calls 'single_func' for each object to do the command
+   upon. Returns an array of these objects for which 'single_func' returned 1.
+*/

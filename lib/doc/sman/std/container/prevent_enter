@@ -1,0 +1,10 @@
+246:/std/container.c (/std/container.c)
+(public int) prevent_enter(object ob)
+/*
+ * Function name: prevent_enter
+ * Description:   Called when an object is trying to enter this container to
+ *                see if we will allow it in.
+ * Arguments:     object ob - the object that is trying to enter.
+ * Returns:       1 - The object is not allowed to enter
+ *                0 - The object is allowed to enter
+ */

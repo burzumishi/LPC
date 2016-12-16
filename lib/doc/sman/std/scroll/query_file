@@ -1,0 +1,7 @@
+106:/std/scroll.c (/std/scroll.c)
+(string) query_file()
+/*
+ * Function name: query_file
+ * Description  : Query what file is connected to read command
+ * Returns      : string - the filename.
+ */

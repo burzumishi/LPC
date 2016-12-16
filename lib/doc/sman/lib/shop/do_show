@@ -1,0 +1,8 @@
+976:/lib/shop.c (/lib/shop.c)
+(int) do_show(string str)
+/*
+ * Function name: do_show
+ * Description  : Allow the player to appraise one of the objects in stock.
+ * Returns      : int - 1/0 - true if success.
+ * Arguments    : string str - the name of the objects to search for.
+ */

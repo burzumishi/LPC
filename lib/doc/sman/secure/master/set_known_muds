@@ -1,0 +1,7 @@
+3982:/secure/master.c (/secure/master.c)
+(int) set_known_muds(mapping m)
+/*
+ * Function name: set_known_muds
+ * Description:   The UDP manager can set what muds are known.
+ * Returns:       True if set.
+ */

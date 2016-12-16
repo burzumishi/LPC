@@ -1,0 +1,10 @@
+1221:/std/player_sec.c (/std/player_sec.c)
+(public int) id(string str)
+/*
+ * Function name: id
+ * Description  : Returns whether this object can be identified by a certain
+ *                name. That isn't the case if the player hasn't met you
+ *                while the real name is used.
+ * Arguments    : string str - the name to test
+ * Returns      : int 1/0 - true if the name is valid.
+ */

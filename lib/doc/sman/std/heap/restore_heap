@@ -1,0 +1,8 @@
+130:/std/heap.c (/std/heap.c)
+(public void) restore_heap()
+/*
+ * Function name: restore_heap
+ * Description  : Called to restore the heap to its origional state after
+ *                preparations were made to split it were made with
+ *                split_heap().
+ */

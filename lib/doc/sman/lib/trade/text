@@ -1,0 +1,7 @@
+776:/lib/trade.c (/lib/trade.c)
+(mixed) text(int *arr)
+/*
+ * Function name: text
+ * Description:   Generates a text string from the array describing the coins
+ * Arguments:     arr - the array holding the coins to describe
+ */

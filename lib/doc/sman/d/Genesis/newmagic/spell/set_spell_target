@@ -1,0 +1,16 @@
+409:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_target(function f)
+/*
+ * Function name: set_spell_target
+ * Description:   Indicate which function to use to determine the spell's
+ *                target. This function should be of the form
+ *
+ *                     object *func(object, string)
+ *
+ *                where the first argument is the caster, and the second is
+ *                the string argument passed to the "cast" command.  The
+ *                function returns an array of targets, empty if none were
+ *                found.
+ *
+ * Arguments:     1. (function) The targeting function
+ */

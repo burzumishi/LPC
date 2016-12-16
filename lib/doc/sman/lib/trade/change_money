@@ -1,0 +1,19 @@
+696:/lib/trade.c (/lib/trade.c)
+(varargs int) change_money(int *arr, object from, object to, int silent)
+/*
+ * Function name: change_money
+ * Description:   Do the moves described in the array between us and the player
+ * Arguments:     arr - the array holding the coins, twice as big as number of
+ *		        money types, first part is from
+ *                from - the one who pays and later gets change if any
+ *                to - where to move the money and take change from, or 0
+ *                silent - No error code written if set
+ * Returns:       > 0 The error from a move() or
+ *		  -1 when the money were not to be found in the specified
+ *		     object. This also happens if the players has false money.
+ *                These codes are multiplied with 10 if the error took place
+ *                   when we tried to take money from the player. Also we break
+ *                   the transaction if there was an error here.
+ *
+ *                -10 if the array was of wrong size.
+ */

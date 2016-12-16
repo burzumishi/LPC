@@ -1,0 +1,8 @@
+2362:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) erase()
+/*
+ * Function name: erase
+ * Description  : This function will actually erase the messages. It can
+ *                be called by the player of will automatically be called
+ *                when the player leaves the reader.
+ */

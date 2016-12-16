@@ -1,0 +1,7 @@
+43:/std/living/hold.c (/std/living.c)
+(public void) release(object tool)
+/*
+ * Function name: release
+ * Description:   Release a held item
+ * Arguments:     object tool - the object to release
+ */

@@ -1,0 +1,6 @@
+16:/obj/know_me.c (/obj/know_me.c)
+(void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Constructor. Called to create the object when it is cloned.
+ */

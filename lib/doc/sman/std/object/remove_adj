@@ -1,0 +1,9 @@
+1387:/std/object.c (/std/object.c)
+(public void) remove_adj(mixed adj)
+/*
+ * Function name: remove_adj
+ * Description  : Removes one or more adjectives from the list of adjectives
+ *                of this object.
+ * Arguments    : mixed adj - either a string or array of string with the
+ *                            adjectives to remove.
+ */

@@ -1,0 +1,7 @@
+240:/std/poison_effect.c (/std/poison_effect.c)
+(public int ) query_time()
+/*
+ * Function name: query_time
+ * Description  : This returns the time the poison will last, in seconds.
+ * Returns      : int - the time the poison lasts in total.
+ */

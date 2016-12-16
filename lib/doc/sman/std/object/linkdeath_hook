@@ -1,0 +1,17 @@
+2115:/std/object.c (/std/object.c)
+(public void) linkdeath_hook(object player, int linkdeath)
+/*
+ * Function name: linkdeath_hook
+ * Description  : This routine is called when the player who carries it goes
+ *                linkdead, or revives from linkdeath.
+ *                Warning: All items in the inventory of the item share the
+ *                same time cycle, so keep use of this routine to the bare
+ *                minimum. In general, try to avoid using this routine.
+ * Arguments    : object player - the player who linkdied, or revived, i.e.
+ *                    the environment() of this item.
+ *                int linkdeath - 1/0 - if true, the player linkdied, else
+ *                    he revives from linkdeath.
+ * Notice       : This function does not actually exist in /std/object. We have
+ *                fooled the document maker into believing it does, so we can
+ *                present this information. Do not call ::linkdeath_hook().
+ */

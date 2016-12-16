@@ -1,0 +1,17 @@
+510:/secure/master/notify.c (/secure/master.c)
+(public void) notify(object ob, int level)
+/*
+ * Function name: notify
+ * Description  : Notify wizards who want to hear when someone leaves or
+ *                enters the game.
+ * Arguments    : object ob    - the player object entering or leaving;
+ *                int    level - the notification status.
+ *
+ *                The notify level has several possible values:
+ *
+ *                0 - player logged in;
+ *                1 - player logged out;
+ *                2 - player linkdied;
+ *                3 - player revived from linkdeath;
+ *                4 - player switched terminals.
+ */

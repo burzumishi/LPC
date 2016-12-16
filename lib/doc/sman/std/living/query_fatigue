@@ -1,0 +1,7 @@
+693:/std/living/savevars.c (/std/living.c)
+(public int) query_fatigue()
+/*
+ * Function name:   query_fatigue
+ * Description:     Gives the amount of fatigue points of a living
+ * Returns:         The number of fatigue points
+ */

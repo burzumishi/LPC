@@ -1,0 +1,8 @@
+241:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask void) set_aim_command(string command)
+/*
+ * Function name: set_aim_command;
+ * Description  : Sets the command used to aim this launch weapon.
+ *                
+ * Arguments    : String command - Command that is used to aim this weapon.
+ */

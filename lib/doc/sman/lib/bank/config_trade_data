@@ -1,0 +1,6 @@
+21:/lib/bank.c (/lib/bank.c)
+(void) config_trade_data()
+/*
+ * Function name: config_trade_data
+ * Description:   Here we configure our own settings for the trade data
+ */

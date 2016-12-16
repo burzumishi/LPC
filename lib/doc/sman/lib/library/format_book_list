@@ -1,0 +1,9 @@
+899:/lib/library.c (/lib/library.c)
+(public string) format_book_list(string *books)
+/*
+ * Function name: format_book_list
+ * Description:   Given an array of book files, return a nicely formatted
+ *                string which lists the given books.
+ * Arguments:     string *books - an array of book filename strings
+ * Returns:       A string description of the given books
+ */

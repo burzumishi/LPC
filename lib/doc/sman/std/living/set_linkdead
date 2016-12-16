@@ -1,0 +1,7 @@
+33:/std/living/description.c (/std/living.c)
+(public void) set_linkdead(int i)
+/*
+ * Function name: set_linkdead
+ * Description  : Set the linkdeath-status of the player.
+ * Arguments    : int i - true if the player is linkdead.
+ */

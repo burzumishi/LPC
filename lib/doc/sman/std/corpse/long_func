@@ -1,0 +1,8 @@
+257:/std/corpse.c (/std/corpse.c)
+(string) long_func()
+/*
+ * Function name: long_func
+ * Description  : Returns the long description of this object, based on
+ *                recognition of the corpse.
+ * Returns      : string - the long description.
+ */

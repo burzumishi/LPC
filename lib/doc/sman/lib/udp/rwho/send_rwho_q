@@ -1,0 +1,9 @@
+17:/lib/udp/rwho.c (/lib/udp/rwho.c)
+(public int) send_rwho_q(string mud, string askwiz)
+/*
+ * Function name: send_rwho_q
+ * Description:   Sends a tell message to someone at another mud.
+ * Argument:	  mud: The mudname
+ *		  askwiz: Name of the wizard asking for rwho info
+ * Returns:	  True if mud known and message sent.
+ */

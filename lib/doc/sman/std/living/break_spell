@@ -1,0 +1,9 @@
+148:/std/living/spells.c (/std/living.c)
+(varargs public int) break_spell(string msg, object breaker)
+/*
+ * Function name: break_spell
+ * Description:   Break concentration on a spell if one is active
+ * Arguments:     string msg - why concentration was broken
+ *                object breaker - who broke the concentration
+ * Returns:       1/0 - concentration broken/not broken
+ */

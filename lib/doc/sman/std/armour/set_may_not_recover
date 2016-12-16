@@ -1,0 +1,6 @@
+860:/std/armour.c (/std/armour.c)
+(nomask void) set_may_not_recover()
+/*
+ * Function name: set_may_not_recover
+ * Description  : Call this to force the armour to be non-recoverable.
+ */

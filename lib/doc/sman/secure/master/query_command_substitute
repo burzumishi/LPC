@@ -1,0 +1,8 @@
+2039:/secure/master.c (/secure/master.c)
+(string) query_command_substitute(string cmd)
+/*
+ * Function name: query_command_stubstitute
+ * Description  : Get a long substitute for a command.
+ * Arguments    : string cmd - the short command.
+ * Returns      : string - the long substitute.
+ */

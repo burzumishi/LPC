@@ -1,0 +1,8 @@
+211:/std/paralyze.c (/std/paralyze.c)
+(void) set_fail_message(string message)
+/*
+ * Function name: set_fail_message
+ * Description  : Set the fail message when player tries to do something.
+ *                This supports VBFC and uses this_player().
+ * Arguments    : string - the fail message.
+ */

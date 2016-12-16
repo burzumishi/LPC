@@ -1,0 +1,19 @@
+145:/lib/commands.c (/lib/commands.c)
+(public varargs void) target(string str, object *oblist, string adverb = "", int cmd_attr = 0)
+/*
+ * Function name: target
+ * Description  : Print the message that the target of an action gets. Note
+ *                that a newline is added by this routine. Possessive form on
+ *                on the target(s) is automatically handled.
+ * Example      : target(" hugs you.", oblist);
+ *
+ *                Someone hugs you.
+ *                Mrpr hugs you.
+ *                The darkly robed human wizard hugs you.
+ *
+ * Arguments    : string str     - the message to print. Start with "'s" for
+ *                                 possessive actor form.
+ *                object *oblist - the people to get the message.
+ *                string adverb  - the optional adverb if one was used.
+ *                int cmd_attr   - the action attributes (from cmdparse.h)
+ */

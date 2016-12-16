@@ -1,0 +1,12 @@
+209:/secure/master/guild.c (/secure/master.c)
+(static void) set_guild_type(string short_name, int type)
+/*
+ * Function name: set_guild_type
+ * Description  : This will set the type for a guild that already exists.
+ *                That it exists is not checked here, so that must be done
+ *                prior to calling this function.
+ * Arguments    : string short_name - the short name of the guild. Must be
+ *                    lower case since it is an internal call.
+ *                int type - the type of the guild, a binary conjunction of
+ *                    G_RACE, G_LAYMAN and/or G_OCCUPATIONAL.
+ */

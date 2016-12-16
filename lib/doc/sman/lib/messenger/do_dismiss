@@ -1,0 +1,10 @@
+306:/lib/messenger.c (/lib/messenger.c)
+(public int ) do_dismiss(string who)
+/*
+ * Function:    do_dismiss
+ * Description: This is the function that gets called when someone
+ *              uses the "dismiss" command.
+ * Arguments:   who - the arguments to the dismiss command. This should
+ *                    match the messenger that wishes to be dismissed.
+ * Returns:     0/1 - failure/success in dismissing
+ */

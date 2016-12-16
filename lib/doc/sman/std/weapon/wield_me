@@ -1,0 +1,11 @@
+204:/std/weapon.c (/std/weapon.c)
+(nomask mixed) wield_me()
+/*
+ * Function name: wield_me
+ * Description  : When the player tries to wield this weapon, this function
+ *                is called. If the player managed to wield the weapon,
+ *                the message is printed in this routine. Error messages are
+ *                returned.
+ * Returns      : int 1  - success
+ *                string - a fail message (nothing is printed).
+ */

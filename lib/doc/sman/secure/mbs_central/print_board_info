@@ -1,0 +1,7 @@
+1892:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) print_board_info(string *data)
+/*
+ * Function name: print_board_info
+ * Description:   Print board info
+ * Arguments:	  data - the data holder
+ */

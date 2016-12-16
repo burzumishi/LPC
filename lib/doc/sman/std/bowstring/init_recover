@@ -1,0 +1,8 @@
+68:/std/bowstring.c (/std/bowstring.c)
+(void) init_recover(string arg)
+/*
+ * Function name: init_recover
+ * Description  : Restores the kept state of the bowstring after
+ *                armageddon.
+ * Arguments    : arg (string) - The recover string.
+ */

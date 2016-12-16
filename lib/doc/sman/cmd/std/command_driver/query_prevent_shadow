@@ -1,0 +1,7 @@
+124:/cmd/std/command_driver.c (/cmd/std/command_driver.c)
+(/* nomask public int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : Used to make it impossible to shadow any soul.
+ * Returns      : int 1 - always
+ */

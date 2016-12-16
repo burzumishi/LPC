@@ -1,0 +1,8 @@
+157:/std/room.c (/std/room.c)
+(public object *) query_cloned_here()
+/*
+ * Function name: query_cloned_here
+ * Description  : Returns all objects that have been cloned in this room with
+ *                clone_here() or registered with add_accepted_here().
+ * Returns      : object * - the list of objects.
+ */

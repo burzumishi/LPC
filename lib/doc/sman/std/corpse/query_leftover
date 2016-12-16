@@ -1,0 +1,12 @@
+530:/std/corpse.c (/std/corpse.c)
+(varargs public mixed) query_leftover(string organ)
+/*
+ * Function name: query_leftover
+ * Description:   Return the leftover list. If an organ is specified, that
+ *                actual entry is looked for, otherwise, return the entire
+ *                list.
+ *                The returned list contains the following entries:
+ *                    ({ objpath, organ, nitems, vbfc, hard, cut})
+ * Arguments:     string organ - The organ to search for, or 0 to get the
+ *                    whole list.
+ */

@@ -1,0 +1,8 @@
+1247:/secure/login.c (/secure/login.c)
+(static void) queue(string str)
+/*
+ * Function name: queue
+ * Description  : If the game is full, you are asked whether or not to
+ *                queue. This function is called with the answer.
+ * Arguments    : string str - the answer, either 'y' or 'n'.
+ */

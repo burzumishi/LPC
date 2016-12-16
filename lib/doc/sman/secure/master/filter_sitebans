@@ -1,0 +1,9 @@
+34:/secure/master/siteban.c (/secure/master.c)
+(static int) filter_sitebans(string ipmask, int type)
+/*
+ * Function name: filter_sitebans
+ * Description  : Filter to find all sitebans of a particular type.
+ * Arguments    : string ipmask - the ip mask to test.
+ *                int type - the type to find.
+ * Returns      : int 1/0 - matched / did not match.
+ */

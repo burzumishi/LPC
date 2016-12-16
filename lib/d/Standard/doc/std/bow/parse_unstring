@@ -1,0 +1,10 @@
+238:/std/bow.c (/std/bow.c)
+(public nomask int) parse_unstring(string args)
+/*
+ * Function name: parse_unstring
+ * Description  : Parses input from a player when he wants to unstring
+ *                a bow.
+ *                
+ * Arguments    : string - Bow to unstring.
+ * Returns      : 1 command handled, 0 parse failed.
+ */

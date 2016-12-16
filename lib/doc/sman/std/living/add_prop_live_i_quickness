@@ -1,0 +1,9 @@
+1280:/std/living/combat.c (/std/living.c)
+(int) add_prop_live_i_quickness(mixed val)
+/*
+ * Function Name: add_prop_live_i_quickness
+ * Description  : Intercepts all modifications to LIVE_I_QUICKNESS
+ *                and tracks them based on source object.
+ *
+ * Returns      : 0 - All changes are allowed.
+ */

@@ -1,0 +1,8 @@
+751:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_list(int steps)
+/*
+ * Function name: sk_list
+ * Description:   Someone wants a list of skills
+ * Arguments:     steps - How many steps the player wants to raise
+ * Returns:       1
+ */

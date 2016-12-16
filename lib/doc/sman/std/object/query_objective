@@ -1,0 +1,7 @@
+2002:/std/object.c (/std/object.c)
+(public string) query_objective()
+/*
+ * Function name: query_objective
+ * Description  : All nonlivings have objective 'it'.
+ * Returns      : string "it" - always.
+ */

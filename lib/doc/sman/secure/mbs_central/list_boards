@@ -1,0 +1,11 @@
+648:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask varargs int) list_boards(int order, int admin, string spec)
+/*
+ * Function name: list_boards
+ * Description:	  Produce a complete list of all boards
+ * Arguments:	  order - the order of listing
+ *		  ov_order - override order info
+ *		  admin - Is this an admin call or not
+ *		  spec - specific category or domain
+ * Returns:	  Error code, if any
+ */

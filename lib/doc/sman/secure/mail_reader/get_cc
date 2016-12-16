@@ -1,0 +1,9 @@
+1912:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) get_cc(string str)
+/*
+ * Function name: get_cc
+ * Description  : Gets as input the string of people that should receive a
+ *                carbon copy of this message. If elements in the list
+ *                are not valid, the player is prompted again.
+ * Arguments    : string str - the string with the list
+ */

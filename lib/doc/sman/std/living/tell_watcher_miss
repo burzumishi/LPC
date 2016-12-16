@@ -1,0 +1,13 @@
+980:/std/living/combat.c (/std/living.c)
+(varargs void) tell_watcher_miss(string str, object enemy, mixed arr)
+/*
+ * Function name:   tell_watcher_miss
+ * Description:     Send a string to people who wants to see fights. Since
+ *                  there is a miss, exclude those that do not want to see
+ *                  the misses.
+ * Arguments:       str   - The string to send
+ *                  enemy - The enemy we fought
+ *                  arr   - Array of objects not to send this message to
+ *                          If not used, message sent to all spectators who
+ *                          wants to see blood.
+ */

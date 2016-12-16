@@ -1,0 +1,28 @@
+87:/lib/commands.c (/lib/commands.c)
+(public varargs void) actor(string str, object *oblist, string str1)
+/*
+ * Function name: actor
+ * Description  : Prints the message to the performer of an action when
+ *                acting towards a target. Note that if you omit the
+ *                optional second string, a period is automatically added.
+ *                A newline is always added. Note the position of the
+ *                spaces in the examples. Possessive form on the target(s)
+ *                is handled automatically.
+ * Example      : actor("You smile at", oblist);
+ *
+ *                You smile at someone.
+ *                You smile at Mrpr.
+ *                You smile at the darkly robed human wizard.
+ *                You smile at the darkly robed human wizard.
+ *
+ *                actor("You give", oblist, " a hug.");
+ *
+ *                You give someone a hug.
+ *                You give Mrpr a hug.
+ *                You give the darkly robed human wizard a hug.
+ *
+ * Arguments    : string str     - the first part of the message to print.
+ *                object *oblist - the targets of the emotion.
+ *                string str1    - an optional second part of the message.
+ *                                 Start with "'s" for possessive target form.
+ */

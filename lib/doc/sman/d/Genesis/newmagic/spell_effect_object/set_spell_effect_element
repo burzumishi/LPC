@@ -1,0 +1,9 @@
+68:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public void) set_spell_effect_element(int elem)
+/*
+ * Function name: set_spell_effect_element
+ * Description:   Set the spell effects magic element (SS_ELEM_*).
+ *                This should be the same element as used by the
+ *                spell.
+ * Arguments:     int elem - the element (skill)
+ */

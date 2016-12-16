@@ -1,0 +1,8 @@
+336:/std/living/stats.c (/std/living.c)
+(public void) update_stat(int stat)
+/*
+ * Function name: update_stat
+ * Description:   Convert exp to stat for a single stat. This usually used
+ *		  by a guild that wants its stat to behave like the normal.
+ * Arguments:     stat - Which stat to update.
+ */

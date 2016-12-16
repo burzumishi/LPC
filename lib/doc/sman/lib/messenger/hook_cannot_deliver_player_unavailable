@@ -1,0 +1,9 @@
+615:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_cannot_deliver_player_unavailable(string who)
+/*
+ * Function:    hook_cannot_deliver_player_unavailable
+ * Description: Hook that gets called to display that the messenger cannot
+ *              deliver to someone who is not in the game. Set a notify_fail()
+                message.
+ * Arguments:   string who - name of the recipient.
+ */

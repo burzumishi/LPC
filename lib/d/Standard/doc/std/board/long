@@ -1,0 +1,12 @@
+515:/std/board.c (/std/board.c)
+(public nomask varargs string) long(int start = 1, int end = msg_num)
+/*
+ * Function name: long
+ * Description  : This function returns the long description on the board.
+ *                If you don't have access to the board, you won't see the
+ *                headers. NOTE that the arguments to this function are NOT
+ *                the normal arguments.
+ * Arguments    : int start - the first note to print.
+ *                int end   - the last note to print.
+ * Returns      : string - the long description.
+ */

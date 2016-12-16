@@ -1,0 +1,7 @@
+361:/lib/pub.c (/lib/pub.c)
+(mixed) query_food()
+/*
+ * Function name: query_food
+ * Description:   Query the food array
+ * Returns:       The food array
+ */

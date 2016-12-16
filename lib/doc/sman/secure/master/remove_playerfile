@@ -1,0 +1,11 @@
+2675:/secure/master.c (/secure/master.c)
+(public int) remove_playerfile(string player, string reason)
+/*
+ * Function name: remove_playerfile
+ * Description:   This function moves a playerfile from /players/<?>/
+ *                to /players/deleted/<?>/
+ *                It also adds some text to the log DELETED.
+ * Arguments:     string player - The player to remove
+ *                string reason - The reason to why the file is removed
+ * Returns:       True if everything went ok, false other wise
+ */

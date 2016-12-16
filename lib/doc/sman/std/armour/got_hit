@@ -1,0 +1,13 @@
+573:/std/armour.c (/std/armour.c)
+(varargs int) got_hit(int hid, int ph, object att, int dt, int dam)
+/*
+ * Function name: got_hit
+ * Description:   Notes that the defender has been hit. It can be used
+ *                to reduce the ac for this hitlocation for each hit.
+ * Arguments:     hid:   The hitloc id, ie the bodypart hit.
+ *                ph:    The %hurt
+ *                att:   Attacker
+ *                aid:   The attack id
+ *                dt:    The damagetype
+ *                dam:   The damage done to us in hit points
+ */

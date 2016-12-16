@@ -1,0 +1,7 @@
+308:/std/living/savevars.c (/std/living.c)
+(public int) query_npc()
+/*
+ * Function name:   query_npc
+ * Description:     Checks whether the living is a non-player character
+ * Returns:         True if non-player character
+ */

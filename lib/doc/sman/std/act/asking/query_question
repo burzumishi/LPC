@@ -1,0 +1,9 @@
+217:/std/act/asking.c (/std/act/asking.c)
+(public string) query_question()
+/*
+ * Function name: query_question
+ * Description:   This function will return the true question the mortals posed
+ * 		  to us. It can be called from a VBFC for example to do some 
+ *		  testing or referring to the actual question if you want.
+ * Returns: 	  question
+ */

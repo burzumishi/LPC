@@ -1,0 +1,9 @@
+208:/std/food.c (/std/food.c)
+(public string) query_recover()
+/*
+ * Function name: query_recover
+ * Description  : This function is called to see whether this object may
+ *                recover. It will only function for food that has a
+ *                real file rather than being cloned from /std/food.c
+ *                since only the amount of food on the heap is saved.
+ */

@@ -1,0 +1,5 @@
+125:/lib/udp/gwiz.c (/lib/udp/gwiz.c)
+(varargs int) cmd_gwiz(string str, int emote)
+/* **************************************************************************
+ * gwiz - gozzip on the intermud wizline
+ */

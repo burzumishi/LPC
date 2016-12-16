@@ -1,0 +1,9 @@
+328:/lib/shop.c (/lib/shop.c)
+(int) shop_hook_value_no_match(string str)
+/*
+ * Function name: shop_hook_value_no_match
+ * Description:   Called if there were no match with what the player asked
+ *		  about
+ * Arguments:     str - The string player asked about
+ * Returns:	  0
+ */

@@ -1,0 +1,8 @@
+1361:/std/weapon.c (/std/weapon.c)
+(void) appraise_object(int num)
+/*
+ * Function name: appraise_object
+ * Description  : Someone tries to appraise the object. We add information
+ *                about the way you should use this weapon.
+ * Arguments    : int num - a number based on the skill of the person.
+ */

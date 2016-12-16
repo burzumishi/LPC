@@ -1,0 +1,8 @@
+1680:/std/living/savevars.c (/std/living.c)
+(public void) set_guild_pref(int guildstat, int tax)
+/*
+ * Function name:   set_guild_pref
+ * Description:     Sets the guild tax/learn_pref for a specific guild.
+ * Arguments:       guildstat: SS_RACE / SS_OCCUP / SS_LAYMAN
+ *                  tax: taxrate for guild (in %)
+ */

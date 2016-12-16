@@ -1,0 +1,8 @@
+366:/std/corpse.c (/std/corpse.c)
+(void) decay_fun()
+/*
+ * Function name: decay_fun
+ * Description  : First stage of decay. Decay to a heap of remains, and move
+ *                all inventory into the room. Then set the alarm for the
+ *                second stage.
+ */

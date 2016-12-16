@@ -1,0 +1,8 @@
+3273:/secure/master.c (/secure/master.c)
+(int) exist_player(string pl_name)
+/*
+ * Function name: exist_player
+ * Description  : Checks whether a player exist or not.
+ * Arguments    : string pl_name: the name of the player to check.
+ * Returns      : int 1/0 - true if the player exists.
+ */

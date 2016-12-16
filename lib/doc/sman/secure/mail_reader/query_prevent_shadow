@@ -1,0 +1,8 @@
+2981:/secure/mail_reader.c (/secure/mail_reader.c)
+(nomask public int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : This function is called before the object is shadowed.
+ *                We do not want that to happen ... ever!
+ * Returns      : int - 1 - always.
+ */

@@ -1,0 +1,7 @@
+194:/std/room/exits.c (/std/room.c)
+(public int) remove_exit(string cmd)
+/*
+ * Function name: remove_exit
+ * Description  : Remove one exit from the room.
+ * Arguments    : string cmd - command of the exit to be removed.
+ */

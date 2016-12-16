@@ -1,0 +1,6 @@
+327:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public int) query_spell_form()
+/*
+ * Function name: query_spell_form
+ * Description:   Return the form skill.
+ */

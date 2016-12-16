@@ -1,0 +1,6 @@
+36:/std/combat/chumanoid.c (/std/combat/chumanoid.c)
+(public nomask void) create_ctool()
+/*
+* Function name: create_ctool
+* Description:   Reset the combat functions
+*/

@@ -1,0 +1,18 @@
+455:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(mixed *) parse_itemlist(string str)
+/*
+ * Parses a string on the form:
+ *
+ *    <prep> <item> <prep> <item> <prep> <item> ....
+ *
+ * item can be a subitem, sublocation or a normal object.
+ *
+ * Returns an array with four elements:
+ *
+ * ret[0]		 The prepositions 
+ * ret[1]		 The items, a normal parse_command %i return value 
+ *			 or a string (subitem/sublocation)
+ * ret[2]		 True if last was not a normal object 
+ * ret[3]		 True if no normal objects 
+ *
+ */

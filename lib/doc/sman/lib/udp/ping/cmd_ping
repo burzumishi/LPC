@@ -1,0 +1,5 @@
+69:/lib/udp/ping.c (/lib/udp/ping.c)
+(int) cmd_ping(string arg)
+/*
+ * ping_cmd - send a udp ping to another mud
+ */

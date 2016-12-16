@@ -1,0 +1,8 @@
+460:/secure/master/guild.c (/secure/master.c)
+(public string *) query_clubs()
+/*
+ * Function name: query_clubs
+ * Description  : Returns a list of the short names of all clubs. The answer
+ *                will be sorted.
+ * Returns      : string * - the list of short names.
+ */

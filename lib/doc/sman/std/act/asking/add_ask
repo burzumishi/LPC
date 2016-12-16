@@ -1,0 +1,15 @@
+63:/std/act/asking.c (/std/act/asking.c)
+(public varargs int) add_ask(mixed questions, mixed answer, int command)
+/*
+ * Function name: add_ask
+ * Description:   Adds an question this mobile can answer. The first argument
+ *                is a single string or an array of strings holding the
+ *                the possible question(s) of the item. The second argument is
+ *                the long description of the answer. add_ask can be repeatedly
+ *                called with new questions.
+ * Arguments:     mixed questions - string or array of strings; the question(s)
+ *                                  that lead to this answer.
+ *                mixed answer    - the answer of the question, may be VBFC.
+ *		  int command     - if true this answer is a command
+ * Returns:       True or false.
+ */

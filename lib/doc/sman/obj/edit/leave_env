@@ -1,0 +1,9 @@
+878:/obj/edit.c (/obj/edit.c)
+(void) leave_env(object from, object to)
+/*
+ * Function name: leave_env
+ * Description  : When we leave an environment, remove the possibly added
+ *                subloc.
+ * Arguments    : object from - the object we are leaving.
+ *                object to - the object we go to.
+ */

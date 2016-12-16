@@ -1,0 +1,8 @@
+1459:/std/player/savevars_sec.c (/std/player_sec.c)
+(public int) set_wiz_unmet(int flag)
+/*
+ * Function name:   set_wiz_unmet
+ * Description:     Marks if the wizard wants to see all as met or unmet
+ * Arguments:       flag: 1 if see as unmet, 0 if see as met, 2 see npcs as unmet.
+ * Returns:         The new state    
+ */

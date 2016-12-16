@@ -1,0 +1,12 @@
+1808:/secure/master.c (/secure/master.c)
+(int ) query_allow_shadow(object target)
+/*
+ * Function name: query_allow_shadow
+ * Description  : This function is called from the game driver to find out
+ *                whether it is allowed to shadow a particular object. The
+ *                object that wants to shadow is previous_object(). To
+ *                prevent shadowing, the target object will have to define
+ *                the function query_prevent_shadow() to return 1.
+ * Arguments    : object target - the object targeted for shadowing.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

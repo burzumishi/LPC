@@ -1,0 +1,8 @@
+1233:/secure/simul_efun.c (/secure/simul_efun.c)
+(mixed) constant(mixed x, mixed y)
+/*
+ * Function name: constant
+ * Description:   returns the first argument and ignores the second
+ * Arguments:     x, y
+ * Returns:       x
+ */

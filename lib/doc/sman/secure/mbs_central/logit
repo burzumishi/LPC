@@ -1,0 +1,7 @@
+1632:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) logit(string mess)
+/*
+ * Function name: logit
+ * Description:	  Log an event in a central log.
+ * Arguments:     mess - message to log
+ */

@@ -1,0 +1,6 @@
+1934:/lib/library.c (/lib/library.c)
+(public string) library_help()
+/*
+ * Function name: library_help
+ * Returns:       A string containing library help information
+ */

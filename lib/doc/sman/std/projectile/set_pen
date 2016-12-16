@@ -1,0 +1,7 @@
+221:/std/projectile.c (/std/projectile.c)
+(public void) set_pen(int p)
+/*
+ * Function name: set_pen
+ * Description  : Sets the penetration value of this projectiles.
+ * Arguments    : (int) Penetration value.
+ */

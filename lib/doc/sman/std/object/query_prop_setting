@@ -1,0 +1,8 @@
+684:/std/object.c (/std/object.c)
+(public nomask mixed) query_prop_setting(string prop)
+/*
+ * Function name: query_prop_setting
+ * Description:   Returns the true setting of the prop
+ * Arguments:     prop - The property searched for
+ * Returns:       The true setting (mixed)
+ */

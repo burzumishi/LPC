@@ -1,0 +1,9 @@
+36:/std/herb.c (/std/herb.c)
+(varargs int) do_id_check(object player = this_player()
+/*
+ * Function name: do_id_check
+ * Description:   This little function is called each time the herb is referred
+ *                to by a player, to check if (s)he identifies it or not.
+ * Arguments:	  object player - The player, defaults to this_player()
+ * Returns:       int - 1 for identification, else 0.
+ */

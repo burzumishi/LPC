@@ -1,0 +1,10 @@
+505:/std/living/combat.c (/std/living.c)
+(public int) query_whimpy()
+/*
+ * Function name: query_whimpy
+ * Description  : This function returns the whimpy state of this living.
+ *                If the percentage of hitpoints the living has left is
+ *                lower than the whimpy level, the player will try to
+ *                whimp, ie: (100 * query_hp() / query_max_hp() < level).
+ * Returns      : int - the whimpy level.
+ */

@@ -1,0 +1,8 @@
+1481:/std/door.c (/std/door.c)
+(static void) remove_door_info(object dest)
+/*
+ * Function name: remove_door_info
+ * Description:   Remove information about this door from the room it
+ *		  stands in.
+ * Arguments:	  dest - The room that contains the door.
+ */

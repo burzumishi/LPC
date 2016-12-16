@@ -1,0 +1,6 @@
+60:/std/player/cmd_sec.c (/std/player_sec.c)
+(static nomask void) stop_autosave()
+/*
+ * Function name: stop_autosave
+ * Description  : Call this function to stop autosaving.
+ */

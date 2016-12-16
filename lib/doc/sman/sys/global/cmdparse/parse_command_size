@@ -1,0 +1,8 @@
+195:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(int) parse_command_size()
+/*
+ * Function name: parse_command_size
+ * Description  : When using parse_command_one() and it fails, use this
+ *                routine to find out how many were actually found.
+ * Returns      : int - the number of items actually found.
+ */

@@ -1,0 +1,7 @@
+2388:/secure/master/fob.c (/secure/master.c)
+(public string *) query_domain_links()
+/*
+ * Function name: query_domain_links
+ * Description  : Make a list of domainfiles to link.
+ * Returns      : string * - the list.
+ */

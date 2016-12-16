@@ -1,0 +1,9 @@
+376:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask string) query_cap_name()
+/*
+ * Function name: query_cap_name
+ * Description  : Gives back the capitalized name of a player. By definition
+ *                this is the same as capitalize(query_real_name()). The
+ *                result is buffered for speed reasons.
+ * Returns      : string - the capitalized name string.
+ */

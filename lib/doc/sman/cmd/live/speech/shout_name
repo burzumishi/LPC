@@ -1,0 +1,8 @@
+944:/cmd/live/speech.c (/cmd/live/speech.c)
+(string) shout_name()
+/*
+ * Function name: shout_name
+ * Description  : Called through VBFC to find the name/description of the
+ *                person who does the shouting.
+ * Returns      : string - the name/description of the living.
+ */

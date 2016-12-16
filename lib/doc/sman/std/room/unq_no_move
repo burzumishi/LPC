@@ -1,0 +1,11 @@
+190:/std/room/move.c (/std/room.c)
+(public int) unq_no_move(string str)
+/*
+ * Function name: unq_no_move
+ * Description  : This function here so that people who try to walk into a
+ *                'normal', but nonexistant direction get a proper fail
+ *                message rather than the obnoxious "What?". Here, 'normal'
+ *                exits are north, southeast, down, excetera.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 0 - always.
+ */

@@ -1,0 +1,8 @@
+215:/std/living/savevars.c (/std/living.c)
+(public string) query_mm_out()
+/*
+ * Function name: query_mm_out
+ * Description  : Gives the magical (teleportation) exit message of this
+ *                living.
+ * Returns      : string - the message string
+ */

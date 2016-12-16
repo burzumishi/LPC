@@ -1,0 +1,7 @@
+1300:/secure/login.c (/secure/login.c)
+(static void) who()
+/*
+ * Function name: who
+ * Description  : Called when the player wants to see which other players
+ *                are logged on.
+ */

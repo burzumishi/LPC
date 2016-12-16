@@ -1,0 +1,7 @@
+375:/std/armour.c (/std/armour.c)
+(void) set_likely_break(int i)
+/*
+ * Function name: set_likely_break
+ * Description:   Set how likely the armour is to break if you use it.
+ * Argument:      i - How likely, [0, 20] recommended
+ */

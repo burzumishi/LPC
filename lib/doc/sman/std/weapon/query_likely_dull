@@ -1,0 +1,7 @@
+828:/std/weapon.c (/std/weapon.c)
+(int) query_likely_dull()
+/*
+ * Function name: query_likely_dull
+ * Description:   How likely it is this weapon will become duller when used
+ * Returns:       int - How likely it is
+ */

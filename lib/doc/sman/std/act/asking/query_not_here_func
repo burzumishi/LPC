@@ -1,0 +1,7 @@
+206:/std/act/asking.c (/std/act/asking.c)
+(public string) query_not_here_func()
+/*
+ * Function name: query_not_here_func
+ * Description:   Query what the not here function is set to
+ * Returns:	  The function name
+ */

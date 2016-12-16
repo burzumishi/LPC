@@ -1,0 +1,8 @@
+99:/std/spells.c (/std/spells.c)
+(nomask int) remove_spell(string verb)
+/*
+/*
+ * Function name: remove_spell
+ * Description:   Remove the spell with the given verb string.
+ * Arguments:	  verb - The verb of the spell to remove.
+ */

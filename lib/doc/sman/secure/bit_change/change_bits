@@ -1,0 +1,7 @@
+421:/secure/bit_change.c (/secure/bit_change.c)
+(nomask public int) change_bits()
+/*
+ * Function name: change_bits
+ * Description  : Call this function to initiate the bit changing.
+ * Returns      : int 1/0 - success/failure.
+ */

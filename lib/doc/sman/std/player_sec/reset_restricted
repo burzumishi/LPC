@@ -1,0 +1,8 @@
+1283:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) reset_restricted(int self)
+/*
+ * Function name: reset_restricted
+ * Description  : Reset a present restriction.
+ * Arguments    : int self - if true, then it is a self-imposed restriction.
+ *                    Otherwise it is an administrative restriction.
+ */

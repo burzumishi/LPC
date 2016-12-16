@@ -1,0 +1,8 @@
+19:/std/act/asking.c (/std/act/asking.c)
+(public void) set_dont_answer_unseen(int flag)
+/*
+ * Function name: set_dont_answer_unseen
+ * Description:   This mobile will look confused if he can't see who asked
+ *		  him and if this flag is set.
+ * Arguments:     int flag - How the flag should be set (1/0)
+ */

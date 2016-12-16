@@ -1,0 +1,14 @@
+871:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) resolve_spell(object caster, object *targets, int *resist, int result)
+/*
+ * Function name: resolve_spell
+ * Description:   This function is responsible for performing the routines
+ *                necessary to produce the spell effect(s).  All spells that
+ *                manifest any effect whatsoever need to redefine this and
+ *                implement those.
+ * Arguments:     1. (object)   The caster
+ *                2. (object *) The targets
+ *                3. (int *)    Resistance values corresponding to each target
+ *                4. (int)      The casting result as returned by
+ *                              query_casting_success()
+ */

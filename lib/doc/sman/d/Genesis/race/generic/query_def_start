@@ -1,0 +1,10 @@
+178:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(public nomask string) query_def_start()
+/*
+ * Function name: query_def_start
+ * Description  : This function returns the very basic starting location
+ *                for people of this race. Notice that we use query_race
+ *                and not query_race_name since query_race always returns
+ *                a valid race name. To alter the starting location of the
+ *                player, use set_default_start_location.
+ */

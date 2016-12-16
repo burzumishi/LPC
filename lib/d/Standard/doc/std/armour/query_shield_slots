@@ -1,0 +1,6 @@
+646:/std/armour.c (/std/armour.c)
+(public int *) query_shield_slots()
+/*
+ * Function name: query_shield_slots
+ * Description:   Give a bodypart protected by a shield or magic armour
+ */

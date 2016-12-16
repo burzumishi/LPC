@@ -1,0 +1,7 @@
+295:/lib/cache.c (/lib/cache.c)
+(nomask public void) cache_report()
+/*
+ * Function name: cache_report
+ * Description  : To get a very small report on the efficiency of the cache,
+ *                call this function. The results will be printed with write().
+ */

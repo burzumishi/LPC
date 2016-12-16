@@ -1,0 +1,9 @@
+2407:/secure/master/fob.c (/secure/master.c)
+(int) retire_wizard()
+/*
+ * Function name: retire_wizard
+ * Description  : Wizards may retire from active coding as they please.
+ *                They loose their coding rights and are placed in the
+ *                special retired wizards rank.
+ * Returns      : int 1/0 - success/failure.
+ */

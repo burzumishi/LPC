@@ -1,0 +1,15 @@
+44:/std/combat/cplain.c (/std/combat/cplain.c)
+(public int) cb_add_attack(int wchit, mixed wcpen, int damtype, int prcuse,     int id, int skill)
+/*
+ * Function name: cb_add_attack
+ * Description:   Add an attack to the attack array.
+ * Arguments:	  
+ *             wchit: Weapon class to hit
+ *             wcpen: Weapon class penetration
+ *	       dt:    Damage type
+ *             %use:  Chance of use each turn
+ *	       id:    Specific id, for humanoids W_NONE, W_RIGHT etc
+ *	       skill: Skill to use
+ *
+ * Returns:       True if added.
+ */

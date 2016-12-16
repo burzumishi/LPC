@@ -1,0 +1,10 @@
+222:/obj/remote_npc.c (/obj/remote_npc.c)
+(public void) enter_env(object dest, object old)
+/*
+ * Function name: enter_env
+ * Descripiton  : Whenever this object enters a new environment, this function
+ *                is called to set the objectpointer to the wizard
+ *                controlling this wand.
+ * Arguments    : object dest - the environment the object enters.
+ *                object old  - the environment the object left. Can be 0.
+ */

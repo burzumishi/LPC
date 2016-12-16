@@ -1,0 +1,9 @@
+333:/lib/bank.c (/lib/bank.c)
+(int) minimize(string str)
+/*
+ * Function name: minimize
+ * Description:   changes all coins into the most expensive type, minus a fee
+ *		  BUGS - This function still not supports unstandard coins
+ * Arguments:     str: predicate
+ * Returns:       success
+ */

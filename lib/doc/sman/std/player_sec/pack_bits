@@ -1,0 +1,7 @@
+1020:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) pack_bits()
+/*
+ * Function name: pack_bits
+ * Description  : This function packs the domain bits a player has set into
+ *                a more efficient array to save memory.
+ */

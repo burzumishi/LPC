@@ -1,0 +1,6 @@
+305:/std/armour.c (/std/armour.c)
+(int *) query_am(int hid)
+/*
+ * Description: Give the ac modifier for a specific hitlocation
+ * Arguments:   hid: Hitlocation id
+ */

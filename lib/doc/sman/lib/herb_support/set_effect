@@ -1,0 +1,9 @@
+349:/lib/herb_support.c (/lib/herb_support.c)
+(void) set_effect(int herb_type, string affect_type, int strength)
+/*
+ * Function name: set_effect
+ * Description:   Give the herb or potion an effect (see herb.h)
+ * Arguments:     herb_type   - What type of effect
+ *                affect_type - And what exactly do we affect?
+ *                strength    - The strength
+ */

@@ -1,0 +1,15 @@
+298:/std/combat/ctool.c (/std/combat/ctool.c)
+(public varargs void) cb_did_hit(int aid, string hdesc, int hid, int phurt, object enemy, int dt,            int phit, int dam)
+/*
+ * Function name: cb_did_hit
+ * Description:   Tells us that we hit something. Should produce combat
+ *                messages to all relevant parties. 
+ * Arguments:     aid:   The attack id
+ *                hdesc: The hitlocation description
+ *                hid:   The hitlocation id
+ *                phurt: The %hurt made on the enemy
+ *                enemy: The enemy who got hit
+ *                dt:    The current damagetype
+ *                phit:  The %success that we made with our weapon
+ *                dam:   The damamge made in hit points
+ */

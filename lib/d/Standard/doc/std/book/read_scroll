@@ -1,0 +1,13 @@
+190:/std/book.c (/std/book.c)
+(static int) read_scroll(string str)
+/*
+ * Function name: read_scroll
+ * Description:   We need some special stuff for the turn page command
+ *		  The turn page has the following syntax
+ *		    turn page - turn forward one page
+ *		    turn page forward/[backward, back] - turn one page
+ *			in the appropriate direction
+ *		    turn book to/at page <num> - turn to page <num>
+ *			where <num> is a string like one, two, eight,
+ *			not an integer like 7.
+ */

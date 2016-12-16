@@ -1,0 +1,8 @@
+292:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask void) execute_shutdown()
+/*
+ * Function name: execute_shutdown
+ * Description  : Called by SECURITY when the game actually shuts down,
+ *                whether so desired through Armageddon, or by other means.
+ *                We use it to inform the domain links with our last breath.
+ */

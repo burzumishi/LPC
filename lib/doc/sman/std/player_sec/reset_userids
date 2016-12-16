@@ -1,0 +1,7 @@
+299:/std/player_sec.c (/std/player_sec.c)
+(public void) reset_userids()
+/*
+ * Function name: reset_userids
+ * Description  : Called to set the euid of this player. Wizards get their own
+ *                name as effective user id.
+ */

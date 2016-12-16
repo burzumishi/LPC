@@ -1,0 +1,9 @@
+130:/std/potion.c (/std/potion.c)
+(void) set_quaff_verb(string str)
+/*
+ * Function name: set_quaff_verb
+ * Description:   Set what verb the player should type to be able to
+ * 		  quaff the potion. Default is "quaff"
+ *                "drink" is not possible.
+ * Arguments:     str - The verb
+ */

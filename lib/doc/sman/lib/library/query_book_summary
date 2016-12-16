@@ -1,0 +1,8 @@
+824:/lib/library.c (/lib/library.c)
+(public string) query_book_summary(string file)
+/*
+ * Function name: query_book_summary
+ * Description:   Given a book file, return the book's summary
+ * Arguments:     string file - the filename for the desired book
+ * Returns:       The book's author
+ */

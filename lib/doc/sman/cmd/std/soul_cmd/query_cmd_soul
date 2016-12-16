@@ -1,0 +1,7 @@
+298:/cmd/std/soul_cmd.c (/cmd/std/soul_cmd.c)
+(public int) query_cmd_soul()
+/*
+ * Function name: query_cmd_soul
+ * Description  : This is a command soul. This defines it as such.
+ * Returns      : int 1 - always.
+ */

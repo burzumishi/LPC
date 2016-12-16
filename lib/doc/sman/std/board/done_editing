@@ -1,0 +1,10 @@
+887:/std/board.c (/std/board.c)
+(public nomask int) done_editing(string message)
+/*
+ * Function name: done_editing
+ * Description  : When the player is done editing the note, this function
+ *                will be called with the message as parameter. If all
+ *                is well, we already have the header.
+ * Arguments    : string message - the note typed by the player.
+ * Returns      : int - 1/0 - true if the note was added.
+ */

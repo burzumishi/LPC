@@ -1,0 +1,9 @@
+224:/obj/possob.c (/obj/possob.c)
+(public void) catch_tell(string msg)
+/*
+ * Function name: catch_tell
+ * Description  : This function is called when a message is printed to
+ *                the poor soul crammed into this object. It prints the
+ *                message to the connected socket.
+ * Arguments    : string msg - the message to print.
+ */

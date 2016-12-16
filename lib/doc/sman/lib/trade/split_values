@@ -1,0 +1,8 @@
+421:/lib/trade.c (/lib/trade.c)
+(int *) split_values(int value)
+/*
+ * Function name: split_values
+ * Description:   Splits a 'copper' value into the types you are using
+ * Argument:      value - value in copper coins
+ * Returns:       the array
+ */

@@ -1,0 +1,6 @@
+116:/secure/login.c (/secure/login.c)
+(static void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Called to construct this object.
+ */

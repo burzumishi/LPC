@@ -1,0 +1,7 @@
+46:/secure/master/language.c (/secure/master.c)
+(string *) parse_command_prepos_list()
+/*
+ * Function name: parse_command_prepos_list
+ * Description  : This will return a list of prepositions.
+ * Arguments    : string * - the list.
+ */

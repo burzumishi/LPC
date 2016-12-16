@@ -1,0 +1,7 @@
+20:/std/act/ranpick.c (/std/act/ranpick.c)
+(void) set_pick_up(int pick)
+/*
+ * Function name: set_pick_up
+ * Description:   set the ability to pick up stuff from the ground
+ * Arguments:	  pick - Positive value: Pick up stuff.
+ */

@@ -1,0 +1,10 @@
+1906:/std/launch_weapon.c (/std/launch_weapon.c)
+(public void ) tell_all_projectile_break(object projectile, object target)
+/*
+ * Function name: tell_all_projectile_break
+ * Description  : Tells everyone when a projectile breaks.
+ *                
+ * Arguments    : projectile:  The projectile that breaks.
+ *                enemy:       The enemy the projectile was shot at.
+ *                enemy_env:   The environment of the enemy.
+ */

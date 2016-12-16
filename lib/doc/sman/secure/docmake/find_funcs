@@ -1,0 +1,9 @@
+279:/secure/docmake.c (/secure/docmake.c)
+(void) find_funcs(string file, function call_back_fun, string call_back_arg)
+/*
+ * Description:   Finds the commented functions in a file.
+ * Returns:	  Gives an array of arrays: public/static, funcname, startlin,
+ *                comment.
+ *		  The array is constructed and returned
+ *		  to a given callback function.
+ */

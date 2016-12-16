@@ -1,0 +1,8 @@
+74:/std/living/notify_meet.c (/std/living.c)
+(public void) add_notify_meet_interactive(mixed func)
+/*
+ * Function name: add_notify_meet_interactive
+ * Description:    Adds a function to call when this living meets an
+ *                 interactive player.
+ * Arguments:	   func: The function, can be on VBFC format
+ */

@@ -1,0 +1,6 @@
+1893:/lib/library.c (/lib/library.c)
+(public void) init_library()
+/*
+ * Function name: init_library
+ * Description:   Add library commands
+ */

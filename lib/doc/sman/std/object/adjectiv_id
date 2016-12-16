@@ -1,0 +1,10 @@
+507:/std/object.c (/std/object.c)
+(public int) adjectiv_id(string str)
+/*
+ * Function name: adjectiv_id
+ * Description  : This function can be used to see whether a certain
+ *                adjective is used by this object, i.e. whether the
+ *                adjective has been added with set_adj or add_adj.
+ * Arguments    : string str - the adjective you want to test.
+ * Returns      : int 1/0 - true if the adjective is indeed used.
+ */

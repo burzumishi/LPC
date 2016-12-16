@@ -1,0 +1,7 @@
+337:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_mana(int mana)
+/*
+ * Function name: set_spell_mana
+ * Description:   Set the amount of mana needed to cast the spell.
+ * Arguments:     1. (int) The amount of mana
+ */

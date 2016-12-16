@@ -1,0 +1,8 @@
+143:/std/living/cmdhooks.c (/std/living.c)
+(public string) actor_race_sound()
+/*
+ * Function name: actor_race_sound
+ * Description  : This function returns the sound this_player() makes when
+ *                he or she speaks. By default this is 'say'.
+ * Returns      : string - the race sound the receiver hears.
+ */

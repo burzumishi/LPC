@@ -1,0 +1,9 @@
+299:/std/container.c (/std/container.c)
+(public void) leave_inv(object ob, object to)
+/* 
+ * Function name: leave_inv
+ * Description:   Called when objects leave this container or when an
+ *                object is about to change its weight/volume/light status.
+ * Arguments:     ob: The object that just left this inventory.
+ *                to: Where it went.
+ */

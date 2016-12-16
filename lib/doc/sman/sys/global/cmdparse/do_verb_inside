@@ -1,0 +1,11 @@
+281:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+( varargs object *) do_verb_inside(string cmd, string prep_func, string single_func, 	       string afunc, mixed cobj)
+/* General command routine for "verb %i %s %i" (typical : get from )
+
+   Access objects located inside containers.
+   Access containers inside player or in players environment.
+   Calls 'prep_func' for acknowledge of word returned by %w
+   
+   Parses command and calls 'single_func' for each object to do the command
+   upon. Returns array of these objects for which 'single_func' returned 1,
+*/

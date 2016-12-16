@@ -1,0 +1,10 @@
+22:/secure/editor.c (/secure/editor.c)
+(nomask public string) import(string filename)
+/*
+ * Function name: import
+ * Description  : This function may be called from the editor if a wizard
+ *                wants to import a file into the editor.
+ * Arguments    : string file - the filename of the file to import.
+ * Returns      : string      - the imported text.
+ *                int 0       - in case of an error.
+ */

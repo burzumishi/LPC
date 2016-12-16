@@ -1,0 +1,10 @@
+1025:/lib/library.c (/lib/library.c)
+(public object) library_make_book(string book_name)
+/*
+ * Function name: library_make_book
+ * Description:   Create a book object for use in the library.  Override this
+ *                if you do not wish to use the standard scroll object for
+ *                books.
+ * Arguments:     string book_name - the name of the book we are creating
+ * Returns:       A book object
+*/

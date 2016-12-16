@@ -1,0 +1,337 @@
+/*
+ * /d/Standard/login/login.h
+ *    
+ * Some constants relevant to the login procedure.
+ */
+
+/*
+ * PATH
+ * 
+ * The path in which the login rooms reside
+ */
+#define PATH "/d/Standard/login/"
+
+/*
+ * HELP
+ *
+ * The path which contains all the login help files
+ */
+#define HELP (PATH + "help/")
+
+/*
+ * ATTRIBS
+ *
+ * The path to the directory containing all the player attributes
+ *
+ */
+#define ATTRIBS (PATH + "attributes/")
+
+/*
+ * Path macros to various rooms, if wanted.
+ */
+#define LOGIN_BODIES         (PATH + "bodies")
+#define LOGIN_FEATURES       (PATH + "features")
+#define LOGIN_HEIGHT         (PATH + "mirrors_1")
+#define LOGIN_WEIGHT         (PATH + "mirrors_2")
+#define LOGIN_SKILLS         (PATH + "skills")
+
+/* 
+ * LOGIN_FILE_NEW_PLAYER_INFO
+ *
+ * This is the names of the files that are written to new users logging in.
+ */
+#define LOGIN_FILE_NEW_PLAYER_INFO "/d/Standard/doc/login/NEW_PLAYER_INFO"
+
+/*
+ * RACEMAP
+ *
+ * This mapping holds the names of the allowed player races in the game and
+ * which player file to use for new characters of a given race.
+ */
+#define RACEMAP ([ \
+		"human"  : "/d/Standard/race/human_std",   \
+		"elf"    : "/d/Standard/race/elf_std",     \
+		"dwarf"  : "/d/Standard/race/dwarf_std",   \
+		"hobbit" : "/d/Standard/race/hobbit_std",  \
+		"gnome"  : "/d/Standard/race/gnome_std",   \
+		"goblin" : "/d/Standard/race/goblin_std",  \
+		])
+/*
+ * RACEATTR
+ *
+ * This mapping holds the standard attributes for each race. The attributes
+ * are: 
+ *      standard height         (cm)
+ *      standard weight         (kg)
+ *      standard opinion        (0-100)
+ *      standard appereance     (0-100)
+ *      standard volume         (dm^3)
+ *      standard fatness        (g/cm)
+ */
+#define RACEATTR ([ \
+		"human"  : ({180, 70, 50, 50, 70, 389 }), \
+		"elf"    : ({200, 50, 40, 40, 60, 250 }), \
+		"dwarf"  : ({130, 70, 60, 60, 60, 538 }), \
+		"hobbit" : ({110, 40, 30, 30, 40, 364 }), \
+		"gnome"  : ({ 90, 50, 20, 20, 50, 555 }), \
+		"goblin" : ({100, 45, 90, 90, 45, 450 }), \
+		])
+
+/*
+ * RACESTATMOD
+ *
+ * This mapping holds the standard modifiers of each stat, i.e. a dwarf
+ * should have it easier to raise con than other races, but get a harder
+ * time raising its int.
+ *
+ * Mapping is: race:  str, dex, con, int, wis, dis, race, occ, lay, craft
+ */
+#define RACESTATMOD ([ \
+		"human"  : ({ 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 }), \
+		"elf"    : ({ 7, 12, 8, 15, 14, 9, 10, 10, 10, 10 }),    \
+                "dwarf"  : ({ 15, 5, 15, 8, 9, 13, 10, 10, 10, 10 }),    \
+                "hobbit" : ({ 6, 22, 8, 10, 11, 9, 10, 10, 10, 10 }),    \
+                "gnome"  : ({ 9, 14, 7, 19, 10, 8, 10, 10, 10, 10 }),    \
+                "goblin" : ({ 15, 10, 15, 6, 10, 6, 10, 10, 10, 10 }),   \
+		])
+
+/*
+ * when m_indexex work on constants: m_indexes(RACEMAP)
+ */
+#define RACES ({ "human", "elf", "dwarf", "hobbit", "gnome", "goblin"})
+
+#define RACES_SHORT ([ \
+                      "human" : "hum", \
+		      "elf"   : "elf", \
+		      "dwarf" : "dwf", \
+		      "hobbit": "hob", \
+		      "gnome" : "gno", \
+		      "goblin": "gob", \
+		    ])
+
+/*
+ * RACESTART
+ *
+ * This mapping holds the files of the starting locations for each race.
+ */
+#define RACESTART ([ \
+		    "human"  : "/d/Standard/start/human/town/church",   \
+		    "elf"    : "/d/Standard/start/elf/room/begin",      \
+		    "dwarf"  : "/d/Standard/start/dwarf/lvl1/temple",   \
+		    "hobbit" : "/d/Standard/start/hobbit/v/church",     \
+		    "gnome"  : "/d/Standard/start/human/town/church",   \
+		    "goblin" : "/d/Standard/start/goblin/caverns/quarters", \
+	          ])
+
+/*
+ * RACEPOST
+ *
+ * This mapping holds the files of the post office locations for each race.
+ */
+#define RACEPOST ([ \
+		    "human"  : "/d/Standard/start/human/town/post",    \
+		    "elf"    : "/d/Standard/start/elf/room/vill_post", \
+		    "dwarf"  : "/d/Standard/start/human/town/post",    \
+		    "hobbit" : "/d/Standard/start/hobbit/v/p_office",  \
+		    "gnome"  : "/d/Standard/start/human/town/post",    \
+		    "goblin" : "/d/Standard/start/human/town/post",    \
+	          ])
+
+/*
+ * RACESTAT
+ *
+ * This mapping holds the stats that each race has on start
+ */
+#define RACESTAT ([            /* str, dex, con, int, wis, dis */      \
+		    "human"  : ({   9,  9,   9,   9,   9,   9 }),      \
+		    "elf"    : ({   6,  6,   9,  11,  11,  11 }),      \
+		    "dwarf"  : ({  14,  4,  11,   7,   9,   9 }),      \
+		    "hobbit" : ({   9,  9,  11,   6,   8,  11 }),      \
+		    "gnome"  : ({   4, 17,   8,  11,   7,   7 }),      \
+		    "goblin" : ({   7, 14,   8,  11,  13,   5 }),      \
+	          ])
+
+
+/*
+ * RACEMISCCMD
+ *
+ * This mapping holds the files of the souls that should be used as
+ * misc command soul for each race
+ */
+#define RACEMISCCMD ([ \
+		    "human"  : "/d/Standard/cmd/misc_cmd_human",  \
+		    "elf"    : "/d/Standard/cmd/misc_cmd_elf",    \
+		    "dwarf"  : "/d/Standard/cmd/misc_cmd_dwarf",  \
+		    "hobbit" : "/d/Standard/cmd/misc_cmd_hobbit", \
+		    "gnome"  : "/d/Standard/cmd/misc_cmd_gnome",  \
+		    "goblin" : "/d/Standard/cmd/misc_cmd_goblin", \
+	          ])
+
+/*
+ * RACESOULCMD
+ *
+ * This mapping holds the files of the souls that should be used as
+ * misc command soul for each race
+ */
+#define RACESOULCMD ([ \
+		    "human"  : "/d/Standard/cmd/soul_cmd_human",  \
+		    "elf"    : "/d/Standard/cmd/soul_cmd_elf",    \
+		    "dwarf"  : "/d/Standard/cmd/soul_cmd_dwarf",  \
+		    "hobbit" : "/d/Standard/cmd/soul_cmd_hobbit", \
+		    "gnome"  : "/d/Standard/cmd/soul_cmd_gnome",  \
+		    "goblin"  : "/d/Standard/cmd/soul_cmd_goblin",  \
+	          ])
+/*
+ * RACESOUND
+ *
+ * What sound do subindex-race hear when mainindex race speaks
+ */
+#define RACESOUND2 ([						\
+		    "human" : ([ 				\
+				"human" : "says",		\
+				"elf" 	: "sings",		\
+				"dwarf" : "thunders",		\
+                                "gnome" : "blurts",             \
+				"hobbit": "chatters",		\
+				"goblin": "mumbles",		\
+				]),				\
+		    "elf" : ([					\
+				"human" : "yells",		\
+				"elf" 	: "says",		\
+				"dwarf" : "rumbles",		\
+				"gnome"	: "murmurs",		\
+				"hobbit": "chirps",		\
+				"goblin": "grates",		\
+				]),				\
+		    "dwarf" : ([				\
+				"human" : "whispers",		\
+				"elf" 	: "whines",		\
+				"dwarf" : "says",		\
+				"gnome"	: "mimes",		\
+				"hobbit": "squeaks",		\
+				"goblin": "murmurs",		\
+				]),				\
+		    "gnome" : ([				\
+				"human" : "yells",		\
+				"elf" 	: "howls",		\
+				"dwarf" : "thunders",		\
+				"gnome"	: "says",		\
+				"hobbit": "jabbers",		\
+                                "goblin": "squeals",            \
+				]),				\
+		    "hobbit" : ([				\
+				"human" : "bellows",		\
+				"elf" 	: "sings",		\
+				"dwarf" : "roars",		\
+				"gnome"	: "growls",		\
+				"hobbit": "says",		\
+				"goblin": "rasps",		\
+				 ]),				\
+		    "goblin" : ([				\
+				"human" : "howls",		\
+				"elf" 	: "chirps",		\
+				"dwarf" : "booms",		\
+				"gnome"	: "says",		\
+				"hobbit": "howls",		\
+				"goblin": "says",		\
+				 ]),				\
+		    ])
+
+#define RACESOUND ([						\
+		    "human" : ([ 				\
+				"human" : "says",		\
+				"elf" 	: "yells",		\
+				"dwarf" : "whispers",		\
+				"gnome"	: "yells",		\
+				"hobbit": "bellows",		\
+				"goblin": "howls",		\
+				]),				\
+		    "elf" : ([					\
+				"human" : "sings",		\
+				"elf" 	: "says",		\
+				"dwarf" : "whines",		\
+				"gnome"	: "howls",		\
+				"hobbit": "sings",		\
+				"goblin": "chirps",		\
+				]),				\
+		    "dwarf" : ([				\
+				"human" : "thunders",		\
+				"elf" 	: "rumbles",		\
+				"dwarf" : "says",		\
+				"gnome"	: "thunders",		\
+				"hobbit": "roars",		\
+				"goblin": "booms",		\
+				]),				\
+		    "gnome" : ([				\
+                                "human" : "blurts",             \
+				"elf" 	: "murmurs",		\
+				"dwarf" : "mimes",		\
+				"gnome"	: "says",		\
+				"hobbit": "growls",		\
+                                "goblin": "squeals",            \
+				]),				\
+		    "hobbit" : ([				\
+				"human" : "chatters",		\
+				"elf" 	: "chirps",		\
+				"dwarf" : "squeaks",		\
+				"gnome"	: "jabbers",		\
+				"hobbit": "says",		\
+				"goblin": "howls",		\
+				 ]),				\
+		    "goblin" : ([				\
+				"human" : "mumbles",		\
+				"elf" 	: "grates",		\
+				"dwarf" : "murmurs",		\
+				"gnome"	: "says",		\
+				"hobbit": "rasps",		\
+				"goblin": "says",		\
+				 ]),				\
+		    ])
+
+#define LINKDEATH_MESSAGE ([ \
+       "human"  : " passes into limbo.\n",                  \
+       "hobbit" : " enters the world of dreams.\n",         \
+       "elf"    : " travels to the land of bliss.\n",       \
+       "dwarf"  : " returns to the bowels of the earth.\n", \
+       "gnome"  : " is lost in the shadows.\n",             \
+       "goblin" : " is cast into the void.\n" ])
+
+#define REVIVE_MESSAGE ([ \
+       "human"  : " returns from limbo.",                   \
+       "elf"    : " returns from the land of bliss.",       \
+       "hobbit" : " awakens from the world of dreams.",     \
+       "dwarf"  : " ascends from the depths of the earth.", \
+       "gnome"  : " finds the way back from the shadows.",  \
+       "goblin" : " returns from the void." ])
+ 
+/*
+ * HEIGHTDESC
+ */
+#define HEIGHTDESC ({"extremely short", "very short", "short", \
+    "of normal length", "tall", "very tall", "extremely tall" })
+
+/*
+ * WIDTHDESC
+ */
+#define WIDTHDESC ({"very skinny", "skinny", "lean", "of normal width", \
+    "plump", "fat", "very fat" })
+
+/*
+ * SPREAD_PROC
+ */
+#define SPREAD_PROC ({ 70, 80, 90, 100, 110, 120, 130 })
+
+/*
+ * LOGIN_NO_NEW - Log file for failed creation attempts.
+ */
+#define LOGIN_NO_NEW "/d/Standard/login/no_new_players"
+
+/*
+ * This is the current state of this ghost (uses set_ghost() / query_ghost())
+ */
+#define GP_BODY		1
+#define GP_MANGLE	2
+#define GP_FEATURES	4
+#define GP_SKILLS       8
+#define GP_NEW          (GP_BODY | GP_MANGLE | GP_FEATURES | GP_SKILLS)
+#define GP_DEAD         32

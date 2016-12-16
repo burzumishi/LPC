@@ -1,0 +1,11 @@
+348:/lib/messenger.c (/lib/messenger.c)
+(public int) query_delivery_time(object sender, object receiver)
+/*
+ * Function:    query_delivery_time
+ * Description: This function defines the basic times that it usually
+ *              takes to deliver a message.
+ * Arguments:   sender - person sending the message
+ *              receiver - person receiving the message
+ * Returns:     The number of seconds until the receiver receives the
+ *              message
+ */

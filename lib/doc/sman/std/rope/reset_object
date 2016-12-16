@@ -1,0 +1,6 @@
+66:/std/rope.c (/std/rope.c)
+(nomask void) reset_object()
+/*
+ * Function name: reset_object
+ * Description:   Reset
+ */

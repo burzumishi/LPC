@@ -1,0 +1,10 @@
+125:/cmd/live/items.c (/cmd/live/items.c)
+(public mixed) command_light()
+/*
+ * Function name: command_light
+ * Description  : This is a pseudo function, used to fool the document maker.
+ *                Define this in an object that can contain light and can be
+ *                lit. It is by default built into /std/torch.c
+ * Returns      : string - an error message upon failure.
+ *                int 1  - when successfully lit.
+ */

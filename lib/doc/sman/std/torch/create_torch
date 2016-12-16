@@ -1,0 +1,10 @@
+38:/std/torch.c (/std/torch.c)
+(void) create_torch()
+/*
+ * Function name: create_torch
+ * Description:   The standard create. This has some standard settings on
+ *		  long and short descriptions, but don't be afraid to change
+ *		  them.
+ *                The pshort has to be set to some value, otherwise the short
+ *                description of several objects will look ugly.
+ */

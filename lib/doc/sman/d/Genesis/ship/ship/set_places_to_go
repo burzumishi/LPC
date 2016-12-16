@@ -1,0 +1,7 @@
+489:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_places_to_go(mixed *x)
+/*
+ * Function name: set_places_to_go
+ * Description	: Sets up the array with the rooms the ship should traverse
+ * Arguments	: x - array of rooms the ship should traverse
+ */

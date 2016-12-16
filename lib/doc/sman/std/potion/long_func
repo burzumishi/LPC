@@ -1,0 +1,10 @@
+114:/std/potion.c (/std/potion.c)
+(nomask string) long_func()
+/*
+ * Function name: long_func
+ * Description:   This is an VBFC function for the set_long in the
+ *                potion, which tests if the player examining it can
+ *                identify it.
+ *                Make sure to set_id_long(str) and set_unid_long(str)
+ *                from the create_potion() function.
+ */

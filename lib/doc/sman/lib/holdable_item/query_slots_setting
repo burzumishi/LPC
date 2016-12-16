@@ -1,0 +1,7 @@
+65:/lib/holdable_item.c (/lib/holdable_item.c)
+(public int) query_slots_setting()
+/*
+ * Function name: query_slots_setting
+ * Description  : This will return exactly what was set with set_slots().
+ * Returns      : int - the value set with set_slots().
+ */

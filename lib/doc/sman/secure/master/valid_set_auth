@@ -1,0 +1,13 @@
+367:/secure/master.c (/secure/master.c)
+(string) valid_set_auth(object setter, object getting_set, string value)
+/*
+ * Function name: valid_set_auth
+ * Description  : Whenever the hidden authorization information of an object,
+ *                i.e. the uid or the euid, is altered this function is being
+ *                called. It checks the format of the new autorization
+ *                information and makes sure that the change is valid.
+ * Arguments    : object setter      - the object forcing the change.
+ *                object getting_set - the object being changed.
+ *                string value       - the new value.
+ * Returns      : string - the new value.
+ */

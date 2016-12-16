@@ -1,0 +1,6 @@
+1037:/std/door.c (/std/door.c)
+(void) set_close_command(mixed command)
+/*
+ * Function name: set_close_command
+ * Description:   Set what command closes the door
+ */

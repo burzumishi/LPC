@@ -1,0 +1,10 @@
+94:/d/Genesis/newmagic/hooks.c (/d/Genesis/newmagic/hooks.c)
+(public void) hook_dont_dare_attack_fail(object target)
+/*
+ * Function name: hook_dont_dare_attack_fail
+ * Description:   Return the messages that should be printed to the caster
+ *                when he/she don't dare to cast the spell.
+ * Arguments:     target - The victim that is too strong.
+ * Returns:       The message to print.
+ * Returns:       The message to print.
+ */

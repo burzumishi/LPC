@@ -1,0 +1,10 @@
+1559:/std/object.c (/std/object.c)
+(varargs void) add_magic_effect(mixed what)
+/*
+ * Function name:  add_magic_effect
+ * Description:    Notifies this object that it has been placed
+ *                 a magical effect upon it.
+ * Arguments:      The effect object, or the filename of
+ *                 the code which handles the magical 
+ *                 effect. (Filename for a shadow.)
+ */

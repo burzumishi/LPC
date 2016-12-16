@@ -1,0 +1,8 @@
+257:/std/paralyze.c (/std/paralyze.c)
+(void) set_stop_message(string message)
+/*
+ * Function name: set_stop_message
+ * Description  : Set the message written when paralyze stops. This may
+ *                support VBFC and uses this_player().
+ * Arguments    : string - the message.
+ */

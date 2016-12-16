@@ -1,0 +1,8 @@
+166:/std/paralyze.c (/std/paralyze.c)
+(void) set_stop_fun(string fun)
+/*
+ * Function name: set_stop_fun
+ * Description  : Set function to call when paralyze stops if there is such
+ *                a function.
+ * Arguments    : string fun - the function to call.
+ */

@@ -1,0 +1,10 @@
+748:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask public int) remove_autoshadow(mixed shadowfile)
+/*
+ * Function name:   remove_autoshadow
+ * Description:            Remove a shadow from the shadow list
+ * Arguments:       shadowfile: The shadow-object or the filename of the
+ *                              shadow_object.
+ * Returns:         1 if the removing was successfull,
+ *                  0 otherwise
+ */

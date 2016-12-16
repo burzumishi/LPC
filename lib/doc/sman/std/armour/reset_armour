@@ -1,0 +1,10 @@
+120:/std/armour.c (/std/armour.c)
+(void) reset_armour()
+/*
+ * Function name: reset_armour
+ * Description  : At a regular interval this function will be called to
+ *                reset the armour. If you define this function, you must
+ *                also call enable_reset from your create_armour. If you
+ *                fail to do this, the function reset_armour will _not_
+ *                be called.
+ */

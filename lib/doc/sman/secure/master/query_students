@@ -1,0 +1,8 @@
+2712:/secure/master/fob.c (/secure/master.c)
+(string *) query_students(string mentor)
+/*
+ * Function name: query_students
+ * Description  : Get the list of students.
+ * Arguments    : string mentor - the mentor to query.
+ * Returns      : string * - the student(s) of this mentor.
+ */

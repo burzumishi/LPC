@@ -1,0 +1,7 @@
+178:/std/paralyze.c (/std/paralyze.c)
+(string) query_stop_fun()
+/*
+ * Function name: query_stop_fun
+ * Description  : Returns the function to call when paralyze stops.
+ * Returns      : string - the function name.
+ */

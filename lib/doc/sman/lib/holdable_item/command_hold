@@ -1,0 +1,8 @@
+207:/lib/holdable_item.c (/lib/holdable_item.c)
+(nomask mixed) command_hold()
+/*
+ * Function name: command_hold
+ * Description  : Called when someone wants to hold this item. It will make
+ *                some checks and actually hold it when they all work out.
+ * Returns      : string / int - string fail message or 1 when succesful.
+ */

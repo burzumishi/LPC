@@ -1,0 +1,7 @@
+154:/std/drink.c (/std/food.c)
+(public int) query_alco_amount()
+/*
+ * Function name: query_alco_amount
+ * Description  : Gives the amount of alcohol in the drink.
+ * Returns      : int - the amount.
+ */

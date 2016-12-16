@@ -1,0 +1,7 @@
+137:/std/living/savevars.c (/std/living.c)
+(public string) query_m_in()
+/*
+ * Function name: query_m_in
+ * Description  : Gives the normal entrance message of this living.
+ * Returns      : string - the message string.
+ */

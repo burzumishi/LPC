@@ -1,0 +1,9 @@
+624:/std/launch_weapon.c (/std/launch_weapon.c)
+(public int) shoot(string args)
+/*
+ * Function name: shoot
+ * Description  : Handles a single shot from a player.
+ *                
+ * Arguments    : string - Person we shoot at.
+ * Returns      : 1 - command handled, 0 parse failed.
+ */

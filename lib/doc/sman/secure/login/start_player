@@ -1,0 +1,8 @@
+420:/secure/login.c (/secure/login.c)
+(static void) start_player()
+/*
+ * Function name: start_player
+ * Description  : This function checks for linkdeath and sees whether the
+ *                player has to queue. If there are no restrictions, log in
+ *                immediately.
+ */

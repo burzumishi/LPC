@@ -1,0 +1,7 @@
+769:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public mixed *) query_places_to_go()
+/*
+ * Function name: query_places_to_go
+ * Description	: get the list of places the ship moves through
+ * Returns	: an array of objects or path names
+ */

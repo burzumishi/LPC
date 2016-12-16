@@ -1,0 +1,12 @@
+681:/std/poison_effect.c (/std/poison_effect.c)
+(public int) cure_poison(string *cure_type, int success)
+/*
+ * Function name: cure_poison
+ * Description  : This function tries to cure a poison. If is it is succesful,
+ *                then the poison will be removed. It will later be made
+ *                possible to weaken poisons when removing completely does not
+ *                succeed.
+ * Arguments    : string *cure_type - the types that can be cured.
+ *                int success - the 'strength' of the cure.
+ * Returns      : 1/0 (success/fail)
+ */

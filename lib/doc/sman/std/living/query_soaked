@@ -1,0 +1,7 @@
+1488:/std/living/savevars.c (/std/living.c)
+(public int) query_soaked()
+/*
+ * Function name:   query_soaked
+ * Description:     Gives the level of soakedness of  a living.
+ * Returns:         The level of soakedness.
+ */

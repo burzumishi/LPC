@@ -1,0 +1,6 @@
+31:/d/Genesis/ship/captain.c (/d/Genesis/ship/captain.c)
+(void) init_living()
+/*
+ * Function name: init_living
+ * Description:   The normal init_living
+ */

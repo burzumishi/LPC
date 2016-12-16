@@ -1,0 +1,6 @@
+1015:/std/door.c (/std/door.c)
+(void	) set_fail_open(mixed mess)
+/*
+ * Function name: set_fail_open
+ * Description:   Set the message when we fail to open door
+ */

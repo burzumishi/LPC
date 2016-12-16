@@ -1,0 +1,9 @@
+773:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) add_category(string cath, string desc)
+/*
+ * Function name: add_category
+ * Description:	  Add a category
+ * Arguments:	  cath - category
+ *		  desc - description
+ * Returns:	  Error code, if any
+ */

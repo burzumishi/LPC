@@ -1,0 +1,10 @@
+338:/std/armour.c (/std/armour.c)
+(int) query_condition()
+/*
+ * Function name: query_condition
+ * Description:   Return the general condition modifier. It indicates how
+ *                many times the condition of this armour has been worsened.
+ *                The tru condition of the armour is:
+ *                      base_ac - condition + repairs
+ * Returns:       The general condition modifier
+ */

@@ -1,0 +1,8 @@
+1741:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) sort_cath_boards(string *item1, string *item2)
+/*
+ * Function name: sort_cath_boards
+ * Description:	  Sort function for category listings of boards
+ * Arguments:	  As per quicksort.
+ * Returns:	  As per quicksort. 
+ */

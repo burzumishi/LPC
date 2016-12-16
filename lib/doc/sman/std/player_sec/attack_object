@@ -1,0 +1,9 @@
+112:/std/player/pcombat.c (/std/player_sec.c)
+(public void) attack_object(object victim)
+/*
+ * Function name: attack_object
+ * Description  : When we attack someone, this function is used. It has a
+ *                check preventing us from attacking anyone while we are
+ *                linkdeath. Also, log when players attack each other.
+ * Arguments    : object victim - the intended victim.
+ */

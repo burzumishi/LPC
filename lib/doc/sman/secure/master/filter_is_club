@@ -1,0 +1,8 @@
+61:/secure/master/guild.c (/secure/master.c)
+(public int) filter_is_club(string name)
+/*
+ * Function name: filter_is_club
+ * Description  : Filter those guilds that are a club (minor guild).
+ * Arguments    : string name - the short name of the club to test.
+ * Returns      : if true, it is a club.
+ */

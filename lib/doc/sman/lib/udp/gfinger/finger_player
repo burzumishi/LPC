@@ -1,0 +1,5 @@
+130:/lib/udp/gfinger.c (/lib/udp/gfinger.c)
+(public string) finger_player(string player)
+/*
+ * The actual finger message
+ */

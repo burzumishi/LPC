@@ -1,0 +1,10 @@
+216:/std/scroll.c (/std/scroll.c)
+(void) read_it(string str)
+/*
+ * Function name: read_it
+ * Description  : Perform the actual read. This function printes the text
+ *                to the player and displays a message to the people in
+ *                the room.
+ * Arguments    : string - the command the player executed, either 'read'
+ *                         or 'mread'.
+ */

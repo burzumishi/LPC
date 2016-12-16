@@ -1,0 +1,8 @@
+223:/std/paralyze.c (/std/paralyze.c)
+(string) query_fail_message()
+/*
+ * Function name: query_fail_message
+ * Description  : Returns the fail message when player tries to do something.
+ *                This returns the real value, not resolved for VBFC.
+ * Returns      : string - the message.
+ */

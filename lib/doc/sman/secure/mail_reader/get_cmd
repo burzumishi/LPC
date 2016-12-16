@@ -1,0 +1,8 @@
+2559:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) get_cmd(string str)
+/*
+ * Function name: get_cmd
+ * Description  : The main program loop sets up an input_to to this one.
+ *                It selects the right function.
+ * Arguments    : string str - player input through input_to()
+ */

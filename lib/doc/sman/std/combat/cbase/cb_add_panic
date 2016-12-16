@@ -1,0 +1,7 @@
+386:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_add_panic(int dpan)
+/*
+ * Function name: cb_add_panic
+ * Description:   Adjust the panic level.
+ * Arguments:     dpan:  The panic increase/decrease
+ */

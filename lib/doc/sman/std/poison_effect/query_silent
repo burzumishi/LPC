@@ -1,0 +1,9 @@
+215:/std/poison_effect.c (/std/poison_effect.c)
+(public int) query_silent()
+/*
+ * Function name: query_silent
+ * Description  : This returns whether the poison is silent.
+ * Returns      : 0 - the poisonee will get all messages
+ *                1 - the poisonee will nog cough etc but get other messages
+ *                2 - the poisonee will get no messages at all
+ */

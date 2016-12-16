@@ -1,0 +1,9 @@
+2242:/secure/master/fob.c (/secure/master.c)
+(void) create_wizard(string name)
+/*
+ * Function name: create_wizard
+ * Description  : Certain objects in the game are allowed to promote a mortal
+ *                into wizardhood. This function should be called to do the
+ *                transformation. The mortal is then made into apprentice.
+ * Arguments    : string name - the name of the mortal to be promoted.
+ */

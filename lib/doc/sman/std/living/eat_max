@@ -1,0 +1,8 @@
+47:/std/living/drink_eat.c (/std/living.c)
+(int) eat_max()
+/*
+ * Function name: 	eat_max
+ * Description:   	Gives the max amount of food that we can hold
+ *			function from the property: LIVE_I_MAX_EAT
+ * Returns:		Max food level.
+ */

@@ -1,0 +1,6 @@
+27:/std/combat/humunarmed.c (/std/combat/humunarmed.c)
+(public nomask void) cr_configure()
+/*
+ * Function name: cr_configure
+ * Description:   Configures basic values for this humanoid.
+ */

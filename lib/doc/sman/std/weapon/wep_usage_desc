@@ -1,0 +1,10 @@
+1327:/std/weapon.c (/std/weapon.c)
+(string) wep_usage_desc()
+/*
+ * Function name: wep_usage_desc
+ * Description  : This function returns the usage of this weapon. It is
+ *                usually printed from the appraise function. The string
+ *                includes the type of the weapon and the location where it
+ *                should be wielded.
+ * Returns      : string - the description.
+ */

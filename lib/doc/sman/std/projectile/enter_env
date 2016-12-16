@@ -1,0 +1,10 @@
+53:/std/projectile.c (/std/projectile.c)
+(public void) enter_env(object to, object from)
+/*
+ * Function name: enter_env
+ * Description  : Update the heap_id when we enter a new environment, so
+ *                the projectiles stack correctly.
+ *
+ * Arguments    : object to - the object we are entering.
+ *                object from - the object we come from.
+ */

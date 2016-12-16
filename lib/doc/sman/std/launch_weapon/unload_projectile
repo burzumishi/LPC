@@ -1,0 +1,6 @@
+1517:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask void) unload_projectile()
+/*
+ * Function name: unload_projectile
+ * Description  : Unloads a loaded projectile and resets the launch_weapon.
+ */   

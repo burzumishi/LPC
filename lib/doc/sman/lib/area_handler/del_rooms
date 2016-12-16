@@ -1,0 +1,7 @@
+415:/lib/area_handler.c (/lib/area_handler.c)
+(static nomask void) del_rooms()
+/*
+ * del_rooms
+ *
+ * Delete all old rooms.
+ */

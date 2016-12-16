@@ -1,0 +1,9 @@
+710:/std/player_sec.c (/std/player_sec.c)
+(public nomask int) change_player_object(object old_plob)
+/*
+ * Function name: change_player_object
+ * Description:   Initialize this player object based on an existing one.
+ * Arguments:     (object) old_plob - the player object to be used to initialize
+ *                                   this one.
+ * Returns:       True if initialization was successful
+ */

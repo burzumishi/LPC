@@ -1,0 +1,17 @@
+620:/secure/master/fob.c (/secure/master.c)
+(static int) add_wizard_to_domain(string dname, string wname, string cmder)
+/*
+ * Function name: add_wizard_to_domain
+ * Description  : Add a wizards to a domain and removes the wizard from his/
+ *                her pervious domain. If you add a wizard to the domain "",
+ *                it removes the wizard from his current domain.
+ *                This is an interal function only that just adds or removes
+ *                the people without additional checks. Those must have been
+ *                made earlier. Note that this function does not alter the
+ *                rank of the wizard. This must have been altered before.
+ * Arguments    : string dname - the domain to add the wizard to. If "",
+ *                               the wizard is removed from his/her domain.
+ *                string wname - the wizard to add/remove.
+ *                string cmder - who does it.
+ * Returns      : int 1/0 - success/failure.
+ */

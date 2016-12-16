@@ -1,0 +1,10 @@
+166:/std/act/domove.c (/std/act/domove.c)
+(mixed *) filter_exits(mixed *exits)
+/*
+ * Function name:   filter_exits
+ * Description:     Filter out all non-wanted exits of a given array.
+ *                  Non-wanted exits are exits that do not fall within the
+ *                  given path that was set with set_restrain_path().
+ * Arguments:       exits: An array of exits, as delivered by query_exits().
+ * Returns:         0 if no exits, or an array with legal exits.
+ */

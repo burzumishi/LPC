@@ -1,0 +1,9 @@
+90:/std/drink.c (/std/drink.c)
+(public void) set_long(string long)
+/*
+ * Function name: set_long
+ * Description  : When the long description is set, a check is made whether
+ *                the unique heap identifier is set. If not, use the long
+ *                description as that unique identifier.
+ * Arguments    : string long - the long description.
+ */

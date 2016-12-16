@@ -1,0 +1,11 @@
+232:/std/torch.c (/std/torch.c)
+(public int) query_lit(int flag)
+/*
+ * Function name: query_lit
+ * Description:   Query of the torch is lit.
+ * Argument:      flag - if set, return id of the alarm to the function
+ *                that is called when the torch burns out.
+ * Returns:       0        - if torch is not lit,
+ *                -1       - if torch is lit,
+ *                alarm id - if torch is lit and flag was set.
+ */

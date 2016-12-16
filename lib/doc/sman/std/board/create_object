@@ -1,0 +1,7 @@
+462:/std/board.c (/std/board.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Create the object. Use create_board() to set up the
+ *                board yourself.
+ */

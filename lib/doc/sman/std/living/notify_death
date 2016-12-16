@@ -1,0 +1,7 @@
+197:/std/living/combat.c (/std/living.c)
+(public void) notify_death(object killer)
+/*
+ * Function name: notify_death
+ * Description:   Notify onlookers of my death
+ * Arguments:     object killer - the object that killed me
+ */

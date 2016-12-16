@@ -1,0 +1,11 @@
+75:/lib/wearable_item.c (/lib/wearable_item.c)
+(varargs public int *) query_slots(int check)
+/*
+ * Function name: query_slots
+ * Description  : Get the armour locations this armour occupies, or can
+ *                occupy.
+ * Arguments    : int check - optional argument, if true, use the
+ *                    slot-setting, else use the currently used slots.
+ * Returns      : int * - an array composed of the individual armour slots
+ *                    this item occupies / can occupy.
+ */

@@ -1,0 +1,6 @@
+966:/std/door.c (/std/door.c)
+(void) set_fail_pass(string mess)
+/*
+ * Function name: set_fail_pass
+ * Description:   Set messaged when failing to pass the door.
+ */

@@ -1,0 +1,48 @@
+Sat Mar 20 02:59:28 2010 (Interactive mortal: Petros)
+Runtime error: *Could not open players/p/petros.o.tmp for a save.
+       Object: /d/Standard/login/ghost_player#3
+      Program: std/player_sec.c
+         File: /std/player_sec.c Line: 928
+
+Sat Mar 20 02:59:32 2010 (Interactive mortal: Petros)
+Runtime error: *Illegal index
+       Object: /d/Standard/login/ghost_player#3
+      Program: std/player_sec.c
+         File: /std/player/quicktyper.c Line: 77
+
+Sat Mar 20 02:59:44 2010 (Interactive mortal: Petros)
+Runtime error: *Illegal index
+       Object: /d/Standard/login/ghost_player#3
+      Program: std/player_sec.c
+         File: /std/player/quicktyper.c Line: 77
+
+Sat Mar 20 02:59:46 2010 (Interactive mortal: Petros)
+Runtime error: *Illegal index
+       Object: /d/Standard/login/ghost_player#3
+      Program: std/player_sec.c
+         File: /std/player/quicktyper.c Line: 77
+
+Sat Mar 20 02:59:48 2010 (Interactive mortal: Petros)
+Runtime error: *Illegal index
+       Object: /d/Standard/login/ghost_player#3
+      Program: std/player_sec.c
+         File: /std/player/quicktyper.c Line: 77
+
+Sat Mar 20 02:59:51 2010 (Interactive mortal: Petros)
+Runtime error: *Illegal index
+       Object: /d/Standard/login/ghost_player#3
+      Program: std/player_sec.c
+         File: /std/player/quicktyper.c Line: 77
+
+Sat Mar 20 02:59:53 2010 (Interactive mortal: Petros)
+Runtime error: *Illegal index
+       Object: /d/Standard/login/ghost_player#3
+      Program: std/player_sec.c
+         File: /std/player/quicktyper.c Line: 77
+
+Sat Mar 20 03:08:03 2010
+Runtime error: *Error in loading object
+       Object: /d/Standard/login/skills
+      Program: d/Standard/login/skills.c
+         File: /d/Standard/login/skills.c Line: 141
+

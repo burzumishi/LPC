@@ -1,0 +1,10 @@
+851:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) rename_category(string old, string new, string ndesc)
+/*
+ * Function name: rename_category
+ * Description:	  rename a category
+ * Arguments:	  old - the old name
+ *		  new - the new name
+ *		  desc - the new ndesc
+ * Returns:	  Error code, if any
+ */

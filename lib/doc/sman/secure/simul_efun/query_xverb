@@ -1,0 +1,6 @@
+270:/secure/simul_efun.c (/secure/simul_efun.c)
+(nomask string) query_xverb()
+/*
+ * query_xverb should return the part of the verb that had to be filled in
+ * when an add_action(xxx, "yyyyy", 1) was executed.
+ */

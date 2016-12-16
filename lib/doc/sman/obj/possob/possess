@@ -1,0 +1,11 @@
+104:/obj/possob.c (/obj/possob.c)
+(public int) possess(object ob1, object ob2)
+/*
+ * Function name: possess
+ * Description  : Set up the possession of a player or living complete with
+ *                initialization of the possess object and messages to both
+ *                parties.
+ * Arguments    : object ob1 - the demon.
+ *                object ob2 - the possessed.
+ * Returns      : int 1/0 - true if successful.
+ */

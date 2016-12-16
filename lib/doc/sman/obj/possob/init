@@ -1,0 +1,6 @@
+50:/obj/possob.c (/obj/possob.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description  : Initialize some commands.
+ */

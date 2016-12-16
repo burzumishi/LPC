@@ -1,0 +1,6 @@
+916:/std/door.c (/std/door.c)
+(void) set_open_desc(string desc)
+/*
+ * Function name: set_open_desc
+ * Description:   Set the description of the door when open
+ */

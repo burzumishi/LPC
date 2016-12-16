@@ -1,0 +1,9 @@
+85:/std/armour.c (/std/armour.c)
+(public nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : This function is called to create the armour. It sets
+ *                some default (sanity) settings and then the function
+ *                create_armour is called. You must redefine that function
+ *                as this function is nomasked, ie you cannot redefine it.
+ */

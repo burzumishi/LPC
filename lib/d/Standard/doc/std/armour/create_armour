@@ -1,0 +1,9 @@
+73:/std/armour.c (/std/armour.c)
+(void) create_armour()
+/*
+ * Function name: create_armour
+ * Description  : In order to create an armour, you should redefine this
+ *                function. Typically you use this function to set the
+ *                name and description, the armour type, the armour class
+ *                etcetera.
+ */

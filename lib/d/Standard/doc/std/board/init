@@ -1,0 +1,6 @@
+580:/std/board.c (/std/board.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description  : Link the commands to the player.
+ */

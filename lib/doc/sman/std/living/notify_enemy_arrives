@@ -1,0 +1,12 @@
+454:/std/living/combat.c (/std/living.c)
+(void) notify_enemy_arrives(object enemy)
+/*
+ * Function name: notify_enemy_arrives
+ * Description  : This routine is called when an enemy arrives into the room,
+ *                that is, when someone enters. It is not called when we walk
+ *                into a room with an enemy that is hunting us.
+ *
+ *                This routin does not actually exist. It is a trick to fool
+ *                the document maker.
+ * Arguments    : object enemy - the enemy who arrives.
+ */

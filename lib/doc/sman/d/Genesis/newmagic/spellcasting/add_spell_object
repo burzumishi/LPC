@@ -1,0 +1,8 @@
+176:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public void) add_spell_object(object ob)
+/*
+ * Function name: add_spell_object
+ * Decription:    Call this to add the spells defined by this object to
+ *                a living
+ * Arguments:     object ob - the living receiving the spells
+ */

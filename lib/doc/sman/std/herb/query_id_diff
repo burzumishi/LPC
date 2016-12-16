@@ -1,0 +1,7 @@
+272:/std/herb.c (/std/herb.c)
+(int) query_id_diff()
+/*
+ * Function name: query_id_diff
+ * Description:   How hard is it to identify this herb
+ * Returns:  	  The difficulty
+ */

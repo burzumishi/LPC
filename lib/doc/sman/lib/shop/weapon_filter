@@ -1,0 +1,8 @@
+1012:/lib/shop.c (/lib/shop.c)
+(int) weapon_filter(object ob)
+/*
+ * Function name: weapon_filter
+ * Description  : Filter out weapons
+ * Arguments    : object ob - the object to test
+ * Returns      : int - 1/0 - true if it is a weapon.
+ */

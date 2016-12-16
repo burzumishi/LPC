@@ -1,0 +1,10 @@
+264:/lib/skill_raise.c (/lib/skill_raise.c)
+(public int) sk_cost(int snum, int fr, int to)
+/*
+ * Function name: sk_cost
+ * Description:   Give the cost for raising in a specific skill
+ * Arguments:     snum: skill
+ *                fr:   From level
+ *                to:   To level
+ * Returns:       Cost or 0 if it can not be tought or if fr == to.
+ */

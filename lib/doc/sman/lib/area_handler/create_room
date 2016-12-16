@@ -1,0 +1,7 @@
+254:/lib/area_handler.c (/lib/area_handler.c)
+(static nomask int) create_room(string room)
+/*
+ * create_room
+ *
+ * Create a room.
+ */

@@ -1,0 +1,7 @@
+443:/std/living/savevars.c (/std/living.c)
+(void) calculate_hp()
+/*
+ * Function name: calculate_hp
+ * Description  : Compute the current number of hitpoints of the living,
+ *                taking into account the constitution and intoxication.
+ */

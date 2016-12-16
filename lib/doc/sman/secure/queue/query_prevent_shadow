@@ -1,0 +1,7 @@
+443:/secure/queue.c (/secure/queue.c)
+(public nomask int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : We do not want anyone shadowing this object.
+ * Returns      : int 1 - always.
+ */

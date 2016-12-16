@@ -1,0 +1,7 @@
+58:/secure/master/language.c (/secure/master.c)
+(string) parse_command_all_word()
+/*
+ * Function name: parse_command_all_word
+ * Description  : This will return the word meaning 'all' in English.
+ * Returns      : string - the word.
+ */

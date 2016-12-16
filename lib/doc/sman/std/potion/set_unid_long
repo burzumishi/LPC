@@ -1,0 +1,8 @@
+185:/std/potion.c (/std/potion.c)
+(void) set_unid_long(string str)
+/*
+ * Function name: set_unid_long
+ * Description:   Set the long description you see if you cannot identify the 
+ *		  potion.
+ * Arguments:     str - The long description
+ */

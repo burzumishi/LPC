@@ -1,0 +1,7 @@
+586:/std/living/savevars.c (/std/living.c)
+(void) add_mana(int sp)
+/*
+ * Function name:   add_mana
+ * Description:     Add a certain amount of mana points
+ * Arguments:       sp: The number of mana points to change.
+ */

@@ -1,0 +1,7 @@
+371:/std/poison_effect.c (/std/poison_effect.c)
+(public void) timeout()
+/*
+ * Function name: timeout
+ * Description  : This is called when the poison duration has expired.
+ *                It simply removes itself.
+ */

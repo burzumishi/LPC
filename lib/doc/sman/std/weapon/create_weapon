@@ -1,0 +1,7 @@
+76:/std/weapon.c (/std/weapon.c)
+(public void) create_weapon()
+/*
+ * Function name: create_weapon
+ * Description  : Create the weapon. You must define this function to
+ *                construct the weapon.
+ */

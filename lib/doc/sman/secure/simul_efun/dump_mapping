@@ -1,0 +1,7 @@
+1033:/secure/simul_efun.c (/secure/simul_efun.c)
+(nomask varargs void) dump_mapping(mapping m, string tab)
+/*
+ * Function name: dump_mapping
+ * Description:   Dumps a variable with write() for debugging purposes.
+ * Arguments:     a: Anything including an array
+ */

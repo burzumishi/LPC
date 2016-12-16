@@ -1,0 +1,8 @@
+945:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) tele_to_board(string spath)
+/*
+ * Function name: tele_to_board
+ * Description:	  Teleport the user to a board room
+ * Arguments:	  spath - the save path
+ * Returns:	  Error code, if any.
+ */

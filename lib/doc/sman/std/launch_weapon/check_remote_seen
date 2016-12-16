@@ -1,0 +1,12 @@
+2137:/std/launch_weapon.c (/std/launch_weapon.c)
+(public int) check_remote_seen(object spectator, object target)
+/*
+ * Function name: check_remote_seen
+ * Description  : Checks wether the specatator can see the target from
+ *                another room.
+ *
+ * Arguments    : spectator:  The person that is trying to see.
+ *                target:     The person that might be seen by the spectator.
+ *
+ * Returns      : 1 if spectator can see target.
+ */

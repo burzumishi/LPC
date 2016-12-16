@@ -1,0 +1,8 @@
+89:/lib/udp/gfinger.c (/lib/udp/gfinger.c)
+(public int) gfinger_a(mapping p)
+/*
+ * Function name: gfinger_a
+ * Description:   Called when the mud receives a gfinger_a package
+ * Argument:	  p: mapping holding received information
+ * Returns:	  True if correct message form
+ */

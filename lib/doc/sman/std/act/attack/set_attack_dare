@@ -1,0 +1,9 @@
+64:/std/act/attack.c (/std/act/attack.c)
+(public void) set_attack_dare(int check)
+/*
+ * Function name: set_attack_dare
+ * Description:   See if we should check F_DARE_ATTACK
+ *                and abort early if it fails. Eliminates the
+ *                'too scared to attack' messages / spam.
+ * Arguments:	  check - True/1 - Check, False/0 - don't check.
+ */

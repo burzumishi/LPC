@@ -1,0 +1,10 @@
+731:/lib/commands.c (/lib/commands.c)
+(public string) check_adverb(string str, string def_adv)
+/*
+ * Function name: check_adverb
+ * Description  : Returns the full adverb the player meant. If he did not
+ *                specify an an adverb, return the default adverb.
+ * Arguments    : str     - the pattern to match
+ *                def_adv - the default adverb
+ * Returns      : string  - the full adverb or NO_ADVERB
+ */

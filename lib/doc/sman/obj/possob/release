@@ -1,0 +1,8 @@
+63:/obj/possob.c (/obj/possob.c)
+(static int) release(string str)
+/*
+ * Function name: release
+ * Description  : Stop possessing.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

@@ -1,0 +1,6 @@
+373:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_configure()
+/*
+ * Function name: cb_configure
+ * Description:   Configure attacks and hitlocations.
+ */

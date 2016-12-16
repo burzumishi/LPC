@@ -1,0 +1,8 @@
+2010:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask int) try_load_board(string board)
+/*
+ * Function name: try_load_board
+ * Description:   Try to load a board, return 0 or the length of the error.
+ * Arguments:	  board - the board to load
+ * Returns:	  0 = no error, anything else is a failure
+ */

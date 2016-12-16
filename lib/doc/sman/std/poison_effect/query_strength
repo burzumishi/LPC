@@ -1,0 +1,7 @@
+190:/std/poison_effect.c (/std/poison_effect.c)
+(public int ) query_strength()
+/*
+ * Function name: query_strength
+ * Description  : This returns the strength of the poison.
+ * Returns      : int - the strength
+ */

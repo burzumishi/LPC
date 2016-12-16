@@ -1,0 +1,18 @@
+2847:/secure/mail_reader.c (/secure/mail_reader.c)
+(public int) create_mail(string subject, string author, string to, string cc, string body)
+/*
+ * Function name: create_mail
+ * Description  : With this function, you can have mail generated from code.
+ *                It may only be called in the master mail reader. All calls
+ *                to this function are logged. No misuse of this function
+ *                will be tolerated. Abuse -> tar, feathers and demotion!
+ * Arguments    : string subject - the subject of the mail.
+ *                string author  - the author of the mail.
+ *                string to      - the recipients of this mail.
+ *                string cc      - possible cc-recipients.
+ *                    (Notice that it is the responsibility of the sender to
+ *                    make sure the 'to' and 'cc' fields contain only valid
+ *                    names. Otherwise the function will simply fail!)
+ *                string body    - the body of the mail.
+ * Returns      : int 1/0 - true if the mail was sent.
+ */

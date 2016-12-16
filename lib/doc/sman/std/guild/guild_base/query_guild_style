@@ -1,0 +1,8 @@
+184:/std/guild/guild_base.c (/std/guild/guild_base.c)
+(public nomask int) query_guild_style(string str)
+/*
+ * Function name: query_guild_style
+ * Description:   Is the player member of a guild with this style?
+ * Arguments:     str - the style to look for
+ * Returns:       1 if the member is member of a guild of that style
+ */

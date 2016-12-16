@@ -1,0 +1,9 @@
+97:/lib/pub.c (/lib/pub.c)
+(void) pub_hook_cant_carry(object ob)
+/*
+ * Function name: pay_hook_cant_carry
+ * Description:   A hook to redefine if you want own message when player can't
+ * Description:   A hook to redefine if you want own message when player can't
+ *		  carry what he ordered.
+ * Arguments:     ob - The object he couldn't carry
+ */

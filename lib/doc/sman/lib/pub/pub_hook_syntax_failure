@@ -1,0 +1,8 @@
+154:/lib/pub.c (/lib/pub.c)
+(int) pub_hook_syntax_failure(string str)
+/*
+ * Function name: pub_hook_syntax_failure
+ * Description:   Notify the player of invalid syntax.
+ * Arguments:     string str - arguments to the command
+ * Returns:       1/0
+ */

@@ -1,0 +1,12 @@
+468:/secure/master/notify.c (/secure/master.c)
+(public int) notify_try_block(object player, int rank)
+/*
+ * Function name: notify_try_block
+ * Description  : This filter is used when the player tries to block his/
+ *                her logins. People with a higher rank will see you though,
+ *                just as archwizards and keepers.
+ * Arguments    : object player - the player who may want to see the login.
+ *                int    rank   - the rank of the player who tries to block.
+ * Returns      : int 1/0 - true if the player is allowed to see the player
+ *                          who tries to block him/herself.
+ */

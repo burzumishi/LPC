@@ -1,0 +1,8 @@
+1060:/std/object.c (/std/object.c)
+(public void) reset_euid()
+/*
+ * Function name: reset_euid
+ * Description  : This function can be called externally to make sure that
+ *                the euid of this object is set exactly to the uid of the
+ *                object. All it does is: seteuid(getuid(this_object()));
+ */

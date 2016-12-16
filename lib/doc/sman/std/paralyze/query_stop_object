@@ -1,0 +1,7 @@
+200:/std/paralyze.c (/std/paralyze.c)
+(object) query_stop_object()
+/*
+ * Function name: query_stop_object
+ * Description  : Returns which object to call the stop function in.
+ * Returns      : object - the object.
+ */

@@ -1,0 +1,8 @@
+1634:/secure/master/fob.c (/secure/master.c)
+(int) query_domain_qexp(string dname)
+/*
+ * Function name: query_domain_qexp
+ * Description  : Gives the quest experience gathered by a domain.
+ * Arguments    : string dname - the domain name.
+ * Returns      : int - the accumulated experience.
+ */

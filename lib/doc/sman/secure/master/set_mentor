@@ -1,0 +1,9 @@
+2568:/secure/master/fob.c (/secure/master.c)
+(int) set_mentor(string mentor, string student)
+/*
+ * Function name: set_mentor
+ * Description  : Set the identity of a wizard mentor
+ * Arguments    : string mentor - the mentor to add
+ *                string student - the student to set in
+ * Returns      : int 1 - success, 0 - error
+ */

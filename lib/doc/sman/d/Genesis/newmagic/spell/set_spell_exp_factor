@@ -1,0 +1,8 @@
+204:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_exp_factor(int i)
+/*
+ * Function name: set_spell_exp_factor
+ * Description:   Set the general experience factor for this spell from
+ *                a range of 0 - 150 % of normal.
+ * Arguments:     1. (int) the experience factor
+ */  

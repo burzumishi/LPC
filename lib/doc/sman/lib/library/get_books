@@ -1,0 +1,8 @@
+857:/lib/library.c (/lib/library.c)
+(public string *) get_books(string dir)
+/*
+ * Function name: get_books
+ * Description:   Get the full pathnames of all book files in a given directory
+ * Arguments:     string dir - the directory to search
+ * Returns:       An array of pathname strings
+ */

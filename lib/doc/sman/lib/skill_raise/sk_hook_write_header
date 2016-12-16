@@ -1,0 +1,7 @@
+565:/lib/skill_raise.c (/lib/skill_raise.c)
+(void) sk_hook_write_header(int steps)
+/*
+ * Function name: sk_hook_write_header
+ * Description  : Write the header to the improve or learn list.
+ * Arguments    : int steps - the number of steps to train.
+ */

@@ -1,0 +1,8 @@
+119:/lib/bank.c (/lib/bank.c)
+(void) bank_hook_change(string text)
+/*
+ * Function name: bank_hook_change
+ * Description:   This function is called when a change text is supposed to
+ *		  be written. Redefine this if you wish.
+ * Arguments:     text - The text describing the change
+ */

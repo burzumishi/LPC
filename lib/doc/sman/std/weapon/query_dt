@@ -1,0 +1,7 @@
+586:/std/weapon.c (/std/weapon.c)
+(int) query_dt()
+/*
+ * Function name: query_dt
+ * Description  : Query the damage type of the weapon.
+ * Returns      : int - the damage type of the weapon.
+ */

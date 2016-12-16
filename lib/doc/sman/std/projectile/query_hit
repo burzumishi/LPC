@@ -1,0 +1,7 @@
+186:/std/projectile.c (/std/projectile.c)
+(public int) query_hit()
+/*
+ * Function name: query_hit
+ * Description  : Returns the to hit value of this projectile.
+ * Returns      : (int) Hit value.
+ */

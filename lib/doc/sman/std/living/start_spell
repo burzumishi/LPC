@@ -1,0 +1,10 @@
+68:/std/living/spells.c (/std/living.c)
+(public int) start_spell(string spell, mixed arg, object spellob)
+/*
+ * Function name: start_spell
+ * Description:   Initiate the casting of a spell
+ * Arguments:     string spell - the spell being cast
+ *                mixed  arg   - spell invokation arguments
+ *                object spellob - the spell object
+ * Returns:       1/0 - spell successful / unsuccessful
+ */

@@ -1,0 +1,7 @@
+1511:/std/living/savevars.c (/std/living.c)
+(public void) set_intoxicated(int i)
+/*
+ * Function name:   set_intoxicated
+ * Description:     Set the level of intoxication of a living.
+ * Arguments:       i: The level of intoxication.
+ */

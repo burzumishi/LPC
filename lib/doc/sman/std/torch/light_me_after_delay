@@ -1,0 +1,9 @@
+316:/std/torch.c (/std/torch.c)
+(public int) light_me_after_delay()
+/*
+ * Function name: light_me_after_delay
+ * Description  : Routine that actually lights the torch after a delay. Why
+ *                exactly this is used, I don't know. Maybe to let the
+ *                previous command finish with the old light value?
+ * Returns      : int 1 - no reason, really, since it's called from an alarm.
+ */

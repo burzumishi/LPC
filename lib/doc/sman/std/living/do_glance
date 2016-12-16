@@ -1,0 +1,15 @@
+788:/std/living/description.c (/std/living.c)
+(public int) do_glance(int brief)
+/*
+ * Function name: do_glance
+ * Description  : This is the routine describing rooms to livings. It will
+ *                print the long or short description of the room, the
+ *                possible exits, all visible non-living and living objects
+ *                in the room (but not this_object() itself) and then it
+ *                will print possible attacks going on. Note that this
+ *                function performs a write(), so this_player() will get the
+ *                descriptions printed to him/her.
+ * Arguments    : int brief - if true, write the short-description,
+ *                            else write the long-description.
+ * Returns      : int 1 - always.
+ */

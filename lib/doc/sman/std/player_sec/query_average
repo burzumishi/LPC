@@ -1,0 +1,7 @@
+27:/std/player/querys_sec.c (/std/player_sec.c)
+(nomask int) query_average()
+/*
+ * Function name:   query_average
+ * Description:     Gives back the average value of all stats of a player
+ * Returns:         The average
+ */

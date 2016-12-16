@@ -1,0 +1,8 @@
+273:/std/coins.c (/std/coins.c)
+(public string) stat_object()
+/*
+ * Function name: stat_object
+ * Description  : When a wizard stats this heap of coins, we add the coin
+ *                type to the information.
+ * Returns      : string - the stat-description.
+ */

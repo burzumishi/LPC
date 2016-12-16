@@ -1,0 +1,8 @@
+582:/std/container.c (/std/container.c)
+(public void) describe_contents(object for_obj, object *obarr)
+/*
+ * Function name: describe_contents
+ * Description:   Give a description of items in this container
+ * Arguments:     object for_obj - To whom to give the description
+ *                object *obarr  - The items to describe
+ */

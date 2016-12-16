@@ -1,0 +1,13 @@
+565:/std/weapon.c (/std/weapon.c)
+(void) set_dt(int type)
+/*
+ * Function name: set_dt
+ * Description  : Set the damage type of the weapon. This should naturally
+ *                make a logical match with the weapon type. The damage type
+ *                is a binary combination of W_IMPALE | W_SLASH | W_BLUDGEON
+ *                  - impale   = for stabbing
+ *                  - slash    = for cutting
+ *                  - bludgeon = for (dull) hitting with force
+ *                When the lock has been set, no changes are allowed anymore.
+ * Arguments    : int type - the damage type.
+ */

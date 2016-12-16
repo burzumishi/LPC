@@ -1,0 +1,8 @@
+1042:/std/player_sec.c (/std/player_sec.c)
+(nomask public int) query_linkdead_in_combat()
+/*
+ * Function name: query_linkdead_in_combat
+ * Description  : This function returns true if the player is linkdead,
+ *                but still in combat.
+ * Returns      : int 1/0 - in combat while linkdead or not.
+ */

@@ -1,0 +1,8 @@
+713:/std/board.c (/std/board.c)
+(public nomask int) new_msg(string msg_head)
+/*
+ * Function name: new_msg
+ * Description  : Write a note.
+ * Arguments    : string msg_head - the header of the header.
+ * Returns      : int 1/0 - success/failure.
+ */

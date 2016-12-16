@@ -1,0 +1,7 @@
+108:/std/heap.c (/std/heap.c)
+(public int) heap_value()
+/*
+ * Function name: heap_value
+ * Description  : The value of the heap, used by OBJ_I_VALUE
+ * Returns      : int - the value of the heap.
+ */

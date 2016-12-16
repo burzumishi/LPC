@@ -1,0 +1,9 @@
+358:/std/bow.c (/std/bow.c)
+(public varargs int) did_hit(int aid, string hdesc, int phurt, 	object enemy,	int dt, int phit, int dam)
+/*
+ * Function name: did_hit
+ * Description  : This function merely checks if the bow is
+ *                stringed and delegates to launch_weapon.
+ *                If the bow is not stringed it returns 0
+ *                and behaves like a normal weapon.
+ */

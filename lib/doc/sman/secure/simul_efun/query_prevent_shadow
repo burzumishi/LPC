@@ -1,0 +1,5 @@
+42:/secure/simul_efun.c (/secure/simul_efun.c)
+(int ) query_prevent_shadow()
+/*
+ * No one is allowed to shadow the simulated efuns
+ */

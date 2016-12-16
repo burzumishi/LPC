@@ -1,0 +1,29 @@
+837:/lib/trade.c (/lib/trade.c)
+(varargs int *) pay(int price, object ob, string str, int test, object ob2, string str2,     int silent)
+/*
+ * Function name: pay
+ * Description:   Let the first object pay the price to the second 
+ *                object if not test
+ * Arguments:     price - the price to pay
+ *                ob - the object who should pay
+ *                str - the string describing how first object wants to pay
+ *                test - set if this is a test - no money being switched
+ *                ob2 - the object who should get the money, 0 if none
+ *                str2 - string describing how buyer wants the change
+ *		  silent - No message will be written if fail to move money
+ * Returns:       An array describing the object payed and the change it got
+ *                Unless something went wrong, then it returns:
+ *                  0 - Noone to pay the price found
+ *		    1 - The specified money is not enough to pay the price
+ * 		    2 - Choosed to pay with money object haven't got
+ * 		    3 - Haven't got enough money
+ *  		    4 - Can' pay the price after we compare what player has
+ * 		        to what we accept, i.e. can't pay in acceptable coins
+ *                Also, the last item in the array holds error code from the
+ *                money moving routine.
+ *                  If > 0 then the player couldn't hold the money it
+ * 		    was getting and dropped it.
+ *                  If = -1 then one couldn't move the money from the object
+ *                  that was specified.
+ *                Normally you don't have to bother at all about this one.
+ */

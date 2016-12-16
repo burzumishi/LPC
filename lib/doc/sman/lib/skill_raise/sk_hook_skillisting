@@ -1,0 +1,7 @@
+585:/lib/skill_raise.c (/lib/skill_raise.c)
+(void) sk_hook_skillisting()
+/*
+ * Function name: sk_hook_skillisting
+ * Description  : Display the header when someone is listing the skills
+ *                to see which training he can receive.
+ */

@@ -1,0 +1,20 @@
+d/Standard/login/ghost_player.c line 114:Variable CONVERT_OLD not declared!
+d/Standard/login/ghost_player.c line 116:Variable CONVERT_OLD not declared!
+d/Standard/login/ghost_player.c line 169:Variable GP_CONVERT not declared!
+d/Standard/login/ghost_player.c line 199:Variable GP_CONVERT not declared!
+d/Standard/login/ghost_player.c line 201:Variable CONVERT_OLD not declared!
+d/Standard/login/ghost_player.c line 202:Variable CONVERT_OLD not declared!
+d/Standard/login/skills.c line 232:Variable SS_WEP_AXE not declared!
+d/Standard/login/skills.c line 238:Variable SS_WEP_CLUB not declared!
+d/Standard/login/skills.c line 242:Variable SS_WEP_POLEARM not declared!
+d/Standard/login/skills.c line 236:Variable SS_WEP_POLEARM not declared!
+d/Standard/obj/mail_reader.c line 38:Cannot #include /sys/bb_gedit.h
+
+d/Standard/obj/mail_reader.c line 38:Cannot #include /sys/bb_gedit.h
+
+d/Standard/start/mailroom.c line 14:Invalid include.
+d/Standard/start/mailroom.c line 14:Cannot #include ../defs.h
+
+d/Standard/start/mailroom.c line 14:Invalid include.
+d/Standard/start/mailroom.c line 14:Cannot #include ../defs.h
+

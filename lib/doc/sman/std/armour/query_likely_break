@@ -1,0 +1,7 @@
+386:/std/armour.c (/std/armour.c)
+(int) query_likely_break()
+/*
+ * Function name: query_likely_break
+ * Description:   How likely this piece of armour is to break (a relative number)
+ * Returns:       How liely it is
+ */

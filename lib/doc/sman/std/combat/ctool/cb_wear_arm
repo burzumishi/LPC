@@ -1,0 +1,8 @@
+205:/std/combat/ctool.c (/std/combat/ctool.c)
+(public mixed) cb_wear_arm(object arm)
+/*
+ * Function name: cb_wear_arm
+ * Description:   Wear an armour
+ * Arguments:     arm - The armour.
+ * Returns:       True if worn, text if fail
+ */

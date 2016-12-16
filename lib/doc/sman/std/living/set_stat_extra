@@ -1,0 +1,11 @@
+47:/std/living/stats.c (/std/living.c)
+(public int) set_stat_extra(int stat, int val)
+/*
+ * Function name:   set_stat_extra
+ * Description:     Sets an extra number to add to the normal stats. It could be
+ * 		    some object changing the livings stats while being held or
+ *		    some other not time based stat bonus.
+ * Arguments:       stat - What stat
+ *		    val  - The extra value to modify stat with
+ * Returns:	    The extra stat value
+ */

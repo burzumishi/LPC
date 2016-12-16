@@ -1,0 +1,9 @@
+2185:/secure/master.c (/secure/master.c)
+(#ifdef LOG_FTP static string) log_incoming_service(string request, string wname, string path)
+/*
+ * Function name: log_incoming_service
+ * Description  : This function will make a log of the incomming service.
+ * Arguments    : string request - the request to log.
+ *                string wname   - the wizard name.
+ *                string path    - the path to log.
+ */

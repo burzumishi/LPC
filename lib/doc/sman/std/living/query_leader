@@ -1,0 +1,8 @@
+554:/std/living/combat.c (/std/living.c)
+(public object) query_leader()
+/*
+ * Function name: query_leader
+ * Description  : Find the living who is the leader of our team. If this
+ *                returns an objectpointer, it means we are a team member.
+ * Returns      : object - the leader of my team, or 0 if we are not lead.
+ */

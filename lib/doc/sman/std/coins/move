@@ -1,0 +1,9 @@
+280:/std/coins.c (/std/coins.c)
+(varargs public int) move(mixed dest, mixed subloc)
+/*
+ * Function name: move
+ * Description  : Make sure moving of money is logged if the amount is
+ *                larger than a certain amount.
+ * Arguments    : see move in /std/object.c
+ * Returns      : see move in /std/object.c
+ */

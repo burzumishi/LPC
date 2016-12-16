@@ -1,0 +1,7 @@
+111:/lib/messenger.c (/lib/messenger.c)
+(public void) create_messenger()
+/*
+ * Function:    create_messenger
+ * Description: Override this function to define your own messenger. This
+ *              routine does not actually exist.
+ */

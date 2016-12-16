@@ -1,0 +1,8 @@
+1791:/secure/master/fob.c (/secure/master.c)
+(string) query_wiz_chd(string wname)
+/*
+ * Function name: query_wiz_chd
+ * Description  : Return the name of the domain changer.
+ * Arguments    : string wname - the wizard.
+ * Returns      : string - the changer.
+ */

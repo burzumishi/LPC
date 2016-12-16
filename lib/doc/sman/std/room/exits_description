@@ -1,0 +1,7 @@
+120:/std/room/description.c (/std/room.c)
+(public string) exits_description()
+/*
+ * Function name: exits_description
+ * Description  : This function will return the exits described in a nice way.
+ * Returns      : string - the description.
+ */

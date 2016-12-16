@@ -1,0 +1,7 @@
+1429:/std/living/savevars.c (/std/living.c)
+(public int) query_opinion()
+/*
+ * Function name:   query_opinion
+ * Description:     Gives the current value of the opinion variable
+ * Returns:         The opinion value
+ */

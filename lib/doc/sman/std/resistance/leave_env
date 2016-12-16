@@ -1,0 +1,8 @@
+69:/std/resistance.c (/std/resistance.c)
+(void) leave_env(object from, object to)
+/*
+ * Function name: leave_env
+ * Description:   Called when this object is moved from another object
+ * Arguments:     from - The object this object is moved from
+ *		  to   - The object to which this object is being moved
+ */

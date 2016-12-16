@@ -1,0 +1,7 @@
+901:/std/poison_effect.c (/std/poison_effect.c)
+(public nomask void) init_arg(string arg)
+/*
+ * Function name: init_arg
+ * Description  : Parses the data from the saved object.
+ * Arguments    : arg - the arguments to init
+ */

@@ -1,0 +1,8 @@
+86:/std/living/notify_meet.c (/std/living.c)
+(public void) remove_notify_meet_interactive(mixed func)
+/*
+ * Function name: remove_notify_meet_interactive
+ * Description:   Removes a function to call when this living meets an
+ *                interactive player.
+ * Arguments:	  func: The function, can be on VBFC format
+ */

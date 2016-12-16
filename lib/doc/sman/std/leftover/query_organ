@@ -1,0 +1,7 @@
+158:/std/leftover.c (/std/leftover.c)
+(public string) query_organ()
+/*
+ * Function name: query_organ
+ * Description  : Returns the organ as set with leftover_init().
+ * Returns      : string - the organ.
+ */

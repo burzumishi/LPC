@@ -1,0 +1,10 @@
+1429:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) archive(int *archive_arr, int mark_del)
+/*
+ * Function name: archive
+ * Description  : Archive mail messages. The archived messages may optionally
+ *                be marked for deletion. They will be actually deleted when
+ *                you quit the reader.
+ * Arguments    : int * archive_arr - the numbers of the messages to archive.
+ *                int mark_del - if true, mark the archived mails for deletion.
+ */

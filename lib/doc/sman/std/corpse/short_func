@@ -1,0 +1,8 @@
+209:/std/corpse.c (/std/corpse.c)
+(string) short_func()
+/*
+ * Function name: short_func
+ * Description  : Returns the short description of this object, based on
+ *                recognition of the corpse.
+ * Returns      : string - the short description.
+ */

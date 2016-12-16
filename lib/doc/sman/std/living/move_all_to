@@ -1,0 +1,7 @@
+389:/std/living/combat.c (/std/living.c)
+(static nomask void) move_all_to(object dest)
+/*
+ * Function name: move_all_to
+ * Description  : Move the entire inventory of this_object to dest.
+ * Arguments    : object dest - destination of the inventory.
+ */

@@ -1,0 +1,10 @@
+1429:/std/object.c (/std/object.c)
+(public void) set_short(mixed short)
+/*
+ * Function name: set_short
+ * Description  : This function sets the short description of the object. If
+ *                a short description is not set, one will be generated from
+ *                from the name and possible adjectives.
+ * Arguments    : mixed short - the short description in either a string or
+ *                              VBFC in string or functionpointer form.
+ */

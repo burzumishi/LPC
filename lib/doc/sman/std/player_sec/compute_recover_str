@@ -1,0 +1,10 @@
+176:/std/player/cmd_sec.c (/std/player_sec.c)
+(static nomask void) compute_recover_str(int verb)
+/*
+ * Function name: compute_recover_str
+ * Description  : Walk through the inventory and check all the objects for
+ *                the recover property.
+ * Arguments    : int - if true the player manually typed 'save'. It means
+ *                      we compute the string even though the player may
+ *                      not be in a recover location.
+ */

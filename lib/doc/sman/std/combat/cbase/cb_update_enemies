@@ -1,0 +1,6 @@
+2057:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask void) cb_update_enemies()
+/*
+ * Function name: cb_update_enemies
+ * Description  : Makes sure our enemy list is valid.
+ */

@@ -1,0 +1,9 @@
+198:/std/living.c (/std/living.c)
+(public nomask int) can_see_in_room()
+/*
+ * Function name: can_see_in_room
+ * Description  : This function will return whether this object can see
+ *                in the room he/she is in. It is used from filters, among
+ *                other things.
+ * Returns      : int 1/0 - the result from CAN_SEE_IN_ROOM()
+ */

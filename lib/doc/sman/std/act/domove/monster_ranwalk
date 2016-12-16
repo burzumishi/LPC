@@ -1,0 +1,6 @@
+267:/std/act/domove.c (/std/act/domove.c)
+(void) monster_ranwalk()
+/*
+ * Function name:   monster_ranwalk
+ * Description:     Add a random direction to walk. Add the function call too.
+ */

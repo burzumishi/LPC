@@ -1,0 +1,8 @@
+959:/std/weapon.c (/std/weapon.c)
+(public int) query_weapon_hits()
+/*
+ * Function name: query_weapon_hits
+ * Description:   hits variable keeps track of how many times this weapon has
+ *                hit something.
+ * Returns:       The number of times
+ */

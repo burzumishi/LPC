@@ -1,0 +1,7 @@
+81:/std/guild/guild_lay_sh.c (/std/guild/guild_lay_sh.c)
+(public nomask string) query_guild_type()
+/*
+ * Function name: query_guild_type
+ * Description:   what type of guild is this, occupational, layman or race?
+ * Returns:       a string with the type
+ */

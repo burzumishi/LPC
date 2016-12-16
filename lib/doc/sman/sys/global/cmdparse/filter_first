@@ -1,0 +1,10 @@
+207:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(nomask int ) filter_first(object ob)
+/*
+ * Function name: filter_first
+ * Description  : Support function to fund 'gNum' items. It will reduce the
+ *                global variable 'gNum' with the number of items found until
+ *                there are none left.
+ * Arguments    : object ob - the object to test.
+ * Returns      : int - if true, the object is selected.
+ */

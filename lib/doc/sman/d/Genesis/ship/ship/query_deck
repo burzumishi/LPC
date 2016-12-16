@@ -1,0 +1,7 @@
+744:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public mixed) query_deck()
+/*
+ * Function name: query_deck
+ * Description	: get the object or path of the room used as ship deck
+ * Returns	: the deck path or object
+ */

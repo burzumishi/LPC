@@ -1,0 +1,5 @@
+1471:/std/combat/cbase.c (/std/combat/cbase.c)
+( static void) restart_heart()
+/***********************************************************
+ * The non redefinable functions follows below
+ */

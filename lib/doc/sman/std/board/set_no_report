@@ -1,0 +1,10 @@
+135:/std/board.c (/std/board.c)
+(public nomask void) set_no_report(int n)
+/*
+ * Function name: set_no_report
+ * Description  : If you set this to true, the central board master is
+ *                not notified of new notes. The only thing this does is
+ *                preventing MBS from showing the board.
+ * Arguments    : int n - true if the central board master should not
+ *                        be notified. (default: false)
+ */

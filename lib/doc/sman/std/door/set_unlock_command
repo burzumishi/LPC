@@ -1,0 +1,6 @@
+1211:/std/door.c (/std/door.c)
+(void) set_unlock_command(mixed command)
+/*
+ * Function name: set_unlock_command
+ * Description:   Set what command unlocks the door
+ */

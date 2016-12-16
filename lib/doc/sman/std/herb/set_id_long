@@ -1,0 +1,8 @@
+230:/std/herb.c (/std/herb.c)
+(void) set_id_long(string str)
+/*
+ * Function name: set_id_long
+ * Description:   Set the long description you see if you know what herb it
+ *		  is.
+ * Arguments:     str - The description
+ */

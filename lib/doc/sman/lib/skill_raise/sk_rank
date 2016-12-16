@@ -1,0 +1,8 @@
+327:/lib/skill_raise.c (/lib/skill_raise.c)
+(public string) sk_rank(int lev)
+/*
+ * Function name: sk_rank
+ * Description:   Give the textual level of a skill
+ * Arguments:     lev: The skill level
+ * Returns:       The skill rank descriptions
+ */

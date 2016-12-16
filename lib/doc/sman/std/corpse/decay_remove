@@ -1,0 +1,7 @@
+334:/std/corpse.c (/std/corpse.c)
+(void) decay_remove()
+/*
+ * Function name: decay_remove
+ * Description  : Second stage of decay. Clone the leftovers and then destruct
+ *                the corpse.
+ */

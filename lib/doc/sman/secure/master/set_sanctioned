@@ -1,0 +1,8 @@
+3716:/secure/master.c (/secure/master.c)
+(public int) set_sanctioned(string wizname, mapping map)
+/*
+ * Function name: set_sanctioned
+ * Description:   Set the 'sanctioned' field in the player.
+ * Arguments:     wizname - The wizard to set in
+ *                map - The 'sanctioned' map to set.
+ */

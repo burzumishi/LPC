@@ -1,0 +1,7 @@
+57:/std/room/terrain.c (/std/room.c)
+(int) query_terrain()
+/*
+ * Function name: query_terrain
+ * Description  : Query the room for its terrain properties
+ * Returns      : int - terrain value
+ */

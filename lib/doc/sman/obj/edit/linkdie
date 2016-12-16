@@ -1,0 +1,9 @@
+823:/obj/edit.c (/obj/edit.c)
+(#ifdef EDITOR_SAVE_OBJECT public void) linkdie()
+/*
+ * Function name: linkdie
+ * Description  : When the player holding this editor linkdies, the
+ *                edit-buffer is saved by the EDITOR_SAVE_OBJECT.
+ *                When (s)he re-links, the buffer can be restored and
+ *                the message continued.
+ */

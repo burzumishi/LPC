@@ -1,0 +1,7 @@
+844:/secure/master/fob.c (/secure/master.c)
+(int) leave_domain()
+/*
+ * Function name: leave_domain
+ * Description  : Someone wants to leave his/her domain.
+ * Returns      : int 1/0 - success/failure.
+ */

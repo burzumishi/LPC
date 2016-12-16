@@ -1,0 +1,7 @@
+360:/std/poison_effect.c (/std/poison_effect.c)
+(public int *) query_damage()
+/*
+ * Function name: query_damage
+ * Description  : This function returns the damage array of the poison
+ * Returns      : int * - the damage types
+ */

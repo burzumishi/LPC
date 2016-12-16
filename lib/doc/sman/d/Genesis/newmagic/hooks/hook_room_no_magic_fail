@@ -1,0 +1,9 @@
+22:/d/Genesis/newmagic/hooks.c (/d/Genesis/newmagic/hooks.c)
+(public void) hook_room_no_magic_fail(mixed reason, object room)
+/*
+ * Function name: hook_no_magic_fail
+ * Description:   Return the message that should be printed when noone
+ *                is supplied with ROOM_M_NO_MAGIC.
+ * Arguments:     obj - The room object.
+ * Returns:       The message to print.
+ */

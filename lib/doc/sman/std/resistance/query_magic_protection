@@ -1,0 +1,12 @@
+159:/std/resistance.c (/std/resistance.c)
+(public mixed) query_magic_protection(string prop, object what)
+/*
+ * Function name: query_magic_protection
+ * Description:   the resistance effect
+ * Arguments:     prop - the resistance property
+ *                what - the protected object
+ * Returns:       an array of integer with the resistance:
+ *                ({ strength, additive })
+ *                Strength is always less or equal 40, and
+ *                the resistance effect is always additive
+ */

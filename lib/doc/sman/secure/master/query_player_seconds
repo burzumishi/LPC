@@ -1,0 +1,9 @@
+118:/secure/master/player.c (/secure/master.c)
+(public string *) query_player_seconds()
+/* 
+ * Function name: query_player_seconds
+ * Description  : Find out the names of the seconds of a player that were
+ *                registered by that player. This routine operates on
+ *                this_interactive().
+ * Returns      : string *names - the names of the seconds.
+ */

@@ -1,0 +1,10 @@
+321:/secure/player_tool.c (/secure/player_tool.c)
+(nomask static int) playerget(string str)
+/*
+ * Function name: playerget
+ * Description  : This function can be used to transfer/copy a playerfile
+ *                from the secure directory for the playerfiles to the
+ *                private directory of the wizard.
+ * Arguments    : string str - the name of the player whose file to copy.
+ * Returns      : int 1/0 - success/failure.
+ */

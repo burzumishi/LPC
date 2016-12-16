@@ -1,0 +1,7 @@
+22:/std/workroom.c (/std/workroom.c)
+(void) create_workroom()
+/*
+ * Function name: create_workroom
+ * Description  : Called to create the workroom. You may redefine this
+ *                function to create your own.
+ */

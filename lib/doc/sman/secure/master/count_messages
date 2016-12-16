@@ -1,0 +1,10 @@
+536:/secure/master/mail_admin.c (/secure/master.c)
+(static void) count_messages(int boxes, int messages)
+/*
+ * Function name: count_messages
+ * Description  : This function loops over all message directories and counts
+ *                the number of messages found in them. Note that this
+ *                function is not protected against eval-cost.
+ * Arguments    : int boxes    - the number of mailboxes found.
+ *                int messages - the number of messages found in the boxes.
+ */

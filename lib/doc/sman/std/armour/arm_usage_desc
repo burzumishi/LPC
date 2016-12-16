@@ -1,0 +1,10 @@
+805:/std/armour.c (/std/armour.c)
+(string) arm_usage_desc()
+/*
+ * Function name: arm_usage_desc
+ * Description  : This function returns the usage of this armour. It is
+ *                usually printed from the appraise function. The string
+ *                includes the type of the armour and the location where it
+ *                should be worn.
+ * Returns      : string - the description.
+ */

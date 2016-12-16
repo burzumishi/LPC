@@ -1,0 +1,7 @@
+69:/secure/master/language.c (/secure/master.c)
+(string) parse_command_of_word()
+/*
+ * Function name: parse_command_of_word
+ * Description  : This will return the word meaning 'of' in English.
+ * Returns      : string - the word.
+ */

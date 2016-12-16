@@ -1,0 +1,7 @@
+313:/secure/master.c (/secure/master.c)
+(string) get_root_uid()
+/*
+ * Function name: get_root_uid
+ * Description  : Gives the uid of the root user.
+ * Returns      : string - the name of the 'root' user.
+ */

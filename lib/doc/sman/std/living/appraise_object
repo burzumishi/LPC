@@ -1,0 +1,8 @@
+927:/std/living/description.c (/std/living.c)
+(public void) appraise_object(int num)
+/*
+ * Function name: appraise_object
+ * Description:   This function is called when someone tries to appraise a
+ *		  living object.
+ * Arguments:     num - use this number instead of the skill.
+ */

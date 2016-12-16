@@ -1,0 +1,11 @@
+516:/secure/login.c (/secure/login.c)
+(int) valid_name(string str)
+/*
+ * Function name: valid_name
+ * Description  : Check that a player name is valid. The name must be at
+ *                least two characters long and at most eleven characters.
+ *                We only allow lowercase letters. Also, generally offensive
+ *                names are not allowed.
+ * Arguments    : string str - the name to check.
+ * Returns      : int 1/0 - true if the name is allowed.
+ */

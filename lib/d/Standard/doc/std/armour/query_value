@@ -1,0 +1,6 @@
+525:/std/armour.c (/std/armour.c)
+(int) query_value()
+/*
+ * Function name: query_value
+ * Description:   Qhat's the value of this armour
+ */

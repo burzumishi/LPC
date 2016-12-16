@@ -1,0 +1,9 @@
+806:/std/living/combat.c (/std/living.c)
+(public mixed) query_enemy(int arg)
+/* 
+ * Function name: query_enemy 
+ * Description  : Gives information of recorded enemies. If you want to know
+ *                the currently fought enemy (if any) call query_attack().
+ * Arguments    : See "sman cb_query_enemy"
+ * Returns      : See "sman cb_query_enemy"
+ */

@@ -1,0 +1,7 @@
+440:/std/living/cmdhooks.c (/std/living.c)
+(nomask public void) reopen_soul()
+/*
+ * Function name: reopen_soul
+ * Description  : This function allows for the euid of this player to be
+ *                re-exported in only a very limited number of cases.
+ */

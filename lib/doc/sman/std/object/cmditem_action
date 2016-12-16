@@ -1,0 +1,7 @@
+1850:/std/object.c (/std/object.c)
+(public int) cmditem_action(string str)
+/*
+ * Function name: cmditem_action
+ * Description:   Find and execute a command for a specific command item
+ * Arguments:     str: The rest of the command
+ */

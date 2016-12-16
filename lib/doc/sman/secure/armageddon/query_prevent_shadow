@@ -1,0 +1,7 @@
+443:/secure/armageddon.c (/secure/armageddon.c)
+(nomask int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : This function prevents anyone from shadowing us.
+ * Returns      : int 1 - always.
+ */

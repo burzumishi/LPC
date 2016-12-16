@@ -1,0 +1,11 @@
+95:/std/living/width_height.c (/std/living.c)
+(public int) set_size_descs(string height, string width)
+/*
+ * Function name: set_size_descs
+ * Description  : Call this function to set both the height and the width
+ *                description. See set_height() and set_width() for details.
+ * Arguments    : string height - the desired height description.
+ * Arguments    : string height - the desired height description.
+ *                string width  - the desired width description.
+ * Returns      : int 1/0 - success/failure.
+ */

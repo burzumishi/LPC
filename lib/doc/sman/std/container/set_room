@@ -1,0 +1,7 @@
+225:/std/container.c (/std/container.c)
+(public void) set_room(mixed room)
+/*
+ * Function name: set_room
+ * Description:   Connects a room to the internals of the container.
+ * Arguments:     room: The room object or a filename
+ */

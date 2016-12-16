@@ -1,0 +1,7 @@
+1128:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) update_new_mail_flag()
+/*
+ * Function name: update_new_mail_flag
+ * Description  : Sets the new mail flag of the mailbox. By default it is
+ *                "read", but if we have unread messages, mark it so.
+ */

@@ -1,0 +1,15 @@
+101:/lib/holdable_item.c (/lib/holdable_item.c)
+(public mixed) hold()
+/*
+ * Function name: hold
+ * Description  : Called when the person wants to hold an item. This function
+ *                may allow or disallow the object to be held, and it may
+ *                print its own messages.
+ * Returns      : string / int -
+ *                 0 - The item can be held, print default messages.
+ *                 1 - The item can be held, print no messages.
+ *                     Messages were printed within the function.
+ *                -1 - The item cannot be held. Print default messages.
+ *                string - The item cannot be held. The string contains the
+ *                         fail message.
+ */

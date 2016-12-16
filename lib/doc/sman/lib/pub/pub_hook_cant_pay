@@ -1,0 +1,8 @@
+85:/lib/pub.c (/lib/pub.c)
+(void) pub_hook_cant_pay(int price)
+/*
+ * Function name: pub_hook_cant_pay
+ * Description:   A hook to redefine if you want own message when player can't 
+ *		  pay the price.
+ * Arguments:     price - The price he should had payed
+ */

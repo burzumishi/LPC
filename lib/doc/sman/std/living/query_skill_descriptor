@@ -1,0 +1,8 @@
+1866:/std/living/savevars.c (/std/living.c)
+(public string) query_skill_descriptor()
+/*
+ * Function name:   query_skill_descriptor
+ * Description:     Gives the path to an object which defines the function
+ *                  sk_rank, which assigns names to the skill levels.
+ * Returns:         The path
+ */

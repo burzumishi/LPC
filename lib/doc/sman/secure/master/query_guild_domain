@@ -1,0 +1,8 @@
+360:/secure/master/guild.c (/secure/master.c)
+(public string) query_guild_domain(string short_name)
+/*
+ * Function name: query_guild_domain
+ * Description  : Query the domain a particular guild is in.
+ * Arguments    : string short_name - the short name of the guild.
+ * Returns      : string - the domain the guild is in, else 0.
+ */

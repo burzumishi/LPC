@@ -1,0 +1,7 @@
+934:/std/living/savevars.c (/std/living.c)
+(static void) set_exp_general(int exp)
+/*
+ * Function name: set_exp_general
+ * Description  : Set the amount of general experience the living has.
+ * Arguments    : int exp - the amount of general experience.
+ */

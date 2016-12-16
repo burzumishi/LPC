@@ -1,0 +1,7 @@
+67:/lib/store_support.c (/lib/store_support.c)
+(int) query_max_items()
+/*
+ * Function name: query_max_items
+ * Description  : Query the maximum number of items allowed in this store.
+ * Returns      : int - the number.
+ */

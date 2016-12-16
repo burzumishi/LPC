@@ -1,0 +1,15 @@
+20:/std/act/domove.c (/std/act/domove.c)
+(varargs void) set_random_move(int time, int flag)
+/*
+ * Function name: set_random_move
+ * Description:   Set the ability to walk around, and the
+ *                time affecting limit.
+ * Arguments:     time - The monster will move in 10 + random(time) seqaction
+ *                       intervals.  If time is 0, random movement will be
+ *                       stopped.
+ *                flag - True if you want the monster to wander forever. If
+ *                       0 or not present, the monster will wander randomly
+ *                       for as long as it meets players and a short time
+ *                       after that. The preferred behavior is to not wander
+ *                       forever.
+ */

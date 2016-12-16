@@ -1,0 +1,10 @@
+33:/std/living/stats.c (/std/living.c)
+(nomask public int) query_skill_cost(int oldskill, int newskill)
+/*
+ * Function name:   query_skill_cost
+ * Description:     Calculates the cost in experience points to raise a skill
+ *                  a few levels.
+ * Arguments:       oldskill: The old skill level
+ *                  newskill: The new skill level
+ * Returns:         The cost in experience points
+ */

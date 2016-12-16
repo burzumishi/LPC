@@ -1,0 +1,7 @@
+334:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask string) query_shutter()
+/*
+ * Function name: query_shutter
+ * Description  : Return the name of the person shutting us down.
+ * Returns      : string - the name.
+ */

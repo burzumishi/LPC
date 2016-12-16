@@ -1,0 +1,8 @@
+131:/lib/bank.c (/lib/bank.c)
+(void) bank_hook_other_see(int testflag)
+/*
+ * Function name: bank_hook_other_see
+ * Description:   This function writes what the other players sees.
+ *		  Redefine it if you want own messages.
+ * Arguments:	  test - If a test is going on
+ */

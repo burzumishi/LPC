@@ -1,0 +1,8 @@
+1093:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) query_unread_news(string bpath, string last)
+/*
+ * Function name: query_unread_news
+ * Description:	  Check if news is unread on a specific board
+ * Arguments:	  bpath - the board save path
+ * Returns:	  unread status (binary)
+ */

@@ -1,0 +1,8 @@
+444:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) remove_central_entry(string entry)
+/*
+ * Function name: remove_central_entry
+ * Description:	  Remove an entry from the central board
+ * Arguments:	  entry - the entry to remove
+ * Returns:	  Error code, if any
+ */

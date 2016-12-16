@@ -1,0 +1,6 @@
+70:/std/combat/ctool.c (/std/combat/ctool.c)
+(public nomask void) create_cplain()
+/*
+ * Function name: create_cplain
+ * Description:   Reset the combat functions
+ */

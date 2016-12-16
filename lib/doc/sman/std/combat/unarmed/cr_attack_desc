@@ -1,0 +1,8 @@
+173:/std/combat/unarmed.c (/std/combat/unarmed.c)
+(public string) cr_attack_desc(int aid)
+/*
+ * Function name: cr_attack_desc
+ * Description:   Gives the description of a certain unarmed attack slot.
+ * Arguments:     aid:   The attack id
+ * Returns:       string holding description
+ */

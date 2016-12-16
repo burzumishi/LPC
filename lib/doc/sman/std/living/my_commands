@@ -1,0 +1,8 @@
+328:/std/living/cmdhooks.c (/std/living.c)
+(static int) my_commands(string str)
+/*
+ * Function name:   my_commands
+ * Description:     Try to find and perform a command.
+ * Arguments:       str - the argument string.
+ * Returns:         True if the command was found.
+ */

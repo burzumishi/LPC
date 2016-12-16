@@ -1,0 +1,9 @@
+695:/std/door.c (/std/door.c)
+(void) do_pick_lock(int skill, int pick)
+/*
+ * Function name: do_pick_lock
+ * Description:   Here we pick the lock, redefine this function if you want
+ *		  something to happen, like a trap or something.
+ * Arguments:	  skill - randomized picking skill of player
+ *		  pick  - how difficult to pick the lock
+ */

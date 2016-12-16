@@ -1,0 +1,7 @@
+123:/lib/store_support.c (/lib/store_support.c)
+(void) store_remove_items()
+/*
+ * Function name: store_remove_items
+ * Description  : Called with a little delay to actually remove items from
+ *                the store when there are too many items.
+ */

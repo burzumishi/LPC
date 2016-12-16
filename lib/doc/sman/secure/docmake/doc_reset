@@ -1,0 +1,5 @@
+139:/secure/docmake.c (/secure/docmake.c)
+(public void) doc_reset()
+/*
+ * Call this to reset the docmaker
+ */

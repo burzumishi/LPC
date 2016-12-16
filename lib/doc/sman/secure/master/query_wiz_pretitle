@@ -1,0 +1,8 @@
+2260:/secure/master/fob.c (/secure/master.c)
+(string) query_wiz_pretitle(mixed wiz)
+/*
+ * Function name: query_wiz_pretitle
+ * Description  : Gives a pretitle for a specific wizard (type).
+ * Arguments    : mixed wiz - the wizard object or name.
+ * Returns      : string - the pretitle for the wizard.
+ */

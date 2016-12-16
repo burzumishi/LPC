@@ -1,0 +1,8 @@
+33:/d/Genesis/ship/deck.c (/d/Genesis/ship/deck.c)
+(public nomask void) set_deck_sound(string str)
+/*
+ * Function name: set_deck_sound
+ * Description:   Set the sound that should be heard when the ship moves
+ *	 	  Can be VBFC.
+ * Arguments:	  str - The string to print
+ */

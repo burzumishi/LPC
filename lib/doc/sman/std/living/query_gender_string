@@ -1,0 +1,7 @@
+19:/std/living/gender.c (/std/living.c)
+(public string) query_gender_string()
+/*
+ * Function name:   query_gender_string
+ * Description:     Gives back a string that contains the gender of a living
+ * Returns:         The string
+ */

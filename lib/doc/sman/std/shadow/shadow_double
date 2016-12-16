@@ -1,0 +1,11 @@
+29:/std/shadow.c (/std/shadow.c)
+(static int) shadow_double(string fname, object ob)
+/*
+ * Function name: shadow_double
+ * Description  : Checks whether a certain shadow(file) is already
+ *                shadowing a certain object.
+ * Arguments    : string fname - the filename of the shadow to check.
+ *                object ob    - the object to check whether it is already
+ *                               shadowed by fname.
+ * Returns      : int 1/0 - true if the ob is already shadowed by fname.
+ */

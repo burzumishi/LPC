@@ -1,0 +1,6 @@
+588:/std/armour.c (/std/armour.c)
+(nomask int) check_armour()
+/*
+ * Function name: check_armour
+ * Description:   Check file for security.
+ */

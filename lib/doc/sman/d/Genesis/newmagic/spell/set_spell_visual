@@ -1,0 +1,9 @@
+490:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_visual(int i)
+/*
+ * Function name: set_spell_visual
+ * Description:   Indicate that the spell requires the caster to be able to
+ *                see in his environment and to see the target, if there is
+ *                one.
+ * Arguments:     1. (int) If true, spell requires caster to see.
+ */

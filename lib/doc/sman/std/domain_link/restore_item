@@ -1,0 +1,17 @@
+198:/std/domain_link.c (/std/domain_link.c)
+(public int) restore_item(object player, string item)
+/*
+ * Function name: restore_item
+ * Descritpion  : Called to restore a certain item to a player. This means the
+ *                item has to be cloned into the player and customised when
+ *                so required. In principle, this routine is only called when
+ *                the items have been checked for restoration, but you are
+ *                suggested to perform the check to see whether the player is
+ *                entitled to the object. In principle, no text needs to be
+ *                printed to the player inside this routine.
+ * Arguments    : object player - the player who needs an item restored.
+ *                string item - the code name of the item. This is the string
+ *                     returned as index in the mapping that was returned from
+ *                     query_restore_items().
+ * Returns      : int 1/0 - if true, the restoration is successful, else 0.
+ */

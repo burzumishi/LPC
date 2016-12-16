@@ -1,0 +1,9 @@
+22:/std/living/tool.c (/std/living.c)
+(nomask mixed) occupy_slot(object tool)
+/*
+ * Function name: occupy_slot
+ * Description:   Try to put the specified object in its slot(s)
+ * Arguments:     The object to be put in the slot(s)
+ * Returns:       1 - slots successfully occupied
+ *                string - An error message
+ */

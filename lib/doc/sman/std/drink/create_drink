@@ -1,0 +1,8 @@
+47:/std/drink.c (/std/drink.c)
+(public void) create_drink()
+/*
+ * Function name: create_drink
+ * Description  : This function is called to create the drink. You should
+ *                redefine this function to set the descriptions and the
+ *                amount of alco, etcetera.
+ */

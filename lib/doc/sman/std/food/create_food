@@ -1,0 +1,7 @@
+43:/std/food.c (/std/food.c)
+(public void) create_food()
+/*
+ * Function name: create_food
+ * Description  : This function is the constructor. You should redefine
+ *                it to create your own food object.
+ */

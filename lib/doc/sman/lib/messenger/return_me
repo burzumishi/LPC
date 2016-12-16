@@ -1,0 +1,10 @@
+330:/lib/messenger.c (/lib/messenger.c)
+(public nomask void ) return_me()
+/* 
+ * Function:    return_me
+ * Description: This function sends a message to the environment to
+ *              alert others that the messenger is going home. In
+ *              actuality, the messenger is just deleted.
+ * Arguments:   none
+ * Returns:     nothing
+ */

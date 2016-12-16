@@ -1,0 +1,8 @@
+1293:/std/living/savevars.c (/std/living.c)
+(public int) remove_prop_obj_i_invis()
+/*
+ * Function name: remove_prop_obj_i_invis
+ * Description  : When a player is no longer invisible, make aggressive
+ *                monsters attack using a tiny alarm.
+ * Returns      : int 0 - always.
+ */

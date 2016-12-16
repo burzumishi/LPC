@@ -1,0 +1,7 @@
+150:/secure/login.c (/secure/login.c)
+(static void) time_out()
+/*
+ * Function name: time_out
+ * Description  : Called when the player takes too much time to type a line.
+ *                It destructs the object.
+ */

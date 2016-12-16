@@ -1,0 +1,11 @@
+1094:/secure/master.c (/secure/master.c)
+(public int) valid_player_info(mixed actor, string name, string func)
+/*
+ * Function name: valid_player_info
+ * Description  : Find out whether the actor is allowed to access certain
+ *                player information.
+ * Arguments    : mixed actor - the actor that wants to know the info.
+ *                string name - the name of the person to get info about.
+ *                string func - the type of info the actor wants to know.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

@@ -1,0 +1,11 @@
+1127:/std/living/savevars.c (/std/living.c)
+(public nomask void) modify_stat(string type, int stat, int amount, string reason)
+/*
+ * Function name: modify_stat
+ * Description  : Called from the wizard command soul for the express purpose
+ *                of altering the a single stat of a player.
+ * Arguments    : string type   - the type of experience to adjust.
+ *                int stat      - the number of the valid stat to alter.
+ *                int amount    - the new stat value, must be > 0.
+ *                string reason - the reason for changing the stat.
+ */

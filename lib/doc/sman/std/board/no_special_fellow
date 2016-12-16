@@ -1,0 +1,10 @@
+263:/std/board.c (/std/board.c)
+(nomask public int) no_special_fellow()
+/*
+ * Function name: no_special_fellow
+ * Description  : Some people can always handle the board. If you own the
+ *                board (same euid), if the board is in your domain, or
+ *                if you are a member of the administration or the Lord of
+ *                the domain the board it in, you can always meddle.
+ * Returns      : int - 1/0 - true if (s)he is not a special fellow.
+ */

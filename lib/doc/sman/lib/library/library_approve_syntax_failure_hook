@@ -1,0 +1,9 @@
+552:/lib/library.c (/lib/library.c)
+(public int) library_approve_syntax_failure_hook(string str)
+/*
+ * Function name: library_approve_syntax_failure_hook
+ * Description:   Redefine this to alter the message given when incorrect
+ *                syntax is used for the "approve" command
+ * Arguments:     string str - the arguments to the "approve" command
+ * Returns:       1/0
+ */

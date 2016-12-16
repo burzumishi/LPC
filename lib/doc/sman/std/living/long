@@ -1,0 +1,12 @@
+589:/std/living/description.c (/std/living.c)
+(public varargs string) long(mixed for_obj)
+/*
+ * Function name:   long
+ * Description:     Returns the long-description of this living, and shows also
+ *                  the inventory. Handles invisibility and met/nonmet. Note
+ *                  that the function does not do any writes! It only returns
+ *                  the correct string.
+ * Arguments:       string for_obj: return an item-description
+ *                  object for_obj: return the living-description
+ * Returns:         The description string
+ */

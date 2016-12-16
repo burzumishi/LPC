@@ -1,0 +1,6 @@
+248:/obj/possob.c (/obj/possob.c)
+(public string) query_possessed()
+/*
+ * Function name: query_possessed
+ * Description:	  Return the possessed object.
+ */

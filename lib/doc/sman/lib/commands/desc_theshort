@@ -1,0 +1,12 @@
+46:/lib/commands.c (/lib/commands.c)
+(public varargs string) desc_theshort(object ob, object for_ob, int poss)
+/*
+ * Function name: desc_theshort
+ * Description  : This function takes an object and returns LANG_THESHORT
+ *                applied to it. We need this map function because it is not
+ *                possible to treat macros like functionpointers.
+ * Arguments    : object ob - the object.
+ *                object for_obj - the looking object.
+ *                int poss - return a possessive form string?
+ * Returns      : string - the macro LANG_THESHORT applied to the object.
+ */

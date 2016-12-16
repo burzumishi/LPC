@@ -1,0 +1,7 @@
+4019:/secure/master.c (/secure/master.c)
+(nomask int) query_prevent_shadow()
+/* 
+ * Function name: query_prevent_shadow
+ * Description  : This function will prevent shadowing of this object.
+ * Returns      : int 1 - always.
+ */

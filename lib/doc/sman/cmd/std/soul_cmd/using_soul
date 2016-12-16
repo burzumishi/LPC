@@ -1,0 +1,9 @@
+263:/cmd/std/soul_cmd.c (/cmd/std/soul_cmd.c)
+(public void) using_soul(object live)
+/*
+ * Function name: using_soul
+ * Description  : Called once by the living object using this soul. Adds
+ *                sublocations responsible for extra descriptions of the
+ *                living object.
+ * Arguments    : object live - the living using the soul.
+ */

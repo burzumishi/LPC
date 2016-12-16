@@ -1,0 +1,7 @@
+288:/std/herb.c (/std/herb.c)
+(int) query_find_diff()
+/*
+ * Function name: query_find_diff
+ * Description:   How hard is it to find this herb
+ * Returns: 	  The difficulty to find the herb in the nature
+ */

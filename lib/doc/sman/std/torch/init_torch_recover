@@ -1,0 +1,8 @@
+581:/std/torch.c (/std/torch.c)
+(public void) init_torch_recover(string arg)
+/*
+ * Function name: init_torch_recover
+ * Description:   Initialize the torch variables at recover.
+ * Arguments:     string arg - The recover string as recieved from
+ *			query_torch_recover()
+ */

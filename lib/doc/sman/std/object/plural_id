@@ -1,0 +1,10 @@
+307:/std/object.c (/std/object.c)
+(public int) plural_id(string str)
+/*
+ * Function name: plural_id
+ * Description  : This function can be used to see whether a certain plural
+ *                name is used by this object, i.e. whether the plural name
+ *                has been added with set_pname or add_pname.
+ * Arguments    : string str - the plural name you want to test.
+ * Returns      : int 1/0 - true if the plural name is indeed used.
+ */

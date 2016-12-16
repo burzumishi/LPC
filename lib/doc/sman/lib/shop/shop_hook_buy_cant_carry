@@ -1,0 +1,8 @@
+222:/lib/shop.c (/lib/shop.c)
+(void) shop_hook_buy_cant_carry(object ob, int err)
+/*
+ * Function name: shop_hook_buy_cant_carry
+ * Description:   Player can't carry the object he tried to buy
+ * Arguments:     ob  - The object
+ *		  err - Error code from move()
+ */

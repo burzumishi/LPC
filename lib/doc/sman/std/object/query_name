@@ -1,0 +1,8 @@
+1338:/std/object.c (/std/object.c)
+(varargs public mixed) query_name(int arg)
+/*
+ * Function name: query_name
+ * Description:   Gives the name(s) of the object.
+ * Arguments:     arg: If true then the entire list is returned.
+ * Returns:       A string or an array as described above.
+ */

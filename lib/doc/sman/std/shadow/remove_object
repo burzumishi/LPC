@@ -1,0 +1,6 @@
+52:/std/shadow.c (/std/shadow.c)
+(public void ) remove_object()
+/*
+ * Fucntion   : remove_object
+ * Description: Ensure that we remove the shadow object too
+ */

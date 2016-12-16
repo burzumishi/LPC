@@ -1,0 +1,7 @@
+1060:/std/player/savevars_sec.c (/std/player_sec.c)
+(public void) set_bit_array(int *arr)
+/*
+ * Function name:   set_bit_array
+ * Description:     Try to set the bit array. Only the ghost_player-file is
+ *                  allowed to call this function.
+ */

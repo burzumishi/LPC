@@ -1,0 +1,8 @@
+357:/lib/library.c (/lib/library.c)
+(public int) library_no_shelves_hook()
+/*
+ * Function name: library_no_shelves_hook
+ * Description:   Redefine this to alter the message given when a command
+ *                fails because no shelves exist
+ * Returns:       1/0
+ */

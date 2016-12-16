@@ -1,0 +1,15 @@
+329:/lib/pub.c (/lib/pub.c)
+(varargs void) add_food(mixed id, mixed names, mixed adj, int amount, int price,          string short, string pshort, string long, mixed dummy)
+/*
+ * Function name: add_food
+ * Description:   Add an item of food  to the menu list
+ * Arguments:     id        - An array with names to id the food when buying
+ *                names     - The names of the food
+ *                adj       - The adjectives of the food
+ *                amount    - The amount (integer)
+ *                price     - The price of the food (cost to buy)
+ *                short     - Short description of the food (if special)
+ *		  pshort    - The plural short description (if special)
+ *                long      - Long description of the food
+ *                dummy     - Obsolete, kept for backward compability
+ */

@@ -1,0 +1,6 @@
+844:/std/door.c (/std/door.c)
+(void) set_pick(int i)
+/*
+ * Function name: set_pick
+ * Description:   Set the difficulty to pick the lock, 100 impossible, 10 easy
+ */

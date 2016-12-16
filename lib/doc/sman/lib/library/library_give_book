@@ -1,0 +1,9 @@
+1042:/lib/library.c (/lib/library.c)
+(public object) library_give_book(string text_filename, string book_name)
+/*
+ * Function name: library_give_book
+ * Description:   Clone and configure a book
+ * Arguments:     string text_filename - The filename of the book file to use
+ *                string book_name     - The title of the book
+ * Returns:       A configured book
+ */

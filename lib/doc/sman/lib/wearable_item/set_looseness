@@ -1,0 +1,8 @@
+135:/lib/wearable_item.c (/lib/wearable_item.c)
+(public void) set_looseness(int l)
+/*
+ * Function name: set_looseness
+ * Description:   Indicate how loosely this item fits (i.e. how
+ *                many layers can be worn under it).
+ * Arguments:     int l - the looseness
+ */

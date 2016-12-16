@@ -1,0 +1,7 @@
+736:/std/player_sec.c (/std/player_sec.c)
+(static nomask void) try_start_location(string path)
+/*
+ * Function name: try_start_location
+ * Description  : Attempt to make the player start in a start location.
+ * Arguments    : string path - the path to try.
+ */

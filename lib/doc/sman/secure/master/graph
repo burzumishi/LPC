@@ -1,0 +1,8 @@
+270:/secure/master/notify.c (/secure/master.c)
+(int) graph(string str)
+/*
+ * Function name: graph
+ * Description  : This function will display the user graphs.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

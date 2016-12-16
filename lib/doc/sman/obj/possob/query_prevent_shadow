@@ -1,0 +1,7 @@
+237:/obj/possob.c (/obj/possob.c)
+(public nomask int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : Prevents shadowing of this object.
+ * Returns      : int 1 - always.
+ */

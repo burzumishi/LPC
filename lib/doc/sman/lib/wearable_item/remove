@@ -1,0 +1,12 @@
+575:/lib/wearable_item.c (/lib/wearable_item.c)
+(mixed) remove(object obj)
+/*
+ * Function name: remove
+ * Description  : This function might be called when someone tries to remove
+ *                this armour. To have it called, use set_wf().
+ * Arguments    : object obj - The armour to remove.
+ * Returns      : int  0 - Remove the armour normally.
+ *                     1 - Remove the armour, but print no messages.
+ *                    -1 - Do not remove the armour, print default message.
+ *                string - Do not remove the armour, use this message.
+ */

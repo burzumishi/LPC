@@ -1,0 +1,8 @@
+156:/d/Genesis/ship/captain.c (/d/Genesis/ship/captain.c)
+(public int) second_life(object killer)
+/*
+ * Function name: second_life
+ * Description:   Handles things that are particular to a dying captain
+ * Arguments:     Object that caused the death
+ * Returns:       False
+ */

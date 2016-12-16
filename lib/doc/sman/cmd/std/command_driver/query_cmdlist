@@ -1,0 +1,10 @@
+29:/cmd/std/command_driver.c (/cmd/std/command_driver.c)
+(public mapping) query_cmdlist()
+/*
+ * Function name: query_cmdlist
+ * Description  : You must redefine this function in your soul. This
+ *                function returns a mapping with the verbs and functions
+ *                that are defined in the soul. The format of the mapping
+ *                should be ([ "verb" : "function" ]).
+ * Returns      : mapping - the verb & function - mapping.
+ */

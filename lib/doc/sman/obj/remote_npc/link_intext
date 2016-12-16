@@ -1,0 +1,10 @@
+97:/obj/remote_npc.c (/obj/remote_npc.c)
+(public void) link_intext(string str)
+/*
+ * Function name: link_intext
+ * Description  : Whenever a message is printed to the NPC, it is also
+ * Description  : Whenever a message is printed to the NPC, it is also
+ *                printed to the player controlling the NPC. This function
+ *                is called from the NPC to print the message.
+ * Arguments    : string str - the message to print.
+ */

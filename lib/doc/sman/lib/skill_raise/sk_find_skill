@@ -1,0 +1,8 @@
+395:/lib/skill_raise.c (/lib/skill_raise.c)
+(public int) sk_find_skill(string skname)
+/*
+ * Function name: sk_find_skill
+ * Description:   Find the number of a skill, when we have a string
+ * Arguments:     skname: The skill name
+ * Returns:       Skill number or -1 if not found
+ */

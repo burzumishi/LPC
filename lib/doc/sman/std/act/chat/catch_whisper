@@ -1,0 +1,9 @@
+181:/std/act/chat.c (/std/act/chat.c)
+(public void) catch_whisper(string str)
+/*
+ * Function name: catch_whisper
+ * Description  : Called whenever someone whisper to this living. It does
+ *                not indicate when this living is an onlooker. Use
+ *                speech_hook for that.
+ * Arguments    : string str - the text being whispered.
+ */

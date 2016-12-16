@@ -1,0 +1,11 @@
+1732:/lib/library.c (/lib/library.c)
+(public int) library_classify_get_shelf(object who, string title, string input)
+/*
+ * Function name: library_classify_get_shelf
+ * Description:   Catch input from the user and classify a book under
+ *                the indicated shelf
+ * Arguments:     object who   - the user
+ *                string title - the book's title
+ *                string input - the shelf name
+ * Returns:       1/0 - book classified/not classified
+ */

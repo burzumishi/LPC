@@ -1,0 +1,13 @@
+168:/secure/srcman.c (/secure/srcman.c)
+(public mixed *) get_keywords(string mdir, string sdir, string keyword)
+/*
+ * Function name:   get_keywords
+ * Description:     Return all possible function names that match a 
+ *		    given keyword in one or all subdirs.
+ * Arguments:	    mdir    - The main documentation directory
+ *		    subdir  - The subdir to search in. (Optional)
+ *		    keyword - The keyword to search for.
+ * Returns:         An array containing the list of found names in each
+ *		    subdir. Each entry is on the form: 
+ *			({ "subdir", ({ "funcname", "funcname" ... }) })
+ */

@@ -1,0 +1,9 @@
+454:/std/weapon.c (/std/weapon.c)
+(void) set_pen(int class)
+/*
+ * Function name: set_pen
+ * Description  : Set penetration value of the weapon. This relates to how
+ *                badly it hurts when you are hit by this weapon.
+ *                When the lock has been set, no changes are allowed anymore.
+ * Arguments    : int class - the pen value.
+ */

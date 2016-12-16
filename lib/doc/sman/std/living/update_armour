@@ -1,0 +1,7 @@
+898:/std/living/combat.c (/std/living.c)
+(public void) update_armour(object arm)
+/*
+ * Function name: update_armour
+ * Description:   Call this function when the ac of an armour has changed
+ * Arguments:     arm - the armour
+ */

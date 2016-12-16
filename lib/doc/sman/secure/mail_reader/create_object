@@ -1,0 +1,6 @@
+238:/secure/mail_reader.c (/secure/mail_reader.c)
+(public void) create_object()
+/*
+ * Function name: create_object
+ * Description  : This function is called to create the object.
+ */

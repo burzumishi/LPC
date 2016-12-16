@@ -1,0 +1,7 @@
+45:/d/Genesis/ship/deck.c (/d/Genesis/ship/deck.c)
+(public void) set_bump_sound(string str)
+/*
+ * Function name: set_bump_sound
+ * Description:   Set what sound to be heard when ship lands on a pier
+ * Arguments:     The string to print
+ */

@@ -1,0 +1,8 @@
+51:/lib/udp/gtell.c (/lib/udp/gtell.c)
+(public int) gtell(mapping p)
+/*
+ * Function name: gtell
+ * Description:   Called when the mud receives a tell package
+ * Argument:	  p: mapping holding received information
+ * Returns:	  True if correct message form
+ */

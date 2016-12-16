@@ -1,0 +1,9 @@
+841:/std/board.c (/std/board.c)
+(private nomask void) post_note(string head, string message)
+/*
+ * Function name: post_note
+ * Description  : This function actually posts the note on the board,
+ *                stores it to disk and notifies the board master.
+ * Arguments    : string head    - the header of the note.
+ *                string message - the message body.
+ */

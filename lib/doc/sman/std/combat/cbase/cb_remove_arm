@@ -1,0 +1,7 @@
+1385:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_remove_arm(object arm)
+/*
+ * Function name: cb_remove_arm
+ * Description:   Remove an armour
+ * Arguments:     arm - The armour.
+ */

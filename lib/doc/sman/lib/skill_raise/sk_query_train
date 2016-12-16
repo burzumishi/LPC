@@ -1,0 +1,6 @@
+363:/lib/skill_raise.c (/lib/skill_raise.c)
+(public int *) sk_query_train()
+/*
+ * Function name: sk_query_train
+ * Description:   Give a list of the skills we can train here.
+ */

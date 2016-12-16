@@ -1,0 +1,9 @@
+278:/std/armour.c (/std/armour.c)
+(int) query_at()
+/*
+ * Description: Give the armour type for this armour.
+ *              Armour type is a combination of the tool slots that this
+ *              armour takes up and possibly the magic flag.
+ *              (see /sys/wa_types.h)
+ * Arguments:   hid: Hitlocation id
+ */

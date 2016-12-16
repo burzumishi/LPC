@@ -1,0 +1,10 @@
+41:/std/leftover.c (/std/leftover.c)
+(public int) add_prop_heap_s_unique_id(mixed var)
+/*
+ * Function name: add_prop_heap_s_unique_id
+ * Description  : When the HEAP_S_UNIQUE_ID property is set, use the value to
+ *                update the variables l_race and l_organ. This is necessary
+ *                when the heap is split.
+ * Arguments    : mixed var - the value added to the property.
+ * Returns      : int 0 - always allow.
+ */

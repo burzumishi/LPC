@@ -1,0 +1,9 @@
+163:/std/herb.c (/std/herb.c)
+(void) force_dry()
+/*
+ * Function name: force_dry
+ * Description:   Call this function if you want to make the herb
+ *                dry after creation. E.g. if you have some tool that
+ *                makes a herb dry. If you want to set the herb 
+ *                to dried at creation, use set_dried.
+ */

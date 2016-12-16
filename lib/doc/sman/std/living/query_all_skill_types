@@ -1,0 +1,7 @@
+1853:/std/living/savevars.c (/std/living.c)
+(public int *) query_all_skill_types()
+/*
+ * Function name:   query_all_skill_types
+ * Description:     Gives list of all current skills != 0
+ * Returns:         an array with all skill-values
+ */

@@ -1,0 +1,9 @@
+120:/secure/simul_efun.c (/secure/simul_efun.c)
+(varargs string *) get_localcmd(mixed ob = previous_object()
+/*
+ * Function name: get_localcmd
+ * Description:   Returns an array of commands (excluding soul commands)
+ *                available to an object.
+ * Arguments:     mixed ob - the object for which you want a command list
+ * Returns:       string * - an array of command names
+ */

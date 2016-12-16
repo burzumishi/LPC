@@ -1,0 +1,10 @@
+203:/cmd/live/items.c (/cmd/live/items.c)
+(public mixed) command_wield()
+/*
+ * Function name: command_wield
+ * Description  : This is a pseudo function, used to fool the document maker.
+ *                Define this in an object that can be wielded. It is by
+ *                default built into /std/weapon.c
+ * Returns      : string - an error message upon failure.
+ *                int 1  - when successfully wielded.
+ */

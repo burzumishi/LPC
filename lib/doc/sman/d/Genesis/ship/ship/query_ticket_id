@@ -1,0 +1,7 @@
+780:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public string) query_ticket_id()
+/*
+ * Function name: query_ticket_id
+ * Description	: get the id string of the ticket used to board the ship
+ * Returns	: the string id of the ticket or 0
+ */

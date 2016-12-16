@@ -1,0 +1,8 @@
+1083:/std/receptacle.c (/std/receptacle.c)
+(public nomask string) query_container_recover()
+/*
+ * Function name: query_container_recover
+ * Description  : Return the recover string with information on the status
+ *                of the container.
+ * Returns      : part of recover string
+ */

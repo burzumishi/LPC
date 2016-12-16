@@ -1,0 +1,9 @@
+57:/std/living/wear.c (/std/living.c)
+(public mixed) occupy_clothing_slots(object ob)
+/*
+ * Function name: occupy_clothing_slots
+ * Description:   Add a piece of clothing to the slots where it is worn
+ * Arguments:     The clothing being added
+ * Returns:       string - error message (clothing could not be added)
+ *                1 - success (clothing added)
+ */

@@ -1,0 +1,10 @@
+23:/secure/adjust_fob.c (/secure/adjust_fob.c)
+(static nomask int) level_to_rank(int level)
+/*
+ * Function name: level_to_rank
+ * Description  : Function converts the level number of a person to a rank
+ *                number. Note that this function uses hardcoded numbers for
+ *                the levels. Do not ever do that in normal code!
+ * Arguments    : int level - the level to convert.
+ * Returns      : int - the rank converted.
+ */

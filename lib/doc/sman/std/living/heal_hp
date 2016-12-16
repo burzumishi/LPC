@@ -1,0 +1,7 @@
+507:/std/living/savevars.c (/std/living.c)
+(void) heal_hp(int hp)
+/*
+ * Function name:   heal_hp
+ * Description:     Increase the number of hitpoints with a few.
+ * Arguments:       hp: The difference
+ */

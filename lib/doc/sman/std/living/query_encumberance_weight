@@ -1,0 +1,7 @@
+54:/std/living/carry.c (/std/living.c)
+(int) query_encumberance_weight()
+/*
+ * Function name:   query_encumberance_weight
+ * Description:     Calculate how encumbered we are in % in weight
+ * Returns:         The number in %
+ */

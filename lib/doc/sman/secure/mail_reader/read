@@ -1,0 +1,8 @@
+1296:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) read(string str)
+/*
+ * Function name: read
+ * Description  : Read mail, with more or straight.
+ * Arguments    : string str - User input
+ * Returns      : int        - 1/0 - success/failure.
+ */

@@ -1,0 +1,10 @@
+1246:/secure/master.c (/secure/master.c)
+(public int) valid_snoop(object initiator, object snooper, object snoopee)
+/*
+ * Function name: valid_snoop
+ * Description  : Checks if a user has the right to snoop another user.
+ * Arguments    : object initiator - the actor for the command.
+ *                object snooper   - the prospective snooper.
+ *                object snopee    - the prospective snoopee.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

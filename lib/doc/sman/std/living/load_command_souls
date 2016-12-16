@@ -1,0 +1,7 @@
+281:/std/living/cmdhooks.c (/std/living.c)
+(nomask public int) load_command_souls()
+/*
+ * Function name: load_command_souls
+ * Description  : Load the command souls into the player.
+ * Returns      : int 1/0 - success/failure.
+ */

@@ -1,0 +1,7 @@
+377:/std/potion.c (/std/potion.c)
+(int) query_identified()
+/*
+ * Function name: query_identified
+ * Description:   Did you identify the potion?
+ * Returns:       True if identified
+ */

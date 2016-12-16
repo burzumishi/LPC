@@ -1,0 +1,15 @@
+390:/secure/simul_efun.c (/secure/simul_efun.c)
+(varargs nomask mixed) sort_array(mixed arr, string lfunc, object obj)
+/*
+ * Function name:  	sort_array
+ * Description:		Sorts the elements of an array
+ * Arguments:		arr: The array to be sorted
+ *			lfunc: (optional) Function taking two arguments
+ *			       and returns negative value if arg1 < arg2,
+ *			       zero if arg1 == arg2 and positive if
+ *			       arg1 > arg2.
+ *			       Default: Compare arguments directly
+ *			obj: (optional) Object defining above function.
+ *			     Default: this_object()
+ *
+ */

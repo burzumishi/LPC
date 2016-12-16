@@ -1,0 +1,7 @@
+313:/lib/library.c (/lib/library.c)
+(public void) library_list_short_hook()
+/*
+ * Function name: library_list_short_hook
+ * Description:   Redefine this to alter how the short listing of books
+ *                is presented
+ */

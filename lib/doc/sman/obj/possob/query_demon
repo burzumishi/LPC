@@ -1,0 +1,7 @@
+258:/obj/possob.c (/obj/possob.c)
+(public string) query_demon()
+/*
+ * Function name: query_demon
+ * Description  : Return the name of the possessing object.
+ * Returns      : string - the name of the demon.
+ */

@@ -1,0 +1,8 @@
+364:/secure/bit_change.c (/secure/bit_change.c)
+(nomask static void) change_directory()
+/*
+ * Function name: change_directory
+ * Description  : This function loops over a certain number of files in
+ *                one directory. It uses alarms between series to prevent
+ *                eval cost problems.
+ */

@@ -1,0 +1,13 @@
+890:/std/armour.c (/std/armour.c)
+(public string) query_recover()
+/*
+ * Function name: query_recover
+ * Description  : Called to check whether this armour is recoverable.
+ *                If you have variables you want to recover yourself,
+ *                you have to redefine this function, keeping at least
+ *                the filename and the armour recovery variables, like
+ *                they are queried below.
+ *                If, for some reason, you do not want your armour to
+ *                recover, you should define the function and return 0.
+ * Returns      : string - the default recovery string.
+ */

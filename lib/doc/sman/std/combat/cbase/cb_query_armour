@@ -1,0 +1,10 @@
+1395:/std/combat/cbase.c (/std/combat/cbase.c)
+(public mixed) cb_query_armour(int which)
+/*
+ * Function name: cb_query_armour
+ * Description:   Returns the armour(s) protecting a given position.
+ *                A list of all if argument -1 is given.
+ * Arguments:     which: A numeric label describing an armour
+ *                       location. On humanoids this is TS_HEAD etc.
+ * Returns:       The corresponding armour(s)
+ */

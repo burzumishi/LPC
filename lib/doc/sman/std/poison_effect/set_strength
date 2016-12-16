@@ -1,0 +1,8 @@
+170:/std/poison_effect.c (/std/poison_effect.c)
+(public void ) set_strength(int s)
+/*
+ * Function name: set_strength
+ * Description  : This sets the strength of the poison to overcome player
+ *                resistance. This strength must be in the range 1 - 100.
+ * Arguments    : int s - The strength of the poison.
+ */

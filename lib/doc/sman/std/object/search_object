@@ -1,0 +1,7 @@
+2463:/std/object.c (/std/object.c)
+(void) search_object(string str)
+/*
+ * Function name: search_object
+ * Description:   Someone tries to search this object
+ * Arguments:     str - The string searched
+ */

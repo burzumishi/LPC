@@ -1,0 +1,13 @@
+203:/secure/master/fob.c (/secure/master.c)
+(int) set_domain_short(string dname, string sname)
+/*
+ * Function name: set_domain_short
+ * Description  : Set the short name of a domain. The short name is an
+ *                appropriate abbreviation of exactly three characters of
+ *                the domain-name. This function may only be called from
+ *                the Lord soul, so we do not have to make additional
+ *                checks.
+ * Arguments    : string dname - the name of the domain (capitalized).
+ *                string sname - the short name of the domain (lower case).
+ * Returns      : int 1/0 - success/failure.
+ */

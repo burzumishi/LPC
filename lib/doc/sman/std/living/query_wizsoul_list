@@ -1,0 +1,7 @@
+233:/std/living/cmdhooks.c (/std/living.c)
+(nomask public string *) query_wizsoul_list()
+/*
+ * Function name: query_wizsoul_list
+ * Description  : Give back the array with filenames of wizard souls.
+ * Returns      : string * - the wizard soul list.
+ */

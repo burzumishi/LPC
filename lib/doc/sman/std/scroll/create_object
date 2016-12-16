@@ -1,0 +1,7 @@
+57:/std/scroll.c (/std/scroll.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Create the object. You must define the function
+ *                create_scroll() to define the scroll.
+ */

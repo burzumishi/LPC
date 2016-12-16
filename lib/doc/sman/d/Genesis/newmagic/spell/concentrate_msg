@@ -1,0 +1,9 @@
+1102:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) concentrate_msg(object caster, object *targets, string arg)
+/*
+ * Function name: concentrate_msg
+ * Description:   Give messages indicating that spell concentration has begun
+ * Arguments:     1. (object)   The caster
+ *                2. (object *) The targets
+ *                3. (string)   The arguments passed to the "cast" command
+ */

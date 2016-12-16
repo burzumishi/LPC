@@ -1,0 +1,7 @@
+1646:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) unstar(int *mark_arr)
+/*
+ * Function name: unstar
+ * Description  : Unmarks one or more messages as special.
+ * Arguments    : int * mark_arr - the numbers of the messages to unmark.
+ */

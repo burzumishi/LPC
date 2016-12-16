@@ -1,0 +1,9 @@
+190:/obj/remote_npc.c (/obj/remote_npc.c)
+(static int) posstoggle(string str)
+/*
+ * Function name: posstoggle
+ * Description  : This function is called when the wizard wants to toggle
+ *                the control on or off.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

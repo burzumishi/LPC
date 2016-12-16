@@ -1,0 +1,12 @@
+1234:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public int) query_spell_mess(object caster, object *targets, string arg)
+/*
+ * Function name: query_spell_mess
+ * Description:   Inidicate whether we want the standard concentration
+ *                messages or not.
+ * Arguments:     1. (object)   The caster
+ *                2. (object *) The targets
+ *                3. (string)   The arguments passed to the "cast" command
+ * Returns:       1 - Do not use default messages
+ *                0 - Use default messages.
+ */

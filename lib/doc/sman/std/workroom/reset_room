@@ -1,0 +1,6 @@
+59:/std/workroom.c (/std/workroom.c)
+(nomask void) reset_room()
+/*
+ * Function name: reset_room
+ * Description  : Called to make the room reset from time to time.
+ */

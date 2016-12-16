@@ -1,0 +1,11 @@
+1165:/secure/simul_efun.c (/secure/simul_efun.c)
+(static mixed ) compose_util(function f, function g, mixed x)
+/*
+ * Function name: composite_util
+ * Description  : Returns the composition of function f applied to the result
+ *                of function g applied on variable x.
+ * Arguments    : function f - the outer function in the composition.
+ *                function g - the inner function in the composition.
+ *                mixed x    - the argument to perform the functions on.
+ * Returns      : mixed - the result of the composition.
+ */

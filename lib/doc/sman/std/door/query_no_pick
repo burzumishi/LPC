@@ -1,0 +1,6 @@
+837:/std/door.c (/std/door.c)
+(int) query_no_pick()
+/*
+ * Function name: query_no_pick
+ * Description:	  Return 1 if door not pickable
+ */

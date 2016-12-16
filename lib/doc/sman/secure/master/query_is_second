@@ -1,0 +1,10 @@
+69:/secure/master/player.c (/secure/master.c)
+(public int) query_is_second(string first, string second)
+/*
+ * Function name: query_is_second
+ * Description  : Find out whether two players are seconds. Note that the
+ *                order of the arguments is irrelevant.
+ * Arguments    : string first - the lower case name of the first player.
+ *                string second - the lower case name of the second player.
+ * Returns      : int 1/0 - if true, they are seconds.
+ */

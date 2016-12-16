@@ -1,0 +1,6 @@
+207:/std/spells.c (/std/spells.c)
+(varargs void) leave_env(object old, object dest)
+/*
+ * Function name: leave_env
+ * Description:   Remove the object from the list of spell objects
+ */

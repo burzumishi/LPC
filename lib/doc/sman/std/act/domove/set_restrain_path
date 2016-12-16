@@ -1,0 +1,15 @@
+97:/std/act/domove.c (/std/act/domove.c)
+(void) set_restrain_path(mixed path)
+/*
+ * Function name:   set_restrain_path
+ * Description:     Set the path that delimits the exits the monster will
+ * Description:     Set the path that delimits the exits the monster will
+ *                  choose. Exits of rooms that begin with the pathname
+ *                  are elegible as random walking exits. The others are
+ *                  not considered. If a monster gets stuck this way, it
+ *                  will teleport home, which is a room that can be set
+ *                  with set_monster_home().
+ * Arguments:       path: Either a path or an array of paths that form the
+ *                        begin of legal room names.
+ * See also:        set_monster_home(), query_restrain_path()
+ */

@@ -1,0 +1,11 @@
+1416:/lib/library.c (/lib/library.c)
+(public int) library_write_get_summary(object who, string title, string input)
+/*
+ * Function name: library_write_get_summary
+ * Description:   Catch input from the user to be used as the new
+ *                book's summary
+ * Arguments:     object who   - the user
+ *                string title - the new book's title
+ *                string input - the user's input
+ * Returns:       1/0 - summary set/not set
+ */

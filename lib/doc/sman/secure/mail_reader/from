@@ -1,0 +1,8 @@
+985:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) from(string str)
+/*
+ * Function name: from
+ * Description  : Show the headers of all messages.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int        - 1/0 - success/failure
+ */

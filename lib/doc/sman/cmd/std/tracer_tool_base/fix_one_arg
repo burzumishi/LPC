@@ -1,0 +1,10 @@
+243:/cmd/std/tracer_tool_base.c (/cmd/std/tracer_tool_base.c)
+(mixed) fix_one_arg(string what)
+/*
+ * Function name: fix_one_arg
+ * Description  : The individual arguments found in parse_arg are checked
+ *                with this function to catch all arrays and to distinct
+ *                between string or integer
+ * Arguments    : what  - the argument to parse
+ * Returns      : mixed - either an integer or a string
+ */

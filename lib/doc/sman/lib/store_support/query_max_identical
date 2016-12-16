@@ -1,0 +1,9 @@
+96:/lib/store_support.c (/lib/store_support.c)
+(int) query_max_identical()
+/*
+ * Function name: query_max_identical
+ * Description  : Query the maximum number of identical items allowed in this
+ *                store.
+ *                store.
+ * Returns      : int - the number.
+ */

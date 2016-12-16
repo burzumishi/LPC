@@ -1,0 +1,8 @@
+186:/std/herb.c (/std/herb.c)
+(void) set_dried()
+/*
+ * Function name: set_dried
+ * Description:   Set the herb to dried. Use this function in
+ *                create_herb. If you want to make the herb dry
+ *                after creation, use force_dry.
+ */

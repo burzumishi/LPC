@@ -1,0 +1,7 @@
+83:/std/scroll.c (/std/scroll.c)
+(nomask void) reset_object()
+/*
+ * Function name: reset_object
+ * Description  : Reset the scroll. You may not mask this function so you
+ *                have to define the function reset_scroll in your scroll.
+ */

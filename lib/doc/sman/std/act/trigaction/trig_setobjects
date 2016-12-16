@@ -1,0 +1,5 @@
+222:/std/act/trigaction.c (/std/act/trigaction.c)
+(void) trig_setobjects(object *obs)
+/*
+ *  Description: Set the objects to trig on when pattern includes %i/%l
+ */

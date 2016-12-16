@@ -1,0 +1,6 @@
+80:/lib/bank.c (/lib/bank.c)
+(void) bank_init()
+/*
+ * Function name: bank_init
+ * Description:   Add commands to someone who enters the room
+ */

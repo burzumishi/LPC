@@ -1,0 +1,8 @@
+325:/std/living/move.c (/std/living.c)
+(public nomask int) reveal_me(int tellme)
+/*
+ * Function name: reveal_me
+ * Description  : Reveal me unintentionally.
+ * Arguments    : int tellme - true if we should tell the player.
+ * Returns      : int - 1 : He was hidden, 0: He was already visible.
+ */

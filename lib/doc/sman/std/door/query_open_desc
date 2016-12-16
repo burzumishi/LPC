@@ -1,0 +1,6 @@
+923:/std/door.c (/std/door.c)
+(string) query_open_desc()
+/*
+ * Function name: query_open_desc
+ * Description:   Query the open description of the door
+ */

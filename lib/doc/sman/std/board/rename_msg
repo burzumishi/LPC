@@ -1,0 +1,9 @@
+1156:/std/board.c (/std/board.c)
+(public nomask int) rename_msg(string str)
+/*
+ * Function name: rename_msg
+ * Description  : With this command, the wizard who wrote a note on his
+ *                'own' board can rename the note to another players name.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

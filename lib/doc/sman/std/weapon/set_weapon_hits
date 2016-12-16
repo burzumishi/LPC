@@ -1,0 +1,10 @@
+948:/std/weapon.c (/std/weapon.c)
+(public void) set_weapon_hits(int new_hits)
+/*
+ * Function name: set_weapon_hits
+ * Description:   By setting the hits counter you will have influence over how
+ *                likely the weapon is to get in a worse condition. The hits
+ *                variable keeps track of how many times this piece of weapon
+ *                has hit something.
+ * Argument:      int new_hits
+ */

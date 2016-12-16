@@ -1,0 +1,8 @@
+165:/std/drink.c (/std/food.c)
+(public mixed) command_drink()
+/*
+ * Function name: command_drink
+ * Description:   drink this drink
+ * Returns:       string - an error message (failure)
+ *                1 - drink successfully imbibed
+ */

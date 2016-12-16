@@ -1,0 +1,13 @@
+550:/std/armour.c (/std/armour.c)
+(void) set_af(object obj)
+/*
+ * Sets the object to call wear/remove in when this occurs.
+ * Those functions can return:
+ *              0 - No affect the armour can be worn / removed
+ *              1 - It can be worn / removed but no text should be printed
+ *                  (it was done in the function)
+ *              -1  It can not be worn / removed default failmsg will be 
+ *                  written
+ *             string  It can not be worn / removed 'string' is the 
+ *                     fail message to print
+ */

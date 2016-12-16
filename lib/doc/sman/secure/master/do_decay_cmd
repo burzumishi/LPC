@@ -1,0 +1,8 @@
+1592:/secure/master/fob.c (/secure/master.c)
+(int) do_decay_cmd(int count)
+/*
+ * Function name: do_decay_cmd
+ * Description  : This decay function will take 1% off the argument value.
+ * Arguments    : int count - the value to decay.
+ * Returns      : int - the same value minus one per cent.
+ */

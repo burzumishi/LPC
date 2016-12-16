@@ -1,0 +1,9 @@
+3621:/secure/master.c (/secure/master.c)
+(public void) cancel_shutdown()
+/*
+ * Function name: calcel_shutdown
+ * Description  : When the wizard has second thoughts and does not want
+ *                to shut the game down after all, this function is
+ *                called. The function should be called from
+ *                WIZ_CMD_NORMAL.
+ */

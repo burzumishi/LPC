@@ -1,0 +1,8 @@
+131:/std/living/description.c (/std/living.c)
+(public string) query_met_name()
+/*
+ * Function name:   query_met_name
+ * Description:     Returns the name of this living, or "ghost of name" if
+ *                  this living is not quite so living. E.g.: "Fatty".
+ * Returns:         The name
+ */

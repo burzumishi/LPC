@@ -1,0 +1,7 @@
+693:/std/living/combat.c (/std/living.c)
+(public void) attack_object(object ob)
+/*
+ * Function name:   attack_object
+ * Description:     Start attacking, the actual attack is done in heart_beat
+ * Arguments:       The object to attack
+ */

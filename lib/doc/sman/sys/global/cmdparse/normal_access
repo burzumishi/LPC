@@ -1,0 +1,6 @@
+112:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(varargs mixed *) normal_access(mixed *arr, string acsfunc, object acsobj, int include_invis)
+/*
+ * Function name: normal_access
+ * Description  : See visible_access(), but with normflag = 1 set.
+ */

@@ -1,0 +1,16 @@
+1272:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public varargs int) do_spell_setup(object caster, object *targets, string arg)
+/* 
+ * Function name: do_spell_setup
+ * Description:   This initiates the spell's configuration routines
+ * Arguments:     1. (object)   The caster
+ *                2. (object *) The targets
+ *                3. (string)   The arguments passed to the "cast" command
+ * Returns:       0 - Configuration successful.
+ *                1 - Configuration not successful.  Casting aborted.
+ *
+ * NOTE:          do_spell_setup(0) is called to configure the spell when
+ *                certain general information is required.  This indicates
+ *                that the spell is not being configured for a casting
+ *                attempt, and therefore should not return 1.
+ */

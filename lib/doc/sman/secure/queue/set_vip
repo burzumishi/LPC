@@ -1,0 +1,9 @@
+337:/secure/queue.c (/secure/queue.c)
+(public int) set_vip(string v)
+/*
+ * Function name: set_vip
+ * Description  : Give VIP access until the game reboots. The function
+ *                requires arch privileges.
+ * Arguments    : string v - the [lowcase] name of the player to give access.
+ * Returns      : int 1/0 - true if the vip-access was granted.
+ */

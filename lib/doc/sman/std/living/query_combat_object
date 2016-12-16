@@ -1,0 +1,8 @@
+53:/std/living/combat.c (/std/living.c)
+(public object) query_combat_object()
+/*
+ * Function name:   query_combat_object
+ * Description:     Gives the object that is currently acting as external
+ *                  combat object
+ * Returns:         the combat object
+ */

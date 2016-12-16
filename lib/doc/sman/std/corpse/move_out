@@ -1,0 +1,8 @@
+293:/std/corpse.c (/std/corpse.c)
+(static int) move_out(object ob)
+/*
+ * Function name: move_out
+ * Description  : Filter function to move all inventory out of the object.
+ * Arguments    : object ob - the object to move out.
+ * Returns      : int 1/0 - if true, the object was moved out.
+ */

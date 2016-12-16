@@ -1,0 +1,9 @@
+846:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(static int) query_casting_success(object caster)
+/*
+ * Function name: query_casting_success
+ * Description:   Determine if a spell is successfully cast
+ * Returns:       The result as an integer indicating success or
+ *                failure (0 indicating failure, positive integer
+                  indicating % success, possibly > 100)
+ */

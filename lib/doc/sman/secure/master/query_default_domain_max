@@ -1,0 +1,7 @@
+326:/secure/master/fob.c (/secure/master.c)
+(int) query_default_domain_max()
+/*
+ * Function name: query_default_domain_max
+ * Description  : Get the default maximum number of members in a domain.
+ * Returns      : int - the value defined in DOMAIN_MAX.
+ */

@@ -1,0 +1,10 @@
+1504:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask void) new_note(string save_path, string last_note, string room_path)
+/*
+ * Function name: new_note
+ * Description:	  This function is called from the board when a new note
+ *		  is added to a board and the board is reporting 
+ * Arguments:	  save_path - The place where the board stores notes
+ *		  last_note - The name of the new note
+ *		  room_path - The path to the room of the board
+ */

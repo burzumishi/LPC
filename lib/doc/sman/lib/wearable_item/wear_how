@@ -1,0 +1,7 @@
+189:/lib/wearable_item.c (/lib/wearable_item.c)
+(public string) wear_how(int location)
+/*
+ * Function name: wear_how
+ * Description:   Generate the string that is shown when the armour is worn
+ * Arguments:     location: the location(s) covered by the armour
+ */

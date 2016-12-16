@@ -1,0 +1,9 @@
+131:/std/paralyze.c (/std/paralyze.c)
+(int) dispel_magic(int i)
+/*
+ * Function name: dispel_magic
+ * Description  : If this paralyze should be able to lift magical, define this
+ *		  function.
+ * Arguments    : int i   - a number indicating how strong the dispel spell is.
+ * Returns      : int 1/0 - 1 if dispelled; otherwise 0.
+ */

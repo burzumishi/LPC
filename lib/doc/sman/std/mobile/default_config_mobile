@@ -1,0 +1,6 @@
+139:/std/mobile.c (/std/mobile.c)
+(varargs void) default_config_mobile(int lvl)
+/*
+ * Function name:  default_config_mobile
+ * Description:    Sets all neccessary values for this mobile to function
+ */

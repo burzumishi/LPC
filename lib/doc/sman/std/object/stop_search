@@ -1,0 +1,11 @@
+2496:/std/object.c (/std/object.c)
+(varargs int) stop_search(mixed arg)
+/*
+ * Function name: stop_search
+ * Description:   This function is called if the player decides to stop his
+ *                search.
+ * Arguments:     arg - If string extra string when player made a command
+ *                if object, the time ran out on the paralyze.
+ * Returns:       If this function should not allow the player to stop search
+ *                it shall return 1.
+ */

@@ -1,0 +1,10 @@
+863:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) test_domain_bit(string domain, int bit)
+/*
+ * Function name: test_domain_bit
+ * Description  : Find out whether a certain bit for a certain domain is
+ *                set. If
+ * Arguments    : string domain - the domain to verify (capitalized name).
+ *                int bit - the bit to test (range 0..149).
+ * Returns      : int 1/0 - if true, the bit is set.
+ */

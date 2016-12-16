@@ -1,0 +1,8 @@
+470:/std/corpse.c (/std/corpse.c)
+(string) query_race()
+/*
+ * Function name: query_race
+ * Description  : Find out the race of this corpse. It's in the property
+ *                CORPSE_S_RACE as well.
+ * Returns      : string - the race.
+ */

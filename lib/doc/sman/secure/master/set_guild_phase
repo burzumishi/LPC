@@ -1,0 +1,11 @@
+174:/secure/master/guild.c (/secure/master.c)
+(static void) set_guild_phase(string short_name, string phase)
+/*
+ * Function name: set_guild_phase
+ * Description  : This will set the phase for a guild that already exists.
+ *                That it exists is not checked here, so that must be done
+ *                prior to calling this function.
+ * Arguments    : string short_name - the short name of the guild. Must be
+ *                    lower case since it is an internal call.
+ *                string phase - the phase of the guild.
+ */

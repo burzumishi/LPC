@@ -1,0 +1,7 @@
+1465:/std/living/savevars.c (/std/living.c)
+(public int) query_stuffed()
+/*
+ * Function name:   query_stuffed
+ * Description:     Gives the level of stuffedness of a living.
+ * Returns:         The level of stuffedness.
+ */

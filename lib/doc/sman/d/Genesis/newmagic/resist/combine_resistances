@@ -1,0 +1,13 @@
+18:/d/Genesis/newmagic/resist.c (/d/Genesis/newmagic/spell.c)
+(public int) combine_resistances(object target, string *resistances)
+/*
+ * Function name: combine_resistances
+ * Description:   Sometimes spells are resisted by more than
+ *                one type of resistance (typically MAGIC_I_RES_MAGIC and
+ *                MAGIC_I_RES_<element>).  This function returns a composite
+ *                resistance value for a target, given a list of resistance
+ *                types to check.
+ * Arguments:     object target - the object to check for resistance
+ *                string resistances - the resistance types to check
+ * Returns:       The total resistance
+ */

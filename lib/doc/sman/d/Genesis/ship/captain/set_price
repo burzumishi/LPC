@@ -1,0 +1,6 @@
+65:/d/Genesis/ship/captain.c (/d/Genesis/ship/captain.c)
+(public void) set_price(int i)
+/*
+ * Function name: set_price
+ * Description:   Set the price of the ticket
+ */

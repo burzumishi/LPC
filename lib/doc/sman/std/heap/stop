@@ -1,0 +1,9 @@
+617:/std/heap.c (/std/heap.c)
+(varargs int) stop(string str)
+/*
+ * Function name: stop
+ * Description  : Function called when player gives 'stop' command while
+ *                counting the heap.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0.
+ */

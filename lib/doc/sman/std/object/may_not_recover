@@ -1,0 +1,7 @@
+2271:/std/object.c (/std/object.c)
+(nomask int) may_not_recover()
+/*
+ * Function name: may_not_recover
+ * Description  : This function will be true if the weapon may not recover.
+ * Returns      : int - 1 - no recovery, 0 - recovery.
+ */

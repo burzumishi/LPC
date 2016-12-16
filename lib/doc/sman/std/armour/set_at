@@ -1,0 +1,6 @@
+268:/std/armour.c (/std/armour.c)
+(void) set_at(int type)
+/*
+ * Function name: set_at
+ * Description:   Set armour type
+ */

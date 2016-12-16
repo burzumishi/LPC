@@ -1,0 +1,12 @@
+1955:/secure/master.c (/secure/master.c)
+(string) modify_command(string cmd, object ob)
+/*
+ * Function name: modify_command
+ * Description  : Modify a command given by a certain living object. This can
+ *                be used for many quicktyper-like functions. There are also
+ *                some master.c defined substitutions. Commands that start
+ *                with a dollar ($) are not substututed.
+ * Arguments    : string cmd - the command to modify.
+ *                object ob - the object for which to modify the command.
+ * Returns      : string - the modified command to execute.
+ */

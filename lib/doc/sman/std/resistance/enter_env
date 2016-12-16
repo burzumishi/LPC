@@ -1,0 +1,8 @@
+50:/std/resistance.c (/std/resistance.c)
+(void) enter_env(object to, object from)
+/*
+ * Function name: enter_env
+ * Description:   Called each time this object enters another environment
+ * Arguments:     to   - The object this object enters
+ *		  from - The object this object leaves
+ */

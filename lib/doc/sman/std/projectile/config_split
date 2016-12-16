@@ -1,0 +1,9 @@
+167:/std/projectile.c (/std/projectile.c)
+(void) config_split(int new_num, object orig)
+/*
+ * Function name: config_split
+ * Description  : Copies the internal state of this projectile when it is
+ *                split from a heap.
+ * Arguments    : int new_num - the number of coins in this new heap.
+ *                object orig - the heap we are split from.
+ */

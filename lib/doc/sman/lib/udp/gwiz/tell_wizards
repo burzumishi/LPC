@@ -1,0 +1,5 @@
+105:/lib/udp/gwiz.c (/lib/udp/gwiz.c)
+(void ) tell_wizards(string smsg)
+/*
+ * Loop through and tell wizards the received message
+ */

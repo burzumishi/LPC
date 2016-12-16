@@ -1,0 +1,14 @@
+682:/std/receptacle.c (/std/receptacle.c)
+(public void) set_cf(object obj)
+/*
+ * Function name: set_cf
+ * Description  : Allows you to specify an object that holds code that is
+ *                called before you try to open a specific object. This code
+ *                will be called with:
+ *                  open() and
+ *                  close()
+ *                These functions should return 1 if it is not possible to
+ *                open/close the container and 0 if it is oke to manipulate
+ *                it.
+ * Arguments    : object obj - the object specifying the code.
+ */

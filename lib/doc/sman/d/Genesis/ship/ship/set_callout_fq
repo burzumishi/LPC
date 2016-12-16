@@ -1,0 +1,8 @@
+513:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_callout_fq(int x)
+/*
+ * Function name: set_callout_fq
+ * Description	: Set up alarm frequency. This is used to decide how
+ *		  fast the ship moves
+ * Arguments	: x - number of seconds between alarms
+ */

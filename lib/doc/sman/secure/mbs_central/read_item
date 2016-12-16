@@ -1,0 +1,10 @@
+1301:/secure/mbs_central.c (/secure/mbs_central.c)
+(nomask public mixed) read_item(string board, int item, int mread)
+/*
+ * Function name: read_item
+ * Description:	  Read an item on a board
+ * Arguments:	  board - the board to read
+ *		  item - the item to read
+ *		  mread - mread or not	
+ * Returns:	  ({ Error code, if any, "timestamp" })
+ */

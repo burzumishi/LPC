@@ -1,0 +1,9 @@
+71:/std/living/cmdhooks.c (/std/living.c)
+(public varargs int) acommunicate(string str)
+/*
+ * Function name: acommunicate
+ * Description  : This function is called whenever the player wants to say
+ *                something using the shortcut a' as alias for asay.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

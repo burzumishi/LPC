@@ -1,0 +1,7 @@
+142:/std/herb.c (/std/herb.c)
+(int) query_decay_time()
+/*
+ * Function name: query_decay_time
+ * Description:   How long time does it take for the herb to decay?
+ * Returns:	  The time in seconds
+ */

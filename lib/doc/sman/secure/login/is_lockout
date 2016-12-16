@@ -1,0 +1,12 @@
+206:/secure/login.c (/secure/login.c)
+(int) is_lockout(string pl_name)
+/*
+ * Function name: is_lockout
+ * Description  : This function determines if the game is open to players
+ *                now. The mud will be open to wizards and their test
+ *                characters above the LOCKOUT_LEVEL.
+ * Arguments    : string pl_name - The name of the player attempting to
+ *                                 enter the game.
+ * Returns      : int - True if the mud is closed to this player, false
+ *                      otherwise.
+ */

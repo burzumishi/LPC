@@ -1,0 +1,7 @@
+43:/obj/remote_npc.c (/obj/remote_npc.c)
+(public string) long_func()
+/*
+ * Function name: long_func
+ * Description  : Return the long description of this object.
+ * Returns      : string - the long description.
+ */

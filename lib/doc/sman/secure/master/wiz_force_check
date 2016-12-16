@@ -1,0 +1,9 @@
+3682:/secure/master.c (/secure/master.c)
+(int) wiz_force_check(string forcer, string forced)
+/*
+ * Function name: wiz_force_check
+ * Description:   Checks if one wizard is allowed to force another
+ * Arguments:     forcer: Name of wizard trying to force
+ *                forced: Name of wizard being forced
+ * Returns:       True if ok
+ */

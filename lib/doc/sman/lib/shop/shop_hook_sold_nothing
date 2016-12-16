@@ -1,0 +1,7 @@
+83:/lib/shop.c (/lib/shop.c)
+(int) shop_hook_sold_nothing()
+/*
+ * Function name: shop_hook_sold_nothing
+ * Description:   Function called if player sold nothing with sell all
+ * Returns:	  0
+ */

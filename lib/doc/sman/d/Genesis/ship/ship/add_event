@@ -1,0 +1,7 @@
+599:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) add_event(mixed *x)
+/*
+ * Function name: add_event
+ * Description	:
+ * Arguments	:
+ */

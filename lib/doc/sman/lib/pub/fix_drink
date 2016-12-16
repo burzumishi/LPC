@@ -1,0 +1,8 @@
+32:/lib/pub.c (/lib/pub.c)
+(object) fix_drink(mixed data)
+/*
+ * Function name: fix_drink
+ * Description:   Set up a drink and return the object
+ * Arguments:	  data - The drink data from drinks arrayen
+ * Returns:	  The configured drink object
+ */

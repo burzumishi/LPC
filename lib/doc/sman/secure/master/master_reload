@@ -1,0 +1,6 @@
+2420:/secure/master.c (/secure/master.c)
+(void) master_reload()
+/*
+ * Function name:   master_reload
+ * Description:     Called from GD after a reload of the master object
+ */

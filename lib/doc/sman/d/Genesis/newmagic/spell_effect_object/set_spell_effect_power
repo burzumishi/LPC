@@ -1,0 +1,10 @@
+107:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public void) set_spell_effect_power(int power)
+/*
+ * Function name: set_spell_effect_power
+ * Description:   Set the "power" of the spell effect.  This is
+ *                essentially how difficult the spell effect is
+ *                to dispel, and should be a value 0 - 100, higher
+ *                values being harder to dispel.
+ * Arguments:     int power - the power of the effect
+ */

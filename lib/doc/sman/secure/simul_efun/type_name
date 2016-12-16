@@ -1,0 +1,9 @@
+969:/secure/simul_efun.c (/secure/simul_efun.c)
+(static string ) type_name(mixed etwas)
+/*
+ * Function name: type_name
+ * Description  : This function will return the type of a variable in string
+ *                form.
+ * Arguments    : mixed etwas - the variable to type.
+ * Returns      : string - the name of the type.
+ */

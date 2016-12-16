@@ -1,0 +1,8 @@
+8:/std/living/tool.c (/std/living.c)
+(static nomask int) clear_tool_slots(object tool)
+/*
+ * Function name: clear_tool_slots
+ * Description:   remove all tool slots occupied by the given object
+ * Arguments:     the object to look for
+ * Returns:       1/0 - slots removed/no slots removed
+ */

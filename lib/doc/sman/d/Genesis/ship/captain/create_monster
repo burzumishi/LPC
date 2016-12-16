@@ -1,0 +1,6 @@
+18:/d/Genesis/ship/captain.c (/d/Genesis/ship/captain.c)
+(void) create_monster()
+/*
+ * Function name: create_monster
+ * Description:   The standard create rutine
+ */

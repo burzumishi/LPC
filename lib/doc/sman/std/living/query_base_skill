@@ -1,0 +1,10 @@
+1821:/std/living/savevars.c (/std/living.c)
+(nomask int) query_base_skill(int skill)
+/*
+ * Function name:   query_base_skill
+ * Description:     Gives the value of a specific skill. If there is need to
+ *                  know the true skill of the player call this since it is
+ *                  unshadowable.
+ * Arguments:       skill: The number of the skill to check
+ * Returns:         The true value of the skill
+ */

@@ -1,0 +1,7 @@
+2738:/secure/mail_reader.c (/secure/mail_reader.c)
+(public void) invalidate()
+/*
+ * Function name: invalidate
+ * Description  : Allows other mailreaders to warn this one that it has
+ *                to reload the messages, since there is new mail.
+ */

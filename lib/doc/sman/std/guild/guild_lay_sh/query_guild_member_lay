@@ -1,0 +1,7 @@
+152:/std/guild/guild_lay_sh.c (/std/guild/guild_lay_sh.c)
+(public nomask int) query_guild_member_lay()
+/*
+ * Function name: query_guild_member_lay
+ * Description:   This is an layman guild
+ * Returns:	  1
+ */

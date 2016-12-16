@@ -1,0 +1,8 @@
+291:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_element(int element, int skill)
+/*
+ * Function name: set_spell_element
+ * Description:   Set the element type and the minimum of skill needed.
+ * Arguments:     1. (int) The element type, as found in /sys/ss_types.h
+ *                2. (int) The value in skill needed for the spell.
+ */

@@ -1,0 +1,8 @@
+1293:/lib/library.c (/lib/library.c)
+(public int) library_list(string str)
+/* 
+ * Function name: library_list
+ * Description:   The "list" command
+ * Arguments:     string str - arguments given to the "list" command
+ * Returns:       1/0 - syntax success/failure
+ */

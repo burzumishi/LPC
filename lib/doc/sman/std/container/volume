@@ -1,0 +1,9 @@
+203:/std/container.c (/std/container.c)
+(public nomask int) volume()
+/*
+ * Function name: volume
+ * Description:   Returns the volume of the container. How much volume it
+ *                currently takes up, a nonrigid sack accumulates this.
+ *                This function is called from query_prop() only.
+ * Returns:       Volume value
+ */

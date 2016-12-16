@@ -1,0 +1,10 @@
+71:/secure/editor.c (/secure/editor.c)
+(nomask public int) board_write(string filename, string text)
+/*
+ * Function name: board_write
+ * Description  : This function can be called from a board when a wizard
+ *                wants to store a message from a board in a file.
+ * Arguments    : string filename - the file to store the text in.
+ *                string text     - the text to store.
+ * Returns      : int 1/0 - success/failure.
+ */

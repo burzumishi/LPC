@@ -1,0 +1,8 @@
+77:/std/herb.c (/std/herb.c)
+(public string *) parse_command_id_list()
+/*
+ * Function Name: parse_command_id_list
+ * Description  : Used by parse_command to find the names of this
+ *                item.
+ * Returns      : An array of the names this herb can be references with.
+ */

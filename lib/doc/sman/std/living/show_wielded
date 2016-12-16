@@ -1,0 +1,8 @@
+21:/std/living/wield.c (/std/living.c)
+(public string) show_wielded(object for_obj)
+/*
+ * Function name: show_wielded
+ * Description:   Display the items that are worn
+ * Arguments:     object for_obj - the onlooker
+ * Returns:       A string describing the worn items
+ */

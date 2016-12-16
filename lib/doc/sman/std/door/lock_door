@@ -1,0 +1,7 @@
+559:/std/door.c (/std/door.c)
+(int) lock_door(string arg)
+/*
+ * Function name: lock_door
+ * Description:   Lock the door.
+ * Arguments:	  arg - arguments given
+ */

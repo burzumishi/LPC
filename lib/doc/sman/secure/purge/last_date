@@ -1,0 +1,9 @@
+129:/secure/purge.c (/secure/purge.c)
+(static nomask string) last_date(int last_time)
+/*
+ * Function name: last_date
+ * Description  : Returns the date the player was last logged in. It only
+ *                returns month, day and year.
+ * Arguments    : int    - the time.
+ * Returns      : string - the time.
+ */

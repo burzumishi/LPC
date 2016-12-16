@@ -1,0 +1,9 @@
+282:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) add_board(string *data)
+/*
+ * Function name: add_board
+ * Description:	  Add a board to the list of boards
+ * Arguments:	  data - data about the board: 
+ *			 ({ 'name', 'category', 'dirpath', 'description' })
+ * Returns:	  Error code, if any
+ */

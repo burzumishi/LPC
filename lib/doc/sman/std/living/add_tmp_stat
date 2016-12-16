@@ -1,0 +1,11 @@
+188:/std/living/stats.c (/std/living.c)
+(public int) add_tmp_stat(int stat, int ds, int dt)
+/*
+ * Function name: add_tmp_stat
+ * Description:   add a temporary stat.
+ * Arguments:     stat - which stat
+ *                ds - change in stat
+ *                dt - How many F_INTERVAL_BETWEEN_HP_HEALING intervals
+ *                     to keep the change.
+ * Returns:       1 - Ok, 0 - Change rejected.
+ */

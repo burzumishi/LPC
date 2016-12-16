@@ -1,0 +1,12 @@
+211:/std/living.c (/std/living.c)
+(public void ) catch_vbfc(mixed str, object from_player = 0)
+/*
+ * Function name: catch_vbfc
+ * Description  : This function is called for every normal message sent
+ *                to this living. This used to be called catch_msg().
+ * Arguments    : mixed str - the message to tell the player. The message
+ *                    can be a string or an array in the form
+ *                    ({ "met message", "unmet message", "unseen message" })
+ *                object from_player - the originator of the message in case
+ *                    the message is in array form.
+ */

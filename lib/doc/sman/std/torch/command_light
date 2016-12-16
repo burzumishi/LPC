@@ -1,0 +1,8 @@
+380:/std/torch.c (/std/torch.c)
+(public mixed) command_light()
+/*
+ * Function name: command_light
+ * Description:   light this torch
+ * Returns:       string - an error message (failure)
+ *                1 - torch successfully lit
+ */

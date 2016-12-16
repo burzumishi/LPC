@@ -1,0 +1,12 @@
+2015:/std/living/savevars.c (/std/living.c)
+(nomask public int) add_toolsoul(string soul)
+/*
+ * Function name:   add_toolsoul
+ * Description:     Add a tool soul to the list of tool souls. Note that
+ *                  adding a soul is not enough to get the actions added
+ *                  as well. You should do player->update_hooks() to
+ *                  accomplish that.
+ * Arguments:       soul: String with the filename of the tool soul.
+ * Returns:         1 if successfull,
+ *                  0 otherwise.
+ */

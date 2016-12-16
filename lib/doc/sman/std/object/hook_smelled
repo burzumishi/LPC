@@ -1,0 +1,19 @@
+1694:/std/object.c (/std/object.c)
+(public void) hook_smelled(string str)
+/*
+ * Function name: hook_smelled
+ * Description  : By defining this function in an object or room, you can
+ *                create an effect when a player tries to smell it. This
+ *                function is called after the messages are printed to the
+ *                players in the room, so what you do here will not interefere
+ *                with that. Naturally you can generate extra messages, make
+ *                the player choke, or whatever.
+ *                The acting player is this_player().
+ * Arguments    : string str - This argument is only valid in rooms, and then
+ *                    used to hold the name of the add-item in the room the
+ *                    player smelled. In other objects, this argument may be
+ *                    omitted.
+ * Notice       : This function does not actually exist in /std/object. We have
+ *                fooled the document maker into believing it does, so we can
+ *                present this information. Do not call ::hook_smelled().
+ */

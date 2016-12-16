@@ -1,0 +1,9 @@
+2093:/secure/master.c (/secure/master.c)
+(static void) memory_reconfigure(int mem)
+/*
+ * Function name: memory_reconfigure
+ * Description  : This function is called when the gamedriver receives
+ *                an external signal, denoting that the memory status
+ *                has changed.
+ * Arguments    : int mem - Memory size, 0 small, 1 large.
+ */

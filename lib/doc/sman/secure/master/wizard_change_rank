@@ -1,0 +1,10 @@
+1963:/secure/master/fob.c (/secure/master.c)
+(int) wizard_change_rank(string wname, int rank)
+/*
+ * Function name: wizard_change_rank
+ * Description  : Using this function, a liege, arch or keeper can try to
+ *                alter the rank of a player.
+ * Arguments    : string wname - the wizard whose rank is to be changed.
+ *                int rank     - the new rank.
+ * Returns      : int 1/0 - success/failure.
+ */

@@ -1,0 +1,8 @@
+552:/secure/master/sanction.c (/secure/master.c)
+(public int) sanction(string str)
+/*
+ * Function name: sanction
+ * Description  : This function contains the code for the sanction command.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

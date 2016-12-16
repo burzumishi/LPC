@@ -1,0 +1,7 @@
+2004:/std/living/savevars.c (/std/living.c)
+(nomask public string *) query_cmdsoul_list()
+/*
+ * Function name:   query_cmdsoul_list
+ * Description:     Give back the array with filenames of command souls.
+ * Returns:         The command soul list.
+ */

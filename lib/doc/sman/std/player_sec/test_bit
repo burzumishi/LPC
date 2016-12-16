@@ -1,0 +1,10 @@
+991:/std/player/savevars_sec.c (/std/player_sec.c)
+(public int) test_bit(string dom, int group, int bit)
+/*
+ * Function name:   test_bit
+ * Description:     Test a given bit in a given group for a given domain. 
+ * Arguments:       dom:   Domain which bits are to be tested
+ *                  group: An integer 0-4
+ *                  bit:   An integer 0-19
+ * Returns:         1 if the bit was set, 0 if unset or failed to test.
+ */

@@ -1,0 +1,8 @@
+936:/secure/simul_efun.c (/secure/simul_efun.c)
+(public string ) domain(object ob)
+/*
+ * Function name: domain
+ * Description:   Get the name of an object's domain (see domain_object())
+ * Arguments:     object ob - the object for which to get the domain
+ * Returns:       string - the domain name
+ */

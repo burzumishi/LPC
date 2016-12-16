@@ -1,0 +1,7 @@
+2360:/std/object.c (/std/object.c)
+(void) search_now(mixed *arr)
+/*
+ * Function name: search_now
+ * Description:   Perform the search now.
+ * Arguments:     arr - An array consisting of ({ searcher, str })
+ */

@@ -1,0 +1,7 @@
+387:/secure/armageddon.c (/secure/armageddon.c)
+(public void) catch_tell(string str)
+/*
+ * Function name: catch_tell
+ * Description  : Everything "printed" to us is parsed by this function.
+ * Arguments    : string str - the text being sent to us.
+ */

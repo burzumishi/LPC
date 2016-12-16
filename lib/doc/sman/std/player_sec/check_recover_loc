@@ -1,0 +1,8 @@
+139:/std/player/cmd_sec.c (/std/player_sec.c)
+(nomask int) check_recover_loc()
+/*
+ * Function name: check_recover_loc
+ * Description:   This function checks if the player is standing on a spot
+ *                where recover may happend
+ * Returns:       1 / 0 depending on outcome.
+ */

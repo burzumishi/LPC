@@ -1,0 +1,7 @@
+522:/std/combat/cbase.c (/std/combat/cbase.c)
+(int) cb_query_tohit_mod()
+/*
+ * Function name: cb_query_tohit_mod
+ * Description:   Returns the current tohit mod as set by
+ *                cb_set_tohit_mod.
+ */

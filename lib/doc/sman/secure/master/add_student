@@ -1,0 +1,9 @@
+2642:/secure/master/fob.c (/secure/master.c)
+(int) add_student(string mentor, string student)
+/*
+ * Function name: add_student
+ * Description  : Add a student to the internal list.
+ * Arguments    : string mentor - the mentor to add in.
+ *                string student - the wizard to add.
+ * Returns      : int 1 - success, 0 - error.
+ */

@@ -1,0 +1,7 @@
+500:/lib/trade.c (/lib/trade.c)
+(void) we_accept(int *arr)
+/*
+ * Function name: we_accept
+ * Description:   Compare array with what money we accept
+ * Arguments:     arr - the array holding the coins
+ */

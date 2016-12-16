@@ -1,0 +1,8 @@
+157:/d/Genesis/ship/ship.c (/d/Genesis/ship/ship.c)
+(void) sail_away_out_on_the_open_sea()
+/*
+ * Function name: sail_away_out_on_the_open_sea
+ * Description	: The core of the ship; this is called every callout_fq
+ *		  seconds and will move the ship around at appropiate
+ *		  intervals
+ */

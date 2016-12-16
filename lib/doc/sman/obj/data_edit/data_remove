@@ -1,0 +1,14 @@
+492:/obj/data_edit.c (/obj/data_edit.c)
+(static nomask void) data_remove(string str)
+/*
+ * Function name: data_remove
+ * Description  : This function allows you to remove variables from the
+ *                datafile, or elements from an array or mapping in the
+ *                datafile. The following arguments are valid:
+ *                <var>         - remove variable <var> from the datafile.
+ *                <var> <index> - remove the element <index> from the array
+ *                                or mapping <var>. For an array, it is the
+ *                                index-number of the element and for a
+ *                                mapping, it is the index-name.
+ * Arguments    : string str - the argument to the command remove.
+ */

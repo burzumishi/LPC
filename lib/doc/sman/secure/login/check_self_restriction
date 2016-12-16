@@ -1,0 +1,8 @@
+978:/secure/login.c (/secure/login.c)
+(static int) check_self_restriction()
+/*
+ * Function name: check_self_restriction
+ * Description  : Check whether the player has imposed a playing restriction on
+ *                himself. If so, disallow entry.
+ * Returns      : int 1/0 - true/not true.
+ */

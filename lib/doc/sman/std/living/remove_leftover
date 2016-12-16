@@ -1,0 +1,8 @@
+1046:/std/living/combat.c (/std/living.c)
+(public int) remove_leftover(string organ)
+/*
+ * Function name: remove_leftover
+ * Description:   Remove a leftover entry from a body.
+ * Arguments:     organ - Which entry to remove.
+ * Returns:       1 - Ok, removed, 0 - Not found.
+ */

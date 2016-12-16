@@ -1,0 +1,9 @@
+311:/std/poison_effect.c (/std/poison_effect.c)
+(public string) query_responsible_living()
+/*
+ * Function name: query_responsible_living
+ * Description  : Returns a description (name, filename) of the living thought
+ *                to be responsible for this poison. The poisonee should be
+ *                set in start_poision().
+ * Returns      : string - the description of the living.
+ */

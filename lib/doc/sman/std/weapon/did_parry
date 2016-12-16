@@ -1,0 +1,11 @@
+1375:/std/weapon.c (/std/weapon.c)
+(public varargs void) did_parry(object att, int aid, int dt)
+/*
+ * Function name: did_parry
+ * Description:   Tells us that this weapon was used to parry an attack. It can
+ *                be used to wear down a weapon. Note that his method is called
+ *                before the combat messages are printed out.
+ * Arguments:     object att - the attacker
+ *                int aid:   - the attack id
+ *                int dt     - the damagetype
+ */

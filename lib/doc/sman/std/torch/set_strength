@@ -1,0 +1,7 @@
+269:/std/torch.c (/std/torch.c)
+(public void) set_strength(int strength)
+/*
+ * Function name: set_strength
+ * Description:   Set the light strength of this 'torch'
+ * Arguments:     int strength - the light value.
+ */

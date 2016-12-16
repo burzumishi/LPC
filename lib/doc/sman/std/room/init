@@ -1,0 +1,6 @@
+62:/std/room/exits.c (/std/room.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description  : Add direction commands to livings in the room.
+ */

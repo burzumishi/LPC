@@ -1,0 +1,7 @@
+107:/std/act/chat.c (/std/act/chat.c)
+(void) set_chat_time(int tim)
+/*
+ * Function name: set_chat_time
+ * Description:   Set the mean value for chat intervall
+ * Arguments:	  tim: Intervall
+ */

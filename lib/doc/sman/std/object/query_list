@@ -1,0 +1,9 @@
+1125:/std/object.c (/std/object.c)
+(private mixed) query_list(mixed list, int arg)
+/*
+ * Function name: query_list
+ * Description:   Gives the return of a query on a list.
+ * Arguments:     list: The list in question
+ *                arg: If true then the entire list is returned.
+ * Returns:       A string or an array as described above.
+ */

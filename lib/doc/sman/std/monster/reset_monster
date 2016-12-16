@@ -1,0 +1,6 @@
+44:/std/monster.c (/std/monster.c)
+(void) reset_monster()
+/*
+ * Function name: reset_monster
+ * Description:   Reset the monster. (standard)
+ */

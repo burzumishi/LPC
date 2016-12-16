@@ -1,0 +1,7 @@
+304:/std/herb.c (/std/herb.c)
+(int) query_herb_value()
+/*
+ * Function name: query_herb_value
+ * Description:   The value of the herb when dealing with a specialist
+ * Returns:	  The value
+ */

@@ -1,0 +1,9 @@
+192:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(public string) query_def_post()
+/*
+ * Function name: query_def_post
+ * Description  : This function returns the location of the post office for
+ *                people of this race. It might be good to shadow this
+ *                function in guild shadows if the post office is supposed
+ *                to be located somewhere special for the guild.
+ */

@@ -1,0 +1,10 @@
+86:/std/domain_link.c (/std/domain_link.c)
+(public string*) query_commodities()
+/*
+ * Function name : query_commodities
+ * Description   : function returns the names of commodities found within
+ *                 the domain, it isnt used by commerce module itself but
+ *                 has a heavy use in the commodities listing command
+ * Arguments     : void    - no arguments
+ * Returns       : string* - the names of domain commodities
+ */

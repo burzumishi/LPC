@@ -1,0 +1,7 @@
+531:/std/living/description.c (/std/living.c)
+(public string) desc_scar()
+/*
+ * Function name:   desc_scar
+ * Description:     Get the composite string holding the scar description
+ * Returns:         string holding scar description.
+ */

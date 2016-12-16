@@ -1,0 +1,7 @@
+630:/std/herb.c (/std/herb.c)
+(void) init_recover(string arg)
+/*
+ * Function name: init_recover
+ * Description:   A default init_recover() for herbs.
+ * Arguments:	  arg - String with variables to recover.
+ */

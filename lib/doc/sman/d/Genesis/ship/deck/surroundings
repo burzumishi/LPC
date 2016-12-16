@@ -1,0 +1,7 @@
+89:/d/Genesis/ship/deck.c (/d/Genesis/ship/deck.c)
+(public string) surroundings()
+/*
+ * Function name: surroundings
+ * Description  : Get a description of the ship's surroundings
+ * Returns      : A string describing the surroundings
+ */

@@ -1,0 +1,7 @@
+529:/obj/edit.c (/obj/edit.c)
+(static void) checkrange()
+/*
+ * Function name: checkrange
+ * Description  : Checks whether the current line is valid after the
+ *                player used ~i or ~a. If not, set it to something valid.
+ */

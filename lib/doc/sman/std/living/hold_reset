@@ -1,0 +1,6 @@
+9:/std/living/hold.c (/std/living.c)
+(nomask void) hold_reset()
+/*
+ * Function name: hold_reset
+ * Description:   initialize holding routines
+ */

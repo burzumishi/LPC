@@ -1,0 +1,9 @@
+921:/lib/shop.c (/lib/shop.c)
+(int) do_list(string str)
+/*
+ * Function name:   do_list
+ * Description:     Provide a list of objects in the store room
+ * Returns:         0 if not recognised
+ *                  1 otherwise
+ * Arguments: 	    str - the name of the objects to search for
+ */

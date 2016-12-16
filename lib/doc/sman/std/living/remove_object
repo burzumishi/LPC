@@ -1,0 +1,6 @@
+266:/std/living.c (/std/living.c)
+(public void) remove_object()
+/*
+ * Function name: remove_object
+ * Description:   Destruct this object, but check for possessed first
+ */

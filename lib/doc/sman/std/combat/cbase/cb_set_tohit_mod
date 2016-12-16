@@ -1,0 +1,12 @@
+506:/std/combat/cbase.c (/std/combat/cbase.c)
+(void) cb_set_tohit_mod(int mod)
+/*
+ * Function name: cb_set_tohit_mod
+ * Description:   Apply a modifier to the base tohit value.  This
+ *                differs from specifying a weight value in
+ *                cb_update_tohit_val in that the mod will carry
+ *                over to different opponents.
+ * Arguments:     int mod - the modifier amount
+ * Note:          The possibility of combat object cleanup should
+ *                be taken into account when using this function.
+ */

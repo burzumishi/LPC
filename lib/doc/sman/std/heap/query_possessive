@@ -1,0 +1,8 @@
+352:/std/heap.c (/std/heap.c)
+(public string) query_possessive()
+/*
+ * Function name: query_possessive
+ * Description  : All nonlivings have possessive 'its'. Heaps may have 'their'
+ *                if they are larger than one item.
+ * Returns      : string "its" or "their".
+ */

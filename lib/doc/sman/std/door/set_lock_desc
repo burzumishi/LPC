@@ -1,0 +1,6 @@
+1134:/std/door.c (/std/door.c)
+(void) set_lock_desc(string desc)
+/*
+ * Function name: set_lock_desc
+ * Description:   Set the description of the lock
+ */

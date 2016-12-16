@@ -1,0 +1,8 @@
+114:/std/herb.c (/std/herb.c)
+(void) set_ingest_verb(string str)
+/*
+ * Function name: set_ingest_verb
+ * Description:   Set what verb the player should type to be able to ingest 
+ * 		  the herb. Default is "eat"
+ * Arguments:     str - The verb
+ */

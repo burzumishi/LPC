@@ -1,0 +1,8 @@
+387:/std/player/quicktyper.c (/std/player_sec.c)
+(static nomask int) unalias(string str)
+/*
+ * Function name: unalias
+ * Description  : Remove an alias.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int - 1/0 - success/failure.
+ */

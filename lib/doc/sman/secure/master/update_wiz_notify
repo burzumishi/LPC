@@ -1,0 +1,8 @@
+487:/secure/master/notify.c (/secure/master.c)
+(public void) update_wiz_notify(string name)
+/*
+ * Function name: update_wiz_notify
+ * Description  : This function updates the individual notification status
+ *                of the wizard by reloading his ~/.notify file.
+ * Arguments    : string name - the (lower case) name of the wizard.
+ */

@@ -1,0 +1,8 @@
+311:/std/room.c (/std/room.c)
+(nomask string) query_domain()
+/*
+ * Function name: query_domain
+ * Description  : This function will return the name of the domain this
+ *                room is in.
+ * Returns      : string - the domain name.
+ */

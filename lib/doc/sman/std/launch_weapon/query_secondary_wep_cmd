@@ -1,0 +1,9 @@
+438:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask string) query_secondary_wep_cmd()
+/*
+ * Function name: query_secondary_wep_cmd
+ * Description  : Gives the command to use when we want to wield a secondary
+ *                weapon.
+ *                
+ * Returns      :  string - command to wield secondary weapon.
+ */

@@ -1,0 +1,7 @@
+147:/std/projectile.c (/std/projectile.c)
+(public void) update_heap_id()
+/*
+ * Function name: set_hidden
+ * Description  : This functions updates the heap_id of the arrow so it
+ *                stacks properly whith other hidden/broken arrows as well.
+ */

@@ -1,0 +1,8 @@
+468:/cmd/live/speech.c (/cmd/live/speech.c)
+(nomask void) converse_more(string str)
+/*
+ * Function name: converse_more
+ * Description  : Until the conversation is over, prompt the player for more
+ *                text to say.
+ * Arguments    : string str - the text the player wants to say.
+ */

@@ -1,0 +1,7 @@
+990:/lib/library.c (/lib/library.c)
+(public void) create_library()
+/*
+ * Function name: create_library
+ * Description:   Initialize the library.  This should be called when the
+ *                library object is created, AFTER it has been configured.
+ */

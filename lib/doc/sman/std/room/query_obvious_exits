@@ -1,0 +1,9 @@
+396:/std/room/exits.c (/std/room.c)
+(public string *) query_obvious_exits()
+/*
+ * Function name: query_obvious_exits
+ * Description  : Gives a list of the obvious exits from this room. When
+ *                exits carry VBFC, this_player() is used to see whether he
+ *                is able to see the exit.
+ * Returns      : string * - An array (possibly empty) of the obvious exits.
+ */

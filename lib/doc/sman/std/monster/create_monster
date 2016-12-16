@@ -1,0 +1,6 @@
+26:/std/monster.c (/std/monster.c)
+(void) create_monster()
+/*
+ * Function name: create_monster
+ * Description:   Create the monster. (standard)
+ */

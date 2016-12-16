@@ -1,0 +1,9 @@
+517:/lib/trade.c (/lib/trade.c)
+(int *) calc_change_str(int *arr, string str)
+/*
+ * Function name: calc_change_str
+ * Description:   Consider what coins the object wants to be payed in
+ * Arguments:     arr - the array holding the coins
+ *                str - the string describing what types the object wants
+ * Returns:       The array depending on what object wants
+ */

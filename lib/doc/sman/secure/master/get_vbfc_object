@@ -1,0 +1,8 @@
+338:/secure/master.c (/secure/master.c)
+(object) get_vbfc_object()
+/*
+ * Function name: get_vbfc_object
+ * Description  : This function returns the objectpointer to the VBFC
+ *                object.
+ * Returns      : object - the objectpointer to the VBFC object.
+ */

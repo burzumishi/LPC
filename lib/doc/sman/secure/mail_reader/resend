@@ -1,0 +1,8 @@
+2108:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) resend(string str)
+/*
+ * Function name: resend
+ * Description  : Send the last entered message to some more people.
+ * Arguments    : string str - the people to send the message go.
+ * Returns      : int        - 1/0 - success/failure.
+ */

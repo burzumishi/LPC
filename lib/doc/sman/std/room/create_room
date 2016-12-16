@@ -1,0 +1,7 @@
+30:/std/room.c (/std/room.c)
+(public void) create_room()
+/*
+ * Function name: create_room
+ * Description  : Constructor. You should redefine this function to create
+ *                your own room.
+ */

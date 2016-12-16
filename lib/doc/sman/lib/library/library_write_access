@@ -1,0 +1,8 @@
+1633:/lib/library.c (/lib/library.c)
+(public int) library_write_access()
+/*
+ * Function name: library_write_access
+ * Description:   Redefine this function to limit permission to write books
+ * Returns:       1 - this_player() is permitted to write a book
+ *                0 - this_player() is not permitted to write a book
+ */

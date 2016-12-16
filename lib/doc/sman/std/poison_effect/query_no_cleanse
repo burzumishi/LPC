@@ -1,0 +1,7 @@
+137:/std/poison_effect.c (/std/poison_effect.c)
+(nomask public int) query_no_cleanse()
+/*
+ * Function name: query_no_cleanse
+ * Description  : Call this to find out whether the poison can be cleansed.
+ * Returns      : int - if true, the poison cannot be cleansed.
+ */

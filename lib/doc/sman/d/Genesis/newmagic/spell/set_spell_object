@@ -1,0 +1,10 @@
+560:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_object(mixed ob)
+/*
+ * Function name: set_spell_object
+ * Description:   Designate a spell effect object which will be cloned and
+ *                configured automatically by the spell.
+ * Arguments:     1. (string)   The path to the spell effect object
+ *                   (object)   A spell effect object instance
+ *                   (function) A function returning a spell effect instance
+ */

@@ -1,0 +1,8 @@
+1043:/secure/master/fob.c (/secure/master.c)
+(int) accept_application(string wname)
+/*
+ * Function name: accept_application
+ * Description  : A lord accepts an application. 
+ * Arguments    : string wname - the wizard to accept.
+ * Returns      : int 1/0 - success/failure.
+ */

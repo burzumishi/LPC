@@ -1,0 +1,9 @@
+550:/obj/edit.c (/obj/edit.c)
+(static void) autowrap(string str)
+/*
+ * Function name: autowrap
+ * Description  : People who have used 80 characters or more in their text
+ *                are prompted to have their message autowrapped for optimal
+ *                readability
+ * Arguments    : string str - the input.
+ */

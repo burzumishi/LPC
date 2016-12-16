@@ -1,0 +1,8 @@
+233:/std/corpse.c (/std/corpse.c)
+(string) pshort_func()
+/*
+ * Function name: pshort_func
+ * Description  : Returns the plural short description of this object, based on
+ *                recognition of the corpse.
+ * Returns      : string - the plural short description.
+ */

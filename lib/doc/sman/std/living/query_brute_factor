@@ -1,0 +1,12 @@
+831:/std/living/savevars.c (/std/living.c)
+(varargs public float) query_brute_factor(int base = 0)
+/*
+ * Function name: query_brute_factor
+ * Description  : Calculates the brutality factor, that is, the factor between
+ *                the combat+general experience and the total experience. The
+ *                best possible brute factor is 0 and the worst is 1. This is
+ *                the fraction of the experience that is not awarded to the
+ *                player when he gains new combat/general experience.
+ * Arguments    : int base - if true, do not apply the death relaxation.
+ * Returns      : float - the brute factor.
+ */

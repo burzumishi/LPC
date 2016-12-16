@@ -1,0 +1,9 @@
+1780:/std/living/savevars.c (/std/living.c)
+(public int) query_skill_extra(int skill)
+/*
+ * Function name: query_skill_extra
+ * Description:   Query how much extra skill (or less) someone has in a
+ *                particular skill.
+ * Arguments:     skill - What skill to query
+ * Returns:       The extra modifying value
+ */

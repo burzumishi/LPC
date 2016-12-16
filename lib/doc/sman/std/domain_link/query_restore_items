@@ -1,0 +1,24 @@
+170:/std/domain_link.c (/std/domain_link.c)
+(public mapping) query_restore_items(object player)
+/*
+ * Function name: query_restore_items
+ * Descritpion  : Called to find out which items might be restored into the
+ *                player. This could be guild items and quest items alike.
+ *                Note that this routine is a test routine only. No action
+ *                should be taken. It should return only those items that
+ *                the player is entitled to, but that are missing in the
+ *                player. The returned mapping looks as follows:
+ * 
+ *                    ([ (string) code : (string) description ])
+ *
+ *                The code is an internal string used to call restore_item().
+ *                It should be unique for all items, and preferably contains
+ *                the domain name in it. The description is a text displayed
+ *                to the player that explains the item to be restored. It
+ *                should be no more than 70 characters.
+ *                This is a silent function. No text printed to the player!
+ * Arguments    : object player - the player to check for restoration items.
+ * Returns      : mapping - the items possible for restoration on this player.
+ *
+ * Example: ([ "Domain_rabbit_quest": "Lucky charm from Jack Rabbit quest" ])
+ */

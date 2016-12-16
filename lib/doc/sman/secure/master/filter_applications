@@ -1,0 +1,10 @@
+1240:/secure/master/fob.c (/secure/master.c)
+(static int) filter_applications(string *wizards, string wname)
+/*
+ * Function name: filter_applications
+ * Description  : This function checks whether a particular wizard is in the
+ *                list of people who have applied to a domain. 
+ * Arguments    : string *wizards - the people who have applied to a domain.
+ *                string wname    - the wizard to check.
+ * Returns      : int 1/0 - true if the wizard applied to the domain.
+ */

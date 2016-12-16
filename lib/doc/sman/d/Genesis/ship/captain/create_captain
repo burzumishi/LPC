@@ -1,0 +1,6 @@
+11:/d/Genesis/ship/captain.c (/d/Genesis/ship/captain.c)
+(void) create_captain()
+/*
+ * Function name: create_captain
+ * Description:   The standard create routine
+ */

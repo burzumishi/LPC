@@ -1,0 +1,6 @@
+235:/std/player/quicktyper.c (/std/player_sec.c)
+(static nomask void) do_chain()
+/*
+ * Function name: do_chain
+ * Description  : Do next command in the do chain.
+ */

@@ -1,0 +1,9 @@
+2058:/std/launch_weapon.c (/std/launch_weapon.c)
+(private int ) filter_see_blood(object person)
+/*
+ * Function name: filter_see_blood
+ * Description  : Returns true if the person don't want to see the message.
+ *                
+ * Arguments    : person: Player to check for OPT_NO_FIGHTS.
+ * Returns      : int:    True if the person don't want to see blood.
+ */

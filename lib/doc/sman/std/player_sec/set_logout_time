@@ -1,0 +1,7 @@
+658:/std/player/savevars_sec.c (/std/player_sec.c)
+(static nomask varargs void) set_logout_time(int t = time()
+/*
+ * Function name:   set_logout_time
+ * Description:     sets the time of the logout / save.
+ * Arguments:       (int) t: the logout time
+ */

@@ -1,0 +1,10 @@
+1717:/std/object.c (/std/object.c)
+(public int) item_id(string str)
+/*
+ * Function name: item_id
+ * Description  : Identify items in the object. This means that the function
+ *                will return true if the argument has been added to this
+ *                object using add_item().
+ * Arguments    : string str - the name to test.
+ * Returns      : int 1/0 - is added with add_item() or not.
+ */

@@ -1,0 +1,7 @@
+147:/std/heap.c (/std/heap.c)
+(public void) set_heap_size(int num)
+/*
+ * Function name: set_heap_size
+ * Description  : Set the size of the heap to num.
+ * Arguments    : int num - the size of the heap.
+ */

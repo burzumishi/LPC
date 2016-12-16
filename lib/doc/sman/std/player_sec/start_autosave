@@ -1,0 +1,7 @@
+34:/std/player/cmd_sec.c (/std/player_sec.c)
+(static nomask void) start_autosave()
+/*
+ * Function name: start_autosave
+ * Description  : Call this function to start autosaving. Only works for
+ *                mortal players.
+ */

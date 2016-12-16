@@ -1,0 +1,8 @@
+1797:/lib/library.c (/lib/library.c)
+(public int) library_deny_access()
+/*
+ * Function name: library_deny_access
+ * Description:   Redefine this function to limit permission to deny books
+ * Returns:       1 - this_player() is permitted to deny a book
+ *                0 - this_player() is not permitted to deny a book
+ */

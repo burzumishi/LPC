@@ -1,0 +1,11 @@
+200:/std/living/savevars.c (/std/living.c)
+(public void) set_mm_out(string m)
+/*
+ * Function name: set_mm_out
+ * Description  : Set the magical (teleportation) exit message of this living.
+ *                This text should fit into the sentence "<name> <mm-out>." so
+ *                there should be a closing period or exclamation mark to this
+ *                message.
+ * Arguments    : string m - the message string.
+ * Example      : "disappears into a local black hole."
+ */

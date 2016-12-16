@@ -1,0 +1,7 @@
+1066:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask string *) query_seconds()
+/*
+ * Function name: query_seconds
+ * Description  : Return the seconds array.
+ * Returns      : string * - the seconds if you are allowed or ({}).
+ */

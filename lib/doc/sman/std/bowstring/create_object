@@ -1,0 +1,7 @@
+26:/std/bowstring.c (/std/bowstring.c)
+(public nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Sets some basic default values for bowstring
+ *                Redefine create_bowstring to alter them.
+ */

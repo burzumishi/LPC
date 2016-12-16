@@ -1,0 +1,6 @@
+167:/lib/bank.c (/lib/bank.c)
+(void) bank_hook_minimized(string pay_text, string got_text)
+/*
+ * Function name: bank_hook_minimized
+ * Description:   Player minimized his coins
+ */

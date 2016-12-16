@@ -1,0 +1,7 @@
+1402:/std/weapon.c (/std/weapon.c)
+(void) init_wep_recover(string arg)
+/*
+ * Function name: init_wep_recover
+ * Description  : Initialize the weapon variables at recover.
+ * Arguments    : string arg - the variables to recover
+ */

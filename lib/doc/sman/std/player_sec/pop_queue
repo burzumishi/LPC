@@ -1,0 +1,12 @@
+86:/std/player/querys_sec.c (/std/player_sec.c)
+(public string) pop_queue(string who)
+/*
+ * Function name:   pop_queue
+ * Description:     Gives the first element of the queue with playernames and
+ *                  removes it from the queue. If an argument is passed it
+ *                  removes that element if it exists.
+ * Arguments:       who: The name to remove from the queue, or nothing to
+ *                  get the first element.
+ * Returns:         The name that was the first element of the queue,
+ *                  "" if there was no such name.
+ */

@@ -1,0 +1,6 @@
+19:/std/messenger.c (/std/messenger.c)
+(public void) create_messenger()
+/*
+ * Function:    create_messenger
+ * Description: Override this function to define your own messenger
+ */

@@ -1,0 +1,9 @@
+679:/std/heap.c (/std/heap.c)
+(void) collect_garbage()
+/*
+ * Function name: collect_garbage
+ * Description  : When the heap is still in the void some time after it was
+ *                cloned, we destruct it to save memory. If you really do not
+ *                want this, mask no_garbage_collection() to return 1, and
+ *                have a good reason to explain this when asked by an arch.
+ */

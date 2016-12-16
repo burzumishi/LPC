@@ -1,0 +1,8 @@
+105:/secure/master/mail_admin.c (/secure/master.c)
+(static void) save_message(mapping message, int number)
+/*
+ * Function name: save_message
+ * Description  : Save the individual message to disk.
+ * Arguments    : mapping message - the message.
+ *                int     number  - the current time to save.
+ */

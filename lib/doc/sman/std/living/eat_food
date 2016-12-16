@@ -1,0 +1,9 @@
+140:/std/living/drink_eat.c (/std/living.c)
+(public int) eat_food(int amount, int ask)
+/*
+ * Function name: 	eat_food
+ * Description:   	Eats a certain amount of food.
+ * Arguments:		amount: The amount of food.
+ *			ask: True if we only want to know IF we can eat this
+ * Returns:		True if successfully eaten.
+ */

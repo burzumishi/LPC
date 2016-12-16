@@ -1,0 +1,11 @@
+345:/secure/master/guild.c (/secure/master.c)
+(static void) set_guild_domain(string short_name, string domain)
+/*
+ * Function name: set_guild_domain
+ * Description  : This will set the domain for a guild that already exists.
+ *                That it exists is not checked here, so that must be done
+ *                prior to calling this function.
+ * Arguments    : string short_name - the short name of the guild. Must be
+ *                    lower case since it is an internal call.
+ *                string domain - the domain the guild is in (capitalized).
+ */

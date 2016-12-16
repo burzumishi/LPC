@@ -1,0 +1,6 @@
+898:/std/object.c (/std/object.c)
+(mixed) query_subloc()
+/*
+ * Function name: query_subloc
+ * Description:   Get the current sub location's name
+ */

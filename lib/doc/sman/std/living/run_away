@@ -1,0 +1,6 @@
+777:/std/living/combat.c (/std/living.c)
+(public void) run_away()
+/*
+ * Function name: run_away
+ * Description:   Runs away from the fight
+ */

@@ -1,0 +1,9 @@
+464:/lib/library.c (/lib/library.c)
+(public void) library_borrow_hook(object book, string title)
+/*
+ * Function name: library_borrow_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user borrows or reads a book
+ * Arguments:     object book  - the book borrowed
+ *                string title - the title of the book
+ */

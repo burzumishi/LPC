@@ -1,0 +1,6 @@
+45:/d/Genesis/ship/cabin.c (/d/Genesis/ship/cabin.c)
+(nomask void) create_room()
+/*
+ * Function name: create_room
+ * Description  : Set up default values for the ship cabin
+ */

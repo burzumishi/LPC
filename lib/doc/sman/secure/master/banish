@@ -1,0 +1,11 @@
+3761:/secure/master.c (/secure/master.c)
+(mixed *) banish(string name, int what)
+/*
+ * Function name: banish
+ * Description  : Banish a name, info about name, remove a banishment.
+ * Arguments    : string name - the name to perform banish operation on.
+ *                int what - what to do. 0=info, 1=remove, 2=replace.
+ * Returns      : mixed * - ({ (string)name, (int)time }) or ({})
+ *                    the name of the person banishing and the time value at
+ *                    which the name was banished.
+ */

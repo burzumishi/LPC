@@ -1,0 +1,7 @@
+38:/std/book.c (/std/book.c)
+(nomask void) create_scroll()
+/*
+ * Function name: create_scroll
+ * Description:   creates the general object
+ * Arguments:	  
+ */

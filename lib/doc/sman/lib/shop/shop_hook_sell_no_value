@@ -1,0 +1,7 @@
+95:/lib/shop.c (/lib/shop.c)
+( */ void) shop_hook_sell_no_value(object ob)
+/*
+ * Function name: shop_hook_sell_no_value
+ * Description:   Called if object has no value
+ * Arguments:     ob - The object
+ */

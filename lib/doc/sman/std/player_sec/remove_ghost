@@ -1,0 +1,10 @@
+120:/std/player/death_sec.c (/std/player_sec.c)
+(public int) remove_ghost(int quiet)
+/*
+ * Function name:   remove_ghost
+ * Description:     This is normally not called except when a poor soul has
+ *                  not been fetched by Death and reincarnated.
+ * Arguments:       quiet : true if no messages should be printed
+ * Returns:         0 if the player is not a ghost
+ *                  1 otherwise.
+ */

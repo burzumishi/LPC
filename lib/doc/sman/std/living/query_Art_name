@@ -1,0 +1,14 @@
+242:/std/living/description.c (/std/living.c)
+(public varargs string) query_Art_name(object pobj)
+/*
+ * Function name:   query_Art_name
+ * Description:	    Gives the name with a capitalized prefix article when the
+ *                  calling object has not met this living.
+ *                  E.g.:
+ *                        when met:   "Fatty",
+ *                        when unmet: "A big fat gnome wizard".
+ * Arguments:       pobj: The object that wants to know the name.
+ *                  If pobj is undefined, it is assumed that the call has
+ *                  been done through a protected vbfc
+ * Returns:         Name prefixed with capitalized article.
+ */

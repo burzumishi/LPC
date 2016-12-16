@@ -1,0 +1,11 @@
+433:/lib/shop.c (/lib/shop.c)
+(void) set_store_room(string store)
+/*
+ * Function name: set_store_room
+ * Description:   Tell us wich storeroom to use. Normally this is the name of
+ *                the room to use. However, to facilitate a sack to be used as
+ *                store, this may also be the file name (including object
+ *                number) of an object.
+ *                Note: when using an object, it must be cloned already.
+ * Arguments:	  str - the storeroom.
+ */

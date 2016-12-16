@@ -1,0 +1,7 @@
+204:/std/torch.c (/std/torch.c)
+(public int) query_max_time()
+/*
+ * Function name: query_max_time
+ * Description:	  Query the original burn time of the torch.
+ * Returns:       the time
+ */

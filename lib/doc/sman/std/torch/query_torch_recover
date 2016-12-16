@@ -1,0 +1,7 @@
+559:/std/torch.c (/std/torch.c)
+(public string) query_torch_recover()
+/*
+ * Function name: query_torch_recover
+ * Description:   Return the recover string for changing tourch values
+ * Returns:	  string - part of recover string
+ */

@@ -1,0 +1,6 @@
+851:/std/door.c (/std/door.c)
+(int) query_pick()
+/*
+ * Function name: query_pick
+ * Description:	  Returns how easy it is to pick the lock on a door
+ */

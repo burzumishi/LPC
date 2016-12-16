@@ -1,0 +1,6 @@
+49:/std/herb.c (/std/herb.c)
+(void) init()
+/*
+ * Function name: init
+ * Description:   adds the ingest-action to the player
+ */

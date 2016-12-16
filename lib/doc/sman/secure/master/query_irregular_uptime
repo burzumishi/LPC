@@ -1,0 +1,9 @@
+3460:/secure/master.c (/secure/master.c)
+(public int) query_irregular_uptime()
+/*
+ * Function name: query_irregular_uptime
+ * Description  : The (irregular) uptime after which this game is being
+ *                rebooted. This uptime is counted from the start of the
+ *                game.
+ * Returns      : int - the (irregular) uptime, or 0.
+ */

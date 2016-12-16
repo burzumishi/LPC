@@ -1,0 +1,8 @@
+661:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_board_enabled(int x)
+/*
+ * Function name: set_board_enabled
+ * Description	: Set wether or not it is possible to board the ship
+ * Arguments	: 0 - boarding disabled
+ *		  1 - boarding enabled
+ */

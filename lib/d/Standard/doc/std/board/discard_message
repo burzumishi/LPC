@@ -1,0 +1,8 @@
+803:/std/board.c (/std/board.c)
+(private nomask void) discard_message(string file)
+/*
+ * Function name: discard_message
+ * Description  : When there are too many notes on the board, the oldest
+ *                is discarded. It is either moved or deleted.
+ * Arguments    : string file - the file (without path) to save.
+ */

@@ -1,0 +1,12 @@
+660:/lib/skill_raise.c (/lib/skill_raise.c)
+(public varargs int) sk_hook_allow_train(object who, string str, string verb)
+/*
+ * Function name: sk_hook_allow_train
+ * Description:   Function called when player tries to do the improve command
+ *                Will determine if a player can train skills here.
+ *                ( Default is:  yes )
+ * Arguments:     object - The player trying to improve/learn
+ *                string - The string from sk_improve
+ *                verb   - improve or learn typically
+ * Returns:       1 - yes (default) / 0 - no
+ */

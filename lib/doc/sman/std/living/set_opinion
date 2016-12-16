@@ -1,0 +1,7 @@
+1416:/std/living/savevars.c (/std/living.c)
+(public void) set_opinion(int o)
+/*
+ * Function name:   set_opinion
+ * Description:     Set the value of the opinion variable
+ * Arguments:       o: The new value.
+ */

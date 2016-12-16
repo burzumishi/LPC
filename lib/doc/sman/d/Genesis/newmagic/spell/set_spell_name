@@ -1,0 +1,8 @@
+514:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_name(string name)
+/* 
+ * Function name: set_spell_name
+ * Description:   Designate a name for the spell.  This will be used as an
+ *                argument to the "cast" command to cast this spell.
+ * Arguments:     1. (string) The name of the spell.  Do not include spaces.
+ */

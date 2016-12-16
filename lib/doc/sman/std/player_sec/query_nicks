@@ -1,0 +1,8 @@
+1120:/std/player/savevars_sec.c (/std/player_sec.c)
+(public mapping) query_nicks()
+/*
+ * Function name: query_nicks
+ * Description  : This returns the list of nick(name)s of a player.
+ * Arguments    : mapping - the indices are the namenames and the
+ *                          values the replacements.
+ */

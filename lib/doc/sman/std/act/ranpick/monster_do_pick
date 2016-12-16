@@ -1,0 +1,5 @@
+50:/std/act/ranpick.c (/std/act/ranpick.c)
+(void) monster_do_pick()
+/*
+ *  Description: The actual function picking, called by VBFC in seq_heartbeat
+ */

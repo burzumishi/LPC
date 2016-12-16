@@ -1,0 +1,11 @@
+1115:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public int) concentrate_spell(object caster, object *targets, string arg)
+/*
+ * Function name: concentrate_spell
+ * Description:   Start concentration on the spell
+ * Arguments:     1. (object)   The caster
+ *                2. (object *) The targets
+ *                3. (string)   The arguments passed to the "cast" command
+ * Returns:       0 - Concentration begun
+ *                1 - Concentration not begun; spell aborted.
+ */

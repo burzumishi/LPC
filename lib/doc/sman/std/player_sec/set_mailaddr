@@ -1,0 +1,7 @@
+523:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) set_mailaddr(string addr)
+/*
+ * Function name:   set_mailaddr
+ * Description:     Sets the Email address of a player
+ * Arguments:       addr: The Email address string
+ */

@@ -1,0 +1,8 @@
+270:/secure/master.c (/secure/master.c)
+(public string) get_mudlib_version()
+/*
+ * Function name: get_mudlib_version
+ * Description  : Obtain the mudlib version of the current mudlib. If the
+ *                version is not set yet, it will find out.
+ * Returns      : string - the version string.
+ */

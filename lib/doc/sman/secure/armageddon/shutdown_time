@@ -1,0 +1,8 @@
+367:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask int) shutdown_time()
+/*
+ * Function name: shutdown_time
+ * Description  : This function returns how long it will take before the
+ *                game is shut down.
+ * Returns      : int - the remaining time in minutes.
+ */

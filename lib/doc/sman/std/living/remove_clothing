@@ -1,0 +1,8 @@
+97:/std/living/wear.c (/std/living.c)
+(public void) remove_clothing(object ob)
+/*
+ * Function name: remove_clothing
+ * Description:   Remove an item that has been worn
+ * Description:   Remove an item that has been worn
+ * Arguments:     object ob - the item we wish to remove
+ */

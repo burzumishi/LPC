@@ -1,0 +1,10 @@
+256:/std/room/exits.c (/std/room.c)
+(public mixed) query_tired_exits()
+/*
+ * Function name: query_tired_exits
+ * Description  : Gives a list of the tired values for each exit. The values
+ *                may contain VBFC. Rather than using this function, you
+ *                should better use the function query_tired_exit() for
+ *                the particular exit you need.
+ * Returns      : mixed - an array with one element per exit.
+ */

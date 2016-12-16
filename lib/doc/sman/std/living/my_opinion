@@ -1,0 +1,10 @@
+891:/std/living/description.c (/std/living.c)
+(public int) my_opinion(object ob)
+/*
+ * Function name: my_opinion
+ * Description:   Return my opinion about the appearance of an other
+ *                living creature. -1 if not living, 0 - 100 if living.
+ *                0 = perfectly in taste, 100 = the most ugly you can imagine
+ * Arguments:     ob: the object to give an opinion about
+ * Returns:       The opinion as int.
+ */

@@ -1,0 +1,10 @@
+358:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public void) cleanup_spells()
+/*
+ * Function name: cleanup_spells
+ * Descrption:    A utility function that removes any *cloned* spell objects.
+ *                This should generally be called when this spellcasting object
+ *                is removed so that there are no lingering spell objects left,
+ *                wasting memory.
+ *                See /d/Genesis/newmagic/examples/spell_test. for an example.
+ */

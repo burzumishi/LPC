@@ -1,0 +1,10 @@
+568:/lib/shop.c (/lib/shop.c)
+(object *) sell_it(object *ob, string str, int check)
+/*
+ * Function name: sell_it
+ * Description:   Try to let the player sell the item array
+ * Arguments:     ob - the object array
+ *                check - wheather check for worn or wielded stuff
+ *                str - string describing how the money should be paid
+ * Returns:	  An array with the objects sold
+ */

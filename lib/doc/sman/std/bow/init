@@ -1,0 +1,6 @@
+73:/std/bow.c (/std/bow.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description  : Adds the string and unstring commands to the player.
+ */

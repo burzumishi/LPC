@@ -1,0 +1,7 @@
+470:/std/weapon.c (/std/weapon.c)
+(int) query_pen()
+/*
+ * Function name: query_pen
+ * Description  : Query penetration value of the weapon.
+ * Returns      : int - the pen value.
+ */

@@ -1,0 +1,8 @@
+1023:/std/living/savevars.c (/std/living.c)
+(public void) add_exp_quest(int exp)
+/*
+ * Function name: add_exp_quest
+ * Description  : This function should be called to add quest experience
+ *                to the living. Removing quest experience is not possible.
+ * Arguments    : int exp - the amount of quest experience to add.
+ */

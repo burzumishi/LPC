@@ -1,0 +1,6 @@
+322:/std/mobile.c (/std/mobile.c)
+(public void) init_living()
+/*
+ * Function name: init_living
+ * Description:   A patch for the automatic attack if this mobile can do that
+ */

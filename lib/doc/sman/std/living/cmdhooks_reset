@@ -1,0 +1,7 @@
+37:/std/living/cmdhooks.c (/std/living.c)
+(static void) cmdhooks_reset()
+/*
+ * Function name: cmdhooks_reset
+ * Description  : Start the command parsing. The last added action is
+ *                evaluated first, so speech is checked first.
+ */

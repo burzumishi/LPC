@@ -1,0 +1,5 @@
+58:/std/monster.c (/std/monster.c)
+(public string) query_combat_file()
+/*
+ * Description:  Use the humanoid combat file
+ */

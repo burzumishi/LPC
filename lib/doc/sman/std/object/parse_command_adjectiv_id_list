@@ -1,0 +1,5 @@
+82:/std/object.c (/std/object.c)
+(public string *) parse_command_adjectiv_id_list()
+/*
+ * Description: This function is used by the efun parse_command()
+ */

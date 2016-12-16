@@ -1,0 +1,8 @@
+399:/lib/shop.c (/lib/shop.c)
+(int) query_buy_price(object ob)
+/*    
+ * Function name: query_buy_price
+ * Description:   What price should the player pay
+ * Arguments:     ob - The object to test
+ * Returns: 	  The price
+ */

@@ -1,0 +1,10 @@
+174:/std/board.c (/std/board.c)
+(public nomask void) set_remove_rank(int n)
+/*
+ * Function name: set_remove_rank
+ * Description  : With this function you can set the minimum rank people
+ *                must have to be able to remove other peoples notes.
+ *                NOTE: The argument to this function must be a define
+ *                      from std.h, ie WIZ_NORMAL, WIZ_LORD, etc.
+ * Arguments    : int n - the minimum level (default WIZ_LORD, ie lords++).
+ */

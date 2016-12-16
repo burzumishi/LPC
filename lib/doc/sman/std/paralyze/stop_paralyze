@@ -1,0 +1,7 @@
+299:/std/paralyze.c (/std/paralyze.c)
+(void) stop_paralyze()
+/*
+ * Function name: stop_paralyze
+ * Description  : This function is called if the paralyze shall stop due to 
+ *		  the time running out.
+ */

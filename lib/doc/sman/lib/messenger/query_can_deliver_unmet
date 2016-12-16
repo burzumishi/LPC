@@ -1,0 +1,8 @@
+515:/lib/messenger.c (/lib/messenger.c)
+(public int) query_can_deliver_unmet()
+/*
+ * Function:    query_can_deliver_unmet
+ * Description: Returns whether the messenger can deliver to someone
+ *              who has not been introduced to the sender.
+ * Returns:     int 0/1 - cannot/can deliver
+ */

@@ -1,0 +1,7 @@
+355:/std/living/savevars.c (/std/living.c)
+(public nomask string) query_title()
+/*
+ * Function name:   query_title
+ * Description:     Gives the title of a living.
+ * Returns:         The title string
+ */

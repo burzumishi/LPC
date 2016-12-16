@@ -1,0 +1,8 @@
+321:/std/container.c (/std/container.c)
+(void) enter_env(object dest, object old)
+/*
+ * Function name: enter_env
+ * Description:   The container enters a new environment
+ * Arguments:     dest - The destination
+ *                old  - From what object
+ */

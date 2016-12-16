@@ -1,0 +1,8 @@
+1883:/secure/mail_reader.c (/secure/mail_reader.c)
+(public void) done_editing(string text)
+/*
+ * Function name: done_editing
+ * Description  : When the player is done editing the message, this
+ *                function is called from the edit-object.
+ * Arguments    : string text - the message the player typed
+ */

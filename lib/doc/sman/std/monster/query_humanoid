@@ -1,0 +1,8 @@
+67:/std/monster.c (/std/monster.c)
+(public int) query_humanoid()
+/*
+ * Function name: query_humanoid
+ * Description  : Since this is a humanoid, we mask this function so
+ *                that it returns 1.
+ * Returns      : int - 1;
+ */

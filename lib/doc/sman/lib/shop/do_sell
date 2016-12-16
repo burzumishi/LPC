@@ -1,0 +1,10 @@
+655:/lib/shop.c (/lib/shop.c)
+(int) do_sell(string str)
+/*
+ * Function name: do_sell
+ * Description:   Try to let the player sell the_item
+ *                Observe there is no message written when sold item
+ *                has a value higher than the shop gives out.
+ * Returns:       1 on sucess
+ * Arguments:     str - string holding name of item, hopefully
+ */

@@ -1,0 +1,7 @@
+197:/std/room/link.c (/std/room.c)
+(string) query_link_master()
+/*
+ * Function name: query_link_master
+ * Description:   Set the master room for this cloned corridor
+ * Arguments:	  mfile: Filename of master room
+ */

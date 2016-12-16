@@ -1,0 +1,7 @@
+144:/std/combat/unarmed.c (/std/combat/unarmed.c)
+(public void) cr_reset_hitloc(int hid)
+/*
+ * Function name: cr_reset_hitloc
+ * Description:   Set the values for a specific hitlocation
+ * Arguments:     hid: The hitlocation (bodypart) id
+ */

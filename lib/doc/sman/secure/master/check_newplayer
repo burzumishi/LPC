@@ -1,0 +1,10 @@
+67:/secure/master/siteban.c (/secure/master.c)
+(public int) check_newplayer(string ipnumber)
+/*
+ * Function name: check_newplayer
+ * Description  : Call this to find out whether a certain site is locked out.
+ * Arguments    : string ipnumber - the ip number to check.
+ * Returns      : int - 0 - all connections are allowed.
+ *                      1 - no connection is allowed.
+ *                      2 - connections are allowed, but no new players.
+ */

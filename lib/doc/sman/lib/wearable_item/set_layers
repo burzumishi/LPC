@@ -1,0 +1,8 @@
+113:/lib/wearable_item.c (/lib/wearable_item.c)
+(public void) set_layers(int l)
+/*
+ * Function name: set_layers
+ * Description:   Indicate how many layers or how thick this item
+ *                is.
+ * Arguments:     int l - the number of layers
+ */

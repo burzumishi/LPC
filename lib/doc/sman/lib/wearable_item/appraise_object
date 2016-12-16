@@ -1,0 +1,14 @@
+623:/lib/wearable_item.c (/lib/wearable_item.c)
+(void) appraise_object(int num)
+/*
+ * Function name: appraise_object
+ * Description  : When you inherit /lib/wearable_item.c into any object
+ *                other than /std/armour.c you MUST also define the function
+ *                appraise_object() as copy of this function. It MUST make
+ *                the call to appraise_wearable_item() as well. If you omit
+ *                this, then the player will not be able to appraise this
+ *                item properly.
+ *                PS: This is just a dummy function. It does not exist. You
+ *                    must write your own as copy of this one.
+ * Arguments    : int num - the semi-randomised appraise skill.
+ */

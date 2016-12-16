@@ -1,0 +1,12 @@
+1393:/secure/master/fob.c (/secure/master.c)
+(public void) bookkeep_exp(string type, int exp)
+/*
+ * Function name: bookkeep_exp
+ * Description  : Note the xp domains give to the mortals and what kind.
+ *                This is not saved each time to KEEPERSAVE, we trust it
+ *                to be saved at one time or other. Exact bookkeeping is not
+ *                absolutely crucial and it would take a lot of time.
+ * Arguments    : string type - the type of experience being added, can
+ *                    be "quest", "combat" and general".
+ *                int exp - the amount of experience added.
+ */

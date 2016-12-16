@@ -1,0 +1,10 @@
+1444:/std/object.c (/std/object.c)
+(public void) set_pshort(mixed pshort)
+/*
+ * Function name: set_pshort
+ * Description  : This function sets the plural short description of the
+ *                object.
+ * Arguments    : mixed pshort - the plural short description in either a
+ *                               string or VBFC in string or functionpointer
+ *                               form.
+ */

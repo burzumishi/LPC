@@ -1,0 +1,9 @@
+167:/lib/pub.c (/lib/pub.c)
+(int) order(string str)
+/*
+ * Function name: order
+ * Description:   The player has ordered something, let's see if we can satisfy
+ *		  him.
+ * Arguments:	  str - The order from the player
+ * Returns:	  1 or 0
+ */

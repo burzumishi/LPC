@@ -1,0 +1,8 @@
+287:/std/potion.c (/std/potion.c)
+(void ) set_soft_amount(int i)
+/*
+/*
+ * Function name: set_soft_amount
+ * Description:   Set the soft amount of the potion
+ * Argument:      int - the soft amount
+ */

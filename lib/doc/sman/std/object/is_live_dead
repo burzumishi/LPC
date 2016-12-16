@@ -1,0 +1,15 @@
+2427:/std/object.c (/std/object.c)
+(int) is_live_dead(object obj, int what)
+/*
+ * Function name: is_live_dead
+ * Description  : This function can be used to check whether an object
+ *                is a living object or whether it is non-living. Basically
+ *                it checks whether the outcome for living(obj) is equal to
+ *                the second argument "what".
+ * Arguments    : object obj - the object to check.
+ *                int what   - when 1, return whether obj is living, when 0
+ *                             return whether obj is dead. Note: other "true"
+ *                             values for "what" will not work.
+ * Returns      : int 1/0 - living/dead if "what" is 1, dead/living if
+ *                          "what" is 0.
+ */

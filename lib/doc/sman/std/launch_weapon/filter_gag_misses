@@ -1,0 +1,9 @@
+2071:/std/launch_weapon.c (/std/launch_weapon.c)
+(private int ) filter_gag_misses(object person)
+/*
+ * Function name: filter_gag_misses
+ * Description  : Returns true if player wants to see misses..
+ *                
+ * Arguments    : person: Player to check for OPT_GAG_MISSES.
+ * Returns      : int:    True if player wants to see misses.
+ */

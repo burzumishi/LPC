@@ -1,0 +1,10 @@
+151:/secure/master/player.c (/secure/master.c)
+(public mixed) query_second_info(string first, string second)
+/*
+ * Function name: query_second_info
+ * Description  : Obtain more information about a second, namely the person
+ *                who registered it, and when.
+ * Arguments    : string first - the lower case name of the first player.
+ *                string second - the lower case name of the second player.
+ * Returns      : mixed - ({ string name, int time })
+ */

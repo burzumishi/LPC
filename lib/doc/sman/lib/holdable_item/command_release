@@ -1,0 +1,9 @@
+286:/lib/holdable_item.c (/lib/holdable_item.c)
+(nomask mixed) command_release()
+/*
+ * Function name: command_release
+ * Description  : Function is called when the player wants to release the
+ *                item held. It will make some checks and actually release
+ *                the item when succesful.
+ * Returns      : string / int - string fail message, or 1 when successful.
+ */

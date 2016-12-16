@@ -1,0 +1,7 @@
+85:/std/heap.c (/std/heap.c)
+(public int) heap_weight()
+/*
+ * Function name: heap_weight
+ * Description  : The weight of the heap, used by OBJ_I_WEIGHT
+ * Returns      : int - the weight of the heap, in grams.
+ */

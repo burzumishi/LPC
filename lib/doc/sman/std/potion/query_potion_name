@@ -1,0 +1,7 @@
+160:/std/potion.c (/std/potion.c)
+(string) query_potion_name()
+/*
+ * Function name: query_potion_name
+ * Description:   What is the true name of the potion
+ * Returns:	  The name of the potion
+ */

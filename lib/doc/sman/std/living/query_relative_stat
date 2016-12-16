@@ -1,0 +1,9 @@
+151:/std/living/stats.c (/std/living.c)
+(public int) query_relative_stat(int stat)
+/*
+ * Function name: query_relative_stat
+ * Description  : Calculate the relative stat value (percentage) of a stat
+ *                compared to the average stat. Default: 100
+ * Arguments    : int stat - the stat to query.
+ * Returns      : int - the relative stat value as percentage.
+ */

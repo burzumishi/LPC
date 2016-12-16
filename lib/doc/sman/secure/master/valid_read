@@ -1,0 +1,10 @@
+677:/secure/master.c (/secure/master.c)
+(int) valid_read(string file, mixed reader, string func)
+/*
+ * Function name: valid_read
+ * Description  : Checks if a certain user has the right to read a file.
+ * Arguments    : string path  - path name of the file to be read.
+ *                mixed reader - the object or name of the reader.
+ *                string func  - the calling function.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

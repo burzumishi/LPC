@@ -1,0 +1,15 @@
+1144:/std/object.c (/std/object.c)
+(public void) set_pname(mixed pname)
+/*
+ * Function name: set_pname
+ * Description  : Sets the plural form of the name(s) of the object. This is
+ *                used when refering to the object in plural. set_pname can
+ *                be called repeatedly to add more plural names. By setting
+ *                the names, they are added on top of the list.
+ *
+ * Notice       : All names set with set_name() will all have a plural
+ *                equivalent generated.
+ *
+ * Arguments    : mixed name - accepts both a string or an array of string
+ *                    with the name(s) to add as plural name.
+ */

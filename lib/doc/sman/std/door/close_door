@@ -1,0 +1,7 @@
+511:/std/door.c (/std/door.c)
+(int) close_door(string arg)
+/*
+ * Function name: close_door
+ * Description:   Close the door.
+ * Arguments:	  arg - arguments given
+ */

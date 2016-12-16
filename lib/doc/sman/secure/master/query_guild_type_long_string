@@ -1,0 +1,10 @@
+314:/secure/master/guild.c (/secure/master.c)
+(public string) query_guild_type_long_string(int type)
+/*
+ * Function name: query_guild_type_long_string
+ * Description  : Query the type of a particular guild. The result is a string
+ *                with the full type name for each registered type. The list
+ *                is capitalized and comma separated.
+ * Arguments    : int type - the type to convert.
+ * Returns      : string - the type of the guild, else "".
+ */

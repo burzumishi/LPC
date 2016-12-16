@@ -1,0 +1,8 @@
+767:/std/heap.c (/std/heap.c)
+(int) add_prop_obj_i_value(mixed val)
+/*
+ * Function name: add_prop_obj_i_value
+ * Description:   Hook to avoid wrong settings of OBJ_I_VALUE in a heap
+ * Arguments:     val - The value OBJ_I_VALUE is intended to be set to
+ * Returns:          1 - If OBJ_I_VALUE shouldn't get this new setting.
+ */

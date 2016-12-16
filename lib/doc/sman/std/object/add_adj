@@ -1,0 +1,10 @@
+1373:/std/object.c (/std/object.c)
+(public void) add_adj(mixed adj)
+/*
+ * Function name: add_adj
+ * Description  : This function adds adjectives to the list of adjectives
+ *                of this object. The adjectives are added to the end of
+ *                the list.
+ * Arguments    : mixed adj - either a string or array of string with the
+ *                            adjectives to add.
+ */

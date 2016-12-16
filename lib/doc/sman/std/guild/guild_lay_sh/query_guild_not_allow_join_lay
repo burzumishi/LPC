@@ -1,0 +1,10 @@
+131:/std/guild/guild_lay_sh.c (/std/guild/guild_lay_sh.c)
+(public int) query_guild_not_allow_join_lay(object player, string type, string style, 			       string name)
+/*
+ * Function name: query_allow_join_lay
+ * Description:   Test if this guild allowed a player to join another
+ * Arguments:     type  - the type of guild to join
+ * 		  style - the style of the guild
+ *		  name  - the name
+ * Returns:       1 - I do not allow member to join another guild
+ */

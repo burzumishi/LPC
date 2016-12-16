@@ -1,0 +1,7 @@
+117:/std/scroll.c (/std/scroll.c)
+(void) set_autoload()
+/*
+ * Function name: set_autoload
+ * Description  : If you call this function the scroll will become
+ *                autoloadable.
+ */

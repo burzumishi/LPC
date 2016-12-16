@@ -1,0 +1,10 @@
+232:/secure/master/player.c (/secure/master.c)
+(public int) remove_second(string first, string second)
+/*
+ * Function name: remove_second
+ * Description  : Called (from the wizard soul) to remove a second from a
+ *                certain first. Note that the order is relevant.
+ * Arguments    : string first - the lower case name of the first player.
+ *                string second - the lower case name of the second player.
+ * Returns      : int 1/0 - success/failure.
+ */

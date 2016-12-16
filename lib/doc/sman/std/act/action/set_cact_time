@@ -1,0 +1,7 @@
+122:/std/act/action.c (/std/act/action.c)
+(void) set_cact_time(int tim)
+/*
+ * Function name: set_cact_time
+ * Description:   Set the number of SEQ_SLOW iterations to wait between cacts.
+ * Arguments:     tim: Intervall
+ */

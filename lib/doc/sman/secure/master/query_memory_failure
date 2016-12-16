@@ -1,0 +1,6 @@
+2175:/secure/master.c (/secure/master.c)
+(public int) query_memory_failure()
+/*
+ * Function name: query_memory_failure
+ * Description:   This function returns 1 if memory failure is detected.
+ */

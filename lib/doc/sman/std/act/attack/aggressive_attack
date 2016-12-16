@@ -1,0 +1,7 @@
+77:/std/act/attack.c (/std/act/attack.c)
+(public void) aggressive_attack(object ob)
+/*
+ * Function name: aggressive_attack
+ * Description  : We are aggressive, let us attack anyone in sight.
+ * Arguments    : object ob - the object to attack.
+ */

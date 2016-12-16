@@ -1,0 +1,8 @@
+171:/std/heap.c (/std/heap.c)
+(public varargs void) reduce_heap_size(int num = 1)
+/*
+ * Function name: reduce_heap_size
+ * Description  : This reduces the heap with a certain number. If the heap is
+ *                not big enough, it will be removed completely.
+ * Arguments    : int num - the number of items to remove (default = 1).
+ */

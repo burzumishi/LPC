@@ -1,0 +1,7 @@
+448:/lib/shop.c (/lib/shop.c)
+(string) query_store_room()
+/*
+ * Function name: query_store_room
+ * Description:   What store room do we use?
+ * Returns:	  The file name to the store room
+ */

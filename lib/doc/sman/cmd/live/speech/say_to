@@ -1,0 +1,12 @@
+782:/cmd/live/speech.c (/cmd/live/speech.c)
+(public int) say_to(string str, function display_speech)
+/*
+ * Function name: say_to
+ * Description  : This function is called whenever the player starts his
+ *                speech with 'to'. This usually indicates that the player
+ *                wants to say something to some people in particular.
+ * Arguments    : string str - the text to say (not including 'to').
+ *                function display_speech - the routine to be called to
+ *                    display the speech.
+ * Returns      : int 1/0 - success/failure.
+ */

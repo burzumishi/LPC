@@ -1,0 +1,6 @@
+1101:/std/door.c (/std/door.c)
+(void) set_other_room(string name)
+/*
+ * Function name: set_other_room
+ * Description:   Set which rooms is on the other side
+ */

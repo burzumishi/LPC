@@ -1,0 +1,10 @@
+884:/secure/master/fob.c (/secure/master.c)
+(static int) rename_wizard(string oldname, string newname)
+/*
+ * Function name: rename_wizard
+ * Description  : A service function to update the name of the wizard in
+ *                case a wizard changes his/her name. It makes no validity
+ *                checks.
+ * Arguments    : string oldname - the old name of the wizard.
+ *                string newname - the new name of the wizard.
+ */

@@ -1,0 +1,8 @@
+168:/std/potion.c (/std/potion.c)
+(void) set_id_long(string str)
+/*
+ * Function name: set_id_long
+ * Description:   Set the long description you see if you know
+ *                what potion it is.
+ * Arguments:     str - The description
+ */

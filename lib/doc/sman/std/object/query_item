@@ -1,0 +1,14 @@
+1785:/std/object.c (/std/object.c)
+(public mixed) query_item()
+/*
+ * Function name: query_item
+ * Description:   Get the additional items array.
+ * Returns:       Item array, see below:
+
+  [0] = array
+     [0] ({ "name1 of item1", "name2 of item1",... })
+     [1] "This is the description of the item1."
+  [1] = array
+     [0] ({ "name1 of item2", "name2 of item2", ... })
+     [1] "This is the description of the item2."
+*/

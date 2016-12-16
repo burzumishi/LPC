@@ -1,0 +1,11 @@
+528:/std/torch.c (/std/torch.c)
+(public void) enter_env(object to, object from)
+/*
+ * Function name: enter_env
+ * Description  : A torch that is burned out will decay after some time. The
+ *                decaying starts when the object is put in a room, and it
+ *                stops again when picked up. Check query_torch_may_decay()
+ *                to see if it is allowed to decay.
+ * Arguments    : object to - where the torch is going.
+ *                object from - where the torch comes from.
+ */

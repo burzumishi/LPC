@@ -1,0 +1,6 @@
+2165:/secure/master.c (/secure/master.c)
+(public int) query_memory_limit()
+/*
+ * Function name: query_memory_limit
+ * Description:   This function returns the current memory limit.
+ */

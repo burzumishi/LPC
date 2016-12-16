@@ -1,0 +1,6 @@
+291:/std/armour.c (/std/armour.c)
+(void) set_am(int *list)
+/*
+ * Function name: set_am
+ * Description:   Set the modifyers for different attacks
+ */

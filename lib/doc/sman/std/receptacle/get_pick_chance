@@ -1,0 +1,10 @@
+1010:/std/receptacle.c (/std/receptacle.c)
+(public nomask string) get_pick_chance(int pick_val)
+/*
+ * Function name: get_pick_chance
+ * Description  : Make a string from the difference in pick-skill of the
+ *                player and pick-level of the container for the appraise
+ *                by the player
+ * Arguments    : pick_val - the mentioned difference
+ * Returns      : string   - a nice string with the mentioned description.
+ */

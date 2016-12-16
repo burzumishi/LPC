@@ -1,0 +1,8 @@
+791:/std/weapon.c (/std/weapon.c)
+(int) set_dull(int du)
+/*
+ * Function name: set_dull
+ * Description  : Use this to increases the dull status on weapons.
+ * Arguments    : int cond - The new condition we want (can only be raised)
+ * Returns      : int - 1 if new condition accepted, 0 if not.
+ */

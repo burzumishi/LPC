@@ -1,0 +1,16 @@
+1236:/std/object.c (/std/object.c)
+(varargs void) set_name(mixed name, int noplural)
+/*
+ * Function name: set_name
+ * Description  : Sets the name(s) of the object. This is the name that
+ *                the object can be referenced by. set_name can be called
+ *                repeatedly to add more names.
+ *
+ * Notice       : Calling set_name() will automatically set the plural name
+ *                unless the argument 'noplural' is set.
+ *
+ * Arguments    : mixed name - accepts both a string or an array of string
+ *                    with the name(s) to set as name.
+ *                int noplural - if true, then no plural name(s) will be added
+ *                    for these names.
+ */

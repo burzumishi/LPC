@@ -1,0 +1,8 @@
+314:/std/living.c (/std/living.c)
+(void) set_tell_active(int i)
+/*
+ * Function name: set_tell_active
+ * Description:   Sets the tell_active_flag so that catch_msg() will send
+ *                all messages to us.
+ * Arguments:     i - a number, 1 or 0, on or off
+ */

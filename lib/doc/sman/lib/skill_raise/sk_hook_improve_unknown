@@ -1,0 +1,8 @@
+487:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_hook_improve_unknown(string skill)
+/*
+ * Function name: sk_hook_improve_unknown
+ * Description  : Player wants to improve a skill he has never learned.
+ * Arguments    : string skill - the skill the player tried to improve.
+ * Returns      : int 0 - as always with notify_fail.
+ */

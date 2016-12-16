@@ -1,0 +1,7 @@
+156:/lib/bank.c (/lib/bank.c)
+(void) bank_hook_no_idea()
+/*
+ * Function name: bank_hook_no_idea
+ * Description:   When there is no idea to minimize since it will all be
+ *   		  eaten up by the tax
+ */

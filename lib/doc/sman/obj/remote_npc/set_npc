@@ -1,0 +1,8 @@
+78:/obj/remote_npc.c (/obj/remote_npc.c)
+(public void) set_npc(object monster)
+/*
+ * Function name: set_npc
+ * Description  : This function is called to set the monster being linked
+ *                to this object and therewith be controlled.
+ * Arguments    : object monster - the monster to be controlled.
+ */

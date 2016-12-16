@@ -1,0 +1,6 @@
+293:/std/act/seqaction.c (/std/act/seqaction.c)
+(int) seq_query_flags(string name)
+/*
+ *  Description: Returns the flags for a given sequence.
+ *
+ */

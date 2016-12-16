@@ -1,0 +1,12 @@
+533:/std/combat/cbase.c (/std/combat/cbase.c)
+(public int) cb_tohit(int aid, int wchit, object vic)
+/*
+ * Function name: cb_tohit
+ * Description:   Decide if we hit our victim or not. This should depend
+ *                on wchit and skill/stat differences me/victim
+ * Arguments:     aid:   The attack id
+ *                wchit: Weapon class 'to hit'
+ *                vic:   The intended victim
+ * Returns:       True if hit, otherwise a negative value indicating how much
+ *                we failed.
+ */

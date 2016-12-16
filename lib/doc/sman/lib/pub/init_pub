@@ -1,0 +1,7 @@
+20:/lib/pub.c (/lib/pub.c)
+(void) init_pub()
+/*
+ * Function name: init_pub
+ * Description:   This function adds the buy and order command to this_player()
+ *		  call it from your init()
+ */

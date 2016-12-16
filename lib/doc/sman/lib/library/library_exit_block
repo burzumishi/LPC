@@ -1,0 +1,9 @@
+1921:/lib/library.c (/lib/library.c)
+(public int) library_exit_block()
+/*
+ * Function name: library_exit_block
+ * Description:   Returns true if this_player() is in possession of
+ *                a book from this library.  It can be used as a block
+ *                function for library exits.
+ * Returns:       1/0 - library book possessed/not possessed
+ */

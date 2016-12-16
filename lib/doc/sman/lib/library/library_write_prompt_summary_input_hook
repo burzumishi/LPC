@@ -1,0 +1,7 @@
+530:/lib/library.c (/lib/library.c)
+(public void) library_write_prompt_summary_input_hook()
+/*
+ * Function name: library_write_prompt_summary_input_hook
+ * Description:   Redefine this to alter the message given to prompt
+ *                the user to input a book summary
+ */

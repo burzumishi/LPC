@@ -1,0 +1,10 @@
+48:/lib/keep.c (/lib/keep.c)
+(nomask int) query_keepable()
+/* 
+ * Function name: query_keepable
+ * Description  : This function will always return true to signal that the
+ *                object it is called in is indeed keepable. Notice that this
+ *                does not say anything on whether the object is actually
+ *                keep-protected at this point.
+ * Returns      : int 1 - always.
+ */

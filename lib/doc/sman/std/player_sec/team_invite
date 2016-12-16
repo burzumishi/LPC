@@ -1,0 +1,10 @@
+21:/std/player/pcombat.c (/std/player_sec.c)
+(public void) team_invite(object member)
+/*
+ * Function name:   team_invite
+ * Description:     Invites a new member to my team. This does NOT join the
+ *                  member to my team. It only makes it possible for the
+ *                  player to join my team.
+ * Arguments:	    member: The objectpointer to the invited member.
+ *                          If member == 0, the invited list is cleared.
+ */

@@ -1,0 +1,7 @@
+150:/lib/shop.c (/lib/shop.c)
+(void) shop_hook_sell_get_money(string str)
+/*
+ * Function name: shop_hook_sell_get_money
+ * Description:   Called when player gets money for the stuff he sold
+ * Arguments:     str - String describing the money he got
+ */

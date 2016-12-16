@@ -1,0 +1,10 @@
+47:/std/player/quicktyper.c (/std/player_sec.c)
+(nomask public string) modify_command(string str)
+/*
+ * Function name: modify_command
+ * Description  : This function is called when it is time to modify a
+ *                command. It resolves aliases and takes care of the
+ *                remaining history functionality.
+ * Arguments    : string str - The command to modify.
+ * Returns      : string     - The modified command.
+ */

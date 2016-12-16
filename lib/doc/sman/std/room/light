@@ -1,0 +1,8 @@
+184:/std/room.c (/std/room.c)
+(nomask int) light()
+/*
+ * Function name: light
+ * Description:   Returns the light status in this room
+ *                This function is called from query_prop() only.
+ * Returns:	  Light value
+ */

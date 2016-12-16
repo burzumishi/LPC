@@ -1,0 +1,19 @@
+2026:/std/launch_weapon.c (/std/launch_weapon.c)
+(nomask void) tell_bystanders_hit(string see_both, string see_archer, 		    string see_target, string see_noone, 		    object archer, object target, object env)
+/*
+ * Function name: tell_bystanders_hit
+ * Description:   Send the appropriate string to interactive bystanders
+ *                that want to see misses and want to see others fight.
+ *                
+ * Arguments:     see_both:   The string to send to those that see both
+ *                            target and archer.
+ *                see_archer: The string to send to those that see the
+ *                            archer only.
+ *                see_target: The string to send to those that see the
+ *                            target only.
+ *                see_noone:  The string to send to those that see neither
+ *                            of the combatants or don't see in the room.
+ *                archer:     The archer.
+ *                target:     The target.
+ *                env:        The room containing the bystanders.
+ */

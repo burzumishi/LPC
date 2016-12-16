@@ -1,0 +1,8 @@
+90:/std/combat/cplain.c (/std/combat/cplain.c)
+(public int) cb_remove_hitloc(int id)
+/*
+ * Function name: cb_remove_hitloc
+ * Description:   Removes a specific hit location
+ * Arguments:     id: The hitloc id
+ * Returns:       True if removed
+ */

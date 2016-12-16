@@ -1,0 +1,8 @@
+1757:/secure/master/fob.c (/secure/master.c)
+(string) query_wiz_chl(string wname)
+/*
+ * Function name: query_wiz_chl
+ * Description  : Return the name of the level changer.
+ * Arguments    : string wname - the wizard.
+ * Returns      : string - the changer.
+ */

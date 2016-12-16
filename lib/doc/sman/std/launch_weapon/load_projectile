@@ -1,0 +1,7 @@
+1446:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask void) load_projectile()
+/*
+ * Function name: load_projectile
+ * Description  : Loads the launch_weapon with a missile from the currently
+ *                selected projectile stack.
+ */

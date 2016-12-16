@@ -1,0 +1,8 @@
+141:/std/combat/cplain.c (/std/combat/cplain.c)
+(public string) cb_attack_desc(int aid)
+/*
+ * Function name: cb_attack_desc
+ * Description:   Gives the description of a certain attack slot.
+ * Arguments:     aid:   The attack id
+ * Returns:       string holding description
+ */

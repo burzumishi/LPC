@@ -1,0 +1,9 @@
+125:/cmd/std/tracer_tool_base.c (/cmd/std/tracer_tool_base.c)
+(void) assign(string var, mixed val)
+/*
+ * Function name: assign
+ * Description  : This function will assign tracer values to special tracer
+ *                variables stored in a player as properties.
+ * Arguments    : string var - the name of the variable.
+ *                mixed val  - the tracer value to store.
+ */

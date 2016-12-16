@@ -1,0 +1,7 @@
+385:/lib/herb_support.c (/lib/herb_support.c)
+(mixed *) query_effect()
+/*
+ * Function name: query_effect
+ * Description:   Get the effect array
+ * Returns:       The array
+ */

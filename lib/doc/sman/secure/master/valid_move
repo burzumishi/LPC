@@ -1,0 +1,10 @@
+948:/secure/master.c (/secure/master.c)
+(int) valid_move(object ob, object dest)
+/*
+ * Function name: valid_move
+ * Description  : This function is called by the gamedriver to see whether
+ *                it is possible to move an object to a destination.
+ * Arguments    : object ob   - the object to move.
+ *                object dest - the intended destination.
+ * Arguments    : int 1/0 - allowed/disallowed.
+ */

@@ -1,0 +1,8 @@
+630:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_cannot_deliver_player_linkdead(string who)
+/*
+ * Function:    hook_cannot_deliver_player_linkdead
+ * Description: Hook that gets called to display that the messenger cannot
+ *              deliver to someone who is LD
+ * Arguments:   string who - the name of the recipient.
+ */

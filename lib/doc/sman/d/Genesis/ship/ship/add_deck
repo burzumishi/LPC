@@ -1,0 +1,7 @@
+645:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) add_deck(mixed x)
+/*
+ * Function name: add_deck
+ * Description:   Add another deck room to the array
+ * Arguments:     x - Either pathname or an object
+ */

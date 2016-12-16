@@ -1,0 +1,9 @@
+238:/lib/skill_raise.c (/lib/skill_raise.c)
+(public varargs int ) sk_query_max(int snum, int silent)
+/*
+ * Function name: sk_query_max
+ * Description  : Give the max skill we can teach to for a skill.
+ * Arguments    : int snum - the skill-number to check.
+ *                int silent - don't tell anything to the player if true.
+ * Returns      : int - the maximum you can train the skill to.
+ */

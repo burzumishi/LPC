@@ -1,0 +1,8 @@
+74:/std/torch.c (/std/torch.c)
+(public void) reset_torch()
+/*
+ * Function name: reset_torch
+ * Description  : Since you may not mask reset_object() in torches, you have
+ *                to redefine this function. Use enable_reset() to make the
+ *                torch actually reset itself.
+ */

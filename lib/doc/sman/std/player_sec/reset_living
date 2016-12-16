@@ -1,0 +1,6 @@
+1174:/std/player_sec.c (/std/player_sec.c)
+(public nomask void) reset_living()
+/*
+ * Function name: reset_living
+ * Description  : We don't want people to mask this function.
+ */

@@ -1,0 +1,8 @@
+534:/std/poison_effect.c (/std/poison_effect.c)
+(public string) no_drop()
+/*
+ * Function name: no_drop
+ * Description  : Give correct fail message when a player tries to drop it.
+ *                We do this to keep poisons invisible.
+ * Returns      : string - the fail message.
+ */

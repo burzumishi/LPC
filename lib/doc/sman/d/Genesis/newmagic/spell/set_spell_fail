@@ -1,0 +1,9 @@
+360:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_fail(mixed fail)
+/*
+ * Function name: set_spell_fail
+ * Description:   Designate a special message to be used when the spell fails.
+ * Arguments:     1. (function) A function which can be called to obtain the
+                                failure message.
+ *                   (string)   A static failure message.
+ */

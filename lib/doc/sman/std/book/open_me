@@ -1,0 +1,6 @@
+70:/std/book.c (/std/book.c)
+(void) open_me()
+/*
+ * Function name: open_me
+ * Description:   opens the book (at page one!)
+ */

@@ -1,0 +1,7 @@
+422:/std/room/description.c (/std/room.c)
+(int) query_searched()
+/*
+ * Function name: query_searched
+ * Description:   Query for the search number
+ * Returns:       The search number
+ */

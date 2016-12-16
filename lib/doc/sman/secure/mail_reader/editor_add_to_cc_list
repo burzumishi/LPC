@@ -1,0 +1,7 @@
+1981:/secure/mail_reader.c (/secure/mail_reader.c)
+(public void) editor_add_to_cc_list(string *names)
+/*
+ * Function name: editor_add_to_cc_list
+ * Description  : From the editor, we may add names to the CC-list.
+ * Arguments    : string *names - the names to add to the CC-list.
+ */

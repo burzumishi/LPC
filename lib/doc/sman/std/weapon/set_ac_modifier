@@ -1,0 +1,11 @@
+1207:/std/weapon.c (/std/weapon.c)
+(public nomask void) set_ac_modifier(int ac_mod)
+/*
+ * Function name: set_ac_modifier
+ * Description  : A modifier on the armour class for the weapon. A weapon by
+ *                default has an AC related to the weapon to-hit value. When
+ *                setting this value, you must document in the code why you
+ *                change it, especially if you set it to a positive value.
+ *                The modifier is added to the calculated AC value.
+ * Arguments    : int ac_mod - the modifier, in range -10 .. 5
+ */

@@ -1,0 +1,8 @@
+310:/std/player/cmd_sec.c (/std/player_sec.c)
+(nomask int) quit(string str)
+/*
+ * Function name: quit
+ * Description:	  The standard routine when quitting. You cannot quit while
+ *                you are in direct combat.
+ * Returns:	  1 - always.
+ */

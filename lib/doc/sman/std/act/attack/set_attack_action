@@ -1,0 +1,7 @@
+53:/std/act/attack.c (/std/act/attack.c)
+(public void) set_attack_action(mixed act)
+/*
+ * Function name: set_attack_action
+ * Description:   Commands the monster will do as they attack.
+ * Arguments:	  act - Command, array of commands, or vbfc of either.
+ */

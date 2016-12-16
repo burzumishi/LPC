@@ -1,0 +1,8 @@
+101:/std/domain_link.c (/std/domain_link.c)
+(public void) preload_link()
+/*
+ * Function name: preload_link
+ * Description  : This function should be masked by domains that want to
+ *                preload some files at boot time. It should contain only
+ *                calls to the function preload().
+ */

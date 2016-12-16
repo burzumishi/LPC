@@ -1,0 +1,9 @@
+701:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_deliver_message_failure(object sender)
+/*
+ * Function:    hook_deliver_message_failure
+ * Description: Hook that gets called to display the message of the
+ *              the messenger being unable to deliver the message and
+ *              returning to the sender.
+ * Arguments:   object sender - the person who sent the message
+ */

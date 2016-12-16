@@ -1,0 +1,6 @@
+1410:/secure/master.c (/secure/master.c)
+(string ) make_path_absolute(string path)
+/*
+ * Convert a possibly relative path to an absolute path. We can assume
+ * that there is a this_player(). This is called from within the editor.
+ */

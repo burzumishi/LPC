@@ -1,0 +1,19 @@
+386:/std/projectile.c (/std/projectile.c)
+(public varargs void ) projectile_hit_target(object archer, int aid, string hdesc, int phurt,  		      object enemy, int dt, int phit, int dam, int hid)
+/*
+ * Function name: projectile_hit_target
+ * Description  : A hook that is called in projectiles when it hits a target.
+ *                The hook is meant to be redefined to enable special effects
+ *                like poisoned projectiles.
+ *
+ * Arguments:     attacker: The attacker shooting this missile.
+ *                aid:      The attack id
+ *                hdesc:    The hitlocation description.
+ *                phurt:    The %hurt made on the enemy
+ *                enemy:    The enemy who got hit
+ *                dt:       The current damagetype
+ *                phit:     The %success that we made with our weapon
+ *                dam:      The actual damage caused by this weapon in hit
+ *                          points.
+ *                hid:      The hit location id.
+ */

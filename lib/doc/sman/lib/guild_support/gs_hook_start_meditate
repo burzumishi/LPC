@@ -1,0 +1,7 @@
+299:/lib/guild_support.c (/lib/guild_support.c)
+(void) gs_hook_start_meditate()
+/*
+ * Function name: gs_hook_start_meditate
+ * Description  : This hook is called when player starts to meditate. You can
+ *                mask this function to give a different message.
+ */

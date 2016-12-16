@@ -1,0 +1,13 @@
+585:/obj/data_edit.c (/obj/data_edit.c)
+(static nomask void) data_set(string str)
+/*
+ * Function name: data_set
+ * Description  : This function allows you to assign a variable to a certain
+ *                value. The format is
+ *                    <variable> <expression>
+ *                where <variable> is the variable to assign the value to.
+ *                It may contain the index to a mapping. The value <expression>
+ *                may include all types or expressions as long as it does not
+ *                contain variable-references.
+ * Arguments    : string str - the argument to the command set.
+ */

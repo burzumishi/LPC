@@ -1,0 +1,8 @@
+283:/secure/mail_reader.c (/secure/mail_reader.c)
+(public string) long_description()
+/*
+ * Function name: long_description
+ * Description  : Make a user-dependant long description. Wizards have
+ *                more commands.
+ * Returns      : string - the long description
+ */

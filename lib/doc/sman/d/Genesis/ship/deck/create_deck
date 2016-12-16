@@ -1,0 +1,6 @@
+56:/d/Genesis/ship/deck.c (/d/Genesis/ship/deck.c)
+(public void) create_deck()
+/*
+ * Function name: create_deck
+ * Description  : Create the shipdeck
+ */

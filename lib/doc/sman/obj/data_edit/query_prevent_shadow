@@ -1,0 +1,8 @@
+802:/obj/data_edit.c (/obj/data_edit.c)
+(public nomask int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : This function prevents all other objects from shadowing
+ *                this object.
+ * Returns      : int 1 - always.
+ */

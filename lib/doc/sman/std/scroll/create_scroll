@@ -1,0 +1,7 @@
+45:/std/scroll.c (/std/scroll.c)
+(void) create_scroll()
+/*
+ * Function name: create_scroll
+ * description  : Create the scroll. You should redefine this function if
+ *                you want to create the scroll.
+ */

@@ -1,0 +1,8 @@
+54:/std/living/gender.c (/std/living.c)
+(public string) query_objective()
+/*
+ * Function name:   query_objective
+ * Description:     Returns the objective that goes with the gender of this
+ *                  living.
+ * Returns:         "him", "her" or "it", depending on gender.
+ */

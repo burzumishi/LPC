@@ -1,0 +1,7 @@
+122:/std/spells.c (/std/spells.c)
+(void) list_spells()
+/*
+ * Function name: list_spells
+ * Description:   This function is called to list the spells from
+ *		  the player soul when the command "spells" is typed.
+ */

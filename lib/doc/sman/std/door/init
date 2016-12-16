@@ -1,0 +1,6 @@
+360:/std/door.c (/std/door.c)
+(void) init()
+/*
+ * Function name: init
+ * Description:   Initalize the door actions
+ */

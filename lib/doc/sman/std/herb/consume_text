@@ -1,0 +1,8 @@
+403:/std/herb.c (/std/herb.c)
+(void) consume_text(object *arr, string verb)
+/*
+ * Function name: consume_text
+ * Description  : Called when the player eats one or more herbs.
+ * Arguments    : object *arr - the herbs eaten.
+ *                string verb - the verb used for eating.
+ */

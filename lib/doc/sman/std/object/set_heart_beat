@@ -1,0 +1,8 @@
+92:/std/object.c (/std/object.c)
+(nomask int) set_heart_beat(mixed repeat, string func = "heart_beat")
+/*
+ * Function name: set_heart_beat
+ * Description:   Emulate old heartbeat code
+ * Arguments:     repeat - 1 to enable, 0 to disable
+ * Returns:       Return value from set_alarm()
+ */

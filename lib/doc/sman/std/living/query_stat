@@ -1,0 +1,8 @@
+220:/std/living/stats.c (/std/living.c)
+(public int) query_stat(int stat)
+/*
+ * Function name: query_stat
+ * Description  : Get the compound value of a stat. Never less than 1.
+ * Arguments    : int stat - Which stat to find.
+ * Returns      : int - the stat value.
+ */

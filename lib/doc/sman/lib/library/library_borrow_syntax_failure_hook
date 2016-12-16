@@ -1,0 +1,10 @@
+420:/lib/library.c (/lib/library.c)
+(public int) library_borrow_syntax_failure_hook()
+/*
+ * Function name: library_borrow_syntax_failure_hook
+ * Description:   Redefine this to alter the message given when
+ *                incorrect syntax is used for the "borrow" or
+ *                "read" command
+ * Arguments:     string str - the arguments to the "borrow" command
+ * Returns:       1/0
+ */

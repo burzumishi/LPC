@@ -1,0 +1,7 @@
+350:/std/player/savevars_sec.c (/std/player_sec.c)
+(public string) query_path()
+/*
+ * Function name:   query_path
+ * Description:     Gives back the path of the current directory.
+ * Returns:         The path string
+ */

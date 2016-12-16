@@ -1,0 +1,11 @@
+125:/std/coins.c (/std/coins.c)
+(public varargs string) short(object for_object)
+/*
+ * Function name: short
+ * Description  : This function is called to get the short description of
+ *                these coins. We make it dependant on the intelligence of
+ *                the onlooker and have special cases for different numbers
+ *                of coins.
+ * Arguments    : object for_object - the object that wants to know.
+ * Returns      : string - the short string.
+ */

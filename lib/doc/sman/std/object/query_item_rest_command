@@ -1,0 +1,8 @@
+1839:/std/object.c (/std/object.c)
+(public string) query_item_rest_command()
+/*
+ * Function name: query_item_rest_command
+ * Description:   Give the rest of the command given when executing a cmditem
+ *                command, ie 'from stream' when 'get flower from stream'
+ * Returns:       The rest of the command
+ */

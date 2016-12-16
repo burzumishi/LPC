@@ -1,0 +1,6 @@
+140:/std/herb.c (/std/herb.c)
+(void) set_dryable()
+/*
+ * Function name: set_dryable
+ * Description:   Calling this function makes the herb dryable
+ */

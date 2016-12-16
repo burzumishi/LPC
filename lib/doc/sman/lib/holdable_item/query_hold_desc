@@ -1,0 +1,10 @@
+182:/lib/holdable_item.c (/lib/holdable_item.c)
+(varargs public string) query_hold_desc(object for_obj)
+/*
+ * Function name: query_hold_desc
+ * Description  : Returns the string describing how the player is holding
+ *                this item. It assumes that the object is held indeed.
+ *                Example return string: "an oil lamp in his right hand"
+ * Arguments:     object for_obj - whom the description is for
+ * Returns      : string - the description.
+ */

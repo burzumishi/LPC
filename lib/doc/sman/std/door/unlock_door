@@ -1,0 +1,7 @@
+600:/std/door.c (/std/door.c)
+(int) unlock_door(string arg)
+/*
+ * Function name: unlock_door
+ * Description:   Unlock the door.
+ * Arguments:	  arg - arguments given
+ */

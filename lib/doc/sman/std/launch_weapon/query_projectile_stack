@@ -1,0 +1,9 @@
+348:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask object) query_projectile_stack()
+/*
+ * Function name: query_projectile_stack
+ * Description  : Returns the projectile stack we use to draw projectiles
+ *                from when we shoot.
+ *
+ * Returns      : object - The currently used projectile stack.
+ */

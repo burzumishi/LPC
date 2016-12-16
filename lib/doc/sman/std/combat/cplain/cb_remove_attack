@@ -1,0 +1,8 @@
+64:/std/combat/cplain.c (/std/combat/cplain.c)
+(public int) cb_remove_attack(int id)
+/*
+ * Function name: cb_remove_attack
+ * Description:   Removes a specific attack
+ * Arguments:     id: The attack id
+ * Returns:       True if removed
+ */

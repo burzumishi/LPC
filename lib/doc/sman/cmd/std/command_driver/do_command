@@ -1,0 +1,9 @@
+54:/cmd/std/command_driver.c (/cmd/std/command_driver.c)
+(nomask public int) do_command(string verb, string arg)
+/* 
+ * Function name: do_command
+ * Description  : Perform the given command, if present.
+ * Arguments    : string verb - the verb the player executes.
+ *                string arg  - the command line argument.
+ * Returns      : int - 1/0 depending on success.
+ */

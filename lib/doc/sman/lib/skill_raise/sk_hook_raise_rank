@@ -1,0 +1,9 @@
+542:/lib/skill_raise.c (/lib/skill_raise.c)
+(void) sk_hook_raise_rank(int snum, int to_lev, int cost)
+/*
+ * Function name: sk_hook_raise_rank
+ * Description  : The player trains and pays, write something.
+ * Arguments    : int snum  - the number of the skill trained.
+ *                int to_lev - the level reached.
+ *                int cost - the price paid, in coppers.
+ */

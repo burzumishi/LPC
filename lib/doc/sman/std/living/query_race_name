@@ -1,0 +1,11 @@
+267:/std/living/savevars.c (/std/living.c)
+(public string) query_race_name()
+/*
+ * Function name: query_race_name
+ * Description  : Gives the race (species) name of this living. This may
+ *                be set with set_race_name(). For players, the value
+ *                returned for query_race() will always return one of the
+ *                default races defined by the mud. For NPC's it is the same
+ *                as query_race().
+ * Returns      : string - the race name.
+ */

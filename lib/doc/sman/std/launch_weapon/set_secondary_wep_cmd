@@ -1,0 +1,10 @@
+424:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask void) set_secondary_wep_cmd(string command)
+/*
+ * Function name: set_secondary_wep_cmd
+ * Description  : Sets the command to wield the secondary weapon to use
+ *                when we run out of projectiles or use the launch_weapon
+ *                for parries.
+ *                
+ * Arguments    : string - command to wield secondary weapon.
+ */

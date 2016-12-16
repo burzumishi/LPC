@@ -1,0 +1,6 @@
+1080:/std/door.c (/std/door.c)
+(string) query_fail_close()
+/*
+ * Function name: query_fail_close
+ * Description:   Query message when we fail to close the door
+ */

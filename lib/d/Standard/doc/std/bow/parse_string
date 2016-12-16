@@ -1,0 +1,10 @@
+177:/std/bow.c (/std/bow.c)
+(public nomask int) parse_string(string args)
+/*
+ * Function name: parse_string
+ * Description  : Parses the player input when he wants to string
+ *                a bow.
+ *                
+ * Arguments    : string - Bow to string.
+ * Returns      : 1 command handled, 0 parse failed.
+ */

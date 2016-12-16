@@ -1,0 +1,7 @@
+589:/std/living/combat.c (/std/living.c)
+(public object *) query_team()
+/*
+ * Function name: query_team
+ * Description  : Find out the members of our team (if we are the leader).
+ * Returns      : object * - the array with team members.
+ */

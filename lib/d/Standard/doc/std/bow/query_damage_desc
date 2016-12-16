@@ -1,0 +1,13 @@
+1405:/std/bow.c (/std/bow.c)
+(public string) query_damage_desc(object archer, object target, object projectile, int phurt)
+/*
+ * Function name: query_damage_desc
+ * Description  : Returns a string describing how much damage we have done.
+ *                The string should have leading and tailing spaces.
+ *
+ * Arguments    : archer:        The player loading his weapon.
+ *                target:        The target player is aiming at.
+ *                projectile:    The projectile we are loading.
+ *                phurt:         The %hurt made on the enemy.
+ * Returns      : (string) A string describing how much the arrow hurt.
+ */

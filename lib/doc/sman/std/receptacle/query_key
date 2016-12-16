@@ -1,0 +1,7 @@
+796:/std/receptacle.c (/std/receptacle.c)
+(public mixed) query_key()
+/*
+ * Function name: query_key
+ * Description  : Query the key that fits this container.
+ * REturns      : mixed - the key to the container
+ */

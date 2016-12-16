@@ -1,0 +1,12 @@
+832:/std/armour.c (/std/armour.c)
+(nomask void) may_recover()
+/*
+ * Function name: may_recover
+ * Description  : In some situations it is undesirable to have an armour 
+ *                not recover. This function may then be used to force the
+ *                armour to be recoverable.
+ *
+ *                This function may _only_ be called when a craftsman sells
+ *                in armour he created to a player! It may expressly not be
+ *                called in armours that are to be looted from NPC's!
+ */

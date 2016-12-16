@@ -1,0 +1,10 @@
+459:/obj/edit.c (/obj/edit.c)
+(static int) import(string arg)
+/*
+ * Function name: import
+ * Description  : "Normal" wizards may ftp a file into Genesis and then
+ *                import it into the editor.
+ * Arguments    : string arg - the filename of the file to import.
+ * Returns      : int        - if true, the player added an EDIT_END
+ *                             in his file, so we finish editing.
+ */

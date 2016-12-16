@@ -1,0 +1,7 @@
+428:/std/heap.c (/std/heap.c)
+(public void) force_heap_merge()
+/*
+ * Function Name: force_heap_merge
+ * Description  : Call this routine to check whether this heap can be merged
+ *                with similar heaps. Bypasses the gNoMerge variable.
+ */

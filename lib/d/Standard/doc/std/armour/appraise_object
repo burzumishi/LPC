@@ -1,0 +1,7 @@
+808:/std/armour.c (/std/armour.c)
+(void) appraise_object(int num)
+/*
+ * Function name: appraise_object
+ * Description  : Someone tries to appraise the object. We add information
+ *                about the way you should use this armour.
+ */

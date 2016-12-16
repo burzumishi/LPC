@@ -1,0 +1,6 @@
+754:/std/poison_effect.c (/std/poison_effect.c)
+(void) remove_object()
+/*
+ * Function name: remove_object
+ * Description  : This function is called when the object is removed.
+ */

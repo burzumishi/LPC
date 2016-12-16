@@ -1,0 +1,8 @@
+845:/lib/library.c (/lib/library.c)
+(public string) query_book_text(string file)
+/*
+ * Function name: query_book_text
+ * Description:   Given a book file, return the book's text
+ * Arguments:     string file - the filename for the desired book
+ * Returns:       the book's text
+ */

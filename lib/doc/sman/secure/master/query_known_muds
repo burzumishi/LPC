@@ -1,0 +1,7 @@
+4002:/secure/master.c (/secure/master.c)
+(mapping) query_known_muds()
+/*
+ * Function name: query_known_muds
+ * Description:   Give the currently known muds
+ * Returns:       A mapping of information indexed with mudnames
+ */

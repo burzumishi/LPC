@@ -1,0 +1,18 @@
+1899:/std/object.c (/std/object.c)
+(public int) add_cmd_item(mixed names, string *cmd_arr, mixed desc_arr)
+/*
+ * Function name: add_cmd_item
+ * Description:   Adds a specific item with associated commands to the
+ *                object. These are similar to the normal items but
+ *                they add commands which can then executed by players.
+ *                The first argument is a single string or an array of 
+ *                strings holding the possible name(s) of the item.
+ *                The second argument is the command / description array of 
+ *                the item. add_cmd_item can be repeatedly called with 
+ *                new items. You should _not_ use this to redefine mudlib
+ *                commands, especially not get/take/put/drop.
+ * Arguments:     names: Alternate names for the item, 
+ *                cmd_arr:  Commands to give to get the desc
+ *                desc_arr: descs of the item for each command
+ * Returns:       True or false.
+*/

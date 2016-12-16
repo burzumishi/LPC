@@ -1,0 +1,8 @@
+120:/std/living/stats.c (/std/living.c)
+(public int) query_base_stat(int stat)
+/*
+ * Function name:   query_base_stat
+ * Description:     Gives the value of a specific stat
+ * Arguments:       stat: The index in the array of stats
+ * Returns:         The value of a stat, -1 on failure.
+ */

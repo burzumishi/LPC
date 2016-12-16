@@ -1,0 +1,7 @@
+855:/lib/shop.c (/lib/shop.c)
+(int) do_value(string str)
+/*
+ * Function name:   do_value
+ * Description:     Let the player value an item, carry or in shop
+ * Returns:         1 on success
+ */

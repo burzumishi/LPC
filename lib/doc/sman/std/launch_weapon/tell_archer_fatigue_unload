@@ -1,0 +1,12 @@
+1762:/std/launch_weapon.c (/std/launch_weapon.c)
+(public void ) tell_archer_fatigue_unload(object archer, object target, object projectile)
+/*
+ * Function name: tell_archer_fatigue_unload
+ * Description  : Produces a message to the wielder that he is too tired to 
+ *                keep his launch_weapon drawn. This function is meant to be
+ *                overridden by launch_weapon implementations.
+ *                
+ * Arguments    : archer:      The tired archer.
+ *                target:      The person the wilder aimed at.
+ *                projectile:  The projectile we unload in the proccess.
+ */

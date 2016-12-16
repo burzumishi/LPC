@@ -1,0 +1,7 @@
+378:/lib/shop.c (/lib/shop.c)
+(void) shop_hook_list_object(object ob, int price)
+/*
+ * Function name: shop_hook_list_object
+ * Description:   List an object
+ * Arguments:	  ob - The object
+ */

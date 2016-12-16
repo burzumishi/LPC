@@ -1,0 +1,9 @@
+205:/secure/bit_change.c (/secure/bit_change.c)
+(nomask static int) test_bit(int group, int bit)
+/*
+ * Function name: test_bit
+ * Description  : This function tests a bit in the player.
+ * Arguments    : int group - the group to test the bit in (0 - 4).
+ *                int bit   - the bit to test in the group (0 - 19).
+ * Returns      : int 1/0 - true if the bit was set.
+ */

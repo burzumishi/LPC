@@ -1,0 +1,6 @@
+1059:/std/door.c (/std/door.c)
+(void) set_close_mess(string *mess)
+/*
+ * Function name: set_close_mess
+ * Description:   Set the message to appear when we close the door
+ */

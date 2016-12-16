@@ -1,0 +1,8 @@
+141:/lib/pub.c (/lib/pub.c)
+(int) pub_hook_invalid_order(string str)
+/*
+ * Function name: pub_hook_invalid_order
+ * Description:   Notify the player that the ordered item is not in stock.
+ * Arguments:     string str - the item the player tried to order
+ * Returns:       1/0
+ */

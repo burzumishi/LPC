@@ -1,0 +1,9 @@
+407:/std/poison_effect.c (/std/poison_effect.c)
+(string) log_player_death_extra_info()
+/*
+ * Function name: log_player_death_extra_info
+ * Description  : This function is called to query extra information about the
+ *                object that was responsible for the player death. We use it
+ *                to report more about the person/object responsible.
+ * Returns      : string - the information.
+ */

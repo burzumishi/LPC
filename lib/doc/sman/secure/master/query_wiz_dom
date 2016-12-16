@@ -1,0 +1,8 @@
+1774:/secure/master/fob.c (/secure/master.c)
+(string) query_wiz_dom(string wname)
+/*
+ * Function name: query_wiz_dom
+ * Description  : Return the domain of a wizard.
+ * Arguments    : string wname - the wizard.
+ * Returns      : string - the domain, else "".
+ */

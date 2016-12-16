@@ -1,0 +1,5 @@
+42:/lib/udp/mudlist.c (/lib/udp/mudlist.c)
+(void) send_mudlist_q(string host, mixed port)
+/*
+ * Send a mudlist query package
+ */

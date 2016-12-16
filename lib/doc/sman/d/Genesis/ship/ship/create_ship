@@ -1,0 +1,6 @@
+62:/d/Genesis/ship/ship.c (/d/Genesis/ship/ship.c)
+(public void) create_ship()
+/*
+ * Function name: create_ship
+ * Description	: Create the ship
+ */

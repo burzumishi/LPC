@@ -1,0 +1,6 @@
+1261:/std/door.c (/std/door.c)
+(void	) set_key(mixed keyval)
+/*
+ * Function name: set_key
+ * Description:   Set the number of the key that fits
+ */

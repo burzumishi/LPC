@@ -1,0 +1,7 @@
+434:/secure/master/mail_admin.c (/secure/master.c)
+(static void) purge_check_mailboxes()
+/*
+ * Function name: purge_check_mailboxes
+ * Description  : This function will check all mailboxes against the names of
+ *                the players and deletes mailboxes that do not have an owner.
+ */

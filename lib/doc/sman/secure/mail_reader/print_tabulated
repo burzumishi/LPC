@@ -1,0 +1,12 @@
+468:/secure/mail_reader.c (/secure/mail_reader.c)
+(static varargs string) print_tabulated(string to_print, int length, int no_prop)
+/*
+ * Function name: print_tabulated
+ * Description  : This can be used to have some text tabulated. The first
+ *                line of text begins left aligned and the rest of the
+ *                lines will be indented.
+ * Arguments    : string to_print - the text to parse.
+ *                int    length   - the lenfth of the tabulated space.
+ *                int    no_prop  - if true, don't use PLAYER_I_SCREEN_WIDTH
+ * Returns      : string          - the parsed text.
+ */

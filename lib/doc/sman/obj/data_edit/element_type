@@ -1,0 +1,8 @@
+380:/obj/data_edit.c (/obj/data_edit.c)
+(static nomask string) element_type(mixed element)
+/*
+ * Function name: element_type
+ * Description  : Get the type of a certain variable.
+ * Arguments    : mixed - the variable to test.
+ * Returns      : string - a description of the type.
+ */

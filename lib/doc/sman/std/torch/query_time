@@ -1,0 +1,9 @@
+215:/std/torch.c (/std/torch.c)
+(public int) query_time(int flag = 0)
+/*
+ * Function name: query_time
+ * Description:	  Query how long time the torch can burn
+ * Argument:      flag: if true, then return the time until the
+ *                torch burns out if the torch is lit
+ * Returns:       int - the time left in seconds.
+ */

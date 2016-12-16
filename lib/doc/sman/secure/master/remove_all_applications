@@ -1,0 +1,7 @@
+1213:/secure/master/fob.c (/secure/master.c)
+(static void) remove_all_applications(string wname)
+/*
+ * Function name: remove_all_applications
+ * Description  : Remove all application by a wizard from the application list.
+ * Arguments    : string wname - the name of the wizard in lower case.
+ */

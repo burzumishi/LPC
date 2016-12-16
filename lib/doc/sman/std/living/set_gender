@@ -1,0 +1,7 @@
+1365:/std/living/savevars.c (/std/living.c)
+(public void) set_gender(int g)
+/*
+ * Function name:   set_gender
+ * Description:     Set the gender code (G_MALE, G_FEMALE or G_NEUTER)
+ * Arguments:       g: The gender code
+ */

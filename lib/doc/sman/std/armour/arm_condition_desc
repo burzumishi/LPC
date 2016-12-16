@@ -1,0 +1,6 @@
+781:/std/armour.c (/std/armour.c)
+(string) arm_condition_desc()
+/*
+ * Function name: arm_condition_desc
+ * Description:   Returns the description of this armour
+ */

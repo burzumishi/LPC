@@ -1,0 +1,8 @@
+365:/std/potion.c (/std/potion.c)
+(void) quaffed_non_quaff_potion()
+/*
+ * Function name: quaffed_non_quaff_potion
+ * Description:   This function is called instead of do_herb_effects
+ *                if you quaff a potion that isn't supposed to be
+ *                quaffed.
+ */

@@ -1,0 +1,6 @@
+35:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask int) query_init_master()
+/*
+ * Function name: query_init_master
+ * Description:   Makes sure that the master object is initialized properly.
+ */

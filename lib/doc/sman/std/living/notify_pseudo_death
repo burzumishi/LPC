@@ -1,0 +1,7 @@
+222:/std/living/combat.c (/std/living.c)
+(public void) notify_pseudo_death(object killer)
+/*
+ * Function name: notify_pseudo_death
+ * Description  : Notify onlookers of my pseudo-death.
+ * Arguments    : object killer - the object that pseudo-killed me.
+ */

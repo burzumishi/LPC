@@ -1,0 +1,7 @@
+25:/secure/vbfc_object.c (/secure/vbfc_object.c)
+(nomask object) ob_pointer()
+/*
+ * Function name: ob_pointer
+ * Description  : This function returns the objectpointer to this object.
+ * Returns      : object - the objectpointer to this object.
+ */

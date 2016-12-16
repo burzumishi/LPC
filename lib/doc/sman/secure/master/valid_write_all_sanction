@@ -1,0 +1,12 @@
+112:/secure/master/sanction.c (/secure/master.c)
+(static int) valid_write_all_sanction(string writer, string euid)
+/*
+ * Function name: valid_write_all_sanction
+ * Description  : This function can be used to query whether there is a
+ *                'write all' sanction set that allows 'writer' to write in
+ *                'euid'. Note that there is no check on the arguments,
+ *                which means the first argument _must_ be in lower case.
+ * Arguments    : string writer - the euid that wants to write.
+ *                string euid   - the euid that 'writer' wants to write.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

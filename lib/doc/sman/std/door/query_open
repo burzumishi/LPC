@@ -1,0 +1,6 @@
+865:/std/door.c (/std/door.c)
+(int) query_open()
+/*
+ * Function name: query_open
+ * Description:   Query the open status of the door.
+ */

@@ -1,0 +1,12 @@
+146:/std/living/description.c (/std/living.c)
+(public string) query_nonmet_name()
+/*
+ * Function name: query_nonmet_name
+ * Description  : Gives the name of this living to players who have not met
+ *                this living. E.g.: "big fat male gnome wizard" If no
+ *                short description is set one will be generated from the
+ *                first two adjectives, the gender and the face of the
+ *                living. Non-humanoids will not have the gender desc and for
+ *                humanoids it can be blocked with LIVE_I_NO_GENDER_DESC.
+ * Returns      : string - the name of the living when unmet.
+ */

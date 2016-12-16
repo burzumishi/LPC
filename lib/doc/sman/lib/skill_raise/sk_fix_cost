@@ -1,0 +1,9 @@
+435:/lib/skill_raise.c (/lib/skill_raise.c)
+(varargs string) sk_fix_cost(int snum, int steps)
+/*
+ * Function name: sk_fix_cost
+ * Description:   Fix each line in the improve/learn list
+ * Arguments:     snum  - The skill to check
+ *                steps - How many steps player wants to raise
+ * Returns:       A formatted string
+ */

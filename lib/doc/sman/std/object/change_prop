@@ -1,0 +1,7 @@
+573:/std/object.c (/std/object.c)
+(public void) change_prop(string prop, mixed val)
+/*
+ * Function name: change_prop
+ * Description  : This function is a mask of add_prop. For details, see
+ *                the header of that function.
+ */

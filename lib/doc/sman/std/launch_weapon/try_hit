@@ -1,0 +1,12 @@
+1378:/std/launch_weapon.c (/std/launch_weapon.c)
+(int ) try_hit(object target)
+/*
+ * Function name: try_hit
+ * Description  : Try hit is called from the combat object when the archer
+ *                fights. Since a bow only shoot every second round it
+ *                tries to load a missile first round and fires the missile
+ *                the second round.
+ *                
+ * Arguments    : object - target we shoot at.
+ * Returns      : int - 1 Fire. 0 Load (or try to load).
+ */

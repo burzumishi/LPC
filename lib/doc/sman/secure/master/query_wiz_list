@@ -1,0 +1,8 @@
+1808:/secure/master/fob.c (/secure/master.c)
+(string *) query_wiz_list(int rank)
+/*
+ * Function name: query_wiz_list
+ * Description  : Return a list of all wizards of a given rank.
+ * Arguments    : int - the rank to get; -1 = all.
+ * Returns      : string * - the names of the wizards with that name.
+ */

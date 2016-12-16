@@ -1,0 +1,7 @@
+453:/lib/wearable_item.c (/lib/wearable_item.c)
+(public mixed) command_wear()
+/*
+ * Function name: command_wear
+ * Description:   Called to wear this item
+ * Returns:       see wield_me()
+ */

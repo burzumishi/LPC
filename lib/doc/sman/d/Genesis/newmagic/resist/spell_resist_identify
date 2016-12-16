@@ -1,0 +1,10 @@
+105:/d/Genesis/newmagic/resist.c (/d/Genesis/newmagic/spell.c)
+(public int) spell_resist_identify(object caster, object target, int element,     int difficulty)
+/*
+ * Function name: spell_resist_identify
+ * Description:   Determines a target's resistance to identification spells
+ * Arguments:     object target - the target of the spell
+ *                int element   - the spell element
+ *                int difficulty - the difficulty of resisting the spell
+ * Returns:       Resistance percentage
+ */

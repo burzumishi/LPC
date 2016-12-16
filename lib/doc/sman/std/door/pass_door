@@ -1,0 +1,7 @@
+392:/std/door.c (/std/door.c)
+(int) pass_door(string arg)
+/*
+ * Function name: pass_door
+ * Description:   Pass the door.
+ * Arguments:	  arg - arguments given
+ */

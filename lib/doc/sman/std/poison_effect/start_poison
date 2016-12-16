@@ -1,0 +1,11 @@
+578:/std/poison_effect.c (/std/poison_effect.c)
+(public varargs void) start_poison(object poisoner)
+/*
+ * Function name: start_poison
+ * Description  : This function simply starts the poison working.  Until the
+ *                poison is acivated, it is a simple object. Once activated,
+ *                the poison will disappear after 'time' seconds.
+ * Arguments    : object poisoner - the living that is responsible for the
+ *                    poisoning of this player. This could be an NPC or real
+ *                    player, if any.
+ */

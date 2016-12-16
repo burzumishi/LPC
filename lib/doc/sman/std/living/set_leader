@@ -1,0 +1,9 @@
+537:/std/living/combat.c (/std/living.c)
+(public int) set_leader(object leader)
+/*
+ * Function name: set_leader
+ * Description  : Sets this living as a member in a team by assigning a leader.
+ *                It will fail if this living is a leader of a team already.
+ * Arguments    : object leader - the leader of the team.
+ * Returns      : int - 1/0 success/failure.
+ */

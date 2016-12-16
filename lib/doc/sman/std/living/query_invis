@@ -1,0 +1,7 @@
+1260:/std/living/savevars.c (/std/living.c)
+(public int) query_invis()
+/*
+ * Function name:   query_invis
+ * Description:     Gives back the current visibility of the living
+ * Returns:         True if invisible
+ */

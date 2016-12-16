@@ -1,0 +1,6 @@
+2910:/secure/mail_reader.c (/secure/mail_reader.c)
+(public void) remove_object()
+/*
+ * Function name: remove_object
+ * Description  : Guard for removal while the mailreader is busy.
+ */

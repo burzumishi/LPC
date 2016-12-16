@@ -1,0 +1,9 @@
+502:/lib/messenger.c (/lib/messenger.c)
+(public void) set_can_deliver_unmet(int bCanDeliver)
+/*
+ * Function:    set_can_deliver_unmet
+ * Description: Set this option if you wish the messenger to be able
+ *              to deliver to people the sender has not been
+ *              introduced to.
+ * Arguments:   int bCanDeliver - whether the messenger can deliver
+ */

@@ -1,0 +1,18 @@
+2382:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask mixed *) query_hitloc(int id)
+/*
+ * Function name: query_hitloc
+ * Description  : Give the hitloc for a certain id.
+ * Arguments    : int id - The id to return hitloc array for
+ * Returns      : mixed - an array with several elements about the properties
+ *                  of the hitlocation, as follows:
+ *
+ *            ({  int *ac - The ac's for a given hitlocation,
+ *                  ({ impale, slash, bludgeon }).
+ *                int %hit - The chance that a hit will hit this location.
+ *                string desc - Describes this hitlocation, ie "head", "tail".
+ *                int *ac_mod - Modifiers for the ac's for the hitlocation
+ *                  ({ impale, slash, bludgeon }).
+ *                object *armours - armours protecting this location, if any.
+ *            })
+ */

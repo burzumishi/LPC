@@ -1,0 +1,6 @@
+55:/std/torch.c (/std/torch.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description:   The standard create routine.
+ */

@@ -1,0 +1,18 @@
+245:/lib/store_support.c (/lib/store_support.c)
+(void) reset_store()
+/*
+ * Function name: reset_store
+ * Description  : If you use a default stock in this store room, you must call
+ *                reset_store() from your reset_room() call. In order to start
+ *                the store with its default stock upon creation, from your
+ *                create_room() function make a call to reset_store() after you
+ *                have initialised the default stock with set_default_stock().
+ *
+ *                Each reset the store checks its inventory to judge whether
+ *                the stock must be replenished. If there are more items than
+ *                the default stock describes, items are not removed. If the
+ *                stock size is set to two or more, a little random is used to
+ *                clone one more or one less than the assigned default, i.e. a
+ *                default amount of 1 is always 1 and a default amount of 2
+ *                can be 1,2,3 and a default of 4 can be 3,4,5.
+ */

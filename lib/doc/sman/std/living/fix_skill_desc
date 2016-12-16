@@ -1,0 +1,10 @@
+115:/std/living/wizstat.c (/std/living.c)
+(nomask static string) fix_skill_desc(int sk_type, mapping sk_desc)
+/*
+ * Function name: fix_skill_desc
+ * Description  : This function will compose the string describing the
+ *                individual skills the player has.
+ * Arguments    : int sk_type     - the skill number.
+ *                mapping sk_desc - the mapping describing the skills.
+ * Returns      : string - the description for this skill.
+ */

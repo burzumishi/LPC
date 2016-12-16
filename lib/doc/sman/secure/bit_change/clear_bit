@@ -1,0 +1,8 @@
+183:/secure/bit_change.c (/secure/bit_change.c)
+(nomask static void) clear_bit(int group, int bit)
+/*
+ * Function name: clear_bit
+ * Description  : This function clears a bit in the player.
+ * Arguments    : int group - the group to clear the bit in (0 - 4).
+ *                int bit   - the bit to clear in the group (0 - 19).
+ */

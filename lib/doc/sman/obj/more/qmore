@@ -1,0 +1,11 @@
+95:/obj/more.c (/obj/more.c)
+(int) qmore(string answer)
+/*
+ * Function name: qmore
+ * Description  : After the some part of the text has been printed, the
+ *                next command of the player is fed into this function.
+ *                It controls what the player wants to read next.
+ *                It controls what the player wants to read next.
+ * Arguments    : answer - the command by the player
+ * Returns      : 1      - always, meaning that this function always acts.
+ */

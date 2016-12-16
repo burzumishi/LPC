@@ -1,0 +1,9 @@
+699:/cmd/live/speech.c (/cmd/live/speech.c)
+(void) print_rsay_to(object *oblist, string str)
+/*
+ * Function name: print_rsay_to
+ * Description  : When the player uses "rsay to" this routine causes the text
+ *                to be displayed after the "to" part was parsed.
+ * Arguments    : object *oblist - the recipients of the text.
+ *                string str - the text that was spoken.
+ */

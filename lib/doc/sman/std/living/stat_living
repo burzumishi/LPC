@@ -1,0 +1,7 @@
+26:/std/living/wizstat.c (/std/living.c)
+(public string) stat_living()
+/*
+ * Function name: stat_living
+ * Description  : Give status information on this living.
+ * Returns      : string - the description.
+ */

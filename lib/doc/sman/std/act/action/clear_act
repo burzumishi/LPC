@@ -1,0 +1,6 @@
+183:/std/act/action.c (/std/act/action.c)
+(void) clear_act()
+/*
+ * Function name: clear_act
+ * Description:   clears acts for a monster
+ */

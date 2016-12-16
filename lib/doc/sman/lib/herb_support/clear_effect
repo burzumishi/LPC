@@ -1,0 +1,6 @@
+375:/lib/herb_support.c (/lib/herb_support.c)
+(void) clear_effect()
+/*
+ * Function name: clear_effect
+ * Description:   Remove all earlier set effects
+ */

@@ -1,0 +1,13 @@
+156:/std/combat/humunarmed.c (/std/combat/humunarmed.c)
+(public void) cr_got_hit(int hid, int ph, object att, int aid, int dt, int dam)
+/*
+ * Function name: cr_got_hit
+ * Description:   Tells us that we got hit. It can be used to reduce the ac
+ *                for a given hitlocation for each hit.
+ * Arguments:     hid:   The hitloc id
+ *                ph:    The %hurt
+ *                att:   Attacker
+ *		  aid:   The attack id
+ *                dt:    The damagetype
+ *		  dam:   The damage in hit points
+ */

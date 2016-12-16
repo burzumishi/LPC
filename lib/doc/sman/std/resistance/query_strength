@@ -1,0 +1,6 @@
+120:/std/resistance.c (/std/resistance.c)
+(int) query_strength()
+/*
+ * Function name: query_strength
+ * Description:   Query how strong this resistance is
+ */

@@ -1,0 +1,8 @@
+564:/std/corpse.c (/std/corpse.c)
+(public int) remove_leftover(string organ)
+/*
+ * Function name: remove_leftover
+ * Description:   Remove a leftover entry from a body.
+ * Arguments:     string organ - Which entry to remove.
+ * Returns:       1 - Ok, removed, 0 - Not found.
+ */

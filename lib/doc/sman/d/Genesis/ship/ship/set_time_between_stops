@@ -1,0 +1,12 @@
+561:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_time_between_stops(mixed x)
+/*
+ * Function name: set_time_between_stops
+ * Description	: Set up the time the ship should delay at each stop.
+ * Arguments	: If a single number is passed as a parameter, this
+ *		  will be the number of alarms the ship will wait
+ *		  at all places it stops.  If an array is passed, this
+ *		  should hold one value per room visited, and this
+ *		  number indicates how many alarms the ship will
+ *		  wait at that particular location.
+ */

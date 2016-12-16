@@ -1,0 +1,7 @@
+19:/std/living/carry.c (/std/living.c)
+(int) max_weight()
+/*
+ * Function name:   max_weight
+ * Description:	    Calculate the maximum weight this living can budge.
+ * Returns:         The weight.
+ */

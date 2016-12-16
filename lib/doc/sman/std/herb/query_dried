@@ -1,0 +1,7 @@
+202:/std/herb.c (/std/herb.c)
+(int) query_dried()
+/*
+ * Function name: query_dried
+ * Description:   Is the herb dried?
+ * Returns:	  1 if dried
+ */

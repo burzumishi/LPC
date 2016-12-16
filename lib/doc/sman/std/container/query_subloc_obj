@@ -1,0 +1,6 @@
+690:/std/container.c (/std/container.c)
+(public object) query_subloc_obj(string sloc)
+/* 
+ * Function name: query_subloc_obj
+ * Description:   Get the object corresponding to a subloc string
+ */

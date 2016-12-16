@@ -1,0 +1,8 @@
+3912:/secure/master.c (/secure/master.c)
+(public void) check_memory(int dodecay)
+/*
+ * Function name:  check_memory
+ * Description:    Checks with 'debug malloc' if it is time to reboot
+ * Arguments:      dodecay - decay xp or nto.
+ *                   The limit can be defined in config.h as MEMORY_LIMIT
+ */

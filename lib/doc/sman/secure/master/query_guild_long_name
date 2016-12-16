@@ -1,0 +1,8 @@
+125:/secure/master/guild.c (/secure/master.c)
+(public string) query_guild_long_name(string short_name)
+/*
+ * Function name: query_guild_long_name
+ * Description  : Query the long name of a particular guild. 
+ * Arguments    : string short_name - the short name of the guild.
+ * Returns      : string - the long name of the guild, else 0.
+ */

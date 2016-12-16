@@ -1,0 +1,5 @@
+189:/std/act/seqaction.c (/std/act/seqaction.c)
+(void) seq_delete(string name)
+/*
+ *   Description: Delete an entire sequence.
+ */

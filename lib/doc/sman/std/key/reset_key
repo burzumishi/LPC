@@ -1,0 +1,8 @@
+47:/std/key.c (/std/key.c)
+(public void) reset_key()
+/*
+ * Function name: reset_key
+ * Description  : This function should hold the code that is to be executed
+ *                when this key resets. In order for reset to work, you
+ *                must call enable_reset() from your create_key.
+ */

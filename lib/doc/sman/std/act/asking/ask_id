@@ -1,0 +1,8 @@
+42:/std/act/asking.c (/std/act/asking.c)
+(public int) ask_id(string str)
+/*
+ * Function name: ask_id
+ * Description:   Identify questions in the object.
+ * Arguments:     string str - question to test.
+ * Returns:       int - if true the question exists.
+ */

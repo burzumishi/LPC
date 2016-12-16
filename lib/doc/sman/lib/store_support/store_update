@@ -1,0 +1,7 @@
+147:/lib/store_support.c (/lib/store_support.c)
+(void ) store_update(object obj)
+/*
+ * Function name: store_update
+ * Description  : Update the contents of the storeroom, remove excess items.
+ * Arguments    : object obj - the object that is added to the store.
+ */

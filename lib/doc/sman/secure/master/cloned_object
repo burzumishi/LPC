@@ -1,0 +1,12 @@
+1911:/secure/master.c (/secure/master.c)
+(void) cloned_object(object cob, object ob)
+/*
+ * Function name: cloned_object
+ * Description  : This function is called when an object is cloned. It
+ *                tests whether the clone was valid. It also sets the
+ *                authorisation variable in the cloned object. If the
+ *                clone was not valid, throw() will terminate the
+ *                execution.
+ * Arguments    : object cob - the cloning object.
+ *                object ob  - the cloned object.
+ */

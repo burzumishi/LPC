@@ -1,0 +1,15 @@
+525:/lib/wearable_item.c (/lib/wearable_item.c)
+(public void) set_wf(object ob)
+/*
+ * Function name: set_wf
+ * Description:   Designate an object that defines the wear() and remove()
+ *                functions for this item.  Those functions can return
+ *                the following:
+ *		  0 - No affect the item can be worn / removed
+ *		  1 - It can be worn / removed but no text should be printed
+ *		      (it was done in the function)
+ *		 -1 - It can not be worn / removed default failmsg will be 
+ *		      written
+ *           string - It can not be worn / removed 'string' is the 
+ *		      fail message to print
+ */

@@ -1,0 +1,7 @@
+809:/std/living/savevars.c (/std/living.c)
+(static void) set_exp_combat(int exp)
+/*
+ * Function name: set_exp_combat
+ * Description  : Set the amount of combat experience the living has.
+ * Arguments    : int exp - the amount of combat experience.
+ */

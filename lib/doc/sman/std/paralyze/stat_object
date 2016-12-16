@@ -1,0 +1,7 @@
+328:/std/paralyze.c (/std/paralyze.c)
+(string) stat_object()
+/*
+ * Function name: stat_object
+ * Description  : Function called when wiz tries to stat this object.
+ * Returns      : string - the extra information to print.
+ */

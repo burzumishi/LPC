@@ -1,0 +1,7 @@
+227:/lib/trade.c (/lib/trade.c)
+(void) set_money_give_out(int *a)
+/*
+ * Function name: set_money_give_out
+ * Description:   Set the maximum munber of coins we hand out at once
+ * Arguments:     a - The array of integers
+ */

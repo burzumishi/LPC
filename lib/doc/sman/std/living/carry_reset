@@ -1,0 +1,7 @@
+41:/std/living/carry.c (/std/living.c)
+(static nomask void) carry_reset()
+/*
+ * Function name: carry_reset
+ * Description  : This function is called to reset the properties that are
+ *                related to carrying or being carried.
+ */

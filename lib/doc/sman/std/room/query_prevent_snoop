@@ -1,0 +1,11 @@
+582:/std/room/description.c (/std/room.c)
+(public int) query_prevent_snoop()
+/*
+ * Function name: query_prevent_snoop
+ * Description  : By default, players can be snooped in all rooms by wizards
+ *                or by other players performing a scry or clairvoyance spell.
+ *                To prevent this, define this routine in a room to return 1.
+ * Nota bene    : This routine doesn't really exist. Don't define it if you
+ *                don't need it. We tricked the document maker.
+ * Returns      : int - 1/0
+ */

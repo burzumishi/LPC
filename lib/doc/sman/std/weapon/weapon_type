@@ -1,0 +1,7 @@
+1311:/std/weapon.c (/std/weapon.c)
+(string) weapon_type()
+/*
+ * Function name: weapon_type
+ * Description  : This function shuold return the type of the weapon in text.
+ * Returns      : string - the name of the weapon type.
+ */

@@ -1,0 +1,12 @@
+31:/std/act/action.c (/std/act/action.c)
+(varargs void) add_act(mixed str, int flag)
+/*
+ * Function name: add_act
+ * Description:   Adds an action string that the monster will randomly do.
+ * Arguments:     str: Text
+ *                flag: True if the action is to occur forever (this
+ *                      is frowned upon, so have a good reason). If 0 or
+ *                      not present, the action will only occur in the
+ *                      presence of a player, or for a short time after
+ *                      the monster is alone.
+ */

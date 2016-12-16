@@ -1,0 +1,8 @@
+1718:/secure/master/fob.c (/secure/master.c)
+(int) query_wiz_rank(string wname)
+/*
+ * Function name: query_wiz_rank
+ * Desciption   : Return the rank of the wizard.
+ * Arguments    : string wname - the name of the wizard.
+ * Returns      : int - the rank.
+ */

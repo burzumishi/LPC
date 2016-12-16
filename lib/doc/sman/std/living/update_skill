@@ -1,0 +1,8 @@
+1698:/std/living/savevars.c (/std/living.c)
+(void) update_skill(int skill)
+/*
+ * Function name: update_skill
+ * Description  : Called by set_skill when a skill changes to notify the
+ *                combat object.
+ * Arguments    : int skill - the skill number
+ */

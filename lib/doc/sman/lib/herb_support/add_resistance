@@ -1,0 +1,12 @@
+97:/lib/herb_support.c (/lib/herb_support.c)
+(void) add_resistance(mixed res_type, int strength)
+/*
+ * Function name: add_resistance
+ * Description:   This function is called from the herb-effects, and adds some
+ * Description:   This function is called from the herb-effects, and adds some
+ *                resistance in the player. Max strength is 40.
+ *                The resistance added is an additive resistance.
+ *                (See /doc/man/general/spells for more info on resistance)
+ * Arguments:     res_type - The resistance type
+ *                strength - How strong the herb is
+ */

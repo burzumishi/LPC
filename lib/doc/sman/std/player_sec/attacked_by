@@ -1,0 +1,9 @@
+84:/std/player/pcombat.c (/std/player_sec.c)
+(public void) attacked_by(object attacker)
+/*
+ * Function name: attacked_by
+ * Description  : When someone attacks us, this function is called. It makes
+ *                a test, preventing anyone from attacking us while we are
+ *                linkdeath.
+ * Arguments    : object attacker - who is attacking us.
+ */

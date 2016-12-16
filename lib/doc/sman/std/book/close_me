@@ -1,0 +1,6 @@
+92:/std/book.c (/std/book.c)
+(void) close_me()
+/*
+ * Function name: close_me
+ * Description:   closes the book again
+ */

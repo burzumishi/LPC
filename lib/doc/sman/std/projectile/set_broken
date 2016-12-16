@@ -1,0 +1,7 @@
+125:/std/projectile.c (/std/projectile.c)
+(public void) set_broken(int b)
+/*
+ * Function name: set_broken
+ * Description  : This functions sets the broken status of this projectile.
+ * Arguments    : int b - The new broken status. 1 - Broken. 0 - Whole.
+ */

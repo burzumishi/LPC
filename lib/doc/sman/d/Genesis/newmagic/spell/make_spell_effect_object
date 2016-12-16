@@ -1,0 +1,21 @@
+584:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public mixed) make_spell_effect_object(mixed obj, object caster,     mixed targets, mixed resist, int result)
+/*
+ * Function name: make_spell_effect_object
+ * Description:   Create, default configure, and move spell effect objects
+ *                to the targets.
+ * Arguments:     1. (object)   The spell effect object
+ *                   (string)   The filename of the spell effect (to be cloned)
+ *                   (function) A function that returns a spell effect
+ *                2. (object)   The caster
+ *                3. (object)   The target
+ *                   (object *) An array of targets
+ *                4. (int)      Resistance value for single target
+ *                   (int *)    Resistance values corresponding to each target
+ *                5. (int)      The casting success, as given by
+ *                              query_casting_success()
+ * Returns:       (object *) An array of spell effect objects, one element for
+ *                           each target
+ *                (object)   A single spell effect object if target was
+ *                           specified as a single object.
+ */

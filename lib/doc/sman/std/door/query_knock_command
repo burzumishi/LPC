@@ -1,0 +1,7 @@
+1322:/std/door.c (/std/door.c)
+(string *) query_knock_command()
+/* 
+ * Function name:	query_knock_command
+ * Description	:	query the commands for knocking on a door
+ * Returns	:	string * -- the commands
+ */

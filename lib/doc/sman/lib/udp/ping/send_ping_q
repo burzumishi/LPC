@@ -1,0 +1,5 @@
+15:/lib/udp/ping.c (/lib/udp/ping.c)
+(void) send_ping_q(string host, mixed port)
+/*
+ * Send a ping package
+ */

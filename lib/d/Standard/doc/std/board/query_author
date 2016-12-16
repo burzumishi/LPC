@@ -1,0 +1,11 @@
+230:/std/board.c (/std/board.c)
+(public nomask string) query_author(int note)
+/*
+ * Function name: query_author
+ * Description  : Return the name of the author of a certain note. Observe
+ *                that the note-numbers start counting at 1, like the way
+ *                they appear on the board.
+ * Argument     : int note - the number of the note to find the author of.
+ * Returns      : string - the name of the author or 0 if the note doesn't
+ *                         exist.
+ */

@@ -1,0 +1,7 @@
+119:/std/heap.c (/std/heap.c)
+(public int) heap_light()
+/*
+ * Function name: heap_light
+ * Description  : The light emitted by the heap, used by OBJ_I_LIGHT
+ * Returns      : int - the light of the heap.
+ */

@@ -1,0 +1,6 @@
+895:/std/door.c (/std/door.c)
+(mixed) query_door_name()
+/*
+ * Function name: query_door_name
+ * Description:   Return the name of the door
+ */

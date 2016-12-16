@@ -1,0 +1,5 @@
+2132:/secure/master.c (/secure/master.c)
+(static void) external_signal(string sig_name)
+/*
+ * This function is called if the driver gets sent a signal that it catches.
+ */

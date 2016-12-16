@@ -1,0 +1,7 @@
+386:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_task(int task)
+/*
+ * Function name: set_spell_task
+ * Description:   Set the difficulty of the spell as found in /sys/tasks.h
+ * Arguments:     1. (int) The task difficulty
+ */

@@ -1,0 +1,6 @@
+34:/d/Genesis/ship/cabin.c (/d/Genesis/ship/cabin.c)
+(public void) create_cabin()
+/*
+ * Function name: create_cabin
+ * Description  : Create the ship cabin
+ */

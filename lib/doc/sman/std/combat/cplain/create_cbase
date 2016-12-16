@@ -1,0 +1,6 @@
+18:/std/combat/cplain.c (/std/combat/cplain.c)
+(public nomask void) create_cbase()
+/*
+* Function name: create_cbase
+* Description:   Reset the combat functions
+*/

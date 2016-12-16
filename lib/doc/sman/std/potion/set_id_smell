@@ -1,0 +1,7 @@
+220:/std/potion.c (/std/potion.c)
+(void) set_id_smell(string str)
+/*
+ * Function name: set_id_smell
+ * Description:   Set the message when you smell the identified potion
+ * Arguments:     str - The message
+ */

@@ -1,0 +1,10 @@
+87:/std/living/description.c (/std/living.c)
+(public int) notmet_me(object obj)
+/*
+ * Function name:   notmet_me
+ * Description:     Finds out if obj is considered to have met me. Players
+ *                  must have been introduced to me. All others don't have to
+ *                  be introduced to know me.
+ * Arguments:       obj: Object in question, has it met me?
+ * Returns:         True if object has not met me.
+ */

@@ -1,0 +1,7 @@
+1076:/std/player/savevars_sec.c (/std/player_sec.c)
+(public int *) query_bit_array()
+/*
+ * Function name: query_bit_array
+ * Description:   Gives back the global bit array of a player
+ * Returns:       An array with packed bitstrings.
+ */

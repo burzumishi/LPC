@@ -1,0 +1,8 @@
+107:/lib/shop.c (/lib/shop.c)
+(void) shop_hook_sell_worn_or_wielded(object ob)
+/*
+ * Function name: shop_hook_sell_worn_or_wielded
+ * Description:   If object is worn or wielded and player has not said he 
+ *		  wants to sell such an item
+ * Arguments:	  ob - The object
+ */

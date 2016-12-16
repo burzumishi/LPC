@@ -1,0 +1,7 @@
+329:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(nomask public int) exist_command(string verb)
+/* 
+ * Function name: exist_command
+ * Description  : Check if a spell exists.
+ * Returns      : 1/0 depending on success.
+ */

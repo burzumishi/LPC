@@ -1,0 +1,8 @@
+590:/std/corpse.c (/std/corpse.c)
+(public int) get_leftover(string arg)
+/*
+ * Function name: get_leftover
+ * Description:   Get leftovers from the body.
+ * Arguments:     string arg - command-line argument.
+ * Returns:       int 1/0 - success/failure.
+ */

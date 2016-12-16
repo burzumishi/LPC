@@ -1,0 +1,7 @@
+276:/obj/edit.c (/obj/edit.c)
+(static void) add_cc(string arg)
+/*
+ * Function name: add_cc
+ * Description  : When writing mail, add people to the CC-list.
+ * Arguments    : string arg - the command line argument.
+ */

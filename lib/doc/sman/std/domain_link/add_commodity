@@ -1,0 +1,11 @@
+56:/std/domain_link.c (/std/domain_link.c)
+(public void) add_commodity(string name, string file)
+/*
+ * Function name : add_commodity
+ * Description   : function would add a commodity to the domain mapping
+ *                 of commodities, it should be called from preload_link
+ *                 for every new commodity
+ * Arguments     : string  - the name of commodity
+ *                 string  - the file of commodity
+ * Returns       : void    - nothing is returned
+ */

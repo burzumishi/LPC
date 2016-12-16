@@ -1,0 +1,8 @@
+50:/lib/holdable_item.c (/lib/holdable_item.c)
+(public void) set_slots(int which)
+/*
+ * Function name: set_slots
+ * Description  : With this function you can set the tool slots that this
+ *                item will occupy when held.
+ * Arguments    : int - the slots, W_RIGHT, W_BOTH, et cetera.
+ */

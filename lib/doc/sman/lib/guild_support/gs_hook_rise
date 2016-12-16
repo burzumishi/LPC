@@ -1,0 +1,7 @@
+317:/lib/guild_support.c (/lib/guild_support.c)
+(void) gs_hook_rise()
+/*
+ * Function name: gs_hook_rise
+ * Description  : This hook is called when player rises from the meditation.
+ *                You can mask this function to give a different message.
+ */

@@ -1,0 +1,8 @@
+244:/std/guild/guild_race_sh.c (/std/guild/guild_race_sh.c)
+(public void) init_race_shadow(string arg)
+/*
+ * Function name: init_race_shadow()
+ * Description: This function is called from autoload_shadow and may
+ *              be used to initialize the shadow when it's loaded.
+ * Arguments: The argument string sent to autoload_shadow.
+ */

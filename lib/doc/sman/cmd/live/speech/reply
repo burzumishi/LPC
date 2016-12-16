@@ -1,0 +1,5 @@
+507:/cmd/live/speech.c (/cmd/live/speech.c)
+(int) reply(string str)
+/* **************************************************************************
+ * reply - Allow mortals to reply when something is told to them.
+ */

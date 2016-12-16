@@ -1,0 +1,8 @@
+150:/std/bow.c (/std/bow.c)
+(public nomask int) query_stringed()
+/*
+ * Function name: query_stringed
+ * Description:   Returns whether this bow is sttringed or not.
+ *
+ * Returns      : 1 stringed, 0 unstringed. 
+ */

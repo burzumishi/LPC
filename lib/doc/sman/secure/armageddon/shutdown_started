@@ -1,0 +1,8 @@
+180:/secure/armageddon.c (/secure/armageddon.c)
+(public void) shutdown_started()
+/*
+ * Function name: shutdown_started
+ * Description  : This function is called when the game is shut down. It
+ *                can be redefined by the local armageddon object at your
+ *                mud.
+ */

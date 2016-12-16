@@ -1,0 +1,8 @@
+1025:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) remove_second(string second)
+/*
+ * Function name: remove_second
+ * Description  : Remove a second from the player list.
+ * Arguments    : string second - the name of the second to remove.
+ * Returns      : int 1/0 - success/failure.
+ */

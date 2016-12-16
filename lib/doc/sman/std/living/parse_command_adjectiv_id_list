@@ -1,0 +1,9 @@
+66:/std/living/gender.c (/std/living.c)
+(public string *) parse_command_adjectiv_id_list()
+/*
+ * Function name: parse_command_adjectiv_id_list
+ * Description  : This function is called from the gamedriver to obtain the
+ *                list of adjectives applicable for this living. In this
+ *                function we add the gender string as default adjective.
+ * Returns      : string * - the adjectives of this living.
+ */

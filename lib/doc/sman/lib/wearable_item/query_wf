@@ -1,0 +1,7 @@
+547:/lib/wearable_item.c (/lib/wearable_item.c)
+(public object) query_wf()
+/*
+ * Function name: query_wf
+ * Returns:       The object that defines the wear() and remove() functions
+ *                for this item
+ */

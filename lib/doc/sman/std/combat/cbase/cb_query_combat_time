@@ -1,0 +1,9 @@
+600:/std/combat/cbase.c (/std/combat/cbase.c)
+(public int) cb_query_combat_time()
+/*
+ * Function name: cb_query_combat_time
+ * Description  : Query the time value of the time when a hit was last made,
+ *                either by us, or on us. This variable keeps its value also
+ *                after combat stops.
+ * Returns      : int - the time value of the last hit.
+ */

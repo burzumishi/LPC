@@ -1,0 +1,8 @@
+488:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask void) set_auto_load(string *arr)
+/*
+ * Function name:   set_auto_load
+ * Description:     Sets the array with autoload strings. Auytoload strings
+ *                  look like "<file>:<arg>".
+ * Arguments:       arr: An array with autoload strings.
+ */

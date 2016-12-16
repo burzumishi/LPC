@@ -1,0 +1,7 @@
+494:/std/living/description.c (/std/living.c)
+(public string) vbfc_short()
+/*
+ * Function name: vbfc_short
+ * Description:   Gives short as seen by previous object
+ * Returns:	  string holding short()
+ */

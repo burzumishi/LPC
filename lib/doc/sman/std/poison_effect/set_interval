@@ -1,0 +1,8 @@
+274:/std/poison_effect.c (/std/poison_effect.c)
+(public void ) set_interval(int i)
+/*
+ * Function name: set_interval
+ * Description  : This sets the average interval between damage being
+ *                applied, in seconds.
+ * Arguments    : i - the interval
+ */

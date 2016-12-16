@@ -1,0 +1,6 @@
+85:/std/combat/ctool.c (/std/combat/ctool.c)
+(public void) cb_calc_attackuse()
+/*
+ * Function name: cb_calc_procuse
+ * Description  : Calculates the procuse based on 2H combat skill 
+ */

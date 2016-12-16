@@ -1,0 +1,8 @@
+481:/std/living/savevars.c (/std/living.c)
+(public int) query_max_hp()
+/*
+ * Function name:   query_max_hp
+ * Description:     Calculates the maximum number of hitpoints that the
+ *                  living can achieve.
+ * Returns:         The maximum
+ */

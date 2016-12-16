@@ -1,0 +1,10 @@
+539:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) alias(string str)
+/*
+ * Function name: alias
+ * Description  : This command should be used called when a player wants
+ *                to add an alias to his/her personal mail fail. Yeah,
+ *                I know it is a little large.
+ * Arguments    : string str - the alias the player wants to add or remove.
+ * Returns      : int        - 1/0 - success/failure
+ */

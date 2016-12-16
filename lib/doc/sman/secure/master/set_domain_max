@@ -1,0 +1,11 @@
+288:/secure/master/fob.c (/secure/master.c)
+(int) set_domain_max(string dname, int max)
+/*
+ * Function name: set_domain_max
+ * Description  : Set maximum number of wizards wanted. This function may
+ *                only be called from the Lord soul so we do not have to
+ *                make any additional checks.
+ * Arguments    : string dname - the capitalized domain name.
+ *                int    max   - the new maximum.
+ * Returns      : int 1/0 - success/failure.
+ */

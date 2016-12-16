@@ -1,0 +1,9 @@
+298:/std/bow.c (/std/bow.c)
+(public int) query_hit()
+/*
+ * Function name: query_hit
+ * Description  : This function merely checks if the bow is
+ *                stringed and delegates to launch_weapon.
+ *                If the bow is not stringed it returns a hit
+ *                of 10 and behaves like a normal weapon.
+ */

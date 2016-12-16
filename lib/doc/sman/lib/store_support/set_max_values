@@ -1,0 +1,9 @@
+109:/lib/store_support.c (/lib/store_support.c)
+(void) set_max_values(int items, int identical)
+/*
+ * Function name: set_max_values
+ * Description  : Set maximum number of items in a store room and the maximum
+ *                number of identical items.
+ * Arguments    : int items     - max number of items in store room.
+ *                int identical - max number of identical items in store room.
+ */

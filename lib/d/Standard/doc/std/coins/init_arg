@@ -1,0 +1,8 @@
+106:/std/coins.c (/std/coins.c)
+(void) init_arg(string arg)
+/* 
+ * Function name: init_arg
+ * Description  : Called when autoloading. It will set the type of coins
+ *                and the number of coins in the heap.
+ * Arguments    : string arg - the auto-load argument.
+ */

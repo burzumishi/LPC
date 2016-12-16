@@ -1,0 +1,6 @@
+53:/std/bow.c (/std/bow.c)
+(public nomask void) create_launch_weapon()
+/*
+ * Function name: create_launch_weapon
+ * Description:   Constructor to be used by launch_weapon implementations.
+ */

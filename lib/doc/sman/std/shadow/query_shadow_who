@@ -1,0 +1,7 @@
+110:/std/shadow.c (/std/shadow.c)
+(public object) query_shadow_who()
+/*
+ * Function name: query_shadow_who
+ * Description  : Returns the object that we are shadowing.
+ * Returns      : object - the object we are shadowing. 
+ */

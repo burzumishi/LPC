@@ -1,0 +1,8 @@
+219:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public int) query_spell_effect_object()
+/*
+ * Function name: query_spell_effect_object
+ * Description:   Easy way to tell if this object is a spell effect
+ *                object
+ * Returns:       1
+ */

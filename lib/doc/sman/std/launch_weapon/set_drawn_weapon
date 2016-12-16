@@ -1,0 +1,10 @@
+291:/std/launch_weapon.c (/std/launch_weapon.c)
+( public nomask void) set_drawn_weapon(int drawn)
+/*
+ * Function name: set_drawn
+ * Description  : Sets that this weapon is held in a loaded position by
+ *                the archer. Bows are typically drawn weapons, while
+ *                crossbows are not.
+ *                
+ * Arguments    : int 1 - Drawn, 0 - Not drawn.
+ */

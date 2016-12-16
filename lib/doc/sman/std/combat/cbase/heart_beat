@@ -1,0 +1,8 @@
+1501:/std/combat/cbase.c (/std/combat/cbase.c)
+(static nomask void) heart_beat()
+/*
+ * Function name: heart_beat
+ * Description:   Do 1 round of fighting with the choosen enemy. This is
+ *                done as long as both me and enemy is alive and in the
+ *                same place.
+ */

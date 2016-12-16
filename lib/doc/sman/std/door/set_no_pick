@@ -1,0 +1,6 @@
+830:/std/door.c (/std/door.c)
+(void) set_no_pick()
+/*
+ * Function name: set_no_pick
+ * Description:   Make sure the lock of the door is not pickable
+ */

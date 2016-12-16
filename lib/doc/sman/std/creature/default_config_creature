@@ -1,0 +1,7 @@
+34:/std/creature.c (/std/creature.c)
+(varargs public void) default_config_creature(int lvl)
+/*
+ * Function name:  default_config_npc
+ * Description:    Sets some necessary values for this creature to function
+ *                 This is basically stats and skill defaults.
+ */

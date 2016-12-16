@@ -1,0 +1,6 @@
+31:/secure/mail_checker.c (/secure/mail_checker.c)
+(nomask void) create()
+/*
+ * Function name: create
+ * Description  : Constructor. Called when creating this module.
+ */

@@ -1,0 +1,8 @@
+1044:/std/receptacle.c (/std/receptacle.c)
+(public varargs void) appraise_object(int num)
+/*
+ * Function name: appraise_object
+ * Description  : This function is called when a player appraises the
+ *                container to find out more about it.
+ * Arguments    : num - use this num rather than the players appraise skill
+ */

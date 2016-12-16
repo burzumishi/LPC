@@ -1,0 +1,9 @@
+653:/std/heap.c (/std/heap.c)
+(void) count_up(float delay, int amount, int counted)
+/*
+ * Function name: count_up
+ * Description  : Count some more, how much depends on intelligence of player.
+ * Arguments    : float delay - the delay between counts.
+ *                int amount - how much we count per loop.
+ *                int counted - how much we counted so far.
+ */

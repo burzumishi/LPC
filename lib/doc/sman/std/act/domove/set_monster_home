@@ -1,0 +1,10 @@
+139:/std/act/domove.c (/std/act/domove.c)
+(void) set_monster_home(string home)
+/*
+ * Function name:   set_monster_home
+ * Description:     Set the room filename to which the monster will teleport
+ *                  if it managed to get itself stuck, that is, if it ended
+ *                  up in a room with no elegible exits.
+ * Arguments:       The filename of the room.
+ * See also:        set_restrain_path(), query_restrain_path()
+ */

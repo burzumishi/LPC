@@ -1,0 +1,7 @@
+254:/std/potion.c (/std/potion.c)
+(void) set_unid_smell(string str)
+/*
+ * Function name: set_unid_smell
+ * Description:   Set the message when you smell the unidentified potion
+ * Arguments:     str - The message
+ */

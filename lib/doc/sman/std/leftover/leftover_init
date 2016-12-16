@@ -1,0 +1,9 @@
+57:/std/leftover.c (/std/leftover.c)
+(public void) leftover_init(string organ, string race)
+/*
+ * Function name: leftover_init
+ * Description  : Call this function to initialise the leftover. Specifically,
+ *                this sets the property and adds the names and descriptions.
+ * Arguments    : string organ - the organ.
+ *                string race - the race of the corpse.
+ */

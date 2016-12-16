@@ -1,0 +1,9 @@
+362:/lib/herb_support.c (/lib/herb_support.c)
+(void) add_effect(int herb_type, string affect_type, int strength)
+/*
+ * Function name: add_effect
+ * Description:   Adds one more effect to a herb or potion
+ * Arguments:     herb_type   - What type of effect
+ *                affect_type - And what exactly do we affect?
+ *                strength    - The strength
+ */

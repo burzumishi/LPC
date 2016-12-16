@@ -1,0 +1,6 @@
+291:/std/living.c (/std/living.c)
+( nomask string *) local_cmd()
+/*
+ * Function name: local_cmd()
+ * Description:   Return a list of all add_actioned commands
+ */

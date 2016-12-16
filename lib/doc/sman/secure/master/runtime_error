@@ -1,0 +1,11 @@
+2583:/secure/master.c (/secure/master.c)
+(static void) runtime_error(string error, object ob, string prog, string file)
+/*
+ * Function name: runtime_error
+ * Description  : In case a runtime error occurs, we tell the message to
+ *                the people who need to hear it.
+ * Arguments    : string error   - the error message.
+ *                object ob      - the object that has the error.
+ *                string program - the program name of the error.
+ *                string file    - the filename of the error.
+ */

@@ -1,0 +1,13 @@
+487:/std/bow.c (/std/bow.c)
+(public void ) tell_archer_load(object archer, object target, 		 object projectile, string adj_desc)
+/*
+ * Function name: tell_archer_load
+ * Description  : Produces messages to bystanders when the archer wields
+ *                his launch_weapon. This function is meant to be
+ *                overridden by launch_weapon implementations.
+ *                
+ * Arguments    : archer:      The archer loading a projectile.
+ *                target:      The soon to be target!
+ *                projectile:  Projectile beeing loaded.
+ *                adj_desc:    Description of the adjecent room.
+ */

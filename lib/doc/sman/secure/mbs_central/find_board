@@ -1,0 +1,9 @@
+1669:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask object) find_board(string bspath)
+/*
+ * Function name: find_board
+ * Description:	  Find a board in the central board handler, return
+ *		  its object pointer.
+ * Arguments:	  bspath - board storage path
+ * Returns:	  The object pointer to the board, if any
+ */

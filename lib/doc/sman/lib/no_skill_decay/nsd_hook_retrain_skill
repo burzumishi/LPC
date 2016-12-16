@@ -1,0 +1,10 @@
+233:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(public int) nsd_hook_retrain_skill(int skill, int level)
+/*
+ * Function name: nsd_hook_retrain_skill
+ * Description  : Give the player and the people in the room a nice message.
+ * Arguments    : int skill - the skill the player retrains.
+ *                int level - the level to which the player retrains the
+ *                            skill.
+ * Returns      : int 1 - the must always return 1!
+ */

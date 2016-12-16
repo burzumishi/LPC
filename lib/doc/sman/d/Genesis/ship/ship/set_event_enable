@@ -1,0 +1,8 @@
+538:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_event_enable(int x)
+/*
+ * Function name: set_event_enable
+ * Description	: Enables or disables events in the ship
+ * Arguments	: 1 - enable events
+ *		  0 - disable events
+ */

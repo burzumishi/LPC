@@ -1,0 +1,6 @@
+266:/std/door.c (/std/door.c)
+(void) create_object()
+/*
+ * Function name: create_object
+ * Description:   Initialize object.
+ */

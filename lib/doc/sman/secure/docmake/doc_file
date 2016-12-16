@@ -1,0 +1,5 @@
+172:/secure/docmake.c (/secure/docmake.c)
+(public void) doc_file(string docdir, string mainfile)
+/*
+ * Call this to start documenting a file
+ */

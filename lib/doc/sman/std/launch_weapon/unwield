@@ -1,0 +1,14 @@
+1495:/std/launch_weapon.c (/std/launch_weapon.c)
+(public mixed) unwield(object obj)
+/*
+ * Function name: unwield
+ * Description  : This function might be called when someone tries to unwield
+ *                this weapon. In a launch weapon unwield causes the weapon to
+ *                be unloaded as well.
+ *
+ * Arguments    : object obj - the weapon to stop wielding.
+ * Returns      : int  0 - the weapon can be unwielded normally.
+ *                     1 - unwield the weapon, but print no messages.
+ *                    -1 - do not unwield the weapon, print default messages.
+ *                string - do not unwield the weapon, use this fail message.
+ */

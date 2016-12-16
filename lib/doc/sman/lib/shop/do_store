@@ -1,0 +1,10 @@
+510:/lib/shop.c (/lib/shop.c)
+(int) do_store(string str)
+/*
+ * Function name: do_store
+ * Description  : This function is called when a wizard uses the 'store'
+ *                command. They can use it to access the storeroom of
+ *                the shop in case of a necessity.
+ * Arguments    : string str - the command line argument (should be void)
+ * Returns      : int 1/0 - success/failure.
+ */

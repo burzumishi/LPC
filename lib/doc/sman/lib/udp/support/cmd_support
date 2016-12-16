@@ -1,0 +1,7 @@
+101:/lib/udp/support.c (/lib/udp/support.c)
+(int) cmd_support(string arg)
+/*
+ * cmd_support - send a udp ping to another mud
+ *
+ * arg:		<mud / host port> cmd [param]
+ */

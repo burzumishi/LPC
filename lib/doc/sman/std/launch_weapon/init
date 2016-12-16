@@ -1,0 +1,6 @@
+198:/std/launch_weapon.c (/std/launch_weapon.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description  : Adds the aim, fire, shoot and unload commands to the player.
+ */

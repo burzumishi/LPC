@@ -1,0 +1,6 @@
+959:/std/door.c (/std/door.c)
+(string *) query_pass_command()
+/*
+ * Function name: query_pass_command
+ * Description:   Query what command lets you pass the door
+ */

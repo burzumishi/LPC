@@ -1,0 +1,9 @@
+121:/std/player/cmd_sec.c (/std/player_sec.c)
+(static nomask void) compute_auto_str()
+/*
+ * Function name: compute_auto_str
+ * Description  : Walk through the inventory and check all the objects for
+ *                the function query_auto_load(). Constructs an array with
+ *                all returned strings. query_auto_load() should return
+ *                a string of the form "<file>:<argument>".
+ */

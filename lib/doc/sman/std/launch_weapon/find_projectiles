@@ -1,0 +1,11 @@
+1541:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask int) find_projectiles()
+/*
+ * Function name: find_projectiles
+ * Description  : Searches the inventory of the wielder for projectiles.
+ *                If that fails it tries to find quivers containing
+ *                suitable projectiles in the wielders inventory.
+ *                If projectiles are found the wielder is notified.
+ *
+ * Returns      : int - 1 If projectiles are found. 0 Otherwise.
+ */

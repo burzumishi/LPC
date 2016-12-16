@@ -1,0 +1,12 @@
+1496:/lib/library.c (/lib/library.c)
+(public int) add_book(string title, string summary, string author,          string text, int approval)
+/* 
+ * Function name: add_book
+ * Description:   Add a new book to the library
+ * Arguments:     string title   - the book's title
+ *                string summary - the book's summary
+ *                string author  - the book's author
+ *                string text    - the book's text
+ *                int approval   - true if the book needs approval
+ * Returns:       1/0 - book added/not added
+ */

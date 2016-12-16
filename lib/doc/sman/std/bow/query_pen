@@ -1,0 +1,9 @@
+318:/std/bow.c (/std/bow.c)
+(public int) query_pen()
+/*
+ * Function name: query_pen
+ * Description  : This function merely checks if the bow is
+ *                stringed and delegates to launch_weapon.
+ *                If the bow is not stringed it returns a
+ *                pen of 10 and behaves like a normal weapon.
+ */

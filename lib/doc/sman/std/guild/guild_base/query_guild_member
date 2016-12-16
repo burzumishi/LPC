@@ -1,0 +1,9 @@
+149:/std/guild/guild_base.c (/std/guild/guild_base.c)
+(public nomask int) query_guild_member(string str)
+/*
+ * Function name: query_guild_member
+ * Description:   Is the player already member of an occuptional or layman or
+ * 		  race guild? Minor guilds or name of guild also works.
+ * Arguments:     str - the type of guild to search for, or guild name
+ * Returns:       1 if the shadowed player was member :)
+ */

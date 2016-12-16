@@ -1,0 +1,7 @@
+2925:/secure/master/fob.c (/secure/master.c)
+(string *) query_teams(void)
+/*
+ * Function name: query_teams
+ * Description  : Query the list of teams.
+ * Returns      : string * - the list of team names.
+ */

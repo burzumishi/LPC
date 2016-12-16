@@ -1,0 +1,6 @@
+697:/std/container.c (/std/container.c)
+(public string *) query_sublocs()
+/* 
+ * Function name: query_sublocs
+ * Description:   Get the current list of sublocations for this container
+ */

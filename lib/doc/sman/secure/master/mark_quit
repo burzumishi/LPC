@@ -1,0 +1,8 @@
+2469:/secure/master.c (/secure/master.c)
+(static void) mark_quit(object player)
+/*
+ * Function name: mark_quit
+ * Description  : Called when a player is about to quit. It's used to log
+ *                destructions of players.
+ * Arguments    : object player - the player who quits.
+ */

@@ -1,0 +1,7 @@
+432:/std/corpse.c (/std/corpse.c)
+(int) query_decay()
+/*
+ * Function name: query_decay
+ * Description  : Returns the (original) decay time in minutes.
+ * Returns      : int - the decay time in minutes.
+ */

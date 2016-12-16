@@ -1,0 +1,6 @@
+96:/std/act/chat.c (/std/act/chat.c)
+( */ void) clear_cchat()
+/*
+ * Function name: clear_cchat
+ * Description:   Clear random combat chatstring
+ */

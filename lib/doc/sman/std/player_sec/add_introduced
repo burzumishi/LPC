@@ -1,0 +1,7 @@
+82:/std/player/getmsg_sec.c (/std/player_sec.c)
+(public void) add_introduced(string str)
+/*
+ * Function name:   add_introduced
+ * Description:     Add the name of a living who has introduced herself to us
+ * Arguments:       str: Name of the introduced living
+ */

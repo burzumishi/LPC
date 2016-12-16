@@ -1,0 +1,7 @@
+262:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(void) acc_exp_to_stats()
+/*
+ * Function name: acc_exp_to_stats
+ * Description  : Translates the current accumulated exp into stats and
+ *                takes the racial modifiers into account.
+ */

@@ -1,0 +1,9 @@
+507:/secure/master/guild.c (/secure/master.c)
+(public int) guild_command(string str)
+/*
+ * Function name: guild_command
+ * Description  : This contains the code of the "guild" command for wizards.
+ *                It may only be called from the apprentice soul.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

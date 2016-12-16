@@ -1,0 +1,8 @@
+1570:/lib/library.c (/lib/library.c)
+(public int) library_validate_title(string title)
+/*
+ * Function name: library_validate_title
+ * Description:   Determine if a string is a valid book title
+ * Arguments:     string title - the title string
+ * Returns:       1/0 - valid/invalid
+ */

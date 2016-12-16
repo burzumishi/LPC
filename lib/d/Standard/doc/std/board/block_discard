@@ -1,0 +1,8 @@
+791:/std/board.c (/std/board.c)
+(public int) block_discard(string file)
+/*
+ * Function name: block_discard
+ * Description  : If this function returns 1, it will prevent the
+ *		  removal of a note.
+ * Arguments	: file - the file to remove
+ */

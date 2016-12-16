@@ -1,0 +1,7 @@
+526:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public string) query_spell_name()
+/*
+ * Function name: query_spell_name
+ * Description:   Get the name of this spell
+ * Returns:       string
+ */

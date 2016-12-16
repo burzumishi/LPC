@@ -1,0 +1,6 @@
+121:/std/container.c (/std/container.c)
+(public nomask void) reset_object()
+/*
+ * Function name: reset_object
+ * Description:   Reset the container 
+ */

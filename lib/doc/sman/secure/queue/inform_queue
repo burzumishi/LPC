@@ -1,0 +1,8 @@
+288:/secure/queue.c (/secure/queue.c)
+(static void) inform_queue()
+/*
+ * Function name: inform_queue
+ * Description  : We advise the people in the queue on their position at
+ *                a regular interval to assure them of the fact that they
+ *                are still queueing.
+ */

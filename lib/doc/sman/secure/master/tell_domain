@@ -1,0 +1,11 @@
+515:/secure/master/fob.c (/secure/master.c)
+(static void ) tell_domain(string dname, string wname, string wmess, string dmess)
+/*
+ * Function name: tell_domain
+ * Description  : Tell something to all in the domain save one, who gets a
+ *                special message.
+ * Arguments    : string dname - the domain.
+ *                string wname - special message to this wiz.
+ *                string wmess - wizard message.
+ *                string dmess - domain message.
+ */

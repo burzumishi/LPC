@@ -1,0 +1,7 @@
+932:/std/living/combat.c (/std/living.c)
+(public int) query_panic()
+/*
+ * Function name:   query_panic
+ * Description:     Give panic value
+ * Returns:         The panic value
+ */

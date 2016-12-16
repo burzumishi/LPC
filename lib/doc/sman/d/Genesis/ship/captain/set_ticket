@@ -1,0 +1,7 @@
+44:/d/Genesis/ship/captain.c (/d/Genesis/ship/captain.c)
+(public void) set_ticket(string file)
+/*
+ * Function name: set_ticket
+ * Description:   Set the filename of the ticket
+ * Arguments:     file - Ticket file
+ */

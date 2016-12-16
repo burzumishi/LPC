@@ -1,0 +1,8 @@
+402:/lib/area_handler.c (/lib/area_handler.c)
+(public nomask void) dispose_of(object ob)
+/*
+ * dispose_of
+ *
+ * Function called by the rooms to dispose of unwanted objects before
+ * autodestruct.
+ */

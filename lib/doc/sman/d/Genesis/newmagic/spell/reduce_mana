@@ -1,0 +1,13 @@
+819:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public varargs int) reduce_mana(object caster, int amnt, int test)
+/*
+ * Function name: reduce_mana
+ * Description:   Test to see if the caster has sufficient mana, and reduce
+ *                it by a given amount, if so.
+ * Arguments:     1. (object) The caster
+ *                2. (int)    The amount of mana to take (a positive value)
+ *                3. (int)    If true, only test if the caster has sufficient
+ *                            mana.  Do not reduce the mana.
+ * Returns:       1 - caster had sufficient mana
+ *                0 - caster did not have sufficient mana
+ */

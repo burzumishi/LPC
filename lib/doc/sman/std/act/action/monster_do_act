@@ -1,0 +1,5 @@
+133:/std/act/action.c (/std/act/action.c)
+(varargs mixed) monster_do_act(int waited = 0)
+/*
+ *  Description: The actual function action, called by VBFC in seq_heartbeat
+ */

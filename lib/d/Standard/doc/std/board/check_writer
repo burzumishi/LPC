@@ -1,0 +1,8 @@
+362:/std/board.c (/std/board.c)
+(public nomask int) check_writer()
+/*
+ * Function name: check_writer
+ * Description  : This function will return true if this_player() is allowed
+ *                to write on the board.
+ * Returns      : int 1/0 - true if the player may not write.
+ */

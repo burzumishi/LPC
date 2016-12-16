@@ -1,0 +1,9 @@
+176:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask void) create_weapon()
+/*
+ * Function name: create_weapon
+ * Description  : Create the launch_weapon. As this function is declared
+ *                nomask you must use the function launch_create_weapon 
+ *                to actually construct it. This function does some basic
+ *                initializing.
+ */

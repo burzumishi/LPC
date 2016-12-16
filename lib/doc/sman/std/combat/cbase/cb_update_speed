@@ -1,0 +1,6 @@
+1451:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask void) cb_update_speed()
+/*
+ * Function name: cb_update_speed
+ * Description:   Makes sure the correct speed is used.
+ */

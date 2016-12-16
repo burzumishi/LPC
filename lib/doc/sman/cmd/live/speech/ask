@@ -1,0 +1,5 @@
+178:/cmd/live/speech.c (/cmd/live/speech.c)
+(int) ask(string str)
+/* **************************************************************************
+ * Ask - Ask someone something.
+ */

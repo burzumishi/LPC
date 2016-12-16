@@ -1,0 +1,8 @@
+257:/obj/remote_npc.c (/obj/remote_npc.c)
+(nomask public int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : This function is used to protect this object from being
+ *                shadowed.
+ * Returns      : int 1 - always.
+ */

@@ -1,0 +1,8 @@
+70:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(nomask void) common_board_check(int last_time)
+/*
+ * Function name: common_board_check
+ * Description  : This function will check the common board and see whether
+ *                a new note has been posted since we last logged in.
+ * Function name: int last_time - the time I logged in at previously.
+ */

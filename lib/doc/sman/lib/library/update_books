@@ -1,0 +1,7 @@
+936:/lib/library.c (/lib/library.c)
+(public void) update_books()
+/*
+ * Function name: update_books
+ * Description:   Update the in-memory book information when something
+ *                has changed.
+ */

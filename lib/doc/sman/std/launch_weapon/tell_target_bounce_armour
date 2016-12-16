@@ -1,0 +1,19 @@
+2271:/std/launch_weapon.c (/std/launch_weapon.c)
+(public void ) tell_target_bounce_armour(object archer, object target, object projectile, 			  string adj_room_desc, string org_room_desc, 			  object armour)
+/*
+ * Function name: tell_target_bounce_armour
+ * Description  : Produces a message to the target when he is hit by
+ *                an arrow that do no dammage. This is described as
+ *                the arrow bouncing off his armour. This function is
+ *                meant to be overridden by launch_weapon implementations.
+ *                
+ * Arguments    : archer:        The player loading his weapon.
+ *                target:        The target player is aiming at.
+ *                projectile:    The projectile we are loading.
+ *                adj_room_desc: Description of the room we shoot into. 0 if
+ *                               target stands in the same room at the archer.
+ *                org_room_desc: Description of originating room. 0 if
+ *                               target stands in the same room as the archer.
+ *                armour:        The armour that deflects the arrow. armour
+ *                               may be 0 if no armour covers the hid.
+ */

@@ -1,0 +1,8 @@
+279:/std/living.c (/std/living.c)
+(string) modify_command(string cmd)
+/*
+ * Function name: modify_command
+ * Description:	 This is here so that a possessing wizard will get commands.
+ *    Technically, it should be part of /std/living/possess.c, but since
+ *    the lfun is more general, it is left here.
+ */

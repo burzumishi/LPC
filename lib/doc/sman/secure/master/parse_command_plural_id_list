@@ -1,0 +1,8 @@
+21:/secure/master/language.c (/secure/master.c)
+(string *) parse_command_plural_id_list()
+/*
+ * Function name: parse_command_plural_id_list
+ * Description  : This will return the words that can be used to point at
+ *                a particular group of objects, i.e. a plural 'id'.
+ * Returns      : string * - the list.
+ */

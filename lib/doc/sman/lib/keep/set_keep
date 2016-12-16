@@ -1,0 +1,12 @@
+77:/lib/keep.c (/lib/keep.c)
+(public void) set_keep(int keep = 1)
+/*
+ * Function name: set_keep
+ * Description  : Call this function in order to set or remove the 'keep'
+ *                protection of this object. If no argument is passed to the
+ *                function, the default will be 1 - i.e. set the 'keep'
+ *                protection. If the OBJ_M_NO_SELL property is not set to
+ *                our own function, keep the item kept.
+ * Arguments    : int 1 - set the 'keep' protection.
+ *                    0 - remove the 'keep' protection.
+ */

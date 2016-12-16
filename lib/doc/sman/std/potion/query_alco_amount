@@ -1,0 +1,10 @@
+321:/std/potion.c (/std/potion.c)
+(nomask int ) query_alco_amount(int i)
+/*
+ * Function name: query_alco_amount
+ * Description:   Quaffing potions does not intoxicate.
+ *                This is achieved by making this function return 0.
+ *                To query the alcohol amount in the potion use
+ *                query_alco_strength().
+ * Returns:       0
+ */

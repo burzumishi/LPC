@@ -1,0 +1,7 @@
+407:/std/herb.c (/std/herb.c)
+(void) stop_decay()
+/*
+ * Function name: stop_decay
+ * Description:   Temporarily stop the decay process of the herb.
+ *                Restart it again with restart_decay.
+ */

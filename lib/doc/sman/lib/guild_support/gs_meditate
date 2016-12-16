@@ -1,0 +1,8 @@
+347:/lib/guild_support.c (/lib/guild_support.c)
+(int) gs_meditate(string str)
+/*
+ * Function name: gs_meditate
+ * Description  : Player wants to meditate.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

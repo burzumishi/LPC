@@ -1,0 +1,7 @@
+219:/std/guild/guild_base.c (/std/guild/guild_base.c)
+(public nomask string) list_major_guilds()
+/*
+ * Function name: list_major_guilds
+ * Description:   List the major guilds this player is member of
+ * Returns:	  A string holding all the information
+ */

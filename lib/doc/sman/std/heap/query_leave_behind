@@ -1,0 +1,8 @@
+196:/std/heap.c (/std/heap.c)
+(public int) query_leave_behind()
+/*
+ * Function name: query_leave_behind
+ * Descriptioon : Returns the size of the heap that remains after some
+ *                elements have been moved away from the heap.
+ * Returns      : int - the number of elements that will remain behind.
+ */

@@ -1,0 +1,9 @@
+1606:/std/launch_weapon.c (/std/launch_weapon.c)
+(int) query_pen()
+/*
+ * Function name: query_pen
+ * Description  : Returns the average of launcher and projectile pen values.
+ *                
+ * Returns      : int - Returns the average of launcher and projectile
+ *                pen values.
+ */

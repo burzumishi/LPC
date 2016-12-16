@@ -1,0 +1,6 @@
+995:/std/door.c (/std/door.c)
+(string *) query_open_command()
+/*
+ * Function name: query_open_command
+ * Description:   Query what command opens the door
+ */

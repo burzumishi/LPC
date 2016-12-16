@@ -1,0 +1,15 @@
+120:/lib/holdable_item.c (/lib/holdable_item.c)
+(public mixed) release()
+/*
+ * Function name: release
+ * Description  : Called when the person wants to release the item. This
+ *                function may allow or disallow the object to be released,
+ *                and it may print its own messages.
+ * Returns      : string / int -
+ *                 0 - The item can be relased, print default messages.
+ *                 1 - The item can be relased, print no messages.
+ *                     Messages were printed within the function.
+ *                -1 - The item cannot be released. Print default messages.
+ *                string - The item cannot be relased. The string contains the
+ *                         fail message.
+ */

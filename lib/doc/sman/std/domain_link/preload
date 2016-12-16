@@ -1,0 +1,9 @@
+32:/std/domain_link.c (/std/domain_link.c)
+(nomask void) preload(string file)
+/*
+ * Function name: preload
+ * Description  : This function should be called from the preload_link()
+ *                function of the domain. It enables the domain to load some
+ *                modules at boot time.
+ * Arguments    : string file - the filename of the file to preload.
+ */

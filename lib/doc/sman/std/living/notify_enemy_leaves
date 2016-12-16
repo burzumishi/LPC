@@ -1,0 +1,12 @@
+455:/std/living/combat.c (/std/living.c)
+(void) notify_enemy_leaves(object enemy)
+/*
+ * Function name: notify_enemy_leaves
+ * Description  : This routine is called when an enemy leaves the room, that
+ *                is, when someone leaves us. It is not called when we walk
+ *                away from someone who is subsequently hunting us.
+ *
+ *                This routin does not actually exist. It is a trick to fool
+ *                the document maker.
+ * Arguments    : object enemy - the enemy who left us.
+ */

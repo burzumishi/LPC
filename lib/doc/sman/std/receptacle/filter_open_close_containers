@@ -1,0 +1,11 @@
+937:/std/receptacle.c (/std/receptacle.c)
+(public nomask int) filter_open_close_containers(object ob)
+/*
+ * Function name: filter_open_close_containers
+ * Description  : Filter to get only the containers that inherit this file as
+ *                well for we don't want to close a container that does not
+ *                have an open command.
+ * Arguments    : ob - the object to process
+ * Returns      : 1 - this container is oke.
+ *                0 - apparently it is not a good container.
+ */

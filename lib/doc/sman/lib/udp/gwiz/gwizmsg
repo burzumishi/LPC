@@ -1,0 +1,5 @@
+51:/lib/udp/gwiz.c (/lib/udp/gwiz.c)
+(int ) gwizmsg(mapping p)
+/*
+ * Got a message
+ */

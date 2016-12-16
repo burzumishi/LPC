@@ -1,0 +1,10 @@
+897:/secure/mail_reader.c (/secure/mail_reader.c)
+(public string) cleanup_string(string str)
+/*
+ * Function name:   cleanup_string
+ * Description:     Clean up the given string and turn it into a nice string
+ *                  with only commas separating the substrings.
+ *                  Leaves a string like "1-4" alone.
+ * Arguments:       str: the string that is going to be cleaned up
+ * Returns:         The clean string
+ */

@@ -1,0 +1,7 @@
+2577:/std/object.c (/std/object.c)
+(mixed) query_alarms()
+/*
+ * Function name: query_alarms
+ * Description:   This function gives all alarms set in this object.
+ * Returns:       The list as given by get_all_alarms.
+ */

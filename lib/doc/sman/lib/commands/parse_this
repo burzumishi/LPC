@@ -1,0 +1,15 @@
+569:/lib/commands.c (/lib/commands.c)
+(public varargs object *) parse_this(string str, string form, int cmd_attr = 0, int allow_self = 0)
+/*
+ * Function name: parse_this
+ * Description  : This is a parser with some extra functions and checks,
+ *                specially designed for the soul. It can be used on both
+ *                livings and non-livings, but if the first argument is "all",
+ *                then only livings are returned.
+ * Arguments    : string str - the string to parse.
+ *                string form - the parse-pattern.
+ *                int cmd_attr - the command attributes (optional).
+ *                int allow_self - if true, allow the emote on this_player()
+ *                    too. (optional)
+ * Returns      : object * - an array of matching objects.
+ */

@@ -1,0 +1,9 @@
+1298:/std/door.c (/std/door.c)
+(void) set_knock_command(mixed cmd)
+/*
+ * Function name:	set_knock_command
+ * Description	:	set the list of commands for knocking on the door
+ * Arguments	:	mixed cmd -- a command string or an array of 
+ *			command strings, or 0 to disable 'knock'.
+ *			The default command is ({ "knock", "pound" }).
+ */

@@ -1,0 +1,18 @@
+411:/secure/master.c (/secure/master.c)
+(int) valid_seteuid(object ob, string str)
+/*
+ * Function name: valid_seteuid
+ * Description:   Checks if a certain user has the right to set a certain
+ *                objects effective 'userid'. All objects has two 'uid'
+ *                - Owner userid: Wizard who caused the creation.
+ *                - Effective userid: Wizard responsible for the objects
+ *                  actions.
+ *                When an object creates a new object, the new objects
+ *                'Owner userid' is set to creating objects 'Effective
+ *                userid'.
+ * Arguments:     ob:   Object to set 'effective' user id in.
+ *                str:  The effuserid to be set.
+ * Returns:       True if set is allowed.
+ * Note:          Setting of effuserid to userid is allowed in the GD as
+ *                well as setting effuserid to 0.
+ */

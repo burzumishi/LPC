@@ -1,0 +1,14 @@
+54:/std/combat/profile.c (/std/combat/profile.c)
+(    ) for( pass = 0; pass <= 1; pass++)
+/*
+ * I apologise for this abomination.  It does a heapsort in place.
+ * I made the "pass" variable in order to reuse the code for both
+ * building the heap and restoring the heap during the sort.  Pass 0
+ * builds the heap, pass 1 does the sort.
+ *
+ * The while loop contains the main "make_heap" code.  
+ *
+ * The algorithm is much simpler than this implementation, but this
+ * is done without benefit of recursion, global variables, or in/out
+ * parameter passing.  
+ */

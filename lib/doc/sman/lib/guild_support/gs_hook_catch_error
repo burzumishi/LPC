@@ -1,0 +1,10 @@
+331:/lib/guild_support.c (/lib/guild_support.c)
+(int) gs_hook_catch_error(string str)
+/*
+ * Function name: gs_hook_catch_error
+ * Description  : This hook is called when a player tried to do something strange
+ *                while meditating like examining things or leave the room. You
+ *                can mask this function to give a different message.
+ * Arguments    : string str - Argument the player tried to send to his command.
+ * Returns      : int 1 - normally.
+ */

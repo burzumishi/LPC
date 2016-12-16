@@ -1,0 +1,8 @@
+743:/std/weapon.c (/std/weapon.c)
+(int) set_corroded(int corr)
+/*
+ * Function name: set_corroded
+ * Description  : Use this to increases the corroded status on weapons.
+ * Arguments    : int cond - The new condition we want (can only be raised)
+ * Returns      : int - 1 if new condition accepted, 0 if no corrosion.
+ */

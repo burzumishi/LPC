@@ -1,0 +1,24 @@
+97:/lib/skill_raise.c (/lib/skill_raise.c)
+(public varargs void) sk_add_train(mixed snum, mixed desc, string name, int costf,      int maxskill, int stat, int weight)
+/*
+ * Function name: sk_add_train
+ * Description:   Add a skill that can be trained.
+ * Description:   Add a skill that can be trained.
+ * Arguments:     snum: Skill number
+ *                desc: Text written when raising the skill, ({ str1, str2 })
+ *                              str1: what player sees
+ *                              str2: what all other see
+ *                      If a single textstring is given it will be used
+ *                      for both what player sees and others see.
+ *
+ *                      Default messages will then be:
+ *                        You improve your ability to <str1> ....
+ *                        XXX improves <his> ability to <str2> ...
+ *
+ *                name: Name of skill
+ *                costf: The costfactor for this skill in precentage
+ *                maxskill: The maxlevel that we can teach to.
+ *                stat: The limiting stat
+ *                weight: The limit weight, max skill will be:
+ *                              weight * stat / 100
+ */

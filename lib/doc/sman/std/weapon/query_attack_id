@@ -1,0 +1,8 @@
+616:/std/weapon.c (/std/weapon.c)
+(int) query_attack_id()
+/*
+ * Function name: query_attack_id
+ * Description  : When wielded, this returns in which hands the weapon is
+ *                actually wielded.
+ * Returns      : int - the hands, or 0 if not wielded.
+ */

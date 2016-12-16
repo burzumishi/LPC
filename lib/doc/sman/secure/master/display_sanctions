@@ -1,0 +1,8 @@
+514:/secure/master/sanction.c (/secure/master.c)
+(static void) display_sanctions(string name)
+/*
+ * Function name: display_sanctions
+ * Description  : This function can be used display the sanctions a wizard
+ *                or domain has given out.
+ * Arguments    : string name - the wizard or domain who gave the sanction.
+ */

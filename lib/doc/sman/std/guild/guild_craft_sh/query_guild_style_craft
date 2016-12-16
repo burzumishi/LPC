@@ -1,0 +1,8 @@
+93:/std/guild/guild_craft_sh.c (/std/guild/guild_craft_sh.c)
+(public string public string) query_guild_style_craft()
+/*
+ * Function name: query_guild_style_craft
+ * Description:   What styles is this guild?
+ *		  You should redefine this function to suite you.
+ * Returns:       string - holding the style of guild
+ */

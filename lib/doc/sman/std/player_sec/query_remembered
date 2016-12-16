@@ -1,0 +1,10 @@
+1359:/std/player/savevars_sec.c (/std/player_sec.c)
+(public varargs mixed) query_remembered(mixed name)
+/*
+ * Function name:   query_remembered
+ * Description  :   Returns true if the player has rememberd someone.
+ *                  If no argument is passed the entire remembered mapping is
+ *                  returned.
+ * Arguments    :   The name to check for.
+ * Returns      :   True if name is remembered
+ */

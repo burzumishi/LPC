@@ -1,0 +1,7 @@
+325:/std/herb.c (/std/herb.c)
+(public int) query_amount()
+/*
+ * Function name:       query_amount
+ * Description:         Gives the amount of food in this herb
+ * Returns:             Amount as int (in grams)
+ */

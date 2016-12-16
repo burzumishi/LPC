@@ -1,0 +1,5 @@
+133:/std/act/chat.c (/std/act/chat.c)
+(void) monster_do_chat()
+/*
+ *  Description: The actual function chatting, called by VBFC in seq_heartbeat
+ */

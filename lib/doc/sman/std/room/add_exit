@@ -1,0 +1,26 @@
+113:/std/room/exits.c (/std/room.c)
+(public varargs int) add_exit(string place, string cmd, mixed efunc, mixed tired, mixed non_obvious)
+/*
+ * Function name: add_exit
+ * Description  : Add one exit to the room. Only the first and the second
+ *                argument are mandatory. The rest is optional.
+ * Arguments    : string place - The filename of the room to move to. This can
+ *                    be an absolute or relative path, but also just the
+ *                    filename if that is in the same directory. Do not add
+ *                    the trailing ".c".
+ *                string cmd - The command the player has to give to move. Use
+ *                    the long version of the "southwest". The short version
+ *                    "sw" is automatically added.
+ *                mixed efunc - The delay value. This can be VBFC. Possible
+ *                    delay values are:
+ *                    = 0: Player can move directly to destination.
+ *                    = 1: Cannot use this exit, and do not try others.
+ *                    > 1: Cannot use this exit, but try the rest.
+ *                    < 0: Move is done with delay (see link_room)
+ *                mixed tired - How much more tired the player should become
+ *                    from walking in that direction. Default value is 1.
+ *                    This can be VBFC.
+ *                mixed non_obvious - When true, the player will not see this
+ *                    exit, but he can use it. VBFC can be used here.
+ * Returns      : int 1/0 - success/failure.
+ */

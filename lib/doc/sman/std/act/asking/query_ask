@@ -1,0 +1,17 @@
+93:/std/act/asking.c (/std/act/asking.c)
+(public mixed) query_ask()
+/*
+ * Function name: query_ask
+ * Description:   Get the additional questions array.
+ * Returns:       Question array, possibly containing VBFC, see below:
+
+  [0] = array
+     [0] ({ "name1 of question1", "name2 of question1",... })
+     [0] ({ "name1 of question1", "name2 of question1",... })
+     [1] "This is the answer of the question1."
+     [2] command (1 or 0)
+  [1] = array
+     [0] ({ "name1 of question2", "name2 of question2", ... })
+     [1] "This is the answer of the question2."
+     [2] command (1 or 0)
+*/

@@ -1,0 +1,8 @@
+324:/std/poison_effect.c (/std/poison_effect.c)
+(public string) query_responsible_object()
+/*
+ * Function name: query_responsible_object
+ * Description  : Returns the filename of the object directly responsible for
+ *                this poison.
+ * Returns      : string - the filename of the object.
+ */

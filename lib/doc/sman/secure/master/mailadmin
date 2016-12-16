@@ -1,0 +1,9 @@
+639:/secure/master/mail_admin.c (/secure/master.c)
+(int) mailadmin(string str)
+/*
+ * Function name: mailadmin
+ * Description  : This contains the implementation of the "mailadmin" command
+ *                in the arch-soul.
+ * Arguments    : string str - the subcommand requested.
+ * Returns      : int 1/0 - success/failure.
+ */

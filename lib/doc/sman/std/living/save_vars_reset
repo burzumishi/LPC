@@ -1,0 +1,7 @@
+92:/std/living/savevars.c (/std/living.c)
+(static nomask void) save_vars_reset()
+/*
+ * Function name:   save_vars_reset
+ * Description:     Resets some variables which are used to keep track
+ *                  of how variables change with time.
+ */

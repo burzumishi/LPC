@@ -1,0 +1,11 @@
+137:/std/player/savevars_sec.c (/std/player_sec.c)
+(public int) set_adj(string *arr)
+/*
+ * Function name:   set_adj
+ * Description:     'go through function' for storing the adjectives. Also
+ *                  sets the adjectives to 'adj_desc' if no arg given.
+ *                  No more than 2 adjectives of a total length of 35
+ *                  characters is allowed.
+ * Arguments:       str: Adjectives to pass to ::set_adj() or 0.
+ * Returns:         1 if setting was succesfull, 0 otherwise
+ */

@@ -1,0 +1,11 @@
+562:/std/living/stats.c (/std/living.c)
+(public nomask int) set_guild_stat(int stat, int exp)
+/*
+ * Function name: set_guild_stat
+ * Description  : This function allows the guildmaster to alter the
+ *                experience a player has gathered in the guild. It can
+ *                be set to any value.
+ * Arguments    : int stat - the stat to set (guild stats only!)
+ *                int exp  - the experience value to set the stat to.
+ * Returns      : int      - 1/0 - set/unset.
+ */

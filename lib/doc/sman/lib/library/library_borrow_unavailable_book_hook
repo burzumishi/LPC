@@ -1,0 +1,9 @@
+450:/lib/library.c (/lib/library.c)
+(public int) library_borrow_unavailable_book_hook(string title)
+/*
+ * Function name: library_borrow_unavailable_book_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user attempts to borrow or read a nonexistant book
+ * Arguments:     string title - the title of the book
+ * Returns:       1/0
+ */

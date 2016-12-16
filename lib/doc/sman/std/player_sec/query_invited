@@ -1,0 +1,8 @@
+52:/std/player/pcombat.c (/std/player_sec.c)
+(public object *) query_invited()
+/*
+ * Function name:   query_invited
+ * Description:     Give back an array with objects of players who are
+ *                  invited.
+ * Returns:         An array of objects
+ */

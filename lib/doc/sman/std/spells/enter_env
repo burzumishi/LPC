@@ -1,0 +1,6 @@
+194:/std/spells.c (/std/spells.c)
+(varargs void) enter_env(object dest, object old)
+/*
+ * Function name: enter_env
+ * Description:   Add the object to the list of spell objects.
+ */

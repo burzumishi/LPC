@@ -1,0 +1,6 @@
+109:/std/player/death_sec.c (/std/player_sec.c)
+(public void) reincarnate()
+/*
+ * Function name:   reincarnate
+ * Description:     Manages the reincarnation of a player
+ */

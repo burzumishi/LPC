@@ -1,0 +1,13 @@
+234:/std/room/exits.c (/std/room.c)
+(public mixed) query_exit()
+/*
+ * Function name: query_exit
+ * Description:   Gives a list of the possible exits from this room.
+ * Returns:       An array on the form below (example):
+ *
+ * ({
+ *    "/room/church", "north" , "@@exitfun" ,
+ *    "/room/post", "post" , "@@exitfun" ,
+ * })
+ *
+ */

@@ -1,0 +1,7 @@
+111:/std/mobile.c (/std/mobile.c)
+(static void) start_heart()
+/* 
+ * start_heart
+ * Description:  When a mobile has an active heartbeat we must test
+ *		 now and then if we can turn it off.
+ */

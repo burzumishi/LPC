@@ -1,0 +1,8 @@
+179:/lib/bank.c (/lib/bank.c)
+(int) valid_type(string str)
+/*
+ * Function name: valid_type
+ * Description:   Find if a str is holding a valid type of money
+ * Arguments:     str - The string describing the types
+ * Returns:       The array number of the 'lowest' type of money identified
+ */

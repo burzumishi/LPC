@@ -1,0 +1,13 @@
+136:/std/room.c (/std/room.c)
+(public object) clone_here(string file)
+/*
+ * Function name: clone_here
+ * Description  : The behaviour of this function is exactly the same as the
+ *                efun clone_object(). It clones the 'file' and returns the
+ *                objectpointer to that object. However, it will also add
+ *                the object to a list of items that 'belongs' in this room.
+ *                This means that the presence of this object in the room will
+ *                not prevent the room from being cleaned with clean_up().
+ * Arguments    : string file - the path to the item to clone.
+ * Returns      : object - the objectpointer to the clone.
+ */

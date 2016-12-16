@@ -1,0 +1,5 @@
+38:/std/act/ranpick.c (/std/act/ranpick.c)
+( int) can_pick(object ob)
+/*
+ * Sequence functions
+ */

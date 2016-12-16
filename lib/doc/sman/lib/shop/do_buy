@@ -1,0 +1,8 @@
+806:/lib/shop.c (/lib/shop.c)
+(int) do_buy(string str)
+/*
+ * Function name: do_buy
+ * Description:   Try to let the player buy an item
+ * Arguments:     string - describing how to pay and get change
+ * Returns:       1 on sucess
+ */

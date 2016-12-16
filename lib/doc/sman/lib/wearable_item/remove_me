@@ -1,0 +1,9 @@
+464:/lib/wearable_item.c (/lib/wearable_item.c)
+(public mixed) remove_me()
+/*
+ * Function name: remove_me
+ * Description:   remove this item
+ * Returns:       1 - success
+ *                0 - armour not worn
+ *                string - an error message (failure)
+ */

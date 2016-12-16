@@ -1,0 +1,7 @@
+689:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_dismiss_messenger()
+/*
+ * Function:    hook_dismiss_messenger
+ * Description: Hook that gets called to display the message when the
+ *              player dismisses the messenger (to go home).
+ */

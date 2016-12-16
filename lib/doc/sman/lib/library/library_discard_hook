@@ -1,0 +1,8 @@
+727:/lib/library.c (/lib/library.c)
+(public void) library_discard_hook(string title)
+/*
+ * Function name: library_discard_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user discards a book
+ * Arguments:     string title - the book discarded
+ */

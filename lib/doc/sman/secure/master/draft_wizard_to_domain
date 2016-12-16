@@ -1,0 +1,10 @@
+711:/secure/master/fob.c (/secure/master.c)
+(int) draft_wizard_to_domain(string dname, string wname)
+/*
+ * Function name: draft_wizard_to_domain
+ * Description  : With this function an archwizard or keeper can draft a
+ *                wizard to a domain.
+ * Arguments    : string dname - the domain to draft the wizard to.
+ *                string wname - the wizard to draft.
+ * Returns      : int 1/0 - success/failure.
+ */

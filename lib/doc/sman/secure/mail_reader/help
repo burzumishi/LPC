@@ -1,0 +1,7 @@
+961:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) help(string str)
+/*
+ * Function name: help
+ * Description  : Show all commands.
+ * Arguments    : string str - the argument to the help command.
+ */

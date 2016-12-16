@@ -1,0 +1,5 @@
+8:/lib/time.c (/lib/time.c)
+(string) convtime(int time)
+/*
+ * Time in secs to  nn days xx hours yy minutes ss seconds
+ */

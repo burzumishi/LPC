@@ -1,0 +1,7 @@
+151:/std/container.c (/std/container.c)
+(public int) query_internal_light()
+/*
+ * Function name: query_internal_light
+ * Description:   Returns the lightvalue of object internal to this container
+ * Returns:       Lightvalue
+ */

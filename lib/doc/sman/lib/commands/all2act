@@ -1,0 +1,31 @@
+292:/lib/commands.c (/lib/commands.c)
+(public varargs void) all2act(string str, object *oblist, string str1, string adverb = "",     int cmd_attr = 0)
+/*
+ * Function name: all2act
+ * Description  : Print the message that all onlookers get when two players
+ *                interact. A newline is always added. If the second,
+ *                optional argument is omitted, a period is also added.
+ *                Possessive form on the actor and target(s) are handled
+ *                automatically.
+ * Example      : all2act(" tackles", oblist);
+ *
+ *                Someone tackles Mrpr.
+ *                Fatty tackles the darkly robed human wizard.
+ *                Fatty tackles someone.
+ *                The big fat gnome wizard tackles Mrpr.
+ *                (etc for the other unseen/met/nonmet combinations)
+ *
+ *                all2act(" pokes", oblist, " in the ribs.");
+ *
+ *                Fatty pokes the darkly robed human wizard in the ribs.
+ *                (etcetera.)
+ *
+ * Arguments    : string str     - the first part of the message to print.
+ *                                 Start with "'s" for possessive actor form.
+ *                object *oblist - the targets of the emotion, NOT the people
+ *                                 who are watching.
+ *                string str1    - the optional second part of the message.
+ *                                 Start with "'s" for possessive target form.
+ *                string adverb  - the optional adverb if one was used.
+ *                int cmd_attr   - the action attributes (from cmdparse.h)
+ */

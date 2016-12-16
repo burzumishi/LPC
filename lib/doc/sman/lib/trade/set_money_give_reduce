@@ -1,0 +1,8 @@
+234:/lib/trade.c (/lib/trade.c)
+(void) set_money_give_reduce(int *a)
+/*
+ * Function name: set_money_give_reduce
+ * Description:   Set the reduce number for each coin type
+ * Arguments:     a - The array of integers
+ * Returns:
+ */

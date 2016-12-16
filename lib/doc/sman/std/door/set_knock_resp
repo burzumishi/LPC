@@ -1,0 +1,8 @@
+1330:/std/door.c (/std/door.c)
+(void) set_knock_resp(string *msg)
+/*
+ * Function name:	set_knock_resp
+ * Description	:	set the responses to knocking on a closed door
+ * Arguments	:	string *msg -- array of msgs to display to
+ *			this_player(), this room, and the other room
+ */

@@ -1,0 +1,8 @@
+44:/std/bowstring.c (/std/bowstring.c)
+(public nomask int) is_bowstring()
+/*
+ * Function name: is_bowstring
+ * Description  : A function that makes it easy to filter
+ *                out bowstrings among other objects.
+ * Returns      : Allways returns 1.
+ */

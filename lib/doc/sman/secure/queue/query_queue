@@ -1,0 +1,7 @@
+310:/secure/queue.c (/secure/queue.c)
+(public int) query_queue()
+/*
+ * Function name: query_queue
+ * Description  : Return the number of players in the queue.
+ * Returns      : int - the size of the queue.
+ */

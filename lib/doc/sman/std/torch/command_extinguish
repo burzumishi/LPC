@@ -1,0 +1,8 @@
+426:/std/torch.c (/std/torch.c)
+(public mixed) command_extinguish()
+/*
+ * Function name: command_extinguish
+ * Description:   Extinguish this torch.
+ * Returns:       string - an error message (failure)
+ *                1 - torch successfully extinguished
+ */

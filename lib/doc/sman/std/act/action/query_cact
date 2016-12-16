@@ -1,0 +1,8 @@
+99:/std/act/action.c (/std/act/action.c)
+(string *) query_cact()
+/*
+/*
+ * Function name: query_cact
+ * Description:   Give the combat act array
+ * Returns:	  The array
+ */

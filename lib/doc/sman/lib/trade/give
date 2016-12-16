@@ -1,0 +1,14 @@
+921:/lib/trade.c (/lib/trade.c)
+(varargs int *) give(int price, object ob, string str, int test, object ob2, int silent)
+/*
+ * Function name: give
+ * Description:   Let the first object give the price to the second object if
+ *		  not test
+ * Arguments:     price - the price to give
+ *                ob - the object who should pay
+ *                str - string describing what money buy wants to get
+ *                test - set if this is a test - no money being switched
+ *                ob2 - the object who should get the money, 0 if none
+ *		  silent - No message will be written if fail to move money
+ * Returns:       An array describing the object payed and the change it got
+ */

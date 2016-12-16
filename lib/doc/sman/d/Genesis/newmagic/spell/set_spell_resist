@@ -1,0 +1,9 @@
+373:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_resist(function res)
+/*
+ * Function name: set_spell_resist
+ * Description:   Set the function to use to get a target's resistance in %.
+ *                The function should use query_magic_res() to search for the
+ *                properties.
+ * Arguments:     1. (function) - The function to be used
+ */

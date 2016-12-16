@@ -1,0 +1,14 @@
+1067:/std/living/combat.c (/std/living.c)
+(public void) add_attack_delay(int secs, int type)
+/*
+ * Function name: add_attack_delay
+ * Description:   Set the LIVE_I_ATTACK_DELAY prop properly.
+ *                Use this function if possible instead of altering the prop.
+ * Arguments:     secs - How many seconds
+ *                type - How it should be added.
+ *                       0 - Just add it.
+ *                       1 - Superimpose the delay; make it at least 'secs'
+ *                           seconds counting from now, not counting from the
+ *                           end of an existing delay. In formula:
+ *                           new_delay = MAX(old_delay, secs)
+ */

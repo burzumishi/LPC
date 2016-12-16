@@ -1,0 +1,12 @@
+157:/secure/master/sanction.c (/secure/master.c)
+(static int) recursive_valid_read_path_sanction(string reader, string dname, string *parts)
+/*
+ * Function name: recursive_valid_read_path_sanction
+ * Description  : This function will in a loop test the complete path in
+ *                'parts' to see whether 'reader' has the right to read that
+ *                directory in 'dname'. It doesn't really recurse, but loop.
+ * Arguments    : string reader - the euid that wants to read.
+ *                string euid   - the euid that 'reader' wants to read.
+ *                string *parts - the parts that compose the path.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

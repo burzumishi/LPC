@@ -1,0 +1,8 @@
+76:/d/Genesis/newmagic/hooks.c (/d/Genesis/newmagic/hooks.c)
+(public void) hook_no_ingredients_fail(mixed *ingredients_needed)
+/*
+ * Function name: hook_no_ingredients_fail
+ * Description:   Return the message that should be printed when the caster
+ *                doesn't have the right ingredients
+ * Returns:       The message to print.
+ */

@@ -1,0 +1,7 @@
+356:/secure/armageddon.c (/secure/armageddon.c)
+(public nomask int) shutdown_active()
+/*
+ * Function name: shutdown_active
+ * Description  : Returns true if Armageddon is active.
+ * Returns      : int 1/0 - true if Armageddon is active.
+ */

@@ -1,0 +1,9 @@
+462:/std/heap.c (/std/heap.c)
+(public void) enter_env(mixed env, object old)
+/*
+ * Function name: enter_env
+ * Description  : Called when heap enters an environment. We check whether
+ *                there are any similar heaps to merge with.
+ * Arguments    : mixed env - the new environment.
+ *                object old - the old environment.
+ */

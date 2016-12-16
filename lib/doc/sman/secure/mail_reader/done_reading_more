@@ -1,0 +1,8 @@
+685:/secure/mail_reader.c (/secure/mail_reader.c)
+(public void) done_reading_more()
+/*
+ * Function name: done_reading_more
+ * Description  : This function is a security function that checks whether
+ *                it was indeed the more function that called us. We do
+ *                not want anyone else to call loop().
+ */

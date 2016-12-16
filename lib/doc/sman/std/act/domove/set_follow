@@ -1,0 +1,8 @@
+53:/std/act/domove.c (/std/act/domove.c)
+(varargs void) set_follow(string name, int flag)
+/*
+ * Function name: set_follow
+ * Description:   Sets the name of someone to follow
+ * Arguments:     name: Name of living (something that works with present() )
+ *                int: if non-zero, don't wander at all, i.e. just follow
+ */

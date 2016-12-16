@@ -1,0 +1,11 @@
+573:/std/bow.c (/std/bow.c)
+(public void) tell_target_load(object archer, object target, object projectile)
+/*
+ * Function name: tell_target_load
+ * Description  : Produces a message to the player when he is loading his
+ *                launch_weapon.
+ *                
+ * Arguments    : archer:     The player loading his weapon.
+ *                target:     The target player is aiming at.
+ *                projectile: The projectile we are loading.
+ */

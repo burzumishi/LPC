@@ -1,0 +1,11 @@
+282:/std/living/savevars.c (/std/living.c)
+(public string) query_race()
+/*
+ * Function name: query_race
+ * Description  : If you define different player objects for different
+ *                races you should mask this function in those objects to
+ *                always return the true race of the living even though
+ *                query_race_name gives the current race of the living.
+ *                You should nomask the redefinition of this function.
+ * Returns      : string - the race name.
+ */

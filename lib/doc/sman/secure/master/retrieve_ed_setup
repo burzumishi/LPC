@@ -1,0 +1,6 @@
+1791:/secure/master.c (/secure/master.c)
+(int ) retrieve_ed_setup(object who)
+/*
+ * Retrieve the ed setup. No meaning to defend this file read from
+ * unauthorized access.
+ */

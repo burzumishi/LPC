@@ -1,0 +1,16 @@
+405:/secure/docmake.c (/secure/docmake.c)
+(int ) potential_func(string *lines, int flin, int clin,  	       int start, string cmt, string src)
+/*
+ * Description: Try to parse a function trailing a comment. If the comment is 
+ *              incomplete its first part is stored in 'left_lines' and is
+ *		then added first on the next readchunk (in accumul_funcs).
+ * Arguments:
+ *             lines - All the current source lines under scrutiny
+ *             flin  - Line to start looking for a function
+ *             clin  - Line where comment starts
+ *             start - Line number in file of lines[0]
+ *             cmt   - The comment as one string
+ *             src   - The filename of the file under scrutiny
+ * Returns: 
+ *             The last line in lines looked at
+ */

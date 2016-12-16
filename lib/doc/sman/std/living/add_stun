@@ -1,0 +1,7 @@
+1101:/std/living/combat.c (/std/living.c)
+(public void) add_stun()
+/*
+ * Function name: add_stun
+ * Description:   Stun the living with the LIVE_I_STUNNED prop.
+ *                Use this function if possible instead of altering the prop.
+ */

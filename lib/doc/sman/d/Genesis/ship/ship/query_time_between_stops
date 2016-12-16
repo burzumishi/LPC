@@ -1,0 +1,7 @@
+836:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public int *) query_time_between_stops()
+/*
+ * Function name: query_time_between_stops
+ * Description	: get the time delay used at various stops the ship make
+ * Returns	: an array of numbers, one for each location the ship moves to
+ */

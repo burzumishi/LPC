@@ -1,0 +1,7 @@
+159:/std/poison_effect.c (/std/poison_effect.c)
+(public string) query_poison_type()
+/*
+ * Function name: query_poison_type
+ * Description  : This returns the type of poison, for use with antidotes.
+ * Returns      : string - the type of the poison
+ */

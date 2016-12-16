@@ -1,0 +1,7 @@
+239:/std/herb.c (/std/herb.c)
+(string) query_id_long()
+/*
+ * Function name: query_id_long
+ * Description:   The long description if you can id the herb
+ * Returns:       The long description
+ */

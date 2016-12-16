@@ -1,0 +1,7 @@
+2262:/std/combat/cbase.c (/std/combat/cbase.c)
+(public int *) query_attack_id()
+/*
+ * Function name: query_attack_id
+ * Description:   Give all attack id's
+ * Returns:       Array with elements as described in add_attack
+ */

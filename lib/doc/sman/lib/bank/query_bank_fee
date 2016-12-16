@@ -1,0 +1,7 @@
+101:/lib/bank.c (/lib/bank.c)
+(int) query_bank_fee()
+/*
+ * Function name: query_bank_fee
+ * Description:   Query the fee we take
+ * Returns:	  The fee
+ */

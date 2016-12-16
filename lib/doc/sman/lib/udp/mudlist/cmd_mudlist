@@ -1,0 +1,5 @@
+121:/lib/udp/mudlist.c (/lib/udp/mudlist.c)
+(int) cmd_mudlist(string str)
+/* 
+ * cmd_mudlist - List the muds known to us
+ */

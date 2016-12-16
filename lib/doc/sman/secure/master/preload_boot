@@ -1,0 +1,8 @@
+1542:/secure/master.c (/secure/master.c)
+(static void) preload_boot(string file)
+/*
+ * Function name: preload_boot
+ * Description  : Called at game start time for every file that needs to be
+ *                preloaded to load it into memory.
+ * Arguments    : string file - the file to preload (without ".c" suffix).
+ */

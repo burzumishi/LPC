@@ -1,0 +1,9 @@
+66:/std/living/wield.c (/std/living.c)
+(public mixed) wield(object weapon)
+/*
+ * Function name: wield
+ * Description:   Wield a weapon
+ * Arguments:     The weapon to wield
+ * Returns:       string - error message (weapon not wielded)
+ *                1 - successs (weapon wielded)
+ */

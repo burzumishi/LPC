@@ -1,0 +1,7 @@
+144:/std/potion.c (/std/potion.c)
+(string) query_quaff_verb()
+/*
+ * Function name: query_quaff_verb
+ * Description:   What verb is required to quaff this potion?
+ * Returns:	  The verb;
+ */

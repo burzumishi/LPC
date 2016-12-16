@@ -1,0 +1,7 @@
+352:/std/armour.c (/std/armour.c)
+(void) set_likely_cond(int i)
+/*
+ * Function name: set_likely_cond
+ * Description:   Set how likely the armour will get worn down if hit
+ * Arguments:     i - how likely [0, 30] recommended
+ */

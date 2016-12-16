@@ -1,0 +1,13 @@
+452:/std/object.c (/std/object.c)
+(public mixed) query_short()
+/*
+ * Function name: query_short
+ * Description  : This function gives the short description of this object
+ *                without applying VBFC to it. It will return exactly the
+ *                same that was set with set_short().
+ * Warning      : This routine should NOT be used for normal access to the
+ *                short description of an item. For that use obj->short().
+ * Returns      : string - the short description exactly like it was set
+ *                         with set_short(). This can be the string or VBFC
+ *                         in string of functionpointer form.
+ */

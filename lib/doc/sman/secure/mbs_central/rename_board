@@ -1,0 +1,11 @@
+492:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) rename_board(string old, string cath, string new, string ndesc)
+/*
+ * Function name: rename_board
+ * Description:	  Rename a board 
+ * Arguments:	  old - the old name
+ *		  cath - the category
+ *		  new - the new name
+ *		  ndesc - the new description, if any
+ * Returns:	  Error code, if any
+ */

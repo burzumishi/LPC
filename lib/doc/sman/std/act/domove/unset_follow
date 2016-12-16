@@ -1,0 +1,6 @@
+82:/std/act/domove.c (/std/act/domove.c)
+(void) unset_follow()
+/*
+ * Function name: unset_follow
+ * Description:   Stop following
+ */

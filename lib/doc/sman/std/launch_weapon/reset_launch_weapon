@@ -1,0 +1,6 @@
+1727:/std/launch_weapon.c (/std/launch_weapon.c)
+(private nomask void ) reset_launch_weapon()
+/*
+ * Function name: reset_launch_weapon
+ * Description  : Resets the launch weapon so it can be aimed and fired again.
+ */

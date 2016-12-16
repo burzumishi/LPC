@@ -1,0 +1,9 @@
+459:/lib/commands.c (/lib/commands.c)
+(public object *) parse_this_one(string str, string form, int allow_self)
+/*
+ * Function name: parse_this_one
+ * Description  : Called only internally by parse_this() to parse one segment
+ *                of targets.
+ * Arguments    : see parse_this(), except cmd_attr isn't passed along.
+ * Returns      : see parse_this()
+ */

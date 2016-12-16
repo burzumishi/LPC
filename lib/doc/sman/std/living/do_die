@@ -1,0 +1,7 @@
+287:/std/living/combat.c (/std/living.c)
+(public void) do_die(object killer)
+/*
+ * Function name:   do_die
+ * Description:     Called from enemy combat object when it thinks we died.
+ * Arguments:       killer: The enemy that caused our death.
+ */

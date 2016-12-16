@@ -1,0 +1,12 @@
+1184:/std/player_sec.c (/std/player_sec.c)
+(public nomask int) command(string cmd)
+/*
+ * Function name: command
+ * Description  : Makes the player object execute a command, as if it was typed
+ *                on the command line. For wizards, we have to test whether the
+ *                euid of the caller allows to force the person.
+ * Arguments    : string cmd - the command with arguments to perform. For players
+ *                    this should always be prefixed with a "$".
+ * Returns      : int - the amount of eval-cost ticks if the command was
+ *                    successful, or 0 if unsuccessfull.
+ */

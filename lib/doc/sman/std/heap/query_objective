@@ -1,0 +1,8 @@
+336:/std/heap.c (/std/heap.c)
+(public string) query_objective()
+/*
+ * Function name: query_objective
+ * Description  : All nonlivings have objective 'it'. Heaps may have 'them'
+ *                if they are larger than one item.
+ * Returns      : string "it" or "them".
+ */

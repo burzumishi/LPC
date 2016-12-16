@@ -1,0 +1,10 @@
+167:/std/living/cmdhooks.c (/std/living.c)
+(nomask public string *) start_souls(string *souls)
+/*
+ * Function name:   start_souls
+ * Description:     Tell the souls that we are using them, this is used to
+ *                  add sublocations for the living object. Also call
+ *                  'replace_soul' so that an obsolete soul can rederict
+ *                  the usage to another newer soul/souls.
+ * Arguments:       souls: an array with all souls that should be started
+ */

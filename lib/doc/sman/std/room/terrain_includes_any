@@ -1,0 +1,10 @@
+17:/std/room/terrain.c (/std/room.c)
+(int) terrain_includes_any(int terrain)
+/*
+ * Function name: terrain_includes_any
+ * Description  : Checks if the terrain of the room includes a
+ *                certain type
+ * Arguments    : int terrain - the terrain (or combination of terrains) 
+ *                to check for
+ * Returns      : int - 1 if terrain found in the room, 0 otherwise
+ */

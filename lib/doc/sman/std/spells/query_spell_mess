@@ -1,0 +1,10 @@
+228:/std/spells.c (/std/spells.c)
+(int) query_spell_mess(string verb)
+/*
+ * Function name: query_spell_mess
+ * Description:   If you want own messages to be written when a spell is cast
+ *		  instead of the standard messages you shuold define this
+ *		  funktion.
+ * Arguments:     verb - The spell verb
+ * Returns:       1 if I took care of the messages
+ */

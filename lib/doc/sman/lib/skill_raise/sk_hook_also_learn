@@ -1,0 +1,8 @@
+601:/lib/skill_raise.c (/lib/skill_raise.c)
+(void) sk_hook_also_learn(int num)
+/*
+ * Function name: sk_hook_also_learn
+ * Description  : This hook is called when there are skills to be learnt when
+ *                the player asks about skills to improve.
+ * Arguments    : int num - the number of skills to be learnt.
+ */

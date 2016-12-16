@@ -1,0 +1,7 @@
+828:/std/board.c (/std/board.c)
+(public void) post_note_hook(string head)
+/*
+ * Function name: post_note_hook
+ * Description  : This function is called when someone posts a note.
+ * Arguments    : string head - the header of the note.
+ */

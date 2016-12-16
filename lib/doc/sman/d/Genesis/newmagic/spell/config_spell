@@ -1,0 +1,16 @@
+1252:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public varargs int) config_spell(object caster, object *targets, string arg)
+/* 
+ * Function name: config_spell
+ * Description:   (Re)Configure this spell for this specific casting attempt.
+ *                This can be used to redefine certain parameters such as
+ *                mana cost, casting time, etc. on a per-casting basis.  It
+ *                can also be used to trigger an instant spell failure (no
+ *                components/mana consumed).
+ * Arguments:     1. (object)   The caster
+ *                2. (object *) The targets
+ *                3. (string)   The arguments passed to the "cast" command
+ * Returns:       0 - Configuration successful.
+ *                1 - Configuration not successful.  Casting aborted.
+ *
+ */

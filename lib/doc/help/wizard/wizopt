@@ -1,0 +1,22 @@
+NAME
+	wizopt - set wizard options
+
+ACCESS LEVEL
+	apprentice or higher
+
+DESCRIPTION
+	Front-end to the "options" command. See options.
+
+ARGUMENTS
+	autopwd <on/off>     - Automatic display of the current working 
+        [pwd on/off]           directory when you change it.
+
+	autolinecmd <on/off> - Automatically insert line commands into
+        [cmd on/off]	       the apprentice soul command space.
+			       This option is default on.
+
+	timestamp <on/off>   - Show the wiz line with a time stamp.
+
+
+SEE ALSO
+	cd, options

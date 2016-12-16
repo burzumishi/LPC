@@ -1,0 +1,8 @@
+593:/std/weapon.c (/std/weapon.c)
+(void) set_hands(int which)
+/*
+ * Function name: set_hands
+ * Description  : Set how the weapon should be wielded, W_ANYH, W_BOTH, ...
+ *                When the lock has been set, no changes are allowed anymore.
+ * Arguments    : int which - the hands.
+ */

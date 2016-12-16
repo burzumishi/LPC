@@ -1,0 +1,8 @@
+1527:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask void) read_note(string save_path)
+/*
+ * Function name: read_note
+ * Description:	  This function is called from the board when a note
+ *		  is read to update the internal accounting.
+ * Arguments:	  save_path - the place where the board stores notes.
+ */

@@ -1,0 +1,10 @@
+3291:/secure/master.c (/secure/master.c)
+(varargs object) finger_player(string pl_name, string file)
+/*
+ * Function name: finger_player
+ * Description:   Returns a player object restored with the values from
+ *                the players save file.
+ * Arguments:     string pl_name: the (lower case) name of player.
+ *                string file: (optional) name of player_file.
+ * Returns:       object - the restored player object or 0.
+ */

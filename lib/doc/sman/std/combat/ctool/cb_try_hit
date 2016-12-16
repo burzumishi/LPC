@@ -1,0 +1,10 @@
+282:/std/combat/ctool.c (/std/combat/ctool.c)
+(public int) cb_try_hit(int aid)
+/*
+ * Function name: cb_try_hit
+ * Description:   Decide if a certain attack fails because of something
+ *                related to the attack itself, ie specific weapon that only
+ *                works some of the time. 
+ * Arguments:     aid:   The attack id
+ * Returns:       True if hit, otherwise 0.
+ */

@@ -1,0 +1,11 @@
+180:/sys/global/math.c (/sys/global/math.c)
+(int) delta_align_on_kill(int k_align, int v_align)
+/*
+ * Function name: delta_align_on_kill
+ * Called from  : F_KILL_ADJUST_ALIGN(k_al, v_al) in <formulas.h>
+ * Description  : This function returns the adjustment of the alignment of the
+ *                killer when he has killed something.
+ * Arguments    : int k_align - the current alignment of the killer.
+ *                int v_align - the alignment of the victim.
+ * Returns      : int - the alignment adjustment, either positive or negative.
+ */

@@ -1,0 +1,11 @@
+413:/obj/data_edit.c (/obj/data_edit.c)
+(static nomask void) data_list(string str)
+/*
+ * Function name: data_list
+ * Description  : This function is used to list the contents of the datafile.
+ *                The following arguments are allowed:
+ *                <none>   - list all variables with their type.
+ *                <list>   - display the contents of all variables in <list>.
+ *                *        - display the contents of all variables.
+ * Arguments    : string str - the argument to the command list.
+ */

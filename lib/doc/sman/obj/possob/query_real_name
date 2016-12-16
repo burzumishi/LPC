@@ -1,0 +1,10 @@
+269:/obj/possob.c (/obj/possob.c)
+(public string) query_real_name()
+/*
+ * Function name: query_real_name
+ * Description  : This function returns the name of the wizard possessing
+ *                the poor living whose soul is crammed into this object.
+ *                The return value of this function should be identical to
+ *                the result of the function query_demon().
+ * Returns      : string - the name.
+ */

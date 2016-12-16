@@ -1,0 +1,6 @@
+146:/secure/srcman.c (/secure/srcman.c)
+(string *) get_subdirs(string ddir)
+/*
+ * Function name:   get_subdirs
+ * Description:     Return a list of subdirectories for a given doc-dir
+ */

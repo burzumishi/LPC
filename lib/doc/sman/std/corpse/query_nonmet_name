@@ -1,0 +1,7 @@
+152:/std/corpse.c (/std/corpse.c)
+(string) query_nonmet_name()
+/*
+ * Function name: query_nonmet_name
+ * Description  : Returns the nonmet name of this corpse.
+ * Returns      : string - the nonmet name.
+ */

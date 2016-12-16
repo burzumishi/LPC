@@ -1,0 +1,7 @@
+230:/std/book.c (/std/book.c)
+(void) read_it(string verb)
+/*
+ * Function name: read_it
+ * Description:   If player wanted to do anything to this book we end up here.
+ * Arguments:	  verb - The verb the player had used
+ */

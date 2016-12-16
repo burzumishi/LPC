@@ -1,0 +1,14 @@
+45:/std/creature.c (/std/creature.c)
+(public int) add_attack(int wchit, int wcpen, int damtype, int prcuse, int id)
+/*
+ * Function name: add_attack
+ * Description:   Add an attack to the attack array.
+ * Arguments:	  
+ *             wchit: Weapon class to hit
+ *             wcpen: Weapon class penetration
+ *	       dt:    Damage type
+ *             %use:  Chance of use each turn
+ *	       id:    Specific id, for humanoids W_NONE, W_RIGHT etc
+ *
+ * Returns:       True if added.
+ */

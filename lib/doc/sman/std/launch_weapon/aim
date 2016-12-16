@@ -1,0 +1,9 @@
+692:/std/launch_weapon.c (/std/launch_weapon.c)
+(public int) aim(string args)
+/*
+ * Function name: aim
+ * Description  : Handles when the archer aims this weapon.
+ *                
+ * Arguments    : string - Person we aim at.
+ * Returns      : 1 command handled, 0 parse failed.
+ */

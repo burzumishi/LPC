@@ -1,0 +1,7 @@
+1648:/secure/master.c (/secure/master.c)
+(static void) final_shutdown()
+/*
+ * Function name: final_shutdown
+ * Description  : When all mortals are kicked out of the game, this function
+ *                is called last by the gamedriver before the game closes.
+ */

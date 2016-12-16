@@ -1,0 +1,6 @@
+91:/std/player/savevars_sec.c (/std/player_sec.c)
+(static /* private */ nomask void) set_name(string n)
+/* 
+ * Name of the player.
+ * This can only be called from player_sec.
+ */

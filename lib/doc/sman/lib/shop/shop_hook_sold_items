@@ -1,0 +1,8 @@
+69:/lib/shop.c (/lib/shop.c)
+(int) shop_hook_sold_items(object *item)
+/*
+ * Function name: shop_hook_sold_items
+ * Description:   Hook that is called when player sold something
+ * Arguments:	  item - The item array player sold
+ * Returns:	  1
+ */

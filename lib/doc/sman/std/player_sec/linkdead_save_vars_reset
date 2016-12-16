@@ -1,0 +1,8 @@
+1117:/std/player_sec.c (/std/player_sec.c)
+(public void) linkdead_save_vars_reset()
+/*
+ * Function name: linkdead_save_vars_reset
+ * Description  : May be called externally while the player is linkdead to keep
+ *                his save-vars reset, that is to prevent them from being
+ *                updated during a save or quit action.
+ */

@@ -1,0 +1,8 @@
+2259:/secure/mail_reader.c (/secure/master.c)
+(static void) purge_mortal_box()
+/*
+ * Function name: purge_mortal_box
+ * Description  : This function is used to check whether the player has too
+ *                many read messages in his/her mailbox and if so, purge them
+ *                from the mailbox using FIFO (first in first out).
+ */

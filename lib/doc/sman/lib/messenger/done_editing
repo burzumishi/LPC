@@ -1,0 +1,9 @@
+379:/lib/messenger.c (/lib/messenger.c)
+(public void) done_editing(string message)
+/*
+ * Function:    done_editing
+ * Description: This function gets called after the message has been composed.
+ *              It moves the messenger to the void and kicks off the alarm to
+ *              deliver the message.
+ * Arguments:   string message - the message text.
+ */

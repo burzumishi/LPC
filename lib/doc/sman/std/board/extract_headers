@@ -1,0 +1,9 @@
+602:/std/board.c (/std/board.c)
+(private nomask string *) extract_headers(int number)
+/*
+ * Function name: extract_headers
+ * Description  : This is a map function that reads the note-file and
+ *                extracts the headers of the note.
+ * Arguments    : int number - the number (time) of the note.
+ * Returns      : string* - ({ header-string, note-name })
+ */

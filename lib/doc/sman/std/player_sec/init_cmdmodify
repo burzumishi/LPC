@@ -1,0 +1,6 @@
+32:/std/player/quicktyper.c (/std/player_sec.c)
+(static nomask void) init_cmdmodify()
+/*
+ * Function name: init_cmdmodify
+ * Description  : The quicktyper commands are added to the player.
+ */

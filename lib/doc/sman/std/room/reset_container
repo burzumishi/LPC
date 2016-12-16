@@ -1,0 +1,8 @@
+116:/std/room.c (/std/room.c)
+(nomask void) reset_container()
+/*
+ * Function name: reset_container
+ * Description  : This function will reset the container. Since you may not
+ *                redefine it, you must define the function reset_room() to
+ *                make the room reset.
+ */

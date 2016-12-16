@@ -1,0 +1,5 @@
+45:/std/act/seqaction.c (/std/act/seqaction.c)
+(public void) seq_reset()
+/*
+ *  Description: Called from living to initialize
+ */

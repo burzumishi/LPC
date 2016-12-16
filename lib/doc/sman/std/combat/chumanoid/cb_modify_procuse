@@ -1,0 +1,9 @@
+77:/std/combat/chumanoid.c (/std/combat/chumanoid.c)
+(public void) cb_modify_procuse()
+/*
+ * Description: Humanoids might reallocate what attacks they use when the
+ *              attacks are modified. (If maxuse is set)
+ *              The distribution formula is:
+ *
+ *                       %use = %maxuse * (wchit*wcpen) / ( sum(wchit*wcpen) )
+ */

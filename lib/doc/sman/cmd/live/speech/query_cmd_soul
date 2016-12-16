@@ -1,0 +1,5 @@
+69:/cmd/live/speech.c (/cmd/live/speech.c)
+(int) query_cmd_soul()
+/* **************************************************************************
+ * This is a command soul.
+ */

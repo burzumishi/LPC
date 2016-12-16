@@ -1,0 +1,9 @@
+601:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_cannot_deliver_unmet(string who)
+/*
+ * Function:    hook_cannot_deliver_unmet
+ * Description: Hook that gets called to display that the messenger cannot
+ *              deliver to someone who has not been introduced to the
+ *              sender. Set a notify_fail() message.
+ * Arguments:   string who - name of the recipient.
+ */

@@ -1,0 +1,15 @@
+359:/secure/master/sanction.c (/secure/master.c)
+(static varargs int) remove_sanction(string giver, string receiver, string type, string path)
+/*
+ * Function name: remove_sanction
+ * Description  : This function will actually remove a sanction from the
+ *                directory structure. All but the first argument are
+ *                optional. This is a static function, ergo all validity
+ *                checks on the arguments must be made prior to calling
+ *                this function.
+ * Arguments    : string giver    - the euid giving the sanction.
+ *                string receiver - the receiver of the sanction.
+ *                string type     - the sanction type.
+ *                string path     - the path in case of a directory sanction.
+ * Returns      : int 1/0 - success/failure.
+ */

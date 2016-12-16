@@ -1,0 +1,12 @@
+317:/std/board.c (/std/board.c)
+(public nomask varargs int) check_reader(int note = 0)
+/*
+ * Function name: check_reader
+ * Description  : This function will return true if this_player() is allowed
+ *                to read on the board. Note that players may always read
+ *                their own notes.
+ * Arguments    : int note - an optional argument for a particular note to
+ *                           be checked. If omitted give general access to
+ *                           the board.
+ * Returns      : int 1/0 - true if the player is prohibited to read.
+ */

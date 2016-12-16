@@ -1,0 +1,10 @@
+315:/std/armour.c (/std/armour.c)
+(int) set_condition(int cond)
+/*
+ * Function name: set_condition
+ * Description:   Use this to increases the corroded status on armour. If the
+ *                armour gets dented or anything that turns it into worse
+ *                condition, call this function.
+ * Arguments:     cond - The new condition we want (can only be raised)
+ * Returns:       1 if new condition accepted
+ */

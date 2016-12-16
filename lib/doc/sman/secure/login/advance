@@ -1,0 +1,9 @@
+1430:/secure/login.c (/secure/login.c)
+(public void) advance(int num)
+/*
+ * Function name: advance
+ * Description  : When someone leaves the game or the queue, a new player
+ *                may log in. This function is called to give player his
+ *                new queue-position or make him enter the game.
+ * Arguments    : int num - if 0 the player may enter, else the new number.
+ */

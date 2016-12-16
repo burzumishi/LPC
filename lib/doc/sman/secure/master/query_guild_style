@@ -1,0 +1,8 @@
+157:/secure/master/guild.c (/secure/master.c)
+(public string) query_guild_style(string short_name)
+/*
+ * Function name: query_guild_style
+ * Description  : Query the style of a particular guild. 
+ * Arguments    : string short_name - the short name of the guild.
+ * Returns      : string - the style of the guild, else 0.
+ */

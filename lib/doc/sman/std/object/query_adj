@@ -1,0 +1,12 @@
+1400:/std/object.c (/std/object.c)
+(varargs public mixed) query_adj(int arg)
+/*
+ * Function name: query_adj
+ * Description  : Gives the adjective(s) of the object.
+ * Arguments    : int arg - if true, all adjectives are returns, else only
+ *                          the first adjective is returned.
+ * Returns      : mixed   - int 0    - if there are no adjectives.
+ *                          string   - one adjective if 'arg' is false.
+ *                          string * - an array with all adjectives if
+ *                                     'arg' is true.
+ */

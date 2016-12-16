@@ -1,0 +1,7 @@
+598:/std/living/savevars.c (/std/living.c)
+(public int) query_mana()
+/*
+ * Function name:   query_mana
+ * Description:     Gives the number of mana points that the living has
+ * Returns:         The number of mana points.
+ */

@@ -1,0 +1,7 @@
+85:/std/torch.c (/std/torch.c)
+(public nomask void) reset_object()
+/*
+ * Function name: reset_object
+ * Description:   Reset the object. Since this function is nomasked, you
+ *                must redefine reset_torch() to make the torch reset.
+ */

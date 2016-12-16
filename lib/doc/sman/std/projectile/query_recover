@@ -1,0 +1,7 @@
+410:/std/projectile.c (/std/projectile.c)
+(string) query_recover()
+/*
+ * Function name: query_recover
+ * Description  : Called to make this projectile is recoverable, and
+ *                to make sure the keep status is kept.
+ */

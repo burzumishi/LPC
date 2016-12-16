@@ -1,0 +1,8 @@
+257:/std/object.c (/std/object.c)
+(int) query_reset_active()
+/*
+ * Function Name: query_reset_active
+ * Description  : Used to check if enable_reset has been called
+ *                to start the reset_alarm.
+ * Returns      : Returns the reset factor if reset is active.
+ */

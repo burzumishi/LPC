@@ -1,0 +1,6 @@
+96:/std/container.c (/std/container.c)
+( */ public void) create_container()
+/*
+ * Function name: create_container
+ * Description:   Reset the container (standard)
+ */

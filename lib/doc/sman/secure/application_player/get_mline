@@ -1,0 +1,8 @@
+199:/secure/application_player.c (/secure/application_player.c)
+(static void) get_mline(string str)
+/*
+ * Function name: get_mline
+ * Description  : Get multi line. Get input from the player when (s)he is
+ *                writing the comment part of the request.
+ * Arguments    : string str - the input from the player.
+ */

@@ -1,0 +1,9 @@
+162:/cmd/std/tracer_tool_base.c (/cmd/std/tracer_tool_base.c)
+(object) parse_list(string str)
+/*
+ * Function name: parse_list
+ * Description  : This function will take a 'tracer tool' argument and
+ *                turns it into an objectpointer if possible.
+ * Arguments    : string str - the argument to parse.
+ * Returns      : object - the object found, if any.
+ */

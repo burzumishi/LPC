@@ -1,0 +1,8 @@
+2469:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) quit()
+/*
+ * Function name: quit
+ * Description  : This function is called when the player wants to quit
+ *                using the mail reader. It removes all messages that
+ *                the player has marked for deletion.
+ */

@@ -1,0 +1,10 @@
+389:/lib/trade.c (/lib/trade.c)
+(int *) what_coins(object ob)
+/*
+ * Function name: what_coins
+ * Description:   Finds out what of the cointypes a certain object contains.
+ *                Works even if you have special types, I hope :)
+ * Argument:      ob: The object in which to search for coins
+ * Returns:       Array: ( num copper, num silver, num gold, num platinum )
+ *                or the way you defined the types.....
+ */

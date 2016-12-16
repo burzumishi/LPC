@@ -1,0 +1,8 @@
+74:/std/food.c (/std/food.c)
+(public void) set_long(string long)
+/*
+ * Function name: set_long
+ * Description  : Set the long description. If no unique identifier is
+ *                set, the long description is used.
+ * Arguments    : string long - the long description.
+ */

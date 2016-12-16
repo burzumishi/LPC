@@ -1,0 +1,6 @@
+713:/std/object.c (/std/object.c)
+(public void) mark_state()
+/*
+ * Function name: mark_state
+ * Description:   Mark the internal state so that update is later possible
+ */

@@ -1,0 +1,7 @@
+411:/secure/master/notify.c (/secure/master.c)
+(static void) probe_for_graph()
+/*
+ * Function name: probe_for_graph
+ * Description  : This function is called from reset_master() to gather
+ *                the necessary information about players.
+ */

@@ -1,0 +1,8 @@
+482:/std/corpse.c (/std/corpse.c)
+(void) appraise_object(int num)
+/*
+ * Function name: appraise_object
+ * Description  : Called to appraise the object using the command thereto.
+ * Arguments    : int num - optional - if given, use this number. Otherwise
+ *                    use the appraise object skill of the player.
+ */

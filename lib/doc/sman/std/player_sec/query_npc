@@ -1,0 +1,7 @@
+16:/std/player/querys_sec.c (/std/player_sec.c)
+(nomask int) query_npc()
+/*
+ * Function name:   query_npc
+ * Description:     Tells if we are an npc or not
+ * Returns:         0 (we aren't 8-)
+ */

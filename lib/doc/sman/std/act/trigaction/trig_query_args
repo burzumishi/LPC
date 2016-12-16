@@ -1,0 +1,5 @@
+62:/std/act/trigaction.c (/std/act/trigaction.c)
+(mixed) trig_query_args()
+/*
+ * Description: Query for current arguments returned from parse_command
+ */

@@ -1,0 +1,8 @@
+216:/std/guild/guild_race_sh.c (/std/guild/guild_race_sh.c)
+(public int) query_guild_incognito_race()
+/*
+ * Function name: query_guild_incognito_race
+ * Description:   Define this function so that it returns true if
+ *                the player's guild affiliation should be unknown.
+ * Returns:       1/0 - unknown/not
+ */

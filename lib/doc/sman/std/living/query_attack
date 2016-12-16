@@ -1,0 +1,8 @@
+864:/std/living/combat.c (/std/living.c)
+(public object) query_attack()
+/*
+ * Function name: query_attack
+ * Description  : Return the object we are currently fighting. This does not
+ *                include hunted enemies. Use query_enemy() for that.
+ * Returns      : object - the currently attacked object.
+ */

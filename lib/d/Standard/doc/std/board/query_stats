@@ -1,0 +1,7 @@
+252:/std/board.c (/std/board.c)
+(nomask public int *) query_stats()
+/*
+ * Function name: query_stats
+ * Description  : Return an array with the current statistics
+ * Returns      : An array of stats, read & write 
+ */

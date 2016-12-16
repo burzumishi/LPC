@@ -1,0 +1,8 @@
+250:/std/torch.c (/std/torch.c)
+(public void) set_time_left(int left)
+/*
+ * Function name: set_time_left
+ * Description:   Set how long time the torch can burn.
+ *                Use this for 'torches' that can be refilled, like oil lamps.
+ * Arguments    : int left - the time left.
+ */

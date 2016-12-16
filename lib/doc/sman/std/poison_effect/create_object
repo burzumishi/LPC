@@ -1,0 +1,7 @@
+91:/std/poison_effect.c (/std/poison_effect.c)
+(public nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : This function defines the object. There are several things
+ *                we want to define so we define it for you.
+ */

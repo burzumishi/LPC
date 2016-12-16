@@ -1,0 +1,8 @@
+1094:/lib/library.c (/lib/library.c)
+(public int) library_borrow(string str)
+/*
+ * Function name: library_borrow
+ * Description:   Try to borrow a book from the library.
+ * Arguments:     string str - any arguments to the command
+ * Returns:       1/0 - Command success/failure
+ */

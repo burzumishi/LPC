@@ -1,0 +1,9 @@
+651:/std/board.c (/std/board.c)
+(public nomask int) list_notes(string str)
+/*
+ * Function name: list_notes
+ * Description  : With this command a player can list only a portion of
+ *                the board.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

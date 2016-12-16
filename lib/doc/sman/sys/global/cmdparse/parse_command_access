@@ -1,0 +1,13 @@
+122:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(object *) parse_command_access(string str, mixed invenv, string pattern)
+/*
+ * Function name: parse_command_access
+ * Description  : Basically a combination of parse_command and NORMAL_ACCESS
+ * Arguments    : string str - the string to parse.
+ *                mixed env - the items to look through. if a singular object,
+ *                    it will take env + the deep inventory of env. If an array
+ *                    of objects, it will match only against those objects. If
+ *                    not given, use inventory + environment of this_player().
+ *                string pattern - the pattern to parse against.
+ * Returns      : object * - the matching objects, ({ }) or 0.
+ */

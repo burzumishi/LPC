@@ -1,0 +1,7 @@
+162:/std/living/savevars.c (/std/living.c)
+(public string) query_m_out()
+/*
+ * Function name: query_m_out
+ * Description  : Gives the normal exit message of this living.
+ * Returns      : string - the message string.
+ */

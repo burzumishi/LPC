@@ -1,0 +1,10 @@
+1175:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask mixed) query_boards(int order, string spec, string *excl)
+/*
+ * Function name: query_boards
+ * Description:	  Return a list of active boards
+ * Arguments:	  order - order in conjunction with next item
+ *		  spec - any special domain/category
+ *		  excl - exclusion list
+ * Returns:	  A list of boards
+ */

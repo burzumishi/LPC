@@ -1,0 +1,7 @@
+128:/std/scroll.c (/std/scroll.c)
+(public void) init_arg(string arg)
+/*
+ * Function name: init_arg
+ * Description  : Set the parameters of the scroll when auto-loading.
+ * Arguments    : string arg - the argument to init.
+ */

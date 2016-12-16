@@ -1,0 +1,9 @@
+2124:/std/launch_weapon.c (/std/launch_weapon.c)
+(public void) move_projectile_to_target(object target, object projectile)
+/*
+ * Function name: move_projectile_to_target
+ * Description  : Moves the projectile to the specified target.
+ *
+ * Arguments    : target:    The target that was hit by the projectile.
+ *                projectile: Projectile that was shot.
+ */

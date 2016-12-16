@@ -1,0 +1,14 @@
+68:/d/Genesis/newmagic/components.c (/d/Genesis/newmagic/components.c)
+(public varargs mixed) find_components(object caster, mixed component_list, object *itemlist)
+/*
+ * Function name: find_components
+ * Description:   Search for an ingredient or a number of ingredients in
+ *                the caster.  Note that you should always call 
+ *                restore_components() for the components this function
+ *                returns (once you are done with them).
+ * Arguments:     object caster - the caster
+ *                mixed component_list - the components to be found (see above
+ *                                       documentation)
+ *                objet *itemlist - An array of items to search for components
+ * Returns:       The ingredients found, or 0 if all were not found
+ */

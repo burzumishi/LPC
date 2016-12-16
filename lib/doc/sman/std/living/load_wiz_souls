@@ -1,0 +1,7 @@
+244:/std/living/cmdhooks.c (/std/living.c)
+(static nomask int) load_wiz_souls()
+/*
+ * Function name:   load_wiz_souls
+ * Description:     Load the wizard souls into the player.
+ * Returns:         True if successful.
+ */

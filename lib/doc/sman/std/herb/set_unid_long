@@ -1,0 +1,8 @@
+246:/std/herb.c (/std/herb.c)
+(void) set_unid_long(string str)
+/*
+ * Function name: set_unid_long
+ * Description:   Set the long description you see if you cannot identify the 
+ *		  herb.
+ * Arguments:     str - The long description
+ */

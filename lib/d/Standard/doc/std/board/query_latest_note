@@ -1,0 +1,8 @@
+628:/std/board.c (/std/board.c)
+(public nomask string) query_latest_note()
+/*
+ * Function name: query_latest_note
+ * Description  : Find and return the name of the last note on the board.
+ * Returns      : string - the filename (without path) of the last note
+ *                         on the note or 0 if no notes are on the board.
+ */

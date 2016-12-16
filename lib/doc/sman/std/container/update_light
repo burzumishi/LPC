@@ -1,0 +1,6 @@
+416:/std/container.c (/std/container.c)
+(public void) update_light(int recursive)
+/*
+ * Function name: update_light
+ * Description:   Reevalueate the lightvalue of the container.
+ */

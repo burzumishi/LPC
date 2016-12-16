@@ -1,0 +1,10 @@
+919:/secure/simul_efun.c (/secure/simul_efun.c)
+(public string ) creator(mixed ob)
+/*
+ * Function name: creator
+ * Description:   Get the name of the creator of an object or file
+ *                (see creator_object() and creator_file())
+ * Arguments:     mixed ob - The object or filename for which to
+ *                           get the creator
+ * Returns:       string - The creator name
+ */

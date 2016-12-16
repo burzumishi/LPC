@@ -1,0 +1,10 @@
+2750:/secure/mail_reader.c (/secure/mail_reader.c)
+(public void) set_alias(string alias, string *names)
+/*
+ * Function name: set_alias
+ * Description  : This function may be called from a room to set aliases
+ *                that are specific for this room, for instance a guild
+ *                may define the alias "council" for the guildmembers.
+ * Arguments    : string alias  - the name of the alias
+ *                string *names - a list with names of individual players
+ */

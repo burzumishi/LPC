@@ -1,0 +1,9 @@
+1052:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask mixed) query_board_exist(string board, string item)
+/*
+ * Function name: query_board_exist
+ * Description:	  Return the board entry if it exists
+ * Arguments:	  board - the board.
+ *		  item - the category or domain.
+ * Returns:	  Board entry.
+ */

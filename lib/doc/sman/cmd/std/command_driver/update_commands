@@ -1,0 +1,7 @@
+43:/cmd/std/command_driver.c (/cmd/std/command_driver.c)
+(public void) update_commands()
+/*
+ * Function name: update_commands
+ * Description  : This function is called from the spell object when a
+ *                new spell is added.
+ */

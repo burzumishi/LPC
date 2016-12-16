@@ -1,0 +1,10 @@
+150:/d/Genesis/newmagic/hooks.c (/d/Genesis/newmagic/hooks.c)
+(public void) hook_living_no_magic_attack_fail(object target)
+/*
+ * Function name: hook_living_no_magic_attack_fail
+ * Description:   This function should return the string that will be printed
+ *                to the caster, when trying to attack a living that has the
+ *                property OBJ_M_NO_MAGIC_ATTACK set.
+ * Arguments:     target - The intended targer
+ * Returns:       The message to print
+ */

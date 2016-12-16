@@ -1,0 +1,7 @@
+156:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(public int) nsd_hook_access_failure()
+/*
+ * Function name: nsd_hook_access_failure
+ * Description  : The basic access failure.
+ * Returns      : int 1/0 - 0 for notify_fail, 1 for write.
+ */

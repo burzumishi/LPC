@@ -1,0 +1,11 @@
+319:/secure/master/sanction.c (/secure/master.c)
+(static int) recursive_rmdir(string path)
+/*
+ * Function name: recursive_rmdir
+ * Description  : This function will recursively remove a directory with all
+ *                its contents, files or directories. If the argument is
+ *                a file rather than a directory, this file will be removed
+ *                as well.
+ * Arguments    : string path - the path to remove.
+ * Returns      : int 1/0 - success/failure.
+ */

@@ -1,0 +1,8 @@
+113:/cmd/std/command_driver.c (/cmd/std/command_driver.c)
+(public void) using_soul(object live)
+/*
+ * Function name: using_soul
+ * Description  : this function is called from /std/living.c when it first
+ *                starts to use the soul and can be used for initialization.
+ * Arguments    : object live - the living that is going to use this soul.
+ */

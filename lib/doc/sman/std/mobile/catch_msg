@@ -1,0 +1,6 @@
+246:/std/mobile.c (/std/mobile.c)
+(public void) catch_msg(mixed str, object from_player = 0)
+/*
+ * Function name: catch_msg
+ * Description  : See catch_vbfc.
+ */

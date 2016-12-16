@@ -1,0 +1,11 @@
+110:/secure/master/guild.c (/secure/master.c)
+(static void) set_guild_long_name(string short_name, string long_name)
+/*
+ * Function name: set_guild_long_name
+ * Description  : This will set the long name for a guild that already
+ *                exists. That it exists is not checked here, so that must
+ *                be done prior to calling this function.
+ * Arguments    : string short_name - the short name of the guild. Must be
+ *                    lower case since it is an internal call.
+ *                string long_name - the long name of the guild.
+ */

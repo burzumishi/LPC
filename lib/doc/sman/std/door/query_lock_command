@@ -1,0 +1,6 @@
+1168:/std/door.c (/std/door.c)
+(string *) query_lock_command()
+/*
+ * Function name: query_lock_command
+ * Description:   Query what command locks the door
+ */

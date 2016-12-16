@@ -1,0 +1,9 @@
+9:/std/room/objects.c (/std/room.c)
+(void) reset_auto_objects()
+/*
+ * Function Name: reset_auto_objects
+ * Description  : Reset any items on the list of objects to automatically
+ *                reset.
+ *                It will only clone 15 items at a time, if more is needed
+ *                they will be cloned after a short delay.
+ */

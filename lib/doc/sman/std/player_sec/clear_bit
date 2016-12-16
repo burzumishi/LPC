@@ -1,0 +1,11 @@
+957:/std/player/savevars_sec.c (/std/player_sec.c)
+(public int) clear_bit(int group, int bit)
+/*
+ * Function name:   clear_bit
+ * Description:     Clear a given bit in a given group. The effective userid
+ *                  of the object calling this function is used to find which
+ *                  domain is clearing the bits.
+ * Arguments:       group: An integer 0-4
+ *                  bit:   An integer 0-19
+ * Returns:         1 if the bit was successfully cleared, 0 otherwise.
+ */

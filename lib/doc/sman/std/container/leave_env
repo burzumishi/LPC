@@ -1,0 +1,8 @@
+347:/std/container.c (/std/container.c)
+(void) leave_env(object from, object to)
+/*
+ * Function name: leave_env
+ * Description:   The container leaves a new environment
+ * Arguments:     from - From what object
+ *                to   - To what object
+ */

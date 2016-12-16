@@ -1,0 +1,9 @@
+459:/lib/trade.c (/lib/trade.c)
+(int) can_pay_arr(int price, int *arr)
+/*
+ * Function name: can_pay_arr
+ * Description:   check if the array is enough to pay the price
+ * Arguments:     price - the price to pay
+ *                arr - the array holding the coins
+ * Returns:       1 - can pay, 0 - can't
+ */

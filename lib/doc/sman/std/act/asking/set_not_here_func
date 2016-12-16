@@ -1,0 +1,8 @@
+194:/std/act/asking.c (/std/act/asking.c)
+(public void) set_not_here_func(string func)
+/*
+ * Function name: set_not_here_func
+ * Description:   Set a function to call if the player who posed the question
+ *		  has left the room before he got the answere. 
+ * Arguments:	  func - The function name
+ */

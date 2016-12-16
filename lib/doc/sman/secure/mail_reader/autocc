@@ -1,0 +1,9 @@
+480:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) autocc(string str)
+/*
+ * Function name: autocc
+ * Description  : With this command, people can automatically cc:
+ *                themselves everything they send.
+ * Arguments    : string str - the command line argument
+ * Returns      : int        - 1/0 success/failure
+ */

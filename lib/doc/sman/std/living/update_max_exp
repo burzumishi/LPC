@@ -1,0 +1,7 @@
+781:/std/living/savevars.c (/std/living.c)
+(public void) update_max_exp()
+/*
+ * Function name: update_max_exp
+ * Description  : Remember the maximum amount of experience the living ever
+ *                had, i.e. before death took any.
+ */

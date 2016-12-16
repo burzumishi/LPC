@@ -1,0 +1,9 @@
+3407:/secure/master.c (/secure/master.c)
+(mixed) query_snoop(object snoopee)
+/*
+ * Function name: query_snoop
+ * Description:   Tells caller if a user is snooped.
+ * Arguments:     snoopee: pointer to a user object
+ * Returns:       0 if not snooped, 1 if snooped and caller is lord or lower
+ *                object pointer to snooper if caller is arch or higher
+ */

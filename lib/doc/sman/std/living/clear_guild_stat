@@ -1,0 +1,10 @@
+606:/std/living/stats.c (/std/living.c)
+(public nomask int) clear_guild_stat(int stat)
+/*
+ * Function name: clear_guild_stat
+ * Description  : This function allows guilds to clear the accumulated
+ *                experience when a player leaves the guild. It is only
+ *                a front for set_guild_stat.
+ * Arguments    : int stat - the stat to clear (guild stat only!)
+ * Returns      : int      - 1/0 - cleared/not cleared
+ */

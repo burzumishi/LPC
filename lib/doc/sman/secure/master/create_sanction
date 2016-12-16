@@ -1,0 +1,15 @@
+261:/secure/master/sanction.c (/secure/master.c)
+(static varargs int) create_sanction(string giver, string receiver, string type, string path)
+/*
+ * Function name: create_sanction
+ * Description  : This function will actually create a sanction in the form
+ *                of a file in a directory structure. Note that the fourth
+ *                argument is optional. This is a static function, ergo all
+ *                validity checks on the arguments must be made prior to
+ *                calling this function.
+ * Arguments    : string giver    - the euid giving the sanction.
+ *                string receiver - the receiver of the sanction.
+ *                string type     - the sanction type.
+ *                string path     - the path in case of a directory sanction.
+ * Returns      : int 1/0 - success/failure.
+ */

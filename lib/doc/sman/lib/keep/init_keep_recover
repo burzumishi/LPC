@@ -1,0 +1,10 @@
+171:/lib/keep.c (/lib/keep.c)
+(public nomask void) init_keep_recover(string arg)
+/*
+ * Function name: init_keep_recover
+ * Description  : After recovering this object, the recovery argument needs
+ *                to be checked and the 'keep' protection needs to be
+ *                enabled if the player had 'kept' the item before the
+ *                reboot.
+ * Arguments    : string arg - the recovery argument.
+ */

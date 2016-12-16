@@ -1,0 +1,8 @@
+255:/std/herb.c (/std/herb.c)
+(string) query_unid_long()
+/*
+ * Function name: query_unid_long
+ * Description:   Query the long description you get if you cannot identify
+ *		  the herb.
+ * Returns:   	  The unidentified long description
+ */

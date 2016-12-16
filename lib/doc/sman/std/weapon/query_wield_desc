@@ -1,0 +1,8 @@
+1123:/std/weapon.c (/std/weapon.c)
+(public nomask string ) query_wield_desc(string p)
+/*
+ * Function name: query_wield_desc
+ * Description  : Describe this weapon as wielded by a something.
+ * Argumensts   : string p: Possessive description of wielder
+ * Returns      : string - the description.
+ */

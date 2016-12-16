@@ -1,0 +1,8 @@
+286:/std/drink.c (/std/food.c)
+(string) stat_object()
+/*
+ * Function name: stat_object
+ * Description  : This function is called when a wizard wants to get more
+ *                information about an object.
+ * Returns      : string str - the information.
+ */

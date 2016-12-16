@@ -1,0 +1,5 @@
+540:/secure/docmake.c (/secure/docmake.c)
+(int) doc_makepath(string path)
+/*
+ * Make necessary subdirs upon creation of documentation path
+ */

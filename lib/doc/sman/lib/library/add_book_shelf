@@ -1,0 +1,13 @@
+200:/lib/library.c (/lib/library.c)
+(public void) add_book_shelf(mixed shelf)
+/*
+ * Function name: add_book_shelf
+ * Description:   Add book shelves to the library.  This allows books to
+ *                be listed according to categories.
+ * Arguments:     mixed shelf - a shelf name or array of shelf names.  These
+ *                              are used both as names for the shelves when
+ *                              players list shelves and also as subdirectories
+ *                              (under the directory specified by
+ *                              set_book_directory()) in which the book files
+ *                              for each shelf will be stored.
+ */

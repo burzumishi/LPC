@@ -1,0 +1,7 @@
+825:/std/launch_weapon.c (/std/launch_weapon.c)
+(private void) ready_to_fire()
+/*
+ * Function name: ready_to_fire
+ * Description  : Tells the player he is ready to fire and enables fire.
+ *                
+ */

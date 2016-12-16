@@ -1,0 +1,7 @@
+1257:/std/weapon.c (/std/weapon.c)
+(string) wep_condition_desc()
+/*
+ * Function name: wep_condition_desc
+ * Description  : Returns the description of the condition of the weapon.
+ * Returns      : string - the descriptive text.
+ */

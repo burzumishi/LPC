@@ -1,0 +1,9 @@
+105:/std/living/combat.c (/std/living.c)
+(public void) combat_reward(object attacker, int dam, int kill)
+/*
+ * Function name: combat_reward
+ * Description:   Reward attackers for a kill
+ * Arguments:     attacker:   The object that killed me
+ *                dam:        The amount of damage in hitpoints made
+ *                kill:       True if the attack killed me
+ */

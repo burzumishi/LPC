@@ -1,0 +1,6 @@
+1094:/std/door.c (/std/door.c)
+(int) query_locked()
+/*
+ * Function name: query_locked
+ * Description:   Query lock status
+ */

@@ -1,0 +1,7 @@
+779:/std/receptacle.c (/std/receptacle.c)
+(public void) set_key(mixed keyval)
+/*
+ * Function name: set_key
+ * Description  : Set the number of the key that fits this container.
+ * Arguments    : keyval - the key to the container
+ */

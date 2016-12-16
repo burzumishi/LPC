@@ -1,0 +1,14 @@
+266:/std/living/description.c (/std/living.c)
+(public varargs string) query_art_possessive_name(object pobj)
+/*
+ * Function name:   query_art_possessive_name
+ * Description:	    Gives the possessive form of the name with a prefix
+ &                  article when the calling object has not met this living.
+ *                  E.g.:
+ *                        when met:   "Fatty's",
+ *                        when unmet: "a big fat gnome wizard's".
+ * Arguments:       pobj: The object that wants to know the name.
+ *                  If pobj is undefined, it is assumed that the call has
+ *                  been done through a protected vbfc
+ * Returns:         Possessive name prefixed with article.
+ */

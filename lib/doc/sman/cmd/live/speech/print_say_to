@@ -1,0 +1,10 @@
+853:/cmd/live/speech.c (/cmd/live/speech.c)
+(void) print_say_to(string adverb, object *oblist, string str)
+/*
+ * Function name: print_say_to
+ * Description  : When the player uses "[a]say to" this routine causes the
+ *                text to be displayed after the "to" part was parsed.
+ * Arguments    : string adverb - the adverb used with asay, if any.
+ *                object *oblist - the recipients of the text.
+ *                string str - the text that was spoken.
+ */

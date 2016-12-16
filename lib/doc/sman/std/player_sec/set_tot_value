@@ -1,0 +1,7 @@
+625:/std/player/savevars_sec.c (/std/player_sec.c)
+(static nomask void) set_tot_value(int val)
+/*
+ * Function name:   set_tot_value
+ * Description:     Sets the total value carried by a player
+ * Arguments:       val: The carried value
+ */

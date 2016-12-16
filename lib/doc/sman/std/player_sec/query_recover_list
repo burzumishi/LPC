@@ -1,0 +1,9 @@
+337:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask string *) query_recover_list()
+/*
+ * Function name:   query_recover_list
+ * Description:     Gives back the array of strings with objects to recover
+ *                  when the player enters the game.
+ * Returns:         An array of strings describing what objects to recover,
+ *                    along with the 
+ */

@@ -1,0 +1,8 @@
+2092:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask mixed) cb_query_attack()
+/*
+ * Function name: cb_query_attack
+ * Description  : Gives the object we are currently fightin (if any). This does
+ *                not include hunted enemies. Use cb_query_enemy() for that.
+ * Returns      : object - the currently attacked object.
+ */

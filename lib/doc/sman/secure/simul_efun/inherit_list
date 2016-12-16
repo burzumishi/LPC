@@ -1,0 +1,7 @@
+1112:/secure/simul_efun.c (/secure/simul_efun.c)
+(nomask string *) inherit_list(object ob)
+/*
+ * Function name: inherit_list
+ * Description:   Returns the inherit list of an object.
+ * Arguments:     ob - the object to list.
+ */

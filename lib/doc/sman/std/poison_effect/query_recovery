@@ -1,0 +1,9 @@
+298:/std/poison_effect.c (/std/poison_effect.c)
+(public int) query_recovery()
+/*
+ * Function name: query_recovery
+ * Description  : This returns whether the poison is being recovered or
+ *                whether it is a first time poisoning.
+ * Returns      : 1 - the poison is recovered after someone quit
+ *                0 - this is a first time poisoning.
+ */

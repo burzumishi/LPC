@@ -1,0 +1,6 @@
+325:/secure/login.c (/secure/login.c)
+(static void) start_player1()
+/*
+ * Function name: start_player1
+ * Description  : The next step in the startup process.
+ */

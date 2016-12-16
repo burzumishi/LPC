@@ -1,0 +1,9 @@
+269:/std/living/stats.c (/std/living.c)
+(nomask int) stat_to_exp(int stat)
+/*
+ * Function name:   stat_to_exp
+ * Description:     Translates given stat value to minimum number of
+ *                  experience points required to get to that stat value.
+ * Arguments:       exp: The number of experience points to be translated.
+ * Returns:         The amount of experience
+ */

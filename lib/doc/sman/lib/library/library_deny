@@ -1,0 +1,8 @@
+1809:/lib/library.c (/lib/library.c)
+(public int) library_deny(string str)
+/*
+ * Function name: library_deny
+ * Description:   The "deny" command
+ * Arguments:     string str - arguments to the "deny" command
+ * Returns:       1/0 - syntax success/failure
+ */

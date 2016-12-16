@@ -1,0 +1,11 @@
+1725:/secure/master.c (/secure/master.c)
+(string *) define_include_dirs()
+/*
+ * Function name: define_include_dirs
+ * Description  : Define  where the '#include' statement is supposed to
+ *                search for files. "." will automatically be searched
+ *                first, followed in order as given below. The path should
+ *                contain a '%s', which will be replaced by the file
+ *                searched for.
+ * Returns      : string * - the array of path to search.
+ */

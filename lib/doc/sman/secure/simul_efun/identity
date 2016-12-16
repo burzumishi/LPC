@@ -1,0 +1,8 @@
+1245:/secure/simul_efun.c (/secure/simul_efun.c)
+(mixed) identity(mixed x)
+/*
+ * Function name: identity
+ * Description:   returns its argument unmodified
+ * Arguments:     x
+ * Returns:       x
+ */

@@ -1,0 +1,21 @@
+646:/std/living/combat.c (/std/living.c)
+(varargs public mixed) hit_me(int wcpen, int dt, object attacker, int attack_id, int target_hitloc = -1)
+/*
+ * Function name:   hit_me
+ * Description:     Called to make damage on this object. The actually
+ *                  made damage is returned and will be used to change
+ *                  the score of the aggressor.
+ * Arguments:       wcpen         - The wc-penetration
+ *                  dt            - damagetype, use MAGIC_DT if ac will not
+ *                                  help against this attack.
+ *                  attacker      - Object hurting us
+ *                  attack_id     - Special id saying what attack hit us. If 
+ *                                  you have made a special attack, let the 
+ *                                  id be -1
+ *                  target_hitloc - Optional argument specifying a hitloc
+ *                                  to damage.  If not specified or an
+ *                                  invalid hitloc is given, a random
+ *                                  one will be used.
+ * Returns:         The hitresult as given by the external combat object.
+ *                  For details, see 'sman cb_hit_me'.
+ */

@@ -1,0 +1,14 @@
+1767:/secure/master.c (/secure/master.c)
+(int ) save_ed_setup(object who, int code)
+/* save_ed_setup and restore_ed_setup are called by the ed to maintain
+   individual options settings. These functions are located in the master
+   object so that the local gods can decide what strategy they want to use.
+
+/*
+ * The wizard object 'who' wants to save his ed setup. It is saved in the
+ * file ~wiz_name/.edrc . A test should be added to make sure it is
+ * a call from a wizard.
+ *
+ * Don't care to prevent unauthorized access of this file. Only make sure
+ * that a number is given as argument.
+ */

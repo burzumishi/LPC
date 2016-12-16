@@ -1,0 +1,10 @@
+387:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(object *) find_str_in_arr(string str, object *ob)
+/*
+ * Function name: find_str_in_arr
+ * Description:   Will return the array of objects corresponding to the str 
+ *		  that this_player can see, picked from the given array.
+ * Arguments:	  str - the string to search for
+ *		  ob  - An array with objects to look through
+ * Returns:	  the object array.
+ */

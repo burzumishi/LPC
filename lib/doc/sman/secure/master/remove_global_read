@@ -1,0 +1,8 @@
+2509:/secure/master/fob.c (/secure/master.c)
+(int) remove_global_read(string wname)
+/*
+ * Function name: remove_global_read
+ * Description  : Remove a wizard from the global access list.
+ * Arguments    : string wname - the wizard to remove.
+ * Returns      : int 1/0 - true if successful.
+ */

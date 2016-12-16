@@ -1,0 +1,6 @@
+1473:/std/object.c (/std/object.c)
+(public void) set_lock()
+/*
+ * Function name: set_lock
+ * Description:   Locks out all changes to this object through set_ functions.
+ */

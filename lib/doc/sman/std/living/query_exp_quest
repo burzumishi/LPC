@@ -1,0 +1,7 @@
+1012:/std/living/savevars.c (/std/living.c)
+(public int) query_exp_quest()
+/*
+ * Function name: query_exp_quest
+ * Description  : Gives the amount of quest experience the living has.
+ * Returns      : int - the quest experience points.
+ */

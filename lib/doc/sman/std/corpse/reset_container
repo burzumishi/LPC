@@ -1,0 +1,7 @@
+92:/std/corpse.c (/std/corpse.c)
+(nomask void) reset_container()
+/*
+ * Function name: reset_container
+ * Description  : Reset routine. Don't mask this routine, but define
+ *                reset_corpse() instead.
+ */

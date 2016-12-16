@@ -1,0 +1,10 @@
+163:/std/receptacle.c (/std/receptacle.c)
+(void) reset_container()
+/*
+ * Function name: reset_container
+ * Description  : If you create the container with create_receptacle,
+ *                you shall want to reset it with reset_receptacle and
+ *                this function allows you to do just that. Do not forget
+ *                that you have to call enable_reset() from your create
+ *                function in order to make this object actually reset.
+ */

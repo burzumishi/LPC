@@ -1,0 +1,8 @@
+478:/lib/messenger.c (/lib/messenger.c)
+(public void) set_can_deliver_indoors(int bCanDeliver)
+/*
+ * Function:    set_can_deliver_indoors
+ * Description: Set this option if you wish the messenger to be able
+ *              to find people indoors
+ * Arguments:   int bCanDeliver - messenger can deliver indoors or not.
+ */

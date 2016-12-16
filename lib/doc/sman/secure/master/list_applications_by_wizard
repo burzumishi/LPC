@@ -1,0 +1,9 @@
+1254:/secure/master/fob.c (/secure/master.c)
+(static int) list_applications_by_wizard(string wname, int list_self)
+/*
+ * Function name: list_applications_by_wizard
+ * Description  : This function lists all applications made by a wizard.
+ * Arguments    : string wname  - the name of the wizard to list.
+ *                int list_self - true if someone inquires about himself.
+ * Returns      : int 1/0 - success/failure.
+ */

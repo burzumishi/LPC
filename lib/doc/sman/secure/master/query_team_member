@@ -1,0 +1,9 @@
+2907:/secure/master/fob.c (/secure/master.c)
+(int) query_team_member(string team, string member)
+/*
+ * Function name: query_team_member
+ * Description  : Determine membership status.
+ * Arguments    : string team - the team to query.
+ *              : string member - the member to query.
+ * Returns      : 1/0 - member/not.
+ */

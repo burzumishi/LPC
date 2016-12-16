@@ -1,0 +1,15 @@
+95:/std/room/move.c (/std/room.c)
+(public int) unq_move(string str)
+/*
+ * Function name: unq_move
+ * Description  : This function is called when a player wants to move through
+ *                a certain exit. VBFC is applied to the first and third
+ *                argument to add_exit(). Observe that if you have a direction
+ *                argument to add_exit(). Observe that if you have a direction
+ *                command that uses its trailing test as in 'enter portal'
+ *                and fails if the second word is not 'portal', your block
+ *                function should return 2 as you want the rest of the dir
+ *                commands to be tested.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0.
+ */

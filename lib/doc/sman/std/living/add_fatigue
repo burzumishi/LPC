@@ -1,0 +1,9 @@
+638:/std/living/savevars.c (/std/living.c)
+(public void) add_fatigue(int f)
+/*
+ * Function name:   add_fatigue
+ * Description:     Add an amount of fatigue points to the current amount
+ *                  of the living. Observe, negative argument makes a player
+ *                  more tired.
+ * Arguments:       f: the amount of change
+ */

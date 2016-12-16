@@ -1,0 +1,8 @@
+18:/std/act/attack.c (/std/act/attack.c)
+(public void) set_aggressive(mixed aggro, int pct)
+/*
+ * Function name: set_aggressive
+ * Description:   Make the monster aggressive
+ * Arguments:	  aggro - 1 aggressive, 0 - not aggressive; % chance.
+ *                  pct - % chance of being brave enough to attack anything.
+ */

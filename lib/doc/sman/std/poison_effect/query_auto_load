@@ -1,0 +1,8 @@
+834:/std/poison_effect.c (/std/poison_effect.c)
+(public nomask string) query_auto_load()
+/*
+ * Function name: query_auto_load
+ * Description:   Used to reload the poison into the player if it hasn't
+ *                expired when he quits. When you want to add more information
+ *                to the recover string, mask query_poison_recover().
+ */

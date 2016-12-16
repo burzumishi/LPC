@@ -1,0 +1,8 @@
+1446:/std/door.c (/std/door.c)
+(static void) add_door_info(object dest)
+/*
+ * Function name: add_door_info
+ * Description:   Add information about this door to the room it
+ *		  stands in. If this door already exists, autodestruct.
+ * Arguments:	  dest - The room that contains the door.
+ */

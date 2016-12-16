@@ -1,0 +1,15 @@
+723:/std/weapon.c (/std/weapon.c)
+(public mixed) unwield(object obj)
+/*
+ * Function name: unwield
+ * Description  : This function might be called when someone tries to unwield
+ *                this weapon. To have this function called, use the function
+ *                set_wf().
+ *                Note: this routine does not actually exist in /std/weapon.
+ *                      A trick is used to fool the document maker.
+ * Arguments    : object obj - the weapon to stop wielding.
+ * Returns      : int  0 - the weapon can be unwielded normally.
+ *                     1 - unwield the weapon, but print no messages.
+ *                    -1 - do not unwield the weapon, print default messages.
+ *                string - do not unwield the weapon, use this fail message.
+ */

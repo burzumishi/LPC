@@ -1,0 +1,7 @@
+175:/std/corpse.c (/std/corpse.c)
+(string) query_state_desc()
+/*
+ * Function name: query_state_desc
+ * Descritpion  : Returns the present state description.
+ * Returns      : string - the state description.
+ */

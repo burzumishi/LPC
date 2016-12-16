@@ -1,0 +1,8 @@
+1558:/std/living/savevars.c (/std/living.c)
+(int) query_stat_pref_total()
+/*
+ * Function name: query_stat_pref_total
+ * Description  : This function returns the total percentage of experience
+ *                that is not taxed (i.e. that goes into the stats).
+ * Returns      : int - the percentage of untaxed experience.
+ */

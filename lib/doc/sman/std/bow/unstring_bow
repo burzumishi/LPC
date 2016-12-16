@@ -1,0 +1,7 @@
+162:/std/bow.c (/std/bow.c)
+(public nomask void) unstring_bow()
+/*
+ * Function name: unstring_bow
+ * Description:   Updates the internal state of the bow when it
+ *                looses its bowstring.
+ */

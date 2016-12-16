@@ -1,0 +1,9 @@
+31:/secure/store_message.c (/secure/store_message.c)
+(nomask static int) valid_characters(string name)
+/*
+ * Function name: valid_characters
+ * Description  : This function checks whether all characters in the
+ *                intended filename are valid.
+ * Arguments    : string name - the intended filename.
+ * Returns      : int 1/0 - true if all characters are valid.
+ */

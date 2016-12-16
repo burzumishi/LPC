@@ -1,0 +1,10 @@
+514:/secure/master/mail_admin.c (/secure/master.c)
+(static void) report_statistics(int boxes, int messages, int files)
+/*
+ * Function name: report_statistics
+ * Description  : This function will do the actual reporting about the
+ *                mail system.
+ * Arguments    : int boxes    - the number of mailboxes found.
+ *                int messages - the number of messages found in the boxes.
+ *                int files    - the number of individual message files.
+ */

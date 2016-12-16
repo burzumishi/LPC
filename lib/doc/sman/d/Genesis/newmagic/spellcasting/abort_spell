@@ -1,0 +1,7 @@
+217:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public void) abort_spell(string spell)
+/*
+ * Function name: abort_spell
+ * Description:   Called when concentration is aborted
+ * Arguments:     string spell - the spell that was aborted
+ */

@@ -1,0 +1,7 @@
+517:/std/heap.c (/std/heap.c)
+(public nomask mapping) query_prop_map()
+/*
+ * Function name: query_prop_map
+ * Description:   Returns mapping containg all props and their values.
+ * Returns:       The obj_props mapping.
+ */

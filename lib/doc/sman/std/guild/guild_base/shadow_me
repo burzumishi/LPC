@@ -1,0 +1,19 @@
+68:/std/guild/guild_base.c (/std/guild/guild_base.c)
+(public nomask varargs int) shadow_me(object player, string type, string style, string name,           string init_arg)
+/*
+ * Function name: shadow_me
+ * Description:   This function is called when you want a person to join a
+ *		  guild, It sets up all necessary variabels and auto load in
+ *		  the player
+ * Arguments:	  player - the player
+ *		  type   - the type of guild
+ *		  style  - the guild style
+ * 		  name   - the guild name
+ * 		  init_arg  - the shadow autoload init string
+ * Returns:       1 - everything went right
+ *                0 - no player or player already shadowed
+ * 		 -1 - no name of guild
+ *               -2 - not correct guild type
+ *               -3 - no style of guild reported
+ *               -4 - the other guilds don't like this guild
+ */

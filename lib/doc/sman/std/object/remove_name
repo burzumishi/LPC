@@ -1,0 +1,12 @@
+1308:/std/object.c (/std/object.c)
+(public void) remove_name(mixed name)
+/*
+ * Function name: remove_name
+ * Description  : Removes one or more names from this object.
+ *
+ * Notice       : Calling remove_name() will automatically remove the plural
+ *                name unless the argument 'noplural' is set.
+ *
+ * Arguments    : mixed name - accepts both a string or an array of string
+ *                    with the name(s) to as name.
+ */

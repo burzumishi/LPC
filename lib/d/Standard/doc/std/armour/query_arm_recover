@@ -1,0 +1,7 @@
+858:/std/armour.c (/std/armour.c)
+(string) query_arm_recover()
+/*
+ * Function name: query_arm_recover
+ * Description:   Return the recover strings for changing armour variables.
+ * Returns:       Part of the recoder string
+ */

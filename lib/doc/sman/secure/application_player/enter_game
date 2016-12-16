@@ -1,0 +1,9 @@
+103:/secure/application_player.c (/secure/application_player.c)
+(void) enter_game()
+/*
+ * Function name: enter_game
+ * Description  : This function is called from the login object and enables
+ *                the player to connect. It takes care of the necessary
+ *                initialization before the player is allowed to file his
+ *                request.
+ */

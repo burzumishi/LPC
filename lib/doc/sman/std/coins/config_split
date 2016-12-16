@@ -1,0 +1,11 @@
+251:/std/coins.c (/std/coins.c)
+(public void) config_split(int new_num, object orig)
+/*
+ * Function name: config_split
+ * Description  : When a part of this heap is split, we make sure the new
+ *                heap is made into the correct type of coins as well by
+ *                setting the coin type to the coin type of the heap we are
+ *                being split from.
+ * Arguments    : int new_num - the number of coins in this new heap.
+ *                object orig - the heap we are split from.
+ */

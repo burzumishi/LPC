@@ -1,0 +1,7 @@
+348:/std/living/stats.c (/std/living.c)
+(public void) update_last_stats()
+/*
+ * Function name: update_last_stats
+ * Description  : Copies the current stats into the PLAYER_AI_LAST_STATS
+ *                property for later reference.
+ */

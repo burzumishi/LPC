@@ -1,0 +1,16 @@
+257:/lib/pub.c (/lib/pub.c)
+(varargs void) add_drink(mixed id, mixed names, mixed adj, int soft, int alco, int price, 	  string short, string pshort, string long, mixed dummy)
+/*
+ * Function name: add_drink
+ * Description:   Add a drink to the menu list
+ * Arguments:	  id	    - An array with names to id the drink when buying
+ *		  names     - The names of the drink
+ *		  adj	    - The adjectives of the drink
+ * 		  soft	    - The soft amount (integer)
+ *		  alco	    - The alcoholic amount (integer)
+ * 		  price	    - The price of the drink (cost to buy)
+ *		  short	    - Short description of the drink (if special)
+ *		  pshort    - A plural short description
+ *		  long	    - Long description of the drink
+ *                dummy     - Obsolete, kept for backward compability
+ */

@@ -1,0 +1,6 @@
+1349:/secure/login.c (/secure/login.c)
+(static void) position()
+/*
+ * Function name: position
+ * Description  : Print the position of the player in the queue.
+ */

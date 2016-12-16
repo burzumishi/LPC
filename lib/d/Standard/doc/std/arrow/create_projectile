@@ -1,0 +1,8 @@
+57:/std/arrow.c (/std/arrow.c)
+( public nomask void) create_projectile()
+/*
+ * Function name: create_projectile
+ * Description  : Constructor. This sets some internal state of the arrow
+ *                Mask create_arrow instead if you want to create an
+ *                arrow.
+ */

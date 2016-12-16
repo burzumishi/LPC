@@ -1,0 +1,10 @@
+484:/secure/master/guild.c (/secure/master.c)
+(public int) guild_sort_styles(string guild1, string guild2)
+/*
+ * Function name: guild_sort_styles
+ * Description  : Sort function that sorts the guild names based on the
+ *                style.
+ * Arguments    : string guild1 - the short name of guild 1.
+ *                string guild2 - the short name of guild 2.
+ * Returns      : int - the sort answer -1/0/1.
+ */

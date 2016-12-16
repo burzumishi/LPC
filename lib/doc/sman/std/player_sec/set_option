@@ -1,0 +1,9 @@
+1135:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) set_option(int opt, int val)
+/*
+ * Function name: set_option
+ * Description  : Set a player option.
+ * Arguments    : int opt - the option to set (use <options.h>).
+ *                int val - the value to set the option to.
+ * Returns      : int 1 - success, 0 - fail.
+ */

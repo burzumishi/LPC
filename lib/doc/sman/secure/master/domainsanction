@@ -1,0 +1,9 @@
+703:/secure/master/sanction.c (/secure/master.c)
+(public int) domainsanction(string str)
+/*
+ * Function name: domainsanction
+ * Description  : This function contains the code for the domainsanction
+ *                command.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

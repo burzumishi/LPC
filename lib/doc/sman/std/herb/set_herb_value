@@ -1,0 +1,7 @@
+296:/std/herb.c (/std/herb.c)
+(void) set_herb_value(int i)
+/*
+ * Function name: set_herb_value
+ * Description:   Set the value of the herb when dealing with a herb specialist
+ * Arguments:     i - The value
+ */

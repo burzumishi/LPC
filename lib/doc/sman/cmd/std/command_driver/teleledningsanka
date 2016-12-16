@@ -1,0 +1,10 @@
+99:/cmd/std/command_driver.c (/cmd/std/command_driver.c)
+(void) teleledningsanka()
+/*
+/*
+ * Function name: teleledningsanka
+ * Description  : This function is used to load a soul and in command
+ *                souls also to set the uid, euid to "backbone". If you
+ *                don't speak Swedish, rest assured that the name of this
+ *                function isn't real Swedish either.
+ */

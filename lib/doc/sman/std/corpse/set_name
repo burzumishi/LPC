@@ -1,0 +1,11 @@
+104:/std/corpse.c (/std/corpse.c)
+(void) set_name(string name)
+/*
+ * Function name: set_name
+ * Description  : Called upon construction of this corpse to set the name
+ *                of the diseased. It follows up with some additional names
+ *                such as 'remains', etc.
+ *                Do NOT call this routine more than once!
+ *                Use add_name() for additional names.
+ * Arguments    : string name - the name of the person who died.
+ */

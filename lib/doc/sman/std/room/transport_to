@@ -1,0 +1,13 @@
+26:/std/room/link.c (/std/room.c)
+(public int) transport_to(string ex, mixed room, int delay)
+/*
+ * Function name: transport_to
+ * Description:   Transport player to first linked room in clone chain.  
+ *                Also creates the corridor and links it to the other
+ *                endpoint if the corridor does not exist.
+ * Arguments:	  ex:    The direction command (north, south ...)
+ *                room:  The destination objectp or stringp
+ *                delay: The length of the cloned corridor.
+ * Returns:       True if player moved to first pos in corridor.
+ *                False if corridor could not be created.
+ */

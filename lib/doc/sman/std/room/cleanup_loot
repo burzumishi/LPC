@@ -1,0 +1,8 @@
+89:/std/room.c (/std/room.c)
+(void) cleanup_loot()
+/*
+ * Function name: cleanup_loot
+ * Description  : This function will clean all loot in the room that was
+ *                dropped here. It will only function if no interactive
+ *                players are in the room.
+ */

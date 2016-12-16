@@ -1,0 +1,11 @@
+1668:/secure/master/fob.c (/secure/master.c)
+(int) domain_clear_xp(string dname)
+/*
+ * Function name: domain_clear_xp
+ * Description  : With this function archwizards and keepers may remove the
+ *                experience gathered by a domain. This is for debugging
+ *                purposes and when errors have been made and the experience
+ *                is not correct any more
+ * Arguments    : string dname - the domain-name.
+ * Returns      : int 1/0 - success/failure.
+ */

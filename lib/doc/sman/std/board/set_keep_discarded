@@ -1,0 +1,9 @@
+217:/std/board.c (/std/board.c)
+(public nomask void) set_keep_discarded(int n)
+/*
+ * Function name: set_keep_discarded
+ * Description  : Set this if you want old notes to be kept. They will be
+ *                kept if in a directory with the same name as the
+ *                actual notes, though with _old appended to it.
+ * Arguments    : int n - true if old notes should be kept (default: false)
+ */

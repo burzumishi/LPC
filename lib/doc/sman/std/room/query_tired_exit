@@ -1,0 +1,11 @@
+292:/std/room/exits.c (/std/room.c)
+(public int) query_tired_exit(int index)
+/*
+ * Function name: query_tired_exit
+ * Description  : This function returns the tired value for a particular
+ *                exit. It checks for VBFC and works out the virtual array
+ *                used to keep the tired values. The default tired value
+ *                is 1.
+ * Arguments    : int index - the index-number of the exit to query.
+ * Returns      : int - the tired value.
+ */

@@ -1,0 +1,8 @@
+3529:/secure/master.c (/secure/master.c)
+(public int) master_shutdown(string reason)
+/*
+ * Function name: master_shutdown
+ * Description  : Perform the final shutdown. This function may only be
+ *                called from the armageddon object.
+ * Returns      : 1 - Ok, 0 - No shutdown performed.
+ */

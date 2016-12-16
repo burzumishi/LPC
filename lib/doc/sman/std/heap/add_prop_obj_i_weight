@@ -1,0 +1,8 @@
+803:/std/heap.c (/std/heap.c)
+(int) add_prop_obj_i_weight(mixed val)
+/*
+ * Function name: add_prop_obj_i_weight
+ * Description:   Hook to avoid wrong settings of OBJ_I_WEIGHT in a heap
+ * Arguments:     val - The value OBJ_I_WEIGHT is intended to be set to
+ * Returns:       1 - If OBJ_I_WEIGHT shouldn't get this new setting.
+ */

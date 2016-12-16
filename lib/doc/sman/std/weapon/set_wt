@@ -1,0 +1,8 @@
+534:/std/weapon.c (/std/weapon.c)
+(void) set_wt(int type)
+/*
+ * Function name: set_wt
+ * Description  : Set the weapon type, W_SWORD, W_AXE, ...
+ *                When the lock has been set, no changes are allowed anymore.
+ * Arguments    : int type - the weapon type.
+ */

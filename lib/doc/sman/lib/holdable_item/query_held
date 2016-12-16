@@ -1,0 +1,7 @@
+334:/lib/holdable_item.c (/lib/holdable_item.c)
+(public nomask int) query_held()
+/*
+ * Function name: query_held
+ * Description  : Returns whether this object is being held or not.
+ * Returns      : int 1/0 - held or not.
+ */

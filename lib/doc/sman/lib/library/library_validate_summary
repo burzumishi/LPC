@@ -1,0 +1,8 @@
+1397:/lib/library.c (/lib/library.c)
+(public int) library_validate_summary(string summary)
+/*
+ * Function name: library_validate_summary
+ * Description:   Determine if a string is a valid book summary
+ * Arguments:     string summary - the summary string
+ * Returns:       1/0 - valid/invalid
+ */

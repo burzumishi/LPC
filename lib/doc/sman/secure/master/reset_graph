@@ -1,0 +1,6 @@
+81:/secure/master/notify.c (/secure/master.c)
+(static void) reset_graph()
+/*
+ * Function name: reset_graph
+ * Descripiton  : This function will reset the graph related variables.
+ */

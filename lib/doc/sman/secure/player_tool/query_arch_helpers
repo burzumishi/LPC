@@ -1,0 +1,11 @@
+561:/secure/player_tool.c (/secure/player_tool.c)
+(public nomask mapping) query_arch_helpers()
+/*
+ * Function name: query_arch_helpers
+ * Description  : This function returns a mapping with the names of the
+ *                people who have been allowed to use the player tool. In
+ *                general this will be the arch-helpers.
+ * Returns      : mapping - the mapping with the helpers of the player arch.
+ *                          the indices are the helpers and the values the
+ *                          people who allowed those helpers.
+ */

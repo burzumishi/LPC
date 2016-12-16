@@ -1,0 +1,21 @@
+220:/std/player/more.c (/std/player_sec.c)
+(public nomask varargs int) more(mixed arg, int start, function func)
+/*
+ * Function name: more
+ * Description  : Call this function in a player like explained in the header
+ *                of this file in order to let him/her read a text with more.
+ *                There are three options:
+ *                  player->more(string filename, int start)
+ *                  player->more(string *lines)
+ *                  player->more(string text)
+ *
+ * Arguments    : mixed arg - the filename of the file to read or the text to
+ *                    read itself. If it's the text, it may be an array of
+ *                    lines or a single string concatenated with newlines (\n).
+ *                int start - for files this must be the index to the first
+ *                    line to read (first line == 1). When <arg> contains the
+ *                    text itself, this variable should be 0 or omitted.
+ *                function func - the function to call when the player is
+ *                    done reading the text.
+ * Returns      : int 1 - always.
+ */

@@ -1,0 +1,8 @@
+205:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public void) break_spell(string spell, object breaker)
+/*
+ * Function name: break_spell
+ * Description:   Called when concentration is broken
+ * Arguments:     string spell   - the spell that was broken
+ *                object breaker - what broke the spell
+ */

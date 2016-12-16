@@ -1,0 +1,7 @@
+73:/std/heap.c (/std/heap.c)
+(void) init()
+/*
+ * Function name: init
+ * Description  : This function is called each time the object 'meets' another
+ *                object.
+ */

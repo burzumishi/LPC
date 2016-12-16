@@ -1,0 +1,7 @@
+70:/std/player/pcombat.c (/std/player_sec.c)
+(public void) remove_invited(object ob)
+/*
+ * Function name:   remove_invited
+ * Description:     Remove an object from the invited list.
+ * Argumnents:      ob - The object to remove from the list.
+ */

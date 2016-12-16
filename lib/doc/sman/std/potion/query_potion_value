@@ -1,0 +1,7 @@
+349:/std/potion.c (/std/potion.c)
+(int) query_potion_value()
+/*
+ * Function name: query_potion_value
+ * Description:   The value of the potion when dealing with a specialist
+ * Returns:	  The value
+ */

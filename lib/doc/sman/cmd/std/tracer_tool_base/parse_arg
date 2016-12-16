@@ -1,0 +1,14 @@
+268:/cmd/std/tracer_tool_base.c (/cmd/std/tracer_tool_base.c)
+(mixed) parse_arg(string what)
+/*
+ * Function name: parse_arg
+ * Description  : This function is used to split the argument part of the
+ *                paramtere to Call. Arguments, either string or integer
+ *                may be separated by %% from eachother. An element may
+ *                also be an array of mixed string and integer, though
+ *                within the array, the elements should be devided by
+ *                commas.
+ *                Example: Mercade%%({Nick,Mrpr})%%45
+ * Arguments    : what  - the string to parse
+ * Returns      : mixed - an array with arguments
+ */

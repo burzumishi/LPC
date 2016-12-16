@@ -1,0 +1,10 @@
+3040:/secure/master.c (/secure/master.c)
+(void) store_predeath()
+/*
+ * Function name: store_predeath
+ * Description  : Just before the death-modifications are made to a player
+ *                file, we secure a copy. Note: this routine moves the
+ *                player file. It relies on a new copy being saved shortly
+ *                after the call to this routine, so we don't have to make
+ *                a costly copy, but can rely on moving it.
+ */

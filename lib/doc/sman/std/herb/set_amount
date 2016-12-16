@@ -1,0 +1,7 @@
+312:/std/herb.c (/std/herb.c)
+(public void) set_amount(int a)
+/*
+ * Function name:       set_amount
+ * Description:         sets the amount of food in this herb (in grams)
+ * Arguments:           a: The amount of food
+ */

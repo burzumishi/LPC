@@ -1,0 +1,8 @@
+249:/std/living/savevars.c (/std/living.c)
+(public void) set_race_name(string str)
+/*
+ * Function name: set_race_name
+ * Description  : Sets the race name of this living. The race name will also
+ *                be set as add_name too.
+ * Arguments    : string str - the race string.
+ */

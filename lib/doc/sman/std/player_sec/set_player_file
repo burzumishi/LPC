@@ -1,0 +1,10 @@
+293:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask public void) set_player_file(string f)
+/*
+ * Function name:   set_player_file
+ * Description:     Set the playerfile that is loaded when the player enters
+ *                  the game. The lagality of the file is checked against
+ *                    legal_player in the 'login_new_player' file defined in
+ *                    <config.h>
+ * Arguments:       f: The filename-string.
+ */

@@ -1,0 +1,7 @@
+127:/std/player_sec.c (/std/player_sec.c)
+(public nomask void) fixup_screen()
+/*
+ * Function name: fixup_screen
+ * Description:   Restore the players screen width. Normally called
+ *                during login.
+ */

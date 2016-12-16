@@ -1,0 +1,8 @@
+3:/std/callout.c (/std/callout.c)
+(int) find_call_out(string func)
+/*
+ * Function name: find_call_out
+ * Description:   Locate an existing call_out to a named function
+ * Arguments:     func - name of function the call_out should call
+ * Returns:       -1 if not found, else time left before triggered
+ */

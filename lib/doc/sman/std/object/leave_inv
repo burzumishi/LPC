@@ -1,0 +1,10 @@
+934:/std/object.c (/std/object.c)
+(void) leave_inv(object ob, object dest)
+/*
+ * Function name: leave_inv
+ * Description  : This function is called each time an object leaves the
+ *                inventory of this object. If you mask it, be sure that
+ *                you _always_ call the ::leave_inv(ob, old) function.
+ * Arguments    : object ob   - the object leaving our inventory.
+ *                object dest - wherever 'ob' goes to. This can be 0.
+ */

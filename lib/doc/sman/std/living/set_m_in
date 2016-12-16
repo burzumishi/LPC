@@ -1,0 +1,10 @@
+123:/std/living/savevars.c (/std/living.c)
+(public void) set_m_in(string m)
+/*
+ * Function name: set_m_in
+ * Description  : Set the normal entrance message of this living. This text
+ *                should fit into the phrase "<name> <m-in> <from direction>."
+ *                so there should not be a closing period to this message.
+ * Arguments    : string m - the message string.
+ * Example      : "waddles into the room"
+ */

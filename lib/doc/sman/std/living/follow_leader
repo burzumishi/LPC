@@ -1,0 +1,12 @@
+298:/std/living/move.c (/std/living.c)
+(public void) follow_leader(string com)
+/*
+ * Function name: follow_leader
+ * Description  : If the leader of the team moved, follow him/her.
+ * Arguments    : string com - the command to use to follow the leader.
+ *
+ * WARNING      : This function makes the person command him/herself. This
+ *                means that when a wizard is in a team, the team leader can
+ *                force the wizard to perform non-protected commands. Wizard
+ *                commands cannot be forced as they are protected.
+ */

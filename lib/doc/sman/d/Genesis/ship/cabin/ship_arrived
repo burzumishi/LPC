@@ -1,0 +1,7 @@
+61:/d/Genesis/ship/cabin.c (/d/Genesis/ship/cabin.c)
+(public void) ship_arrived(mixed where)
+/*
+ * Function name: ship_arrived
+ * Description  : Give a description about where we currently got to
+ * Arguments    : A string or object pointing to the current room
+ */

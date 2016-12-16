@@ -1,0 +1,7 @@
+90:/d/Genesis/ship/ship.c (/d/Genesis/ship/ship.c)
+(public void) stop_ship(string why)
+/*
+ * Function name: stop_ship
+ * Description	: Stop the ship from doing it's thing
+ * Arguments	: why - string with the reason the ship should be stopped
+ */

@@ -1,0 +1,11 @@
+232:/secure/srcman.c (/secure/srcman.c)
+(public mixed *) get_index(string mdir, string sdir)
+/*
+ * Function name:   get_index
+ * Description:     Return all function names in a given subdir (object)
+ * Arguments:	    mdir - The main documentation directory
+ *		    sdir - The subdir to search in. (Optional)
+ * Returns:         An array containing the list of found names in each
+ *		    subdir. Each entry is on the form: 
+ *			({ "subdir", ({ "funcname", "funcname" ... }) })
+ */

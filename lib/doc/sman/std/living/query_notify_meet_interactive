@@ -1,0 +1,8 @@
+98:/std/living/notify_meet.c (/std/living.c)
+(public string *) query_notify_meet_interactive()
+/*
+ * Function name: query_notify_meet_interactive
+ * Function name: query_notify_meet_interactive
+ * Description:   Give the list of functions to call when this living
+ *                meets an interactive player.
+ */

@@ -1,0 +1,6 @@
+126:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(public void) start_player()
+/*
+ * Function name: start_player
+ * Descripiton  : When the player logs in, we set some race-specific stuff.
+ */

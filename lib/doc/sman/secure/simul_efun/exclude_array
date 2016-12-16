@@ -1,0 +1,10 @@
+190:/secure/simul_efun.c (/secure/simul_efun.c)
+(public mixed) exclude_array(mixed arr, int from, int to)
+/*
+ * Function name: exclude_array
+ * Description:   Deletes a section of an array
+ * Arguments:     arr: The array
+ *		  from: Index from which to delete elements
+ *		  to: Last index to be deleted.
+ * Returns:
+ */

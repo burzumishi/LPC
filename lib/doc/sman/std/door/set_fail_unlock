@@ -1,0 +1,6 @@
+1247:/std/door.c (/std/door.c)
+(void) set_fail_unlock(string mess)
+/*
+ * Function name: set_fail_unlock
+ * Description:   Set fail message when unlocking
+ */

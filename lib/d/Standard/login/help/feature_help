@@ -1,0 +1,60 @@
+HELP FOR FEATURE SELECTION
+
+    In this room, you are supposed to choose the adjectives used to make you
+seem more unique, also referred to as features or attributes. Take, for
+example, a long-armed black-haired human. The adjectives 'long-armed' and
+'black-haired' separate him from other humans (unless there are other
+humans with the same adjectives, that happens sometimes, despite the large
+number of possible combinations).
+
+    Adjectives are listed according to category. For example, there are
+categories like 'EYES' which contain several eye descriptions, 'HAIR', and
+'AGE'. These break down the large number of available adjectives into
+shorter lists to choose from.
+
+    There are two main things to keep in mind when choosing adjectives.
+        FIRST: You can only have two adjectives. You are free to select
+               several different combinations here, replacing old ones with
+               new ones to 'try them on', but once you've decided which two
+               you'd like, you're stuck with them.
+        SECOND: You must choose your adjectives from different categories.
+                This may seem odd, but it's to prevent idiotic looking
+                descriptions like 'blue-haired black-haired elf'.
+
+    The first thing you should do, is use the 'list' command to see what's
+available in the way of adjectives. This will list all categories and all
+the adjectives they contain. This list is a bit long, so you might want to
+do 'list categories'. This will provide you with a list of available
+categories. If you know what categories you'd like to see more of, you can
+use the list command on specific categories. 'list eyes' for example, will
+provide a list of nothing but eye adjectives.
+
+    Now, you've seen most of the adjectives available, if not all, and have
+decided which ones you want. It's time to start trying them on for size.
+For this, use the 'select' command. You have to specify two things when
+selecting an adjective. Whether it's your first or second adjective you're
+changing, and what that adjective is. For example, if you wanted to be a
+'ancient thick-armed goblin', you'd do 'select first ancient' and 'select
+second thick-armed'. As I mentioned before, you can change them around as
+much as you want here until you finalize your selection by continuing from
+here.
+
+    Ok, assuming you've picked a couple adjectives, you probably want to know
+what you look like. Try doing 'examine reflection'. Not only will it show
+you what you look like, it will also tell you if you've set your adjectives
+right.
+
+    If you forget a command and don't want to go through all this stuff
+again, 'look in' the eye of souls, and you'll get an abbreviated version.
+
+    Finally, once you've finished juggling your features and are happy with
+your description (remember, the only way to change them is if you die and
+select a body of different race or gender) simply 'enter pool' to continue
+on your merry old way. If you're a new player, that will be getting some
+starting skills. If you're just coming from shaking hands with Lars, you'll
+be cut loose back into the game, fresh for vengeance on your killer ;).
+
+    Also, it's possible for you to return to the last room you came from.
+Probably one of the halls of mirrors. It'll give you a second chance to set
+your length/height if you've decided you've changed your mind. You can do
+that with the 'back' or 'return' command.

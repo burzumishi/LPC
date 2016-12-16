@@ -1,0 +1,10 @@
+282:/secure/simul_efun.c (/secure/simul_efun.c)
+(varargs mixed) one_of_list(mixed array, int seed)
+/*
+ * Function name: one_of_list
+ * Description  : Randomly picks one element from an array. When the argument
+ *                is not an array, or is an empty array, 0 is returned.
+ * Arguments    : mixed array - an array of elements of some sorts.
+ *                int seed - an optional argument with the seed to use.
+ * Returns      : mixed - one element from the array or 0.
+ */

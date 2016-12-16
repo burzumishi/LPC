@@ -1,0 +1,12 @@
+1939:/std/living/savevars.c (/std/living.c)
+(nomask public int) add_cmdsoul(string soul)
+/*
+ * Function name:   add_cmdsoul
+ * Description:     Add a command soul to the list of command souls. Note
+ *                  that adding a soul is not enough to get the actions
+ *                  added as well. You should do player->update_hooks()
+ *                  to accomplish that.
+ * Arguments:       soul: String with the filename of the command soul.
+ * Returns:         1 if successfull,
+ *                  0 otherwise.
+ */

@@ -1,0 +1,8 @@
+1147:/secure/simul_efun.c (/secure/simul_efun.c)
+(mixed) secure_var(mixed var)
+/*
+ * Function:    secure_var
+ * Description: Return a secure copy of the given variable
+ * Arguments:   var - the variable
+ * Returns:     the secured copy
+ */

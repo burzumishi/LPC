@@ -1,0 +1,9 @@
+1579:/std/object.c (/std/object.c)
+(varargs int) remove_magic_effect(mixed what)
+/*
+ * Function name:  remove_magic_effect
+ * Description:    Removes the magical effect from the
+ *                 list of effects affecting this object.
+ * Arguments:      What effect.
+ * Returns:        If the effect was found.
+ */

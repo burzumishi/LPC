@@ -1,0 +1,8 @@
+245:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) list_admin(int admin)
+/*
+ * Function name: list_admin
+ * Description:   List the admins
+ * Arguments:	  admin - admin level access
+ * Returns:	  Error code, if any
+ */

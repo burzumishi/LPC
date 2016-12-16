@@ -1,0 +1,10 @@
+1362:/std/launch_weapon.c (/std/launch_weapon.c)
+(public varargs string) long(string str, object for_obj)
+/*
+ * Function name: long
+ * Description  : The long description. We add the information about the
+ *                load status and the condition to it.
+ * Arguments     : string str - a possible add-item to look for.
+ *                 object for_obj - the object that wants to know.
+ * Returns       : string - the long description.
+ */

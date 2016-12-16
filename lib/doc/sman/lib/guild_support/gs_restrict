@@ -1,0 +1,8 @@
+457:/lib/guild_support.c (/lib/guild_support.c)
+(static nomask int) gs_restrict(string str)
+/*
+ * Function name: gs_restrict
+ * Description  : This allows a player to restrict himself from playing.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1 - always.
+ */

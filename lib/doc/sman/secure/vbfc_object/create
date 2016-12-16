@@ -1,0 +1,7 @@
+14:/secure/vbfc_object.c (/secure/vbfc_object.c)
+(nomask void) create()
+/*
+ * Function name: create
+ * Description  : This function is called when the object is created. It
+ *                resets the euid of this object.
+ */

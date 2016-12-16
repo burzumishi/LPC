@@ -1,0 +1,7 @@
+507:/lib/library.c (/lib/library.c)
+(public void) library_write_abort_hook()
+/*
+ * Function name: library_write_abort_hook
+ * Description:   Redefine this to alter the message given when the
+ *                user aborts writing a book
+ */

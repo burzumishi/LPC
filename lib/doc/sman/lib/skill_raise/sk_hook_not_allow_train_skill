@@ -1,0 +1,9 @@
+704:/lib/skill_raise.c (/lib/skill_raise.c)
+(public varargs int) sk_hook_not_allow_train_skill(string skill)
+/*
+ * Function name: sk_hook_not_allow_train_skill
+ * Description:   Message to print if you are not allowed to train
+ *                a particular skill
+ * Arguments:     skill  -- the skill we can't train (optional)
+ * Returns:       string -- fail message
+ */

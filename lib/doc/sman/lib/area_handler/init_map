@@ -1,0 +1,7 @@
+84:/lib/area_handler.c (/lib/area_handler.c)
+(static nomask int) init_map()
+/*
+ * init_map
+ *
+ * Initialize the map from the Mapfile.
+ */

@@ -1,0 +1,7 @@
+1535:/std/living/savevars.c (/std/living.c)
+(static void) set_soaked(int i)
+/*
+ * Function name:   set_soaked
+ * Description:     Set the level of soakedness of a living
+ * Arguments:       i: The level of soakedness
+ */

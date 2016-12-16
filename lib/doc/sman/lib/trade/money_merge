@@ -1,0 +1,8 @@
+369:/lib/trade.c (/lib/trade.c)
+(int) money_merge(int *arr)
+/*
+ * Function name: money_merge
+ * Description:   Calculates the worth of an array of coins in cc.
+ * Arguments:     arr - the array to calculate
+ * Returns:       Sum in cc.
+ */

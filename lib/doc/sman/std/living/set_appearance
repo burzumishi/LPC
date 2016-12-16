@@ -1,0 +1,7 @@
+1390:/std/living/savevars.c (/std/living.c)
+(public void) set_appearance(int a)
+/*
+ * Function name:   set_appearance
+ * Description:     Set the appearance variable
+ * Arguments:       a: The new value
+ */

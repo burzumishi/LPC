@@ -1,0 +1,10 @@
+35:/obj/know_me.c (/obj/know_me.c)
+(void) enter_env(object inv, object from)
+/*
+ * Function name: enter_env
+ * Description  : This function is called whenever this object enters a new
+ *                environment. We add the LIVE_I_ALWAYSKNOWN property to
+ *                the environment if the environment is a wizard.
+ * Arguments    : object inv  - the environment this object is entering.
+ *                object from - the possible place this object came from.
+ */

@@ -1,0 +1,8 @@
+122:/d/Genesis/newmagic/hooks.c (/d/Genesis/newmagic/hooks.c)
+(public void) hook_changed_env()
+/*
+ * Function name: hook_changed_env
+ * Description:   Return the string that will be printed to the caster when
+ *                he or she has moved rooms while preparing the spell.
+ * Returns:       The message to print.
+ */

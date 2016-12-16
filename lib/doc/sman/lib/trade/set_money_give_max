@@ -1,0 +1,7 @@
+220:/lib/trade.c (/lib/trade.c)
+(void) set_money_give_max(mixed m)
+/*
+ * Function name: set_money_give_max
+ * Description:   Set the maximum value this trade will hand out
+ * Arguments:     m - The value (integer or mixed)
+ */

@@ -1,0 +1,8 @@
+38:/std/projectile.c (/std/projectile.c)
+(public nomask void) create_heap()
+/*
+ * Function name: create_heap
+ * Description  : Constructor. This sets some internal state of the projectile
+ *                Mask create_projectile instead if you want to create a 
+ *                projectile.
+ */

@@ -1,0 +1,12 @@
+843:/std/launch_weapon.c (/std/launch_weapon.c)
+(private nomask int ) setup_sane(string action, string args)
+/*
+ * Function name: setup_sane
+ * Description  : Verifies that the archer and his environment are suited
+ *                for aiming or shooting.
+ *
+ * Arguments    : action (string) - Action the archer performs.
+ *              : args (string)   - Arguments the archer supplies.
+ *                
+ * Returns      : 1 - Setup is sane. 0 - Setup fishy.
+ */

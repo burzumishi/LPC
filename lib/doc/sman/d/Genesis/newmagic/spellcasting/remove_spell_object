@@ -1,0 +1,8 @@
+188:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public void) remove_spell_object(object ob)
+/*
+ * Function name: remove_spell_object
+ * Description:   Call this to remove the spells definied by this object from
+ *                a living
+ * Arguments:     object ob - the living from whom the spells are to be removed
+ */

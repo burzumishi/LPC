@@ -1,0 +1,8 @@
+176:/std/living/stats.c (/std/living.c)
+(void) expire_tmp_stat(int stat, int value)
+/*
+ * Function name: expire_tmp_stat()
+ * Description  : Remove tmp_stat information as it times out.
+ * Arguments    : int stat  - the stat that expires
+ *                int value - the value to subtract.
+ */

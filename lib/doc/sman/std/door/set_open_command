@@ -1,0 +1,6 @@
+980:/std/door.c (/std/door.c)
+(void) set_open_command(mixed command)
+/*
+ * Function name: set_open_command
+ * Description:   Set command to open the door
+ */

@@ -1,0 +1,13 @@
+118:/std/guild/guild_craft_sh.c (/std/guild/guild_craft_sh.c)
+(public string) query_guild_title_craft()
+/*
+ * Function name: query_guild_title_craft
+ * Description  : This function should return the craft title off
+ *                the player. Since this function is not called for wizards
+ *                you do not have to distinct for them in this function.
+ * Returns      : string - the title for the player.
+ *                The title will be incorporated in the format
+ *                "the <race title>, <occ title>, <lay title> and 
+ *                 <craft title>" if the player is a member of all 
+ *	          major guild types.
+ */

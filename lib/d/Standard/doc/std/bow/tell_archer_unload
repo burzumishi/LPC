@@ -1,0 +1,11 @@
+446:/std/bow.c (/std/bow.c)
+(public void) tell_archer_unload(object archer, object target, object projectile)
+/*
+ * Function name: tell_archer_unload
+ * Description  : Produces messages to the wielder when he unloads his
+ *                launch_weapon. This function is meant to be overridden
+ *                by launch_weapon implementations.
+ *                
+ * Arguments    : archer:      The archer unloading a projectile.
+ *                projectile:  The projectile he unloads.
+ */

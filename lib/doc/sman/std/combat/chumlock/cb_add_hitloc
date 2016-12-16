@@ -1,0 +1,5 @@
+53:/std/combat/chumlock.c (/std/combat/chumlock.c)
+(public nomask int) cb_add_hitloc(int *ac, int prchit, string desc, int id)
+/*
+ * Description:   Add a hitlocation to the hitloc array
+ */

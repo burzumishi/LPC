@@ -1,0 +1,7 @@
+647:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) query_login_time()
+/*
+ * Function name:   query_login_time
+ * Description:     Gives back the login-time.
+ * Returns:         The login-time.
+ */

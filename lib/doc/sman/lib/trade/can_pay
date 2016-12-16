@@ -1,0 +1,9 @@
+444:/lib/trade.c (/lib/trade.c)
+(int) can_pay(int price, object ob)
+/*
+ * Function name: can_pay
+ * Description:   check if ob can pay the price
+ * Arguments:     price - the price to pay
+ *                ob - the object who should pay
+ * Returns:       1 - can pay, 0 - can't
+ */

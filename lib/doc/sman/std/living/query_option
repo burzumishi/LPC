@@ -1,0 +1,8 @@
+302:/std/living.c (/std/living.c)
+(int) query_option(int opt)
+/*
+ * Function name: query_option
+ * Description  : Livings by default have no options.
+ * Arguments    : int opt - the option to query.
+ * Returns      : int - 0
+ */

@@ -1,0 +1,8 @@
+280:/secure/master/player.c (/secure/master.c)
+(static void) remove_player_seconds(string pname)
+/*
+ * Function name: remove_player_seconds
+ * Description  : Remove a player from the seconds administration. Generally
+ *                this is done when the player is deleted.
+ * Arguments    : string pname - the name of the player.
+ */

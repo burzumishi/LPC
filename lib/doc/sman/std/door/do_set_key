@@ -1,0 +1,6 @@
+1280:/std/door.c (/std/door.c)
+(void) do_set_key(mixed keyval)
+/*
+ * Function name: do_set_key
+ * Description:   Called from the other side
+ */

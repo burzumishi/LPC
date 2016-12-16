@@ -1,0 +1,8 @@
+45:/std/room/terrain.c (/std/room.c)
+(void) set_terrain(int terrain)
+/*
+ * Function name: set_terrain
+ * Description  : Set the terrain proerties for the room. This is
+ *                normally called from create_room()
+ * Arguments    : int terrain - the terrain value to set (see /sys/terrain.h)
+ */

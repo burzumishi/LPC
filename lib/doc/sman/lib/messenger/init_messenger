@@ -1,0 +1,7 @@
+122:/lib/messenger.c (/lib/messenger.c)
+(public nomask void ) init_messenger()
+/*
+ * Function:    init_messenger
+ * Description: This nomask function defines the defaults for the messenger.
+ *              Define any overrides in create_messenger.
+ */

@@ -1,0 +1,7 @@
+624:/std/weapon.c (/std/weapon.c)
+(int *) query_slots()
+/*
+ * Function name: query_slots
+ * Description  : Find out the tool slot(s) that the weapon occupies now.
+ * Returns      : int * - the tool slots.
+ */

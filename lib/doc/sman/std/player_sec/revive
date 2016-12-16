@@ -1,0 +1,7 @@
+1054:/std/player_sec.c (/std/player_sec.c)
+(nomask public void) revive()
+/*
+ * Function name: revive
+ * Description  : When a player revives from linkdeath, this function is
+ *                called.
+ */

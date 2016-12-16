@@ -1,0 +1,8 @@
+101:/secure/master/notify.c (/secure/master.c)
+(static void) display_player_graph(int type)
+/*
+ * Function name: display_player_graph
+ * Description  : This function can be used to display a graph about the
+ *                number of players in the game.
+ * Arguments    : int type - the type to display.
+ */

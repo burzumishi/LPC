@@ -1,0 +1,10 @@
+53:/secure/mail_checker.c (/secure/mail_checker.c)
+(nomask int) query_mail(mixed player = this_player()
+/*
+ * Function name: query_mail
+ * Description  : This function is actually used to check whether there
+ *                is mail for the player.
+ * Arguments    : mixed player - optional player, either the objectpointer,
+ *                               or his name. If omitted: use this_player().
+ * Returns      : int - 0/1/2/3 - for details, see the file-header.
+ */

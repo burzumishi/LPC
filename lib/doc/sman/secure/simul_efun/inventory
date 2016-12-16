@@ -1,0 +1,11 @@
+216:/secure/simul_efun.c (/secure/simul_efun.c)
+(varargs nomask object) inventory(mixed ob, mixed num)
+/*
+ * Function name: inventory
+ * Description:   Returns a specified item in the inventory of an object
+ * Arguments:     mixed ob  - the object from which to get the item
+ *                mixed num - The item to select.  This should be an
+ *                            integer which is used as the index to
+ *                            the array returned by all_inventory(ob)
+ * Returns:       object -    the 'num'-th item in the object's inventory
+ */

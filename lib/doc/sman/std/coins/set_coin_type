@@ -1,0 +1,8 @@
+198:/std/coins.c (/std/coins.c)
+(public void  ) set_coin_type(string str)
+/*
+ * Function name: set_coin_type
+ * Description  : Set the type of coins we have here. Update all necessary
+ *                properties with respect to the coins.
+ * Arguments    : string str - the coin type to set.
+ */

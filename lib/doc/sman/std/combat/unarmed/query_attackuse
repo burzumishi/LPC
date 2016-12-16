@@ -1,0 +1,6 @@
+95:/std/combat/unarmed.c (/std/combat/unarmed.c)
+(public int public int) query_attackuse()
+/*
+ * Description: Give the %attacks used each turn. 100% is one attack / turn
+ * Returns:     %attack used
+ */

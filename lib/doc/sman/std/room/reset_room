@@ -1,0 +1,9 @@
+77:/std/room.c (/std/room.c)
+(void) reset_room()
+/*
+ * Function name: reset_room
+ * Description  : This function should be redefined to make the room reset
+ *                every half hour or so. If you redefine it, you do not have
+ *                to call enable_reset() since we call it as part of our
+ *                service ;-) Note that this service is only valid for rooms.
+ */

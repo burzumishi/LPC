@@ -1,0 +1,6 @@
+143:/std/player/death_sec.c (/std/player_sec.c)
+(static void) make_scar()
+/*
+ * Function name:   make_scar
+ * Description:     Add a random scar to a person.
+ */

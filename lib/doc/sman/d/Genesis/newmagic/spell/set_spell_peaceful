@@ -1,0 +1,7 @@
+503:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_peaceful(int i)
+/*
+ * Function name: set_spell_peaceful
+ * Description:   Indicate that the spell cannot be cast in combat.
+ * Arguments:     1. (int) If true, spell cannot be cast in combat.
+ */

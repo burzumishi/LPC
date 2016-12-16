@@ -1,0 +1,7 @@
+176:/std/player/savevars_sec.c (/std/player_sec.c)
+(public void) remove_adj(string str)
+/*
+ * Function name:   remove_adj
+ * Description:     'go through function' for removing the adjectives.
+ * Arguments:       str: The adjective string to remove.
+ */

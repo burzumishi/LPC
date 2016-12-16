@@ -1,0 +1,9 @@
+775:/std/weapon.c (/std/weapon.c)
+(void) set_likely_corr(int i)
+/*
+ * Function name: set_likely_corr
+ * Description:   Set how likely it is this weapon will corrode when in acid 
+ *                or something like that. 0 means it won't corrode at all.
+ * Arguments:     i - how likely it will corrode, probably corrode if random(i)
+ *                    [0, 20] recommended
+ */

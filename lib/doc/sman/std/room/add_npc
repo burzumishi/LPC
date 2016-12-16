@@ -1,0 +1,12 @@
+105:/std/room/objects.c (/std/room.c)
+(varargs void) add_npc(string file, int count = 1, function init_call = 0)
+/*
+ * Function Name: add_npc
+ * Description  : Clone a npc to the room and reset it automatically
+ *                when it has been killed.
+ * Arguments    : string file - the file to clone
+ *                int count   - how many of this item.
+ *                function init - (optional) If you want a function to be
+ *                                called in the npc add it here. example
+ *                                &->arm_me() to have arm_me called.
+ */

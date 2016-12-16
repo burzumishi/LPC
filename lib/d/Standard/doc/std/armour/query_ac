@@ -1,0 +1,6 @@
+258:/std/armour.c (/std/armour.c)
+(varargs int) query_ac(int hid)
+/*
+ * Description: Give the ac for a specific hitlocation that is protected
+ * Arguments:   hid: Hitlocation id
+ */

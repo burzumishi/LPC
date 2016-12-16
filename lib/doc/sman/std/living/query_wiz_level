@@ -1,0 +1,18 @@
+227:/std/living/savevars.c (/std/living.c)
+(public int) query_wiz_level()
+/*
+ * Function name: query_wiz_level
+ * Description  : Gives the wizard level of the living. This function is
+ *                kept here since there are various calls to it from the
+ *                living object. The real function is moved to the player
+ *                object.
+ *
+ *                WARNING! This function is NOT nomasked! People can
+ *                redefine this and make themselves appear to be a wizard.
+ *                In case you need to be certain of the level of the person,
+ *                call the following function.
+ *
+ *                SECURITY->query_wiz_rank(string name);
+ *
+ * Returns      : int - always 0.
+ */

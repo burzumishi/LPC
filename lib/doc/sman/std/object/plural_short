@@ -1,0 +1,13 @@
+469:/std/object.c (/std/object.c)
+(public varargs string) plural_short(object for_obj)
+/*
+ * Function name: plural_short
+ * Description  : Give the plural short description of this object. If a
+ *                plural short has been set with set_pshort, VBFC will be
+ *                applied on it. If the object does not have a plural
+ *                short set with set_pshort, it will always return 0. The
+ *                gamedriver will then compute the plural shor.
+ * Arguments    : object for_obj - the object that wants to know the plural
+ *                                 short.
+ * Returns      : string - the plural short description.
+ */

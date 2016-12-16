@@ -1,0 +1,11 @@
+1539:/lib/library.c (/lib/library.c)
+(public int) done_writing(string title, string summary, string input)
+/*
+ * Function name: done_writing
+ * Description:   Catch input from the user to be used as the new
+ *                book's text and add the new book to the library
+ * Arguments:     string title   - the book's title
+ *                string summary - the book's summary
+ *                string input   - the book's text
+ * Returns:       1/0 - text set/not set
+ */

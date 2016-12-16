@@ -1,0 +1,7 @@
+415:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) query_age()
+/*
+ * Function name:   query_age
+ * Description:     Gives the age of the living in heart_beats.
+ * Returns:         The age.
+ */

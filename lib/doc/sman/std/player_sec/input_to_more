@@ -1,0 +1,14 @@
+59:/std/player/more.c (/std/player_sec.c)
+(static nomask void) input_to_more(string answer, string *lines, string filename, 	      function ret_func, int first, int lineno)
+/*
+ * Function name: input_to_more
+ * Description  : After the some part of the text has been printed, the
+ *                next command of the player is fed into this function.
+ *                It controls what the player wants to read next.
+ * Arguments    : string answer     - the command by the player.
+ *                string *lines     - the lines of the text (if in text).
+ *                string filename   - the file to print (if any).
+ *                function ret_func - the function to return to (if any).
+ *                int first         - the first line to print.
+ *                int lineno        - the last line printed.
+ */

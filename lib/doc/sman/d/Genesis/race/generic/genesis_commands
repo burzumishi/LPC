@@ -1,0 +1,6 @@
+49:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(static void ) genesis_commands()
+/*
+ * Function name: In this function you can do the add_actions for Genesis
+ *                specific commands.
+ */

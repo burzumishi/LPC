@@ -1,0 +1,7 @@
+2065:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description:	  Disallows shadowing of this object.
+ * Returns:	  int 1 - always.
+ */

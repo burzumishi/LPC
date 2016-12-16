@@ -1,0 +1,6 @@
+172:/std/living.c (/std/living.c)
+(public void) encounter(object obj)
+/*
+ * Function name: encounter
+ * Description:   Called when encountering an object
+ */

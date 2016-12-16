@@ -1,0 +1,11 @@
+452:/std/launch_weapon.c (/std/launch_weapon.c)
+(private nomask int) parse_aim(string args)
+/*
+ * Function name: parse_aim
+ * Description  : Parses the user input for the aim and shoot commands.
+ *                
+ * Arguments    : string args - User input.
+ * Returns      :  1  - Successful parse.
+ *                 0  - No match.
+ *                -1  - Faulty input.
+ */

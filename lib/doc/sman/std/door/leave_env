@@ -1,0 +1,8 @@
+1532:/std/door.c (/std/door.c)
+(void) leave_env(object old, object dest)
+/*
+ * Function name: leave_env
+ * Description:   The door leaves a room, remove it.
+ * Arguments:     old - Where it came from,
+ * 		  dest - The destination room
+ */

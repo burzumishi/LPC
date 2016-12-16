@@ -1,0 +1,8 @@
+1082:/lib/library.c (/lib/library.c)
+(public int) library_borrow_access()
+/*
+ * Function name: library_borrow_access
+ * Description:   Redefine this function to limit permission to borrow books
+ * Returns:       1 - this_player() is permitted to borrow a book
+ *                0 - this_player() is not permitted to borrow a book
+ */

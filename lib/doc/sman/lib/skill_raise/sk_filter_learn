@@ -1,0 +1,9 @@
+720:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_filter_learn(int sk, int steps)
+/*
+ * Function name: sk_filter_learn
+ * Description:   Filter out what skills this player can learn
+ * Arguments:     sk    - The skill
+ *                steps - The number of steps play wants to learn
+ * Returns:       1 if play can learn skill
+ */

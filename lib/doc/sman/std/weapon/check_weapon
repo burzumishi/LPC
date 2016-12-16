@@ -1,0 +1,7 @@
+1078:/std/weapon.c (/std/weapon.c)
+(nomask int) check_weapon()
+/*
+ * Function name: check_weapon
+ * Description  : Check file for security.
+ * Returns      : int 1 - always.
+ */

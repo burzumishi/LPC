@@ -1,0 +1,7 @@
+130:/std/corpse.c (/std/corpse.c)
+(string) query_real_name()
+/*
+ * Function name: query_real_name
+ * Description  : Returns the lower case name of this corpse.
+ * Returns      : string - the lower case met name.
+ */

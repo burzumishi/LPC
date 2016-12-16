@@ -1,0 +1,9 @@
+133:/std/armour.c (/std/armour.c)
+(nomask void) reset_object()
+/*
+ * Function name: reset_object
+ * Description  : At a regular interval this function will be called. All
+ *                it does is call reset_armour. For further details see
+ *                that function. As this function is declared nomask, you
+ *                may not redefine it.
+ */

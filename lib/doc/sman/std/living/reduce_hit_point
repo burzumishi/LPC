@@ -1,0 +1,7 @@
+547:/std/living/savevars.c (/std/living.c)
+(public int) reduce_hit_point(int dam)
+/*
+ * Function name:   reduce_hit_point
+ * Description:     Reduce the number of hitpoints with a few.
+ * Arguments:       dam: The number of damage hitpoints.
+ */

@@ -1,0 +1,6 @@
+52:/std/rope.c (/std/rope.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description:   Create the object
+ */

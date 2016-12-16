@@ -1,0 +1,16 @@
+149:/std/act/asking.c (/std/act/asking.c)
+(public varargs void) set_default_answer(mixed answer, int cmd = 0)
+/*
+ * Function name: set_default_answer
+ * Description:   Set the default answer you want your creature to say if he
+ * 		  cannot identify the question. The default answer will be
+ *                echoed to the player, unless the cmd flag is set.
+ *                When using VBFC for the default answer, this function should
+ *                return the type string. If the NPC performed a command as
+ *                default answer, the string "" should be returned.
+ *		  NOTE that no reaction will come if a player asks a question
+ * 		  to this mobile that we have no answer set for if this default
+ *		  is not set.
+ * Argument:	  mixed answer - The default answer, VBFC is allowed.
+ *		  int cmd  - if true, the answer is executed as command.
+ */

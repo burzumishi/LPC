@@ -1,0 +1,17 @@
+154:/std/room/link.c (/std/room.c)
+(varargs public object) link_room(string lfile, mixed dest, int pos)
+/*
+ * Function name: link_room
+ * Description:   Create a corridor room. Set the descriptions of it.
+ *                Does not add exits. This is supposed to be replaced by 
+ *                the actual room inheriting this standard room. It is supposed
+ *                to set proper descriptions (long and short) instead of
+ *                copying the endpoint description. Corridor rooms are
+ *		  created when the delay value in the third parameter to
+ *		  add_exit() is a negative integer. Length of corridor is
+ *		  the absolute value of the delay parameter.
+ * Arguments:	  lfile: Suggested filename to clone to get a corridor room.
+ *                dest:  The other endpoint of the corridor.
+ *		  pos:   The position away from this startpoint
+ * Returns:       Objectpointer of the cloned room.
+ */

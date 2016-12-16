@@ -1,0 +1,16 @@
+977:/secure/master.c (/secure/master.c)
+(varargs int) valid_debug(object ob, string cmd, mixed arg1, mixed arg2, mixed arg3)
+/*
+ * Function name: valid_debug
+ * Description  : This function is called to see whether the object is allowed
+ *                to call the efun debug() if the object is anything but this
+ *                object SECURITY. Since we don't want other objects to call
+ *                debug other than via SECURITY->do_debug(), we disallow it
+ *                for all.
+ * Arguments    : object ob - the object calling valid_debug
+ *                string cmd - the debug command.
+ *                mixed arg1 - the argument 1 to debug.
+ *                mixed arg2 - the argument 2 to debug.
+ *                mixed arg3 - the argument 3 to debug.
+ * Returns      : int 1/0 - allowed/ disallowed.
+ */

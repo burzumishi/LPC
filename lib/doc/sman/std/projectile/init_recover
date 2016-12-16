@@ -1,0 +1,7 @@
+421:/std/projectile.c (/std/projectile.c)
+(void) init_recover(string arg)
+/*
+ * Function name: init_recover
+ * Description  : Initiates the broken status of a projectile.
+ *
+ */

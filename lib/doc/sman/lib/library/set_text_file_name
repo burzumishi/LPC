@@ -1,0 +1,7 @@
+137:/lib/library.c (/lib/library.c)
+(public void) set_text_file_name(string name)
+/*
+ * Function name: set_text_file_name
+ * Description:   Set the prefix for the filenames of the books.
+ * Arguments:     string name - the filename prefix
+ */

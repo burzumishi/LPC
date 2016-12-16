@@ -1,0 +1,8 @@
+93:/std/drink.c (/std/drink.c)
+(void void) set_short(mixed new_short)
+/*
+ * Function name: set_short
+ * Description  : When the short is set/changed, also make sure that we do set
+ *                the unique identifier for the heap.
+ * Arguments    : mixed new_short - the short description.
+ */

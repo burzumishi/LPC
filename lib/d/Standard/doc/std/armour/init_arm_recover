@@ -1,0 +1,7 @@
+870:/std/armour.c (/std/armour.c)
+(void) init_arm_recover(string arg)
+/*
+ * Function name: init_arm_recover
+ * Description:   Initialize the armour variables at recover.
+ * Arguments:     arg - The recover string as recieved from query_arm_recover()
+ */

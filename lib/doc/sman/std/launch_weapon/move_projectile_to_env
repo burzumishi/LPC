@@ -1,0 +1,9 @@
+2110:/std/launch_weapon.c (/std/launch_weapon.c)
+(public void) move_projectile_to_env(object location, object projectile)
+/*
+ * Function name: move_projectile_to_env
+ * Description  : Moves and hides a projectile at the specified location.
+ *
+ * Arguments    : location:   The new location of the projectile.
+ *                projectile: Projectile to hide.
+ */

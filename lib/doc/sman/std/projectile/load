@@ -1,0 +1,7 @@
+85:/std/projectile.c (/std/projectile.c)
+(public nomask void) load()
+/*
+ * Function name: load
+ * Description  : This function marks this projectile as loaded and hides it
+ *                from the player shooting it.
+ */

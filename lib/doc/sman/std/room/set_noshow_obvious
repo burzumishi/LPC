@@ -1,0 +1,10 @@
+87:/std/room/exits.c (/std/room.c)
+(public void) set_noshow_obvious(int obv)
+/*
+ * Function name: set_noshow_obvious
+ * Description  : With this function you can set that all exits in this room
+ *                are non-obvious. The fifth argument of add_exit() should
+ *                only be used if there are also obvious exits. Using this
+ *                is quicker when dealing with all exits.
+ * Arguments    : int obv - 1/0 - if true then all exits are hidden.
+ */

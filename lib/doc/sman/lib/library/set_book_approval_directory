@@ -1,0 +1,8 @@
+112:/lib/library.c (/lib/library.c)
+(public void) set_book_approval_directory(string dir)
+/*
+ * Function name: set_book_approval_directory
+ * Description:   Set the directory where unapproved books will be stored.
+ *                If this is not set, new books will not need approval.
+ * Arguments:     string dir - the directory name with trailing slash.
+ */

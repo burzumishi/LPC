@@ -1,0 +1,8 @@
+185:/std/container.c (/std/container.c)
+(public nomask int) weight()
+/*
+ * Function name: weight
+ * Description:   Returns the accumulated weight of the container.
+ *                This function is called from query_prop() only.
+ * Returns:       Weight value
+ */

@@ -1,0 +1,6 @@
+39:/std/player_pub.c (/std/player_pub.c)
+(void) death_sequence()
+/*
+ * Function name: death_sequence
+ * Description:   Defines what happens to the player after death
+ */

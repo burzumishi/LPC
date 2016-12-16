@@ -1,0 +1,8 @@
+348:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_mana_fail(int proc)
+/*
+ * Function name: set_spell_mana_fail
+ * Description:   Set the % value of how much mana that should be
+ *                reduced when the spell fails.
+ * Arguments:     1. (int) The % value.
+ */

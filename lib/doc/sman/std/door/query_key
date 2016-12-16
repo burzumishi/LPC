@@ -1,0 +1,6 @@
+1291:/std/door.c (/std/door.c)
+(mixed) query_key()
+/*
+ * Function name: query_key
+ * Description:   Query what key that fits.
+ */

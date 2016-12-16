@@ -1,0 +1,8 @@
+1096:/std/receptacle.c (/std/receptacle.c)
+(public nomask void) init_container_recover(string arg)
+/*
+ * Function name: init_container_recover
+ * Description  : Initialize the container to the status it had before the
+ *                reboot.
+ * Arguments    : arg - the total recover string
+ */

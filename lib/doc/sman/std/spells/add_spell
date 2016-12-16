@@ -1,0 +1,10 @@
+76:/std/spells.c (/std/spells.c)
+(nomask void) add_spell(string verb, string func, string name)
+/*
+ * Function name: add_spell
+ * Description:   Add the spell to the list of active spells.
+ * Arguments:	  verb - The activating verb string
+ *		  function - The function to call
+ *		  name - The name of the spell (to be displayed in
+ *			 the player spell list).
+ */

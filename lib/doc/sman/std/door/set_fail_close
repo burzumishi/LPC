@@ -1,0 +1,6 @@
+1073:/std/door.c (/std/door.c)
+(void) set_fail_close(string mess)
+/*
+ * Function name: set_fail_close
+ * Description:   Set message when we fail to close the door
+ */

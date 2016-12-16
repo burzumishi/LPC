@@ -1,0 +1,14 @@
+112:/std/domain_link.c (/std/domain_link.c)
+(public void) armageddon(int level)
+/*
+ * Function name: armageddon
+ * Description  : This function is called from SECURITY when it is time to
+ *                close down the game. Note that this function should only
+ *                be used for some basic domain administration as all domains
+ *                should be processed in one run.
+ * Arguments    : int level - the status of Armageddon, see the definitions
+ *                     in <const.h>.
+ *                ARMAGEDDON_ANNOUNCE - Armageddon wakes up and announces.
+ *                ARMAGEDDON_CANCEL   - No shut down after all.
+ *                ARMAGEDDON_SHUTDOWN - Game shuts down NOW.
+ */

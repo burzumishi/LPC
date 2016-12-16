@@ -1,0 +1,7 @@
+584:/std/object.c (/std/object.c)
+(public void) remove_prop(string prop)
+/*
+ * Function name: remove_prop
+ * Description:   Removes a property string from the property list.
+ * Arguments:     prop - The property string to be removed.
+ */

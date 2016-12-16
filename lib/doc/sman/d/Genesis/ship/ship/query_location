@@ -1,0 +1,7 @@
+813:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public int) query_location()
+/*
+ * Function name: query_location
+ * Description	: get the ship's current location
+ * Returns	: The current location number of the ship
+ */

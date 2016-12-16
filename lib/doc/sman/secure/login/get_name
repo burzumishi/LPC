@@ -1,0 +1,9 @@
+634:/secure/login.c (/secure/login.c)
+(static void) get_name(string str)
+/*
+ * Function name: get_name
+ * Description  : At login time, this function is called with the name the
+ *                player intends to use. Some checks are made and when it
+ *                is all correct, the player may login.
+ * Arguments    : string str - the name the player wants to use.
+ */

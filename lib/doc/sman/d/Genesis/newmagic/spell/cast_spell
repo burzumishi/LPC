@@ -1,0 +1,12 @@
+889:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(nomask public mixed) cast_spell(object caster, object *targets, string arg)
+/*
+ * Function name: cast_spell
+ * Description:   This function handles the actual casting of the spell.
+ * Arguments:     1. (object)   the caster
+ *                2. (object *) the targets
+ *                3. (string)   arguments to spell invocation
+ * Returns:       1 - casting success
+ *                0 - casting failure, default fail message
+ *                string - casting failure, use string for fail message
+ */

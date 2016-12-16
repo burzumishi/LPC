@@ -1,0 +1,8 @@
+1991:/std/combat/cbase.c (/std/combat/cbase.c)
+(public nomask void) cb_attacked_by(object ob)
+/*
+ * Function name:  cb_attacked_by
+ * Description:    This routine is called when we are attacked or when 
+ *                 someone we are hunting appears in our location.
+ * Arguments:      ob: The attacker
+ */

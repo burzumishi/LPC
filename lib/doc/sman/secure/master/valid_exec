@@ -1,0 +1,12 @@
+1824:/secure/master.c (/secure/master.c)
+(int) valid_exec(string name, object to, object from)
+/*
+ * Function name: valid_exec
+ * Description:   Checks if a certain 'program' has the right to use exec()
+ * Arguments:     name: Name of the 'program' that attempts to use exec()
+ *                      Note that this is different from file_name(),
+ *                      The program name is what calling_program returns.
+ *                to:   destination of socket
+ *                from: target of the socket
+ * Returns:       True if exec() is allowed.
+ */

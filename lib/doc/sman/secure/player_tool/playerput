@@ -1,0 +1,10 @@
+444:/secure/player_tool.c (/secure/player_tool.c)
+(nomask static int) playerput(string str)
+/*
+ * Function name: playerput
+ * Description  : This function can be used to transfer/copy a playerfile
+ *                from the private directory of a wizard to the secure
+ *                directory for the playerfiles.
+ * Arguments    : string str - the name of the player whose file to copy.
+ * Returns      : int 1/0 - success/failure.
+ */

@@ -1,0 +1,11 @@
+403:/lib/commands.c (/lib/commands.c)
+(public int) cmd_access(object ob, object for_obj, int cmd_attr)
+/*
+ * Functon name: cmd_access
+ * Description:  See if a command is blocked for a particular target.
+ * Arguments:    object ob      - the command target
+ *               object for_obj - the actor
+ *               int cmd_attr  - the command's attributes (from cmdparse.h)
+ * Returns:      1 - command not blocked
+ *               0 - command blocked
+ */

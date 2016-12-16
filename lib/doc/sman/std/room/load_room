@@ -1,0 +1,9 @@
+10:/std/room/move.c (/std/room.c)
+(object) load_room(int index)
+/*
+ * Function name: load_room
+ * Description  : Finds a room object for a given array index.
+ * Arguments    : int index - of the file name entry in the room_exits array.
+ * Returns      : object - pointer to the room corresponding to the argument
+ *                         or 0 if not found.
+ */

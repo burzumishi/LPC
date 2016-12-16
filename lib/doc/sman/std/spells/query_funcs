@@ -1,0 +1,6 @@
+184:/std/spells.c (/std/spells.c)
+(string *) query_funcs()
+/*
+ * Function name: query_funcs
+ * Description:   Not used by command_driver, do we need it?
+ */ 

@@ -1,0 +1,8 @@
+538:/std/container.c (/std/container.c)
+(public int) visible(object ob)
+/*
+ * Function name: visible
+ * Description:   Determine if an item is visible within a container
+ * Arguments:     object ob - The item to test
+ * Returns:       1/0 - item is visibie/not visible
+ */

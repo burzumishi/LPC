@@ -1,0 +1,8 @@
+569:/lib/messenger.c (/lib/messenger.c)
+(public int) query_number_of_uses()
+/*
+ * Function:    query_number_of_uses
+ * Description: Returns the number of times that a messenger
+ *              can be used before it returns home.
+ * Returns:     int 0 if unlimited. Else number of times to be used.
+ */

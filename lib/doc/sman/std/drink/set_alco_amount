@@ -1,0 +1,7 @@
+143:/std/drink.c (/std/drink.c)
+(public void) set_alco_amount(int a)
+/*
+ * Function name: set_alco_amount
+ * Description  : Sets the amount of alcohol in the drink.
+ * Arguments    : int a - the amount of alcohol.
+ */

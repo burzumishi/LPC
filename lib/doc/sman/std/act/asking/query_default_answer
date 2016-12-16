@@ -1,0 +1,8 @@
+170:/std/act/asking.c (/std/act/asking.c)
+(public mixed) query_default_answer()
+/*
+ * Function name: query_default_answer
+ * Description:   Query the setting of the default answer as it was set. The
+ *                possible VBFC is not resolved.
+ * Returns:	  mixed - the default answer.
+ */

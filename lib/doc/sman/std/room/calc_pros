@@ -1,0 +1,8 @@
+249:/std/room/description.c (/std/room.c)
+(int) calc_pros(object player)
+/*
+ * Function name: calc_pros
+ * Description:   Finding formula, positive side effects
+ * Arguments:     player - The herbalist
+ * Returns:       A number
+ */

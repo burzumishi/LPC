@@ -1,0 +1,9 @@
+717:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_deliver_message_success(object receiver)
+/*
+ * Function:    hook_deliver_message_success
+ * Description: Hook that gets called to display the message of the
+ *              messenger successfully delivering the message to the
+ *              recipient.
+ * Arguments:   object receiver - the person receiving the message
+ */

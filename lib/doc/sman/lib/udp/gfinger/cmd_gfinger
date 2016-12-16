@@ -1,0 +1,8 @@
+208:/lib/udp/gfinger.c (/lib/udp/gfinger.c)
+(public int) cmd_gfinger(string str)
+/*
+ * Function name: cmd_gfinger
+ * Description:   Called from some soul to make a gfinger
+ * Argument:	  str: The string typed by the wizard
+ * Returns:	  1 if success
+ */

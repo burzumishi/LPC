@@ -1,0 +1,8 @@
+91:/std/guild/guild_occ_sh.c (/std/guild/guild_occ_sh.c)
+(public string) query_guild_style_occ()
+/*
+ * Function name: query_guild_style_occ
+ * Description:   What styles is this guild? fighter, magic, cleric or thief.
+ *		  You should redefine this function to suite you.
+ * Returns:       string - holding the style of guild
+ */

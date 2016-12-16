@@ -1,0 +1,9 @@
+203:/std/guild/guild_race_sh.c (/std/guild/guild_race_sh.c)
+(public int) query_guild_leader_race()
+/*
+ * Function name: query_guild_leader_race
+ * Description  : Define this function to return true if the person is a
+ *                leader of his/her race guild, in a council-membership
+ *                or something similar.
+ * Returns      : int 1/0 - layman guild leader or not.
+ */

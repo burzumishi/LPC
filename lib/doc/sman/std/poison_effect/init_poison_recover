@@ -1,0 +1,9 @@
+889:/std/poison_effect.c (/std/poison_effect.c)
+(public void) init_poison_recover(string arg)
+/*
+ * Function name: init_posion_recover
+ * Description  : To add more information to the recover string, you should
+ *                mask this function to process that information after you
+ *                have added it with query_poison_recover().
+ * Arguments    : string arg - the extra recover string.
+ */

@@ -1,0 +1,12 @@
+623:/std/combat/cbase.c (/std/combat/cbase.c)
+(public int) cb_try_hit(int aid)
+/*
+ * Function name: cb_try_hit
+ * Description:   Decide if we a certain attack fails because of something
+ *                related to the attack itself, ie specific weapon that only
+ *                works some of the time. This is supposed to be
+ *                replaced by a more intelligent routine in creature and
+ *                humanoid combat. (called from heart_beat)
+ * Arguments:     aid:   The attack id
+ * Returns:       True if hit, otherwise 0.
+ */

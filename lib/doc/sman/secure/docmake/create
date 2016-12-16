@@ -1,0 +1,7 @@
+99:/secure/docmake.c (/secure/docmake.c)
+(void) create()
+/*
+/*
+ * Function name: create
+ * Description:   Initializes this object and resets its status
+ */

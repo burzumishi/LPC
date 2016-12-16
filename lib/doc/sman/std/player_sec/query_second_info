@@ -1,0 +1,8 @@
+1090:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask mixed) query_second_info(string second)
+/*
+ * Function name: query_second_info
+ * Description  : Return the second entry info
+ * Arguments    : string second - the second to query
+ * Returns      : mixed - the second info
+ */

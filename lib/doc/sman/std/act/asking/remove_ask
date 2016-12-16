@@ -1,0 +1,8 @@
+124:/std/act/asking.c (/std/act/asking.c)
+(public int) remove_ask(string question)
+/*
+ * Function name: remove_ask
+ * Description:   Removes one additional answer from the additional item list
+ * Arguments:     string question - question to answer to remove.
+ * Returns:       True or false. (True if removed successfully)
+ */

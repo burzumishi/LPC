@@ -1,0 +1,7 @@
+120:/std/living/width_height.c (/std/living.c)
+(public int) set_random_width_desc()
+/*
+ * Function name: set_random_width_desc
+ * Description  : Call this function to set a random width description to
+ *                the humanoid living.
+ */

@@ -1,0 +1,9 @@
+2049:/std/living/savevars.c (/std/living.c)
+(nomask public int) remove_toolsoul(string soul)
+/*
+ * Function name:   remove_toolsoul
+ * Description:     Remove a tool soul from the list.
+ * Arguments:       soul: De filename of the tool soul to remove
+ * Returns:         1 if successfull,
+ *                  0 otherwise.
+ */

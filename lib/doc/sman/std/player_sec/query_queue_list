@@ -1,0 +1,7 @@
+121:/std/player/querys_sec.c (/std/player_sec.c)
+(public string *) query_queue_list()
+/*
+ * Function name:   query_queue_list
+ * Description:     Return the queue list with player-names.
+ * Returns:         The queue-list
+ */

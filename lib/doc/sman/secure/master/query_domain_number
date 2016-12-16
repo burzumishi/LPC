@@ -1,0 +1,8 @@
+169:/secure/master/fob.c (/secure/master.c)
+(int) query_domain_number(string dname)
+/*
+ * Function name: query_domain_number
+ * Description  : Find the number of a domain.
+ * Arguments    : string dname - the name of the domain.
+ * Returns      : int - the number if found, -1 otherwise.
+ */

@@ -1,0 +1,8 @@
+146:/lib/guild_support.c (/lib/guild_support.c)
+(int) set_prefs()
+/*
+ * Function name: set_prefs
+ * Description  : When the player wants to change the learn preferences, this
+ *                function prompts the player for the new values.
+ * Returns      : int 1 - always.
+ */

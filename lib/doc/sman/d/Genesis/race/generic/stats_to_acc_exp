@@ -1,0 +1,9 @@
+229:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(static nomask void) stats_to_acc_exp()
+/*
+ * Function name: stats_to_acc_exp
+ * Description  : Translates the current base stats into acc_exp and take
+ *                the race modofiers into account. All stats are added to
+ *                the quest experience only. This function is only used
+ *                from the default setup in player_sec::new_init()
+ */

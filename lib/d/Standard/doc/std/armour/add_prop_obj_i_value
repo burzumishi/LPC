@@ -1,0 +1,8 @@
+504:/std/armour.c (/std/armour.c)
+(int) add_prop_obj_i_value(mixed val)
+/*
+ * Function name: add_prop_obj_i_value
+ * Description:   Someone is adding the value prop to this object.
+ * Arguments:     val - The new value (mixed)
+ * Returns:       1 if not to let the val variable through to the prop
+ */

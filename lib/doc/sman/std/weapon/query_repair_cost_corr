@@ -1,0 +1,8 @@
+1016:/std/weapon.c (/std/weapon.c)
+(int) query_repair_cost_corr()
+/*
+ * Function Name: query_repair_cost_corr
+ * Description  : Returns the cost to repair this weapon from one level of
+ *                corrosion
+ * Returns      : int - the cost in cc
+ */ 

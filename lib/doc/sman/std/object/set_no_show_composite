@@ -1,0 +1,8 @@
+1527:/std/object.c (/std/object.c)
+(void) set_no_show_composite(int i)
+/*
+ * Function name: set_no_show_composite
+ * Description:   Don't show this object in composite descriptions, otherwise
+ *                this object is part of the game like any other.
+ * Arguments:     1 - don't show, 0 - show it again
+ */

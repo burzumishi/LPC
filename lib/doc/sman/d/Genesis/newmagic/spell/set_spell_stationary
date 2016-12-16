@@ -1,0 +1,8 @@
+262:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_stationary(int i)
+/*
+ * Function name: set_spell_stationary
+ * Description:   Designate the spell as being stationary (caster may not
+ *                move while concentrating).
+ * Arguments:     1. (int) True if spell is stationary
+ */

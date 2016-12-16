@@ -1,0 +1,12 @@
+89:/std/player/cmd_sec.c (/std/player_sec.c)
+(public nomask int public nomask int) compute_values(object *ob_list)
+/*
+ * Function name:   compute_values
+ * Description:     Recursively compute the values of the given list of
+ *                  objects. If the objects contain objects with a value
+ *                  that value is also taken into account. Only 2/3 of the
+ *		    actual value will be stored. Also, coins aren't included
+ *		    in the value summed up. Don't figure objects that can
+ *		    be recovered into this list.
+ * Arguments:       ob_list: The list of objects to sum up.
+ */

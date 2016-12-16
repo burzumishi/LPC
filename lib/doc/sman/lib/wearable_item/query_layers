@@ -1,0 +1,6 @@
+125:/lib/wearable_item.c (/lib/wearable_item.c)
+(public int) query_layers()
+/*
+ * Function name: query_layers
+ * Returns:       The (int) number of layers for this item
+ */

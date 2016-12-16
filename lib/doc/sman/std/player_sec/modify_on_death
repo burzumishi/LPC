@@ -1,0 +1,7 @@
+65:/std/player/death_sec.c (/std/player_sec.c)
+(static void ) modify_on_death()
+/*
+ * Function name:   modify_on_death
+ * Description:     Modifies some values (e.g. exp, stats and hp) when a
+ *                  player has died.
+ */

@@ -1,0 +1,7 @@
+277:/std/room.c (/std/room.c)
+(string) stat_object()
+/*
+ * Function name: stat_object
+ * Description:   Called when someone tries to stat the room
+ * Returns:	  A string to write
+ */

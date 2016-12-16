@@ -1,0 +1,17 @@
+521:/std/object.c (/std/object.c)
+(public void) add_prop(string prop, mixed val)
+/*
+ * Function name: add_prop
+ * Description:   Add a property to the property list
+ *                If the property already exist, the value is replaced
+ *                If a function "add_prop" + propname is declared or
+ *                is shadowing this_object then that function is called
+ *                prior to the setting of the property. 
+ *                NOTE
+ *                  If the optional function above returns something other
+ *                  than 0. The property will NOT be set.
+ *
+ * Arguments:     prop - The property string to be added.
+ *                val: The value of the property
+ * Returns:       None.
+ */

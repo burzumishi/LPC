@@ -1,0 +1,6 @@
+17:/lib/udp/gwiz.c (/lib/udp/gwiz.c)
+(string *) send_gwizmsg(string wizname, string msg, int emote)
+/*
+ * This can be called from any soul or whatever
+ * Returns: List of muds the message was sent to.
+ */

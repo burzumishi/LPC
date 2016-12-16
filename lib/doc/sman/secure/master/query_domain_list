@@ -1,0 +1,7 @@
+277:/secure/master/fob.c (/secure/master.c)
+(string *) query_domain_list()
+/*
+ * Function name: query_domain_list
+ * Description  : Return a list of all domains.
+ * Returns      : string * - the list.
+ */

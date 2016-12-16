@@ -1,0 +1,12 @@
+37:/sys/global/math.c (/sys/global/math.c)
+(public nomask int) quick_find_exp(int sum)
+/*
+ * Function name: quick_find_exp
+ * Called from  : QUICK_FIND_EXP(sum) in <math.h>
+ * Description  : This function is a quick hack that returns the solution
+ *                to the function 2^x = sum for a rather limited set of
+ *                sum. Accepted values are the powers of 2 ranging from 1
+ *                to 512.
+ * Arguments    : int sum - the sum to find x for.
+ * Returns      : int - the matching x, else 0.
+ */

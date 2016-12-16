@@ -1,0 +1,6 @@
+1204:/std/door.c (/std/door.c)
+(string*) query_fail_lock()
+/*
+ * Function name: query_fail_lock
+ * Description:   Query message when lock fails
+ */

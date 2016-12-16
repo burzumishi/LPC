@@ -1,0 +1,9 @@
+367:/lib/holdable_item.c (/lib/holdable_item.c)
+(public void) holdable_item_leave_env(object env, object to)
+/*
+ * Function name: holdable_item_leave_env
+ * Description:   This MUST be called from leave_env(). Failing to do
+ *                means that this holdable is not properly released.
+ * Arguments:     object env - the environment being left
+ *                object to  - the environment being entered
+ */

@@ -1,0 +1,9 @@
+921:/std/weapon.c (/std/weapon.c)
+(int) set_repair_corr(int rep)
+/*
+ * Function name: set_repair_corr
+ * Description:   When trying to repair the weapon, call this function. Repairs
+ *                can only increase the repair factor. This repairs corroded.
+ * Arguments:     int rep - The new repair number
+ * Returns:       int 1 - if new repair status accepted
+ */

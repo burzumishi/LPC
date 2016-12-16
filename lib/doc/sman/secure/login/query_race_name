@@ -1,0 +1,7 @@
+1224:/secure/login.c (/secure/login.c)
+(public string) query_race_name()
+/*
+ * Function name: query_race_name
+ * Description  : Return the race name of this object.
+ * Returns      : string - "logon".
+ */

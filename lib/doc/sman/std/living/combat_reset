@@ -1,0 +1,6 @@
+94:/std/living/combat.c (/std/living.c)
+(static nomask void) combat_reset()
+/*
+ * Function name:   combat_reset
+ * Description:     Reset the combat functions of the living object.
+ */

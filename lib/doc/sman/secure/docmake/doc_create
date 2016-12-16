@@ -1,0 +1,12 @@
+563:/secure/docmake.c (/secure/docmake.c)
+(void) doc_create(mixed *arr, string path, string new_euid)
+/*
+ * Description: Create a batch of documentation files
+ * Arguments:  argarr
+ *		[0]: All the accumulated functions. Each on the form:
+ *              ({ type, name, args, startlin in file, comment text, srcfile })
+ *		  
+ *              [1]: The path to the dir where the documentation should be 
+ *                   put.
+ *              [2]: euid 
+ */

@@ -1,0 +1,10 @@
+426:/secure/master/guild.c (/secure/master.c)
+(public int) query_guild_is_master(string short_name, string name)
+/*
+ * Function name: query_guild_is_master
+ * Description  : Find out whether a person is a guildmaster of a particular
+ *                guild.
+ * Arguments    : string short_name - the short name of the guild.
+ *              : string name - the name of the wizard to check.
+ * Returns      : int 1/0 - if true, the person is a master of the guild.
+ */

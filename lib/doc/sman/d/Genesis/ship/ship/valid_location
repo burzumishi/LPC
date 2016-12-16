@@ -1,0 +1,9 @@
+284:/d/Genesis/ship/ship.c (/d/Genesis/ship/ship.c)
+(int) valid_location(int loc_low,int loc_high)
+/*
+ * Function name: valid_location
+ * Description	: Check if the current location is within the boundaries
+ *		  given in the random event
+ * Returns	: 1 - the location is valid
+ *		  0 - the location is invalid
+ */

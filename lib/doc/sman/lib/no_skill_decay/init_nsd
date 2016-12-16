@@ -1,0 +1,7 @@
+59:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(nomask static void) init_nsd()
+/*
+ * Function name: init_nsd
+ * Description  : Call this function to add the command 'retrain' to
+ *                players.
+ */

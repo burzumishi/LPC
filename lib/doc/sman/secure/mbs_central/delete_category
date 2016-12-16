@@ -1,0 +1,8 @@
+813:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) delete_category(string cath)
+/*
+ * Function name: delete_category
+ * Description:	  Delete a category
+ * Arguments:	  cath - category to remove
+ * Returns:	  Error code, if any
+ */

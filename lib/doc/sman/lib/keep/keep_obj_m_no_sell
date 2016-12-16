@@ -1,0 +1,9 @@
+62:/lib/keep.c (/lib/keep.c)
+(public string) keep_obj_m_no_sell()
+/*
+ * Function name: keep_obj_m_no_sell
+ * Description  : This function is called by VBFC from the OBJ_M_NO_SELL
+ *                property if this object is 'keep' protected. If will return
+ *                a proper fail message.
+ * Returns      : string - the fail message.
+ */

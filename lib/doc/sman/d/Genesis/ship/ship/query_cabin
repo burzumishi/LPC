@@ -1,0 +1,7 @@
+731:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public mixed) query_cabin()
+/*
+ * Function name: query_cabin
+ * Description	: get the object or path of the room used as ship cabin
+ * Returns	: the cabin path or object
+ */

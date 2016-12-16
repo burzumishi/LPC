@@ -1,0 +1,7 @@
+2013:/std/object.c (/std/object.c)
+(public string) query_possessive()
+/*
+ * Function name: query_possessive
+ * Description  : All nonlivings have possessive 'its'.
+ * Returns      : string "its" - always.
+ */

@@ -1,0 +1,7 @@
+1001:/std/living/savevars.c (/std/living.c)
+(static void) set_exp_quest(int exp)
+/*
+ * Function name: set_exp_quest
+ * Description  : Set the amount of quest experience the living has.
+ * Arguments    : int exp - the amount of quest experience.
+ */

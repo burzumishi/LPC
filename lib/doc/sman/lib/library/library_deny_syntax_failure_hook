@@ -1,0 +1,9 @@
+659:/lib/library.c (/lib/library.c)
+(public int) library_deny_syntax_failure_hook(string str)
+/*
+ * Function name: library_deny_syntax_failure_hook
+ * Description:   Redefine this to alter the message given when incorrect
+ *                syntax is used for the "deny" command
+ * Arguments:     string str - the arguments to the "deny" command
+ * Returns:       1/0
+ */

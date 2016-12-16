@@ -1,0 +1,7 @@
+73:/secure/master/guild.c (/secure/master.c)
+(static void) update_guild_cache()
+/*
+ * Function name: update_guild_cache
+ * Description  : Used internally to update the names of the clubs and guilds,
+ *                so we don't have to filter every time.
+ */

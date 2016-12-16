@@ -1,0 +1,8 @@
+314:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_form(int form, int skill)
+/*
+ * Function name: set_spell_form
+ * Description:   Set the form type and the minimum of skill needed.
+ * Arguments:     1. (int) The form type, as found in /sys/ss_types.h
+ *                2. (int) The skill-value needed for the spell.
+ */

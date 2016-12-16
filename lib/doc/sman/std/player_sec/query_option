@@ -1,0 +1,9 @@
+1201:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) query_option(int opt)
+/*
+ * Function name: query_option
+ * Description  : Return a player option.
+ * Arguments    : int opt - the option (use defines in <options.h>).
+ * Returns      : int - the value of the option, or -1 in case the option
+ *                    does not exist.
+ */

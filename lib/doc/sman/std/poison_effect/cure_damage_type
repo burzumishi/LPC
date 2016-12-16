@@ -1,0 +1,8 @@
+652:/std/poison_effect.c (/std/poison_effect.c)
+(static void) cure_damage_type(int type, int success)
+/*
+ * Function name: cure_damage_type
+ * Description  : Called internally to try to cure a specific damage type.
+ * Arguments    : int type - the type to cure.
+ *                int success - the success of the cure.
+ */

@@ -1,0 +1,9 @@
+713:/lib/library.c (/lib/library.c)
+(public int) library_discard_unavailable_book_hook(string title)
+/*
+ * Function name: library_discard_unavailable_book_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user attempts to discard a nonexistant book
+ * Arguments:     string title - the book's title
+ * Returns:       1/0
+ */

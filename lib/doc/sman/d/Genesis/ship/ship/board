@@ -1,0 +1,12 @@
+336:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(varargs public int) board(mixed what)
+/*
+ * Function name: board
+ * Description	: Allow a player to board the ship if he have got a ticket, or
+ *		  if the fare is free of charge.
+ *      Added by Fysix, Sep 1997: When riding a steed, the rider should
+ *      have a ticket for himself, the steed and co-riders.
+ * Arguments	: what - what we want to enter
+ * Returns	: 1 - success
+ *		  0 - wrong parameters
+ */

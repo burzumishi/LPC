@@ -1,0 +1,10 @@
+168:/lib/guild_support.c (/lib/guild_support.c)
+(void) gs_leave_inv(object ob, object to)
+/*
+ * Function name: gs_leave_inv
+ * Description  : Should be called if someone leaves the room. if that person
+ *                was meditating, better do something. You should call this
+ *                function from leave_inv(ob, to) in your room.
+ * Arguments    : object ob - the object that is leaving.
+ *                object to - the new destination of the object.
+ */

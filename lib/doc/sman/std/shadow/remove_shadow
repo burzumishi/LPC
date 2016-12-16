@@ -1,0 +1,6 @@
+67:/std/shadow.c (/std/shadow.c)
+(public void ) remove_shadow()
+/*
+ * Function   : remove_shadow
+ * Description: Removes the shadow without removing the shadowed object.
+ */

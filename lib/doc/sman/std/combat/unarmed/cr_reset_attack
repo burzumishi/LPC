@@ -1,0 +1,8 @@
+119:/std/combat/unarmed.c (/std/combat/unarmed.c)
+(public void) cr_reset_attack(int aid)
+/*
+ * Function name: cr_reset_attack
+ * Description:   Set the values for a specific attack. These are called from
+ *		  the external combat object.
+ * Arguments:     aid: The attack id
+ */

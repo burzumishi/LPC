@@ -1,0 +1,8 @@
+205:/std/living/spells.c (/std/living.c)
+(varargs public int) abort_spell(string msg)
+/*
+ * Function name: abort_spell
+ * Description:   Willingly abort  concentration on a spell if one is active
+ * Arguments:     string msg - why the spell was aborted
+ * Returns:       1/0 - a spell was aborted/not aborted
+ */

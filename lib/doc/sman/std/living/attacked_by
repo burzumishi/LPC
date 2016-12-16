@@ -1,0 +1,7 @@
+715:/std/living/combat.c (/std/living.c)
+(public void) attacked_by(object ob)
+/*
+ * Function name:   attacked_by
+ * Description:     This routine is called when we are attacked.
+ * Arguments:       ob: The attacker
+ */

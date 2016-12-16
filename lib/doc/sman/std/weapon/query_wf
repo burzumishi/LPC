@@ -1,0 +1,8 @@
+1029:/std/weapon.c (/std/weapon.c)
+(object) query_wf()
+/*
+ * Function name: query_wf
+ * Description  : Query if/what object defines wield/unwield functions.
+ *                See set_wf() for details.
+ * Returns      : object
+ */

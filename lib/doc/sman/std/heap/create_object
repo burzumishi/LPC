@@ -1,0 +1,6 @@
+40:/std/heap.c (/std/heap.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Constructor. To define your own heaps, use create_heap().
+ */

@@ -1,0 +1,8 @@
+72:/std/act/add_things.c (/std/act/add_things.c)
+(public object) add_armour(string file)
+/*
+ * Function name:  add_armour
+ * Description:    clones an armour to the monster and makes the monster wear it.
+ * Arguments:      filename: The filename of the armour. [string]
+ * Returns:        the armour
+ */

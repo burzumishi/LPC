@@ -1,0 +1,7 @@
+429:/lib/herb_support.c (/lib/herb_support.c)
+(mixed *) query_poison_damage()
+/*
+ * Function name: query_poison_damage
+ * Description:   Query the poison damage array (if any)
+ * Returns:       The damage array
+ */

@@ -1,0 +1,7 @@
+453:/std/player/savevars_sec.c (/std/player_sec.c)
+(static nomask void) reset_decay_time()
+/*
+ * Function name:   reset_decay_time
+ * Description:     Reset the decay time to the remainder of time
+ *                  after a full interval.
+ */

@@ -1,0 +1,12 @@
+129:/std/living/wield.c (/std/living.c)
+(public mixed) query_weapon(int which)
+/*
+ * Function name: query_weapon
+ * Description  : Returns the weapon held in a specified location or all the
+ *                weapons the living wields when -1 is given as argument.
+ * Arguments    : int which - a numeric label describing a weapon location.
+ *                            On humanoids this is W_RIGHT etc. Give -1 to
+ *                            list all weapons.
+ * Returns      : object   - the corresponding weapon or 0.
+ *                object * - all weapons in an array for which == -1.
+ */

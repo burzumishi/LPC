@@ -1,0 +1,9 @@
+2827:/secure/mail_reader.c (/secure/mail_reader.c)
+(public varargs mixed) query_aliases(string alias)
+/*
+ * Function name: query_aliases
+ * Description  : Returns the names to which one or more local aliases will
+ *                expand.
+ * Arguments    : string alias - the optional alias name.
+ * Returns      : mixed - either array of string, or mapping.
+ */

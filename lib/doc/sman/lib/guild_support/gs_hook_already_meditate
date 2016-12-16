@@ -1,0 +1,9 @@
+284:/lib/guild_support.c (/lib/guild_support.c)
+(int) gs_hook_already_meditate()
+/*
+ * Function name: gs_hook_already_meditate
+ * Description  : This hook is called when player is already meditating and
+ *                tries to mediate again. You can mask this function to give
+ *                a different message.
+ * Returns      : int 1 - always.
+ */

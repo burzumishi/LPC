@@ -1,0 +1,8 @@
+51:/secure/srcman.c (/secure/srcman.c)
+(static mapping ) read_index(string mdir)
+/*
+ * Function name:   read_index
+ * Description:     Read the contents of a docdir and return a mapping
+ *		    containing all the ([ subdir:info ]) information
+ *
+ */

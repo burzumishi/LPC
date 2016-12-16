@@ -1,0 +1,6 @@
+556:/std/player_sec.c (/std/player_sec.c)
+(static void) init_saved_props()
+/*
+ * Function name: init_saved_props
+ * Description  : Add the saved properties to the player.
+ */

@@ -1,0 +1,7 @@
+428:/secure/queue.c (/secure/queue.c)
+(public void) remove_object()
+/*
+ * Function name: remove_object
+ * Description  : Remove this object from memory. It also destructs the
+ *                people in the queue.
+ */

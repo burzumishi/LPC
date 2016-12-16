@@ -1,0 +1,12 @@
+348:/cmd/std/soul_cmd.c (/cmd/std/soul_cmd.c)
+(static object *) find_neighbour(object *found, object *search, int depth)
+/*
+ * Function name: find_neighbour
+ * Description  : This function will recursively search through the
+ *                neighbouring rooms to a particular room to find the
+ *                rooms a shout or scream will be heard in.
+ * Arguments    : object *found  - the rooms already found.
+ *                object *search - the rooms still to search.
+ *                int    depth   - the depth still to search.
+ * Returns      : object * - the neighbouring rooms.
+ */

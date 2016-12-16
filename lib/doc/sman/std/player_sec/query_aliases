@@ -1,0 +1,8 @@
+1088:/std/player/savevars_sec.c (/std/player_sec.c)
+(public mapping) query_aliases()
+/*
+ * Function name: query_aliases
+ * Description  : This returns the list of aliases of a player.
+ * Arguments    : mapping - the indices are the alias-names and the
+ *                          values the replacements.
+ */

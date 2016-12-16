@@ -1,0 +1,9 @@
+3962:/secure/master.c (/secure/master.c)
+(string ) startup_udp()
+/*
+ * Function name: startup_udp
+ * Description:   Give the contents of the package to send as startup
+ *                message to the mudlist server. This is default if we
+ *                have no UDP_MANAGER.
+ * Returns:       The message.
+ */

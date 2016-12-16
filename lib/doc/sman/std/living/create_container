@@ -1,0 +1,6 @@
+74:/std/living.c (/std/living.c)
+(nomask void) create_container()
+/*
+ * Function name: create_container
+ * Description:   Create the living object. (constructor)
+ */

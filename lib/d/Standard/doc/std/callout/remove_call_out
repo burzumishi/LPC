@@ -1,0 +1,9 @@
+21:/std/callout.c (/std/callout.c)
+(int) remove_call_out(string func)
+/*
+ * Function name: remove_call_out
+ * Description:   Locate and remove a call_out to a named function
+ * Arguments:     func - name of function the call_out is for
+ * Returns:       -1 if not found, time that remained before trigger
+ *                would be done if found
+ */

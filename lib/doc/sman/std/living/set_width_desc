@@ -1,0 +1,14 @@
+55:/std/living/width_height.c (/std/living.c)
+(public int) set_width_desc(string str)
+/*
+ * Function name: set_width_desc
+ * Description  : Set the width property of the living based on the desired
+ *                width description. If you also want to set the height, then
+ *                it is important to first set the height before you set the
+ *                width. Alternatively, use set_size_descs() to set both.
+ *                To see all possible width descriptions, do:
+ *                    exec return WIDTHDESC;
+ *
+ * Arguments    : string str - the desired width description.
+ * Returns      : int 1/0 - success/failure.
+ */

@@ -1,0 +1,9 @@
+163:/std/player_sec.c (/std/player_sec.c)
+(static nomask int) get_train_max(int skill, mixed ob)
+/*
+ * Function name: get_train_max
+ * Description:   Return the max value of a skill that a trainer trains.
+ * Arguments:     skill - the skill to be examined.
+ *                ob - the object defining the skill
+ * Returns:       See above.
+ */

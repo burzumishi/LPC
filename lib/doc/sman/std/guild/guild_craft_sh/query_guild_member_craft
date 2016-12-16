@@ -1,0 +1,7 @@
+156:/std/guild/guild_craft_sh.c (/std/guild/guild_craft_sh.c)
+(public nomask int) query_guild_member_craft()
+/*
+ * Function name: query_guild_member_craft
+ * Description:   This is an craft guild
+ * Returns:	  1
+ */

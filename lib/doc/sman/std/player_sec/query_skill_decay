@@ -1,0 +1,7 @@
+152:/std/player_sec.c (/std/player_sec.c)
+(public nomask int) query_skill_decay()
+/*
+ * Function name:   query_skill_decay
+ * Description:     Gives back the skill decay status
+ * Returns:         The skill decay status
+ */

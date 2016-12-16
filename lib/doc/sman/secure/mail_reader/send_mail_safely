@@ -1,0 +1,10 @@
+1692:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) send_mail_safely(string *dest_array, string name)
+/*
+ * Function name: send_mail_safely
+ * Description  : This is the function that actually sends the mail in
+ *                small portions. We do not want to run into eval-cost
+ *                limits.
+ * Arguments    : string *dest_array - the people to send the mail to.
+ *                string name - the (capitalized) name of the author.
+ */

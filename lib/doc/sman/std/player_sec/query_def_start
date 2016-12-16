@@ -1,0 +1,8 @@
+60:/std/player_sec.c (/std/player_sec.c)
+(public string) query_def_start()
+/*
+ * Function name: query_def_start
+ * Description  : Return the default starting location of the player type.
+ *                This function is supposed to be replaced in inheriting
+ *                player objects.
+ */

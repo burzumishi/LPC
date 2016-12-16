@@ -1,0 +1,7 @@
+1396:/std/door.c (/std/door.c)
+(void) load_other_door()
+/*
+ * Function name: load_other_door
+ * Description:   Try to load the door in the other room. If this
+ *		  fails, autodestruct.
+ */

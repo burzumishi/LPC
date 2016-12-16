@@ -1,0 +1,10 @@
+81:/obj/data_edit.c (/obj/data_edit.c)
+(static nomask int) data_edit(string str)
+/*
+ * Function name: data_edit
+ * Description  : This function initializes the data-editing process.
+ *                The command line should be the the filename of the file
+ *                to edit.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

@@ -1,0 +1,9 @@
+153:/std/act/domove.c (/std/act/domove.c)
+(string) query_monster_home()
+/*
+ * Function name:   query_monster_home
+ * Description:     Return the filename of the home to which a monster will
+ *                  teleport if it got itself stuck.
+ * Returns:         That filename.
+ * See also:        set_monster_home(), set_restrain_path()
+ */

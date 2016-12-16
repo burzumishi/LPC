@@ -1,0 +1,10 @@
+285:/std/container.c (/std/container.c)
+(public int) prevent_leave(object ob)
+/*
+ * Function name: prevent_leave
+ * Description:   Called when an object is trying to leave this container
+ *                to see if we allow it to leave.
+ * Arguments:     object ob - the object trying to leave
+ * Returns:       1 - The object is not allowed to leave
+ *                0 - The object is allowed to leave
+ */

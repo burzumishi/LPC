@@ -1,0 +1,7 @@
+2785:/secure/master/fob.c (/secure/master.c)
+(int) query_restrict(string wiz)
+/*
+ * Function name: query_restrict
+ * Description  : This function is used to return the restriction of a wizard.
+ * Arguments    : string wiz - The wizard to query.
+ */

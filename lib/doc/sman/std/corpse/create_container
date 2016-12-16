@@ -1,0 +1,7 @@
+50:/std/corpse.c (/std/corpse.c)
+(nomask void) create_container()
+/*
+ * Function name: create_container
+ * Description  : Constructor. Don't mask this routine, but define
+ *                create_corpse() instead.
+ */

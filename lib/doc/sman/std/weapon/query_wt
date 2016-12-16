@@ -1,0 +1,7 @@
+558:/std/weapon.c (/std/weapon.c)
+(int) query_wt()
+/*
+ * Function name: query_wt
+ * Description  : Query the type of weapon.
+ * Returns      : int - the weapon type.
+ */

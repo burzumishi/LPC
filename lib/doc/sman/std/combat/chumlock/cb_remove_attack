@@ -1,0 +1,5 @@
+48:/std/combat/chumlock.c (/std/combat/chumlock.c)
+(public nomask int) cb_remove_attack(int id)
+/*
+ * Description:   Stops removal of attacks
+ */

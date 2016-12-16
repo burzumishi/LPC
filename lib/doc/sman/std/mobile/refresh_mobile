@@ -1,0 +1,7 @@
+374:/std/mobile.c (/std/mobile.c)
+(void) refresh_mobile()
+/*
+ * Function name: refresh_mobile
+ * Description:   This function is kept here for backwards compatibility,
+ *                but is obsolete itself.
+ */

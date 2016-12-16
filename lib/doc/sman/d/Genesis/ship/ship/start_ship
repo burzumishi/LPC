@@ -1,0 +1,9 @@
+105:/d/Genesis/ship/ship.c (/d/Genesis/ship/ship.c)
+(public varargs int) start_ship(int where)
+/*
+ * Function name: start_ship
+ * Description  : Make the ship do its thing
+ * Arguments	: where - the location number to start in
+ * Returns	: 0 - failed to start the ship
+ *		  1 - ship started
+ */

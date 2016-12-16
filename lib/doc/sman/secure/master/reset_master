@@ -1,0 +1,8 @@
+149:/secure/master.c (/secure/master.c)
+(static void) reset_master()
+/*
+ * Function name: reset_master
+ * Description  : This function will be called regularly, each RESET_TIME
+ *                seconds. Since we want only one alarm running, from this
+ *                function we can make calls to other modules that need it.
+ */

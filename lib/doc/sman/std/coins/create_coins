@@ -1,0 +1,7 @@
+28:/std/coins.c (/std/coins.c)
+(public void) create_coins()
+/*
+ * Function name: create_coins
+ * Description  : Called at creation of the coins. To create your own coins
+ *                you must define this function.
+ */

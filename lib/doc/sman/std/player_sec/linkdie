@@ -1,0 +1,6 @@
+1008:/std/player_sec.c (/std/player_sec.c)
+(nomask public void) linkdie()
+/*
+ * Function name: linkdie
+ * Description  : When a player linkdies, this function is called.
+ */

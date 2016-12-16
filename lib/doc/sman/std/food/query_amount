@@ -1,0 +1,7 @@
+106:/std/food.c (/std/food.c)
+(public int) query_amount()
+/*
+ * Function name:       query_amount
+ * Description:         Gives the amount of food in this food
+ * Returns:             Amount as int (in grams)
+ */

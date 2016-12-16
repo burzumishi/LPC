@@ -1,0 +1,12 @@
+3487:/secure/master.c (/secure/master.c)
+(public void) set_runlevel(int level)
+/*
+ * Function name: set_runlevel
+ * Description  : Set the runlevel. That is the lowest rank of player that
+ *                is allowed into the game. Set to WIZ_MORTAL (0) when the
+ *                game is open to all players and wizards. This function
+ *                may only be called from the normal wizard soul, i.e. from
+ *                the 'shutdown' command.
+ * Arguments    : int - the runlevel. The argument is not checked for
+ *                    validity. That must have been done in the command.
+ */

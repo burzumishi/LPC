@@ -1,0 +1,6 @@
+483:/std/heap.c (/std/heap.c)
+(public void) set_no_merge(int i)
+/*
+ * Function name: set_no_merge
+ * Description:   Make sure that the heap won't merge
+ */

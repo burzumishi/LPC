@@ -1,0 +1,16 @@
+167:/obj/data_edit.c (/obj/data_edit.c)
+(static nomask void) data_add(string str)
+/*
+ * Function name: data_add
+ * Description  : This function allows you to add value to an array. The
+ *                format is
+ *                    <variable> <index> <expression>
+ *                where <variable> is the array to assign the value to.
+ *                It may contain the index to a mapping. The <index> is the
+ *                index of the array before which the new element is added.
+ *                To add something at the end of the array, use 'end' as
+ *                index. The value <expression> may include all types or
+ *                expressions as long as it does not contain variable-
+ *                references.
+ * Arguments    : string str - the argument to the command set.
+ */

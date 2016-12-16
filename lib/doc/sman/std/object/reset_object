@@ -1,0 +1,6 @@
+155:/std/object.c (/std/object.c)
+(public void) reset_object()
+/*
+ * Function name: reset_object
+ * Description:   Reset the object (Default for clones)
+ */

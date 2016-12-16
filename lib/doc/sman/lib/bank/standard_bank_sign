@@ -1,0 +1,8 @@
+46:/lib/bank.c (/lib/bank.c)
+(string) standard_bank_sign()
+/*
+ * Function name: standard_bank_sign
+ * Description:   returns a string with a sign message
+ * Arguments:     none
+ * Returns:       message string
+ */

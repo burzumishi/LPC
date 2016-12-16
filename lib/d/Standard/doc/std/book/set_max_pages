@@ -1,0 +1,7 @@
+177:/std/book.c (/std/book.c)
+(void) set_max_pages(int how_many)
+/*
+ * Function name: set_max_page
+ * Description:   sets the number of pages of the book
+ * Arguments:	  how_many - how many pages ?
+ */

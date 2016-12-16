@@ -1,0 +1,7 @@
+431:/std/living/savevars.c (/std/living.c)
+(public string) query_al_title()
+/*
+ * Function name:   query_al_title
+ * Description:     Gives the alignment title of a living
+ * Returns:         The alignment title string
+ */

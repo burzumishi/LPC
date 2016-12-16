@@ -1,0 +1,8 @@
+1127:/std/living/combat.c (/std/living.c)
+(public void) add_sparring_partner(object partner)
+/*
+ * Function name: add_sparring_partner
+ * Description  : This will add a sparring partner to the list of sparring
+ *                partners of the living.
+ * Arguments    : object partner - the sparring partner to add.
+ */

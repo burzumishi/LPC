@@ -1,0 +1,10 @@
+337:/secure/master/fob.c (/secure/master.c)
+(int) make_domain(string dname, string sname, string wname)
+/*
+ * Function name: make_domain
+ * Description  : Create a new domain.
+ * Arguments    : string dname - the domain name.
+ *                string sname - the short domain name.
+ *                string wname - the name of the domain lord.
+ * Returns      : int 1/0 - success/failure.
+ */

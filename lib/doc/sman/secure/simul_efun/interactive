@@ -1,0 +1,9 @@
+704:/secure/simul_efun.c (/secure/simul_efun.c)
+(varargs int ) interactive(object ob = previous_object()
+/*
+ * Function name: interactive
+ * Description  : Find out whether an object is an interactive player or not.
+ * Arguments    : object ob - the object to check, defaults to this_object()
+ *                            when omitted.
+ * Returns      : int - 1/0 - interactive or not.
+ */

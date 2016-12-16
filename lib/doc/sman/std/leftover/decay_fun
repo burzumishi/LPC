@@ -1,0 +1,7 @@
+186:/std/leftover.c (/std/leftover.c)
+(public void) decay_fun()
+/*
+ * Function name: decay_fun
+ * Description  : Decays the leftover after a predefined period of time when
+ *                the leftover is dropped in a room.
+ */

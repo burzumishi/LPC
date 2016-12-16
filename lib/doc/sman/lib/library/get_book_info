@@ -1,0 +1,11 @@
+879:/lib/library.c (/lib/library.c)
+(public void) get_book_info(string *books, mapping m)
+/*
+ * Function name: get_book_info
+ * Description:   For each of a given array of book files, add an element
+ *                to a given mapping.  The elements map book title names
+ *                to book filenames.
+ * Arguments:     string *books - An array of book files.
+ *                mapping m     - A mapping in which to store the above
+ *                                mentioned information.
+ */ 

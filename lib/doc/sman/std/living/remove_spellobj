@@ -1,0 +1,7 @@
+30:/std/living/spells.c (/std/living.c)
+(public void) remove_spellobj(object obj)
+/*
+ * Function name: remove_spellobj
+ * Description:   Remove a spell object from the list of spell objects
+ * Arguments:     obj - the object to remove
+ */

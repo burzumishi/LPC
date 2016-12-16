@@ -1,0 +1,11 @@
+98:/cmd/live/items.c (/cmd/live/items.c)
+(public mixed) command_extinguish()
+/*
+ * Function name: command_extinguish
+ * Function name: command_extinguish
+ * Description  : This is a pseudo function, used to fool the document maker.
+ *                Define this in an object that contains light and can be
+ *                extinguished. It is by default built into /std/torch.c
+ * Returns      : string - an error message upon failure.
+ *                int 1  - when successfully extinguished.
+ */

@@ -1,0 +1,8 @@
+1241:/std/living/combat.c (/std/living.c)
+(public mapping) query_speed_map()
+/*
+ * Function Name: query_speed_map
+ * Description  : Returns the entire mapping of quickness items and
+ *                their corresponding value.
+ * Returns      : mapping - string / value pairs
+ */

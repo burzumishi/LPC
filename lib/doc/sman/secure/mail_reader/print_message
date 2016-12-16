@@ -1,0 +1,8 @@
+1218:/secure/mail_reader.c (/secure/mail_reader.c)
+(varargs static void) print_message(string filename)
+/*
+ * Function name: print_message
+ * Description  : This function prints all lines of a message. It can use
+ *                more, be printed directly or even written to file.
+ * Arguments    : string filename - the file to print it to (wiz-only)
+ */

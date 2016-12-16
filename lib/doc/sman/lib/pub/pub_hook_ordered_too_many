@@ -1,0 +1,8 @@
+127:/lib/pub.c (/lib/pub.c)
+(int) pub_hook_ordered_too_many(int num)
+/*
+ * Function name: pub_hook_ordered_too_many
+ * Description  : Tells the player that he ordered too many items.
+ * Arguments    : int num - the amount the player ordered.
+ * Returns      : int 0/1 - 0 for a notify_fail, 1 for a write.
+ */

@@ -1,0 +1,8 @@
+123:/lib/keep.c (/lib/keep.c)
+(public int) query_keep()
+/* 
+ * Function name: query_keep
+ * Description  : Call this function to query the current 'keep' status of
+ *                this object.
+ * Returns      : int 1/0 - 'keep' protected or not.
+ */

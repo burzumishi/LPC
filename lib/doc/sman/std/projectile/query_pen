@@ -1,0 +1,7 @@
+197:/std/projectile.c (/std/projectile.c)
+(public int) query_pen()
+/*
+ * Function name: query_pen
+ * Description  : Returns the penetration value of this projectile.
+ * Returns      : (int) Penetration value.
+ */

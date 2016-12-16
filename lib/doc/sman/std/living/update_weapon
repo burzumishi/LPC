@@ -1,0 +1,8 @@
+886:/std/living/combat.c (/std/living.c)
+(public void) update_weapon(object wep)
+/*
+ * Function name: update_weapon
+ * Description:   Call this function if the stats or skills of a weapon has
+ *                changed.
+ * Arguments:     wep - the weapon 
+ */

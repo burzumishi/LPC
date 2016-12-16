@@ -1,0 +1,12 @@
+287:/std/mobile.c (/std/mobile.c)
+(public void) set_exp_factor(int proc_xp)
+/*
+ * Function name: set_exp_factor
+ * Description  : Using this function you can set a percentage on the basic
+ *                experience that is given out when killing this living. For
+ *                instance, an NPC with special (magical) abilities might be
+ *                more difficult to kill than one would guess based on the
+ *                stats alone. Works only on NPC's. Range: 50% to 200%
+ * Arguments    : int proc_xp - the percentage of the base experience that is
+ *                    awarded. I.e. to give out 40% extra exp, set to 140.
+ */

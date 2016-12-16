@@ -1,0 +1,12 @@
+1740:/secure/master.c (/secure/master.c)
+(string) get_ed_buffer_save_file_name(string file)
+/*
+ * Function name: get_ed_buffer_save_file_name
+ * Description  : When a wizard is in ed and goes linkdead, this function
+ *                is called to get the name of the save-file. If the
+ *                wizard does not have the necessary rights, the function
+ *                will disallow save.
+ * Arguments    : string - the name of the file to save
+ * Returns      : string - the name of the secured save-file
+ *                0      - the player has no write-rights.
+ */

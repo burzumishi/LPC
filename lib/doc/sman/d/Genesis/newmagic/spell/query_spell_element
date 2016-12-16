@@ -1,0 +1,6 @@
+304:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public int) query_spell_element()
+/*
+ * Function name: query_spell_element
+ * Description:   Return the element skill.
+ */

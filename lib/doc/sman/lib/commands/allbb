@@ -1,0 +1,9 @@
+279:/lib/commands.c (/lib/commands.c)
+(public varargs void) allbb(string str, string adverb = "", int cmd_attr = 0)
+/*
+ * Function name: allbb
+ * Description  : Same as all(), but people who cannot see the person
+ *                performing, won't see it happen.
+ * Example      : allbb(" smiles happily.");
+ * Arguments    : see all().
+ */

@@ -1,0 +1,7 @@
+2027:/secure/master.c (/secure/master.c)
+(mapping) query_move_opposites()
+/*
+ * Function name: query_move_opposites
+ * Description  : Returns the exact pointer to the mapping move_opposites.
+ * Arguments    : mapping - the mapping.
+ */

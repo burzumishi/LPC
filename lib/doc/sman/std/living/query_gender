@@ -1,0 +1,7 @@
+1379:/std/living/savevars.c (/std/living.c)
+(public int) query_gender()
+/*
+ * Function name:   query_gender
+ * Description:     Returns the gender code of the living.
+ * Returns:         The code. (0 - male, 1 - female, 2 - netrum)
+ */

@@ -1,0 +1,15 @@
+1163:/std/object.c (/std/object.c)
+(public void) add_pname(mixed pname)
+/*
+ * Function name: add_pname
+ * Description  : Adds the plural form of the name(s) of the object. This is
+ *                used when refering to the object in plural. add_pname can
+ *                be called repeatedly to add more plural names. By adding
+ *                the names, they are added at the bottom of the list.
+ *
+ * Notice       : All names added with add_name() will all have a plural
+ *                equivalent generated.
+ *
+ * Arguments    : mixed name - accepts both a string or an array of string
+ *                    with the name(s) to add as plural name.
+ */

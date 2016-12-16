@@ -1,0 +1,8 @@
+920:/std/living/combat.c (/std/living.c)
+(public void) adjust_combat_on_intox(int pintox)
+/*
+ * Function name:   adjust_combat_on_intox
+ * Description:     Called to let intoxication affect combat. This
+ *                  is used to do nasty drunk type things *laugh*
+ * Arguments:       pintox: %intoxicated      
+ */

@@ -1,0 +1,7 @@
+941:/std/weapon.c (/std/weapon.c)
+(int) query_repair_corr()
+/*
+ * Function name: query_repair_corr
+ * Description:   How many times this weapon has been repaired from corrosion
+ * Returns:       int - How many times
+ */

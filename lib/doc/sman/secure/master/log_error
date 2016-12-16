@@ -1,0 +1,9 @@
+1674:/secure/master.c (/secure/master.c)
+(static void ) log_error(string path, string error)
+/*
+ * Function name: log_error
+ * Description  : This function is called from the game driver if there is
+ *                an error while compiling an object.
+ * Arguments    : string path  - the path of the object having the error.
+ *                string error - the error message.
+ */

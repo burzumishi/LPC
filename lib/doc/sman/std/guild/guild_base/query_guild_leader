@@ -1,0 +1,8 @@
+205:/std/guild/guild_base.c (/std/guild/guild_base.c)
+(public nomask int) query_guild_leader()
+/*
+ * Function name: query_guild_leader
+ * Description  : Returns whether this player is considered to be a leader
+ *                in one of his/her guilds. 
+ * Returns      : int 1/0 - guild leader or not.
+ */

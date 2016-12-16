@@ -1,0 +1,8 @@
+55:/std/living/hold.c (/std/living.c)
+(public string) show_held(object for_obj)
+/*
+ * Function name: show_held
+ * Description:   Describe the items that are currently held
+ * Arguments:     object ob - the onlooker
+ * Returns:       The (string) description
+ */

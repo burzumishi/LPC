@@ -1,0 +1,8 @@
+243:/std/act/asking.c (/std/act/asking.c)
+(void) answer_question(mixed msg, int cmd)
+/*
+ * Function name: answer_question
+ * Description:   This function is called after a short delay when this mobile
+ * 		  wants to react to a question
+ * Arguments:  	  An array ({ mixed msg, int cmd })
+ */

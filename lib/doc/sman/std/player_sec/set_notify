@@ -1,0 +1,7 @@
+603:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) set_notify(int flag)
+/*
+ * Function name:   set_notify
+ * Description:     Set notify status
+ * Arguments:            flag - The current status
+ */

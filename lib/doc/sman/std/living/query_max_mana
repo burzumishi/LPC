@@ -1,0 +1,8 @@
+558:/std/living/savevars.c (/std/living.c)
+(public int) query_max_mana()
+/*
+ * Function name:   query_max_mana
+ * Description:     Calculates that maximum of mana points that a living
+ *                  can get.
+ * Returns:         The maximum.
+ */

@@ -1,0 +1,8 @@
+187:/secure/master/siteban.c (/secure/master.c)
+(static int) remove_siteban(string ipmask)
+/*
+ * Function name: remove_siteban
+ * Description  : Called to remove the ban of a single site.
+ * Arguments    : string ipmask - the ip number to remove.
+ * Returns      : int 1/0 success/failure.
+ */

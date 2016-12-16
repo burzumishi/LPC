@@ -1,0 +1,5 @@
+402:/cmd/std/soul_cmd.c (/cmd/std/soul_cmd.c)
+( int) ack(string str)
+/* **************************************************************************
+ * Here follows the actual functions. Please add new in alphabetical order.
+ * **************************************************************************/

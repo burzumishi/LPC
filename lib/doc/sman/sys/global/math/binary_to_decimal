@@ -1,0 +1,10 @@
+83:/sys/global/math.c (/sys/global/math.c)
+(public nomask int) binary_to_decimal(int *bit_array)
+/*
+ * Function name: binary_to_decimal
+ * Called from  : BIN2DEC(arr) in <math.h>
+ * Description  : Convert a base 2 unsigned integer to its base 10
+ *                representation.
+ * Arguments    : int * - a binary array of the base 2 number, MSB first.
+ * Returns      : int - the unsigned decimal integer.
+ */

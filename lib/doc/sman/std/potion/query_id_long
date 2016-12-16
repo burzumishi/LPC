@@ -1,0 +1,7 @@
+177:/std/potion.c (/std/potion.c)
+(string) query_id_long()
+/*
+ * Function name: query_id_long
+ * Description:   The long description if you can id the potion
+ * Returns:       The long description
+ */

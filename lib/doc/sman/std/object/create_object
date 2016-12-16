@@ -1,0 +1,6 @@
+126:/std/object.c (/std/object.c)
+(public void) create_object()
+/*
+ * Function name: create_object
+ * Description:   Create the object (Default for clones)
+ */

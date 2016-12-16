@@ -1,0 +1,6 @@
+205:/std/rope.c (/std/rope.c)
+(int) tie_it(string str)
+/*
+ * Function name: tie_it
+ * Description:   Perform the actual tie
+ */

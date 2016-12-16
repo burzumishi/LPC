@@ -1,0 +1,8 @@
+1112:/secure/master/fob.c (/secure/master.c)
+(int) deny_application(string wname)
+/*
+ * Function name: deny_application
+ * Description  : The lord denies an application of a wizard.
+ * Arguments    : string wname - the wizard name.
+ * Returns      : int 1/0 - success/failure.
+ */

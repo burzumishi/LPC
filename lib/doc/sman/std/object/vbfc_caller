@@ -1,0 +1,8 @@
+993:/std/object.c (/std/object.c)
+(public object) vbfc_caller()
+/*
+ * Function name: vbfc_caller
+ * Description:   This function will hopfully return correct object which this
+ *                vbfc is for.
+ * Returns:       The object who wants a vbfc
+ */

@@ -1,0 +1,6 @@
+149:/std/living.c (/std/living.c)
+(public void) reset_living()
+/*
+ * Function name: reset_living
+ * Description:   Reset the living object. (standard)
+ */

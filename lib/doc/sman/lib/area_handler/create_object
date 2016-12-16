@@ -1,0 +1,8 @@
+53:/lib/area_handler.c (/lib/area_handler.c)
+(nomask void) create_object()
+/*
+ * create_object
+ *
+ * This function defines some basic initalizations. Use create_area for
+ * the area-specific initializtions.
+ */

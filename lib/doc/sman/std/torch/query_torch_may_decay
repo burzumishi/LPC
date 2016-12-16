@@ -1,0 +1,10 @@
+302:/std/torch.c (/std/torch.c)
+(public int) query_torch_may_decay()
+/*
+ * Function name: query_torch_may_decay
+ * Description  : This function will indicate whether the torch may decay or not
+ *                after it burns out. By default it returns 1, but if you do not
+ *                want to have it decay, you must redefine this function to make
+ *                it return 0. This is especially true for oil lamps.
+ * Returns      : int 1 - always.
+ */

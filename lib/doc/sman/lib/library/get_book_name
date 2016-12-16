@@ -1,0 +1,8 @@
+1449:/lib/library.c (/lib/library.c)
+(public string) get_book_name(string dir)
+/*
+ * Function name: get_book_name
+ * Description:   Get a filename for a new book in a specified directory
+ * Arguments:     string dir - a directory
+ * Returns:       the filename
+ */

@@ -1,0 +1,8 @@
+1705:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask mixed) get_board_by_path(string savep)
+/*
+ * Function name: get_board_by_path
+ * Description:	  Get the board info by savepath
+ * Arguments:	  savep - the path
+ * Returns:	  The board array
+ */

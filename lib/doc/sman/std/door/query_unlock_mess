@@ -1,0 +1,6 @@
+1240:/std/door.c (/std/door.c)
+(string *) query_unlock_mess()
+/*
+ * Function name: query_unlock_mess
+ * Description:   Query message when unlocking door
+ */

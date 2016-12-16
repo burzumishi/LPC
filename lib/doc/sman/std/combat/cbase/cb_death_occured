@@ -1,0 +1,7 @@
+1101:/std/combat/cbase.c (/std/combat/cbase.c)
+(public void) cb_death_occured(object killer)
+/*
+ * Function name: cb_death_occured
+ * Description:   Called when 'me' dies
+ * Arguments:     object killer: The enemy that caused our death.
+ */

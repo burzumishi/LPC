@@ -1,0 +1,9 @@
+734:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_filter_improve(int sk, int steps)
+/*
+ * Function name: sk_filter_improve
+ * Description:   Filter out what skills this player can improve
+ * Arguments:     sk    - The skill
+ *                steps - The number of steps player wants to improve
+ * Returns:       1 if play can improve skill
+ */

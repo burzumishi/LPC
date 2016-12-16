@@ -1,0 +1,17 @@
+Name:		Energy_blast
+
+Object:		/doc/examples/spells/energy_blast.c
+		/doc/examples/spells/spell_book.c
+
+Cost:		10
+
+Description:	You blast your opponent with raw energy. The geral magic
+		resistance of the opponent as well as the magic protection
+		from electricity is checked for. With Wisdom and skill in
+		attack spells the spell will be easier to cast. With 
+		skill and intelligence it hits harder.
+
+		hurt = F_PENMOD(10, (spell attacj + int ) / 20 + 15
+
+Requirements:   That you have the spell book
+

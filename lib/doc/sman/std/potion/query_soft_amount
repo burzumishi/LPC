@@ -1,0 +1,7 @@
+305:/std/potion.c (/std/potion.c)
+(int ) query_soft_amount(int i)
+/*
+ * Function name: query_soft_amount
+ * Description:   What is the soft amount of the potion
+ * Returns:       The soft amount
+ */

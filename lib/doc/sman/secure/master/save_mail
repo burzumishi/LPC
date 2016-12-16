@@ -1,0 +1,8 @@
+70:/secure/master/mail_admin.c (/secure/master.c)
+(static void) save_mail(mapping mail, string name)
+/*
+ * Function name: save_mail
+ * Description  : Save the mail-file of a player to disk.
+ * Arguments    : mapping mail - the mail of the player.
+ *                string  name - the name of the player.
+ */

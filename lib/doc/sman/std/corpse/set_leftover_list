@@ -1,0 +1,10 @@
+516:/std/corpse.c (/std/corpse.c)
+(varargs public void) set_leftover_list(mixed list)
+/*
+ * Function name: set_leftover_list
+ * Description:   Sets the leftovers (at death) to the body.
+ *                The returned list should be an array of arrays, containing
+ *                the following entries:
+ *                  ({ ({ objpath, organ, nitems, vbfc, hard, cut, foodproc }), ... })
+ * Arguments:     mixed list - The leftover list to use.
+ */

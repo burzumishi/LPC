@@ -1,0 +1,10 @@
+769:/std/poison_effect.c (/std/poison_effect.c)
+(public void) linkdeath_hook(object player, int linkdeath)
+/*
+ * Function name: linkdeath_hook()
+ * Description  : When the player who is poisoned loses his link, then we
+ *                suspend the poison until the person revives.
+ * Arguments    : object player - the player we poisoned.
+ *                int linkdeath - 1/0 - if true, the player linkdies,
+ *                    else he revives.
+ */

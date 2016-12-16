@@ -1,0 +1,11 @@
+644:/cmd/live/speech.c (/cmd/live/speech.c)
+(string) race_text(string race, string text)
+/*
+ * Function name: race_text
+ * Description  : Support routine for rsay to modify the spoken text to the
+ *                recipients. It depends on your language skill how much
+ *                you actually understand.
+ * Arguments    : string race - the race of the person who speaks.
+ *                string text - the spoken words.
+ * Returns      : string - the (il)legible text.
+ */

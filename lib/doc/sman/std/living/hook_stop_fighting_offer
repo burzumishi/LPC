@@ -1,0 +1,16 @@
+1199:/std/living/combat.c (/std/living.c)
+(public void) hook_stop_fighting_offer(object attacker)
+/*
+ * Function name: hook_stop_fighting_offer
+ * Description  : When a living makes the offer to stop fighting, this hook
+ *                is called in the target. It allows you to code an NPC that
+ *                can actually accept the offer, or it can be used in a guild,
+ *                for instance, to force the person to accept the offer under
+ *                certain circumstances.
+ *                All messages have been printed by the time this function is
+ *                called, so the reaction may be instant and without alarm. To
+ *                let this living accept the offer, make him do:
+ *                    command("stop fighting " + OB_NAME(attacker));
+ * Arguments    : object attacker - the living making us the offer to stop
+ *                    fighting.
+ */

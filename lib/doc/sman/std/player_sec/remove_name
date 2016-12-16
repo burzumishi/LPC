@@ -1,0 +1,7 @@
+126:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask void) remove_name(mixed n)
+/*
+ * Function name:   remove_name
+ * Description:     Remove a certain name
+ * Arguments:       n: A string or a pointer of strings of names
+ */

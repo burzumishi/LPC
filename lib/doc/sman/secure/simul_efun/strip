@@ -1,0 +1,10 @@
+1355:/secure/simul_efun.c (/secure/simul_efun.c)
+(nomask string) strip(string str)
+/*
+ * Strip spaces and newlines from both ends of a string.
+ *
+ * NB! Obvious candidate for driver efun implementation later.
+ *
+ * Arguments: str - the string to strip
+ * Returns:   The stripped string.
+ */

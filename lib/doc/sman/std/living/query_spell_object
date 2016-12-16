@@ -1,0 +1,7 @@
+251:/std/living/spells.c (/std/living.c)
+(public object) query_spell_object()
+/*
+ * Function name: query_spell_object
+ * Description:   Get the current spell object (if any)
+ * Returns:       The spell object responsible for the spell being cast
+ */

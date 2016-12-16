@@ -1,0 +1,8 @@
+411:/std/room/description.c (/std/room.c)
+(void) set_searched(int i)
+/*
+ * Function name: set_searched
+ * Description:   Set the searched times number, perhaps there grow some new
+ *                herbs at reset?
+ * Arguments:     i - The new search number
+ */

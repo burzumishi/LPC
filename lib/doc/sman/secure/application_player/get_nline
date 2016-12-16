@@ -1,0 +1,8 @@
+181:/secure/application_player.c (/secure/application_player.c)
+(static void) get_nline(string str)
+/*
+ * Function name: get_nline
+ * Description  : Get new line. This function waits until the player pressed
+ *                'return' when the script wants him to.
+ * Arguments    : string str - the newline.
+ */

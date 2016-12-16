@@ -1,0 +1,7 @@
+242:/lib/trade.c (/lib/trade.c)
+(void) set_money_accept(int *a)
+/*
+ * Function name: set_money_accept
+ * Description:   Set what coins we accept as payment
+ * Arguments:     a - The array of flags (1 integers)
+ */

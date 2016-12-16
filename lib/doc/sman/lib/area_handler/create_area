@@ -1,0 +1,8 @@
+42:/lib/area_handler.c (/lib/area_handler.c)
+(public void) create_area()
+/*
+ * create_area
+ *
+ * It's intended that this function should be masked by the user
+ * of this object.
+ */

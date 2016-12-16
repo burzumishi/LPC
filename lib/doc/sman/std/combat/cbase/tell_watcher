@@ -1,0 +1,9 @@
+684:/std/combat/cbase.c (/std/combat/cbase.c)
+(varargs void) tell_watcher(string str, mixed enemy, mixed arr)
+/* 
+ * Function name: tell_watcher
+ * Description:   Send the string from the fight to people that want them
+ * Arguments:     str   - The string to send
+ *                enemy - Who the enemy was
+ *                arr   - Array of objects never to send message
+ */

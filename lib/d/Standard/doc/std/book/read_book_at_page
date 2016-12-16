@@ -1,0 +1,10 @@
+259:/std/book.c (/std/book.c)
+(varargs void) read_book_at_page(int which, string verb)
+/*
+ * Function name: read_book_at_page
+ * Description:   should be redefined in your book. is called from read_me
+ * Arguments:	  which - read the book at which page
+ *		  verb  - If the player wanted to read it, or mread it.
+ *			  To mread something, you can look how the scoll.c does
+ *			  it in read_it() if needed.
+ */

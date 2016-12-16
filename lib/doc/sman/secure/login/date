@@ -1,0 +1,9 @@
+399:/secure/login.c (/secure/login.c)
+(public void) date()
+/*
+ * Function name: date
+ * Description  : Before people are asked to queue, we give them some
+ *                information on the uptime of the game, so they won't
+ *                have to wait a long time to get into a game that is
+ *                about to reboot.
+ */

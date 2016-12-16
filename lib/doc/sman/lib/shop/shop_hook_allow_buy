@@ -1,0 +1,9 @@
+161:/lib/shop.c (/lib/shop.c)
+(int) shop_hook_allow_buy(object ob)
+/*
+ * Function name: shop_hook_allow_buy
+ * Description:   A hook to use if you want to test the object further if you
+ *		  allow it to be bought
+ * Arguments:	  ob - The object player wants to buy.
+ * Returns:	  1 if we allow it to be bought (default)
+ */

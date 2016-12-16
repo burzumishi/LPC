@@ -1,0 +1,9 @@
+9:/sys/global/math.c (/sys/global/math.c)
+(public nomask int) find_exp(int sum)
+/*
+ * Function name: find_exp
+ * Called from  : MATH_FIND_EXP(sum) in <math.h>
+ * Description  : Find the solution to 2^x = sum.
+ * Arguments    : int sum - The sum to find the solution to.
+ * Returns      : int - x
+ */

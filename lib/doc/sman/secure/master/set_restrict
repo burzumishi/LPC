@@ -1,0 +1,9 @@
+2733:/secure/master/fob.c (/secure/master.c)
+(int) set_restrict(string wiz, int res)
+/*
+ * Function name: set_restrict
+ * Description  : This function is used to impose a restriction on a
+ *                wizard of some kind.
+ * Arguments    : string wiz - The wizard to restrict.
+ *                int res - The restriction to impose.
+ */

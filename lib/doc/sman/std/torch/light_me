@@ -1,0 +1,7 @@
+362:/std/torch.c (/std/torch.c)
+(public int) light_me()
+/*
+ * Function name: light_me
+ * Description:   Actual routine to light this torch.
+ * Returns:       1/0 - success/failure
+ */

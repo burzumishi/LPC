@@ -1,0 +1,7 @@
+444:/lib/guild_support.c (/lib/guild_support.c)
+(int) gs_rise()
+/*
+ * Function name: gs_rise
+ * Description  : Player rises from meditation.
+ * Returns      : int 1 - always.
+ */

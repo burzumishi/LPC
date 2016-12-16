@@ -1,0 +1,11 @@
+610:/std/armour.c (/std/armour.c)
+(public varargs void) set_default_armour(int ac, int at, int *am, object af)
+/*
+ * Function name: set_default_armour
+ * Description  : This routine is a shortcut function for the following:
+ *                  set_ac(ac);
+ *                  set_at(at);
+ *                  set_am(am);
+ *                  set_af(af);
+ * Arguments    : See the referred routines.
+ */

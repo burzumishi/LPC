@@ -1,0 +1,8 @@
+127:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public void) set_spell_effect_caster(object caster)
+/*
+ * Function name: set_spell_effect_caster
+ * Description:   Designate the origin of the spell effect, the
+ *                caster of the spell.
+ * Arguments:     object caster - the spell caster
+ */

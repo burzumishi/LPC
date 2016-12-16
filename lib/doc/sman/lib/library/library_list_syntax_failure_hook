@@ -1,0 +1,9 @@
+405:/lib/library.c (/lib/library.c)
+(public int) library_list_syntax_failure_hook(string str)
+/*
+ * Function name: library_list_syntax_failure_hook
+ * Description:   Redefine this to alter the message given when
+ *                incorrect syntax is used for the "list" command
+ * Arguments:     string str - the arguments to the "list" command
+ * Returns:       1/0
+ */

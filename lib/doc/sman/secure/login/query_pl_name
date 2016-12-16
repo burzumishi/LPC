@@ -1,0 +1,7 @@
+128:/secure/login.c (/secure/login.c)
+(string) query_pl_name()
+/*
+ * Function name: query_pl_name
+ * Description  : Return the real name of the player who is trying to log in.
+ * Returns      : string - the name.
+ */

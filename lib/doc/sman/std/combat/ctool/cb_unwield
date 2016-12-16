@@ -1,0 +1,8 @@
+137:/std/combat/ctool.c (/std/combat/ctool.c)
+(public void) cb_unwield(object wep)
+/*
+ * Function name: unwield
+ * Description:   Unwield a weapon.
+ * Arguments:     wep - The weapon to unwield.
+ * Returns:       None.
+ */

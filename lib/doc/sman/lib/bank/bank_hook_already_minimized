@@ -1,0 +1,6 @@
+146:/lib/bank.c (/lib/bank.c)
+(void) bank_hook_already_minimized()
+/*
+ * Function name: bank_hook_already_minimized
+ * Description:   Write this when your coins already are minimized
+ */

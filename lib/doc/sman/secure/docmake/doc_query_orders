@@ -1,0 +1,5 @@
+114:/secure/docmake.c (/secure/docmake.c)
+(public mixed *) doc_query_orders()
+/*
+ * Call this to get a copy of the orders pending
+ */

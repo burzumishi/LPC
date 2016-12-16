@@ -1,0 +1,8 @@
+436:/secure/master/fob.c (/secure/master.c)
+(int) remove_domain(string dname)
+/*
+ * Function name: remove_domain
+ * Description  : Remove a domain, demote the wizards, move the code.
+ * Arguments    : string dname - the domain to remove.
+ * Returns      : int 1/0 - success/failure.
+ */

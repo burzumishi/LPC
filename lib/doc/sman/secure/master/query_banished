@@ -1,0 +1,9 @@
+3741:/secure/master.c (/secure/master.c)
+(public int) query_banished(string name)
+/*
+ * Function name: query_banished
+ * Description  : Find out whether a name has been banished for use by
+ *                new players.
+ * Arguments    : string name - the name to check for banishment.
+ * Returns      : int 1/0     - true when the name has been banished.
+ */

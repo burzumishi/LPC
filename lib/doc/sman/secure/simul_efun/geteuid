@@ -1,0 +1,9 @@
+643:/secure/simul_efun.c (/secure/simul_efun.c)
+(varargs mixed) geteuid(object ob = previous_object()
+/*
+ * Function name: geteuid
+ * Description:   Returns the euid of an object
+ * Arguments:     object ob - the object to get the euid for.  If not
+ *                            specified, previous_object() is used.
+ * Returns:       string - the object's euid.
+ */

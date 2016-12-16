@@ -1,0 +1,7 @@
+400:/std/room/description.c (/std/room.c)
+(mixed) query_herb_files()
+/*
+ * Function name: query_herb_files
+ * Description:   Query the herb files
+ * Returns:       The herb array or 0.
+ */

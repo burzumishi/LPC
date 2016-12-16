@@ -1,0 +1,7 @@
+368:/secure/master/notify.c (/secure/master.c)
+(static void) graph_process_data()
+/*
+ * Function name: graph_process_data
+ * Description  : This function is called once per hour to process the data
+ *                gathered at the resets.
+ */

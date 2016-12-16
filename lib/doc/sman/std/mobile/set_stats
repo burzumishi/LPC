@@ -1,0 +1,18 @@
+256:/std/mobile.c (/std/mobile.c)
+(varargs public void) set_stats(int *stats, int deviation = 0)
+/*
+ * Function name: set_stats
+ * Description  : Allows to set all stats of an NPC in a single call. The
+ *                order is the same as the default stat order (see ss_types.h)
+ *                and both general stats and guild stats may be set. It is
+ *                possible to give a deviation from the basic values to add
+ *                randomness.
+ * Arguments    : int *stats - Array of stat values in order of the basic stat
+ *                    list. The array may include both base stats and guild
+ *                    stats. The length of the array may vary.
+ *              : int deviation - The deviation in percentage from the value
+ *                    that you set which will be randomly applied per stat.
+ *                    A stat value of 50 and a deviation of 10% leads to a
+ *                    stat value in the range 45-55. Maximum deviation: 50%
+ *                    Default: 0%
+ */

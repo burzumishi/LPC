@@ -1,0 +1,8 @@
+191:/obj/possob.c (/obj/possob.c)
+(public int) think(string arg)
+/*
+ * Function name: think
+ * Description  : Allows the sadly possessed to think, the only way to
+ *                communicated with the demon in charge of his body.
+ * Arguments    : string arg - the thought.
+ */

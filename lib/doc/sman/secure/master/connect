@@ -1,0 +1,10 @@
+350:/secure/master.c (/secure/master.c)
+(static object) connect()
+/*
+ * Function name: connect
+ * Description  : This function is called every time a player connects. We
+ *                return a clone of the login object through which the socket
+ *                of the new player is connected.
+ *                The efun input_to() cannot be called from here.
+ * Returns      : object - the login object.
+ */

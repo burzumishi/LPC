@@ -1,0 +1,10 @@
+2398:/secure/master.c (/secure/master.c)
+(int) valid_inherit(object ob, string inherit_file)
+/*
+ * Function name: valid_save_binary
+ * Description  : This function is called when a file has asked to inherit
+ *                object. This might not be allowed by any and every file so
+ *                master is asked.
+ * Arguments    : object ob - the object to inherit withing to inherit.
+ *                string inherit_filename - the filename to be inherited.
+ */

@@ -1,0 +1,9 @@
+2000:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) get_subject(string str)
+/*
+ * Function name: get_subject
+ * Description  : Let the player type the subgect of the mail. If the
+ *                player replies to another message, the input may be
+ *                an empty string.
+ * Arguments    : string str - the subject from the player.
+ */

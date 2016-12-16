@@ -1,0 +1,7 @@
+70:/secure/armageddon.c (/secure/armageddon.c)
+(static void) shutdown_info_domain_link(int level)
+/*
+ * Function name: shutdown_info_domain_link
+ * Description  : Inform the domain links of the shutdown status.
+ * Arguments    : int level - one of the definitions as per <const.h>
+ */

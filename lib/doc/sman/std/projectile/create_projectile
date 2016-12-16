@@ -1,0 +1,7 @@
+26:/std/projectile.c (/std/projectile.c)
+(public void) create_projectile()
+/*
+ * Function name: create_projectile
+ * Description  : Constructor. Mask this function if you want to create a
+ *                projectile.
+ */

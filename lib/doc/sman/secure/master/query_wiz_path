@@ -1,0 +1,8 @@
+2336:/secure/master/fob.c (/secure/master.c)
+(string) query_wiz_path(string wname)
+/*
+ * Function name: query_wiz_path
+ * Description  : Gives a default path for a wizard
+ * Arguments    : string wname - the wizard name.
+ * Returns      : string - the default path for the wizard.
+ */

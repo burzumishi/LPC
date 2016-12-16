@@ -1,0 +1,6 @@
+27:/obj/remote_npc.c (/obj/remote_npc.c)
+(public void) create_object()
+/*
+ * Function name: create_object
+ * Description  : This function is called when the object is created.
+ */

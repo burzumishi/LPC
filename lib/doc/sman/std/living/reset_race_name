@@ -1,0 +1,7 @@
+297:/std/living/savevars.c (/std/living.c)
+(public void) reset_race_name()
+/*
+ * Function name: reset_race_name
+ * Description  : Called in order to re-set the race name of a player to
+ *                the base race. This function is irrelevant for NPC's.
+ */

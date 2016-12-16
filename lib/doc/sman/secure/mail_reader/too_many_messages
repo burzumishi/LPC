@@ -1,0 +1,10 @@
+923:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) too_many_messages()
+/*
+ * Function name: too_many_messages
+ * Description  : This function will return true if the number of messages
+ *                in the mailbox is too large. If this is the case, a message
+ *                is printed. Wizards are not limited in the size of their
+ *                mailbox.
+ * Returns      : int 1/0 - too many messages or not.
+ */

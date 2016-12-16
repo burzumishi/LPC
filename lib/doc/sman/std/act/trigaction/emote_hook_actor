@@ -1,0 +1,11 @@
+261:/std/act/trigaction.c (/std/act/trigaction.c)
+(public void) emote_hook_actor(string emote, object *oblist)
+/*
+ * Function name: emote_hook_actor
+ * Description  : Whenever a living performs an emote on others, this hook is
+ *                called. This way we can avoid the usage of all those costly
+ *                triggers.
+ * Arguments    : string emote - the name of the emotion performed. This
+ *                    always is the command the player typed, query_verb().
+ *                object *oblist - the targets of the emotion.
+ */

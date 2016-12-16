@@ -1,0 +1,13 @@
+1841:/secure/master/fob.c (/secure/master.c)
+(static void) do_change_rank(string wname, int rank, string cmder)
+/*
+ * Function name: do_change_rank
+ * Description  : This function actually changes the rank of the person.
+ *                It is an internal function that does not make any
+ *                additional checks. They should have been made earlier.
+ *                When someone is made liege, the previous liege is made
+ *                into normal wizard.
+ * Arguments    : string wname - the wizard who rank is changed.
+ *                int rank     - the new rank of the wizard.
+ *                string cmder - who forces the change.
+ */

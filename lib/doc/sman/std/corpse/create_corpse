@@ -1,0 +1,6 @@
+40:/std/corpse.c (/std/corpse.c)
+(void) create_corpse()
+/*
+ * Function name: create_corpse
+ * Description  : Constructor. Define this routine to create your own corpse.
+ */

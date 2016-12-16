@@ -1,0 +1,11 @@
+758:/lib/commands.c (/lib/commands.c)
+(public string) check_adverb_with_space(string str, string def_adv)
+/*
+ * Function name: check_adverb_with_space
+ * Description  : This function returns the adverb from check_adverb with a
+ *                preceding space if it is an adverb and it returns an empty
+ *                string if the adverb was the special adverb that means that
+ *                the player does not want an adverb.
+ * Arguments    : see check_adverb
+ * Returns      : see check_adverb, the description and <adverbs.h>
+ */

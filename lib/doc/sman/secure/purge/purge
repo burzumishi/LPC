@@ -1,0 +1,9 @@
+307:/secure/purge.c (/secure/purge.c)
+(public nomask void) purge(string str)
+/*
+ * Function name: purge
+ * Description  : Clean out old and idle playercharacters. You need to be
+ *                an archwizard or keeper to be allowed to execute the
+ *                purge command or you may find your own character purged.
+ * Arguments    : string str - the command line argument.
+ */

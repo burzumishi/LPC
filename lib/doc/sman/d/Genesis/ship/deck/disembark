@@ -1,0 +1,10 @@
+182:/d/Genesis/ship/deck.c (/d/Genesis/ship/deck.c)
+(varargs public int) disembark(mixed what)
+/*
+ * Function name: disembark
+ * Description  : Allow a player to leave the ship if the ship is in a room
+ *		  that is NOT of water type
+ * Arguments    : what - what we want to leave, if 0 the command have to be
+ *		  disembark for the command to work.
+ * Returns      : 1 - success, 0 - wrong parameters
+ */

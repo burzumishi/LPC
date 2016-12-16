@@ -1,0 +1,6 @@
+1374:/std/door.c (/std/door.c)
+(string) query_door_id()
+/*
+ * Function name: query_door_id
+ * Description:   Query the id of the door
+ */

@@ -1,0 +1,8 @@
+2022:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask string *) mk_discard_list(string spath)
+/*
+ * Function name: mk_discard_list
+ * Description:	  Help function to create a list of discarded boards
+ * Arguments:	  spath - the board to discard
+ * Returns:	  ({ spath, rpath })
+ */

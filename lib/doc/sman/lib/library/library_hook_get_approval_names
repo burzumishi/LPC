@@ -1,0 +1,11 @@
+1481:/lib/library.c (/lib/library.c)
+(public mixed) library_hook_get_approval_names()
+/*
+ * Function name: library_hook_get_approval_names
+ * Description  : This routine can be redefined in the library code to provide
+ *                the names of the players who are authorized to approve books
+ *                before they are added to the library. If this is the case,
+ *                those players will receive a mail informing them of the fact
+ *                that a new book has been submitted.
+ * Returns      : string * - the list of names (in lower case).
+ */

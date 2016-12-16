@@ -1,0 +1,8 @@
+58:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(string) query_race()
+/*
+ * Function name: query_race
+ * Description  : Returns the "true" race for this player. This function
+ *                is masked in the individual standard race files.
+ * Returns      : string "human" - here, will be masked.
+ */

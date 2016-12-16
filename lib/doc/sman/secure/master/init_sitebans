@@ -1,0 +1,8 @@
+47:/secure/master/siteban.c (/secure/master.c)
+(static void) init_sitebans()
+/*
+ * Function name: init_sitebans
+ * Description  : Called at boot-time, and whenever the sitebans list has been
+ *                updated to create separate lists of sites that have been
+ *                banned nonew or nologin.
+ */

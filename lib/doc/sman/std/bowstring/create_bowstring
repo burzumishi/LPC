@@ -1,0 +1,7 @@
+16:/std/bowstring.c (/std/bowstring.c)
+(private void) create_bowstring()
+/*
+ * Function name: create_bowstring
+ * Description  : Redefine this function to create your own
+ *                bowstring.
+ */

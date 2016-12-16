@@ -1,0 +1,9 @@
+397:/std/armour.c (/std/armour.c)
+(varargs void) remove_broken(int silent = 0)
+/*
+ * Function name: remove_broken
+ * Description  : The armour got broken so we remove it from the
+ *                player.
+ * Arguments    : int silent - true if no message should be generated
+ *                             about the fact that the armour breaks.
+ */

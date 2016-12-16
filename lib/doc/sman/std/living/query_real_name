@@ -1,0 +1,8 @@
+107:/std/living/description.c (/std/living.c)
+(public string) query_real_name()
+/*
+ * Function name:   query_real_name
+ * Description:     Returns the lowercase name of this living.
+ *                  E.g.: "fatty".
+ * Returns:         The name
+ */

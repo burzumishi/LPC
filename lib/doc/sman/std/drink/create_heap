@@ -1,0 +1,7 @@
+58:/std/drink.c (/std/drink.c)
+(public nomask void) create_heap()
+/*
+ * Function name: create_heap
+ * Description  : Constructor. It calls create_drink(), the function you
+ *                must redefine. The default heap-size is 1.
+ */

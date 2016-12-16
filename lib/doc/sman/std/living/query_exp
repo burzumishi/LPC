@@ -1,0 +1,8 @@
+757:/std/living/savevars.c (/std/living.c)
+(public int) query_exp()
+/*
+ * Function name: query_exp
+ * Description  : Gives the total amount of experience of the living,
+ *                i.e. quest, combat and general experience together.
+ * Returns      : int - the experience points.
+ */

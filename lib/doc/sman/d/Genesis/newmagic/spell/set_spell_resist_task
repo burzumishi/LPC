@@ -1,0 +1,8 @@
+397:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_resist_task(int task)
+/* 
+ * Function name: set_spell_resist_task
+ * Description:   Set the difficulty level for resisting the spell.  Use the
+ *                task difficulties as found in /sys/tasks.h
+ * Arguments:     1. (int) The task difficulty
+ */

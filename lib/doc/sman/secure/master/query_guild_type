@@ -1,0 +1,9 @@
+225:/secure/master/guild.c (/secure/master.c)
+(public int) query_guild_type(string short_name)
+/*
+ * Function name: query_guild_type
+ * Description  : Query the type of a particular guild. This is a conjunction
+ *                of G_RACE, G_LAYMAN and/or G_OCCUPATIONAL.
+ * Arguments    : string short_name - the short name of the guild.
+ * Returns      : int - the type of the guild, else 0.
+ */

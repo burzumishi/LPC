@@ -1,0 +1,11 @@
+228:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public int) query_spell_time(string verb, mixed arg)
+/*
+ * Function name: query_spell_time
+ * Description:   It is called from cmdhooks.c, and should return the time
+ *                in seconds it takes to prepare the spell. The actual time
+ *                will be (time + 2 + LIVE_I_ATTACK_DELAY).
+ * Arguments:     verb - The verb that initiated this spell.
+ *                arg  - The arguments to the verb.
+ * Returns:       The time in seconds.
+ */

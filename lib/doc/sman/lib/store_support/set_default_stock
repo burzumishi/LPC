@@ -1,0 +1,22 @@
+201:/lib/store_support.c (/lib/store_support.c)
+(void) set_default_stock(mixed stock)
+/*
+ * Function name: set_default_stock
+ * Descripton   : Set the default stock for this store room. Every time the
+ *                room resets, the store will be updated to contain a minimum
+ *                stock.
+ *                The default stock is represented as an array of the form:
+ *
+ *                ({ (string)filename1, (int)stock1, 
+ *                   (string)filename2, (int)stock2,
+ *                })
+ *
+ * Arguments    : mixed - the default stock.
+ * Example      : An example of the default stock might be (for a default of
+ *                two ponchos, one oil lamp and five flasks of lamp oil):
+ *
+ *                ({ "/d/Domain/arm/poncho", 2,
+ *                   "/d/Domain/obj/oil_lamp", 1,
+ *                   "/d/Domain/obj/lamp_oil", 5
+ *                })
+ */

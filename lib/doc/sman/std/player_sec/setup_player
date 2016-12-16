@@ -1,0 +1,9 @@
+582:/std/player_sec.c (/std/player_sec.c)
+(private static nomask int) setup_player(string pl_name)
+/*
+ * Function name: setup_player
+ * Description:   Restore player variables from the player file and go through
+ *                startup routines.
+ * Arguments:     (string) pl_name - The player's name
+ * Returns:       True if setup completed normally
+ */

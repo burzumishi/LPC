@@ -1,0 +1,7 @@
+248:/secure/application_player.c (/secure/application_player.c)
+(nomask public int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : Prevent shadowing of this object.
+ * Returns      : int 1 - always.
+ */

@@ -1,0 +1,8 @@
+646:/lib/library.c (/lib/library.c)
+(public void) library_classify_prompt_shelf_input_hook(string title)
+/*
+ * Function name: library_classify_prompt_shelf_input_hook
+ * Description:   Redefine this to alter the message given to prompt
+ *                the user to input a shelf name
+ * Arguments:     string title - the title of the book being classified
+ */

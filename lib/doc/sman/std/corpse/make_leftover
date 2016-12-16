@@ -1,0 +1,8 @@
+305:/std/corpse.c (/std/corpse.c)
+(void) make_leftover(mixed leftovers, object dest)
+/*
+ * Function name: make_leftover
+ * Description  : Called to create the leftover and move it to its destination.
+ * Arguments    : mixed leftovers - The leftover array.
+ *                object dest - the destination.
+ */

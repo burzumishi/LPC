@@ -1,0 +1,9 @@
+2735:/secure/master.c (/secure/master.c)
+(public int) rename_playerfile(string oldname, string newname)
+/*
+ * Function name: rename_playerfile
+ * Description  : This renames a player.
+ * Arguments    : string oldname - the old name of the player.
+ *                string newname - the new name of the player.
+ * Returns      : int 1/0 - success/failure.
+ */

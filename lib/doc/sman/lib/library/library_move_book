@@ -1,0 +1,9 @@
+766:/lib/library.c (/lib/library.c)
+(public int) library_move_book(string book_file, string new_dir)
+/*
+ * Function name: library_move_book
+ * Description:   Move a book file to another directory.
+ * Arguments:     string book_file - the filename of the book file
+ *                string new_dir   - the destination directory
+ * Returns:       1/0 - move successful/unsuccessful
+ */

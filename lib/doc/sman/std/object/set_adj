@@ -1,0 +1,10 @@
+1359:/std/object.c (/std/object.c)
+(public void) set_adj(mixed adj)
+/*
+ * Function name: set_adj
+ * Description  : This function adds adjectives to the list of adjectives
+ *                of this object. The adjectives are added on top of the
+ *                list.
+ * Arguments    : mixed adj - either a string or array of string with the
+ *                            adjectives to add.
+ */

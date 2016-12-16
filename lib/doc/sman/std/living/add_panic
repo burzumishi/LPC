@@ -1,0 +1,7 @@
+921:/std/living/combat.c (/std/living.c)
+(public void) add_panic(int dpan)
+/*
+ * Function name:   add_panic
+ * Description:     Adjust the panic level.
+ * Arguments:       dpan: The panic increase/decrease
+ */

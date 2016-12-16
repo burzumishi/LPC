@@ -1,0 +1,10 @@
+232:/std/room.c (/std/room.c)
+(public void) update_internal(int l, int w, int v)
+/* 
+ * Function name: update_internal
+ * Description:   Updates the light, weight and volume of things inside
+ *                also updates a possible connected container.
+ * Arguments:     l: Light diff.
+ *		  w: Weight diff. (Ignored)
+ *		  v: Volume diff. (Ignored)
+ */

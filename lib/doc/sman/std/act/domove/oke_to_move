@@ -1,0 +1,11 @@
+319:/std/act/domove.c (/std/act/domove.c)
+(mixed) oke_to_move(string exit)
+/*
+ * Function name: oke_to_move
+ * Description:   Checks whether the npc is fighting someone, if he is in
+ *                in combat, the move-command will be delayed till the 
+ *                war is over.
+ * Arguments:     exit  : the exit that is generated for the monster to take.
+ * Returns:       0     : if in combat
+ *                string: the exit that the monster takes if not in combat.
+ */

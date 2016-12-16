@@ -1,0 +1,22 @@
+750:/std/object.c (/std/object.c)
+(varargs public int) move(mixed dest, mixed subloc)
+/*
+ * Function name: move
+ * Description:   Move this object to the destination given by string /
+ *                obj. If the second parameter exists then weight
+ *                accounting and tests on destination is not done.
+ * Arguments:     dest: Object or filename to move to,
+ *                subloc: 1 == Always move, otherwise name of sublocation
+ * Returns:       Result code of move:
+                  0: Success.
+                  1: To heavy for destination.
+                  2: Can't be dropped.
+                  3: Can't take it out of it's container.
+                  4: The object can't be inserted into bags etc.
+                  5: The destination doesn't allow insertions of objects.
+                  6: The object can't be picked up.
+                  7: Other (Error message printed inside move() func)
+                  8: Too big volume for destination
+                  9: The container is closed, can't remove
+                 10: The container is closed, can't put object there
+ */

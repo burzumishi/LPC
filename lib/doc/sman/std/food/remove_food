@@ -1,0 +1,7 @@
+154:/std/food.c (/std/food.c)
+(public void) remove_food()
+/*
+ * Function name: remove_food
+ * Description:   Reduce the number of items in this heap after a split_heap()
+ *                or remove the heap if there are no items left.
+ */

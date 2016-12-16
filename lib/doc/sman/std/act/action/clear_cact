@@ -1,0 +1,6 @@
+194:/std/act/action.c (/std/act/action.c)
+(void) clear_cact()
+/*
+ * Function name: clear_cact
+ * Description:   clears cact's for a monster
+ */

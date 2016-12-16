@@ -1,0 +1,8 @@
+117:/secure/master/mail_admin.c (/secure/master.c)
+(void) mail_tell_wizard(string str)
+/*
+ * Function name: mail_tell_wizard
+ * Description  : Give a message to the wizard handling the mailadmin
+ *                command.
+ * Arguments    : string str - the message to give to the wizard.
+ */

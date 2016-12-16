@@ -1,0 +1,8 @@
+785:/std/heap.c (/std/heap.c)
+(int) add_prop_obj_i_volume(mixed val)
+/*
+ * Function name: add_prop_obj_i_volume
+ * Description:   Hook to avoid wrong settings of OBJ_I_VOLUME in a heap
+ * Arguments:     val - The value OBJ_I_VOLUME is intended to be set to
+ * Returns:       1 - If OBJ_I_VOLUME shouldn't get this new setting.
+ */

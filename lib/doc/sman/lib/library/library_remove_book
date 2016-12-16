@@ -1,0 +1,9 @@
+743:/lib/library.c (/lib/library.c)
+(public void) library_remove_book(string filename)
+/*
+ * Function name: library_remove_book
+ * Description:   Remove a book from the library.  If a removal directory
+ *                is specified, the file will be moved there; otherewise,
+ *                it is deleted.
+ * Arguments:     string filename - the filename of the book file
+ */

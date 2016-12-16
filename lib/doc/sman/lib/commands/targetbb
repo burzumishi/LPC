@@ -1,0 +1,9 @@
+211:/lib/commands.c (/lib/commands.c)
+(public varargs void) targetbb(string str, object *oblist, string adverb = "", int cmd_attr = 0)
+/*
+ * Function name: targetbb
+ * Description  : Same as the function target(), though if the target cannot
+ *                see the actor, nothing is printed.
+ * Example      : targetbb(" smiles happily.", oblist);
+ * Arguments    : see target().
+ */

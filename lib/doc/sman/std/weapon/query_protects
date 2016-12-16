@@ -1,0 +1,8 @@
+644:/std/weapon.c (/std/weapon.c)
+(int *) query_protects()
+/*
+ * Function name: query_protects
+ * Description  : Find out the slots the weapon protects. A weapon protects
+ *                the whole arm when wielded in a hand.
+ * Returns      : int * - the slots.
+ */

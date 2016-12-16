@@ -1,0 +1,7 @@
+280:/std/book.c (/std/book.c)
+(string) query_gPage()
+/*
+ * Function name: query_gPage
+ * Description:   Ask what page info the player gave.
+ * Returns:	  The same string the player gave
+ */

@@ -1,0 +1,12 @@
+28:/std/combat/unarmed.c (/std/combat/unarmed.c)
+(public varargs void) set_attack_unarmed(int aid, int wchit, int wcpen, int dt, int puse,  		   string adesc)
+/*
+ * Description: Set data for a specific attack
+ * Arguments:   aid: One of W_something (as defined in /sys/wa_types.h)
+ *             wchit: Weapon class to hit
+ *             wcpen: Weapon class penetration
+ *	       dt:    Damage type
+ *             puse:  Chance of use each turn
+ *	       adesc: A string desc of the attack, ie "right claw" etc
+ * 
+ */

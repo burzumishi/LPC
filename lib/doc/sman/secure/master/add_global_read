@@ -1,0 +1,10 @@
+2455:/secure/master/fob.c (/secure/master.c)
+(int) add_global_read(string wname, string comment)
+/*
+ * Function name: add_global_read
+ * Description  : Add a wizard to the global read list.
+ * Arguments    : string wname   - the name of the wiz to be added.
+ *                string comment - a suitable comment to store along with
+ *                                 the name telling why the player has it.
+ * Returns      : int 1/0 - success/failure.
+ */

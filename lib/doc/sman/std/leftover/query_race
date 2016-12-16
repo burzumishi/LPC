@@ -1,0 +1,7 @@
+147:/std/leftover.c (/std/leftover.c)
+(public string) query_race()
+/*
+ * Function name: query_race
+ * Description  : Returns the race as set with leftover_init().
+ * Returns      : string - the race.
+ */

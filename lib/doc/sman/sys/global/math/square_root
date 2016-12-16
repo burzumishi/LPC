@@ -1,0 +1,13 @@
+107:/sys/global/math.c (/sys/global/math.c)
+(public nomask int) square_root(int square)
+/*
+ * Function name: square_root
+ * Called from  : SQUARE_ROOT(square) in <math.h>
+ * Description  : Find the x for which x^2 = y, the square root
+ *                If y < 0, x will be 0. The result is truncated.
+ *
+ *                For floats, use: float pow(float value, float exponent)
+ *
+ * Arguments    : int square - the square to find the root to
+ * Returns      : int - the root
+ */

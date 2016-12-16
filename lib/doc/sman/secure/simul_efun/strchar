@@ -1,0 +1,9 @@
+948:/secure/simul_efun.c (/secure/simul_efun.c)
+(public string) strchar(int x)
+/*
+ * Function name: strchar
+ * Description:   Convert an integer from 0 to 255 to its corresponding
+ *                letter.
+ * Arguments:     int x - the integer to convert
+ * Returns:       string - the corresponding letter.
+ */

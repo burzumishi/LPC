@@ -1,0 +1,8 @@
+119:/std/living/description.c (/std/living.c)
+(public string) query_name()
+/*
+ * Function name:   query_name
+ * Description:     Returns the capitalized name of this living.
+ *                  E.g.: "Fatty".
+ * Returns:         The name
+ */

@@ -1,0 +1,9 @@
+699:/secure/mail_reader.c (/secure/mail_reader.c)
+(static string *) convert_to_names(string *list)
+/*
+ * Function name: convert_to_names
+ * Description  : Change the list of domain- and player names, together
+ *                with the aliases to a list of player names only.
+ * Arguments    : string *list - a list of domains and names
+ * Returns      : string *     - the list with only names
+ */

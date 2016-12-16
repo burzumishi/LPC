@@ -1,0 +1,8 @@
+28:/std/key.c (/std/key.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Initialize this object. It will set a few default
+ *                variables. You may not mask this function. Define the
+ *                function create_key() instead.
+ */

@@ -1,0 +1,8 @@
+978:/std/receptacle.c (/std/receptacle.c)
+(public string) stat_object()
+/*
+ * Function name: stat_object
+ * Description  : This function is called when a wizard wants to know more
+ *                about the container.
+ * Returns      : string - the stats of the container.
+ */

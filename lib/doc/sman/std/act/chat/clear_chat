@@ -1,0 +1,6 @@
+86:/std/act/chat.c (/std/act/chat.c)
+(void) clear_chat()
+/*
+ * Function name: clear_chat
+ * Description:   Clear random chatstring
+ */

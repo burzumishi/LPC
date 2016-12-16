@@ -1,0 +1,7 @@
+27:/std/book.c (/std/book.c)
+(public void) create_book()
+/*
+ * Function name: create_book
+ * Description:   creates a default book
+ *                change it to make your own book
+ */

@@ -1,0 +1,9 @@
+2526:/secure/master.c (/secure/master.c)
+(static void ) remove_interactive(object ob, int linkdied)
+/*
+ * Function name: remove_interactive
+ * Description  : Called from GD if a player logs out or goes linkdead. If
+ *                the player quit the game, we don't do anything.
+ * Arguments    : object ob    - the player that leaves the game.
+ *                int linkdead - true if the player linkdied.
+ */

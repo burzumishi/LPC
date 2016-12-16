@@ -1,0 +1,8 @@
+142:/std/torch.c (/std/torch.c)
+(public varargs string) plural_short(object for_obj)
+/*
+ * Function name: short, pshort, long
+ * Description:   We change the short, plural short and long description of
+ *		  the torch if it's lit, default settings.
+ * Returns:	  The description.
+ */

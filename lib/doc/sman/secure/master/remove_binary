@@ -1,0 +1,12 @@
+2650:/secure/master.c (/secure/master.c)
+(public int) remove_binary(string path)
+/*
+ * Function name: remove_binary
+ * Description  : This function removes a binary file from the game. This
+ *                is (presently) necessary when updating a file because
+ *                otherwise the binary isn't updated when you move an older
+ *                file over it.
+ * Arguments    : string path - the fully qualified path to the file,
+ *                     excluding the "/binaries" part.
+ * Returns      : int 1/0 - success/failure.
+ */

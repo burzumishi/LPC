@@ -1,0 +1,10 @@
+433:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(object *) find_str_in_object(string str, object ob)
+/*
+ * Function name: find_str_in_object
+ * Description:   Will search through an object and try to find objects matching
+ *		  the given string.
+ * Arguments:	  str - The string to look for
+ *		  ob  - The object to look in
+ * Returns:	  An array with corresponding objects, empty if no match
+ */

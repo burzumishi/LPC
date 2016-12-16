@@ -1,0 +1,12 @@
+1237:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) print_headers(int select, string spath, int lnote, string order, string oitem)
+/*
+ * Function name: print_headers
+ * Description:	  Print the headers of a board
+ * Arguments:	  select - what to show
+ *		  spath - board save path
+ *		  lnote - last read note
+ *		  order - order
+ *		  oitem - order item
+ * Returns:	  Error code, if any
+ */

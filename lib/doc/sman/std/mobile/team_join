@@ -1,0 +1,8 @@
+70:/std/mobile.c (/std/mobile.c)
+(int) team_join(object member)
+/*
+ * Function name: team_join
+ * Description:   Sets this living as the leader of another
+ * Arguments:	  member: The objectpointer to the new member of my team
+ * Returns:       True if member accepted in the team
+ */

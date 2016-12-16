@@ -1,0 +1,12 @@
+115:/cmd/live/speech.c (/cmd/live/speech.c)
+(public void) notify_speech(string verb, string adverb, object *oblist, string text)
+/*
+ * Function name: notify_speech
+ * Description  : This function is used by the various speech methods to
+ *                notify the other livings in the room about the speech.
+ * Arguments    : string verb - the verb the player used.
+ *                string adverb - the adverb of the speech with prefix
+ *                    space or "" if no adverb.
+ *                object *oblist - the targets of the speech, if any.
+ *                string text - the text spoken.
+ */

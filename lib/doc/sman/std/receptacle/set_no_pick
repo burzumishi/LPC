@@ -1,0 +1,6 @@
+717:/std/receptacle.c (/std/receptacle.c)
+(public void) set_no_pick()
+/*
+ * Function name: set_no_pick
+ * Description  : Make sure the lock on the container is not pickable.
+ */

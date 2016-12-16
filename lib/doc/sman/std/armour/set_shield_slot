@@ -1,0 +1,8 @@
+642:/std/armour.c (/std/armour.c)
+(public void) set_shield_slot(mixed hids)
+/*
+ * Function name: set_shield_slot
+ * Description:   Set the hitlocation(s) protected by the shield or magic
+ *                armour
+ * Arguments:     hids: Hitlocation(s)
+ */

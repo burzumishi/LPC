@@ -1,0 +1,8 @@
+59:/lib/pub.c (/lib/pub.c)
+(object) fix_food(mixed data)
+/*
+ * Function name: fix_food
+ * Description:   Configure the food object and return it
+ * Arguments:	  data - The data for the food
+ * Returns:	  The food object
+ */

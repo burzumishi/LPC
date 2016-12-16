@@ -1,0 +1,8 @@
+316:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(nomask public mixed) do_command(string verb, string arg)
+/* 
+ * Function name: do_command
+ * Description:   Called to initiate the actual spell casting
+ * Returns:       1 - success
+ *                0/string - failure
+ */

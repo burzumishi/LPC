@@ -1,0 +1,7 @@
+541:/lib/library.c (/lib/library.c)
+(public void) library_write_failed_hook()
+/*
+ * Function name: library_write_failed_hook
+ * Description:   Redefine this to alter the message given when a book
+ *                cannot be saved for some reason.
+ */

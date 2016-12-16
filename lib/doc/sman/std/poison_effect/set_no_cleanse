@@ -1,0 +1,8 @@
+125:/std/poison_effect.c (/std/poison_effect.c)
+(nomask public void) set_no_cleanse()
+/*
+ * Function name: set_no_cleanse
+ * Description  : When called, this function makes it impossible to cleanse
+ *                the potion. Note that it is still possible to destruct
+ *                such a potion.
+ */

@@ -1,0 +1,8 @@
+128:/lib/udp/gtell.c (/lib/udp/gtell.c)
+(public int) cmd_gtell(string str)
+/*
+ * Function name: cmd_gtell
+ * Description:   Called from some soul to make a gtell
+ * Argument:	  str: The string typed by the wizard
+ * Returns:	  1 if success
+ */

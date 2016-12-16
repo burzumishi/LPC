@@ -1,0 +1,6 @@
+693:/secure/simul_efun.c (/secure/simul_efun.c)
+(void) setuid()
+/*
+ * Function name: setuid
+ * Description:   set the uid of previous_object() to its creator
+ */

@@ -1,0 +1,8 @@
+182:/std/act/asking.c (/std/act/asking.c)
+(public int) query_default_answer_cmd()
+/* 
+ * Function name: query_default_answer_cmd
+ * Description:   Find out whether the default answer is a command or a text
+ *                to be echoed to the user.
+ * Returns:       int - if true, the default answer is a command.
+ */

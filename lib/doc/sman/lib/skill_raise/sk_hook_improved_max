@@ -1,0 +1,8 @@
+646:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_hook_improved_max(string skill)
+/*
+ * Function name: sk_hook_improved_max
+ * Description:   Player can't improve this skill any higer
+ * Arguments:     skill - The skill player wanted to improve
+ * Returns:       0
+ */

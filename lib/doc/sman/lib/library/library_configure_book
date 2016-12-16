@@ -1,0 +1,10 @@
+1001:/lib/library.c (/lib/library.c)
+(public void) library_configure_book(object book, string text_filename, string book_name)
+/*
+ * Function name: library_configure_book
+ * Description:   Configure a library book.  Redefine this to customize
+ *                your library books.
+ * Arguments:     object book           - the book object
+ *                string text_filename - the file name of the book file to use
+ *                string book_name     - the name of the book
+ */

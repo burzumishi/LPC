@@ -1,0 +1,8 @@
+537:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_desc(string desc)
+/*
+ * Function name: set_spell_desc
+ * Description:   Give a description for this spell.  This should be relatively
+ *                brief, not a full explanation of the spell's workings.
+ * Arguments:     1. (string) The description text.
+ */

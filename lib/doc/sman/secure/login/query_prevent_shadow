@@ -1,0 +1,7 @@
+1484:/secure/login.c (/secure/login.c)
+(nomask public int) query_prevent_shadow()
+/*
+ * Function name: query_prevent_shadow
+ * Description  : This function prevents shadowing of this object.
+ * Returns      : int 1 - always.
+ */

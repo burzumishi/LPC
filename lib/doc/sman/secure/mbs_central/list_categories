@@ -1,0 +1,8 @@
+907:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) list_categories(int admin)
+/*
+ * Function name: list_categories
+ * Description:	  List the available categories
+ * Arguments:	  admin - admin call or not
+ * Returns:	  Error code, if any
+ */

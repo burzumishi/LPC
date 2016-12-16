@@ -1,0 +1,8 @@
+749:/std/heap.c (/std/heap.c)
+(string) stat_object()
+/*
+ * Function name: stat_object
+ * Description:   This function is called when a wizard wants to get more
+ *                information about an object.
+ * Returns:       str - The string to write..
+ */

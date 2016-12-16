@@ -1,0 +1,9 @@
+1222:/std/living/combat.c (/std/living.c)
+(public float) query_speed(mixed round_time)
+/*
+ * Function Name: query_speed
+ * Description  : Returns the given speed modified by the quickness
+ *                of the living. 
+ * Arguments    : int / float - the base time to modify.
+ * Returns      : float       - the modified speed
+ */

@@ -1,0 +1,10 @@
+298:/secure/docmake.c (/secure/docmake.c)
+(void) accumul_funcs(string file, function fun, int line, mixed arg)
+/*
+ * Description:   Accumulates functions  
+ * Arguments:
+ *       arg_arr[0] == The file to document
+ *       arg_arr[1] == The callback function
+ *       arg_arr[2] == The line to start reading from in the file
+ *       arg_arr[3] == The argument to the callback function (doc subdirname)
+ */

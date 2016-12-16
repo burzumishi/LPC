@@ -1,0 +1,10 @@
+241:/obj/remote_npc.c (/obj/remote_npc.c)
+(public void) leave_env(object old, object dest)
+/*
+ * Function name: leave_env
+ * Description  : Whenever this object leaves its environment, this function
+ *                is called to reset the objectpointer to the wizard
+ *                controlling the NPC.
+ * Arguments    : object old  - the environment the object left.
+ *                object dest - the environment the object enters. Can be 0.
+ */

@@ -1,0 +1,8 @@
+192:/obj/edit.c (/obj/edit.c)
+(static void ) finished(string str)
+/*
+ * Function name: finished
+ * Description  : Called when the user is finished editing a text. It will call
+ *                the report function in the calling object.
+ * Arguments    : string str - the text entered.
+ */

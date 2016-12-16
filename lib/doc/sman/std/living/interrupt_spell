@@ -1,0 +1,9 @@
+182:/std/living/spells.c (/std/living.c)
+(public int) interrupt_spell()
+/*
+ * Function Name: interrupt_spell
+ * Description  : Attempt to interrupt a spell cast.
+ *                This currently has a very small chance of breaking the
+ *                the casters concentration.
+ * Returns      : 1 / 0 - a spell was interrupted / not interrupted
+ */

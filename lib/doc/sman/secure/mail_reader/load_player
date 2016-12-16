@@ -1,0 +1,7 @@
+387:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) load_player()
+/*
+ * Function name: load_player
+ * Description  : Make sure that the messages array of the player who
+ *                going to handle his/her mail, is loaded into memory.
+ */

@@ -1,0 +1,8 @@
+396:/std/player_sec.c (/std/player_sec.c)
+(nomask static void) load_auto_files()
+/*
+ * Function name: load_auto_files
+ * Description  : Loads all autoloaded objects. We use an alarm to make sure
+ *                that people always get their stuff, even when they carry too
+ *                much for their own good.
+ */

@@ -1,0 +1,11 @@
+1336:/secure/master.c (/secure/master.c)
+(string ) creator_file(string str)
+/*
+ * Function name: creator_file
+ * Description  : Gives the name of the creator of a file. This is a
+ *                direct function of the file_name(). The creator must be
+ *                a domain or wizard name, the root or backbone euid or
+ *                it can be 0 if it is invalid.
+ * Arguments    : string str - the path to process.
+ * Returns      : string - the name of the creator.
+ */

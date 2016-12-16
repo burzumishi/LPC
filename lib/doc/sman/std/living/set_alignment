@@ -1,0 +1,10 @@
+1307:/std/living/savevars.c (/std/living.c)
+(public void) set_alignment(int a)
+/*
+ * Function name: set_alignment
+ * Description  : Set the amount of alignment points of the living. There is
+ *                a maximum alignment a player can get. There is a Dutch
+ *                proverb about trying to be more Roman-Catholic than the
+ *                pope himself. We don't need that.
+ * Arguments    : int a - the new alignment.
+ */

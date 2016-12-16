@@ -1,0 +1,6 @@
+329:/std/door.c (/std/door.c)
+(void) create_door()
+/*
+ * Function name: create_door
+ * Description:   Sets default names and id
+ */

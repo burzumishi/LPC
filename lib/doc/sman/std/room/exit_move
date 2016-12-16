@@ -1,0 +1,11 @@
+80:/std/room/move.c (/std/room.c)
+(public int) exit_move(string exit_cmd, object dest_room)
+/*
+ * Function name: exit_move
+ * Description:   Invoke the move routine which sends the actor through the
+ *                exit into the next room. Basically it is a relay allowing
+ *                coders to intercept the actual person->move_living() call.
+ * Arguments:     string exit_cmd - the exit command, as provided to add_exit()
+ *                object dest_room - the destination room
+ * Returns:       int - the result of the move_living() call.
+ */

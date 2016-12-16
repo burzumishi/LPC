@@ -1,0 +1,5 @@
+190:/std/mobile.c (/std/mobile.c)
+(void) catch_tell(string str)
+/*
+ *  Description: For monster link purposes
+ */

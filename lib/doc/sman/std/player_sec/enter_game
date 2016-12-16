@@ -1,0 +1,9 @@
+766:/std/player_sec.c (/std/player_sec.c)
+(public nomask int) enter_game(string pl_name, string pwd)
+/*
+ * Function name: enter_game
+ * Description  : Enter the player into the game.
+ * Arguments    : string pl_name - the name of the player.
+ *                string pwd     - the password if it was changed.
+ * Returns      : int 1/0 - login succeeded/failed.
+ */

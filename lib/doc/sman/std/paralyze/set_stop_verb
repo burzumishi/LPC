@@ -1,0 +1,7 @@
+144:/std/paralyze.c (/std/paralyze.c)
+(void) set_stop_verb(string verb)
+/*
+ * Function name: set_stop_verb
+ * Description  : Set the verb to stop paralyze, if possible.
+ * Arguments    : string verb - the verb to use.
+ */

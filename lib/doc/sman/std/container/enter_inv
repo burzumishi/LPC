@@ -1,0 +1,9 @@
+260:/std/container.c (/std/container.c)
+(public void) enter_inv(object ob, object from)
+/* 
+ * Function name: enter_inv
+ * Description:   Called when objects enter this container or when an
+ *                object has just changed its weight/volume/light status.
+ * Arguments:     ob: The object that just entered this inventory
+ *                from: The object from which it came.
+ */

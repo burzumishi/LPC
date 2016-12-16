@@ -1,0 +1,7 @@
+223:/std/player/quicktyper.c (/std/player_sec.c)
+(public nomask void) remove_do_alarm()
+/*
+ * Function name: remove_do_alarm
+ * Description  : This is a service function. Call it to remove the do-alarm
+ *                from a player if necessary.
+ */

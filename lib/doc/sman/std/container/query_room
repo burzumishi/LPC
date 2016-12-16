@@ -1,0 +1,6 @@
+239:/std/container.c (/std/container.c)
+(public mixed) query_room()
+/*
+ * Function name: query_room
+ * Description:   Ask what room is connected to the internal of this object
+ */

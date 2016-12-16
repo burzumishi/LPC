@@ -1,0 +1,7 @@
+858:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public mixed) query_present_location()
+/*
+ * Function name: query_present_location
+ * Description	: get the ship's current location
+ * Returns	: the ships current location as a path or object
+ */

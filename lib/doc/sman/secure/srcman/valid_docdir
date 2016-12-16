@@ -1,0 +1,6 @@
+35:/secure/srcman.c (/secure/srcman.c)
+(int ) valid_docdir(string ddir)
+/*
+ * Function name:   valid_docdir
+ * Description:     Check if this is a valid documentation directory
+ */

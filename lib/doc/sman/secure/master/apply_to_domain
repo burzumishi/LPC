@@ -1,0 +1,8 @@
+949:/secure/master/fob.c (/secure/master.c)
+(int) apply_to_domain(string dname)
+/*
+ * Function name: apply_to_domain
+ * Description  : Apply to a domain.
+ * Arguments    : string dname - domain the application goes to.
+ * Returns      : int 1/0 - success/failure.
+ */

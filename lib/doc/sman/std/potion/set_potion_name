@@ -1,0 +1,7 @@
+152:/std/potion.c (/std/potion.c)
+(void) set_potion_name(string str)
+/*
+ * Function name: set_potion_name
+ * Description:   Set the true name of the potion
+ * Arguments:	  str - The name
+ */

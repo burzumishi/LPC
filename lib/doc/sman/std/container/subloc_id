@@ -1,0 +1,7 @@
+744:/std/container.c (/std/container.c)
+(public string *) subloc_id(string id)
+/* 
+ * Function name: subloc_id
+ * Description:   Give the sublocation(s) if any for a specific id
+ * Arguments:     id: name osublocation
+ */

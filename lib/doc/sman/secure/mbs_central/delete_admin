@@ -1,0 +1,8 @@
+212:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask int) delete_admin(string who)
+/*
+ * Function name: delete_admin
+ * Description:	  Remove a wizard from the list of trusted admins
+ * Arguments:	  who - who to remove
+ * Returns:	  error code, if any
+ */

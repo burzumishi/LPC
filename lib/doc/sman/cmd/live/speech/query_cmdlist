@@ -1,0 +1,5 @@
+78:/cmd/live/speech.c (/cmd/live/speech.c)
+(mapping) query_cmdlist()
+/* **************************************************************************
+ * The list of verbs and functions. Please add new in alfabetical order.
+ */

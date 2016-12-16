@@ -1,0 +1,7 @@
+2071:/std/living/savevars.c (/std/living.c)
+(nomask static void) update_tool_list(string *souls)
+/*
+ * Function name:   update_tool_list
+ * Description:     Update the list of tool souls
+ * Arguments:       souls: The new filenames
+ */

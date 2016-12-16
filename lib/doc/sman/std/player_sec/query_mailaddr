@@ -1,0 +1,7 @@
+365:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask string) query_mailaddr()
+/*
+ * Function name:   query_mailaddr
+ * Description:     Gives back the Email address of a player.
+ * Returns:         The Email address string
+ */

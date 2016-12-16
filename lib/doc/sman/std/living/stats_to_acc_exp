@@ -1,0 +1,8 @@
+282:/std/living/stats.c (/std/living.c)
+(static void) stats_to_acc_exp()
+/*
+ * Function name: stats_to_acc_exp
+ * Description:   Translates the current base stats into acc_exp. All stats
+ *                will be translated to quest experience only. This is used
+ *                used only from default setup in player_sec::new_init()
+ */

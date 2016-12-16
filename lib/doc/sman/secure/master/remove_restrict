@@ -1,0 +1,9 @@
+2763:/secure/master/fob.c (/secure/master.c)
+(int) remove_restrict(string wiz, int res)
+/*
+ * Function name: remove_restrict
+ * Description  : This function is used to remove a restriction from a
+ *                wizard of some kind.
+ * Arguments    : string wiz - The wizard to restrict.
+ *                int res - The restriction to remove.
+ */

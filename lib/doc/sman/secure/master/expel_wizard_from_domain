@@ -1,0 +1,8 @@
+779:/secure/master/fob.c (/secure/master.c)
+(int) expel_wizard_from_domain(string wname)
+/*
+ * Function name: expel_wizard_from_domain
+ * Description  : Expel a wizard from a domain.
+ * Arguments    : string wname - the wizard to expel.
+ * Returns      : int 1/0 - success/failure.
+ */

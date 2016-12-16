@@ -1,0 +1,10 @@
+527:/lib/skill_raise.c (/lib/skill_raise.c)
+(int) sk_hook_cant_pay(string skill, int to_lev, int cost)
+/*
+ * Function name: sk_hook_cant_pay
+ * Description  : Player cannot pay for session. (Kill him?)
+ * Arguments    : string skill  - the skill the player tries to improve.
+ *                int to_lev - the level to wich the player wanted training.
+ *                int cost - the price that is required, in coppers.
+ * Returns      : int 0 - as always with notify_fail.
+ */

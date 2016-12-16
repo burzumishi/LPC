@@ -1,0 +1,9 @@
+1153:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) store_message(string message, string filename)
+/*
+ * Function name: store_message
+ * Description  : This function may be called from the mail reader when
+ *                a wizard wants to WRITE a message to file.
+ * Arguments    : string message  - the message to WRITE.
+ *                string filename - the filename to WRITE to.
+ */

@@ -1,0 +1,7 @@
+203:/std/guild/guild_occ_sh.c (/std/guild/guild_occ_sh.c)
+(public nomask int) remove_guild_occ()
+/*
+ * Function name: remove_guild_member_occ
+ * Description:   Remove a player from the guild. Will take care of everything.
+ * Returns:       1 if removed
+ */

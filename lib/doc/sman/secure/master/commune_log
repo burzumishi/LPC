@@ -1,0 +1,8 @@
+3473:/secure/master.c (/secure/master.c)
+(varargs public void) commune_log(string str, int filtered = 0)
+/*
+ * Function name: commune_log
+ * Description  : Logs a commune from a mortal.
+ * Arguments    : string str  - the message.
+ *                int filtered - if true, the message was filtered out.
+ */

@@ -1,0 +1,6 @@
+32:/std/scroll.c (/std/scroll.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description  : Initialize commandverbs.
+ */

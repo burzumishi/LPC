@@ -1,0 +1,7 @@
+145:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public void) set_spell_effect_target(object target)
+/*
+ * Function name: set_spell_effect_target
+ * Description:   Designate the target of the spell effect
+ * Arguments:     object target - the target
+ */

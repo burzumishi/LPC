@@ -1,0 +1,8 @@
+384:/std/heap.c (/std/heap.c)
+(public object) make_leftover_heap()
+/*
+ * Function name: make_leftover_heap
+ * Description:   clone a heap to be used as the leftover
+ *                heap after a split
+ * Returns:       The leftover heap object 
+ */

@@ -1,0 +1,11 @@
+715:/lib/commands.c (/lib/commands.c)
+(public string *) parse_adverb_with_space(string str, string def_adv, int trail)
+/*
+ * Function name: parse_adverb_with_space
+ * Description  : This function returns the adverb from parse_adverb with a
+ *                preceding space if it is an adverb and it returns an empty
+ *                string if the adverb was the special adverb that means that
+ *                the player does not want an adverb.
+ * Arguments    : see parse_adverb
+ * Returns      : see parse_adverb, the description and /sys/adverbs.h
+ */

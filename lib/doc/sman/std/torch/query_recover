@@ -1,0 +1,7 @@
+603:/std/torch.c (/std/torch.c)
+(public string) query_recover()
+/*
+ * Function name: query_recover
+ * Description:   A default query_recover() for torches.
+ * Returns:	  A default recovery string.
+ */

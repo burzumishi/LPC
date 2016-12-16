@@ -1,0 +1,10 @@
+2084:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask object) find_protecting_armour(object target, int hid)
+/*
+ * Function name: find_protecting_armour
+ * Description  : Returns one of the armours protecting the given hid
+ *                on target.
+ *
+ * Arguments    : target: Person to search for armours.
+ *                hid:    Hit location to search for armours.
+ */

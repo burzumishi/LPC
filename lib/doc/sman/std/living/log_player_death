@@ -1,0 +1,7 @@
+238:/std/living/combat.c (/std/living.c)
+(static void) log_player_death(object killer)
+/*
+ * Function name: log_player_death
+ * Description  : This function is called when 
+ * Arguments    : object killer - the object responsible for our death.
+ */

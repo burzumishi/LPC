@@ -1,0 +1,11 @@
+893:/obj/edit.c (/obj/edit.c)
+(string) show_subloc(string subloc, object carrier, object for_obj)
+/*
+ * Function name: show_subloc
+ * Description  : Shows the subloc of the editor, it shows that the player is
+ *                writing something when you examine him.
+ * Arguments    : string subloc - the subloc identifier.
+ *                object carrier - the person on which the subloc should be
+ *                    displayed.
+ *                object for_obj - the person that is looking.
+ */

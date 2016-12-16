@@ -1,0 +1,6 @@
+317:/std/living/stats.c (/std/living.c)
+(void) acc_exp_to_stats()
+/*
+ * Function name: acc_exp_to_stats
+ * Description:   Translates the current accumulated exp into stats.
+ */

@@ -1,0 +1,9 @@
+1067:/secure/login.c (/secure/mail_checker.c)
+(void) enter_after_queue(string str)
+/*
+ * Function name: enter_after_queue
+ * Description  : When players are idle too long in the queue, we have to
+ *                force them to type something to make them unidle, so they
+ *                are not kicked out immediately for idleness.
+ * Arguments    : string str - the line entered.
+ */

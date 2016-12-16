@@ -1,0 +1,10 @@
+131:/obj/edit.c (/obj/edit.c)
+(static varargs void) display(int num, int use_more = 0)
+/*
+ * Function name: display
+ * Description  : Shows the previous lines before the current line.
+ * Arguments    : int num - the number of lines to show.
+ *                          -1 - show the whole text with line numbers.
+ *                          -2 - show the whole text without line numbers.
+ *                int use_more - if true, show with more.
+ */

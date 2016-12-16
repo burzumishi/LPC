@@ -1,0 +1,9 @@
+566:/std/living/combat.c (/std/living.c)
+(public int) team_join(object member)
+/*
+ * Function name: team_join
+ * Description  : Make someone a member of our team.
+ *                Fails if we have a leader, then we can't lead others.
+ * Arguments    : object member - The new member of my team.
+ * Returns      : int - 1/0 success/failure.
+ */

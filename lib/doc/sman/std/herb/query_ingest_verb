@@ -1,0 +1,7 @@
+123:/std/herb.c (/std/herb.c)
+(string) query_ingest_verb()
+/*
+ * Function name: query_ingest_verb
+ * Description:   What verb is required to ingest this herb?
+ * Returns:	  The verb;
+ */

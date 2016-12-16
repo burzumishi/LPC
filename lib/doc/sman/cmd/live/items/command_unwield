@@ -1,0 +1,10 @@
+177:/cmd/live/items.c (/cmd/live/items.c)
+(public mixed) command_unwield()
+/*
+ * Function name: command_unwield
+ * Description  : This is a pseudo function, used to fool the document maker.
+ *                Define this in an object that can be wielded and thus
+ *                unwielded. It is by default built into /std/weapon.c
+ * Returns      : string - an error message upon failure.
+ *                int 1  - when successfully unwield.
+ */

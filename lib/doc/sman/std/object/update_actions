@@ -1,0 +1,6 @@
+280:/std/object.c (/std/object.c)
+(public void) update_actions()
+/*
+ * Function name: update_actions
+ * Description:   Updates our defined actions in all relevant objects.
+ */

@@ -1,0 +1,9 @@
+134:/d/Genesis/newmagic/hooks.c (/d/Genesis/newmagic/hooks.c)
+(public void) hook_use_ingredients(object *ingrs)
+/*
+ * Function name: hook_use_ingredients
+ * Description:   This function should return the message that will be printed
+ *                to the caster when he/she has used some ingredients.
+ * Arguments:     ingrs - The ingredients that will be used.
+ * Returns:       The message to print.
+ */

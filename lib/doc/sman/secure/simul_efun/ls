@@ -1,0 +1,8 @@
+710:/secure/simul_efun.c (/secure/simul_efun.c)
+(void ) ls(string path, string mode)
+/*
+ * Function name: ls
+ * Description:   Lists files in a directory
+ * Arguments:     path: The filepath
+ "                mode: Mode of ls search.
+ */

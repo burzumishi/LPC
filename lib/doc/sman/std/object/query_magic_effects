@@ -1,0 +1,7 @@
+1603:/std/object.c (/std/object.c)
+(object *) query_magic_effects()
+/*
+ * Function name:  query_magical_effects
+ * Description:    Returns the magical effects upon this
+ *                 object.
+ */

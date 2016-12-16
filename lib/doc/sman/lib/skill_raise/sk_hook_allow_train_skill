@@ -1,0 +1,12 @@
+688:/lib/skill_raise.c (/lib/skill_raise.c)
+(public varargs int) sk_hook_allow_train_skill(object who, string skill, int level)
+/*
+ * Function name: sk_hook_allow_train_skill
+ * Description:   Checks to see if a specific person can learn a
+ *                a specific skill ( to a specific level ).
+ *                ( Default is:  yes )
+ * Arguments:     object - The player trying to improve/learn
+ *                skill  - The skill trying to train
+ *                level  - The level trying to learn to
+ * Returns:       1 - yes (default) / 0 - no
+ */

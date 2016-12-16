@@ -1,0 +1,7 @@
+415:/secure/queue.c (/secure/queue.c)
+(public void) tell_queue(string str)
+/*
+ * Function name: tell_queue
+ * Description  : Give a message to all people in the queue.
+ * Arguments    : string str - the message to print to the people in the queue.
+ */

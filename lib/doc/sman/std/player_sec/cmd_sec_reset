@@ -1,0 +1,7 @@
+71:/std/player/cmd_sec.c (/std/player_sec.c)
+(static nomask void) cmd_sec_reset()
+/*
+ * Function name: cmd_sec_reset
+ * Description  : When the player logs in, this function is called to link
+ *                some essential commands to him.
+ */

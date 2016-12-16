@@ -1,0 +1,9 @@
+214:/std/player_sec.c (/std/player_sec.c)
+(static nomask void) decay_skills()
+/*
+ * Function name: decay_skills
+ * Description:   Do skill decay in the player
+ *                Call this function ONLY if it's necessary, as when
+ *                entering the game or entering/leaving a guild as
+ *                it's a bit costly.
+ */

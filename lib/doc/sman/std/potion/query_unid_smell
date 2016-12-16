@@ -1,0 +1,8 @@
+262:/std/potion.c (/std/potion.c)
+(string) query_unid_smell()
+/*
+ * Function name: query_unid_smell
+ * Description:   Query the message you get if you smell and do not
+ *                identify the potion.
+ * Returns:   	  The smell of the unidentified potion
+ */

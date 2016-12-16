@@ -1,0 +1,13 @@
+463:/std/living/stats.c (/std/living.c)
+(varargs static void) update_acc_exp(int exp, int taxfree)
+/*
+ * Function name: update_acc_exp
+ * Description  : After experience had been added to the total, this function
+ *                spreads it over the acc_exp for each stat. An increase in
+ *                experience is spreaded according to the learn preferences,
+ *                a reduction of experience is done only in the real stats.
+ * Arguments    : int exp     - the experience added or removed.
+ *                int taxfree - 1/0 - If true, then the player receives 100%
+ *                    of the experience in his normal stats, as well as the
+ *                    due tax in the guild stats.
+ */

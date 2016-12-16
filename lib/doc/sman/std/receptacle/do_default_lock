@@ -1,0 +1,14 @@
+438:/std/receptacle.c (/std/receptacle.c)
+(public int) do_default_lock(string str)
+/*
+ * Function name: do_default_lock
+ * Description  : Try to lock one container. This command does not allow
+ *                the use of specific tricks to prevent the command parser to
+ *                try the lock command on each container in his/her presence
+ *                for the command should obviously also work on doors and
+ *                such.
+ *                However, with the use of the TEMP_LIBCONTAINER_CHECKED
+ *                property, there will hardly be any loss of cpu-time.
+ * Arguments    : str - the rest of the command line by the mortal
+ * Returns      : 1 = success, 0 = failure.
+ */

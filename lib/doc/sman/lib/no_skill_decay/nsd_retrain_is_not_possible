@@ -1,0 +1,15 @@
+214:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(public int) nsd_retrain_is_not_possible(int skill, int level)
+/*
+ * Function name: nsd_retrain_is_not_possible
+ * Description  : Mask this function if you want to have some form of
+ *                additional test to see whether the player may retrain.
+ *                The function operates on this_player(). If you want to
+ *                disallow the player to train, you must also print a
+ *                message to him/her.
+ * Arguments    : int skill - the skill the player wants to retrain.
+ *                int level - the level to which the player is allowed to
+ *                            retrain the skill.
+ * Returns      : int 1/0 - true if it should be impossible for the player
+ *                          to retrain the skill to the level indicated.
+ */

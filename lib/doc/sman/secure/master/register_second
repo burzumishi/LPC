@@ -1,0 +1,11 @@
+338:/secure/master/player.c (/secure/master.c)
+(public int) register_second(string second, string password)
+/*
+ * Function name: register_second
+ * Description  : Called (from the player soul) for a player to register a
+ *                second player. Note we don't do notify_fail() in this
+ *                routine since it isn't called directly from the command.
+ * Arguments    : string second - the lower case name of the second to add.
+ *                string password - the password of teh second to add.
+ * Returns      : int 1/0 - success/failure.
+ */

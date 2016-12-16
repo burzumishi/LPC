@@ -1,0 +1,8 @@
+222:/std/guild/guild_craft_sh.c (/std/guild/guild_craft_sh.c)
+(public void) init_craft_shadow(string arg)
+/*
+ * Function name: init_craft_shadow()
+ * Description: This function is called from autoload_shadow and may
+ *              be used to initialize the shadow when it's loaded.
+ * Arguments: The argument string sent to autoload_shadow.
+ */

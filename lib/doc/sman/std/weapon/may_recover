@@ -1,0 +1,12 @@
+1401:/std/weapon.c (/std/weapon.c)
+(nomask void) may_recover()
+/*
+ * Function name: may_recover
+ * Description  : In some situations it is undesirable to have a weapon
+ *                not recover. This function may then be used to force the
+ *                weapon to be recoverable.
+ *
+ *                This function may _only_ be called when a craftsman sells
+ *                a weapon he created to a player! It may expressly not be
+ *                called in weapons that are to be looted from NPC's!
+ */

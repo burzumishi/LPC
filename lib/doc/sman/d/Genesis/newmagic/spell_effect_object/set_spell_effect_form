@@ -1,0 +1,9 @@
+87:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public void) set_spell_effect_form(int form)
+/*
+ * Function name: set_spell_effect_form
+ * Description:   Set the spell effects magic form (SS_FORM_*).
+ *                This should be the same form as used by the
+ *                spell.
+ * Arguments:     int elem - the form (skill)
+ */

@@ -1,0 +1,7 @@
+109:/std/leftover.c (/std/leftover.c)
+(public nomask void) create_food()
+/*
+ * Function name: create_food
+ * Description  : Constructor. You must mask create_leftover() to create your
+ *                own leftover.
+ */

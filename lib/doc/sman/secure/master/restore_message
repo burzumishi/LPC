@@ -1,0 +1,8 @@
+82:/secure/master/mail_admin.c (/secure/master.c)
+(static varargs mapping) restore_message(int number)
+/*
+ * Function name: restore_message
+ * Description  : Restore an individual message from disk.
+ * Arguments    : int number - the time of the message.
+ * Returns      : mapping  - the message restored.
+ */

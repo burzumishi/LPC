@@ -1,0 +1,16 @@
+2168:/std/combat/cbase.c (/std/combat/cbase.c)
+(varargs int) add_attack(int wchit, mixed wcpen, int damtype, int prcuse, int id, int skill,     object wep)
+/*
+ * Function name: add_attack
+ * Description:   Add an attack to the attack array.
+ * Arguments:
+ *             wchit: Weapon class to hit
+ *             wcpen: Weapon class penetration
+ *             dt:    Damage type
+ *             %use:  Chance of use each turn
+ *             id:    Specific id, for humanoids W_NONE, W_RIGHT etc
+ *             skill: Optional skill with this attack
+ *             wep:   The weapon, if there is one
+ *
+ * Returns:       True if added.
+ */

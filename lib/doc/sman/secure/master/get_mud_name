@@ -1,0 +1,10 @@
+240:/secure/master.c (/secure/master.c)
+(mixed) get_mud_name()
+/*
+ * Function name:   get_mud_name
+ * Description:     Gives the name of the mud. The name will be #defined in
+ *                  all files compiled in the mud. It can not contain spaces.
+ * Returns:         Name of the mud.
+ *                  We always return a string but we must declare it mixed
+ *                  otherwise the type checker gets allergic reactions.
+ */

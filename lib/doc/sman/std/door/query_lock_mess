@@ -1,0 +1,6 @@
+1182:/std/door.c (/std/door.c)
+(string *) query_lock_mess()
+/*
+ * Function name: query_lock_mess
+ * Description:   Query the message when locking door
+ */

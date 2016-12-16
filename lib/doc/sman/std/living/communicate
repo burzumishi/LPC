@@ -1,0 +1,9 @@
+58:/std/living/cmdhooks.c (/std/living.c)
+(public varargs int) communicate(string str)
+/*
+ * Function name: communicate
+ * Description  : This function is called whenever the player wants to say
+ *                something using the single quote ' as alias for say.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

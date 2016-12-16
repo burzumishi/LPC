@@ -1,0 +1,16 @@
+Name:		light room
+
+Object:		/doc/examples/spells/spell_book.c
+		/doc/examples/spells/light.c
+
+Cost:		5 mana
+
+Description:	It lights up the room in which you are standing a short time
+		with one light factor. Success depends on the wisdom and
+		skill in spellcraft of the player. Duration of light depends
+		on the intelligence and skill in spellcraft.
+
+		duration = int / 5 + spellcraft / 3 + 45
+
+Requirements:	That you hold the spell book.
+

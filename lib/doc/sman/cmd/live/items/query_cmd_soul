@@ -1,0 +1,5 @@
+226:/cmd/live/items.c (/cmd/live/items.c)
+(int) query_cmd_soul()
+/* **************************************************************************
+ * This is a command soul.
+ */

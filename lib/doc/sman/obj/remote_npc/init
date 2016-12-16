@@ -1,0 +1,7 @@
+124:/obj/remote_npc.c (/obj/remote_npc.c)
+(void) init()
+/*
+ * Function name: init
+ * Description  : This funciton is called to link the controlling commands
+ *                of this wand to the wizard using it.
+ */

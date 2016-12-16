@@ -1,0 +1,7 @@
+989:/std/weapon.c (/std/weapon.c)
+(int) query_value()
+/*
+ * Function name: query_value
+ * Description  : What's the value of this armour based on corrosion status.
+ * Returns      : int - the value.
+ */

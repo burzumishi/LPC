@@ -1,0 +1,8 @@
+340:/secure/master/notify.c (/secure/master.c)
+(static void) mark_graph_reboot()
+/*
+ * Function name: mark_graph_reboot
+ * Description  : This function is called from start_boot() when the game
+ *                is booted to mark the reboot. When the master is updated
+ *                this function is not called.
+ */

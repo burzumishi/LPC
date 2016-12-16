@@ -1,0 +1,14 @@
+354:/lib/trade.c (/lib/trade.c)
+(varargs mixed) query_extra_money_holder(int type, int sum, int error)
+/*
+ * Functione name: query_extra_money_holder
+ * Description:    If the money from the player couldn't be moved to
+ *                 the object specified move it to the object returned
+ *                 from here instead. Redefine this function if you have
+ *                 a trader that might have to drop some coins and you
+ *                 you want to keep track of everything.
+ * Arguments:      i - number of the money type we tried to move
+ *                 sum - the amount we tried to move
+ *                 error - the error code we got when we tried
+ * Returns:        nothing - destruct the money
+ */

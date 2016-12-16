@@ -1,0 +1,8 @@
+15:/lib/udp/warning.c (/lib/udp/warning.c)
+(public int) warning(mapping p)
+/*
+ * Function name: warning
+ * Description:   Called when the mud receives a warning package
+ * Argument:	  p: mapping holding received information
+ * Returns:	  True if correct message form
+ */

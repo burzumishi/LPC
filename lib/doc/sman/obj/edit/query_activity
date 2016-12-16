@@ -1,0 +1,8 @@
+109:/obj/edit.c (/obj/edit.c)
+(string) query_activity()
+/*
+ * Function name: query_activity
+ * Description  : Get the description of the activity. It completes the
+ *                sentence "You are writing <activity>".
+ * Returns      : string - the activity.
+ */

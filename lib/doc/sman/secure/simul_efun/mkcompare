@@ -1,0 +1,18 @@
+1331:/secure/simul_efun.c (/secure/simul_efun.c)
+(varargs function) mkcompare(function f, function compare_fun = &operator(<)
+/*
+ * Function name: mkcompare
+ * Description:   Takes a normal comparison function, like < and returns a
+ *                pointer to the mkcompare_util() function, which is suitable
+ *                for use with sort_array().
+ *                See mkcompare_util() above.
+ * Arguments:     function f - an optional function pointer argument.  If
+ *                             specified, the comparison will be done on the
+ *                             values derived from this function.  If not
+ *                             specified, the objects to be sorted will be
+ *                             compared directly.
+ *                function compare_fun - This function determines how the
+ *                                       sorted items are to be compared.  It
+ *                                       defaults to &operator(<)().
+ * Returns:       A function pointer useful with sort_array().
+ */

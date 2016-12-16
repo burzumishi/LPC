@@ -1,0 +1,5 @@
+74:/std/npc.c (/std/npc.c)
+(public string ) query_combat_file()
+/*
+ * Description:  Use the combat file for generic tools
+ */

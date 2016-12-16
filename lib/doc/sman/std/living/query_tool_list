@@ -1,0 +1,7 @@
+2082:/std/living/savevars.c (/std/living.c)
+(nomask public string *) query_tool_list()
+/*
+ * Function name:   query_tool_list
+ * Description:     Give back the array with filenames of tool souls.
+ * Returns:         The tool soul list.
+ */

@@ -1,0 +1,15 @@
+133:/secure/master/sanction.c (/secure/master.c)
+(static int) valid_read_path_sanction(string reader, string euid, string path)
+/*
+ * Function name: valid_read_path_sanction
+ * Description  : This function can be used to query whether there is a
+ *                read sanction set that allows 'reader' to read the
+ *                directory 'path' in 'euid'. Note that there is no check
+ *                on the arguments, which means the first argument _must_
+ *                be in lower case.
+ * Arguments    : string reader - the euid that wants to read.
+ *                string euid   - the euid that 'reader' wants to read.
+ *                string path   - the path that 'reader' wants to read within
+ *                                the directory of 'euid' starting with "/".
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

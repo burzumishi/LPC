@@ -1,0 +1,8 @@
+381:/std/room/description.c (/std/room.c)
+(int) add_herb_file(string file)
+/*
+ * Function name: add_herb_file
+ * Description:   Add a herb file to our array
+ * Arguments:     file - The filename to our herb
+ * Returns:       1 if added
+ */

@@ -1,0 +1,7 @@
+1488:/std/combat/cbase.c (/std/combat/cbase.c)
+(static void) stop_heart()
+/*
+ * Function name: stop_heart
+ * Description  : Called to stop the heartbeat. It will remove the running
+ *                alarm.
+ */

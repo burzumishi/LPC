@@ -1,0 +1,6 @@
+31:/lib/guild_support.c (/lib/guild_support.c)
+(void) create_guild_support()
+/*
+ * Function name: create_guild_support
+ * Description  : Obsolete function. Kept for backward compatibility so far.
+ */

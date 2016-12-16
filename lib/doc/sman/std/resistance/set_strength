@@ -1,0 +1,6 @@
+114:/std/resistance.c (/std/resistance.c)
+(void) set_strength(int i)
+/*
+ * Function name: set_strength
+ * Description:   Set how strong this resistance is
+ */

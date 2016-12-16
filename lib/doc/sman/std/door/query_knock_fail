@@ -1,0 +1,7 @@
+1356:/std/door.c (/std/door.c)
+(string *) query_knock_fail()
+/* 
+ * Function name:	query_knock_fail
+ * Description	:	query the responses to knocking on an open door
+ * Returns	:	string * -- the responses
+ */

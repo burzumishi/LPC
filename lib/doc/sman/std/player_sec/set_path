@@ -1,0 +1,7 @@
+512:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask void) set_path(string str)
+/*
+ * Function name:   set_path
+ * Description:     Sets the current path of a player.
+ * Arguments:       str: Pathstring
+ */

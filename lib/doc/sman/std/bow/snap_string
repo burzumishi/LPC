@@ -1,0 +1,9 @@
+104:/std/bow.c (/std/bow.c)
+(public nomask void) snap_string()
+/*
+ * Function name: snap_string
+ * Description:   Called when the bowstring of this bow snaps. It
+ *                is responsible for giving the messages to all
+ *                involved parties and calling unstring_bow()
+ *                to get the internal state updated.
+ */

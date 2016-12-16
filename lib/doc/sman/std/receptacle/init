@@ -1,0 +1,7 @@
+177:/std/receptacle.c (/std/receptacle.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description  : Link the commands to manipulate the container to the
+ *                player.
+ */

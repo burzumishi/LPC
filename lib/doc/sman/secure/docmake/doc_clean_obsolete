@@ -1,0 +1,13 @@
+634:/secure/docmake.c (/secure/docmake.c)
+(void) doc_clean_obsolete(string *functions, string path, string new_euid)
+/*
+ * Function name:	doc_clean_obsolete
+ * Description: 	Clean up Create a batch of documentation files
+ * Arguments:  		argarr
+ *			  [0]: All the accumulated functions.
+ *              	     ({ fun1, fun2, fun3 .... funN })
+ *		  
+ *              	  [1]: The path to the dir where the
+ *			       documentation has been put.
+ *              	  [2]: euid 
+ */

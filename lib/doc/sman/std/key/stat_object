@@ -1,0 +1,8 @@
+96:/std/key.c (/std/key.c)
+(public string) stat_object()
+/*
+ * Function name: stat_object
+ * Description  : If a wizard stats this key, we add the key number.
+ * Returns      : string - the stat information.
+ * Returns      : string - the stat information.
+ */

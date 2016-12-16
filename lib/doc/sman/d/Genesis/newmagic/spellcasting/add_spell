@@ -1,0 +1,7 @@
+62:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(nomask varargs void) add_spell(mixed spell)
+/*
+ * Function name: add_spell
+ * Description:   Add the spell to the list of active spells.
+ * Arguments:     string name           - The activating verb string
+ */

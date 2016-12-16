@@ -1,0 +1,7 @@
+1634:/std/object.c (/std/object.c)
+(int) query_magic_res(string prop)
+/*
+ * Function name: query_magic_res
+ * Description:   Return the total resistance for this object
+ * Arguments:     prop - The searched for property.
+ */

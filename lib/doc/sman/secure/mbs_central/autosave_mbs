@@ -1,0 +1,6 @@
+1557:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) autosave_mbs()
+/*
+ * Function name: autosave_mbs
+ * Description:	  Autosave the mbs contents
+ */

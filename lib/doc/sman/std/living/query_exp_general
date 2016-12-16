@@ -1,0 +1,7 @@
+945:/std/living/savevars.c (/std/living.c)
+(public int) query_exp_general()
+/*
+ * Function name: query_exp_general
+ * Description  : Gives the amount of general experience the living has.
+ * Returns      : int - the general experience points.
+ */

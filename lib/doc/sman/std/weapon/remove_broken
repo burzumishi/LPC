@@ -1,0 +1,9 @@
+849:/std/weapon.c (/std/weapon.c)
+(varargs void) remove_broken(int silent = 0)
+/*
+ * Function name: remove_broken
+ * Description  : The weapon got broken so the player has to stop
+ *                wielding it.
+ * Arguments    : int silent - true if no message is to be genereated
+ *                             about the fact that the weapon broke.
+ */

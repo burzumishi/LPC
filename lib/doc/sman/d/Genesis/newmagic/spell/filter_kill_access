@@ -1,0 +1,11 @@
+721:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(varargs public int) filter_kill_access(object caster, object ob, int silent)
+/*
+ * Function name: filter_kill_access
+ * Description:   This function is called to determine which targets the
+ *                caster is able to attack (in the case of an offensive spell)
+ * Arguments:     1. (object) The caster
+ *                2. (object) The target
+ *                3. (int) If true, don't write failure messages
+ * Returns:       True if ok, otherwise false
+ */

@@ -1,0 +1,8 @@
+259:/std/projectile.c (/std/projectile.c)
+(private nomask void) set_long(string long)
+/*
+ * Function name: set_long
+ * Description  : This function has been declared nomask in projectiles.
+ *                Redefine the get_projectile_long to return the proper
+ *                long description instead.
+ */

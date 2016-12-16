@@ -1,0 +1,9 @@
+1113:/secure/mbs_central.c (/secure/mbs_central.c)
+(public nomask string) query_board_status(string bpath, string last)
+/*
+ * Function name: query_board_status
+ * Description:	  Return the board status
+ * Arguments:	  bpath - the board save path.
+ *		  last - date of last read note.
+ * Returns:	  Board status entry.
+ */

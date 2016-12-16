@@ -1,0 +1,18 @@
+1340:/std/living/savevars.c (/std/living.c)
+(public void) adjust_alignment(int align)
+/*
+ * Function name: adjust_alignment
+ * Description  : When a player has solved a quest, his alignment may be
+ *                adjusted if the quest is considered good or evil. This
+ *                may only be done when the player receives experience and
+ *                the quest bit is subsequently being set. When a quest is
+ *                considered solvable for all players in the game, ie both
+ *                'good' and 'evil' players, no alignment should be given
+ *                out.
+ * Arguments    : int align - the alignment of the quest. this should be
+ *                            a value in the range -1000 .. 1000 and acts
+ *                            the same as alignment in combat, though in
+ *                            this case, 'good' players should naturally
+ *                            receive positive alignment (ie solve good
+ *                            quests).
+ */

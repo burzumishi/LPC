@@ -1,0 +1,10 @@
+18:/cmd/std/tracer_tool_base.c (/cmd/std/tracer_tool_base.c)
+(object) find_item(object prev, string str)
+/*
+ * Function name: find_item
+ * Description  : This function will try to find the object the wizard
+ *                points at with the string argument.
+ * Arguments    : object prev - the previous object found in the chain.
+ *                string str  - the string to parse.
+ * Returns      : object - the object described with 'str', if any.
+ */

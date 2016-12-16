@@ -1,0 +1,8 @@
+312:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public int) query_cannot_board_ship(object player, mixed destination)
+/* Function name: query_cannot_board_ship
+ * Description:   Can a player not board? This function should
+ *                handle all messages itself.
+ * Arguments:     object player, mixed destination room
+ * Returns:       int 1 if unable to board
+ */

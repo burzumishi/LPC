@@ -1,0 +1,9 @@
+2214:/secure/master.c (/secure/master.c)
+(static string) incoming_service(string request)
+/*
+ * Function name: incoming_service
+ * Description  : Handle incoming request from other programs. This function
+ *                may only be called from the gamedriver.
+ * Arguments    : string request - the request.
+ * Returns      : string - the answer to the request.
+ */

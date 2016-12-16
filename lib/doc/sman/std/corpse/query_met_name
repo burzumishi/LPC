@@ -1,0 +1,7 @@
+141:/std/corpse.c (/std/corpse.c)
+(string) query_met_name()
+/*
+ * Function name: query_met_name
+ * Description  : Returns the met-name of this corpse. (capitalized)
+ * Returns      : string - the met name.
+ */

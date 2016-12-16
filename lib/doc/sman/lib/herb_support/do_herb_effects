@@ -1,0 +1,14 @@
+134:/lib/herb_support.c (/lib/herb_support.c)
+(nomask int) do_herb_effects()
+/* 
+ * Function: do_herb_effects
+ * Description: In this function the effect(s) of the herb are resolved.
+ *              To define a standard effect, do 
+ *              set_effect(herb_type, str, strength); in create_herb(),
+ *              where herb_type is one of the herb-types in /sys/herb_types.h,
+ *              str is a string for the affect type, and strength is an
+ *              integer for the strength of the effect.
+ *              Read /doc/man/general/herbs for more information.
+ *              One effect per herb should be the norm, but adding one or
+ *              two is ok, as long as they don't make the herb too good.
+ */

@@ -1,0 +1,8 @@
+162:/secure/application_player.c (/secure/application_player.c)
+(static void) get_sline(string str)
+/*
+ * Function name: get_sline
+ * Description  : Get single line. This function is called when the player
+ *                may enter a single line of text based on a question.
+ * Arguments    : string str - the answer of the player.
+ */

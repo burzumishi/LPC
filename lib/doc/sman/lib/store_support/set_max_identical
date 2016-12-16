@@ -1,0 +1,10 @@
+78:/lib/store_support.c (/lib/store_support.c)
+(void) set_max_identical(int identical)
+/*
+ * Function name: set_max_identical
+ * Description  : Set the maximum number of identical items allowed in this
+ *                store. As identical items count those items that have
+ *                identical long descriptions. This maximum may not be above
+ *                the predefined maximum.
+ * Arguments    : int items - the maximum number of identical items allowed.
+ */

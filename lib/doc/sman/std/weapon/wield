@@ -1,0 +1,15 @@
+704:/std/weapon.c (/std/weapon.c)
+(public mixed) wield(object obj)
+/* 
+ * Function name: wield
+ * Description  : This function might be called when someone tries to wield
+ *                this weapon. To have this function called, use the function
+ *                set_wf().
+ *                Note: this routine does not actually exist in /std/weapon.
+ *                      A trick is used to fool the document maker.
+ * Arguments    : object obj - the weapon someone tried to wield.
+ * Returns      : int  0 - wield this weapon normally.
+ *                     1 - wield the weapon, but print no messages.
+ *                    -1 - do not wield the weapon, use default messages.
+ *                string - do not wield the weapon, use this fail message.
+ */

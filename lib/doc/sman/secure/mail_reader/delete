@@ -1,0 +1,8 @@
+1513:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) delete(int *del_arr)
+/*
+ * Function name: delete
+ * Description  : Marks one or more message for deletion. They will be
+ *                actually deleted when you quit the reader.
+ * Arguments    : int * del_arr - the numbers of the messages to delete.
+ */

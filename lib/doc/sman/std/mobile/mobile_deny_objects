@@ -1,0 +1,12 @@
+350:/std/mobile.c (/std/mobile.c)
+(mixed) mobile_deny_objects()
+/*
+ * Function name: mobile_deny_objects
+ * Description:   This function is called from VBFC and NPC_M_NO_ACCEPT_GIVE
+ *		  prop checking. If this mobile is intelligent enough he might
+ *		  recognize that someone is trying to load him down before
+ *		  attacking and then he doesn't accept any more objects. This
+ *		  is merely default behaviour. Feel free to code something
+ *		  different
+ * Returns:       A message that will be printed to the player or 0
+ */

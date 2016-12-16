@@ -1,0 +1,7 @@
+239:/lib/area_handler.c (/lib/area_handler.c)
+(public nomask int) move_in_map(string room)
+/*
+ * move_in_map
+ *
+ * Move a player to a room in the map.
+ */

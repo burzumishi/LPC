@@ -1,0 +1,7 @@
+877:/std/player_sec.c (/std/player_sec.c)
+(public nomask void) open_player()
+/*
+ * Function name: open_player
+ * Description  : This function may only be called by SECURITY or by the
+ *                login object to reset the euid of this object.
+ */

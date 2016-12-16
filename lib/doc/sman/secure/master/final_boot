@@ -1,0 +1,9 @@
+1575:/secure/master.c (/secure/master.c)
+(static void) final_boot()
+/*
+ * Function name: final_boot
+ * Description  : This function will be called from the gamedriver when the
+ *                game is started, after start_boot() and preload_boot() are
+ *                called. Note that this function is not called when the
+ *                master is updated.
+ */

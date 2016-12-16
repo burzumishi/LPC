@@ -1,0 +1,9 @@
+528:/std/living/stats.c (/std/living.c)
+(static void) check_acc_exp()
+/*
+ * Function name: check_acc_exp
+ * Description  : This support function is called at login to make sure
+ *                the accumulated experience of the player is equal to
+ *                the experience in the stats. If not, those stats are
+ *                updated.
+ */

@@ -1,0 +1,8 @@
+367:/secure/mail_reader.c (/secure/mail_reader.c)
+(static int) save_message(mapping message, int date)
+/*
+ * Function name: save_message
+ * Description  : Save the individual message to disk.
+ * Arguments    : mapping message - the message.
+ *                int     date    - the current time to save.
+ * Returns      : int     1/0     - success/failure. */

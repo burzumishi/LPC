@@ -1,0 +1,8 @@
+211:/std/potion.c (/std/potion.c)
+(string) query_id_taste()
+/*
+ * Function name: query_id_taste
+ * Description:   Query the message you get if you taste and identify
+ *                the potion.
+ * Returns:   	  The taste of the identified potion
+ */

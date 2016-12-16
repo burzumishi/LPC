@@ -1,0 +1,6 @@
+1441:/std/combat/cbase.c (/std/combat/cbase.c)
+(public float) cb_query_speed()
+/*
+ * Function name: cb_query_speed
+ * Description:   Returns the combat speed (seconds between combat rounds)
+ */

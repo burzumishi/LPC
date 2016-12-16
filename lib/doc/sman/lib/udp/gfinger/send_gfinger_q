@@ -1,0 +1,10 @@
+16:/lib/udp/gfinger.c (/lib/udp/gfinger.c)
+(public int) send_gfinger_q(string mud, string wiz_from, string wiz_to)
+/*
+ * Function name: send_gfinger
+ * Description:   Sends a finger message to another mud.
+ * Argument:	  mud: The mudname
+ *		  wiz_from: The wizard name of sender
+ *		  wiz_to: The wizard name of receiver
+ * Returns:	  True is mud known and message sent.
+ */

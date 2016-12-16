@@ -1,0 +1,9 @@
+528:/std/heap.c (/std/heap.c)
+(void) config_merge(object child)
+/*
+ * Function name: config_merge
+ * Description  : This is called when a heap merges with another heap. It
+ *                is called in the parent heap where the child gets merged
+ *                into. It is called before the heap size is adjusted.
+ * Arguments    : object child - the child that gets merged into us.
+ */

@@ -1,0 +1,6 @@
+1545:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) dosave()
+/*
+ * Function name: dosave
+ * Description:	  Save the variables and reset the autosave counter
+ */

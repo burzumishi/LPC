@@ -1,0 +1,10 @@
+201:/std/poison_effect.c (/std/poison_effect.c)
+(public void) set_silent(int t)
+/*
+ * Function name: set_silent
+ * Description  : This sets whether the poison should be 'silent'. If it is
+ *                silent, the poisonee will not cough or make other sounds.
+ * Arguments    : 0 - the poisonee will get all messages
+ *                1 - the poisonee will nog cough etc but get other messages
+ *                2 - the poisonee will get no messages at all
+ */

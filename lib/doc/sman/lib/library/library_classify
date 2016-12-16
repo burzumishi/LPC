@@ -1,0 +1,8 @@
+1768:/lib/library.c (/lib/library.c)
+(public int) library_classify(string str)
+/*
+ * Function name: library_classify
+ * Description:   The "classify" command
+ * Arguments:     string str - arguments to the "classify" command
+ * Returns:       1/0 - syntax success/failure
+ */

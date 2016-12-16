@@ -1,0 +1,8 @@
+2627:/secure/master/fob.c (/secure/master.c)
+(string) query_mentor(string student)
+/*
+ * Function name: query_mentor
+ * Description  : Get the identity of a wizard mentor.
+ * Arguments    : string student - the wiz to query.
+ * Returns      : string - the mentor.
+ */

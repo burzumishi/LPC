@@ -1,0 +1,6 @@
+144:/std/spells.c (/std/spells.c)
+(public void) create_spells()
+/*
+ * Function name: create_spells
+ * Description:   Default function
+ */

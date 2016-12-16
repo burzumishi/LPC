@@ -1,0 +1,7 @@
+550:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) set_call_no(int x)
+/*
+ * Function name: set_call_no
+ * Description	:
+ * Arguments	:
+ */

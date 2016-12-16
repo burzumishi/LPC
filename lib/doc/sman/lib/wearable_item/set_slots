@@ -1,0 +1,7 @@
+51:/lib/wearable_item.c (/lib/wearable_item.c)
+(public void) set_slots(int i)
+/* 
+ * Function name: set_slots
+ * Description:   Indicate which armour slots this item occupies.
+ * Arguments:     int i - the armour slots (A_CHEST, A_LEGS, etc.)
+ */

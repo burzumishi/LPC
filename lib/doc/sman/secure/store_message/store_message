@@ -1,0 +1,10 @@
+55:/secure/store_message.c (/secure/store_message.c)
+(nomask public string) store_message(string message, string filename)
+/*
+ * Function name: store_message
+ * Description  : This function may be called from the mail reader when
+ *                a wizard wants to write a message to file.
+ * Arguments    : string message  - the message to write.
+ *                string filename - the filename to write to.
+ * Returns      : string - the resulting message.
+ */

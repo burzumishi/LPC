@@ -1,0 +1,8 @@
+909:/std/living/combat.c (/std/living.c)
+(public void) adjust_combat_on_move(int leave)
+/*
+ * Function name:   adjust_combat_on_move
+ * Description:     Called to let movement affect the ongoing fight. This
+ *                  is used to print hunting messages.
+ * Arguments:       True if leaving else arriving
+ */

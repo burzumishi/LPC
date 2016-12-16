@@ -1,0 +1,9 @@
+126:/std/combat/humunarmed.c (/std/combat/humunarmed.c)
+(public nomask int) cr_try_hit(int aid)
+/*
+ * Function name: cr_try_hit
+ * Description:   Decide if a certain attack fails because of something
+ *                related to the attack itself.
+ * Arguments:     aid:   The attack id
+ * Returns:       True if hit, otherwise 0.
+ */

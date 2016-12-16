@@ -1,0 +1,11 @@
+578:/std/receptacle.c (/std/receptacle.c)
+(public int) do_default_pick(string str)
+/*
+ * Function name: do_default_pick
+ * Description  : Allows someone to try to pick the lock. The players pick
+ *                skill will be randomized a little and then checked against
+ *                the pick level of this lock.
+ * Arguments    : str - the argument to the command line verb
+ * Reurns       : 1   - success on picking a lock
+ *                0   - on failure
+ */

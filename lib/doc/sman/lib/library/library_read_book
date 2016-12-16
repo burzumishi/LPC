@@ -1,0 +1,10 @@
+1145:/lib/library.c (/lib/library.c)
+(public void) library_read_book(string text_filename, string book_name, int mread)
+/*
+ * Function name: library_read_book
+ * Description:   Display the text of a book to the reader
+ * Arguments:     string text_filename - The filename of the book file to use
+ *                string book_name     - The title of the book
+ *                int mread            - true if more should be used
+ * Returns:       A configured book
+ */

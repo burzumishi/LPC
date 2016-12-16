@@ -1,0 +1,6 @@
+66:/secure/purge.c (/secure/purge.c)
+(public nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Called when the object is created.
+ */

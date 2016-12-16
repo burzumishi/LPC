@@ -1,0 +1,11 @@
+876:/std/living/description.c (/std/living.c)
+(int) query_appearance_offset()
+/*
+ * Function name: query_appearance_offset
+ * Description:   The appearance offset affect how this living appears, 
+ *                independent of who the watcher is. (The normal appearance
+ *		  is relative to the watcher's opinion.)
+ *                A negative offset makes the living more beautiful.
+ *                A reasonable value for the offset is within +-50
+ * Returns:       The offset
+ */

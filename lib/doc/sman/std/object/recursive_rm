@@ -1,0 +1,10 @@
+960:/std/object.c (/std/object.c)
+(void) recursive_rm(object ob)
+/*
+ * Function name: recursive_rm
+ * Description  : When an object is removed, its complete inventory is
+ *                mapped through this function. If it is an interactive
+ *                object, it will be moved to its default starting
+ *                location else it will be descructed.
+ * Arguments    : object ob - the object to remove.
+ */

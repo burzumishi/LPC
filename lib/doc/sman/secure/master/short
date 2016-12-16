@@ -1,0 +1,7 @@
+170:/secure/master.c (/secure/master.c)
+(string ) short()
+/*
+ * Function name: short
+ * Description  : This function returns the short description of this object.
+ * Returns      : string - the short description.
+ */

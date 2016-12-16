@@ -1,0 +1,12 @@
+459:/secure/master/sanction.c (/secure/master.c)
+(static void) display_sanction_recursively(string giver, string root, string name, 			     string path)
+/*
+ * Function name: display_sanction_recursively
+ * Description  : This function will actually print the sanctions that a
+ *                particular domain or wizard has given out. For each
+ *                sanction receiver the tree will be followed and printed.
+ * Arguments    : string giver - the name of the sanction giver.
+ *                string root  - the root directory for the sanction.
+ *                string name  - the name of the sanction receiver.
+ *                string path  - the path in case of a directory sanction.
+ */

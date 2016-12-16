@@ -1,0 +1,10 @@
+234:/lib/shop.c (/lib/shop.c)
+(void) shop_hook_buy_cant_pay(object ob, int *arr)
+/*
+ * Function name: shop_hook_buy_cant_pay
+ * Description:   Called when player can't pay for what he wants to buy.
+ *		  The /lib/trade.c sets some default error messages but
+ *		  perhaps you are not happy with them?
+ * Arguments:	  ob - The object
+ *		  arr - The error code as it comes from trade.c
+ */

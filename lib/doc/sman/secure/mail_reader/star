@@ -1,0 +1,7 @@
+1600:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) star(int *mark_arr)
+/*
+ * Function name: star
+ * Description  : Marks one or more message as special.
+ * Arguments    : int * mark_arr - the numbers of the messages to mark.
+ */

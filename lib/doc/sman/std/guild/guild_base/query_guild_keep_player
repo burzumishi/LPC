@@ -1,0 +1,9 @@
+136:/std/guild/guild_base.c (/std/guild/guild_base.c)
+(static int) query_guild_keep_player(object player)
+/* function name: query_guild_keep_player
+ * Description:   This gives you a chance to tell if you want to keep the
+ *		  the player when the shadow is autoloading when a player
+ *		  logs on.
+ * Arguments:     player - the player
+ * Returns:       1 - keep player, 0 - kick him out.
+ */

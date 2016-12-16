@@ -1,0 +1,7 @@
+264:/std/herb.c (/std/herb.c)
+(void) set_id_diff(int i)
+/*
+ * Function name: set_id_diff
+ * Description:   Set how hard it is to identify a herb
+ * Arguments:     i - The skill needed to know the herb
+ */

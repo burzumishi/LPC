@@ -1,0 +1,9 @@
+2911:/secure/master.c (/secure/master.c)
+(public void) set_helper_soul_euid()
+/*
+ * Function name: set_helper_soul_euid
+ * Description  : The helper soul is intended for wizards to get some commands
+ *                for abilities they would not normally enjoy. Thus, the soul
+ *                requires a higher access level than normally. Make sure that
+ *                only the right object qualifies, though.
+ */

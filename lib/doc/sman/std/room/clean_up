@@ -1,0 +1,12 @@
+249:/std/room.c (/std/room.c)
+(public int) clean_up()
+/*
+ * Function name: clean_up
+ * Description  : This function destruct the room if there is nothing in it.
+ *                If you have special variables stored in a room you should
+ *		  define your own clean_up(). Also if you on startup of the
+ *		  room clone some objects and put inside it, please define
+ *		  your own clean_up() to destruct the room. This saves a
+ *		  lot of memory in the game.
+ * Returns      : int 1/0 - call me again/ don't bother me again.
+ */

@@ -1,0 +1,5 @@
+412:/std/heap.c (/std/heap.c)
+(public void) leave_env(object env, object dest)
+/*
+ * Description: Called when heap leaves it's environment
+ */

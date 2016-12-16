@@ -1,0 +1,12 @@
+346:/std/board.c (/std/board.c)
+(public int) block_writer()
+/*
+ * Function name: block_writer
+ * Description  : If this_player() is not allowed to write notes on this
+ *                board, this function should be used to block access.
+ *                If you print an error message on failure, please check
+ *                whether this_player() is in the environment of the board.
+ *                Redefine this function in your board code. It gets called
+ *                automatically when someone tries to write.
+ * Returns      : int 1/0 - true if the player is NOT allowed to write.
+ */

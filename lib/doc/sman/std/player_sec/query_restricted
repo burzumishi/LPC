@@ -1,0 +1,8 @@
+1314:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) query_restricted()
+/*
+ * Function name: query_restricted
+ * Description  : Get the time() value of the moment until which is restricted.
+ * Returns      : int - the time() value of the moment, or 0. A negative value
+ *                    indicates restriction by the administration.
+ */

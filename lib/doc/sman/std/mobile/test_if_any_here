@@ -1,0 +1,7 @@
+91:/std/mobile.c (/std/mobile.c)
+(void) test_if_any_here()
+/*
+ * Function name: test_if_any_here
+ * Description:   Turn of heart_beat if we are alone.
+ * Returns:
+ */

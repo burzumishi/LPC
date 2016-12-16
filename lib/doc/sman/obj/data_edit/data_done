@@ -1,0 +1,8 @@
+329:/obj/data_edit.c (/obj/data_edit.c)
+(static nomask int) data_done()
+/*
+ * Function name: data_done
+ * Description  : When the wizard is done editing the datafile, this function
+ *                writes the information back to disk.
+ * Returns      : int 1/0 - success/failure
+ */

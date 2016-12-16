@@ -1,0 +1,7 @@
+244:/std/act/seqaction.c (/std/act/seqaction.c)
+(int) seq_addlast(string name, mixed cmd)
+/*
+ *  Description: Add a command or an array of commands last in a sequence.
+ *               Same as seq_addfirst except the command(s) are added last
+ *               in the sequence. (see seq_addfirst)
+ */

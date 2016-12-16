@@ -1,0 +1,6 @@
+902:/std/door.c (/std/door.c)
+(void) set_door_desc(string desc)
+/*
+ * Function name: set_door_desc
+ * Description:   Set the long description of the door
+ */

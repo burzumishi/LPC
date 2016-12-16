@@ -1,0 +1,9 @@
+1205:/std/living/savevars.c (/std/living.c)
+(untyped) set_ghost(int flag)
+/*
+ * Function name:   set_ghost
+ * Description:     Change the living into a ghost or change the ghost-status
+ *                  of a player.
+ * Arguments:       flag: A flag to recognise the ghost-status. If flag is 0,
+ *                        make the ghost a living again.
+ */

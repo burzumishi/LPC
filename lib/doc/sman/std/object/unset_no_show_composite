@@ -1,0 +1,6 @@
+1539:/std/object.c (/std/object.c)
+(void) unset_no_show_composite()
+/*
+ * Function name: unset_no_show_composite
+ * Description:   Show an object in compisite descriptions again.
+ */

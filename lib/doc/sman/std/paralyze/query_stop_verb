@@ -1,0 +1,7 @@
+155:/std/paralyze.c (/std/paralyze.c)
+(string) query_stop_verb()
+/*
+ * Function name: query_stop_verb
+ * Description  : Return the stopping verb.
+ * Returns      : string - the verb.
+ */

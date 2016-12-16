@@ -1,0 +1,8 @@
+155:/std/living/cmdhooks.c (/std/living.c)
+(public mapping) query_com_sounds()
+/*
+ * Function name: query_com_sounds
+ * Description  : Returns the mapping with the sounds the way people
+ *                understand the speech of this player.
+ * Returns      : mapping - the mapping.
+ */

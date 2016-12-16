@@ -1,0 +1,12 @@
+306:/std/launch_weapon.c (/std/launch_weapon.c)
+(public nomask object *) query_valid_projectiles(object container)
+/*
+ * Function name: query_valid_projectiles
+ * Description  : Uses the function name set with set_valid_projectile to
+ *                find the valid projetiles in the specified container.
+ *                This function does only search the specified container
+ *                not any containers within the specified container.
+ *                
+ * Arguments    : object container - Container to search for projectiles.
+ * Returns      : An array of the valid projectiles found in this container. 
+ */

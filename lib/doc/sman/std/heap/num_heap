@@ -1,0 +1,9 @@
+183:/std/heap.c (/std/heap.c)
+(public int) num_heap()
+/*
+ * Function name: num_heap
+ * Description  : Returns the size of the heap. In case preparations were
+ *                made to split the heap, this will return how many items are
+ *                going to be moved.
+ * Returns      : int - the number of elements in the heap.
+ */

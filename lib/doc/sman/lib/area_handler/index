@@ -1,0 +1,7 @@
+432:/lib/area_handler.c (/lib/area_handler.c)
+(static nomask int) index(string str, string sstr)
+/*
+ * index
+ *
+ * Find the lcoation of a string in another string.
+ */

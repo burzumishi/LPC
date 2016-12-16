@@ -1,0 +1,7 @@
+477:/std/living/combat.c (/std/living.c)
+(public void) set_whimpy_dir(string str)
+/*
+ * Function name:   set_whimpy_dir
+ * Description:     Sets the favourite direction of the whimpy escape routine
+ * Arguments:       str: the direction string
+ */

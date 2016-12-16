@@ -1,0 +1,9 @@
+633:/lib/library.c (/lib/library.c)
+(public void) library_classify_hook(string title, string shelf)
+/* 
+ * Function name: library_classify_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user classifies a book
+ * Arguments:     string title - the book's title
+ *                string shelf - the shelf
+ */

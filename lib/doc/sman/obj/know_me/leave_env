@@ -1,0 +1,12 @@
+54:/obj/know_me.c (/obj/know_me.c)
+(void) leave_env(object inv, object to)
+/*
+ * Function name: leave_env
+ * Description  : This function is called whenever this object leaves its
+ *                environment. We remove the LIVE_I_ALWAYSKNOWN property
+ *                from the environment if the environment is a wizard. Note
+ *                that this function is also called when this object is
+ *                destructed.
+ * Arguments    : object inv - the environment this object is leaving.
+ *                object to  - the possible new destination of this object.
+ */

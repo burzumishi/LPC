@@ -1,0 +1,8 @@
+705:/std/living/savevars.c (/std/living.c)
+(void) refresh_living()
+/*
+ * Function name: refresh_living()
+ * Description  : This function is called to give the living full mana,
+ *                full hitpoints and full fatigue.
+ *                NOTE that this function can only be used for NPC's.
+ */

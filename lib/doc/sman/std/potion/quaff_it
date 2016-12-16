@@ -1,0 +1,10 @@
+431:/std/potion.c (/std/potion.c)
+(public int) quaff_it(string str)
+/*
+ * Function name:	quaff_it
+ * Description:		Quaffs the objects described as parameter to the
+ *                      quaff_verb. It uses command parsing to find which
+ *                      objects to quaff.
+ * Arguments:		str: The trailing command after 'quaff_verb ...'
+ * Returns:		True if command successful
+ */

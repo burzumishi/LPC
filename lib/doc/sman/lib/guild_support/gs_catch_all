@@ -1,0 +1,7 @@
+535:/lib/guild_support.c (/lib/guild_support.c)
+(int) gs_catch_all(string arg)
+/*
+ * Function name: gs_catch_all
+ * Description  : Catch all commands the player makes while meditating.
+ * Returns      : int 1/0 - success/failure.
+ */

@@ -1,0 +1,7 @@
+36:/std/living/heart_beat.c (/std/living.c)
+(static void) stop_heart()
+/*
+ * Function name: stop_heart
+ * Description:   Stop the heart beat for the living object and mark
+ *                the time for later reference.
+ */

@@ -1,0 +1,8 @@
+135:/std/leftover.c (/std/leftover.c)
+(public int) query_decay_time()
+/*
+ * Function name: query_decay_time
+ * Description  : Returns the time in minutes it takes for the leftover to
+ *                decay when it is not properly contained.
+ * Returns      : int - the decay time in minutes.
+ */

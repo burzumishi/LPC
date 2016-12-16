@@ -1,0 +1,8 @@
+54:/secure/bit_change.c (/secure/bit_change.c)
+(nomask static string) player_filename(string name)
+/*
+ * Function name: player_filename
+ * Description  : This function return the filename of the playerfile.
+ * Arguments    : string name - the name of the player to convert.
+ * Returns      : string - the filename.
+ */

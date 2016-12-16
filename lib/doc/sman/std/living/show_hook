@@ -1,0 +1,8 @@
+973:/std/living/description.c (/std/living.c)
+(public void) show_hook(object ob)
+/*
+ * Function name: show_hook
+ * Description  : This hook is called whenever an item is 'snown' to this
+ *                living. It is shown by this_player().
+ * Arguments    : object ob - the object shown.
+ */

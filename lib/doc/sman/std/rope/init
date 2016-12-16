@@ -1,0 +1,6 @@
+28:/std/rope.c (/std/rope.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description:   Initialize commandverbs
+ */

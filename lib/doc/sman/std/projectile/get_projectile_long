@@ -1,0 +1,15 @@
+271:/std/projectile.c (/std/projectile.c)
+(public string) get_projectile_long(string str, object for_obj, int num)
+/*
+ * Function name: get_projectile_long
+ * Description  : Use this function to return the proper long description
+ *                of this projectile.
+ * Arguments    : string str     - the pseudo-item to describe. This is an
+ *                                 item added with add_item. If this is 0, it
+ *                                 will return the description of the whole
+ *                                 object.
+ *                object for_obj - the object trying to get the long.
+ *                int num        - The number of projectile in this stack.
+ * Returns      : string         - the description of the object or
+ *                                 pseudo-item.
+ */

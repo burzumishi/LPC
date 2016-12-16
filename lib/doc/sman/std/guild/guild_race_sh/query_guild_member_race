@@ -1,0 +1,7 @@
+178:/std/guild/guild_race_sh.c (/std/guild/guild_race_sh.c)
+(public nomask int) query_guild_member_race()
+/*
+ * Function name: query_guild_member_race
+ * Description:   This is a race guild
+ * Returns:	  1
+ */

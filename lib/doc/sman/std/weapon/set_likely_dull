@@ -1,0 +1,8 @@
+820:/std/weapon.c (/std/weapon.c)
+(void) set_likely_dull(int i)
+/*
+ * Function name: set_likely_dull
+ * Description:   Set how likely the weapon will get dull or in case of a club
+ *                or mace, wear down in combat Mainly used from did_hit().
+ * Arguments:     i - how likely [0, 30] recommended
+ */

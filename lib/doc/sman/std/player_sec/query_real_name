@@ -1,0 +1,10 @@
+188:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask public string) query_real_name()
+/*
+ * Function name: query_real_name
+ * Description  : Gives back the real name of a player, e.g. "fatty". The
+ *                capitalized version can be found with query_cap_name().
+ *                Note that query_name() should not be used for identification
+ *                purposes as it may return a name as "ghost of X".
+ * Returns      : string - the lower case name of the player.
+ */

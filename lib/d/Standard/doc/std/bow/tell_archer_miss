@@ -1,0 +1,14 @@
+595:/std/bow.c (/std/bow.c)
+(public void) tell_archer_miss(object archer, object target, object projectile, 		 string adj_room_desc)
+/*
+ * Function name: tell_archer_miss
+ * Description  : Produces a message to the player when he misses his target.
+ *                This function take visual conditions in consideration as
+ *                well as shoots across rooms.
+ *
+ * Arguments    : archer:        The player loading his weapon.
+ *                target:        The target player is aiming at.
+ *                projectile:    The projectile we are loading.
+ *                adj_room_desc: Description of the room we shoot into. 0 if
+ *                               target stand in the same room.
+ */

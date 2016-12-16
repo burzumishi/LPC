@@ -1,0 +1,7 @@
+182:/std/object.c (/std/object.c)
+(public nomask void) reset()
+/*
+ * Function name: reset
+ * Description  : Reset the object. Don't call this directly. Define
+ *                reset_object instead.
+ */

@@ -1,0 +1,8 @@
+269:/std/paralyze.c (/std/paralyze.c)
+(string) query_stop_message()
+/*
+ * Function name: query_stop_message
+ * Description  : Returns the message written when paralyze stops. It returns
+ *                the real value, not solved for VBFC.
+ * Returns      : string - the message.
+ */

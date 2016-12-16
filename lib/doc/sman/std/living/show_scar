@@ -1,0 +1,7 @@
+564:/std/living/description.c (/std/living.c)
+(string) show_scar(mixed for_obj)
+/*
+ * Function name:   show_scar
+ * Description:     Finds out which scars this living has.
+ * Returns:         A string with the scars.
+ */

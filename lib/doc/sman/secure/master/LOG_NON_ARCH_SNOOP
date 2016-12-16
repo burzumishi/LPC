@@ -1,0 +1,5 @@
+1237:/secure/master.c (/secure/master.c)
+(#ifdef LOG_SNOOP #define) LOG_NON_ARCH_SNOOP(str)
+/* This macro will log the snoop-action when the actor is not a member of
+ * the administration.
+ */

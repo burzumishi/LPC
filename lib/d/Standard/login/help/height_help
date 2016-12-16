@@ -1,0 +1,26 @@
+HELP FOR THE FIRST HALL OF MIRRORS
+
+This part is pretty simple. Before you stand a number of mirrors, each
+curved to make you look normal, taller or shorter, to varying degrees.
+You can 'examine mirrors' to see all the possibilites at once, or examine
+them one at a time, 'examine first mirror' or 'examine sixth mirror', for
+example.
+
+Once you've decided on the height you'd like (relative to your race, a
+very tall dwarf isn't necessarily taller than a short human, for instance),
+simply enter the appropriate mirror and be on your way.
+
+Say for example you've examined the mirrors and decided you wanted to be
+extremely short. You've figured out which mirror you want to enter probably
+by double checking by 'examine first mirror' to be sure that it's the mirror
+which makes you appear extremely short. Now, simply 'enter first mirror' and
+poof, you'll be very short, and in the second hall of mirrors where you'll
+then perform a similar event to set your width.
+
+As a final breakdown, there are only three commands needed here:
+'examine mirrors'          - See all the possibilities at once.
+'examine <which> mirror'   - Examine a specific mirror.
+'enter <which> mirror'     - Choose a height and move to next room.
+
+Note that 'exa' and 'look at' will function identically to 'examine', and
+the <which> option is one of the mirrors, i.e. first, second, third, etc.

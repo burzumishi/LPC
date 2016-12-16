@@ -1,0 +1,12 @@
+243:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public int) query_spell_mess(string verb, mixed arg)
+/*
+ * Function name: query_spell_mess
+ * Description:   It is called from cmdhooks.c, and it us used to change the
+ *                standard message given when a spell is being prepared. You
+ *                should handle all the printouts by yourself.
+ * Arguments:     verb - The verb that initiated this spell.
+ *                arg  - The arguments to the verb.
+ * Returns:       True if you are handling the printouts yourself, 
+ *                false otherwise.
+ */

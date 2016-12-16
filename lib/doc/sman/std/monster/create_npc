@@ -1,0 +1,6 @@
+37:/std/monster.c (/std/monster.c)
+(nomask void) create_npc()
+/*
+ * Function name: create_npc
+ * Description:   Create the inherited npc object. (constructor)
+ */

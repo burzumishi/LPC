@@ -1,0 +1,11 @@
+72:/std/living/description.c (/std/living.c)
+(public int) query_met(mixed name)
+/*
+ * Function name: query_met
+ * Description  : Tells if we know a certain living's name. As NPC's always
+ *                know everyone, this function is masked in the player object
+ *                for true met/nonmet behaviour for players (if defined).
+ * Arguments    : mixed name - the name or objectpointer to the living we
+ *                             are supposed to have met.
+ * Returns      : int 1 - always as NPC's always know everyone.
+ */

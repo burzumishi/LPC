@@ -1,0 +1,7 @@
+425:/std/herb.c (/std/herb.c)
+(void) restart_decay()
+/*
+ * Function name: restart_decay
+ * Description:   Restart the decay process of a herb that was stopped
+ *                by stop_decay.
+ */

@@ -1,0 +1,8 @@
+22:/std/player/death_sec.c (/std/player_sec.c)
+(public int) second_life(object killer)
+/*
+ * Function name:   second_life
+ * Description:     Handles all that should happen to a dying player.
+ * Arguments        object killer - the object that killed us.
+ * Returns:         True if the living object should get a second life
+ */

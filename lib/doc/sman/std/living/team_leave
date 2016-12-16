@@ -1,0 +1,7 @@
+602:/std/living/combat.c (/std/living.c)
+(public void ) team_leave(object member)
+/*
+ * Function name: team_leave
+ * Description  : Someone leaves my team.
+ * Arguments    : object member - the member leaving my team.
+ */

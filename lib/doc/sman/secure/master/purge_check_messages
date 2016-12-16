@@ -1,0 +1,11 @@
+326:/secure/master/mail_admin.c (/secure/master.c)
+(static void) purge_check_messages(int dir, int messages, int purged, string *files)
+/*
+ * Function name: purge_check_messages
+ * Description  : This will loop over a batch of message files and then
+ *                continues with the next directory.
+ * Arguments    : int dir       - the directory number we are working on.
+ *                int messages  - amount of messages found so far.
+ *                int purged    - amount of messages purged so far.
+ *                string *files - the names of the files left in this dir.
+ */

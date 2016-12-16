@@ -1,0 +1,7 @@
+154:/lib/keep.c (/lib/keep.c)
+(public nomask string) query_keep_recover()
+/*
+ * Function name: query_keep_recover
+ * Description  : This function will return the keep-recovery string.
+ * Returns      : string - the keep-recovery string.
+ */

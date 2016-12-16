@@ -1,0 +1,8 @@
+892:/std/player_sec.c (/std/player_sec.c)
+(nomask public int) fix_saveprop_list()
+/*
+ * Function name: fix_saveprops_list
+ * Description  : Before the player is saved, this function is called to
+ *                store several properties into an array that will be
+ *                saved in the player file.
+ */

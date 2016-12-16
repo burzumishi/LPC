@@ -1,0 +1,12 @@
+1270:/secure/simul_efun.c (/secure/simul_efun.c)
+(mixed) minmax(mixed value, mixed minimum, mixed maximum)
+/*
+ * Function name: minmax
+ * Description  : Makes sure a value is within a certain range of a minimum
+ *                and defined maximum. The routine works on integers as well
+ *                as floats.
+ * Arguments    : mixed value - the value to test.
+ *                mixed mininum - the minimal value acceptable.
+ *                mixed maximum - the maximal value acceptable.
+ * Returns      : mixed - a value that adheres to: minimum <= value <= maximum
+ */

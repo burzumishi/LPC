@@ -1,0 +1,13 @@
+807:/std/receptacle.c (/std/receptacle.c)
+(public nomask object) get_key_to_fit(object *key_items, mixed key_value)
+/*
+ * Function name: get_key_to_fit
+ * Description  : Get the key to fir a certain lock from an array of keys
+ *                that fit the description the player wanted to test. This
+ *                container allows you to specify multiple keys to test.
+ * Arguments    : key_items - the keys to test
+ *                key_value - the key-value to test
+ * Returns      : object    - the first key that the player has in his
+ *                            inventory and that matches all requirements.
+ *                0         - failure
+ */

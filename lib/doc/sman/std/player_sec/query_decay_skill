@@ -1,0 +1,9 @@
+185:/std/player_sec.c (/std/player_sec.c)
+(static nomask int) query_decay_skill(mixed list, int skill)
+/*
+ * Function name: query_decay_skill
+ * Description:   Return 1 if a skill should be decayed, 0 if not.
+ * Arguments:     list - the list of objects defining the skill train max
+ *                skill - the skill to be examined.
+ * Returns:       See above.
+ */

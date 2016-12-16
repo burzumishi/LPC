@@ -1,0 +1,7 @@
+228:/std/guild/guild_race_sh.c (/std/guild/guild_race_sh.c)
+(public nomask int) remove_guild_race()
+/*
+ * Function name: remove_guild_member_race
+ * Description:   Remove a player from the guild. Will take care of everything.
+ * Returns:       1 if removed
+ */

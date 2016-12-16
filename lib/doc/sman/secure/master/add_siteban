@@ -1,0 +1,9 @@
+90:/secure/master/siteban.c (/secure/master.c)
+(static int) add_siteban(string cmd, string ipmask, string reason)
+/*
+ * Function name: add_siteban
+ * Description  : Add a new siteban.
+ * Arguments    : string cmd - either nonew or nologin.
+ *                string ipmask - the ip number to ban.
+ *                string reason - the reason for banning.
+ */

@@ -1,0 +1,7 @@
+1473:/secure/login.c (/secure/login.c)
+(public int) query_login_flag()
+/*
+ * Function name: query_login_flag
+ * Description  : Returns the current login flag.
+ * Returns      : int - the login flag.
+ */

@@ -1,0 +1,7 @@
+98:/std/combat/unarmed.c (/std/combat/unarmed.c)
+(public void) cr_configure()
+/*
+ * Function name: cr_configure
+ * Function name: cr_configure
+ * Description:   Configures basic values for this creature.
+ */

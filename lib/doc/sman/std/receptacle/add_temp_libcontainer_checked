@@ -1,0 +1,8 @@
+953:/std/receptacle.c (/std/receptacle.c)
+(public nomask void) add_temp_libcontainer_checked(object player)
+/*
+ * Function name: add_temp_libcontainer_checked
+ * Description  : If a player handled a container and failed, he will not
+ *                try to handle other containers in the same heartbeat.
+ * Arguments    : player - the player to add it to.
+ */

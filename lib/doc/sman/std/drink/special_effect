@@ -1,0 +1,9 @@
+340:/std/drink.c (/std/food.c)
+(public void) special_effect(int amount)
+/*
+ * Function name: special_effect
+ * Description  : Define this routine if you want to do some special effect
+ *                if a player consumes this drink. By default, it displays
+ *                the message set with set_drink_msg(), if any.
+ * Arguments    : int amount - the number of drinks consumed.
+ */

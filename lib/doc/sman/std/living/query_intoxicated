@@ -1,0 +1,7 @@
+1440:/std/living/savevars.c (/std/living.c)
+(public int) query_intoxicated()
+/*
+ * Function name:   query_intoxicated
+ * Description:     Gives the level of intoxication of a living.
+ * Returns:         The intoxication level.
+ */

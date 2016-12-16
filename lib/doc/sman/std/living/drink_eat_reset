@@ -1,0 +1,6 @@
+60:/std/living/drink_eat.c (/std/living.c)
+(static void) drink_eat_reset()
+/*
+ * Function name: 	drink_eat_reset
+ * Description:   	Initializes the drink / food routines
+ */

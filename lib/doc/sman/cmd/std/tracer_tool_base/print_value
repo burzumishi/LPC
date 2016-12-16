@@ -1,0 +1,7 @@
+199:/cmd/std/tracer_tool_base.c (/cmd/std/tracer_tool_base.c)
+(void) print_value(mixed ret)
+/*
+ * Function name: print_value
+ * Description  : print out a value in a format appropriate for its type.
+ * Arguments    : mixed ret - the value to print.
+ */

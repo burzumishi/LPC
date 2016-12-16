@@ -1,0 +1,7 @@
+240:/std/coins.c (/std/coins.c)
+(public string) query_coin_type()
+/*
+ * Function name: query_coin_type
+ * Description  : Return what type of coins we have.
+ * Returns      : string - the coin type.
+ */

@@ -1,0 +1,6 @@
+22:/std/living/move.c (/std/living.c)
+(static nomask void) move_reset()
+/*
+ * Function name: move_reset
+ * Description  : Reset the move module of the living object.
+ */

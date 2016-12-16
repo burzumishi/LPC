@@ -1,0 +1,9 @@
+755:/std/launch_weapon.c (/std/launch_weapon.c)
+(public int) fire(string args)
+/*
+ * Function name: fire
+ * Description  : Fires an missile when archer has aimed.
+ *                
+ * Arguments    : string - Dummy string.
+ * Returns      : 1 - fired, 0 command not handled.
+ */

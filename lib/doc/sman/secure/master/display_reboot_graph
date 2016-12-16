@@ -1,0 +1,6 @@
+177:/secure/master/notify.c (/secure/master.c)
+(static void) display_reboot_graph()
+/*
+ * Function name: display_reboot_graph
+ * Description  : This function will display the reboot-graph.
+ */

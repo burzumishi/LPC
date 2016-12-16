@@ -1,0 +1,7 @@
+323:/std/drink.c (/std/food.c)
+(public void) init_recover(string str)
+/*
+ * Function name: init_recover
+ * Description  : This function is called when the drinks recover.
+ * Arguments    : string str - the recover argument.
+ */

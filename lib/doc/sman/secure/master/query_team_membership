@@ -1,0 +1,7 @@
+2936:/secure/master/fob.c (/secure/master.c)
+(string *) query_team_membership(string wname)
+/* Function name: query_team_membership
+ * Description  : Return a list of teams the player is a member of
+ * Arguments    : string wname - the member to query about
+ * Returns      : string * - the list of teams
+ */

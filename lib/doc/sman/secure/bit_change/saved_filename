@@ -1,0 +1,9 @@
+66:/secure/bit_change.c (/secure/bit_change.c)
+(nomask static string) saved_filename(string name)
+/*
+ * Function name: saved_filename
+ * Description  : This function returns the filename of the playerfile if
+ *                that playerfile is secured.
+ * Arguments    : string name - the name of the player to convert.
+ * Returns      : string - the filename.
+ */

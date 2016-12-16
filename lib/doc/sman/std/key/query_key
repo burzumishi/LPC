@@ -1,0 +1,7 @@
+85:/std/key.c (/std/key.c)
+(public mixed) query_key()
+/*
+ * Function name: query_key
+ * Description  : Returns the id number of the key.
+ * Returns      : mixed - the key value.
+ */

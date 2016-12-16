@@ -1,0 +1,14 @@
+898:/std/receptacle.c (/std/receptacle.c)
+(public nomask mixed) normal_access_key(string str)
+/*
+ * Function name: normal_access_key
+ * Description  : This function is used by all commands attached to the
+ *                container to get an array of objects that the player wanted
+ *                to manupulate and the keys he wants to manipulate the
+ *                containers with.
+ * Arguments    : str   - the argument to the command line verb
+ * Returns      : mixed - the objects the player wants to handle and what he
+ *                        wants to handle them with in an array of arrays:
+ *                        ({ ({ container_items }), ({ key_items }) })
+ *                0     - on failure.
+ */

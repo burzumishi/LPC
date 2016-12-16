@@ -1,0 +1,8 @@
+355:/lib/wearable_item.c (/lib/wearable_item.c)
+(public mixed) wear_me()
+/*
+ * Function name: wear_me
+ * Description:   wear this item
+ * Returns:       string - error message (failure)
+ *                1 - success
+ */

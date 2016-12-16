@@ -1,0 +1,8 @@
+309:/secure/master/fob.c (/secure/master.c)
+(int) query_domain_max(string dname)
+/*
+ * Function name: query_domain_max
+ * Description  : Find and return the maximum number of wizards wanted. 
+ * Arguments    : string dname - the name of the domain.
+ * Returns      : int - the max number if found, -1 otherwise.
+ */

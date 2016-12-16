@@ -1,0 +1,12 @@
+462:/std/bow.c (/std/bow.c)
+(public void) tell_others_unload(object archer, object target, object projectile)
+/*
+ * Function name: tell_others_unload
+ * Description  : Produces messages to bystanders that the wielder unloads
+ *                his launch_weapon. This function is meant to be
+ *                overridden by launch_weapon implementaions.
+ *                
+ * Arguments    : archer:      The archer unloading a projectile.
+ *                target:      The person the wilder aimed at.
+ *                projectile:  The projectile he unloads.
+ */

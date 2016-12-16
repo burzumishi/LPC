@@ -1,0 +1,7 @@
+745:/std/receptacle.c (/std/receptacle.c)
+(public void) set_pick(int i)
+/*
+ * Function name: set_pick
+ * Description  : Set the difficulty to pick the lock.
+ * Arguments    : i - the pick level
+ */

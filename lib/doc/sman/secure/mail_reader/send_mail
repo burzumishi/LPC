@@ -1,0 +1,11 @@
+1783:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) send_mail(string name)
+/*
+ * Function name: send_mail
+ * Description  : This function sends the mail to the recipients and
+ *                makes sure that if people are reading mail their readers
+ *                are notified. To avoid the "evaluation too long" error,
+ *                send_mail_safely is called to store the message in the
+ *                destinations mail-files.
+ * Arguments    : string name - the (capitalized) name of the author.
+ */

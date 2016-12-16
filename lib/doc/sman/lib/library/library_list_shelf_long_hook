@@ -1,0 +1,8 @@
+381:/lib/library.c (/lib/library.c)
+(public void) library_list_shelf_long_hook(string shelf)
+/*
+ * Function name: library_list_shelf_long_hook
+ * Description:   Redefine this to alter how the long listing of books
+ *                on a given shelf is presented
+ * Arguments:     string shelf - the name of the shelf
+ */

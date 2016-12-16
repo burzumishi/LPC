@@ -1,0 +1,7 @@
+392:/std/herb.c (/std/herb.c)
+(nomask void) reset_object()
+/*
+ * Function name: reset_object
+ * Description  : Reset routine. To reset this herb, define reset_herb() and
+ *                call enable_reset() to start the reset functionality.
+ */

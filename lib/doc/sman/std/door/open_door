@@ -1,0 +1,7 @@
+461:/std/door.c (/std/door.c)
+(int) open_door(string arg)
+/*
+ * Function name: open_door
+ * Description:   Open the door.
+ * Arguments:	  arg - arguments given
+ */

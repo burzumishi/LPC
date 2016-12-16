@@ -1,0 +1,7 @@
+169:/std/leftover.c (/std/leftover.c)
+(public void ) enter_env(object dest, object old)
+/*
+ * Function name: enter_env
+ * Description  : When the leftover is dropped in a room, start the count
+ *                down to the decay routine.
+ */

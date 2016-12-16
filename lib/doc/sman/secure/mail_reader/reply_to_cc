@@ -1,0 +1,7 @@
+2241:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) reply_to_cc(string str)
+/*
+ * Function name: reply_to_cc
+ * Description  : Ask confirmation about replying to Cc: people as well.
+ * Arguments    : string str - abort with ~q or else y/n.
+ */

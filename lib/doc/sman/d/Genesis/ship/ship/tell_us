@@ -1,0 +1,8 @@
+610:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(void) tell_us(string what)
+/*
+ * Function name: tell_us
+ * Description	: Give a message to all players in the ships environment
+ *		  and on the ships deck.
+ * Arguments	: string containing message
+ */

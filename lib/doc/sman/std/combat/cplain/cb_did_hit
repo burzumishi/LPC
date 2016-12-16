@@ -1,0 +1,17 @@
+158:/std/combat/cplain.c (/std/combat/cplain.c)
+(public varargs void) cb_did_hit(int aid, string hdesc, int hid, int phurt, object enemy, int dt, 	   int phit, int dam)
+/*
+ * Function name: cb_did_hit
+ * Description:   Tells us that we hit something. Should produce combat
+ *                messages to all relevant parties. This is supposed to be
+ *                replaced by a more intelligent routine in creature and
+ *                humanoid combat. (called from heart_beat)
+ * Arguments:     aid:   The attack id
+ *                hdesc: The hitlocation description
+ *                hid:   The hitlocation id
+ *                phurt: The %hurt made on the enemy
+ *                enemy: The enemy who got hit
+ *		  dt:	 The current damagetype
+ *		  phit:  The %success that we made with our weapon
+ *		  dam:	 The damamge made in hitpoints
+ */

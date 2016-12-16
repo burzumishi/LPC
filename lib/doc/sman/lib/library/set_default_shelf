@@ -1,0 +1,9 @@
+232:/lib/library.c (/lib/library.c)
+(public void) set_default_shelf(string shelf)
+/*
+ * Function name: set_default_shelf
+ * Description:   Set the default shelf to be used when none is specified
+ *                by the code or player.
+ * Arguments:     string shelf - the name of the shelf to use (one of the
+ *                               shelf names given in add_book_shelf())
+ */

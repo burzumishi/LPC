@@ -1,0 +1,9 @@
+314:/std/room/exits.c (/std/room.c)
+(mixed) query_exit_rooms()
+/*
+ * Function name: query_exit_rooms
+ * Description  : Returns an array of strings containing the full path names
+ *                to all rooms that are connected to this one by add_exit()'s.
+ *                The values may contain VBFC.
+ * Returns      : mixed - the array with exits.
+ */

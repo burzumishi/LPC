@@ -1,0 +1,7 @@
+1775:/std/door.c (/std/door.c)
+(string) standard_knock_fail0()
+/*
+ * Function name:	standard_knock_fail0
+ * Description	:	give the default you-knock msg for an open door
+ * Returns	:	string -- the msg
+ */

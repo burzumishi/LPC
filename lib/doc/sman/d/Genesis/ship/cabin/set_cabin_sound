@@ -1,0 +1,7 @@
+12:/d/Genesis/ship/cabin.c (/d/Genesis/ship/cabin.c)
+(public void) set_cabin_sound(string str)
+/*
+ * Function name: set_cabin_sound
+ * Description:   Set what sound to be heard when the ship moves, can be VBFC
+ * Arguments:	  str - The string to print
+ */

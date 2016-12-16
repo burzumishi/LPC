@@ -1,0 +1,7 @@
+609:/std/weapon.c (/std/weapon.c)
+(int) query_hands()
+/*
+ * Function name: query_hands
+ * Description  : Find out the hands that we can use for this weapon.
+ * Returns      : int - the hands.
+ */

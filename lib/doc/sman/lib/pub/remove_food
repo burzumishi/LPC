@@ -1,0 +1,8 @@
+377:/lib/pub.c (/lib/pub.c)
+(int) remove_food(string id)
+/*
+ * Function name: remove_food
+ * Description:   Remove a special food, identified with id
+ * Arguments:     id - A identifying string
+ * Returns:       1 if removed
+ */

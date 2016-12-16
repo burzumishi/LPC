@@ -1,0 +1,8 @@
+500:/std/player/savevars_sec.c (/std/player_sec.c)
+(nomask void) set_recover_list(string *arr)
+/*
+ * Function name:   set_recover_list
+ * Description:     Sets the array with recover strings. Recover strings
+ *                  look like "<file>:<arg>".
+ * Arguments:       arr: An array with autoload strings.
+ */

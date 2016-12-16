@@ -1,0 +1,9 @@
+2688:/secure/master/fob.c (/secure/master.c)
+(int) remove_student(string mentor, string student)
+/*
+ * Function name: remove_student
+ * Description  : Remove a student from the internal list.
+ * Arguments    : string mentor - the mentor to remove from.
+ *                string student - the student to remove.
+ * Returns      : int 1 - success, 0 - error.
+ */

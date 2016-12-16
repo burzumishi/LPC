@@ -1,0 +1,6 @@
+204:/std/combat/humunarmed.c (/std/combat/humunarmed.c)
+(public nomask void) update_procuse()
+/*
+ * Function name: update_procuse()
+ * Description:   use this to update the percent usage of attacks
+ */

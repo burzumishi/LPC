@@ -1,0 +1,7 @@
+830:/std/living/combat.c (/std/living.c)
+(public int) query_combat_time()
+/*
+ * Function name: query_combat_time
+ * Description  : Find out when the last hit was made, either by us or on us.
+ * Returns      : int - the time() value when the last hit was made.
+ */

@@ -1,0 +1,6 @@
+299:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public void) init()
+/*
+ * Function name: init
+ * Description	: Add commands to the player presend outside the ship
+ */

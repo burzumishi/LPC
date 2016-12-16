@@ -1,0 +1,7 @@
+345:/lib/holdable_item.c (/lib/holdable_item.c)
+(public nomask object) query_holder()
+/*
+ * Function name: query_holder
+ * Description  : Returns the person holding this object, if it is held.
+ * Returns      : object - the person holding this item, else 0.
+ */

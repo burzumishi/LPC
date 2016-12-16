@@ -1,0 +1,7 @@
+720:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public object) query_captain()
+/*
+ * Function name: query_captain
+ * Description	: Get the object that is set up as captain of the ship
+ * Returns	: the captain object
+ */

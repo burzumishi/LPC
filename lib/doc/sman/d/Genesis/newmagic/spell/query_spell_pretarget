@@ -1,0 +1,11 @@
+688:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public int) query_spell_pretarget()
+/*
+ * Function name: query_spell_pretarget
+ * Description:   Indicates whether this spell should acquire targets before
+ *                casting (when concentration begins) or at the moment of
+ *                casting.  There is no configuration function to set this, so
+ *                you must redefine this function if you don't want the
+ *                default.
+ * Returns:       true (1) - All spells are pretargeted by default.
+ */

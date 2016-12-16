@@ -1,0 +1,6 @@
+66:/std/container.c (/std/container.c)
+(public nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description:   Create the container (constructor)
+ */

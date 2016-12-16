@@ -1,0 +1,12 @@
+3348:/secure/master.c (/secure/master.c)
+(void) note_something(string str, int id, object env)
+/*
+ * Function name: note_something
+ * Description  : This function is called from the info.c commandsoul when
+ *                someone made a report. It distuishes between sys-reports
+ *                and room-related reports and writes them to the correct
+ *                directory.
+ * Arguments:     string str - the message to log.
+ *                int id     - the id (type) of the log.
+ *                object env - the environment of this_player().
+ */

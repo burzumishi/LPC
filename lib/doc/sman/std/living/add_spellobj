@@ -1,0 +1,7 @@
+19:/std/living/spells.c (/std/living.c)
+(public void) add_spellobj(object obj)
+/*
+ * Function name: add_spellobj
+ * Description:   Add a spell object to the list of spell objects.
+ * Arguments:     obj - The object to add.
+ */

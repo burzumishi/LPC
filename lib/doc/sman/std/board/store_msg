@@ -1,0 +1,8 @@
+1245:/std/board.c (/std/board.c)
+(nomask public int) store_msg(string str)
+/*
+ * Function name: store_msg
+ * Description  : Store a message to disk.
+ * Arguments    : string str - the message to store and the filename.
+ * Returns      : int 1/0 - success/failure.
+ */

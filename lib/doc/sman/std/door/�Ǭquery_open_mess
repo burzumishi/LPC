@@ -1,0 +1,6 @@
+1009:/std/door.c (/std/door.c)
+(string) *query_open_mess()
+/*
+ * Function name: query_open_mess
+ * Description:   Query what messages we get when dor is opened
+ */

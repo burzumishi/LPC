@@ -1,0 +1,13 @@
+73:/std/combat/cplain.c (/std/combat/cplain.c)
+(public varargs int) cb_add_hitloc(int *ac, int prchit, string desc, int id, object *arm)
+/*
+ * Function name: cb_add_hitloc
+ * Description:   Add a hitlocation to the hitloc array
+ * Arguments:	  
+ *	      ac:    The ac's for a given hitlocation
+ *	      %hit:  The chance that a hit will hit this location
+ *	      desc:  String describing this hitlocation, ie "head", "tail"
+ *	      id:    Specific id, for humanoids A_TORSO, A_HEAD etc
+ *
+ * Returns:       True if added.
+ */

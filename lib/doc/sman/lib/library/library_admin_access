@@ -1,0 +1,8 @@
+1064:/lib/library.c (/lib/library.c)
+(public int) library_admin_access()
+/*
+ * Function name: library_admin_access
+ * Description:   Redefine this function to limit permission to admin commands
+ * Returns:       1 - this_player() is permitted to perform admin commands
+ *                0 - this_player() is not permitted to perform admin commands
+ */

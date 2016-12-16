@@ -1,0 +1,7 @@
+267:/secure/purge.c (/secure/purge.c)
+(static nomask void) delayed_purge()
+/*
+ * Function name: delayed_purge
+ * Description  : We use alarms to prevent problems with eval-cost when
+ *                testing a lot of players.
+ */

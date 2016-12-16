@@ -1,0 +1,10 @@
+323:/secure/queue.c (/secure/queue.c)
+(public int) query_position(string name)
+/*
+ * Function name: query_position
+ * Description  : This function returns the position of a particular player
+ *                in the queue.
+ * Arguments    : string name - the name of the player to check
+ * Returns      : int - the position of the player in the queue or -1 if the
+ *                      player is not in the queue.
+ */

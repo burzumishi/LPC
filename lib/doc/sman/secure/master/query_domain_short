@@ -1,0 +1,8 @@
+186:/secure/master/fob.c (/secure/master.c)
+(string) query_domain_short(string dname)
+/*
+ * Function name: query_domain_short
+ * Description  : Find the short name of the domain.
+ * Arguments    : string dname - the name of the domain.
+ * Returns      : string - the short name if found, "" otherwise.
+ */

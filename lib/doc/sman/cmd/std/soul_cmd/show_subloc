@@ -1,0 +1,10 @@
+276:/cmd/std/soul_cmd.c (/cmd/std/soul_cmd.c)
+(public string) show_subloc(string subloc, object on, object for_obj)
+/*
+ * Function name: show_subloc
+ * Description  : Shows the specific sublocation description for a living.
+ * Arguments    : string subloc  - the subloc to display.
+ *                object on      - the object to which the subloc is linked.
+ *                object for_obj - the object that wants to see the subloc.
+ * Returns      : string - the subloc description.
+ */

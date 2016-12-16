@@ -1,0 +1,10 @@
+2443:/secure/master.c (/secure/master.c)
+(void) incoming_udp(string from_host, string message)
+/*
+ * Function name: incoming_udp
+ * Description:   Called from GD if a udp message has been received. This
+ *                can only happen if CATCH_UDP_PORT has been defined in
+ *                the GD's config.h file.
+ * Arguments:     from_host: The IP number of the sending host
+ *                message:   The message sent.
+ */

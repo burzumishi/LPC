@@ -1,0 +1,8 @@
+42:/std/coins.c (/std/coins.c)
+(public nomask void) create_heap()
+/*
+ * Function name: create_heap
+ * Description  : Constructor. This will create the heap and set some stuff
+ *                that we want. You may not mask this function. You have to
+ *                use create_coins() to create your own coins.
+ */

@@ -1,0 +1,8 @@
+119:/lib/shop.c (/lib/shop.c)
+(void) shop_hook_sell_no_sell(object ob, string str)
+/*
+ * Function name: shop_hook_sell_no_sell
+ * Description:   An object has the no sell prop set (OBJ_M_NO_SELL)
+ * Arguments:	  ob  - The object
+ *		  str - Set if object has an own not sell string
+ */

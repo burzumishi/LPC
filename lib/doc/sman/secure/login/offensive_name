@@ -1,0 +1,11 @@
+565:/secure/login.c (/secure/login.c)
+(public int) offensive_name(string str)
+/*
+ * Function name: offensive_name
+ * Description  : Check whether the name is offensive or not. Note that
+ *                this function makes a check for generally offensive parts
+ *                only and that you have to use the banish command for
+ *                special cases.
+ * Arguments    : string str - the name to check.
+ * Returns      : int 1/0 - true if the name is offensive.
+ */

@@ -1,0 +1,6 @@
+51:/std/monster.c (/std/monster.c)
+(nomask void) reset_npc()
+/*
+ * Function name: reset_npc
+ * Description:   Reset the inherited npc object.
+ */

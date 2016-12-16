@@ -1,0 +1,7 @@
+109:/std/guild/guild_race_sh.c (/std/guild/guild_race_sh.c)
+(public string) query_guild_name_race()
+/*
+ * Function name: query_guild_name_race
+ * Description:   Returns the name of the guild this shadow represents
+ * Returns:	  The name of the guild
+ */

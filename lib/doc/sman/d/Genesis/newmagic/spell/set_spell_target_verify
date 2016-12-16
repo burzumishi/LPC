@@ -1,0 +1,18 @@
+429:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_target_verify(function f)
+/*
+ * Function name: set_spell_target_verify
+ * Description:   Indicate which function to use to determine if targets are
+ *                still valid when the spell is resolved.  This function should
+ *                be of the form
+ *
+ *                     object *func(object, object *, string)
+ *
+ *                where the first argument is the caster; the second is an
+ *                array containing the targets, as determined when
+ *                concentration began; the third is the string argument passed
+ *                to the "cast" command.  The function returns an array of
+ *                valid targets, empty if none were valid.
+ *
+ * Arguments:     1. (function) The verification function.
+ */

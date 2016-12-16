@@ -1,0 +1,7 @@
+15:/lib/udp/support.c (/lib/udp/support.c)
+(int) send_support_q(string host, mixed port, string cmd, string param)
+/*
+ * send_support_q
+ *
+ * Note that param is unsupported currently
+ */

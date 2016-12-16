@@ -1,0 +1,7 @@
+337:/std/living/savevars.c (/std/living.c)
+(public void) set_al_title(string t)
+/*
+ * Function name:   set_al_title
+ * Description:     Sets the alignment title of a living to something else
+ * Arguments:       t: The new alignment title string
+ */

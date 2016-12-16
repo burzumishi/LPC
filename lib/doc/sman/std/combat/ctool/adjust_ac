@@ -1,0 +1,10 @@
+152:/std/combat/ctool.c (/std/combat/ctool.c)
+(static void) adjust_ac(int hid, object arm, int rm)
+/*
+ * Function name: adjust_ac
+ * Description:   Adjust relevant hitlocations for a given armour slot
+ *                when we wear an armour or remove an armour.
+ * Arguments:     hid:   The hitlocation id as given in /sys/wa_types.h
+ *                arm:   The armour.
+ *                rm:    True if we remove armour
+ */

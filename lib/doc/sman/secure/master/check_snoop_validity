@@ -1,0 +1,10 @@
+1150:/secure/master.c (/secure/master.c)
+(static int) check_snoop_validity(object snooper, object snoopee, int sanction)
+/*
+ * Function name: check_snoop_validity
+ * Description  : Do the actual validity checking.
+ * Arguments    : object snooper - the prospective snooper.
+ *                object snopee  - the prospective snoopee.
+ *                int sanction - consider sanctioning or not.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

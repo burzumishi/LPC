@@ -1,0 +1,8 @@
+112:/secure/master/fob.c (/secure/master.c)
+(static void) load_fob_defaults()
+/*
+ * Function name: load_fob_defaults
+ * Description  : This function is called from master.c when the KEEPERAVE
+ *                file cannot be found. The defined values can be found in
+ *                config.h.
+ */

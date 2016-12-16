@@ -1,0 +1,5 @@
+207:/std/act/trigaction.c (/std/act/trigaction.c)
+(void) trig_delete(string pat)
+/*
+ *  Description: Delete a pattern from the ones to trig on
+ */

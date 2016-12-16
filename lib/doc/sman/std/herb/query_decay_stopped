@@ -1,0 +1,8 @@
+112:/std/herb.c (/std/herb.c)
+(int) query_decay_stopped()
+/*
+ * Function name: query_decay_stopped
+ * Description:   Check if the decay process has been stopped.
+ *                OBSOLETE! Retained only for backward compatibility.
+ * Returns:       int 1 - always.
+ */

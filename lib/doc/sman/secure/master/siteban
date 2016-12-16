@@ -1,0 +1,8 @@
+222:/secure/master/siteban.c (/secure/master.c)
+(public int) siteban(string str)
+/*
+ * Function name: siteban
+ * Description  : Main implementation of the command "siteban" for arches.
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0 - success/failure.
+ */

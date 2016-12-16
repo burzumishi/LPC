@@ -1,0 +1,7 @@
+235:/std/paralyze.c (/std/paralyze.c)
+(void) set_remove_time(int time)
+/*
+ * Function name: set_remove_time
+ * Description  : Set how long time player should be paralyzed (in seconds).
+ * Arguments    : int time - the time to set.
+ */

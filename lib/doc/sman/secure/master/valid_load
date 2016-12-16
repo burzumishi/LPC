@@ -1,0 +1,3 @@
+2412:/secure/master.c (/secure/master.c)
+(int ) valid_load(object ob, string file)
+/* ob trying to load file */

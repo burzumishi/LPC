@@ -1,0 +1,10 @@
+2167:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) forward(string str, int alter)
+/*
+ * Function name: forward
+ * Description  : This function enables the user to redirect incoming
+ *                mail to other people without retyping it. Technically,
+ *                the forward functionality is a front to resend.
+ * Arguments    : string str   - the list of people to forward the mail to
+ *                int    alter - if true, edit the outgoing message
+ */

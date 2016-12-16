@@ -1,0 +1,7 @@
+1461:/std/bow.c (/std/bow.c)
+(void) init_wep_recover(string arg)
+/*
+ * Function name: init_wep_recover
+ * Description:   Initialize the weapon variables at recover.
+ * Arguments:     arg - String with variables to recover
+ */

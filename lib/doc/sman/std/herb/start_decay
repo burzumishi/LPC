@@ -1,0 +1,6 @@
+441:/std/herb.c (/std/herb.c)
+(void) start_decay()
+/*
+ * Function name: start_decay
+ * Description:   Start the decay process of a herb
+ */

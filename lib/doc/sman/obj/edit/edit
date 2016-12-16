@@ -1,0 +1,20 @@
+212:/obj/edit.c (/obj/edit.c)
+(public varargs void) edit(mixed ffun, string str = "", int begin = 0)
+/*
+ * Function name: edit
+ * Description  : Lets the player edit a text. All three paramters described
+ *                below are optional.
+ *                Note that the function operates on this_player(). If there
+ *                is no this_player(), then nobody can edit anything.
+ * Argmuents    : mixed ffun - the name or function pointer of the function to
+ *                    call in the object that called us when the players is
+ *                    done editing. If omitted, the function "done_editing" is
+ *                    called by default.
+ *                string str - the text the players wants to edit or append
+ *                    to. If you want to start on a clean sheet, then this
+ *                    argument may be omitted.
+ *                int begin - start editing at line x of the text added with
+ *                    the second argument. If you want to append to the end of
+ *                    the text, this argument may be omitted. Otherwise start
+ *                    counting the lines at line 1.
+ */

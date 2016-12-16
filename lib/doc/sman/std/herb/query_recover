@@ -1,0 +1,7 @@
+615:/std/herb.c (/std/herb.c)
+(string) query_recover()
+/*
+ * Function name: query_recover
+ * Description:   A default query_recover() for herbs.
+ * Returns:	  A default recovery string.
+ */

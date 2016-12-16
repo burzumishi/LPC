@@ -1,0 +1,11 @@
+389:/std/launch_weapon.c (/std/launch_weapon.c)
+(public int) secondary_wep_cmd(string args)
+/*
+ * Function name: secondary_wep_cmd
+ * Description  : Parses the input from the player when he wants to set the
+ *                command to perform to wield his secondary weapon.
+ *                
+ * Arguments    : string args - User input.
+ * Returns      :  1  - Successful parse.
+ *                 0  - No match.
+ */

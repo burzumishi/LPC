@@ -1,0 +1,6 @@
+406:/std/combat/cbase.c (/std/combat/cbase.c)
+(public int) cb_query_panic()
+/*
+ * Function name: cb_query_panic
+ * Description:   Give the panic level.
+ */

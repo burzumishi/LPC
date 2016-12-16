@@ -1,0 +1,5 @@
+217:/cmd/live/items.c (/cmd/live/items.c)
+(string) get_soul_id()
+/* **************************************************************************
+ * Return a proper name of the soul in order to get a nice printout.
+ */

@@ -1,0 +1,13 @@
+440:/lib/commands.c (/lib/commands.c)
+(public object *) check_block_action(object *targets, int cmd_attr)
+/*
+ * Function name: check_block_action
+ * Description:   Check a set of targets to see if the current command
+ *                can be performed on each.
+ * Arguments:     object *targets - the targets of the command
+ *                int cmd_attr    - the command's attributes (from cmdparse.h)
+ * Returns:       An array containing the targets for whom the command was
+ *                not blocked.  If any were blocked, the global variable
+ *                "parse_msg" will contain error messages (if any were
+ *                supplied).
+ */

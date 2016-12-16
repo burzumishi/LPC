@@ -1,0 +1,7 @@
+189:/std/combat/humunarmed.c (/std/combat/humunarmed.c)
+(public nomask void) set_all_hitloc_unarmed(mixed ac)
+/*
+ * Function name: set_all_hitloc_unarmed
+ * Description:   Set up all unarmed hit location basics
+ * Arguments:     ac - an int or an array to modify the ac....
+ */

@@ -1,0 +1,7 @@
+280:/std/herb.c (/std/herb.c)
+(void) set_find_diff(int i)
+/*
+ * Function name: set_find_diff
+ * Description:   Set how hard it is to find the herb
+ * Arguments:     i - Difficulty (suggested range is 0 - 10)
+ */

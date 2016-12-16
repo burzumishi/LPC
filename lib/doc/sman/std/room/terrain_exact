@@ -1,0 +1,10 @@
+31:/std/room/terrain.c (/std/room.c)
+(int) terrain_exact(int terrain)
+/*
+ * Function name: terrain_exact
+ * Description  : Checks if the terrain of the room exactly matches a 
+ *                certain type
+ * Arguments    : int terrain - the terrain (or combination of terrains) 
+ *                to check for
+ * Returns      : int - 1 if terrain matches the room, 0 otherwise
+ */

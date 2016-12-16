@@ -1,0 +1,7 @@
+73:/std/coins.c (/std/coins.c)
+(public nomask void) reset_heap()
+/*
+ * Function name: reset_heap
+ * Description  : Called to make this heap reset. You may not mask this
+ *                function, so use reset_coins() instead.
+ */

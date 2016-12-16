@@ -1,0 +1,9 @@
+184:/std/combat/chumanoid.c (/std/combat/chumanoid.c)
+(public mixed) cb_wield_weapon(object wep)
+/*
+ * Function name: cb_wield_weapon
+ * Description:   Wield a weapon.
+ * Arguments:	  wep - The weapon to wield.
+ * Returns:       string - error message (weapon not wielded)
+ *                1 - success (weapon wielded)
+ */

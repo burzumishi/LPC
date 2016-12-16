@@ -1,0 +1,6 @@
+574:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public mixed) query_spell_object()
+/*
+ * Function name: query_spell_object
+ * Description:   Query the spell effect object setting
+ */

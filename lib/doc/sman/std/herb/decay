@@ -1,0 +1,10 @@
+373:/std/herb.c (/std/herb.c)
+(int) decay()
+/* 
+ * Function name: decay
+ * Description:   This function is called with an alarm, and simulates the
+ *                somewhat rapid decay of herbs - herbs lose their effect
+ *                soon after being picked, if they don't dry and last longer.
+ *                To make a herb dry, do set_dryable() from create_herb().
+ *                set_dried() can be used to dry the herb immediately.
+ */

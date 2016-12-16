@@ -1,0 +1,9 @@
+2347:/std/object.c (/std/object.c)
+(int) query_value()
+/*
+ * Function namn: query_value
+ * Description:   Does the same thing as query_prop(OBJ_I_VALUE)
+ *                but is needed since unique_array() doesn't send an
+ *                argument.
+ * Returns:       The value
+ */

@@ -1,0 +1,8 @@
+879:/std/player/savevars_sec.c (/std/player_sec.c)
+(static nomask void) transform_domain_bits()
+/*
+ * Function name: transform_domain_bits
+ * Description  : This routine exists for backward compatibility. It will
+ *                transform the traditional bit groups into the modern string
+ *                based bit list per domain.
+ */

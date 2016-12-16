@@ -1,0 +1,10 @@
+161:/secure/player_tool.c (/secure/player_tool.c)
+(static nomask int) valid_filename(string name)
+/*
+ * Function name: valid_filename
+ * Description  : This function tests whether the filename of the playerfile
+ *                contains only valid characters, i.e. letters of the
+ *                alphabet.
+ * Arguments    : string name - the name to test.
+ * Returns      : int 1/0 - success/failure.
+ */

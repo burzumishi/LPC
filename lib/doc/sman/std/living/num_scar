@@ -1,0 +1,7 @@
+511:/std/living/description.c (/std/living.c)
+(public int) num_scar()
+/*
+ * Function name:   num_scar
+ * Description:     Get the number of scars a player has
+ * Returns:         int holding number of scars
+ */

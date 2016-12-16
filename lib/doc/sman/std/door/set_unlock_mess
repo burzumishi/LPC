@@ -1,0 +1,6 @@
+1233:/std/door.c (/std/door.c)
+(void) set_unlock_mess(string *mess)
+/*
+ * Function name: set_unlock_mess
+ * Description:   Set message when unlocking door
+ */

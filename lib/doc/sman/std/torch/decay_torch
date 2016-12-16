@@ -1,0 +1,9 @@
+443:/std/torch.c (/std/torch.c)
+(void) decay_torch()
+/*
+ * Function name: decay_torch
+ * Description  : This function is called with a delay to destruct the
+ *                torch after burning out. Notice that the check for
+ *                query_torch_may_decay() must done before calling this
+ *                function.
+ */

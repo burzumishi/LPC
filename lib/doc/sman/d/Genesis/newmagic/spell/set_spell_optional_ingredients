@@ -1,0 +1,8 @@
+238:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public varargs void) set_spell_optional_ingredients(mixed list)
+/*
+ * Function name: set_spell_ingredients
+ * Description:   Set the optional ingredients for the spell.
+ * Arguments:     1. (mixed *)  An array of ingredients needed for the spell
+ *                   (function) Function that produces an ingredient list
+ */

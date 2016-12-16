@@ -1,0 +1,9 @@
+33:/secure/application_player.c (/secure/application_player.c)
+(void) write_info()
+/*
+ * Function name: write_info
+ * Description  : This function will display the next line of the application
+ *                process to the player and input the next line. If the
+ *                player is done, the message will be inserted in the
+ *                application board.
+ */

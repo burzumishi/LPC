@@ -1,0 +1,5 @@
+246:/cmd/live/items.c (/cmd/live/items.c)
+(mapping) query_cmdlist()
+/* **************************************************************************
+ * The list of verbs and functions. Please add new in alfabetical order.
+ */

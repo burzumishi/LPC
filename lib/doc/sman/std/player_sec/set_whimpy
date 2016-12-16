@@ -1,0 +1,12 @@
+1443:/std/player/savevars_sec.c (/std/player_sec.c)
+(public void) set_whimpy(int flag)
+/*
+ * Function name: set_whimpy
+ * Description  : When a living gets too hurt, it might try to run from
+ *                the combat it is engaged in. This will happen if the
+ *                percentage of hitpoints left is lower than the whimpy
+ *                level, ie: (100 * query_hp() / query_max_hp() < flag)
+ *                This routine interfaces to the option as for players
+ *                the whimpy status is an option.
+ * Arguments    : int flag - the whimpy level. Must be in range 0-99.
+ */

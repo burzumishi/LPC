@@ -1,0 +1,23 @@
+1622:/std/launch_weapon.c (/std/launch_weapon.c)
+(public varargs int) did_hit(int aid, string hdesc, int phurt, object target, int dt,                 int phit, int dam, int hid)
+/*
+ * Function name: did_hit
+ * Description:   Tells us that we hit something. Should produce combat
+ *                messages to all relevant parties. If the weapon
+ *                chooses not to handle combat messages then a default
+ *                message is generated. This function is meant to be overridden
+ *                by launch_weapon implementations. Remember to call
+ *                ::did_hit() since this function is also responsible
+ *                for moving the missiles and reseting the launch_weapon
+ *                for the next round.
+ *
+ * Arguments:     aid:   The attack id
+ *                hdesc: The hitlocation description.
+ *                phurt: The %hurt made on the enemy
+ *                enemy: The enemy who got hit
+ *                dt:    The current damagetype
+ *                phit:  The %success that we made with our weapon
+ *                dam:   The actual damage caused by this weapon in hit points
+ * Returns:       True if it handled combat messages, returning a 0 will let
+ *                the normal routines take over
+ */

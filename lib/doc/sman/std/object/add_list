@@ -1,0 +1,10 @@
+1072:/std/object.c (/std/object.c)
+(private string *) add_list(string *list, mixed elem, int first)
+/*
+ * Function name: add_list
+ * Description:   Common routine for set_name, set_pname, set_adj etc
+ * Arguments:     list: The list of elements
+ *                elem: string holding one new element.
+ *                first: True if it is the main name, pname adj
+ * Returns:       The new list.
+ */

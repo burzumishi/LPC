@@ -1,0 +1,8 @@
+140:/std/object.c (/std/object.c)
+(public nomask void) create()
+/*
+ * Function name: create
+ * Description  : Object constructor, called directly after load / clone.
+ *                It calls the public create function and sets the only
+ *                default variable.
+ */

@@ -1,0 +1,8 @@
+310:/obj/edit.c (/obj/edit.c)
+(static void) delete(string arg)
+/*
+ * Function name: delete
+ * Description  : Player wants to delete one or more lines. The format
+ *                is '3' or '3-5' or '3,5' or mixed: '3,5-7'.
+ * Arguments    : string arg - the command line argument.
+ */

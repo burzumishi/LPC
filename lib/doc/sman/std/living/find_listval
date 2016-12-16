@@ -1,0 +1,8 @@
+17:/std/living/tasks.c (/std/living.c)
+(private int) find_listval(mixed member)
+/*
+ * Function: find_listval
+ * Description: Finds the value of one member  in a skill list
+ * Arguments: Either a stat, skill, property or a VBFC
+ * Returns: Value of the member
+ */

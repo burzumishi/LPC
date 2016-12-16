@@ -1,0 +1,7 @@
+273:/lib/trade.c (/lib/trade.c)
+(void) set_money_values(int *a)
+/*
+ * Function name: set_money_values
+ * Description:   Set how valuable each money type is
+ * Arguments:     a - Array of values (integer) (values in cc)
+ */

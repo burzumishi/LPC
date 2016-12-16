@@ -1,0 +1,8 @@
+574:/std/heap.c (/std/heap.c)
+(public int) count(string str)
+/*
+ * Function name: count
+ * Description  : Function called when player gives 'count' command
+ * Arguments    : string str - the command line argument.
+ * Returns      : int 1/0.
+ */

@@ -1,0 +1,90 @@
+Here follows a list of what examples there are in each directory and any special
+information that that file contain.
+
+armours/
+
+    helmet.c	How to make a simple piece of armour
+    jacket.c	Another very short example
+    shield.c	A shield that breaks after 5 hits.
+
+door/
+    room_a.c	A room with two doors in it.
+    door_a.c	The side of one door in room_a
+    steel_key.c How to make a simple key
+    room_e.c 	A more complex, but better room with doors
+    door_e.c	A better and more complex door
+
+guild/
+    cleric.c	An example on how simple join and leave commands can be made
+		for a guild.
+    cleric_sh.c The guild shadow a player gets if joining the guild
+
+mobiles/
+    act_monster.c	How to get a monster to act. (Perform commands)
+    aggressive.c	How to make an aggressive monster.
+    chat_monster.c	How to get a monster to 'talk'
+    skill_monster.c	How do one add skills to a monster?
+    thick_skin.c	How to add 'base' armour to a mobile
+    tiger.c		A nice example of how to make a non-humanoid
+    trig_mobile.c	How to get a humanoid to react on messages
+    troll.c		A monster that wields and wears objects
+    walk_monster.c	A monster that walks around the world.
+
+obj/
+    dutch_beer.c	How to make beer
+    egg.c		And food
+    gem.c		A small treasure
+    id_scroll.c		How to make a simple identify scroll
+    id_scroll		The text one read when reading the identify scroll
+    prot_magic.c	A stone that protects its holder from magic
+    small_beer.c	A small beer most novices can drink
+    torch.c		A torch, a light source
+    x_long.c		How to make an object add description to a living
+
+poison/
+    antidote.c	Cure poison
+    dagger.c    A poisoned dagger
+    potion.c	A potion of poison. Feel like Socrates?
+    spider.c	A spider that poisons any attacker
+
+room/
+    desert1.c	You get tired from walking in the desert
+    sc_room.c	An example on how to check for players skills when climbing
+		or swimming
+    room1.c	An extremly simple room
+    room2.c	A sligthly more advanced room
+    room3.c     A more sligthly more advanced room
+    room_dark.c How to make a dark room.
+    team.c   	This room clones two npc:s and makes the team up.
+    swim.c	Another room with suggestions on how to swim, a better one.
+
+solamn/
+    This directory conatains some early copies of files from the Solamnian
+    fighter guild.
+
+    defs.h		Some defines used in Krynn
+    guild.h		Some help for the guild
+    medal.c		The medal a Solamnian Knight Carry
+    occ_shadow.c	The guild shadow
+    solamnian_soul.c	A command soul for the Solamnian Knight
+
+spells/
+    spelltome.c 	An example on how to make a spell tome.
+    spell_book.c	Another example.
+
+tasks/
+
+trade/
+    bank.c	A bank where you can exchange money
+    merchant.c  A merchant
+    pub.c	A pub
+    pub_simple.c A less advanced pub.
+    shop.c	A normal shop
+    store.c     The store room of the shop.
+
+weapons/
+    dagger.c 	How to make a small dagger.
+    knife.c	Yet another simple example of a weapon.
+    pole.c	A weapons that doesn't hit all the time, and generates own
+		hit messages.
+

@@ -1,0 +1,9 @@
+446:/secure/master/guild.c (/secure/master.c)
+(public int) guild_filter_type(string short_name, int type)
+/*
+ * Function name: guild_filter_types
+ * Description  : Filters all guilds of a particular type.
+ * Arguments    : string short_name - the name of the guild to test.
+ *                int type - the bit of the type to check.
+ * Returns      : int 1/0 - passed or failed the filter test.
+ */

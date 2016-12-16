@@ -1,0 +1,7 @@
+101:/lib/library.c (/lib/library.c)
+(public void) set_book_directory(string dir)
+/*
+ * Function name: set_book_directory
+ * Description:   Set the directory where books will be stored
+ * Arguments:     string dir - the directory name with trailing slash
+ */

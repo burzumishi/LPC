@@ -1,0 +1,11 @@
+322:/std/room/description.c (/std/room.c)
+(varargs string) search_for_herbs(object herbalist, string herb_file = 0)
+/*
+ * Function name: search_for_herb
+ * Description:   The herbalist has searched the room, now let's see if and
+ *                what he has found.
+ * Arguments:     herbalist - The player searching for herbs
+ *                herb_file - the file of the herb the player is looking for 
+ *                            (optional)
+ * Returns:       The message to write
+ */

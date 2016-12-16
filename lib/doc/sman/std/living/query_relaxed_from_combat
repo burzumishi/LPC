@@ -1,0 +1,8 @@
+841:/std/living/combat.c (/std/living.c)
+(public int) query_relaxed_from_combat()
+/*
+ * Function name: query_relaxed_from_combat
+ * Description  : If true, the player is relaxed from combat so he can quit or
+ *                linkdie.
+ * Returns      : int 1/0 - if true, the player can quit/linkdie.
+ */

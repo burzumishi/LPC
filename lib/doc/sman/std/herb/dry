@@ -1,0 +1,7 @@
+155:/std/herb.c (/std/herb.c)
+(void) dry()
+/*
+ * Function name: dry
+ * Description:   This function is called when a herb dries, to allow
+ *                different effects for dried herbs.
+ */

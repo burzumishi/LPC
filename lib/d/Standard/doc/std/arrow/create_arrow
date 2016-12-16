@@ -1,0 +1,7 @@
+21:/std/arrow.c (/std/arrow.c)
+( public void) create_arrow()
+/*
+ * Function name: create_arrow
+ * Description  : Constructor. Use this constructor to create arrow type
+ *                projectiles.
+ */

@@ -1,0 +1,11 @@
+15:/lib/udp/gtell.c (/lib/udp/gtell.c)
+(public int) send_gtell(string mud, string wiz_from, string wiz_to, string msg)
+/*
+ * Function name: send_gtell
+ * Description:   Sends a tell message to someone at another mud.
+ * Argument:	  mud: The mudname
+ *		  wiz_from: The wizard name of sender
+ *		  wiz_to: The wizard name of receiver
+ *		  msg: The message to send
+ * Returns:	  True is mud known and message sent.
+ */

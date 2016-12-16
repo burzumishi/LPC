@@ -1,0 +1,8 @@
+13:/std/shadow.c (/std/shadow.c)
+(public void) autoload_shadow(mixed arg)
+/*
+ * Function name: autoload_shadow
+ * Description  : Called by the autoloading routine in /std/player_sec
+ *                to ensure autoloading of the shadow.
+ * Arguments    : mixed arg - possible arguments.
+ */

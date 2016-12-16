@@ -1,0 +1,6 @@
+81:/std/player/savevars_sec.c (/std/player_sec.c)
+(static nomask void) player_save_vars_reset()
+/*
+ * Function name: player_save_vars_reset
+ * Description  : Reset the private time-related functions.
+ */

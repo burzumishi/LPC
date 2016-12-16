@@ -1,0 +1,5 @@
+348:/secure/simul_efun.c (/secure/simul_efun.c)
+(untyped) #define	SWAP(a, b)
+/*
+ * Swap two array elements
+ */

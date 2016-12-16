@@ -1,0 +1,7 @@
+28:/std/messenger.c (/std/messenger.c)
+(public nomask void ) create_creature()
+/*
+ * Function:    create_creature
+ * Description: This nomask function calls init_messenger, which in turn calls
+ *              create_messenger(). Define any overrides in create_messenger.
+ */

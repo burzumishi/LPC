@@ -1,0 +1,8 @@
+1821:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) mail_notify(int what, mixed list)
+/*
+ * Function name: mail_notify
+ * Description:	  Notify people by mail about actions in the mbs
+ * Arguments:	  what - what kind of notification
+ *		  list - the list of notifications
+ */

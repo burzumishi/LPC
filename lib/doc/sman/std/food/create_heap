@@ -1,0 +1,8 @@
+53:/std/food.c (/std/food.c)
+(public nomask void) create_heap()
+/*
+ * Function name: create_heap
+ * Description  : The heap constructor. You should not redefine this
+ *                function, but use create_food() instead. It makes the
+ *                food object have a default size of 1 item.
+ */

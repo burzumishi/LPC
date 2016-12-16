@@ -1,0 +1,13 @@
+2292:/std/combat/cbase.c (/std/combat/cbase.c)
+(static varargs int) add_hitloc(mixed ac, int prchit, string desc, int id, object *armours)
+/*
+ * Function name: add_hitloc
+ * Description  : Add a hitlocation to the hitloc array
+ * Arguments    : mixed ac - The ac's for a given hitlocation, can be an int
+ *                  or int* ({ impale, slash, bludgeon }).
+ *                int %hit - The chance that a hit will hit this location.
+ *                string desc - Describes this hitlocation, ie "head", "tail".
+ *                int id - Specific id, for humanoids A_TORSO, A_HEAD etc.
+ *                object *armours - armours protecting this location, if any.
+ * Returns      : int 1/0 - True if added.
+ */

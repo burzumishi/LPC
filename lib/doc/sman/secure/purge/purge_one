@@ -1,0 +1,8 @@
+180:/secure/purge.c (/secure/purge.c)
+(static nomask void) purge_one(string filename)
+/*
+ * Function name: purge_one
+ * Description  : This function actually tests a file and purges it if
+ *                necessary.
+ * Arguments    : string filename - the name to test and possibly purge.
+ */

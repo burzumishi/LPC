@@ -1,0 +1,6 @@
+16:/std/living/wear.c (/std/living.c)
+(static nomask void) wear_reset()
+/*
+ * Function name: wear_reset
+ * Description:   initialize the wear routines
+ */

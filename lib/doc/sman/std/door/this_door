@@ -1,0 +1,8 @@
+444:/std/door.c (/std/door.c)
+(static int) this_door(string arg)
+/*
+ * Function name: this_door
+ * Description:   Decide if we refer to this door.
+ * Arguments:     arg - the string to decide by.
+ * Returns:       1 if we're the lucky victim.
+ */

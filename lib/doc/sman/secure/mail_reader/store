@@ -1,0 +1,9 @@
+2506:/secure/mail_reader.c (/secure/mail_reader.c)
+(static void) store(string str)
+/*
+ * Function name: store
+ * Description  : Enable a wizard to store a message into a file in his
+ *                or her private directory.
+ * Arguments    : string str - the filename to store the message in.
+ * Returns      : int        - 1/0 - success/failure
+ */

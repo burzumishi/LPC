@@ -1,0 +1,7 @@
+162:/std/mobile.c (/std/mobile.c)
+(void) set_link_remote(object player)
+/*
+ * Function name: set_link_remote
+ * Description:   Links a player to the output of the mobile
+ * Arguments:	  player: Player to link mobile to
+ */

@@ -1,0 +1,8 @@
+598:/std/armour.c (/std/armour.c)
+(public varargs void) set_default_armour(int ac, int at, int *am, object af)
+/*
+ * Function name: set_default_armour
+ * Description:
+ * Arguments:
+ * Returns:
+ */

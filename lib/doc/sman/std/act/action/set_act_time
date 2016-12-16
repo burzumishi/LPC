@@ -1,0 +1,7 @@
+111:/std/act/action.c (/std/act/action.c)
+(void) set_act_time(int tim)
+/*
+ * Function name: set_act_time
+ * Description:   Set the number of SEQ_SLOW iterations to wait between acts.
+ * Arguments:     tim: Intervall
+ */

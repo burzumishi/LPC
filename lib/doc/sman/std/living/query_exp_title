@@ -1,0 +1,8 @@
+403:/std/living/description.c (/std/living.c)
+(public string) query_exp_title()
+/*
+ * Function name: query_exp_title
+ * Description  : Returns "wizard" if this living is a wizard, or else
+ *                calculates a title from the stats.
+ * Returns      : string - the title.
+ */

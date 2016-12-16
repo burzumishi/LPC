@@ -1,0 +1,7 @@
+349:/std/poison_effect.c (/std/poison_effect.c)
+(public void) add_damage(int *d)
+/*
+ * Function name: add_damage
+ * Description  : This adds an extra damage type.
+ * Arguments    : *d - the damage types to add
+ */

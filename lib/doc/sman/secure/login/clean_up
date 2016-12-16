@@ -1,0 +1,8 @@
+97:/secure/login.c (/secure/login.c)
+(static void) clean_up()
+/*
+ * Function name: clean_up
+ * Description  : This function is called every two minutes and if the
+ * Description  : This function is called every two minutes and if the
+ *                player lost or broke connection, we destruct the object. 
+ */

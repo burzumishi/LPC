@@ -1,0 +1,11 @@
+58:/std/object.c (/std/object.c)
+(public string *) parse_command_id_list()
+/* 
+ * PARSE_COMMAND
+ *
+ * These lfuns are called from within the efun parse_command() to get the
+ * three different sets of ids. If no plural ids are returned then the
+ * efun will try to make pluralforms from the singular ids.
+ *
+ * If no normal ids are returned then parse_command will never find the object.
+ */

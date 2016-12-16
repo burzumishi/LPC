@@ -1,0 +1,14 @@
+1182:/std/object.c (/std/object.c)
+(public void) remove_pname(mixed pname)
+/*
+ * Function name: remove_pname
+ * Description  : Removes the plural form of the name(s) of the object. This is
+ *                used when refering to the object in plural. remove_pname can
+ *                be called repeatedly to remove more plural names
+ *
+ * Notice       : All names removed with remove_name() will all have a plural
+ *                equivalent removed.
+ *
+ * Arguments    : mixed name - accepts both a string or an array of string
+ *                    with the name(s) to remove as plural name.
+ */

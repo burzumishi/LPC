@@ -1,0 +1,9 @@
+2946:/secure/master.c (/secure/master.c)
+(string) domain_object(object obj)
+/*
+ * Function name: domain_object
+ * Description:   Gives the name of the domain of an object. This is a
+ *                direct function of the file_name() of the object.
+ * Arguments    : object obj - the object to test.
+ * Returns      : string - the name of the domain.
+ */

@@ -1,0 +1,11 @@
+477:/std/weapon.c (/std/weapon.c)
+(void) set_pm(int *list)
+/*
+ * Function name: set_pm
+ * Description  : Set the modifiers for damage types. These modify the pen
+ *                value for the individual damage types.
+ *                When the lock has been set, no changes are allowed anymore.
+ * Arguments    : int *list - array of modifiers ({ impale, slash, bludgeon })
+ *                The sum of the modifiers should be 0 and a modifier for
+ *                a damage type that is not used should also be 0.
+ */

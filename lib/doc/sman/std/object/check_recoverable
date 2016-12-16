@@ -1,0 +1,11 @@
+2308:/std/object.c (/std/object.c)
+(public nomask varargs int) check_recoverable(int flag)
+/*
+ * Function name: check_recoverable
+ * Description:   This function checks if the object can be stored as
+ *                recoverable or not.
+ * Arguments    : flag - if this flag is true, then the may_not_recover
+ *                       function is not called. This is done to allow
+ *                       a 'fails to glow' message.
+ * Returns:       1 / 0 depending on outcome.
+ */

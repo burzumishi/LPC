@@ -1,0 +1,11 @@
+3554:/secure/master.c (/secure/master.c)
+(public void) request_shutdown(string reason, int delay)
+/*
+ * Function name: request_shutdown
+ * Description  : When a wizard wants to shut down the game, this
+ *                function is called to invoke Armageddon. The function
+ *                should be called from the shutdown command in
+ *                WIZ_CMD_NORMAL.
+ * Arguments    : string reason - the reason to shut down the game.
+ *                int    delay  - the delay in minutes.
+ */

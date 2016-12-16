@@ -1,0 +1,7 @@
+366:/std/combat/ctool.c (/std/combat/ctool.c)
+(public void) cb_update_armour(object obj)
+/*
+ * Function namn: cb_update_armour
+ * Description:   Call this function if the ac of a shielding object has changed
+ * Arguments:     obj - the object which ac has changed
+ */

@@ -1,0 +1,8 @@
+463:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public int) query_spell_no_reveal()
+/*
+ * Function name: query_spell_no_reveal
+ * Description:   Returns a true value if the spell reveals the caster upon
+ *                casting.
+ * Returns:       true/false, indicating whether the caster is not revealed
+ */

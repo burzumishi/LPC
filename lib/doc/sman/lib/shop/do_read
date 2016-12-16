@@ -1,0 +1,9 @@
+535:/lib/shop.c (/lib/shop.c)
+(int) do_read(string str)
+/*
+ * Function name: do_read
+ * Description:   If a player wants to know what instuctions can be
+ *                used
+ * Arguments:     str - string, hopefully "sign"
+ * Returns:       1/0
+ */

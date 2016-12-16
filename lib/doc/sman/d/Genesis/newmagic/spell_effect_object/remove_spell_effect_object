@@ -1,0 +1,7 @@
+207:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public void) remove_spell_effect_object()
+/*
+ * Function name: remove_spell_effect_object
+ * Description:   Remove the spell effect object, unregistering it as
+ *                well.
+ */

@@ -1,0 +1,11 @@
+3251:/secure/master.c (/secure/master.c)
+(int) query_player_file_time(string pl_name)
+/*
+ * Function name: query_player_file_time()
+ * Description  : This function will return the file-time the playerfile
+ *                of a player was last saved.
+ *                This routine in its current incarnation is obsolete!
+ *                The logout_time is now included in the player file.
+ * Arguments    : string pl_name - the name of the player.
+ * Returns      : int - the file-time of the players save-file.
+ */

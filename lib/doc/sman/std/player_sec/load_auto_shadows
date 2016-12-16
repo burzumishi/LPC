@@ -1,0 +1,8 @@
+506:/std/player_sec.c (/std/player_sec.c)
+(nomask static void) load_auto_shadows()
+/*
+ * Function name: load_auto_shadows
+ * Description  : This function loads and initialises all shadows that the
+ *                player should have when he logs in. No special measures are
+ *                taken for shadows at login time.
+ */

@@ -1,0 +1,8 @@
+163:/std/corpse.c (/std/corpse.c)
+(void) set_state_desc(string desc)
+/*
+ * Function name: set_state_desc
+ * Description  : Change the state description of the corpse. Normally this
+ *                is "corpse of " or "heap with decayed remains of ".
+ * Arguments    : string desc - the new state description.
+ */

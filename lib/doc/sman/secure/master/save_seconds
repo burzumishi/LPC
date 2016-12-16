@@ -1,0 +1,7 @@
+37:/secure/master/player.c (/secure/master.c)
+(static void) save_seconds()
+/*
+ * Function name: save_seconds
+ * Description  : Since the seconds information is stored in a separate
+ *                place, we have a separate routine for it.
+ */

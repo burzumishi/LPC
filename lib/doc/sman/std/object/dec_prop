@@ -1,0 +1,10 @@
+656:/std/object.c (/std/object.c)
+(public varargs nomask void) dec_prop(string prop, int delta = 1)
+/* 
+ * Function name: dec_prop
+ * Description  : Decrease the value of a property. This works on integer
+ *                properties only (and assumes no VBFC has been applied).
+ *                Note: dec_prop(PROP, 5) subtracts 5 from the value of PROP.
+ * Arguments    : string prop - the property to adjust.
+ *                int delta - the value to subtract (default = 1).
+ */

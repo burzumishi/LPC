@@ -1,0 +1,8 @@
+31:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public void) set_spell_effect_name(string name)
+/*
+ * Function name: set_spell_effect_name
+ * Description:   Set the name of the spell effect.  This should
+ *                generally be the name of the spell itself.
+ * Arguments:     string name - the name of the effect
+ */

@@ -1,0 +1,7 @@
+58:/std/key.c (/std/key.c)
+(nomask void) reset_object()
+/*
+ * Function name: reset_object
+ * Description  : You may not mask this function to make the key reset.
+ *                Rather define the function reset_key.
+ */

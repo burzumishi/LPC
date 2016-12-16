@@ -1,0 +1,11 @@
+280:/lib/cache.c (/lib/cache.c)
+(nomask static string *) query_cache()
+/*
+ * Function name: query_cache
+ * Description  : This will return an array containing the file names of all
+ *                data files stored in the cache. The list is sorted, with
+ *                the data file most recently queried is on top of the array,
+ *                etcetera.
+ * Returns      : string * - an array with the file names of all data files
+ *                           stored in the cache.
+ */

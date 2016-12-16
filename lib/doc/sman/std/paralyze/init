@@ -1,0 +1,6 @@
+54:/std/paralyze.c (/std/paralyze.c)
+(void) init()
+/*
+ * Function name: init
+ * Description:   Called when meeting an object
+ */

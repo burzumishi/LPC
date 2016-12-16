@@ -1,0 +1,7 @@
+63:/std/living.c (/std/living.c)
+(public int) query_init_master()
+/*
+ * Function name: query_init_master
+ * Description:   Should return true if create_living shall be called
+ *                in the master object of a living.
+ */

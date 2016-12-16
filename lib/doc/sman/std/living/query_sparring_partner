@@ -1,0 +1,9 @@
+1185:/std/living/combat.c (/std/living.c)
+(public int) query_sparring_partner(object partner)
+/*
+ * Function name: query_sparring_partner
+ * Description  : Call this to find out whether a particular living is a
+ *                sparring partner of this person.
+ * Arguments    : object partner - the partner to check.
+ * Returns      : int 1/0 - is a partner / is not a partner.
+ */

@@ -1,0 +1,11 @@
+1439:/std/weapon.c (/std/weapon.c)
+(public void) init_recover(string arg)
+/*
+ * Function name: init_recover
+ * Description  : When the object recovers, this function is called
+ *                to set the necessary variables. If you redefine the
+ *                function, you must add a call to init_wep_recover
+ *                with the string that you got after querying
+ *                query_wep_recover.
+ * Arguments    : string argument - the arguments to parse
+ */

@@ -1,0 +1,6 @@
+161:/std/combat/chumanoid.c (/std/combat/chumanoid.c)
+(public int) cb_query_attackuse()
+/*
+ * Description: Query the total %attacks used each turn. 100% is one attack / turn
+ * Returns:     The attackuse
+ */

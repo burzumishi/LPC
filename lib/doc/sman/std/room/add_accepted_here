@@ -1,0 +1,11 @@
+169:/std/room.c (/std/room.c)
+(void) add_accepted_here(object ob)
+/*
+ * Function name: add_accepted_here
+ * Description  : With this function, you can register an object as being
+ *                accepted in this room. This means that the object will not
+ *                prevent the room from being cleaned up. It will give an
+ *                item the same status as when it was cloned with clone_here()
+ *                in this room.
+ * Arguments    : object ob - the object to register.
+ */

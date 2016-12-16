@@ -1,0 +1,6 @@
+132:/std/living.c (/std/living.c)
+(public void) create_living()
+/*
+ * Function name: create_living
+ * Description:   Create the living object. (standard)
+ */

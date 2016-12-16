@@ -1,0 +1,9 @@
+2035:/std/object.c (/std/object.c)
+(public void) set_trusted(int arg)
+/*
+ * Function name: set_trusted
+ * Description:   Sets the effuserid to the userid of this object. This is
+ *                used by the 'trust' command mainly on wiztools.
+ * Arguments:     arg - 1 = set the euid of this object.
+ *                      0 = remove the euid.
+ */

@@ -1,0 +1,9 @@
+220:/std/room.c (/std/room.c)
+(public nomask void) set_room(mixed room)
+/*
+ * Function name: set_room
+ * Description  : This function is a mask for the function set_room() in
+ *                /std/container.c. That function is not valid for rooms,
+ *                so we block it here.
+ * Arguments    : the arguments described in /std/container.c
+ */

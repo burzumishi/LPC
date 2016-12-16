@@ -1,0 +1,8 @@
+687:/lib/library.c (/lib/library.c)
+(public void) library_deny_hook(string title)
+/*
+ * Function name: library_deny_hook
+ * Description:   Redefine this to alter the message given when a
+ *                user denies a book 
+ * Arguments:     string title - the book's file
+ */

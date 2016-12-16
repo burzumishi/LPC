@@ -1,0 +1,12 @@
+43:/std/callout.c (/std/callout.c)
+(varargs int) call_out(string func, mixed delay, mixed arg)
+/*
+ * Function name: call_out
+ * Description:   Add a call_out to the named function
+ * Arguments:     func  - function to be called
+ *                delay - how long to wait before calling
+ *                        the function
+ *                arg   - optional argument to pass to the named
+ *                        function when the call_out triggers
+ * Returns:       The id if the call_out
+ */

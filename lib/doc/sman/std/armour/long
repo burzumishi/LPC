@@ -1,0 +1,11 @@
+190:/std/armour.c (/std/armour.c)
+(public varargs string) long(string str, object for_obj)
+/*
+ * Function names: long
+ * Description   : The long description. We add the condition information
+ *                 to it. This function only returns the string, it does
+ *                 not print it to the looker.
+ * Arguments     : string str - a possible add-item to look for.
+ *                 object for_obj - the object that wants to know.
+ * Returns       : string - the long description.
+ */

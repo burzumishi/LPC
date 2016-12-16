@@ -1,0 +1,9 @@
+139:/std/room/objects.c (/std/room.c)
+(varargs void) room_add_object(string file, int num, string mess)
+/*
+ * Function name: room_add_object
+ * Description:   Clone and move an object into the room
+ * Arguments:	  file - What file it is we want to clone
+ *		  num  - How many clones we want to have, if not set 1 clone
+ *		  mess - Message to be written when cloned
+ */

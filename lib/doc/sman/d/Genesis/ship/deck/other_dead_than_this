@@ -1,0 +1,7 @@
+120:/d/Genesis/ship/deck.c (/d/Genesis/ship/deck.c)
+(public int) other_dead_than_this(object obj, object ref)
+/*
+ * Function name: other_dead_than_this
+ * Description  : Filter function for correct room descriptions.
+ * Returns      : 1 or 0
+ */

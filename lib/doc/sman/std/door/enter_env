@@ -1,0 +1,8 @@
+1510:/std/door.c (/std/door.c)
+(void) enter_env(object dest, object old)
+/*
+ * Function name: enter_env
+ * Description:   The door enters a room, activate it.
+ * Arguments:	  dest - The destination room,
+ * 		  old - Where it came from
+ */

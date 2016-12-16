@@ -1,0 +1,11 @@
+2222:/secure/master/fob.c (/secure/master.c)
+(int) set_keeper(string wname, int promote)
+/*
+ * Function name: set_keeper
+ * Description  : We have a special command to make keepers. Only keepers
+ *                may use it to stress its special importance, but hacking
+ *                the master save file should not be necessary.
+ * Arguments    : string wname - the arch to make keeper (or vice versa)
+ *                int promote  - 1 = make keeper, 0 = make arch.
+ * Returns      : int 1/0 - success/ failure.
+ */

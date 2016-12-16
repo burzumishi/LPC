@@ -1,0 +1,9 @@
+166:/std/armour.c (/std/armour.c)
+(public varargs string) plural_short(object for_obj)
+/*
+ * Function name: plural_short
+ * Description  : If the armour is broken, we add the adjective broken
+ *                to the plural short description.
+ * Arguments    : object for_obj - the object that wants to know.
+ * Returns      : string - the plural short description.
+ */

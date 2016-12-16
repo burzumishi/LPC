@@ -1,0 +1,8 @@
+1281:/lib/library.c (/lib/library.c)
+(public int) library_list_access()
+/*
+ * Function name: library_list_access
+ * Description:   Redefine this to limit permission to list books
+ * Returns:       1 - this_player() is permitted to list books
+ *                0 - this_player() is not permitted to list books
+ */

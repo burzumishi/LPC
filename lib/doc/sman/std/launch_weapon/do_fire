@@ -1,0 +1,8 @@
+1001:/std/launch_weapon.c (/std/launch_weapon.c)
+(public void ) do_fire()
+/*
+ * Function name: do_fire
+ * Description  : Perfroms the actual shot in single shot mode. This function
+ *                is more or less and modified version of heart_beat() in
+ *                /std/combat/cbase.c
+ */

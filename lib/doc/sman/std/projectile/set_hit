@@ -1,0 +1,7 @@
+209:/std/projectile.c (/std/projectile.c)
+(public void) set_hit(int h)
+/*
+ * Function name: set_hit
+ * Description  : Sets the to hit value of this projectile.
+ * Arguments    : (int) To hit value.
+ */

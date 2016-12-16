@@ -1,0 +1,12 @@
+120:/std/living/cmdhooks.c (/std/living.c)
+(public string) race_sound()
+/*
+ * Function name: race_sound
+ * Description  : This function returns the VBFC value for the sound a
+ *                particular living hears when this player speaks. It
+ *                operates on previous_object(-1). Notice that we use
+ *                query_race rather than query_race_name since the first
+ *                will always return a true and valid race name. The
+ *                person speaking is this_player().
+ * Returns      : string - the race sound the receiver hears.
+ */

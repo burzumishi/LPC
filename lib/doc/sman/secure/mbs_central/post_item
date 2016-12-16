@@ -1,0 +1,9 @@
+1369:/secure/mbs_central.c (/secure/mbs_central.c)
+(nomask public int) post_item(string board, string subj)
+/*
+ * Function name: post_item
+ * Description:	  Post an item on a board.
+ * Arguments:	  board - the board
+ *		  subj - the subject
+ * Returns:	  Error code, if any
+ */

@@ -1,0 +1,7 @@
+477:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) query_tot_value()
+/*
+ * Function name:   query_tot_value
+ * Description:     Gives back the total value of all that is carried
+ * Returns:         the total carried value
+ */

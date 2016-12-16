@@ -1,0 +1,9 @@
+1006:/std/board.c (/std/board.c)
+(public nomask varargs int) read_msg(string what_msg, int mr)
+/*
+ * Function name: read_msg
+ * Description  : Read a message on the board
+ * Arguments    : string what_msg - the message number.
+ *                int    mr       - read with more if true.
+ * Returns      : int 1/0 - success/failure.
+ */

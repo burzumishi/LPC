@@ -1,0 +1,9 @@
+205:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(public int *) query_orig_stat()
+/*
+ * Function name: query_def_start
+ * Description  : This function returns initial stats for people of this
+ *                race. Notice that we use query_race, not query_race_name
+ *                since query_race always returns a valid race name.
+ * Returns      : int * - the initial stats.
+ */

@@ -1,0 +1,8 @@
+733:/std/receptacle.c (/std/receptacle.c)
+(public int) query_no_pick()
+/*
+ * Function name: query_no_pick
+ * Description  : Returns whether the lock on the container can be picked.
+ * Returns      : 1 - lock on container is not pickable
+ *                0 - lock on container is pickable
+ */

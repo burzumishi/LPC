@@ -1,0 +1,9 @@
+344:/std/player_sec.c (/std/player_sec.c)
+(nomask static void) slow_load_auto_files(string *auto_files)
+/*
+ * Function name: slow_load_auto_files
+ * Description  : Loads one autoloaded object. We use an alarm to make sure
+ *                that people always get their stuff, even when they carry too
+ *                much for their own good.
+ * Arguments    : string *auto_files - the autoloading files still to load.
+ */

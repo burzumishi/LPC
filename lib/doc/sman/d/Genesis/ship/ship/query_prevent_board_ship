@@ -1,0 +1,8 @@
+324:/d/Genesis/ship/ship.c (/d/Genesis/ship/captain.c)
+(public int) query_prevent_board_ship(object player)
+/* Function name: query_prevent_board_ship
+ * Description:   prevent a player from boarding. This function
+ *                should handle all messages itself.
+ * Arguments:     object player
+ * Returns:       int 1 if not allowed to board
+ */

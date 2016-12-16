@@ -1,0 +1,8 @@
+413:/std/player/quicktyper.c (/std/player_sec.c)
+(static nomask int) nick(string str)
+/*
+ * Function name: nick
+ * Description  : Make a nick, or display one or all current nickname(s).
+ * Arguments    : string str - the command line argument.
+ * Returns      : int - 1/0 - success/failure.
+ */

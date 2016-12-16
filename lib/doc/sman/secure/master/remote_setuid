@@ -1,0 +1,8 @@
+2896:/secure/master.c (/secure/master.c)
+(void) remote_setuid()
+/*
+ * Function name: remote_setuid
+ * Description  : With this function the COMMAND_DRIVER can request that
+ *                its authorisation information is reset in order to allow
+ *                for a new uid/euid when another player uses the same soul.
+ */

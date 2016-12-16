@@ -1,0 +1,8 @@
+539:/lib/messenger.c (/lib/messenger.c)
+(public string) query_message_object_file()
+/*
+ * Function:    query_message_object_file
+ * Description: Returns the filename of the message object that should
+ *              be cloned for this message.
+ * Returns:     string - the filename of the message object
+ */

@@ -1,0 +1,7 @@
+44:/secure/master/guild.c (/secure/master.c)
+(static void) load_guild_defaults()
+/*
+ * Function name: load_guild_defaults
+ * Description  : In case of a malfunction of the KEEPERSAVE restoration,
+ *                this initialises the relevant data structures.
+ */

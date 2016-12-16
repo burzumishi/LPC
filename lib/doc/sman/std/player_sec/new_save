@@ -1,0 +1,13 @@
+1134:/std/player_sec.c (/std/player_sec.c)
+(public nomask int) new_save(string pl_name, string pwd, string pfile)
+/*
+ * Function name: new_save
+ * Description  : This function is called to save the player initially.
+ *                It is only called when new a player enters the game. It
+ *                makes it possible to initialize variables using the
+ *                standard set_ calls.
+ * Arguments    : string pl_name - the name of the player.
+ *                string pwd     - the (encrypted) password of the player.
+ *                string pfile   - the player save file.
+ * Returns      : int 1/0 - success/failure.
+ */

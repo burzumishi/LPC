@@ -1,0 +1,9 @@
+38:/std/player/querys_sec.c (/std/player_sec.c)
+(public string) query_presentation()
+/*
+ * Function name:   query_presentation
+ * Description:     Gives a presentation of the living in one line. Including
+ *                  name, race, guild titles, alignment and experience level.
+ *                  This should only be displayed to met players.
+ * Returns:         The description string
+ */

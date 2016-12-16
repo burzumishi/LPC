@@ -1,0 +1,11 @@
+344:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+() do_verb_with(string cmd, string check_func, string single_func, 	     string acsfunc1, string acsfunc2, mixed cobj)
+/* General command routine for "verb %i %w %i" (typical hit xx with yy )
+
+   Access objects inside player or in players environment.
+   Access a single object inside player or in players environment.
+   Calls 'check_func' for acknowledge of word returned by %w and second %i
+   
+   Parses command and calls 'single_func' for each object to do the command
+   upon. Returns an array of these objects for which 'single_func' returned 1.
+*/

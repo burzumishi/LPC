@@ -1,0 +1,10 @@
+716:/std/corpse.c (/std/corpse.c)
+(string) search_for_leftovers(object player, string str)
+/*
+ * Function name: search_for_leftovers
+ * Description:   This function is called when someone searches the corpse
+ *                as set up in create_container()
+ * Arguments:     player - The player searching
+ *                str    - If the player specifically said what to search for
+ * Returns:       A string describing what, if anything the player found.
+ */

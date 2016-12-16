@@ -1,0 +1,9 @@
+157:/std/player/pcombat.c (/std/player_sec.c)
+(static nomask void) linkdeath_remove_enemy(object enemy)
+/*
+ * Function name: linkdeath_remove_enemy
+ * Description  : This function removes a player from the list of enemies
+ *                if combat was initiated between this object and the
+ *                enemy.
+ * Arguments    : object enemy - the enemy we should not fight.
+ */

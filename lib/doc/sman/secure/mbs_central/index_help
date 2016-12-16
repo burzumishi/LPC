@@ -1,0 +1,10 @@
+1568:/secure/mbs_central.c (/secure/mbs_central.c)
+(static nomask void) index_help(int cmd)
+/*
+ * Function name: index_help
+ * Description:	  Perform automatic indexing of the help file.
+ *		  Lines starting with the string "#ENTRY <index>"
+ *		  are taken to start a paragraph, with that index.
+ *		  All lines before the first index are discarded.
+ * Arguments:	  cmd - The indexing command.
+ */

@@ -1,0 +1,10 @@
+327:/std/projectile.c (/std/projectile.c)
+(public string) singular_short(object for_obj)
+/*
+ * Function name: singular_short
+ * Description  : This function will return the singular short descritpion
+ *                for this projectile prepended with the broken status of
+ *                the projectile.
+ * Arguments    : object for_obj - who wants to know.
+ * Returns      : string - the singular short description.
+ */

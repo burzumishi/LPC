@@ -1,0 +1,6 @@
+27:/std/paralyze.c (/std/paralyze.c)
+(void) create_paralyze()
+/*
+ * Function name: create_paralyze
+ * Description:	  Set up standard paralyze
+ */

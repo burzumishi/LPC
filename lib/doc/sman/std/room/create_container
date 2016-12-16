@@ -1,0 +1,8 @@
+43:/std/room.c (/std/room.c)
+(nomask void) create_container()
+/*
+ * Function name: create_container
+ * Description  : Constructor. Since you may not redefine this function,
+ *                you must define the function create_room() to create your
+ *                room.
+ */

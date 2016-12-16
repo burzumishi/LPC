@@ -1,0 +1,7 @@
+34:/std/living/possess.c (/std/living.c)
+(public nomask void) set_possessed(string demon)
+/*
+ * Function name: set_possessed
+ * Description:	  Sets possessd status.
+ * Arguments:	  demon - The one who possesses
+ */

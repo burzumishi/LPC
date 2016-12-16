@@ -1,0 +1,9 @@
+336:/std/poison_effect.c (/std/poison_effect.c)
+(public void ) set_damage(int *d)
+/*
+ * Function name: set_damage
+ * Description  : This function sets the maximum damage done by the poison
+ *                Damage is an array of type and amount (or stat in the
+ *                case of POISON_STAT)
+ * Arguments    : *d - the damage types
+ */

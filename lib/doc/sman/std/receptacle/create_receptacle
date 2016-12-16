@@ -1,0 +1,9 @@
+124:/std/receptacle.c (/std/receptacle.c)
+(void) create_receptacle()
+/*
+ * Function name: create_receptacle
+ * Description  : Creator. You should define this function in order to set
+ *                up the object. However, as this is just a container with
+ *                some extra functionality, you can also use the function
+ *                create_container().
+ */

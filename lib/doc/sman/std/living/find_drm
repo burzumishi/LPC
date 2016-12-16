@@ -1,0 +1,11 @@
+48:/std/living/tasks.c (/std/living.c)
+(public int) find_drm(mixed *skill_list)
+/*
+ * Function: find_drm
+ * Description: Finds the die roll modifiers for a this living, given the
+ *              list of applicable skills, stats and modifiers.
+ * Arguments: 
+ *            'skill_list' is a list of integers or VBFC's, as described above.
+ * Returns: a positive integer containing the total die roll modifier (drm)
+ *          (Zero on error)
+ */

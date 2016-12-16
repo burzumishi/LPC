@@ -1,0 +1,8 @@
+117:/secure/player_tool.c (/secure/player_tool.c)
+(static nomask int) valid_access()
+/*
+ * Function name: valid_access
+ * Description  : This function checks whether the currently interactive
+ *                player is allowed to execute commands on this tool.
+ * Returns      : int 1/0 - true if the player may execute commands.
+ */

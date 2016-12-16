@@ -1,0 +1,8 @@
+86:/std/weapon.c (/std/weapon.c)
+(public nomask void) create_object()
+/*
+ * Function name: create
+ * Description  : Create the weapon. As this function is declared nomask
+ *                you must use the function create_weapon to actually
+ *                construct it. This function does some basic initializing.
+ */

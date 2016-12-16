@@ -1,0 +1,10 @@
+418:/std/living/description.c (/std/living.c)
+(public string) query_presentation()
+/*
+ * Function:    query_presentation
+ * Description: Gives a presentation of the living in one line. Including
+ *              Name, Race, Guild titles, Alignment and Experience level
+ *              This should only be displayed to met players.
+ *              E.g.: "Fatty the donut-fan, wizard, male gnome (eating)"
+ * Returns:     The presentation string
+ */

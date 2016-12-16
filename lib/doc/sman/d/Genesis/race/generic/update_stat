@@ -1,0 +1,9 @@
+278:/d/Genesis/race/generic.c (/d/Genesis/race/generic.c)
+(public nomask void) update_stat(int stat)
+/*
+ * Function name: update_stat
+ * Description  : Convert exp to stat for a single stat and take the racial
+ *                modifiers into account. This usually used by a guild that
+ *                wants its stat to behave like the normal.
+ * Arguments    : int stat - the stat to update.
+ */

@@ -1,0 +1,13 @@
+206:/std/act/seqaction.c (/std/act/seqaction.c)
+(int) seq_addfirst(string name, mixed cmd)
+/*
+ *  Description: Add a command or an array of commands first in a sequence.
+ *               Note that a command can be VBFC. This enables calls to
+ *               functions that returns the actual command. This function
+ *               can of course do all sorts of things. If 'cmd' is a number
+ *               it is interpreted as a delayvalue (in heartbeats) until
+ *               the next command is issued. 
+ *
+ *               The sequence 'name' must be created with seq_new(name)
+ *               prior to the call of this function.
+ */

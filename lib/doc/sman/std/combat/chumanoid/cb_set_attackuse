@@ -1,0 +1,6 @@
+150:/std/combat/chumanoid.c (/std/combat/chumanoid.c)
+(public void) cb_set_attackuse(int sumproc)
+/*
+ * Description: Set the %attacks used each turn. 100% is one attack / turn
+ * Arguments:   sumproc: %attack used
+ */

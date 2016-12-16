@@ -1,0 +1,6 @@
+1030:/std/door.c (/std/door.c)
+(string	*) query_fail_open()
+/*
+ * Function name: query_fail_open
+ * Description:   Query message when open fails
+ */

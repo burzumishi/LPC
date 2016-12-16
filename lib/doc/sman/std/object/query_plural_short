@@ -1,0 +1,11 @@
+492:/std/object.c (/std/object.c)
+(public string) query_plural_short()
+/*
+ * Function name: query_plural_short
+ * Description  : This function gives the plural short description of this
+ *                object without applying VBFC to it. It will return exactly
+ *                the same that was set with set_pshort().
+ * Returns      : string - the plural short description exactly like it was
+ *                         set with set_pshort(). This can be a string or VBFC
+ *                         in string or functionpointer form.
+ */

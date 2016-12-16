@@ -1,0 +1,9 @@
+1266:/lib/library.c (/lib/library.c)
+(public int) return_it(object ob)
+/*
+ * Function name: return_it
+ * Description:   Return a library book to the library
+ * Arguments:     object ob - the book to return
+ * Returns:       1 - the book was returned
+ *                0 - the book was not returned
+ */

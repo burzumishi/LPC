@@ -1,0 +1,11 @@
+364:/std/object.c (/std/object.c)
+(public mixed) query_long()
+/*
+ * Function name: query_long
+ * Description  : Gives the set long description. This does not evaluate
+ *                possible VBFC but returns exactly what was set as long
+ *                description with set_long().
+ * Returns      : mixed - exactly what was given to set_long(). This can
+ *                        either be the long description of the VBFC in
+ *                        string of functionpointer form.
+ */

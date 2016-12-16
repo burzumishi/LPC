@@ -1,0 +1,13 @@
+618:/std/object.c (/std/object.c)
+(public mixed) query_prop(string prop)
+/*
+ * Function name: query_prop
+ * Description  : Find the value of a property. This function is usually
+ *                implemented as CFUN, i.e. as real C implementation in the
+ *                gamedriver as it is used so often. You should NOT mask this
+ *                function in code. Use VBFC on the property value, if you
+ *                must.
+ * Arguments    : mixed prop - the name of the property (usually a string).
+ * Returns      : mixed - the value of the property, or 0 if the property did
+ *                    not exist..
+ */

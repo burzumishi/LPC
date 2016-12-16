@@ -1,0 +1,7 @@
+822:/std/door.c (/std/door.c)
+(void) set_str(int str)
+/*
+ * Function name: set_str
+ * Description:   Set the strength needed to open/close the door
+ * Arguments:     str - strength needed
+ */

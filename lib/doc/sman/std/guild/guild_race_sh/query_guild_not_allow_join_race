@@ -1,0 +1,10 @@
+157:/std/guild/guild_race_sh.c (/std/guild/guild_race_sh.c)
+(public int) query_guild_not_allow_join_race(object player, string type, string style, 			        string name)
+/*
+ * Function name: query_allow_join_race
+ * Description:   Test if this guild allowed a player to join another
+ * Arguments:     type  - the type of guild to join
+ * 		  style - the style of the guild
+ *		  name  - the name
+ * Returns:       1 - I allow member to join another guild
+ */

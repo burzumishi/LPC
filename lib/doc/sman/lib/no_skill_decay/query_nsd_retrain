@@ -1,0 +1,13 @@
+138:/lib/no_skill_decay.c (/lib/no_skill_decay.c)
+(nomask public mapping) query_nsd_retrain(string player)
+/*
+ * Function name: query_nsd_retrain
+ * Description  : This function can be queried to find out which skills a
+ *                player may retrain at this unit.
+ * Arguments    : string player - the name of the player.
+ * Returns      : mapping - the mapping with the skills the player can
+ *                          retrain. The indices are the skill numbers and
+ *                          the values are the levels to which the skill is
+ *                          retrainable. WARNING: the skill numbers have
+ *                          been turned into strings.
+ */

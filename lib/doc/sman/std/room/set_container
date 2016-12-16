@@ -1,0 +1,7 @@
+209:/std/room.c (/std/room.c)
+(public void) set_container(object ob)
+/*
+ * Function name: set_container
+ * Description:   Sets the container for which the room represents the inside
+ * Arguments:	  ob: The container object
+ */

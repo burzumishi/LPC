@@ -1,0 +1,6 @@
+1127:/std/door.c (/std/door.c)
+(mixed) query_lock_name()
+/*
+ * Function name: query_lock_name
+ * Description:   Query the name of the lock
+ */

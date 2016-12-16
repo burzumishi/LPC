@@ -1,0 +1,7 @@
+954:/std/living/combat.c (/std/living.c)
+(public string) combat_data()
+/*
+ * Function name:   combat_data
+ * Description:     Let the combat object describe some combat data
+ * Returns:         Description as string
+ */

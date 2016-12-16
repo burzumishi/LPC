@@ -1,0 +1,8 @@
+1243:/std/living/savevars.c (/std/living.c)
+(public void) set_invis(int flag)
+/*
+ * Function name:   set_invis
+ * Description:     Change the visibility of the living
+ * Arguments:       flag: If true turn the living invisible, else make the
+ *                        living visible again.
+ */

@@ -1,0 +1,13 @@
+121:/std/room/objects.c (/std/room.c)
+(varargs void) add_object(string file, int count = 1, function init_call = 0)
+/*
+ * Function Name: add_object
+ * Description  : Clone an object into the room, reset it when
+ *                it has been removed from the room.
+ * Arguments    : string file - the file to clone
+ *                int count   - how many of this item.
+ *                function init - (optional) If you want a function to be
+ *                                called in the object add it here.
+ *                                For example &->add_name("extra name")
+ *                                to have add_name called.
+ */

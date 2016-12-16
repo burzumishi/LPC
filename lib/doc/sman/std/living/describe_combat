@@ -1,0 +1,9 @@
+647:/std/living/description.c (/std/living.c)
+(static void) describe_combat(object *livings)
+/*
+ * Function name: describe_combat
+ * Description  : This function describes the combat that is going on in
+ *                the room this_object() is in. It is an internal function
+ *                and should only be called internally by do_glance.
+ * Arguments    : object *livings - the livings in the room.
+ */

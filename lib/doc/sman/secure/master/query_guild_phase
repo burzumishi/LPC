@@ -1,0 +1,8 @@
+192:/secure/master/guild.c (/secure/master.c)
+(public string) query_guild_phase(string short_name)
+/*
+ * Function name: query_guild_phase
+ * Description  : Query the phase of a particular guild. 
+ * Arguments    : string short_name - the short name of the guild.
+ * Returns      : string - the phase of the guild, else 0.
+ */

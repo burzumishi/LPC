@@ -1,0 +1,7 @@
+670:/std/object.c (/std/object.c)
+(public nomask mixed) query_props()
+/*
+ * Function name: query_props
+ * Description:   Give all the existing properties
+ * Returns:       An array of property names or 0.
+ */

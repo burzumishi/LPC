@@ -1,0 +1,7 @@
+504:/std/board.c (/std/board.c)
+(nomask void) reset_object()
+/*
+ * Function name: reset_object
+ * Description  : Every half hour or about, the object resets. Use
+ *                reset_board() for user reset functionality.
+ */

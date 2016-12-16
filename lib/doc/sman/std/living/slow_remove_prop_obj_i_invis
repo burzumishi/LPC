@@ -1,0 +1,7 @@
+1271:/std/living/savevars.c (/std/living.c)
+(public void) slow_remove_prop_obj_i_invis()
+/*
+ * Function  name: slow_remove_prop_obj_i_invis
+ * Description   : Called to make the livings in the room attack a person that
+ *                 just became visible.
+ */

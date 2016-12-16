@@ -1,0 +1,8 @@
+704:/std/container.c (/std/container.c)
+(public void) remove_subloc(string sloc)
+/* 
+ * Function name: remove_subloc
+ * Description:   Remove a named sublocation of this container.
+ * Arguments:     sloc: Name of sub location
+ *                
+ */

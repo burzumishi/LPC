@@ -1,0 +1,7 @@
+241:/std/leftover.c (/std/leftover.c)
+(public void) init_recover(string arg)
+/*
+ * Function name: init_recover
+ * Description  : Re-initialise the race and organ.
+ * Arguments    : string - the recover arguments.
+ */

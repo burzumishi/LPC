@@ -1,0 +1,7 @@
+396:/lib/herb_support.c (/lib/herb_support.c)
+(void) set_poison_file(string str)
+/*
+ * Function name: set_poison_file
+ * Description:   Set the file name of poison to use instead of standard
+ * Arguments:     str - The file name
+ */

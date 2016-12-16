@@ -1,0 +1,6 @@
+85:/d/Genesis/ship/captain.c (/d/Genesis/ship/captain.c)
+(int) buy(string str)
+/*
+ * Function name: buy
+ * Description:   Try to buy a ticket
+ */

@@ -1,0 +1,6 @@
+605:/std/herb.c (/std/herb.c)
+(nomask void) set_may_not_recover()
+/*
+ * Function name: set_may_not_recover
+ * Description  : Call this to force the herb to be non-recoverable.
+ */

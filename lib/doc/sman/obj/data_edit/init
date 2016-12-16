@@ -1,0 +1,7 @@
+68:/obj/data_edit.c (/obj/data_edit.c)
+(public nomask void) init()
+/*
+ * Function name: init
+ * Description  : When a wizard 'comes close' to this object, the commands
+ *                of this object are linked to the player.
+ */

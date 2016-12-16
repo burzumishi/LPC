@@ -1,0 +1,10 @@
+2927:/secure/master.c (/secure/master.c)
+(string) creator_object(object obj)
+/*
+ * Function name: creator_object
+ * Description  : Gives the name of the creator of an object. This is a
+ *                direct function of the file_name() of the object.
+ * Arguments    : object obj - the object to get the creator from.
+ * Returns      : string - the name of the domain or wizard who created
+ *                         the object.
+ */

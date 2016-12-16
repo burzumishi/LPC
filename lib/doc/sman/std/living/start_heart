@@ -1,0 +1,7 @@
+19:/std/living/heart_beat.c (/std/living.c)
+(static void) start_heart()
+/*
+ * Function name:   start_heart
+ * Description:     Starts the heart beat for the living object and sees to
+ *                  it that it heals as much as it shall due to lost time.
+ */

@@ -1,0 +1,9 @@
+1605:/lib/library.c (/lib/library.c)
+(public int) library_write_get_title(object who, string input)
+/*
+ * Function name: library_write_get_title
+ * Description:   Catch user input to be used as the new book's title
+ * Arguments:     object who   - the user
+ *                string input - the title
+ * Returns:       1/0 - title set/not set
+ */

@@ -1,0 +1,9 @@
+592:/lib/library.c (/lib/library.c)
+(public int) library_classify_syntax_failure_hook(string str)
+/*
+ * Function name: library_classify_syntax_failure_hook
+ * Description:   Redefine this to alter the message given when incorrect
+ *                syntax is used for the "classify" command
+ * Arguments:     string str - the arguments to the "classify" command
+ * Returns:       1/0
+ */

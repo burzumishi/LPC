@@ -1,0 +1,8 @@
+614:/std/living/combat.c (/std/living.c)
+(public mixed) query_team_others()
+/*
+ * Function name: query_team_others
+ * Description  : Gives all members/leader that we are joined up with,
+ *                regardless of whether we are the leader or a member.
+ * Returns      : object * - the array with all other members.
+ */

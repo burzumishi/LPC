@@ -1,0 +1,9 @@
+61:/std/coins.c (/std/coins.c)
+(public void) reset_coins()
+/*
+ * Function name: reset_coins
+ * Description  : In order to have some code executed when this heap of
+ *                coins resets, mask this function. Notice that in order
+ *                to make them reset, call enable_reset() from the function
+ *                create_coins().
+ */

@@ -1,0 +1,8 @@
+66:/std/living/stats.c (/std/living.c)
+(public int) query_stat_extra(int stat)
+/*
+ * Function name:   query_stat_extra
+ * Description:     Query about the setting of the extra modifier of stats
+ * Arguments:	    stat - What stat to ask about
+ * Returns:	    The extra stat value
+ */

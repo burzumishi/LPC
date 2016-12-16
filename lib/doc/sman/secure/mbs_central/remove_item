@@ -1,0 +1,9 @@
+1397:/secure/mbs_central.c (/secure/mbs_central.c)
+(nomask public int) remove_item(string board, string item)
+/*
+ * Function name: remove_item
+ * Description:	  Remove an item on a board
+ * Arguments:	  board - the board
+ *		  item - the number of the item to delete
+ * Returns:	  Error code, if any
+ */

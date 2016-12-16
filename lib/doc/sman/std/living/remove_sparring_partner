@@ -1,0 +1,8 @@
+1158:/std/living/combat.c (/std/living.c)
+(public void) remove_sparring_partner(object partner)
+/*
+ * Function name: remove_sparring_partner
+ * Description  : This will remove a sparring partner from the list of
+ *                sparring partners of the living.
+ * Arguments    : object partner - the sparring partner to remove.
+ */

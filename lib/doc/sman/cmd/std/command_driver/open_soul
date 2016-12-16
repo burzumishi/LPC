@@ -1,0 +1,6 @@
+82:/cmd/std/command_driver.c (/cmd/std/command_driver.c)
+(nomask public void) open_soul(int state)
+/*
+ * Function name: open_soul
+ * Description  : Set the euid of the soul to 0.
+ */

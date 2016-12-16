@@ -1,0 +1,8 @@
+733:/lib/messenger.c (/lib/messenger.c)
+(public void) hook_messenger_returns_home()
+/*
+ * Function:    hook_messenger_returns_home
+ * Description: Hook that gets called to display the message of the
+ *              messenger returning home after either being used up or
+ *              being asked to return home.
+ */

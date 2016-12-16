@@ -1,0 +1,15 @@
+37:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(varargs mixed *) visible_access(mixed *arr, string acsfunc, object acsobj, int normflag, 	       int include_invis)
+/*
+ * Function name: visible_access
+ * Description  : Provides a numerical context to a selection by a player.
+ *                This is especially made for the results of parse_command().
+ * Arguments    : mixed *arr - an array with as first element the number that
+ *                    designates the objects to match and further the items
+ *                    to test against.
+ *                string ascfunc - the function to filter with.
+ *                object ascobj - the object to filter with
+ *                int normflag - if true, exclude this_player() from the results.
+ *                int include_invis - if true, invis objects are matched.
+ * Returns      : object * - the objects that matched, or ({ }).
+ */

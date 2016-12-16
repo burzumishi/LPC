@@ -1,0 +1,6 @@
+102:/secure/srcman.c (/secure/srcman.c)
+(static void) init_docdir(string mdir)
+/*
+ * Function name:   init_man
+ * Description:     Initialize the docdir info for a specific docdir
+ */

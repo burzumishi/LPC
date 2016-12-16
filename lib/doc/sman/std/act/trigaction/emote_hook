@@ -1,0 +1,21 @@
+236:/std/act/trigaction.c (/std/act/trigaction.c)
+(public void) emote_hook(string emote, object actor, string adverb, object *oblist,     int cmd_attr, int target)
+/*
+ * Function name: emote_hook
+ * Description  : Whenever an emotion is performed on this living, or when it
+ *                is performed in the room in general, this function is called
+ *                to let the living know about the emotion. This way we can
+ *                avoid the usage of all those costly triggers.
+ * Arguments    : string emote - the name of the emotion performed. This
+ *                    always is the command the player typed, query_verb().
+ *                object actor - the actor of the emotion.
+ *                string adverb - the adverb used with the emotion, if there
+ *                    was one. When an adverb is possible with the emotion,
+ *                    this argument is either "" or it will contain the used
+ *                    emotion, preceded by a " " (space). This way you can
+ *                    use the adverb in your reaction if you please without
+ *                    having to parse it further.
+ *                object *oblist - the targets of the emotion, if any.
+ *                int cmd_attr - the command attributes, if any.
+ *                int target - if true, this object was a target of the emote.
+ */

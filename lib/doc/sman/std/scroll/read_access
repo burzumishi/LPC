@@ -1,0 +1,10 @@
+200:/std/scroll.c (/std/scroll.c)
+(public int) read_access(object ob)
+/*
+ * Function name: read_access
+ * Description  : This function checks whether the object wanted is a true
+ *                scroll and whether the player has the scroll in either his
+ *                inventory of in his environment.
+ * Arguments    : object ob - the object to test.
+ * Returns      : int 1/0 - true if the conditions are met.
+ */

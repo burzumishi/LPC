@@ -1,0 +1,9 @@
+860:/obj/edit.c (/obj/edit.c)
+(void) enter_env(object to, object from)
+/*
+ * Function name: enter_env
+ * Description  : When we enter an interactive environment, add a subloc to
+ *                indicate that the person is writing something.
+ * Arguments    : object to - the object we are entering.
+ *                object from - the object we come from.
+ */

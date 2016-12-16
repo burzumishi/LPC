@@ -1,0 +1,8 @@
+741:/std/living/savevars.c (/std/living.c)
+(public int) query_acc_exp(int stat)
+/*
+ * Function name:   query_acc_exp
+ * Description:     Get the accumulated experience points for a given stat.
+ * Arguments:       stat: The stat to check
+ * Returns:         The amount of experience belonging to the stat.
+ */

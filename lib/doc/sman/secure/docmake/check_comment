@@ -1,0 +1,6 @@
+381:/secure/docmake.c (/secure/docmake.c)
+(int ) check_comment(string *lines, int lin, int start, string src)
+/*
+ * Description: Find the end of a comment
+ * Returns:     The last line looked at
+ */

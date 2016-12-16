@@ -1,0 +1,9 @@
+471:/std/torch.c (/std/torch.c)
+(public void) hook_torch_burned_out(object torch)
+/*
+ * Function name: hook_torch_burned_out
+ * Description  : This function is called in the ENVIRONMENT of the torch when
+ *                it burns out. This can be a living or a room. The purpose of
+ *                this hook is that livings or rooms may trigger on the event.
+ * Arguments    : object torch - the torch that burnt out.
+ */

@@ -1,0 +1,11 @@
+424:/secure/master/sanction.c (/secure/master.c)
+(static void) remove_all_sanctions(string name)
+/*
+ * Function name: remove_all_sanctions
+ * Description  : This function can be used to remove all sanctions that have
+ *                been given out by a wizard or domain and that have been
+ *                received from a wizard or domain. It is automatically called
+ *                when a domain is removed or when a wizard is demoted out of
+ *                wizardhood.
+ * Arguments    : string name - the domain or wizard loosing its sanction.
+ */

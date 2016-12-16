@@ -1,0 +1,9 @@
+491:/std/armour.c (/std/armour.c)
+(public int) query_armour_hits()
+/*
+ * Function name: query_armour_hits
+ * Description:   This function returns how many times this armour has been hit
+ *                since last time it got degenerated. The lower this number is
+ *                the less likely the armour will degenerate (strange isn't it?)
+ * Returns:       The hits variable
+ */

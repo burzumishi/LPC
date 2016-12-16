@@ -1,0 +1,9 @@
+790:/std/launch_weapon.c (/std/launch_weapon.c)
+(public int) unload(string args)
+/*
+ * Function name: unload
+ * Description  : Lets the player unload a missile.
+ *                
+ * Arguments    : string - Player input.
+ * Returns      : 1 command handled, 0 parse failed.
+ */

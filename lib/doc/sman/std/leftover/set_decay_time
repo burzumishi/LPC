@@ -1,0 +1,8 @@
+123:/std/leftover.c (/std/leftover.c)
+(public void) set_decay_time(int time)
+/*
+ * Function name: set_decay_time
+ * Description  : Set the decay time in minutes that it will take to decay
+ *                the leftover when it is not property contained.
+ * Arguments    : int time - the time in minutes. Default: 10 minutes
+ */

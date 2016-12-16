@@ -1,0 +1,9 @@
+281:/std/paralyze.c (/std/paralyze.c)
+(void) set_standard_paralyze(string str)
+/*
+ * Function name: set_standard_paralyze
+ * Description  : Set up standard settings for a paralyze.
+ * Arguments    : string str - When the player uses the stop-verb, 'stop',
+ *                             the message 'You stop <str>.\n' is printed
+ *                             to the player.
+ */

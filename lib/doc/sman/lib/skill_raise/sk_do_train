@@ -1,0 +1,10 @@
+195:/lib/skill_raise.c (/lib/skill_raise.c)
+(public int) sk_do_train(int snum, object pl, int to_lev)
+/*
+ * Function name: sk_do_train
+ * Description:   Let a player train a skill a certain number of levels
+ * Arguments:     snum:   Skill number
+ *                pl:     Player to train
+ *                to_lev: To which level to train the player in the skill
+ * Returns:       True if success
+ */

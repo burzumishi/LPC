@@ -1,0 +1,11 @@
+259:/d/Genesis/newmagic/spellcasting.c (/d/Genesis/newmagic/spellcasting.c)
+(public int) start_spell_fail(string verb, string arg)
+/*
+ * Function name: start_spell_fail
+ * Description:   Called to initiate spell concentration.  This is where
+ *                we initialize the spell, do some preliminary checks. and
+ *                apply initial spell costs
+ * Arguments:     verb - The verb that initiated this spell.
+ *                arg  - The arguments to the verb.
+ * Returns:       True if the spell failed, false otherwise
+ */

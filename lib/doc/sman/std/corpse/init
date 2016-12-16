@@ -1,0 +1,6 @@
+684:/std/corpse.c (/std/corpse.c)
+(void) init()
+/*
+ * Function name: init
+ * Description  : Called to link the tear/cut commands to the player.
+ */

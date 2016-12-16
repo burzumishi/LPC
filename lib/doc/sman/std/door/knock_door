@@ -1,0 +1,8 @@
+768:/std/door.c (/std/door.c)
+(int) knock_door(string arg)
+/*
+ * Function name:	knock_door
+ * Description	:	knock on the door
+ * Arguments	:	string arg -- whatever the player typed
+ * Returns	:	1 if we understand the arg, 0 if not
+ */

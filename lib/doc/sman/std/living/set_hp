@@ -1,0 +1,8 @@
+493:/std/living/savevars.c (/std/living.c)
+(void) set_hp(int hp)
+/*
+ * Function name:   set_hp
+ * Description:     Sets the number of hitpoints of a living. The number
+ *                  can not exceed the maximum calculated by query_max_hp.
+ * Arguments:       hp: The new number of hitpoints
+ */

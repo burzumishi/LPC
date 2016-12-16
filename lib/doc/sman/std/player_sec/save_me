@@ -1,0 +1,10 @@
+246:/std/player/cmd_sec.c (/std/player_sec.c)
+(public nomask void) save_me(int value_items)
+/*
+ * Function name: save_me
+ * Description  : Save all internal variables of a character to disk.
+ * Arguments    : int value_items - If 0, set total value of money to 0,
+ *                      otherwise calculate the total value of all the
+ *                      stuff a character carries. It is true when the
+ *                      player typed save and when he is autosaving.
+ */

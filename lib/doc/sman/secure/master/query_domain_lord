@@ -1,0 +1,8 @@
+226:/secure/master/fob.c (/secure/master.c)
+(string) query_domain_lord(string dname)
+/*
+ * Function name: query_domain_lord
+ * Description  : Find the lord of a domain.
+ * Arguments    : string dname - the name of the domain.
+ * Returns      : string the domain lord if found, "" otherwise.
+ */

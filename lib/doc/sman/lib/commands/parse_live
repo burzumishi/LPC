@@ -1,0 +1,10 @@
+616:/lib/commands.c (/lib/commands.c)
+(public varargs object *) parse_live(string str, string form, int attr, int self)
+/*
+ * Function name: parse_live
+ * Description  : This is a wrapper around the parse_this() routine. It does
+ *                exactly the same and then filters the result for livings.
+ *                It is especially meant for using the %o form.
+ * Arguments    : see 'sman parse_this'
+ * Returns      : see 'sman parse_this'
+ */

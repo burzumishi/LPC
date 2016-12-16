@@ -1,0 +1,6 @@
+1175:/std/door.c (/std/door.c)
+(void) set_lock_mess(string *mess)
+/*
+ * Function name: set_lock_mess
+ * Description:   Set message when locking door
+ */

@@ -1,0 +1,9 @@
+378:/secure/queue.c (/secure/queue.c)
+(public int) unvip(string v)
+/*
+ * Function name: unvip
+ * Description  : Call this function to revoke VIP access from a player.
+ *                The function requires arch privileges.
+ * Arguments    : string v - the [lowcase] name of the player.
+ * Returns      : int 1/0 - true if the vip-access was granted.
+ */

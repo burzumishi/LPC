@@ -1,0 +1,6 @@
+663:/std/armour.c (/std/armour.c)
+(public nomask int *) query_protects()
+/*
+ * Function name: query_protects
+ * Description:   Give an array of the bodyparts protected by this armour.
+ */

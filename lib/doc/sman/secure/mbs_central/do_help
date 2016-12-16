@@ -1,0 +1,8 @@
+1434:/secure/mbs_central.c (/secure/mbs_central.c)
+(nomask public int) do_help(string cmd)
+/*
+ * Function name: do_help
+ * Description:	  Perform help service for the mbs
+ * Arguments:	  cmd - the command to get help for.
+ * Returns:	  Error code, if any
+ */

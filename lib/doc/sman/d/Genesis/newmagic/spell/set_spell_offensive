@@ -1,0 +1,8 @@
+250:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_offensive(int offensive)
+/*
+ * Function name: set_spell_offensive
+ * Description:   Designate the spell as being offensive (one initiating
+ *                combat)
+ * Arguments:     1. (int) True if the spell is offensive
+ */

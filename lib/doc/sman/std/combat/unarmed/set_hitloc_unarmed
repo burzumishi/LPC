@@ -1,0 +1,9 @@
+58:/std/combat/unarmed.c (/std/combat/unarmed.c)
+(public varargs void) set_hitloc_unarmed(int hid, int *ac, int phit, string hdesc)
+/*
+ * Description: Set data for a specific hitlocation
+ * Arguments:   hid: One of A_something (as defined in /sys/wa_types.h)
+ *	      ac:    The ac's for a given hitlocation, can be an int
+ *	      phit:  The chance that a hit will hit this location
+ *	      hdesc: String describing this hitlocation, ie "head", "tail"
+ */

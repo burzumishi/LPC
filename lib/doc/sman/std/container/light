@@ -1,0 +1,8 @@
+159:/std/container.c (/std/container.c)
+(public int) light()
+/*
+ * Function name: light
+ * Description:   Returns the light status in this container
+ *                This function is called from query_prop() only.
+ * Returns:       Light value
+ */

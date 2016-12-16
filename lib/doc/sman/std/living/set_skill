@@ -1,0 +1,9 @@
+1720:/std/living/savevars.c (/std/living.c)
+(public int) set_skill(int skill, int val)
+/*
+ * Function name: set_skill
+ * Description  : Set a specific skill to a specific value.
+ * Arguments    : int skill - the skill-number to set.
+ *                int val   - the value to set the skill to.
+ * Returns      : int 1/0   - true if successfull, else 0.
+ */

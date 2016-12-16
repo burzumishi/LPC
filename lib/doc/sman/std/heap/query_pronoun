@@ -1,0 +1,8 @@
+368:/std/heap.c (/std/heap.c)
+(public string) query_pronoun()
+/*
+ * Function name: query_pronoun
+ * Description  : All nonlivings have pronoun 'it'. Heaps may have 'they' if
+ *                they are larger than one item.
+ * Returns      : string "it" or "they".
+ */

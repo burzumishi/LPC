@@ -1,0 +1,7 @@
+31:/std/act/attack.c (/std/act/attack.c)
+(public void) set_attack_chance(int pct)
+/*
+ * Function name: set_attack_chance
+ * Description:   Set chance the monster will attack
+ * Arguments:	  pct - the % chance it will attack, 0 = 100 %
+ */

@@ -1,0 +1,11 @@
+471:/secure/master.c (/secure/master.c)
+(int) valid_write(string file, mixed writer, string func)
+/*
+ * Function name: valid_write
+ * Description  : Checks whether a certain user has the right to write a
+ *                particular file.
+ * Arguments    : string path  - the path name of the file to be write.
+ *                mixed writer - the name or object of the writer.
+ *                string func  - the calling function.
+ * Returns      : int 1/0 - allowed/disallowed.
+ */

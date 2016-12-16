@@ -1,0 +1,7 @@
+430:/std/player/savevars_sec.c (/std/player_sec.c)
+(public nomask int) query_decay_time()
+/*
+ * Function name:   query_decay_time
+ * Description:     Gives the time since last decay of skills
+ * Returns:         The time.
+ */

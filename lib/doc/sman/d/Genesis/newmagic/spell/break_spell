@@ -1,0 +1,8 @@
+1213:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) break_spell(object caster, object breaker)
+/* 
+ * Function name: break_spell
+ * Description:   Take special actions when casting is broken.
+ * Arguments:     1. (object) The caster
+ *                2. (object) The object responsible for breaking the spell
+ */

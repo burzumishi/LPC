@@ -1,0 +1,3 @@
+80:/std/herb.c (/std/herb.c)
+( void) enter_env(object dest, object old)
+/* Start the decay when the herb enters a living,  i.e when it's picked. */

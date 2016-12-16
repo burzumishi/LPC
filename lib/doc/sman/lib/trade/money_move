@@ -1,0 +1,12 @@
+650:/lib/trade.c (/lib/trade.c)
+(int) money_move(string str, int num, object from, object to)
+/*
+ * Function name: money_move
+ * Description:   Moves the money indicated from object indicated to object
+ *                indicated
+ * Arguments:     str - the type of coins to move
+ *                num - the amount to move
+ *                from - where to take money, if 0 money is created
+ *                to - where to put the money, if 0 money is destroyed
+ * Returns:       0 on sucess, else the error number from move() or -1
+ */

@@ -1,0 +1,8 @@
+247:/std/projectile.c (/std/projectile.c)
+(public void) set_projectile_id(string id)
+/*
+ * Function name: set_projectile_id
+ * Description  : Sets the id of this projectile. Projectiles with the same
+ *                id will stack together.
+ * Arguments    : string - Projectile id.
+ */

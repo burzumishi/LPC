@@ -1,0 +1,8 @@
+1838:/std/living/savevars.c (/std/living.c)
+(public int) query_skill(int skill)
+/*
+ * Function name:   query_skill
+ * Description:     Gives the value of a specific skill.
+ * Arguments:       skill: The number of the skill to check
+ * Returns:         The value of the skill
+ */

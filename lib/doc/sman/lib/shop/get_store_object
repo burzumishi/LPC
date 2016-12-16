@@ -1,0 +1,9 @@
+459:/lib/shop.c (/lib/shop.c)
+(object) get_store_object()
+/*
+ * Function name: get_store_object
+ * Description  : Returns the store object, i.e. the object in which the store
+ *                of the shop is kept. If it is a room that is not loaded yet,
+ *                it will be loaded first.
+ * Returns      : object - the object keeping the store.
+ */

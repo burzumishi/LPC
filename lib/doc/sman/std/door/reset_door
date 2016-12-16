@@ -1,0 +1,6 @@
+336:/std/door.c (/std/door.c)
+(void) reset_door()
+/*
+ * Function name: reset_door
+ * Description:   Reset the door
+ */

@@ -1,0 +1,9 @@
+180:/d/Genesis/newmagic/spell_effect_object.c (/d/Genesis/newmagic/spell_effect_object.c)
+(public int) start()
+/*
+ * Function name: start
+ * Description;   Start up the spell effect.  This should be redefined
+ *                to provide specific behaviour for a given spell
+ *                effect.
+ * Returns:       1/0 - effect started/not started
+ */

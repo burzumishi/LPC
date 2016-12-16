@@ -1,0 +1,5 @@
+17:/lib/udp/mudlist.c (/lib/udp/mudlist.c)
+(static string ) build_mudlist(string *names)
+/*
+ * Build a mudlist
+ */

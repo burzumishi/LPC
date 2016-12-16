@@ -1,0 +1,7 @@
+132:/std/drink.c (/std/drink.c)
+(public int) query_soft_amount()
+/*
+ * Function name: query_soft_amount
+ * Description  : Gives the amount of liquid in the drink.
+ * Returns      : int - the amount.
+ */

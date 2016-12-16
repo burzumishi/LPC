@@ -1,0 +1,6 @@
+1108:/std/door.c (/std/door.c)
+(string) query_other_room()
+/*
+ * Function name: query_other_room
+ * Description:   Query what room is on the other side
+ */

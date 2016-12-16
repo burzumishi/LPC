@@ -1,0 +1,10 @@
+2131:/secure/master/fob.c (/secure/master.c)
+(int) wizard_change_level(string wname, int level)
+/*
+ * Function name: wizard_change_level
+ * Description  : Using this function, a liege, arch or keeper can try to
+ *                alter the level of a player.
+ * Arguments    : string wname - the wizard whose level is to be changed.
+ *                int rank     - the new level.
+ * Returns      : int 1/0 - success/failure.
+ */

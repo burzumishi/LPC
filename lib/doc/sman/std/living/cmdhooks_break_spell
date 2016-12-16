@@ -1,0 +1,8 @@
+479:/std/living/cmdhooks.c (/std/living.c)
+(varargs public int) cmdhooks_break_spell(string msg)
+/*
+ * Function name:   cmdhooks_break_spell
+ * Description:     Break the preparation for a spell. Note that the caster
+ *                  still suffers the attack delay.
+ * Returns:         True if a spell was being prepared
+ */

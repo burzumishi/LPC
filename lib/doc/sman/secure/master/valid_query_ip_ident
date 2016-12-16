@@ -1,0 +1,11 @@
+1043:/secure/master.c (/secure/master.c)
+(varargs int) valid_query_ip_ident(object actor, object target)
+/*
+ * Function name: valid_query_ip_ident
+ * Description  : This function is called to check whether the object is
+ *                allowed to call the efun query_ip_ident() on a particular
+ *                target.
+ * Arguments    : object actor  - the object that wants to call the efun.
+ *                object target - the object the actor wants to know about.
+ * Returns      : int 1/0 - allowed/ disallowed.
+ */

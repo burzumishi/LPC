@@ -1,0 +1,9 @@
+446:/lib/holdable_item.c (/lib/holdable_item.c)
+(public int) query_attack_blocked(int aid)
+/*
+ * Function name: query_attack_blocked
+ * Description:   Check to see if the item armour blocks attacks for the
+ *                slots it is held in (if any are valid attacks).
+ * Arguments:     int aid - the attack id being checked.
+ * Returns:       1/0 - attack blocked/not blocked
+ */

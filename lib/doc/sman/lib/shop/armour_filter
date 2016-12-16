@@ -1,0 +1,8 @@
+1024:/lib/shop.c (/lib/shop.c)
+(int) armour_filter(object ob)
+/*
+ * Function name: armour_filter
+ * Description  : Filter out armours
+ * Arguments    : object ob - the object to test
+ * Returns      : int - 1/0 - true if it is an armour.
+ */

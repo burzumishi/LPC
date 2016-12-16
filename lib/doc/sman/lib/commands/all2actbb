@@ -1,0 +1,9 @@
+388:/lib/commands.c (/lib/commands.c)
+(public varargs void) all2actbb(string str, object *oblist, string str1, string adverb = "",     int cmd_attr = 0)
+/*
+ * Function name: all2actbb
+ * Description  : This is to be used when people cannot see who is doing the
+ *                action. I.e. you shouldn't see that someone smiles if you
+ *                cannot see that person. For more information. See all2act.
+ * Arguments    : See all2act.
+ */

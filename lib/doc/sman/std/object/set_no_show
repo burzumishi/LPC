@@ -1,0 +1,6 @@
+1494:/std/object.c (/std/object.c)
+(public void) set_no_show()
+/*
+ * Function name: set_no_show
+ * Description:   Don't show these objects.
+ */

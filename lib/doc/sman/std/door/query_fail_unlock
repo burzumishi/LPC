@@ -1,0 +1,6 @@
+1254:/std/door.c (/std/door.c)
+(string) query_fail_unlock()
+/*
+ * Function name: query_fail_unlock
+ * Description:   Query message when failing to unlock door
+ */

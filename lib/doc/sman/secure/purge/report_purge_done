@@ -1,0 +1,8 @@
+78:/secure/purge.c (/secure/purge.c)
+(static nomask void) report_purge_done()
+/*
+ * Function name: report_purge_done
+ * Description  : When the purging is over, we make the final report and
+ *                write that to disk. Naturally we also notify the purger
+ *                if (s)he is still arround.
+ */

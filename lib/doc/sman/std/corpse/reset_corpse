@@ -1,0 +1,6 @@
+82:/std/corpse.c (/std/corpse.c)
+(void) reset_corpse()
+/*
+ * Function name: reset_corpse
+ * Description  : Reset routine. If you use this, also call enable_reset().
+ */

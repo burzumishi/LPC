@@ -1,0 +1,8 @@
+264:/lib/library.c (/lib/library.c)
+(public void) set_plural_shelf_type(mixed types)
+/*
+ * Function name: set_plural_shelf_type
+ * Description:   Set the names by which multiple shelves can be identified
+ *                in case "shelves" is not appropriate.
+ * Arguments:     mixed types - a string name or array of string names
+ */

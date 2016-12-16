@@ -1,0 +1,6 @@
+45:/secure/armageddon.c (/secure/armageddon.c)
+(public void) create_creature()
+/*
+ * Function name: create_creature
+ * Description  : Called to create the statuette.
+ */

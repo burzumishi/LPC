@@ -1,0 +1,6 @@
+1549:/std/object.c (/std/object.c)
+(int) query_no_show_composite()
+/*
+ * Function name: query_no_show_composite
+ * Description:   Return status if to be shown in composite descriptions
+ */

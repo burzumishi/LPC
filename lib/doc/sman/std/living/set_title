@@ -1,0 +1,7 @@
+319:/std/living/savevars.c (/std/living.c)
+(public void) set_title(string t)
+/*
+ * Function name:   set_title
+ * Description:     Sets the title of a living to something else.
+ * Arguments:       t: The new title string
+ */

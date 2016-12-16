@@ -1,0 +1,8 @@
+906:/std/container.c (/std/container.c)
+(public string) appraise_weight(int num)
+/*
+ * Function name: appraise_weight
+ * Description:   This function is called when someon tries to appraise weight
+ *                of this object.
+ * Arguments:     num - use this number instead of skill if given.
+ */

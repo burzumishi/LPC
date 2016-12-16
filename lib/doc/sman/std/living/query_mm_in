@@ -1,0 +1,8 @@
+188:/std/living/savevars.c (/std/living.c)
+(public string) query_mm_in()
+/*
+ * Function name: query_mm_in
+ * Description  : Gives the magical (teleportation) entrance message of this
+ *                living.
+ * Returns      : string - the message string.
+ */

@@ -1,0 +1,8 @@
+972:/std/player_sec.c (/std/player_sec.c)
+(static nomask void) actual_linkdeath()
+/*
+ * Function name: actual_linkdeath
+ * Description  : This function is called when the player actually linkdies.
+ *                If the player is in combat, this will be delayed, or else
+ *                it is called directly.
+ */

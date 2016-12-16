@@ -1,0 +1,15 @@
+167:/sys/global/cmdparse.c (/sys/global/cmdparse.c)
+(object) parse_command_one(string str, mixed env, string pattern)
+/*
+ * Function name: parse_command_one
+ * Description  : Basically a combination of parse_command and NORMAL_ACCESS
+ *                and returns only an object if exactly one was found. If more
+ *                are found it also returns 0. Use PARSE_COMMAND_SIZE to find
+ *                out how many were meant.
+ * Arguments    : string str - the string to parse.
+ *                mixed env - the items to look through. if a singular object,
+ *                    it will take env + the deep inventory of env. If an array
+ *                    of objects, it will match only against those objects.
+ *                string pattern - the pattern to parse against.
+ * Returns      : object the matching object - or 0.
+ */

@@ -1,0 +1,8 @@
+419:/std/bow.c (/std/bow.c)
+(public void ) tell_archer_no_missiles()
+/*
+ * Function name: tell_archer_no_missiles
+ * Description  : Produces a message to the wielder that he is out of missiles.
+ *                This function is meant to be overridden by launch_weapon
+ *                implementations.
+ */

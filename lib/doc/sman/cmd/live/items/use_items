@@ -1,0 +1,13 @@
+269:/cmd/live/items.c (/cmd/live/items.c)
+(varargs public object *) use_items(object *items, function f, int silent)
+/*
+ * Function name: use_items
+ * Description:   Cause the actor to "use" the given items
+ * Arguments:     object *items - the items to use
+ *                function f - the function to call in the objects found to
+ *                             use them.
+ *                int silent - suppress the default message given when items
+ *                             are successfully used.
+ * Returns:       object * - an array consisting of the objects that were
+ *                           successfully used
+ */

@@ -1,0 +1,9 @@
+888:/std/living/savevars.c (/std/living.c)
+(public void) add_exp_combat(int exp)
+/*
+ * Function name: add_exp_combat
+ * Description  : This function should be called to add combat experience
+ *                to the living. To remove combat experience, add a negative
+ *                amount.
+ * Arguments    : int exp - the amount of general experience to add.
+ */

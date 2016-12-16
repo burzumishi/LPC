@@ -1,0 +1,5 @@
+1085:/cmd/live/speech.c (/cmd/live/speech.c)
+(int) tell(string str)
+/* **************************************************************************
+ * Tell - tell something to someone over a distance.
+ */

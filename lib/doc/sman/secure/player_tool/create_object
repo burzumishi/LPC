@@ -1,0 +1,6 @@
+52:/secure/player_tool.c (/secure/player_tool.c)
+(nomask void) create_object()
+/*
+ * Function name: create_object
+ * Description  : Constructor. Called when this object is created.
+ */

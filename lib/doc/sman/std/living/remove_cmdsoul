@@ -1,0 +1,9 @@
+1971:/std/living/savevars.c (/std/living.c)
+(nomask public int) remove_cmdsoul(string soul)
+/*
+ * Function name:   remove_cmdsoul
+ * Description:     Remove a command soul from the list.
+ * Arguments:       soul: De filename of the soul to remove
+ * Returns:         1 if successfull,
+ *                  0 otherwise.
+ */

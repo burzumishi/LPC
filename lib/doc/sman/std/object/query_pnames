@@ -1,0 +1,8 @@
+1224:/std/object.c (/std/object.c)
+(public string *) query_pnames()
+/* 
+ * Function name: query_pnames
+ * Description  : This function returns all plural names of this object.
+ * Returns      : string * - the plural names of this object or 0 if there
+ *                           are no plural names.
+ */

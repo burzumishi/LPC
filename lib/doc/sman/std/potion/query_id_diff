@@ -1,0 +1,7 @@
+279:/std/potion.c (/std/potion.c)
+(int) query_id_diff()
+/*
+ * Function name: query_id_diff
+ * Description:   How hard is it to identify this potion
+ * Returns:  	  The difficulty
+ */

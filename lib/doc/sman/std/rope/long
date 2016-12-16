@@ -1,0 +1,9 @@
+138:/std/rope.c (/std/rope.c)
+(public varargs string) long(object for_obj)
+/*
+ * Function name: long
+ * Description:   We change the long description of
+ *                the rope if it's tied, default settings.
+ * Argument:      the object for which the desc should be seen
+ * Returns:       The description.
+ */

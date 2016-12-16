@@ -1,0 +1,9 @@
+1200:/std/object.c (/std/object.c)
+(varargs public mixed) query_pname(int arg)
+/*
+ * Function name: query_pname
+ * Description:   Gives the plural form(s) of the name of the object. If not
+ *                defined then last word of plural_short() is used.
+ * Arguments:     arg: If true then the entire list is returned.
+ * Returns:       A string or an array as described above.
+ */

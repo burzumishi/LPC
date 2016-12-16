@@ -1,0 +1,7 @@
+328:/std/weapon.c (/std/weapon.c)
+(mixed) command_wield()
+/*
+ * Function name: command_wield
+ * Description  : Called to wear this weapon.
+ * Returns      : See wield_me()
+ */

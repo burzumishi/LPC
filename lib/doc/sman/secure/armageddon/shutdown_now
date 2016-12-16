@@ -1,0 +1,7 @@
+92:/secure/armageddon.c (/secure/armageddon.c)
+(private nomask void) shutdown_now()
+/*
+ * Function name: shutdown_now
+ * Description  : When the game finally goes down, this is the function
+ *                that tells the master to do so.
+ */

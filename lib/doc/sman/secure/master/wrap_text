@@ -1,0 +1,10 @@
+134:/secure/master/mail_admin.c (/secure/master.c)
+(string) wrap_text(string text)
+/*
+ * Function name: wrap_text
+ * Description  : This will take a text and make sure that none of the lines
+ *                in the text exceed LINE_LENGTH characters. All lines longer
+ *                than that will be broken. Lines will not be merged.
+ * Arguments    : string - the text to be wrapped.
+ * Returns      : string - the wrapped text.
+ */

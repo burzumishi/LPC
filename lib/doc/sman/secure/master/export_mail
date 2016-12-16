@@ -1,0 +1,11 @@
+166:/secure/master/mail_admin.c (/secure/master.c)
+(static int) export_mail(string name, string path)
+/*
+ * Function name: export_mail
+ * Description  : With this function the mail-folder of a player can be
+ *                exported to a file.
+ * Arguments    : string name - the lower case name of the player whose
+ *                              mailbox is to be exported.
+ *                string path - the name of the output file.
+ * Returns      : int 1/0 - success/failure.
+ */

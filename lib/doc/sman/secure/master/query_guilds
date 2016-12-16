@@ -1,0 +1,8 @@
+472:/secure/master/guild.c (/secure/master.c)
+(public string *) query_guilds()
+/*
+ * Function name: query_guilds
+ * Description  : Returns a list of the short names of all guilds. The answer
+ *                will be sorted.
+ * Returns      : string * - the list of short names.
+ */

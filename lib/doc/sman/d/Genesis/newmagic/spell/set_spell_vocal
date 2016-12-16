@@ -1,0 +1,11 @@
+475:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) set_spell_vocal(int i)
+/* 
+ * Function name: set_spell_vocal
+ * Description:   Indicate that the spell requires the caster to use his
+ *                voice.  Such spells are not possible when the
+ *                LIVE_M_MOUTH_BLOCKED property is true.
+ * Arguments:     1. (int) If true, spell requires voice.
+ * 
+ * TODO:          Classify vocal spells as ACTION_AURAL.
+ */

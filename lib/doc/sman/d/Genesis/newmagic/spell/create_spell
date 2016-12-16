@@ -1,0 +1,10 @@
+182:/d/Genesis/newmagic/spell.c (/d/Genesis/newmagic/spell.c)
+(public void) create_spell()
+/*
+ * Function name: create_spell
+ * Description:   Configure this spell.
+ *
+ * Note:          If you need to reset various spell settings on a per-casting
+ *                basis (vary casting time based on the level of the caster,
+ *                for instance), use config_spell().
+ */
